@@ -296,7 +296,107 @@
             "credit": false,
             "game": "BN6",
             "preview": "BBS.png"
-      }];
+      },
+      {
+            "name": "Security Cube",
+            "files": [
+                  "bn6_securitycube.tsx",
+                  "bn6_securitycube.png"
+            ],
+            "author": "unknown",
+            "type": "object",
+            "credit": false,
+            "game": "BN6",
+            "preview": "bn6_securitycube.png"
+      },
+      {
+            "name": "Security Cube (gray)",
+            "files": [
+                  "bn6_cube_gray.tsx",
+                  "bn6_cube_gray.png"
+            ],
+            "author": "unknown",
+            "type": "object",
+            "credit": false,
+            "game": "BN6",
+            "preview": "bn6_cube_gray.png"
+      },
+      {
+            "name": "Home Warp",
+            "files": [
+                  "home warp.png",
+                  "home warp.tsx"
+            ],
+            "author": "unknown",
+            "type": "object",
+            "credit": false,
+            "game": "BN5",
+            "preview": "home warp.png"
+      },
+      {
+            "name": "Mystery Data",
+            "files": [
+                  "MysteryData.png",
+                  "MysteryData.tsx"
+            ],
+            "author": "unknown",
+            "type": "object",
+            "credit": false,
+            "game": "BN4.5",
+            "preview": "MysteryData.png"
+      },
+      {
+            "name": "Internet5-8 Area Tiles",
+            "files": [
+                  "ZeroAccountTileset.tsx",
+                  "ZeroAccountTileset.png"
+            ],
+            "author": "unknown",
+            "type": "object",
+            "credit": false,
+            "game": "BN4.5",
+            "preview": "ZeroAccountTileset.png"
+      },
+      {
+            "name": "Area Warps",
+            "files": [
+                  "4_5Warps.png",
+                  "4_5Warps.tsx"
+            ],
+            "author": "unknown",
+            "type": "object",
+            "credit": false,
+            "game": "BN4.5",
+            "preview": "4_5Warps.png"
+      },
+      {
+            "name": "Alpha Comp Tiles",
+            "files": [
+                  "Alpha_Comp.png",
+                  "Alpha_Comp.tsx"
+            ],
+            "author": "unknown",
+            "type": "object",
+            "credit": false,
+            "game": "BN3",
+            "preview": "Alpha_Comp.png"
+      }
+      /*
+      ,
+      {
+            "name": "",
+            "files": [
+                  "",
+                  ""
+            ],
+            "author": "unknown",
+            "type": "object",
+            "credit": false,
+            "game": "",
+            "preview": ""
+      }
+      */
+    ];
     let pan;
 
     buildFilterOptions();
@@ -344,7 +444,7 @@
       const $tb = $('table.file-list tbody').empty();
       rows.forEach((it,i)=>{
         $(
-          `<tr><td><input type="checkbox" class="sel"/></td><td>${it.name}</td><td>${it.game}</td><td>${it.author}</td></tr>`
+          `<tr><td><input type="checkbox" class="sel"/></td><td>&nbsp;${it.name}</td><td>&nbsp;${it.game}</td><td>&nbsp;${it.author}</td></tr>`
         ).appendTo($tb);
       });
       $('table.file-list tbody tr').on('click', function(e){
