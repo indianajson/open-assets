@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>openAssets</title>
+
+  <!-- Pixel font -->
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- JSZip + FileSaver for ZIP download -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.5.0/jszip.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+  <!-- Panzoom for image pan/zoom -->
+  <script src='https://unpkg.com/@panzoom/panzoom@4.6.0/dist/panzoom.min.js'></script>
+
+  <style>
+    @font-face {
+    font-family: "pixel";
+    src: url("fonts/MotaPixel-Light.woff") format('woff');
+    /*font-weight:light;*/
+    }
+
+    @font-face {
+    font-family: "pixel";
+    src: url("fonts/MotaPixel-Regular.woff") format('woff');
+    font-weight:bold;
+    }
+
+   /* @font-face {
+    font-family: "pixel";
+    src: url("fonts/MotaPixel-Bold.woff") format('woff');
+    font-weight: bold;
+    }*/
+
+    /* reset & base */
+    * { box-sizing: border-box; margin:0; padding:0; }
+    body {
+      font-family: 'pixel';
+      background: #008080;
+      font-size:30px;
+      padding: 10px;
+    }
+    button { cursor: pointer; }
+    #preview-image{
+        image-rendering: -moz-crisp-edges;
+        image-rendering: -moz-crisp-edges;
+        image-rendering: -o-crisp-edges;
+        image-rendering: -webkit-optimize-contrast;
+        -ms-interpolation-mode: nearest-neighbor;
+    }
+    /* Window frame */
+    .window {
+      background: #C0C0C0;
+      border: 2px solid #808080;
+      width: 100%;
+      height: 95vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .title-bar {
+      background: #000080;
+      color: #FFF;
+      padding: 4px;
+      display: flex;
+      justify-content: space-between;
+      user-select: none;
+    }
+    .title-bar-controls button {
+      width:20px; height:20px;
+      background:#C0C0C0;
+      border:2px outset #FFF;
+      margin-left:2px;
+    }
+
+    /* Menu bar (filters + download) */
+    .menu-bar {
+      display: flex;
+      align-items: center;
+      background: #C0C0C0;
+      border-left:2px solid #FFF;
+      border-top:2px solid #FFF;
+      border-right:2px solid #808080;
+      border-bottom:2px solid #808080;
+      padding:4px;
+      gap:12px;
+    }
+    .menu-bar .filter {
+      position: relative;
+    }
+    /* Make filter labels look like Win95 buttons */
+    .menu-bar .filter > label {
+      display: inline-block;
+      padding: 4px 8px;
+      border: 2px outset #FFF;
+      background: #C0C0C0;
+      font-size:20px;
+      user-select: none;
+      cursor: pointer;
+    }
+    .menu-bar .filter.open > label {
+      border: 2px inset #FFF;
+    }
+    .menu-bar .filter .dropdown {
+      display:none;
+      position:absolute;
+      top:120%; left:0;
+      background: #C0C0C0;
+      border:2px solid #808080;
+      padding:6px;
+      z-index:10;
+      min-width:130px;
+    }
+    .menu-bar .filter.open .dropdown { display:block; }
+    .menu-bar .filter .dropdown div {
+      font-size:20px;
+      margin-bottom:4px;
+    }
+    .menu-bar button#download-selected {
+      margin-left:auto;
+      padding:4px 10px;
+      font-size:20px;
+      border:2px outset #FFF;
+      background:#C0C0C0;
+    }
+    .menu-bar button:disabled {
+      opacity:0.4;
+      cursor:not-allowed;
+    }
+
+    /* Content area */
+    .content {
+      flex:1;
+      display: flex;
+      overflow:hidden;
+    }
+    .sidebar {
+      width: 60%;
+      border-right:2px inset #808080;
+      overflow-y: auto;
+    }
+    table.file-list {
+      width:100%;
+      border-collapse: collapse;
+      font-size:20px;
+    }
+    table.file-list th, table.file-list td {
+      padding:4px;
+      border-bottom:1px solid #808080;
+      text-align:left;
+    }
+    table.file-list tr.selected {
+      background: #000080;
+      color: #FFF;
+    }
+
+    .preview-panel {
+      flex:1;
+      padding:8px;
+      display:flex;
+      flex-direction:column;
+      max-width:40%;
+    }
+    .preview-window {
+      border:2px inset #FFF;
+      background:#E0E0E0;
+      flex:1;
+      overflow:scroll;
+      width:100%; height:100%;
+      margin-bottom:8px;
+    }
+    .preview-window img {
+      user-select:none;
+      max-width:none;
+      transform-origin: center top; 
+      zoom: 200%;
+      overflow-x:scroll;
+    }
+    .zoom-controls {
+      display:flex;
+      gap:4px;
+      margin-bottom:8px;
+    }
+    .zoom-controls button {
+      padding:2px 6px;
+      font-size:20px;
+      border:2px outset #FFF;
+      background:#C0C0C0;
+    }
+    .details {
+      font-size:20px;
+    }
+    button{
+        font-family:pixel;
+        font-weight:bold;
+    }
+    .details p { margin-bottom:4px; }
+    .details button {
+      padding:4px 8px;
+      font-size:20px;
+      border:2px outset #FFF;
+      background:#C0C0C0;
+    }
+    .title-bar-text{
+        font-weight:bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="window">
+    <div class="title-bar">
+      <div class="title-bar-text">&nbsp;&nbsp;openAssets for ONB</div>
+      <!--<div class="title-bar-controls">
+        <button aria-label="Minimize"></button>
+        <button aria-label="Maximize"></button>
+        <button aria-label="Close"></button>
+      </div>-->
+    </div>
+
+    <div class="menu-bar">
+      <!-- Game filter -->
+      <div class="filter" data-filter="game">
+        <label>Game ▼</label>
+        <div class="dropdown"></div>
+      </div>
+      <!-- Type filter -->
+      <div class="filter" data-filter="type">
+        <label>Type ▼</label>
+        <div class="dropdown">
+          <div><input type="radio" name="type" value="both" id="type-both" checked><label for="type-both"> Both</label></div>
+          <div><input type="radio" name="type" value="tilset" id="type-tiles"><label for="type-tiles"> Tiles</label></div>
+          <div><input type="radio" name="type" value="object" id="type-objects"><label for="type-objects"> Objects</label></div>
+        </div>
+      </div>
+      <!-- Author filter -->
+      <div class="filter" data-filter="author">
+        <label>Author ▼</label>
+        <div class="dropdown"></div>
+      </div>
+      <!-- Download selected -->
+      <button id="download-selected" disabled>Download Selected</button>
+    </div>
+
+    <div class="content">
+      <div class="sidebar">
+        <table class="file-list">
+          <thead>
+            <t><th></th><th>Name</th><th>Game</th><th>Author</th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <div class="preview-panel">
+        <div class="preview-window">
+          <img id="preview-image" src="" alt="Preview">
+        </div>
+        <!--<div class="zoom-controls">
+          <button id="zoom-in">Zoom +</button>
+          <button id="zoom-out">Zoom −</button>
+        </div>-->
+        <div class="details">
+          <p><strong>Author: </strong> <span id="detail-author">—</span></p>
+          <p><strong>Game: </strong> <span id="detail-game">—</span></p>
+          <p><strong>Credit: </strong> <span id="detail-permission">—</span></p>
+          <button id="download-single" disabled>Download This Set</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  $(function(){
+    let allData = [
+      {
+            "name": "Den Area Tiles",
+            "files": [
+                  "BN2_ACDC.tsx",
+                  "BN2_ACDC.png"
+            ],
+            "author": "Quetzen",
+            "type": "tilset",
+            "credit": true,
+            "game": "BN3",
+            "preview": "BN2_ACDC.png"
+      },
+      {
+            "name": "BBS Board",
+            "files": [
+                  "BBS.tsx",
+                  "BBS.png"
+            ],
+            "author": "unknown",
+            "type": "object",
+            "credit": false,
+            "game": "BN6",
+            "preview": "BBS.png"
+      }];
+    let pan;
+
+    buildFilterOptions();
+    renderList();
+
+    $('.menu-bar .filter > label').on('click', function(){
+      const f = $(this).parent();
+      $('.menu-bar .filter').not(f).removeClass('open');
+      f.toggleClass('open');
+    });
+    $(document).on('click', e=>{
+      if(!$(e.target).closest('.filter').length) $('.menu-bar .filter').removeClass('open');
+    });
+
+    function buildFilterOptions(){
+      const games = ["BN1","BN2","BN3","BN4","BN4.5","BN5","BN6","LoN","PoN","Custom"];
+      const $game = $('.filter[data-filter=game] .dropdown');
+      games.forEach(g=>{
+        $game.append(`<div><input type="checkbox" value="${g}" id="g-${g}"><label for="g-${g}"> ${g}</label></div>`);
+      });
+      const authors = [...new Set(allData.map(x=>x.author))].sort();
+      const $auth = $('.filter[data-filter=author] .dropdown');
+      authors.forEach(a=>{
+        const id = 'a-'+a.replace(/\s+/g,'_');
+        $auth.append(`<div><input type="checkbox" value="${a}" id="${id}"><label for="${id}"> ${a}</label></div>`);
+      });
+      $('.dropdown input').on('change', renderList);
+    }
+
+    function getFilters(){
+      const games = $('.filter[data-filter=game] .dropdown input:checked').map((i,e)=>e.value).get();
+      const type = $('.filter[data-filter=type] .dropdown input:checked').val();
+      const authors = $('.filter[data-filter=author] .dropdown input:checked').map((i,e)=>e.value).get();
+      return { games, type, authors };
+    }
+
+    function renderList(){
+      const {games,type,authors} = getFilters();
+      const rows = allData.filter(item=>{
+        if(games.length && !games.includes(item.game)) return false;
+        if(authors.length && !authors.includes(item.author)) return false;
+        if(type!=='both' && item.type!==type) return false;
+        return true;
+      });
+      const $tb = $('table.file-list tbody').empty();
+      rows.forEach((it,i)=>{
+        $(
+          `<tr><td><input type="checkbox" class="sel"/></td><td>${it.name}</td><td>${it.game}</td><td>${it.author}</td></tr>`
+        ).appendTo($tb);
+      });
+      $('table.file-list tbody tr').on('click', function(e){
+        if(e.target.type==='checkbox') return;
+        $('table.file-list tr').removeClass('selected');
+        $(this).addClass('selected');
+        showPreview(rows[$(this).index()]);
+      });
+      $('.sel').on('change', ()=>{
+        $('#download-selected').prop('disabled', $('.sel:checked').length===0);
+      });
+      $('#download-selected').off().on('click', ()=>{
+        const checked = $('.sel:checked').closest('tr').map((i,tr)=>rows[$(tr).index()]).get();
+        downloadMultiple(checked);
+      });
+      // clear preview
+      $('#preview-image').attr('src','');
+      $('#detail-author,#detail-game,#detail-permission').text('—');
+      $('#download-single').prop('disabled', true).off();
+    }
+
+    function showPreview(item){
+      const imgPath = 'files/'+item.preview;
+      $('#preview-image').attr('src', imgPath).css({transform: ''});
+      $('#detail-author').text(item.author);
+      $('#detail-game').text(item.game);
+      $('#detail-permission').text(item.credit ? 'Yes, please provide credit.' : 'No credit required.');
+      $('#download-single').prop('disabled', false).off().on('click', ()=>downloadMultiple([item]));
+    }
+
+    function downloadMultiple(items){
+      const zip = new JSZip();
+      const promises = [];
+      items.forEach(it=> it.files.forEach(fn=>{
+        promises.push(fetch('assets/'+fn)
+          .then(r=>r.blob())
+          .then(blob=> zip.file(fn, blob)));
+      }));
+      Promise.all(promises).then(()=> zip.generateAsync({type:'blob'}))
+        .then(content=> saveAs(content, 'files.zip'));
+    }
+  });
+  </script>
+</body>
+</html>
