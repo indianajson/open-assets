@@ -19,7 +19,6 @@
     @font-face {
     font-family: "pixel";
     src: url("fonts/MotaPixel-Light.woff") format('woff');
-    /*font-weight:light;*/
     }
 
     @font-face {
@@ -28,13 +27,6 @@
     font-weight:bold;
     }
 
-   /* @font-face {
-    font-family: "pixel";
-    src: url("fonts/MotaPixel-Bold.woff") format('woff');
-    font-weight: bold;
-    }*/
-
-    /* reset & base */
     * { box-sizing: border-box; margin:0; padding:0; }
     body {
       font-family: 'pixel';
@@ -45,12 +37,10 @@
     button { cursor: pointer; }
     #preview-image{
         image-rendering: -moz-crisp-edges;
-        image-rendering: -moz-crisp-edges;
         image-rendering: -o-crisp-edges;
         image-rendering: -webkit-optimize-contrast;
         -ms-interpolation-mode: nearest-neighbor;
     }
-    /* Window frame */
     .window {
       background: #C0C0C0;
       border: 2px solid #808080;
@@ -67,14 +57,9 @@
       justify-content: space-between;
       user-select: none;
     }
-    .title-bar-controls button {
-      width:20px; height:20px;
-      background:#C0C0C0;
-      border:2px outset #FFF;
-      margin-left:2px;
+    thead{
+        background:rgb(130, 130, 130);
     }
-
-    /* Menu bar (filters + download) */
     .menu-bar {
       display: flex;
       align-items: center;
@@ -89,7 +74,6 @@
     .menu-bar .filter {
       position: relative;
     }
-    /* Make filter labels look like Win95 buttons */
     .menu-bar .filter > label {
       display: inline-block;
       padding: 4px 8px;
@@ -117,8 +101,8 @@
       font-size:20px;
       margin-bottom:4px;
     }
-    .menu-bar button#download-selected {
-      margin-left:auto;
+    .menu-bar button#download-selected,
+    .menu-bar button#clear-filters {
       padding:4px 10px;
       font-size:20px;
       border:2px outset #FFF;
@@ -129,7 +113,6 @@
       cursor:not-allowed;
     }
 
-    /* Content area */
     .content {
       flex:1;
       display: flex;
@@ -154,6 +137,7 @@
       background: #000080;
       color: #FFF;
     }
+    th.sortable { cursor: pointer; text-decoration: underline; }
 
     .preview-panel {
       flex:1;
@@ -177,24 +161,10 @@
       zoom: 200%;
       overflow-x:scroll;
     }
-    .zoom-controls {
-      display:flex;
-      gap:4px;
-      margin-bottom:8px;
-    }
-    .zoom-controls button {
-      padding:2px 6px;
-      font-size:20px;
-      border:2px outset #FFF;
-      background:#C0C0C0;
-    }
     .details {
       font-size:20px;
     }
-    button{
-        font-family:pixel;
-        font-weight:bold;
-    }
+    button{ font-family:pixel; font-weight:bold; }
     .details p { margin-bottom:4px; }
     .details button {
       padding:4px 8px;
@@ -202,43 +172,33 @@
       border:2px outset #FFF;
       background:#C0C0C0;
     }
-    .title-bar-text{
-        font-weight:bold;
-    }
+    .title-bar-text{ font-weight:bold; }
   </style>
 </head>
 <body>
   <div class="window">
     <div class="title-bar">
-      <div class="title-bar-text">&nbsp;&nbsp;openAssets for ONB</div>
-      <!--<div class="title-bar-controls">
-        <button aria-label="Minimize"></button>
-        <button aria-label="Maximize"></button>
-        <button aria-label="Close"></button>
-      </div>-->
+      <div class="title-bar-text">  openAssets for ONB</div>
     </div>
 
     <div class="menu-bar">
-      <!-- Game filter -->
       <div class="filter" data-filter="game">
         <label>Game ▼</label>
         <div class="dropdown"></div>
       </div>
-      <!-- Type filter -->
       <div class="filter" data-filter="type">
         <label>Type ▼</label>
         <div class="dropdown">
           <div><input type="radio" name="type" value="both" id="type-both" checked><label for="type-both"> Both</label></div>
-          <div><input type="radio" name="type" value="tilset" id="type-tiles"><label for="type-tiles"> Tiles</label></div>
+          <div><input type="radio" name="type" value="tile" id="type-tiles"><label for="type-tiles"> Tiles</label></div>
           <div><input type="radio" name="type" value="object" id="type-objects"><label for="type-objects"> Objects</label></div>
         </div>
       </div>
-      <!-- Author filter -->
       <div class="filter" data-filter="author">
         <label>Author ▼</label>
         <div class="dropdown"></div>
       </div>
-      <!-- Download selected -->
+      <button id="clear-filters" disabled>Clear Filters</button>
       <button id="download-selected" disabled>Download Selected</button>
     </div>
 
@@ -246,7 +206,7 @@
       <div class="sidebar">
         <table class="file-list">
           <thead>
-            <t><th></th><th>Name</th><th>Game</th><th>Author</th></tr>
+            <tr><th></th><th class="sortable" data-sort="name">Name</th><th class="sortable" data-sort="game">Game</th><th class="sortable" data-sort="author">Author</th></tr>
           </thead>
           <tbody></tbody>
         </table>
@@ -256,10 +216,6 @@
         <div class="preview-window">
           <img id="preview-image" src="">
         </div>
-        <!--<div class="zoom-controls">
-          <button id="zoom-in">Zoom +</button>
-          <button id="zoom-out">Zoom −</button>
-        </div>-->
         <div class="details">
           <p><strong>Author: </strong> <span id="detail-author">—</span></p>
           <p><strong>Game: </strong> <span id="detail-game">—</span></p>
@@ -280,7 +236,7 @@
                   "BN2_ACDC.png"
             ],
             "author": "Quetzen",
-            "type": "tilset",
+            "type": "tile",
             "credit": true,
             "game": "BN3",
             "preview": "BN2_ACDC.png"
@@ -352,7 +308,7 @@
                   "ZeroAccountTileset.png"
             ],
             "author": "unknown",
-            "type": "object",
+            "type": "tile",
             "credit": false,
             "game": "BN4.5",
             "preview": "ZeroAccountTileset.png"
@@ -376,7 +332,7 @@
                   "Alpha_Comp.tsx"
             ],
             "author": "unknown",
-            "type": "object",
+            "type": "tile",
             "credit": false,
             "game": "BN3",
             "preview": "Alpha_Comp.png"
@@ -397,7 +353,9 @@
       }
       */
     ];
-    let pan;
+   
+    let sortField = null;
+    let sortAsc = true;
 
     buildFilterOptions();
     renderList();
@@ -409,6 +367,22 @@
     });
     $(document).on('click', e=>{
       if(!$(e.target).closest('.filter').length) $('.menu-bar .filter').removeClass('open');
+    });
+
+    $('#clear-filters').on('click', ()=>{
+      // reset filters
+      $('.filter[data-filter=game] .dropdown input:checkbox').prop('checked', false);
+      $('.filter[data-filter=author] .dropdown input:checkbox').prop('checked', false);
+      $('#type-both').prop('checked', true);
+      $('#clear-filters').prop('disabled', true);
+      renderList();
+    });
+
+    $('th.sortable').on('click', function(){
+      const field = $(this).data('sort');
+      if(sortField === field) sortAsc = !sortAsc;
+      else { sortField = field; sortAsc = true; }
+      renderList();
     });
 
     function buildFilterOptions(){
@@ -423,7 +397,7 @@
         const id = 'a-'+a.replace(/\s+/g,'_');
         $auth.append(`<div><input type="checkbox" value="${a}" id="${id}"><label for="${id}"> ${a}</label></div>`);
       });
-      $('.dropdown input').on('change', renderList);
+      $('.dropdown input').on('change', ()=>{ renderList(); updateClearButton(); });
     }
 
     function getFilters(){
@@ -433,19 +407,32 @@
       return { games, type, authors };
     }
 
+    function updateClearButton(){
+      const {games,type,authors} = getFilters();
+      const any = games.length>0 || authors.length>0 || type !== 'both';
+      $('#clear-filters').prop('disabled', !any);
+    }
+
     function renderList(){
       const {games,type,authors} = getFilters();
-      const rows = allData.filter(item=>{
+      let rows = allData.filter(item=>{
         if(games.length && !games.includes(item.game)) return false;
         if(authors.length && !authors.includes(item.author)) return false;
         if(type!=='both' && item.type!==type) return false;
         return true;
       });
+      if(sortField) {
+        rows.sort((a,b)=>{
+          const av = a[sortField].toLowerCase();
+          const bv = b[sortField].toLowerCase();
+          return (av < bv ? -1 : av > bv ? 1 : 0) * (sortAsc?1:-1);
+        });
+      }
       const $tb = $('table.file-list tbody').empty();
-      rows.forEach((it,i)=>{
-        $(
-          `<tr><td><input type="checkbox" class="sel"/></td><td>&nbsp;${it.name}</td><td>&nbsp;${it.game}</td><td>&nbsp;${it.author}</td></tr>`
-        ).appendTo($tb);
+      rows.forEach(it=>{
+        $tb.append(
+          `<tr><td><input type="checkbox" class="sel"/></td><td> ${it.name}</td><td> ${it.game}</td><td> ${it.author}</td></tr>`
+        );
       });
       $('table.file-list tbody tr').on('click', function(e){
         if(e.target.type==='checkbox') return;
@@ -460,7 +447,7 @@
         const checked = $('.sel:checked').closest('tr').map((i,tr)=>rows[$(tr).index()]).get();
         downloadMultiple(checked);
       });
-      // clear preview
+      // reset preview
       $('#preview-image').attr('src','');
       $('#detail-author,#detail-game,#detail-permission').text('—');
       $('#download-single').prop('disabled', true).off();
@@ -474,6 +461,18 @@
       $('#detail-permission').text(item.credit ? 'Yes, please provide credit.' : 'No credit required.');
       $('#download-single').prop('disabled', false).off().on('click', ()=>downloadMultiple([item]));
     }
+
+    // arrow key navigation
+    $(document).on('keydown', function(e){
+      if(e.key === 'ArrowDown' || e.key === 'ArrowUp'){
+        const $rows = $('table.file-list tbody tr');
+        let idx = $rows.index($('tr.selected'));
+        if(idx < 0) idx = e.key==='ArrowDown' ? -1 : 0;
+        const nextIdx = e.key==='ArrowDown' ? Math.min(idx+1, $rows.length-1) : Math.max(idx-1, 0);
+        $rows.eq(nextIdx).trigger('click');
+        e.preventDefault();
+      }
+    });
 
     function downloadMultiple(items){
       const zip = new JSZip();
