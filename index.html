@@ -235,6 +235,9 @@
     let sortAsc = true;
 
     buildFilterOptions();
+    const field = $(this).data('sort');
+    if(sortField === "game") sortAsc = !sortAsc;
+    else { sortField = "game"; sortAsc = true; }
     renderList();
 
     $('.menu-bar .filter > label').on('click', function(){
