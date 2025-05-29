@@ -14,7 +14,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
   <!-- Panzoom for image pan/zoom -->
   <script src='https://unpkg.com/@panzoom/panzoom@4.6.0/dist/panzoom.min.js'></script>
-
+  <!-- JSON for file list -->
+  <script src='assets.js'></script>
   <style>
     @font-face {
     font-family: "pixel";
@@ -228,131 +229,7 @@
 
   <script>
   $(function(){
-    let allData = [
-      {
-            "name": "Den Area Tiles",
-            "files": [
-                  "BN2_ACDC.tsx",
-                  "BN2_ACDC.png"
-            ],
-            "author": "Quetzen",
-            "type": "tile",
-            "credit": true,
-            "game": "BN3",
-            "preview": "BN2_ACDC.png"
-      },
-      {
-            "name": "BBS Board",
-            "files": [
-                  "BBS.tsx",
-                  "BBS.png"
-            ],
-            "author": "unknown",
-            "type": "object",
-            "credit": false,
-            "game": "BN6",
-            "preview": "BBS.png"
-      },
-      {
-            "name": "Security Cube",
-            "files": [
-                  "bn6_securitycube.tsx",
-                  "bn6_securitycube.png"
-            ],
-            "author": "unknown",
-            "type": "object",
-            "credit": false,
-            "game": "BN6",
-            "preview": "bn6_securitycube.png"
-      },
-      {
-            "name": "Security Cube (gray)",
-            "files": [
-                  "bn6_cube_gray.tsx",
-                  "bn6_cube_gray.png"
-            ],
-            "author": "unknown",
-            "type": "object",
-            "credit": false,
-            "game": "BN6",
-            "preview": "bn6_cube_gray.png"
-      },
-      {
-            "name": "Home Warp",
-            "files": [
-                  "home warp.png",
-                  "home warp.tsx"
-            ],
-            "author": "unknown",
-            "type": "object",
-            "credit": false,
-            "game": "BN5",
-            "preview": "home warp.png"
-      },
-      {
-            "name": "Mystery Data",
-            "files": [
-                  "MysteryData.png",
-                  "MysteryData.tsx"
-            ],
-            "author": "unknown",
-            "type": "object",
-            "credit": false,
-            "game": "BN4.5",
-            "preview": "MysteryData.png"
-      },
-      {
-            "name": "Internet5-8 Area Tiles",
-            "files": [
-                  "ZeroAccountTileset.tsx",
-                  "ZeroAccountTileset.png"
-            ],
-            "author": "unknown",
-            "type": "tile",
-            "credit": false,
-            "game": "BN4.5",
-            "preview": "ZeroAccountTileset.png"
-      },
-      {
-            "name": "Area Warps",
-            "files": [
-                  "4_5Warps.png",
-                  "4_5Warps.tsx"
-            ],
-            "author": "unknown",
-            "type": "object",
-            "credit": false,
-            "game": "BN4.5",
-            "preview": "4_5Warps.png"
-      },
-      {
-            "name": "Alpha Comp Tiles",
-            "files": [
-                  "Alpha_Comp.png",
-                  "Alpha_Comp.tsx"
-            ],
-            "author": "unknown",
-            "type": "tile",
-            "credit": false,
-            "game": "BN3",
-            "preview": "Alpha_Comp.png"
-      }
-      /*
-      ,
-      {
-            "name": "",
-            "files": [
-                  "",
-                  ""
-            ],
-            "author": "unknown",
-            "type": "object",
-            "credit": false,
-            "game": "",
-            "preview": ""
-      }
-      */
-    ];
+    
    
     let sortField = null;
     let sortAsc = true;
