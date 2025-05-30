@@ -8,7 +8,7 @@ let allData = [
 {"name":"Internet5-8 Area Tiles","files":["ZeroAccountTileset.tsx","ZeroAccountTileset.png"],"author":"unknown","type":"tile","credit":false,"game":"BN4.5","preview":"ZeroAccountTileset.png"},
 {"name":"Area Warps","files":["4_5Warps.png","4_5Warps.tsx"],"author":"unknown","type":"object","credit":false,"game":"BN4.5","preview":"4_5Warps.png"},
 {"name":"Alpha Comp Tiles","files":["Alpha_Comp.png","Alpha_Comp.tsx"],"author":"unknown","type":"tile","credit":false,"game":"BN3","preview":"Alpha_Comp.png"},
-{"name":"Oven Comp (custom)","files":["Cords.png","Cords.tsx"],"type":"tile","author":"unknown","credit":false,"game":"BN1","preview":"Cords.png"},
+{"name":"Oven Comp (custom)","files":["Cords.png","Cords.tsx"],"type":"tile","author":"Mint Flav","credit":false,"game":"BN1","preview":"Cords.png"},
 {"name":"Fireman Flames","files":["Fireman Flame.png","Fireman Flame.tsx"],"type":"object","author":"unknown","credit":false,"game":"BN1","preview":"Fireman Flame.png"},
 {"name":"Oven Comp Honeycomb Tile","files":["OvenHoneycombs.tsx","ovenhoneycomb.png"],"type":"tile","author":"unknown","credit":false,"game":"BN1","preview":"ovenhoneycomb.png"},
 {"name":"Traffic Light Comp Arrows","files":["TrafficArrows.png","TrafficArrows.tsx"],"type":"tile","author":"unknown","credit":false,"game":"BN1","preview":"TrafficArrows.png"},
