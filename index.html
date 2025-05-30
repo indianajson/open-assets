@@ -4,9 +4,6 @@
   <meta charset="UTF-8">
   <title>openAssets</title>
 
-  <!-- Pixel font -->
-  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <!-- JSZip + FileSaver for ZIP download -->
@@ -15,7 +12,10 @@
   <!-- Panzoom for image pan/zoom -->
   <script src='https://unpkg.com/@panzoom/panzoom@4.6.0/dist/panzoom.min.js'></script>
   <!-- JSON for file list -->
-  <script src='assets.js'></script>
+  <script src='tiles.js'></script>
+  <script src='backgrounds.js'></script>
+  <script src='music.js'></script>
+
   <style>
     @font-face {
     font-family: "pixel";
@@ -36,7 +36,7 @@
       padding: 10px;
     }
     button { cursor: pointer; }
-    #preview-image{
+    #preview-image,#preview-image-bg{
         image-rendering: -moz-crisp-edges;
         image-rendering: -o-crisp-edges;
         image-rendering: -webkit-optimize-contrast;
@@ -113,8 +113,12 @@
       opacity:0.4;
       cursor:not-allowed;
     }
-
     .content {
+      flex:1;
+      display: flex;
+      overflow:hidden;
+    }
+    .tab-content {
       flex:1;
       display: flex;
       overflow:hidden;
@@ -140,7 +144,7 @@
     }
     th.sortable { cursor: pointer; text-decoration: underline; }
 
-    .preview-panel {
+   .preview-panel {
       flex:1;
       padding:8px;
       display:flex;
@@ -164,6 +168,7 @@
     }
     .details {
       font-size:20px;
+      padding:10px;
     }
     button{ font-family:pixel; font-weight:bold; }
     .details p { margin-bottom:4px; }
@@ -174,12 +179,114 @@
       background:#C0C0C0;
     }
     .title-bar-text{ font-weight:bold; }
+    
+    /* New styles for search and tabs */
+    .search-bar {
+      padding: 8px;
+      background: #C0C0C0;
+      border-left:2px solid #FFF;
+      border-top:2px solid #FFF;
+      border-right:2px solid #808080;
+      border-bottom:2px solid #808080;
+    }
+    .search-bar input {
+      width: 100%;
+      padding: 4px;
+      font-family: 'pixel';
+      font-size: 20px;
+      border: 2px inset #FFF;
+    }
+    .tabs {
+      display: flex;
+      background: #C0C0C0;
+      border-left:2px solid #FFF;
+      border-top:2px solid #FFF;
+      border-right:2px solid #808080;
+      border-bottom:2px solid #808080;
+    }
+    .tab {
+      padding: 8px 16px;
+      cursor: pointer;
+      border-right: 1px solid #808080;
+    }
+    .tab.active {
+      background: #000080;
+      color: #FFF;
+    }
+    .tab-content {
+      display: none;
+    }
+    .tab-content.active {
+      display: flex;
+      flex: 1;
+    }
+    /* Audio player styles */
+    .audio-player {
+      width: 100%;
+      margin-top: 10px;
+    }
+    .audio-controls {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .audio-timeline {
+      flex-grow: 1;
+    }
+    #play-btn {
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+    }
+    .music-play-btn {
+      cursor: pointer;
+      padding: 2px 6px;
+      font-size: 16px;
+    }
+    .menu-bar .filter[data-filter="type"].hidden {
+    display: none;
+    }
+
+    /* CSS for Background Animation */
+
+    #preview-image-bg {
+      position: relative;
+      zoom:200%;
+      max-height: 200px;
+      height:70%;
+      overflow: hidden;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: -o-crisp-edges;
+      image-rendering: -webkit-optimize-contrast;
+      -ms-interpolation-mode: nearest-neighbor;
+    }
+    .tile {
+        position: absolute;
+        background-repeat: no-repeat;
+        background-image: var(--sprite-sheet);
+        background-position: var(--sprite-pos);
+        width: var(--sprite-w);
+        height: var(--sprite-h);
+      }
   </style>
 </head>
 <body>
   <div class="window">
     <div class="title-bar">
       <div class="title-bar-text">  openAssets for ONB</div>
+    </div>
+
+    <!-- New tabs -->
+    <div class="tabs">
+      <div class="tab active" data-tab="tiles">Tiles/Objects</div>
+      <div class="tab" data-tab="backgrounds">Backgrounds</div>
+      <div class="tab" data-tab="music">Music</div>
+    </div>
+
+    <!-- Search bar -->
+    <div class="search-bar">
+      <input type="text" id="search-input" placeholder="Search by name...">
     </div>
 
     <div class="menu-bar">
@@ -204,24 +311,85 @@
     </div>
 
     <div class="content">
-      <div class="sidebar">
-        <table class="file-list">
-          <thead>
-            <tr><th></th><th class="sortable" data-sort="name">Name</th><th class="sortable" data-sort="game">Game</th><th class="sortable" data-sort="author">Author</th></tr>
-          </thead>
-          <tbody></tbody>
-        </table>
+      <!-- Tiles/Objects Tab -->
+      <div class="tab-content active" id="tiles-content">
+        <div class="sidebar">
+          <table class="file-list">
+            <thead>
+              <tr><th></th><th class="sortable" data-sort="name">Name</th><th class="sortable" data-sort="game">Game</th><th class="sortable" data-sort="author">Author</th></tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+
+        <div class="preview-panel">
+          <div class="preview-window">
+            <img id="preview-image" src="">
+          </div>
+          <div class="details">
+            <p><strong>Author: </strong> <span id="detail-author">—</span></p>
+            <p><strong>Game: </strong> <span id="detail-game">—</span></p>
+            <p><strong>Credit: </strong> <span id="detail-permission">—</span></p>
+            <button id="download-single" disabled>Download This Set</button>
+          </div>
+        </div>
       </div>
 
-      <div class="preview-panel">
-        <div class="preview-window">
-          <img id="preview-image" src="">
+      <!-- Backgrounds Tab -->
+      <div class="tab-content" id="backgrounds-content">
+        <div class="sidebar">
+          <table class="file-list">
+            <thead>
+              <tr><th></th><th class="sortable" data-sort="name">Name</th><th class="sortable" data-sort="game">Game</th><th class="sortable" data-sort="author">Author</th></tr>
+            </thead>
+            <tbody></tbody>
+          </table>
         </div>
-        <div class="details">
-          <p><strong>Author: </strong> <span id="detail-author">—</span></p>
-          <p><strong>Game: </strong> <span id="detail-game">—</span></p>
-          <p><strong>Credit: </strong> <span id="detail-permission">—</span></p>
-          <button id="download-single" disabled>Download This Set</button>
+
+        <div class="preview-panel">
+          <div class="preview-window">
+            <div id="preview-image-bg">
+          </div>
+          <div class="details">
+                        <button style="float:right;" id="download-single-bg" disabled>Download This Set</button>
+
+            <p><strong>Author: </strong> <span id="detail-author-bg">—</span></p>
+            <p><strong>Game: </strong> <span id="detail-game-bg">—</span></p>
+            <p><strong>Credit: </strong> <span id="detail-permission-bg">—</span></p>
+            <p><strong>Background Vel X: </strong> <span id="detail-velx-bg">—</span></p>
+            <p><strong>Background Vel Y: </strong> <span id="detail-vely-bg">—</span></p>
+
+          </div>
+        </div>
+      </div>
+      </div>
+      <!-- Music Tab -->
+      <div class="tab-content" id="music-content">
+        <div class="sidebar">
+          <table class="file-list">
+            <thead>
+              <tr><th></th><th>Play</th><th class="sortable" data-sort="name">Name</th><th class="sortable" data-sort="game">Game</th><th class="sortable" data-sort="author">Author</th></tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+
+        <div class="preview-panel">
+          <p><strong></strong> <span id="detail-title-music">—</span></p>
+          <div class="audio-player">
+            <div class="audio-controls">
+              <button style="font-size:20px;" id="play-btn">&nbsp;▶</button>
+              <input type="range" id="audio-timeline" class="audio-timeline" value="0" min="0" max="100">
+              <span id="current-time">0:00</span> / <span id="duration">0:00</span>
+            </div>
+            <audio id="audio-player"></audio>
+          </div>
+          <div class="details">
+            <p><strong>Author: </strong> <span id="detail-author-music">—</span></p>
+            <p><strong>Game: </strong> <span id="detail-game-music">—</span></p>
+            <p><strong>Credit: </strong> <span id="detail-permission-music">—</span></p>
+            <button id="download-single-music" disabled>Download This Track</button>
+          </div>
         </div>
       </div>
     </div>
@@ -230,9 +398,51 @@
   <script>
   $(function(){
     
-   
+    let currentTab = 'tiles';
     let sortField = null;
     let sortAsc = true;
+    let currentAudio = null;
+    let currentlyPlayingRow = null;
+
+    // Initialize tabs
+    $('.tab').on('click', function(){
+    const tab = $(this).data('tab');
+    $('.tab').removeClass('active');
+    $(this).addClass('active');
+    $('.tab-content').removeClass('active');
+    $(`#${tab}-content`).addClass('active');
+    currentTab = tab;
+    
+    if (tab === 'tiles') {
+        $('.filter[data-filter="type"]').removeClass('hidden');
+    } else {
+        $('.filter[data-filter="type"]').addClass('hidden');
+        // Also uncheck any type filters when hiding
+        $('.filter[data-filter="type"] input').prop('checked', false);
+        $('#type-both').prop('checked', true);
+    }
+
+    // Stop audio if switching away from music tab
+    if(tab !== 'music' && currentAudio) {
+        currentAudio.pause();
+        currentAudio = null;
+        if(currentlyPlayingRow) {
+        currentlyPlayingRow.find('.music-play-btn').text('▶');
+        $('#play-btn').text('▶');
+        currentlyPlayingRow = null;
+        }
+    }
+    
+    // Rebuild filter options for new tab
+    buildFilterOptions();
+    renderList();
+    });
+
+    // Search functionality
+    $('#search-input').on('input', function(){
+    renderList();
+    updateClearButton(); // Add this line
+    });
 
     buildFilterOptions();
     const field = $(this).data('sort');
@@ -255,6 +465,7 @@
       $('.filter[data-filter=author] .dropdown input:checkbox').prop('checked', false);
       $('#type-both').prop('checked', true);
       $('#clear-filters').prop('disabled', true);
+      $('#search-input').val('');
       renderList();
     });
 
@@ -265,42 +476,78 @@
       renderList();
     });
 
-    function buildFilterOptions(){
-      const games = ["BN1","BN2","BN3","BN4","BN4.5","BN5","BN6","LoN","PoN","Custom"];
-      const $game = $('.filter[data-filter=game] .dropdown');
-      games.forEach(g=>{
-        $game.append(`<div><input type="checkbox" value="${g}" id="g-${g}"><label for="g-${g}"> ${g}</label></div>`);
-      });
-      const authors = [...new Set(allData.map(x=>x.author))].sort();
-      const $auth = $('.filter[data-filter=author] .dropdown');
-      authors.forEach(a=>{
-        const id = 'a-'+a.replace(/\s+/g,'_');
-        $auth.append(`<div><input type="checkbox" value="${a}" id="${id}"><label for="${id}"> ${a}</label></div>`);
-      });
-      $('.dropdown input').on('change', ()=>{ renderList(); updateClearButton(); });
-    }
+function buildFilterOptions(){
+  const games = ["BN1","BN2","BN3","BN4","BN4.5","BN5","BN6","LoN","PoN","Shanghai","Custom"];
+  const $game = $('.filter[data-filter=game] .dropdown');
+  $game.empty(); // Clear existing options
+  games.forEach(g=>{
+    $game.append(`<div><input type="checkbox" value="${g}" id="g-${g}"><label for="g-${g}"> ${g}</label></div>`);
+  });
+  
+  // Get authors from current tab's data
+  let currentData;
+  if(currentTab === 'tiles') {
+    currentData = allData;
+  } else if(currentTab === 'backgrounds') {
+    currentData = allBackgrounds;
+  } else if(currentTab === 'music') {
+    currentData = allMusic;
+  }
+  
+  const authors = [...new Set(currentData.map(x=>x.author))].sort();
+  const $auth = $('.filter[data-filter=author] .dropdown');
+  $auth.empty(); // Clear existing options
+  authors.forEach(a=>{
+    const id = 'a-'+a.replace(/\s+/g,'_');
+    $auth.append(`<div><input type="checkbox" value="${a}" id="${id}"><label for="${id}"> ${a}</label></div>`);
+  });
+  
+  if(currentTab === 'tiles') {
+    $('.filter[data-filter=type] input').on('change', ()=>{ renderList(); updateClearButton(); });
+  }
+  
+  $('.filter[data-filter=game] input, .filter[data-filter=author] input').on('change', ()=>{ 
+    renderList(); 
+    updateClearButton(); 
+  });
+
+  $('.dropdown input').on('change', ()=>{ renderList(); updateClearButton(); });
+}
 
     function getFilters(){
       const games = $('.filter[data-filter=game] .dropdown input:checked').map((i,e)=>e.value).get();
       const type = $('.filter[data-filter=type] .dropdown input:checked').val();
       const authors = $('.filter[data-filter=author] .dropdown input:checked').map((i,e)=>e.value).get();
-      return { games, type, authors };
+      const searchTerm = $('#search-input').val().toLowerCase();
+      return { games, type, authors, searchTerm };
     }
 
     function updateClearButton(){
-      const {games,type,authors} = getFilters();
-      const any = games.length>0 || authors.length>0 || type !== 'both';
-      $('#clear-filters').prop('disabled', !any);
+    const {games,type,authors,searchTerm} = getFilters();
+    const any = games.length>0 || authors.length>0 || type !== 'both' || searchTerm !== '';
+    $('#clear-filters').prop('disabled', !any);
     }
 
     function renderList(){
-      const {games,type,authors} = getFilters();
-      let rows = allData.filter(item=>{
+      const {games,type,authors,searchTerm} = getFilters();
+      let currentData;
+      
+      if(currentTab === 'tiles') {
+        currentData = allData;
+      } else if(currentTab === 'backgrounds') {
+        currentData = allBackgrounds;
+      } else if(currentTab === 'music') {
+        currentData = allMusic;
+      }
+      
+      let rows = currentData.filter(item=>{
         if(games.length && !games.includes(item.game)) return false;
         if(authors.length && !authors.includes(item.author)) return false;
-        if(type!=='both' && item.type!==type) return false;
+        if(type!=='both' && item.type!==type && currentTab !== 'music') return false;
+        if(searchTerm && !item.name.toLowerCase().includes(searchTerm)) return false;
         return true;
       });
+      
       if(sortField) {
         rows.sort((a,b)=>{
           const av = a[sortField].toLowerCase();
@@ -308,29 +555,110 @@
           return (av < bv ? -1 : av > bv ? 1 : 0) * (sortAsc?1:-1);
         });
       }
-      const $tb = $('table.file-list tbody').empty();
+      
+      const $tb = $(`#${currentTab}-content table.file-list tbody`).empty();
+      
       rows.forEach(it=>{
-        $tb.append(
-          `<tr><td><input type="checkbox" class="sel"/></td><td> ${it.name}</td><td> ${it.game}</td><td> ${it.author}</td></tr>`
-        );
+        if(currentTab === 'music') {
+          $tb.append(
+            `<tr>
+              <td><input type="checkbox" class="sel"/></td>
+              <td><button class="music-play-btn">▶</button></td>
+              <td>${it.name}</td>
+              <td>${it.game}</td>
+              <td>${it.author}</td>
+            </tr>`
+          );
+        } else {
+          $tb.append(
+            `<tr><td><input type="checkbox" class="sel"/></td><td>${it.name}</td><td>${it.game}</td><td>${it.author}</td></tr>`
+          );
+        }
       });
-      $('table.file-list tbody tr').on('click', function(e){
-        if(e.target.type==='checkbox') return;
-        $('table.file-list tr').removeClass('selected');
-        $(this).addClass('selected');
-        showPreview(rows[$(this).index()]);
-      });
+      
+      // Set up row click handlers based on current tab
+      if(currentTab === 'music') {
+          $(`#${currentTab}-content table.file-list tbody tr`).on('click', function(e){
+            if($(e.target).hasClass('music-play-btn') || $(e.target).hasClass('sel')) return;
+            
+            $('table.file-list tr').removeClass('selected');
+            $(this).addClass('selected');
+            //add
+            showMusicPreview(rows[$(this).index()]);
+            
+          });
+          
+          // Music play button handler
+          $(`#${currentTab}-content .music-play-btn`).on('click', function(e){
+            e.stopPropagation();
+            const $row = $(this).closest('tr');
+            const index = $row.index();
+            const item = rows[index];
+            
+            if(currentlyPlayingRow && currentlyPlayingRow[0] === $row[0]) {
+              // Toggle play/pause for current track
+              if(currentAudio.paused) {
+                currentAudio.play();
+                $(this).text('❚❚');
+                $('#play-btn').text('❚❚');
+              } else {
+                currentAudio.pause();
+                $(this).text('▶');
+                $('#play-btn').text('▶');
+              }
+            } else {
+              // New track selected
+              if(currentlyPlayingRow) {
+                currentlyPlayingRow.find('.music-play-btn').text('▶');
+              }
+              currentlyPlayingRow = $row;
+              $(this).text('❚❚');
+              $('#play-btn').text('❚❚');
+              showMusicPreview(item);
+              currentAudio.play();
+            }
+          });
+      } else {
+        $(`#${currentTab}-content table.file-list tbody tr`).on('click', function(e){
+          if(e.target.type==='checkbox') return;
+          $('table.file-list tr').removeClass('selected');
+          $(this).addClass('selected');
+          if(currentTab === 'tiles') {
+            showPreview(rows[$(this).index()]);
+          } else if(currentTab === 'backgrounds') {
+            showBackgroundPreview(rows[$(this).index()]);
+          }
+        });
+      }
+      
       $('.sel').on('change', ()=>{
         $('#download-selected').prop('disabled', $('.sel:checked').length===0);
       });
+      
       $('#download-selected').off().on('click', ()=>{
         const checked = $('.sel:checked').closest('tr').map((i,tr)=>rows[$(tr).index()]).get();
         downloadMultiple(checked);
       });
-      // reset preview
-      $('#preview-image').attr('src','');
-      $('#detail-author,#detail-game,#detail-permission').text('—');
-      $('#download-single').prop('disabled', true).off();
+      
+      // reset preview based on current tab
+      if(currentTab === 'tiles') {
+        $('#preview-image').attr('src','');
+        $('#detail-author,#detail-game,#detail-permission').text('—');
+        $('#download-single').prop('disabled', true).off();
+      } else if(currentTab === 'backgrounds') {
+        //$('#preview-image-bg').attr('src','');
+        $('#detail-author-bg,#detail-game-bg,#detail-permission-bg,#detail-velx-bg,#detail-vely-bg').text('—');
+        $('#download-single-bg').prop('disabled', true).off();
+      } else if(currentTab === 'music') {
+        if(currentAudio) {
+          currentAudio.pause();
+          currentAudio = null;
+        }
+        $('#detail-author-music,#detail-game-music,#detail-permission-music').text('—');
+        $('#download-single-music').prop('disabled', true).off();
+        $('#current-time, #duration').text('0:00');
+        $('#audio-timeline').val(0);
+      }
     }
 
     function showPreview(item){
@@ -341,11 +669,260 @@
       $('#detail-permission').text(item.credit ? 'Yes, please provide credit.' : 'No credit required.');
       $('#download-single').prop('disabled', false).off().on('click', ()=>downloadMultiple([item]));
     }
+    /* Functions for Background Animation */
+
+        let animationFrames = [];
+        let currentFrameIndex = 0;
+        let lastFrameTime = 0;
+        let frameDuration = 0;
+        let spriteWidth = 0;
+        let spriteHeight = 0;
+        let xVelocity = 0;
+        let yVelocity = 0;
+        let xOffset = 0;
+        let yOffset = 0;
+        let animationId = null;
+        let spriteImage = null;
+        let container = null;
+
+        function createAnimatedBackground(animationFile, xVel, yVel) {
+            //xVelocity = xVel * -1 * 200 //* spriteWidth/120
+            //yVelocity = yVel * -1 * 200 //* spriteWidth/120
+            //console.log(xVelocity+" "+yVelocity)
+
+            xVelocity = xVel;
+            yVelocity = yVel;
+            
+            // Clear any existing animation
+            if (animationId) {
+                cancelAnimationFrame(animationId);
+                animationId = null;
+            }
+            
+            // Clear container
+            container = $('#preview-image-bg');
+            container.empty();
+            
+            // Load the animation file
+            fetch(animationFile)
+                .then(response => response.text())
+                .then(parseAnimationFile)
+                .then(loadSpriteImage)
+                .catch(error => console.error('Error:', error));
+        }
+
+        function parseAnimationFile(data) {
+            // Reset animation data
+            animationFrames = [];
+            currentFrameIndex = 0;
+            lastFrameTime = 0;
+            
+            // Parse the animation file
+            const lines = data.split('\n');
+            let imagePath = '';
+            
+            for (const line of lines) {
+                if (line.includes('imagePath=')) {
+                    imagePath = line.split('"')[1];
+                } else if (line.includes('frame duration=')) {
+                    const parts = line.split(' ');
+                    console.log(parts);
+                    const frame = {
+                        duration: parseFloat(parts[1].split('"')[1]),
+                        x: parseInt(parts[2].split('"')[1]),
+                        y: parseInt(parts[3].split('"')[1]),
+                        w: parseInt(parts[4].split('"')[1]),
+                        h: parseInt(parts[5].split('"')[1]),
+                        originx: parseInt(parts[6].split('"')[1]),
+                        originy: parseInt(parts[7].split('"')[1]),
+                        flipx: parseInt(parts[8].split('"')[1]),
+                        flipy: parseInt(parts[9].split('"')[1])
+                    };
+                    animationFrames.push(frame);
+                }
+            }
+            
+            if (animationFrames.length === 0) {
+                throw new Error('No animation frames found in file');
+            }
+            
+            // Set initial sprite dimensions from first frame
+            spriteWidth = animationFrames[0].w;
+            spriteHeight = animationFrames[0].h;
+            xVelocity = xVelocity * -1 * 200 * spriteWidth/120
+            yVelocity = yVelocity * -1 * 200 * spriteWidth/120
+
+            frameDuration = animationFrames[0].duration;
+            
+            return imagePath;
+        }
+
+        function loadSpriteImage(imagePath) {
+            return new Promise((resolve, reject) => {
+                spriteImage = new Image();
+                spriteImage.onload = () => {
+                    createTiles();
+                    resolve();
+                };
+                spriteImage.onerror = () => {
+                    reject(new Error('Failed to load sprite image'));
+                };
+                spriteImage.src = 'files/'+imagePath;
+            });
+        }
+
+        function createTiles() {
+            const containerWidth = container.width();
+            const containerHeight = container.height();
+            
+            // Calculate how many tiles we need in each direction
+            const tilesX = Math.ceil(containerWidth / spriteWidth) + 2;
+            const tilesY = Math.ceil(containerHeight / spriteHeight) + 2;
+            
+            // Create tiles
+            for (let y = -1; y < tilesY; y++) {
+                for (let x = -1; x < tilesX; x++) {
+                    const tile = $('<div class="tile"></div>');
+                    tile.css({
+                        '--sprite-sheet': `url(${spriteImage.src})`,
+                        '--sprite-w': `${spriteWidth}px`,
+                        '--sprite-h': `${spriteHeight}px`,
+                        'left': `${x * spriteWidth}px`,
+                        'top': `${y * spriteHeight}px`
+                    });
+                    container.append(tile);
+                }
+            }
+            
+            // Start animation loop
+            lastFrameTime = performance.now();
+            animationId = requestAnimationFrame(animate);
+        }
+
+        function animate(timestamp) {
+            // Calculate time since last frame
+            const deltaTime = (timestamp - lastFrameTime) / 1000; // in seconds
+            lastFrameTime = timestamp;
+            
+            // Update animation frame if needed
+            frameDuration -= deltaTime;
+            if (frameDuration <= 0) {
+                currentFrameIndex = (currentFrameIndex + 1) % animationFrames.length;
+                const frame = animationFrames[currentFrameIndex];
+                frameDuration = frame.duration;
+                
+                // Update all tiles with new sprite position
+                $('.tile').css('--sprite-pos', `-${frame.x}px -${frame.y}px`);
+            }
+            // Update position based on velocity
+            xOffset = (xOffset + xVelocity * deltaTime) % spriteWidth;
+            yOffset = (yOffset + yVelocity * deltaTime) % spriteHeight;
+
+            // Position tiles to create infinite scroll
+            const containerWidth = container.width();
+            const containerHeight = container.height();
+            const tilesX = Math.ceil(containerWidth / spriteWidth) + 2;
+            const tilesY = Math.ceil(containerHeight / spriteHeight) + 2;
+            
+            let tileIndex = 0;
+            for (let y = -1; y < tilesY; y++) {
+                for (let x = -1; x < tilesX; x++) {
+                    const tile = $('.tile').eq(tileIndex);
+                    tile.css({
+                        'left': `${x * spriteWidth - xOffset}px`,
+                        'top': `${y * spriteHeight - yOffset}px`
+                    });
+                    tileIndex++;
+                }
+            }
+            
+            // Continue animation loop
+            animationId = requestAnimationFrame(animate);
+        }
+
+    /* End Functions for Background Animation */
+    function showBackgroundPreview(item){
+
+      const imgPath = 'files/'+item.preview;
+      //$('#preview-image-bg').attr('src', ' ').css({transform: ''});
+      $('#preview-image-bg').attr('src','#');
+
+      $('#detail-author-bg').text(item.author);
+      $('#detail-game-bg').text(item.game);
+      $('#detail-velx-bg').text(item.velx !== undefined ? item.velx : '—');
+      $('#detail-vely-bg').text(item.vely !== undefined ? item.vely : '—');
+      createAnimatedBackground('files/'+item.preview, item.velx, item.vely);
+      $('#detail-permission-bg').text(item.credit ? 'Yes, please provide credit.' : 'No credit required.');
+      $('#download-single-bg').prop('disabled', false).off().on('click', ()=>downloadMultiple([item]));
+    }
+    
+    function showMusicPreview(item){
+      if(currentAudio) {
+        currentAudio.pause();
+        currentAudio = null;
+      }
+      
+      $('#detail-title-music').text(item.name);
+      $('#detail-author-music').text(item.author);
+      $('#detail-game-music').text(item.game);
+      $('#detail-permission-music').text(item.credit ? 'Yes, please provide credit.' : 'No credit required.');
+      $('#download-single-music').prop('disabled', false).off().on('click', ()=>downloadMultiple([item]));
+      
+      const audioPath = 'music/'+item.files[0];
+      
+      currentAudio = new Audio(audioPath);
+      currentAudio.volume = .05;
+      // Set up audio player controls
+      $('#play-btn').off().on('click', function(){
+        if(currentAudio.paused) {
+          currentAudio.play();
+          $(this).text('❚❚');
+          $('#play-btn').text('❚❚');
+          if(currentlyPlayingRow) {
+            currentlyPlayingRow.find('.music-play-btn').text('❚❚');
+          }
+        } else {
+          currentAudio.pause();
+          $(this).text('▶');
+          $('#play-btn').text('▶');
+          if(currentlyPlayingRow) {
+            currentlyPlayingRow.find('.music-play-btn').text('▶');
+          }
+        }
+      });
+      
+      currentAudio.addEventListener('timeupdate', function(){
+        const currentTime = formatTime(currentAudio.currentTime);
+        const duration = formatTime(currentAudio.duration);
+        $('#current-time').text(currentTime);
+        $('#duration').text(duration);
+        const progress = (currentAudio.currentTime / currentAudio.duration) * 100;
+        $('#audio-timeline').val(progress || 0);
+      });
+      
+      $('#audio-timeline').off().on('input', function(){
+        const seekTime = (currentAudio.duration * $(this).val()) / 100;
+        currentAudio.currentTime = seekTime;
+      });
+      
+      currentAudio.addEventListener('ended', function(){
+        $('#play-btn').text('▶');
+        if(currentlyPlayingRow) {
+          currentlyPlayingRow.find('.music-play-btn').text('▶');
+        }
+      });
+    }
+    
+    function formatTime(seconds) {
+      const mins = Math.floor(seconds / 60);
+      const secs = Math.floor(seconds % 60);
+      return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+    }
 
     // arrow key navigation
     $(document).on('keydown', function(e){
       if(e.key === 'ArrowDown' || e.key === 'ArrowUp'){
-        const $rows = $('table.file-list tbody tr');
+        const $rows = $(`#${currentTab}-content table.file-list tbody tr`);
         let idx = $rows.index($('tr.selected'));
         if(idx < 0) idx = e.key==='ArrowDown' ? -1 : 0;
         const nextIdx = e.key==='ArrowDown' ? Math.min(idx+1, $rows.length-1) : Math.max(idx-1, 0);
@@ -354,16 +931,22 @@
       }
     });
 
-    function downloadMultiple(items){
-      const zip = new JSZip();
-      const promises = [];
-      items.forEach(it=> it.files.forEach(fn=>{
-        promises.push(fetch('assets/'+fn)
-          .then(r=>r.blob())
-          .then(blob=> zip.file(fn, blob)));
-      }));
-      Promise.all(promises).then(()=> zip.generateAsync({type:'blob'}))
-        .then(content=> saveAs(content, 'files.zip'));
+    function downloadMultiple(items) {
+        const zip = new JSZip();
+        const promises = [];
+        
+        items.forEach(item => {
+            item.files.forEach(filename => {
+            promises.push(
+                fetch('assets/' + filename)
+                .then(response => response.blob())
+                .then(blob => zip.file(filename, blob))
+        )});
+        });
+        
+        Promise.all(promises)
+            .then(() => zip.generateAsync({type: 'blob'}))
+            .then(content => saveAs(content, 'files.zip'));
     }
   });
   </script>
