@@ -1,0 +1,9 @@
+imagePath="papapc.png"
+
+animation state="BG"
+frame duration="4.079" x="0" y="0" w="64" h="48" originx="0" originy="0" flipx="0" flipy="0"
+frame duration="0.135" x="0" y="48" w="64" h="48" originx="0" originy="0" flipx="0" flipy="0"
+frame duration="0.135" x="0" y="96" w="64" h="48" originx="0" originy="0" flipx="0" flipy="0"
+frame duration="4.079" x="64" y="0" w="64" h="48" originx="0" originy="0" flipx="0" flipy="0"
+frame duration="0.135" x="64" y="48" w="64" h="48" originx="0" originy="0" flipx="0" flipy="0"
+frame duration="0.135" x="64" y="96" w="64" h="48" originx="0" originy="0" flipx="0" flipy="0"
