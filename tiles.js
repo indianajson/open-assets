@@ -95,7 +95,7 @@ let allData = [
 {"name":"Gospel Portal","type":"object","files":["GospelPortal.png","GospelPortal.tsx"],"author":"unknown","credit":false,"game":"BN2","preview":"GospelPortal.png"},
 {"name":"Secret Area Tiles (1 of 2)","type":"tile","files":["Secret_Area_Prettified_Main.tsx","Secret_Area_Prettified_Main.png"],"author":"Claris","credit":false,"game":"BN3","preview":"Secret_Area_Prettified_Main.png"},
 {"name":"Secret Area Tiles (2 of 2)","type":"tile","files":["Secret_Area_Prettified_Walkways.tsx","Secret_Area_Prettified_Walkways.png"],"author":"Claris","credit":false,"game":"BN3","preview":"Secret_Area_Prettified_Walkways.png"},
-{"name":"Secret Area Warp","type":"object","files":["Secret_Area_Warp.tsx","Secret_Area_Warp.png"],"author":"Claris","credit":false,"game":"BN3","preview":"Secret_Area_Warp.tsx"},
+{"name":"Secret Area Warp","type":"object","files":["Secret_Area_Warp.tsx","Secret_Area_Warp.png"],"author":"Claris","credit":false,"game":"BN3","preview":"Secret_Area_Warp.png"},
 {"name":"Secret Area Arrow","type":"object","files":["Secret_Net_Arrows.tsx","Secret_Net_Arrows.png"],"author":"Claris","credit":false,"game":"BN3","preview":"Secret_Net_Arrows.png"},
 
 
