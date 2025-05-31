@@ -7,6 +7,7 @@ let allData = [
 {"name":"Mystery Data","files":["MysteryData.png","MysteryData.tsx"],"author":"unknown","type":"object","credit":false,"game":"BN4.5","preview":"MysteryData.png"},
 {"name":"Internet5-8 Area Tiles","files":["ZeroAccountTileset.tsx","ZeroAccountTileset.png"],"author":"unknown","type":"tile","credit":false,"game":"BN4.5","preview":"ZeroAccountTileset.png"},
 {"name":"Area Warps","files":["4_5Warps.png","4_5Warps.tsx"],"author":"unknown","type":"object","credit":false,"game":"BN4.5","preview":"4_5Warps.png"},
+{"name":"Alpha Comp Tileset","type":"tiles","files":["AlphaAreaTileset.png","AlphaAreaTileset.tsx"],"author":"unknown","credit":false,"game":"BN3","preview":"AlphaAreaTileset.png"},
 {"name":"Alpha Comp Tiles","files":["Alpha_Comp.png","Alpha_Comp.tsx"],"author":"Claris","type":"tile","credit":false,"game":"BN3","preview":"Alpha_Comp.png"},
 {"name":"Oven Comp Tiles (custom)","files":["Cords.png","Cords.tsx"],"type":"tile","author":"Various","credit":false,"game":"BN1","preview":"Cords.png"},
 {"name":"Oven Comp Honeycomb Tile (custom)","files":["OvenHoneycombs.tsx","ovenhoneycomb.png"],"type":"tile","author":"Various","credit":false,"game":"BN1","preview":"ovenhoneycomb.png"},
@@ -22,8 +23,8 @@ let allData = [
 {"name":"Netopia Tiles","files":["Netopia Tileset.png","Netopia Tileset.tsx"],"type":"tile","author":"Claris","credit":false,"game":"BN2","preview":"Netopia Tileset.png"},
 {"name":"Netopia Arrows","type":"tile","files":["Exits Redux.png","Exits Redux.tsx"],"author":"Claris","credit":false,"game":"BN2","preview":"Exits Redux.png"},
 {"name":"Netopia Conveyers","files":["Netopia_Tileset_directional_paths.png","Netopia_Tileset_directional_paths.tsx"],"type":"tile","author":"Claris","credit":false,"game":"BN2","preview":"Netopia_Tileset_directional_paths.png"},
-{"name":"Netopia Castle Wall Long","files":["CastleWallLong.png","CastleWallLong.tsx"],"author":"Claris","credit":false,"game":"Other","preview":"CastleWallLong.png"},
-{"name":"Netopia Castle Wall","files":["CastleWall.png","CastleWall.tsx"],"author":"Claris","credit":false,"game":"Other","preview":"CastleWall.png"},
+{"name":"Netopia Castle Wall Long","files":["Castle Wall Long.png","Castle Wall Long.tsx"],"author":"Claris","credit":false,"game":"Other","preview":"Castle Wall Long.png"},
+{"name":"Netopia Castle Wall","files":["Castle Wall.png","Castle Wall.tsx"],"author":"Claris","credit":false,"game":"Other","preview":"Castle Wall.png"},
 {"name":"Netopia Backward Stairs","type":"tile","files":["cursed-stairs-Bn2.png","cursed-stairs-Bn2.tsx"],"author":"unknown","credit":false,"game":"BN2","preview":"cursed-stairs-Bn2.png"},
 {"name":"Netopia Recolored Tiles","type":"tile","files":["DenTownNet_Tileset.png","DenTownNet_Tileset.tsx"],"author":"Claris","credit":false,"game":"BN2","preview":"DenTownNet_Tileset.png"},
 {"name":"Netopia Arrows Recolored","files":["Den_Exits.png","Den_Exits.tsx"],"type":"tile","author":"Claris","credit":false,"game":"BN2","preview":"Den_Exits.png"},
@@ -63,9 +64,10 @@ let allData = [
 {"name":"Coffee Sign","type":"object","files":["coffee.png","coffee.tsx"],"author":"unknown","credit":false,"game":"BN6","preview":"coffee.png"},
 {"name":"HP Assorted Tiles","type":"tile","files":["floor.png","floor.tsx"],"author":"unknown","credit":false,"game":"BN6","preview":"floor.png"},
 {"name":"Home Warp","type":"object","files":["home_warp.png","home_warp.tsx"],"author":"unknown","credit":false,"game":"BN6","preview":"home_warp.png"},
-{"name":"Mystery Data - Blue","type":"object","files":["BlueMysteryData.png","BlueMysteryData.tsx"],"author":"unknown","credit":false,"game":"BN6","preview":"BlueMysteryData.png"},
-{"name":"Mystery Data - Green","type":"object","files":["GreenMysteryData.png","GreenMysteryData.tsx"],"author":"unknown","credit":false,"game":"BN6","preview":"GreenMysteryData.png"},
-{"name":"Mystery Data - Purple","type":"object","files":["PurpleMysteryData.png","PurpleMysteryData.tsx"],"author":"unknown","credit":false,"game":"BN6","preview":"PurpleMysteryData.png"},
+{"name":"Mystery Data - Red","type":"object","files":["RedMysteryData.png","RedMysteryData.tsx"],"author":"unknown","credit":false,"game":"Other","preview":"RedMysteryData.png"},
+//{"name":"Mystery Data - Blue","type":"object","files":["BlueMysteryData.png","BlueMysteryData.tsx"],"author":"unknown","credit":false,"game":"BN6","preview":"BlueMysteryData.png"},
+//{"name":"Mystery Data - Green","type":"object","files":["GreenMysteryData.png","GreenMysteryData.tsx"],"author":"unknown","credit":false,"game":"BN6","preview":"GreenMysteryData.png"},
+//{"name":"Mystery Data - Purple","type":"object","files":["PurpleMysteryData.png","PurpleMysteryData.tsx"],"author":"unknown","credit":false,"game":"BN6","preview":"PurpleMysteryData.png"},
 {"name":"HP Colored Tiles","type":"tile","files":["rainbow_floor.png","rainbow_floor.tsx"],"author":"unknown","credit":false,"game":"BN6","preview":"rainbow_floor.png"},
 {"name":"Custom Conveyers","type":"tile","files":["simple-graveyard-conveyers-64-40-alt.png","simple-graveyard-conveyers-64-40-alt.tsx"],"author":"unknown","credit":false,"game":"Other","preview":"simple-graveyard-conveyers-64-40-alt.png"},
 {"name":"Cyber Talisman","type":"object","files":["Talisman.png","Talisman.tsx"],"author":"Claris","credit":false,"game":"BN6","preview":"Talisman.png"},
@@ -81,12 +83,17 @@ let allData = [
 {"name":"Yoka Custom Tiles","type":"tile","files":["yokaforjamestileset67x52.png","yokaforjamestileset67x52.tsx"],"type":"tile","author":"DigitalL33T","credit":false,"game":"BN3","preview":"yokaforjamestileset67x52.png"},
 {"name":"Graveyard Stairs","type":"tile","files": ["UndernetStairs.png","UndernetStairs.tsx"],"author": "unknown","credit": false,"game": "BN6","preview": "UndernetStairs.png"},
 {"name":"Graveyard Tiles","type":"tile","files": ["UndernetTiles.png","UndernetTiles.tsx"],"author": "unknown","credit": false,"game": "BN6","preview": "UndernetTiles.png"},
-{"name":"Sky Area 2 Gate","type":"object","files":["Gate_sky2_exe6.png","Gate_sky2_exe6.tsx"],"author":"unknown","credit":false,"game":"BN6","preview":"Gate_sky2_exe6.png"},
+{"name":"Sky Area 2 Undernet Gate","type":"object","files":["Gate_sky2_exe6.png","Gate_sky2_exe6.tsx"],"author":"Claris","credit":false,"game":"BN6","preview":"Gate_sky2_exe6.png"},
 {"name":"Server Warp Pads","files":["DungeonServerWarpPads.png","DungeonServerWarpPads.tsx"],"author":"Claris","credit":false,"game":"BN6","preview":"DungeonServerWarpPads.png"},
 {"name":"Net Square Stairs","files":["Netopia_Stairs.png","Netopia_Stairs.tsx"],"author":"Claris","credit":false,"game":"BN2","preview":"Netopia_Stairs.png"},
-{"name":"Libertaion Compatible Walls","type":"object","files":["lib_tileset_panels.png","lib_tileset_panels.tsx"],"author":"Quetzen","credit":false,"game":"BN5","preview":"lib_tileset_panels.png"},
-{"name":"liberation Compatible Tileset","type":"tile","files":["lib_tileset.png","lib_tileset.tsx"],"author":"Quetzen","credit":false,"game":"BN5","preview":"lib_tileset.png"},
-{"name":"Libertaion Panel Tile","type":"tile","files":["panel base.png","panel base.tsx"],"author":"unknown","credit":false,"game":"BN5","preview":"panel base.png"},
+{"name":"Liberation Compatible Walls","type":"object","files":["lib_tileset_panels.png","lib_tileset_panels.tsx"],"author":"Quetzen","credit":false,"game":"BN5","preview":"lib_tileset_panels.png"},
+{"name":"Liberation Compatible Tileset","type":"tile","files":["lib_tileset.png","lib_tileset.tsx"],"author":"Quetzen","credit":false,"game":"BN5","preview":"lib_tileset.png"},
+{"name":"Liberation Compatible Dark Arrow","type":"tile","files":["DarkLiberationArrow.png","DarkLiberationArrow.tsx"],"author":"Quetzen","credit":true,"game":"BN5","preview":"DarkLiberationArrow.png"},
+{"name":"Liberation Compatible Arrow","files":["LiberationArrow.png","LiberationArrow.tsx"],"author":"unknown","credit":false,"game":"Other","preview":"LiberationArrow.png"},
+{"name":"Liberation Compatible Dark Stairs","type":"tile","files":["DarkLiberationRamp.png","DarkLiberationRamp.tsx"],"author":"Quetzen","credit":true,"game":"BN5","preview":"DarkLiberationRamp.png"},
+{"name":"Liberation Compatible Stairs","type":"tile","files":["LiberationRamp.png","LiberationRamp.tsx"],"author":"Quetzen","credit":true,"game":"BN5","preview":"LiberationRamp.png"},
+{"name":"Liberation Panels","type":"object","files":["panels.png","panels.tsx"],"author":"unknown","credit":false,"game":"BN5","preview":"panels.png"},
+{"name":"Liberation Panel Tile","type":"tile","files":["panel base.png","panel base.tsx"],"author":"unknown","credit":false,"game":"BN5","preview":"panel base.png"},
 {"name":"ACDC Tree","type":"object","files":["ACDC Tree.tsx","ACDC Tree.png"],"author":"unknown","credit":false,"game":"BN5","preview":"ACDC Tree.png"},
 {"name":"Bug Frag Trader","type":"object","files":["BugFragTrader_exe3.png","BugFragTrader.tsx"],"author":"unknown","credit":false,"game":"BN3","preview":"BugFragTrader_exe3.png"},
 {"name":"Breaker Moon Tiles","type":"tile","files":["BreakerMoonAnimated.png","BreakerMoonAnimated.tsx"],"author":"DigitalL33T","credit":false,"game":"Other","preview":"BreakerMoonAnimated.png"},
@@ -97,21 +104,41 @@ let allData = [
 {"name":"Secret Area Tiles (2 of 2)","type":"tile","files":["Secret_Area_Prettified_Walkways.tsx","Secret_Area_Prettified_Walkways.png"],"author":"Claris","credit":false,"game":"BN3","preview":"Secret_Area_Prettified_Walkways.png"},
 {"name":"Secret Area Warp","type":"object","files":["Secret_Area_Warp.tsx","Secret_Area_Warp.png"],"author":"Claris","credit":false,"game":"BN3","preview":"Secret_Area_Warp.png"},
 {"name":"Secret Area Arrow","type":"object","files":["Secret_Net_Arrows.tsx","Secret_Net_Arrows.png"],"author":"Claris","credit":false,"game":"BN3","preview":"Secret_Net_Arrows.png"},
+{"name":"ACDC Generic House (1 of 7)","files":["House A.png","House A.tsx"],"author":"Claris","credit":true,"game":"Other","preview":"House A.png"},
+{"name":"ACDC Generic House (2 of 7)","files":["House B.png","House B.tsx"],"author":"Claris","credit":true,"game":"Other","preview":"House B.png"},
+{"name":"ACDC Generic House (3 of 7)","files":["House C.png","House C.tsx"],"author":"Claris","credit":true,"game":"Other","preview":"House C.png"},
+{"name":"ACDC Generic House (4 of 7)","files":["House D.png","House D.tsx"],"author":"Claris","credit":true,"game":"Other","preview":"House D.png"},
+{"name":"ACDC Generic House (5 of 7)","files":["House E.png","House E.tsx"],"author":"Claris","credit":true,"game":"Other","preview":"House E.png"},
+{"name":"ACDC Generic House (6 of 7)","files":["House F.png","House F.tsx"],"author":"Claris","credit":true,"game":"Other","preview":"House F.png"},
+{"name":"ACDC Generic House (7 of 7)","files":["Higsby's But Not.png","Higsby's But Not.tsx"],"author":"Claris","credit":true,"game":"Other","preview":"Higsby's But Not.png"},
+{"name":"ACDC Dex House","files":["MC House Dex.png","MC House Dex.tsx"],"author":"Claris","credit":true,"game":"BN5","preview":"MC House Dex.png"},
+{"name":"ACDC Lan House","files":["MC House Lan.png","MC House Lan.tsx"],"author":"Claris","credit":true,"game":"BN5","preview":"MC House Lan.png"},
+{"name":"ACDC Mayl House","files":["MC House Meiru.png","MC House Meiru.tsx"],"author":"Claris","credit":true,"game":"BN5","preview":"MC House Meiru.png"},
+{"name":"ACDC Metro","files":["Metro Building.png","Metro Building.tsx"],"author":"Claris","credit":true,"game":"BN5","preview":"Metro Building.png"},
+{"name":"ACDC Squirrel","files":["Squirrel.png","Squirrel.tsx"],"author":"Claris","credit":true,"game":"Other","preview":"Squirrel.png"},
+{"name":"ACDC Bus Stop","files":["Bus Stop.png","Bus Stop.tsx"],"author":"Claris","credit":true,"game":"Other","preview":"Bus Stop.png"},
+{"name":"ACDC Elephant Slide","files":["Elephant Slide.png","Elephant Slide.tsx"],"author":"Claris","credit":true,"game":"Other","preview":"Elephant Slide.png"},
+{"name":"ACDC Park Bench","files":["Park Bench.png","Park Bench.tsx"],"author":"Claris","credit":true,"game":"Other","preview":"Park Bench.png"},
+{"name":"ACDC Play Dome","files":["Play Dome.png","Play Dome.tsx"],"author":"Claris","credit":true,"game":"Other","preview":"Play Dome.png"},
+{"name":"Cyber Elephant Slide","files":["Cyber Elephant Slide.png","Cyber Elephant Slide.tsx"],"author":"Claris","credit":true,"game":"Other","preview":"Cyber Elephant Slide.png"},
+{"name":"Cyber Play Dome","files":["Cyber Play Dome.png","Cyber Play Dome.tsx"],"author":"Claris","credit":true,"game":"Other","preview":"Cyber Play Dome.png"},
+{"name": "Chip Traders","files": ["Traders.png","Traders.tsx"],"author": "unknown","BlaXun": false,"game": "Other","preview": "Traders.png"},
+
 
 
 /*
+
 {"name":"","type":"","files":["",""],"author":"unknown","credit":false,"game":"","preview":""},
 "type":"object",
 "type":"tile",
+
 */
 
 /*
 These need work
 {"name":"Den Area Map Board (lower)","type":"object","files":["denArea2MapBoard.png","denArea2MapBoard.tsx"],"author":"unknown","credit":false,"game":"Other","preview":"denArea2MapBoard.png"},
 {"name":"Den Area Map Board (upper)","type":"object","files":["denArea2MapBoard2.png","denArea2MapBoard2.tsx"],"author":"unknown","credit":false,"game":"Other","preview":"denArea2MapBoard2.png"},
-*/
 
-/*
 missing TSX
 {"name":"ElectricLock_exe5","files":["ElectricLock_exe5.png"],"author":"unknown","credit":false,"game":"BN5","preview":"ElectricLock_exe5.png"},
 

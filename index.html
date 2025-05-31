@@ -330,7 +330,7 @@
           <div class="details">
             <p><strong>Author: </strong> <span id="detail-author">—</span></p>
             <p><strong>Game: </strong> <span id="detail-game">—</span></p>
-            <p><strong>Credit: </strong> <span id="detail-permission">—</span></p>
+            <p><strong>Credit Required: </strong> <span id="detail-permission">—</span></p>
             <button id="download-single" disabled>Download This Set</button>
           </div>
         </div>
@@ -399,6 +399,8 @@
   <script>
   $(function(){
     
+    /* Initialize File List and Parameters */
+
     let currentTab = 'tiles';
     let sortField = null;
     let sortAsc = true;
@@ -477,6 +479,8 @@
       renderList();
     });
 
+/* Functions to Build Filters */
+
 function buildFilterOptions(){
   const games = ["BN1","BN2","BN3","BN4","BN4.5","BN5","BN6","LoN","PoN","Shanghai","Custom"];
   const $game = $('.filter[data-filter=game] .dropdown');
@@ -515,541 +519,551 @@ function buildFilterOptions(){
   $('.dropdown input').on('change', ()=>{ renderList(); updateClearButton(); });
 }
 
-    function getFilters(){
-      const games = $('.filter[data-filter=game] .dropdown input:checked').map((i,e)=>e.value).get();
-      const type = $('.filter[data-filter=type] .dropdown input:checked').val();
-      const authors = $('.filter[data-filter=author] .dropdown input:checked').map((i,e)=>e.value).get();
-      const searchTerm = $('#search-input').val().toLowerCase();
-      return { games, type, authors, searchTerm };
-    }
+function getFilters(){
+  const games = $('.filter[data-filter=game] .dropdown input:checked').map((i,e)=>e.value).get();
+  const type = $('.filter[data-filter=type] .dropdown input:checked').val();
+  const authors = $('.filter[data-filter=author] .dropdown input:checked').map((i,e)=>e.value).get();
+  const searchTerm = $('#search-input').val().toLowerCase();
+  return { games, type, authors, searchTerm };
+}
 
-    function updateClearButton(){
-    const {games,type,authors,searchTerm} = getFilters();
-    const any = games.length>0 || authors.length>0 || type !== 'both' || searchTerm !== '';
-    $('#clear-filters').prop('disabled', !any);
-    }
+function updateClearButton(){
+const {games,type,authors,searchTerm} = getFilters();
+const any = games.length>0 || authors.length>0 || type !== 'both' || searchTerm !== '';
+$('#clear-filters').prop('disabled', !any);
+}
 
-    function renderList(){
-      const {games,type,authors,searchTerm} = getFilters();
-      let currentData;
-      
-      if(currentTab === 'tiles') {
-        currentData = allData;
-      } else if(currentTab === 'backgrounds') {
-        currentData = allBackgrounds;
-      } else if(currentTab === 'music') {
-        currentData = allMusic;
-      }
-      
-      let rows = currentData.filter(item=>{
-        if(games.length && !games.includes(item.game)) return false;
-        if(authors.length && !authors.includes(item.author)) return false;
-        if(type!=='both' && item.type!==type && currentTab !== 'music') return false;
-        if(searchTerm && !item.name.toLowerCase().includes(searchTerm)) return false;
-        return true;
+/* Functions to Render File Lists and File Previews */
+
+function renderList(){
+  const {games,type,authors,searchTerm} = getFilters();
+  let currentData;
+  
+  if(currentTab === 'tiles') {
+    currentData = allData;
+  } else if(currentTab === 'backgrounds') {
+    currentData = allBackgrounds;
+  } else if(currentTab === 'music') {
+    currentData = allMusic;
+  }
+  
+  let rows = currentData.filter(item=>{
+    if(games.length && !games.includes(item.game)) return false;
+    if(authors.length && !authors.includes(item.author)) return false;
+    if(type!=='both' && item.type!==type && currentTab !== 'music') return false;
+    if(searchTerm && !item.name.toLowerCase().includes(searchTerm)) return false;
+    return true;
+  });
+  
+  if(sortField) {
+    rows.sort((a,b)=>{
+      const av = a[sortField].toLowerCase();
+      const bv = b[sortField].toLowerCase();
+      return (av < bv ? -1 : av > bv ? 1 : 0) * (sortAsc?1:-1);
+    });
+  }
+  
+  const $tb = $(`#${currentTab}-content table.file-list tbody`).empty();
+  
+  rows.forEach(it=>{
+    if(currentTab === 'music') {
+      $tb.append(
+        `<tr>
+          <td><input type="checkbox" class="sel"/></td>
+          <td><button class="music-play-btn">▶</button></td>
+          <td>${it.name}</td>
+          <td>${it.game}</td>
+          <td>${it.author}</td>
+        </tr>`
+      );
+    } else {
+      $tb.append(
+        `<tr><td><input type="checkbox" class="sel"/></td><td>${it.name}</td><td>${it.game}</td><td>${it.author}</td></tr>`
+      );
+    }
+  });
+  
+  // Set up row click handlers based on current tab
+  if(currentTab === 'music') {
+      $(`#${currentTab}-content table.file-list tbody tr`).on('click', function(e){
+        if($(e.target).hasClass('music-play-btn') || $(e.target).hasClass('sel')) return;
+        
+        $('table.file-list tr').removeClass('selected');
+        $(this).addClass('selected');
+        //add
+        showMusicPreview(rows[$(this).index()]);
+        
       });
       
-      if(sortField) {
-        rows.sort((a,b)=>{
-          const av = a[sortField].toLowerCase();
-          const bv = b[sortField].toLowerCase();
-          return (av < bv ? -1 : av > bv ? 1 : 0) * (sortAsc?1:-1);
-        });
-      }
-      
-      const $tb = $(`#${currentTab}-content table.file-list tbody`).empty();
-      
-      rows.forEach(it=>{
-        if(currentTab === 'music') {
-          $tb.append(
-            `<tr>
-              <td><input type="checkbox" class="sel"/></td>
-              <td><button class="music-play-btn">▶</button></td>
-              <td>${it.name}</td>
-              <td>${it.game}</td>
-              <td>${it.author}</td>
-            </tr>`
-          );
-        } else {
-          $tb.append(
-            `<tr><td><input type="checkbox" class="sel"/></td><td>${it.name}</td><td>${it.game}</td><td>${it.author}</td></tr>`
-          );
-        }
-      });
-      
-      // Set up row click handlers based on current tab
-      if(currentTab === 'music') {
-          $(`#${currentTab}-content table.file-list tbody tr`).on('click', function(e){
-            if($(e.target).hasClass('music-play-btn') || $(e.target).hasClass('sel')) return;
-            
-            $('table.file-list tr').removeClass('selected');
-            $(this).addClass('selected');
-            //add
-            showMusicPreview(rows[$(this).index()]);
-            
-          });
-          
-          // Music play button handler
-          $(`#${currentTab}-content .music-play-btn`).on('click', function(e){
-            e.stopPropagation();
-            const $row = $(this).closest('tr');
-            const index = $row.index();
-            const item = rows[index];
-            
-            if(currentlyPlayingRow && currentlyPlayingRow[0] === $row[0]) {
-              // Toggle play/pause for current track
-              if(currentAudio.paused) {
-                currentAudio.play();
-                $(this).text('❚❚');
-                $('#play-btn').text('❚❚');
-              } else {
-                currentAudio.pause();
-                $(this).text('▶');
-                $('#play-btn').text('▶');
-              }
-            } else {
-              // New track selected
-              if(currentlyPlayingRow) {
-                currentlyPlayingRow.find('.music-play-btn').text('▶');
-              }
-              currentlyPlayingRow = $row;
-              $(this).text('❚❚');
-              $('#play-btn').text('❚❚');
-              showMusicPreview(item);
-              currentAudio.play();
-            }
-          });
-      } else {
-        $(`#${currentTab}-content table.file-list tbody tr`).on('click', function(e){
-          if(e.target.type==='checkbox') return;
-          $('table.file-list tr').removeClass('selected');
-          $(this).addClass('selected');
-          if(currentTab === 'tiles') {
-            showPreview(rows[$(this).index()]);
-          } else if(currentTab === 'backgrounds') {
-            showBackgroundPreview(rows[$(this).index()]);
+      // Music play button handler
+      $(`#${currentTab}-content .music-play-btn`).on('click', function(e){
+        e.stopPropagation();
+        const $row = $(this).closest('tr');
+        const index = $row.index();
+        const item = rows[index];
+        
+        if(currentlyPlayingRow && currentlyPlayingRow[0] === $row[0]) {
+          // Toggle play/pause for current track
+          if(currentAudio.paused) {
+            currentAudio.play();
+            $(this).text('❚❚');
+            $('#play-btn').text('❚❚');
+          } else {
+            currentAudio.pause();
+            $(this).text('▶');
+            $('#play-btn').text('▶');
           }
-        });
-      }
-      
-      $('.sel').on('change', ()=>{
-        $('#download-selected').prop('disabled', $('.sel:checked').length===0);
-      });
-      
-      $('#download-selected').off().on('click', ()=>{
-        const checked = $('.sel:checked').closest('tr').map((i,tr)=>rows[$(tr).index()]).get();
-        downloadMultiple(checked);
-      });
-      
-      // reset preview based on current tab
-      if(currentTab === 'tiles') {
-        $('#preview-image').attr('src','');
-        $('#detail-author,#detail-game,#detail-permission').text('—');
-        $('#download-single').prop('disabled', true).off();
-      } else if(currentTab === 'backgrounds') {
-        //$('#preview-image-bg').attr('src','');
-        $('#detail-author-bg,#detail-game-bg,#detail-permission-bg,#detail-velx-bg,#detail-vely-bg').text('—');
-        $('#download-single-bg').prop('disabled', true).off();
-      } else if(currentTab === 'music') {
-        if(currentAudio) {
-          currentAudio.pause();
-          currentAudio = null;
+        } else {
+          // New track selected
+          if(currentlyPlayingRow) {
+            currentlyPlayingRow.find('.music-play-btn').text('▶');
+          }
+          currentlyPlayingRow = $row;
+          $(this).text('❚❚');
+          $('#play-btn').text('❚❚');
+          showMusicPreview(item);
+          currentAudio.play();
         }
-        $('#detail-author-music,#detail-game-music,#detail-permission-music').text('—');
-        $('#download-single-music').prop('disabled', true).off();
-        $('#current-time, #duration').text('0:00');
-        $('#audio-timeline').val(0);
+      });
+  } else {
+    $(`#${currentTab}-content table.file-list tbody tr`).on('click', function(e){
+      if(e.target.type==='checkbox') return;
+      $('table.file-list tr').removeClass('selected');
+      $(this).addClass('selected');
+      if(currentTab === 'tiles') {
+        showPreview(rows[$(this).index()]);
+      } else if(currentTab === 'backgrounds') {
+        showBackgroundPreview(rows[$(this).index()]);
       }
+    });
+  }
+  
+  $('.sel').on('change', ()=>{
+    $('#download-selected').prop('disabled', $('.sel:checked').length===0);
+  });
+  
+  $('#download-selected').off().on('click', ()=>{
+    const checked = $('.sel:checked').closest('tr').map((i,tr)=>rows[$(tr).index()]).get();
+    downloadMultiple(checked);
+  });
+  
+  // reset preview based on current tab
+  if(currentTab === 'tiles') {
+    $('#preview-image').attr('src','');
+    $('#detail-author,#detail-game,#detail-permission').text('—');
+    $('#download-single').prop('disabled', true).off();
+  } else if(currentTab === 'backgrounds') {
+    //$('#preview-image-bg').attr('src','');
+    $('#detail-author-bg,#detail-game-bg,#detail-permission-bg,#detail-velx-bg,#detail-vely-bg').text('—');
+    $('#download-single-bg').prop('disabled', true).off();
+  } else if(currentTab === 'music') {
+    if(currentAudio) {
+      currentAudio.pause();
+      currentAudio = null;
     }
+    $('#detail-author-music,#detail-game-music,#detail-permission-music').text('—');
+    $('#download-single-music').prop('disabled', true).off();
+    $('#current-time, #duration').text('0:00');
+    $('#audio-timeline').val(0);
+  }
+}
 
-    function showPreview(item){
+function showPreview(item){
       const imgPath = 'files/'+item.preview;
       const tsxPath = imgPath.replace('.png','.tsx');
       animateTSX(tsxPath, ".preview-animated");
       $('#preview-image').attr('src', imgPath).css({transform: ''});
       $('#detail-author').text(item.author);
       $('#detail-game').text(item.game);
-      $('#detail-permission').text(item.credit ? 'Yes, please provide credit.' : 'No credit required.');
+      $('#detail-permission').text(item.credit ? 'Yes, please provide credit.' : 'Unknown at this time.');
       $('#download-single').prop('disabled', false).off().on('click', ()=>downloadMultiple([item]));
     }
-    /* Functions for Background Animation */
+    
+/* Functions for Background Animation */
 
-        let animationFrames = [];
-        let currentFrameIndex = 0;
-        let lastFrameTime = 0;
-        let frameDuration = 0;
-        let spriteWidth = 0;
-        let spriteHeight = 0;
-        let xVelocity = 0;
-        let yVelocity = 0;
-        let xOffset = 0;
-        let yOffset = 0;
-        let animationId = null;
-        let spriteImage = null;
-        let container = null;
+let animationFrames = [];
+let currentFrameIndex = 0;
+let lastFrameTime = 0;
+let frameDuration = 0;
+let spriteWidth = 0;
+let spriteHeight = 0;
+let xVelocity = 0;
+let yVelocity = 0;
+let xOffset = 0;
+let yOffset = 0;
+let animationId = null;
+let spriteImage = null;
+let container = null;
 
-        function createAnimatedBackground(animationFile, xVel, yVel) {
-            xVelocity = xVel;
-            yVelocity = yVel;
-            
-            // Clear any existing animation
-            if (animationId) {
-                cancelAnimationFrame(animationId);
-                animationId = null;
-            }
-            
-            // Clear container
-            container = $('#preview-image-bg');
-            container.empty();
-            
-            // Load the animation file
-            fetch(animationFile)
-                .then(response => response.text())
-                .then(parseAnimationFile)
-                .then(loadSpriteImage)
-                .catch(error => console.error('Error:', error));
-        }
-
-        function parseAnimationFile(data) {
-            // Reset animation data
-            animationFrames = [];
-            currentFrameIndex = 0;
-            lastFrameTime = 0;
-            
-            // Parse the animation file
-            const lines = data.split('\n');
-            let imagePath = '';
-            
-            for (const line of lines) {
-                if (line.includes('imagePath=')) {
-                    imagePath = line.split('"')[1];
-                } else if (line.includes('frame duration=')) {
-                    const parts = line.split(' ');
-                    const frame = {
-                        duration: parseFloat(parts[1].split('"')[1]),
-                        x: parseInt(parts[2].split('"')[1]),
-                        y: parseInt(parts[3].split('"')[1]),
-                        w: parseInt(parts[4].split('"')[1]),
-                        h: parseInt(parts[5].split('"')[1]),
-                        originx: parseInt(parts[6].split('"')[1]),
-                        originy: parseInt(parts[7].split('"')[1]),
-                        flipx: parseInt(parts[8].split('"')[1]),
-                        flipy: parseInt(parts[9].split('"')[1])
-                    };
-                    animationFrames.push(frame);
-                }
-            }
-            
-            if (animationFrames.length === 0) {
-                throw new Error('No animation frames found in file');
-            }
-            
-            // Set initial sprite dimensions from first frame
-            spriteWidth = animationFrames[0].w;
-            spriteHeight = animationFrames[0].h;
-            xVelocity = xVelocity * -1 * 200 * spriteWidth/120
-            yVelocity = yVelocity * -1 * 200 * spriteWidth/120
-
-            frameDuration = animationFrames[0].duration;
-            
-            return imagePath;
-        }
-
-        function loadSpriteImage(imagePath) {
-            return new Promise((resolve, reject) => {
-                spriteImage = new Image();
-                spriteImage.onload = () => {
-                    createTiles();
-                    resolve();
-                };
-                spriteImage.onerror = () => {
-                    reject(new Error('Failed to load sprite image'));
-                };
-                spriteImage.src = 'files/'+imagePath;
-            });
-        }
-
-        function createTiles() {
-            const containerWidth = container.width();
-            const containerHeight = container.height();
-            
-            // Calculate how many tiles we need in each direction
-            const tilesX = Math.ceil(containerWidth / spriteWidth) + 2;
-            const tilesY = Math.ceil(containerHeight / spriteHeight) + 2;
-            
-            // Create tiles
-            for (let y = -1; y < tilesY; y++) {
-                for (let x = -1; x < tilesX; x++) {
-                    const tile = $('<div class="tile"></div>');
-                    tile.css({
-                        '--sprite-sheet': `url(${spriteImage.src})`,
-                        '--sprite-w': `${spriteWidth}px`,
-                        '--sprite-h': `${spriteHeight}px`,
-                        'left': `${x * spriteWidth}px`,
-                        'top': `${y * spriteHeight}px`
-                    });
-                    container.append(tile);
-                }
-            }
-            
-            // Start animation loop
-            lastFrameTime = performance.now();
-            animationId = requestAnimationFrame(animate);
-        }
-
-        function animate(timestamp) {
-            // Calculate time since last frame
-            const deltaTime = (timestamp - lastFrameTime) / 1000; // in seconds
-            lastFrameTime = timestamp;
-            
-            // Update animation frame if needed
-            frameDuration -= deltaTime;
-            if (frameDuration <= 0) {
-                currentFrameIndex = (currentFrameIndex + 1) % animationFrames.length;
-                const frame = animationFrames[currentFrameIndex];
-                frameDuration = frame.duration;
-                
-                // Update all tiles with new sprite position
-                $('.tile').css('--sprite-pos', `-${frame.x}px -${frame.y}px`);
-            }
-            // Update position based on velocity
-            xOffset = (xOffset + xVelocity * deltaTime) % spriteWidth;
-            yOffset = (yOffset + yVelocity * deltaTime) % spriteHeight;
-
-            // Position tiles to create infinite scroll
-            const containerWidth = container.width();
-            const containerHeight = container.height();
-            const tilesX = Math.ceil(containerWidth / spriteWidth) + 2;
-            const tilesY = Math.ceil(containerHeight / spriteHeight) + 2;
-            
-            let tileIndex = 0;
-            for (let y = -1; y < tilesY; y++) {
-                for (let x = -1; x < tilesX; x++) {
-                    const tile = $('.tile').eq(tileIndex);
-                    tile.css({
-                        'left': `${x * spriteWidth - xOffset}px`,
-                        'top': `${y * spriteHeight - yOffset}px`
-                    });
-                    tileIndex++;
-                }
-            }
-            
-            // Continue animation loop
-            animationId = requestAnimationFrame(animate);
-        }
-
-    /* End Functions for Background Animation */
-    function showBackgroundPreview(item){
-
-      const imgPath = 'files/'+item.preview;
-      $('#preview-image-bg').attr('src','#');
-      $('#detail-author-bg').text(item.author);
-      $('#detail-game-bg').text(item.game);
-      $('#detail-velx-bg').text(item.velx !== undefined ? item.velx : '—');
-      $('#detail-vely-bg').text(item.vely !== undefined ? item.vely : '—');
-      createAnimatedBackground('files/'+item.preview, item.velx, item.vely);
-      $('#detail-permission-bg').text(item.credit ? 'Yes, please provide credit.' : 'No credit required.');
-      $('#download-single-bg').prop('disabled', false).off().on('click', ()=>downloadMultiple([item]));
+function createAnimatedBackground(animationFile, xVel, yVel) {
+    xVelocity = xVel;
+    yVelocity = yVel;
+    
+    // Clear any existing animation
+    if (animationId) {
+        cancelAnimationFrame(animationId);
+        animationId = null;
     }
     
-    function showMusicPreview(item){
-      if(currentAudio) {
-        currentAudio.pause();
-        currentAudio = null;
-      }
-      
-      $('#detail-title-music').text(item.name);
-      $('#detail-author-music').text(item.author);
-      $('#detail-game-music').text(item.game);
-      $('#detail-permission-music').text(item.credit ? 'Yes, please provide credit.' : 'No credit required.');
-      $('#download-single-music').prop('disabled', false).off().on('click', ()=>downloadMultiple([item]));
-      
-      const audioPath = 'music/'+item.files[0];
-      
-      currentAudio = new Audio(audioPath);
-      currentAudio.volume = .05;
-      // Set up audio player controls
-      $('#play-btn').off().on('click', function(){
-        if(currentAudio.paused) {
-          currentAudio.play();
-          $(this).text('❚❚');
-          $('#play-btn').text('❚❚');
-          if(currentlyPlayingRow) {
-            currentlyPlayingRow.find('.music-play-btn').text('❚❚');
-          }
-        } else {
-          currentAudio.pause();
-          $(this).text('▶');
-          $('#play-btn').text('▶');
-          if(currentlyPlayingRow) {
-            currentlyPlayingRow.find('.music-play-btn').text('▶');
-          }
-        }
-      });
-      
-      currentAudio.addEventListener('timeupdate', function(){
-        const currentTime = formatTime(currentAudio.currentTime);
-        const duration = formatTime(currentAudio.duration);
-        $('#current-time').text(currentTime);
-        $('#duration').text(duration);
-        const progress = (currentAudio.currentTime / currentAudio.duration) * 100;
-        $('#audio-timeline').val(progress || 0);
-      });
-      
-      $('#audio-timeline').off().on('input', function(){
-        const seekTime = (currentAudio.duration * $(this).val()) / 100;
-        currentAudio.currentTime = seekTime;
-      });
-      
-      currentAudio.addEventListener('ended', function(){
-        $('#play-btn').text('▶');
-        if(currentlyPlayingRow) {
-          currentlyPlayingRow.find('.music-play-btn').text('▶');
-        }
-      });
-    }
+    // Clear container
+    container = $('#preview-image-bg');
+    container.empty();
     
-    function formatTime(seconds) {
-      const mins = Math.floor(seconds / 60);
-      const secs = Math.floor(seconds % 60);
-      return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
-    }
+    // Load the animation file
+    fetch(animationFile)
+        .then(response => response.text())
+        .then(parseAnimationFile)
+        .then(loadSpriteImage)
+        .catch(error => console.error('Error:', error));
+}
 
-    /* Function to Animate TSC files */
-
-    function animateTSX(tsxUrl, containerSelector) {
-      $(".preview-animated").empty();
-      // 1) Fetch TSX via AJAX as XML
-      $.ajax({
-        url: tsxUrl,
-        dataType: 'xml'
-      }).done(function(xml) {
-        // 2) Parse <tileset> attributes
-        var $tileset = $(xml).find('tileset').first();
-        var tileWidth  = parseInt($tileset.attr('tilewidth'), 10);
-        var tileHeight = parseInt($tileset.attr('tileheight'), 10);
-        var columns    = parseInt($tileset.attr('columns'), 10);
-
-        // 3) Get <image> source (relative path inside TSX)
-        var imageSource = $tileset.find('image').attr('source');
-
-        // Compute base path of TSX, so we can resolve the image path:
-        //  e.g. if tsxUrl = 'assets/Beach Arrows.tsx' → base = 'assets/'
-        var lastSlashIndex = tsxUrl.lastIndexOf('/');
-        var basePath = (lastSlashIndex >= 0) 
-                        ? tsxUrl.substr(0, lastSlashIndex + 1) 
-                        : '';
-        var imagePath = basePath + imageSource;
-
-        // 4) Find every <tile> that has an <animation> child
-        var $tiles = $(xml).find('tile').filter(function() {
-          return $(this).find('animation').length > 0;
-        });
-
-        // If no animations found, do nothing (or you could show a console warning)
-        if ($tiles.length === 0) {
-          //console.warn('No animated tiles found in TSX:', tsxUrl);
-          return;
-        }
-        /*
-        else{
-              console.log("Found frames.")
-              $("#preview-image").attr("src","");
-            }
-        */
-
-        // 5) For each animated tile, build its frame list & durations, then create a DIV
-        $tiles.each(function() {
-          var $tile = $(this);
-          var animationFrames = [];
-          // Collect each <frame> under <animation>
-          $tile.find('animation > frame').each(function() {
-            var tileId = parseInt($(this).attr('tileid'), 10);
-            var dur    = parseInt($(this).attr('duration'), 10);
-            animationFrames.push({ tileid: tileId, duration: dur });
-          });
-
-          // Create a wrapper DIV for this single animation, float left
-          var $animDiv = $('<div>')
-            .css({
-              'margin':'2px',
-              'float': 'left',
-              'zoom':'200%',
-              'width': tileWidth + 'px',
-              'height': tileHeight + 'px',
-              'overflow': 'hidden',
-              'background-image': 'url("' + imagePath + '")',
-              'background-repeat': 'no-repeat'
-            });
-
-          // Append to container
-          $(".preview-animated").append($animDiv);
-         // $(".preview-animated").css({'height': tileHeight + 'px'});
-
-          // Precompute the background-position coordinates for each frame
-          var frameBgs = animationFrames.map(function(frame) {
-            var id = frame.tileid;
-            var cx = (id % columns) * tileWidth;
-            var cy = Math.floor(id / columns) * tileHeight;
-            // background-position needs negative offsets
-            return {
-              posX: -cx,
-              posY: -cy,
-              duration: frame.duration
+function parseAnimationFile(data) {
+    // Reset animation data
+    animationFrames = [];
+    currentFrameIndex = 0;
+    lastFrameTime = 0;
+    
+    // Parse the animation file
+    const lines = data.split('\n');
+    let imagePath = '';
+    
+    for (const line of lines) {
+        if (line.includes('imagePath=')) {
+            imagePath = line.split('"')[1];
+        } else if (line.includes('frame duration=')) {
+            const parts = line.split(' ');
+            const frame = {
+                duration: parseFloat(parts[1].split('"')[1]),
+                x: parseInt(parts[2].split('"')[1]),
+                y: parseInt(parts[3].split('"')[1]),
+                w: parseInt(parts[4].split('"')[1]),
+                h: parseInt(parts[5].split('"')[1]),
+                originx: parseInt(parts[6].split('"')[1]),
+                originy: parseInt(parts[7].split('"')[1]),
+                flipx: parseInt(parts[8].split('"')[1]),
+                flipy: parseInt(parts[9].split('"')[1])
             };
-          });
-
-          // 6) Start cycling through frames (using recursive setTimeout so durations can vary)
-          var idx = 0;
-          function showNextFrame() {
-            var fb = frameBgs[idx];
-            // Move the background so that the correct tile shows
-            $animDiv.css('background-position', fb.posX + 'px ' + fb.posY + 'px');
-            // Schedule next frame
-            var nextIndex = (idx + 1) % frameBgs.length;
-            setTimeout(function() {
-              idx = nextIndex;
-              showNextFrame();
-            }, fb.duration);
-          }
-          // Kick off the animation loop
-          showNextFrame();
-        });
-      }).fail(function(jqXHR, status, err) {
-        console.error('Failed to load TSX:', tsxUrl, status, err);
-      });
+            animationFrames.push(frame);
+        }
     }
+    
+    if (animationFrames.length === 0) {
+        throw new Error('No animation frames found in file');
+    }
+    
+    // Set initial sprite dimensions from first frame
+    spriteWidth = animationFrames[0].w;
+    spriteHeight = animationFrames[0].h;
+    xVelocity = xVelocity * -1 * 200 * spriteWidth/120
+    yVelocity = yVelocity * -1 * 200 * spriteWidth/120
 
-    // arrow key navigation
-    $(document).on('keydown', function(e){
-      if(e.key === 'ArrowDown' || e.key === 'ArrowUp'){
-        const $rows = $(`#${currentTab}-content table.file-list tbody tr`);
-        let idx = $rows.index($('tr.selected'));
-        if(idx < 0) idx = e.key==='ArrowDown' ? -1 : 0;
-        const nextIdx = e.key==='ArrowDown' ? Math.min(idx+1, $rows.length-1) : Math.max(idx-1, 0);
-        $rows.eq(nextIdx).trigger('click');
-        e.preventDefault();
-      }
+    frameDuration = animationFrames[0].duration;
+    
+    return imagePath;
+}
+
+function loadSpriteImage(imagePath) {
+    return new Promise((resolve, reject) => {
+        spriteImage = new Image();
+        spriteImage.onload = () => {
+            createTiles();
+            resolve();
+        };
+        spriteImage.onerror = () => {
+            reject(new Error('Failed to load sprite image'));
+        };
+        spriteImage.src = 'files/'+imagePath;
     });
+}
 
-    function downloadMultiple(items) {
-        const zip = new JSZip();
-        const promises = [];
+function createTiles() {
+    const containerWidth = container.width();
+    const containerHeight = container.height();
+    
+    // Calculate how many tiles we need in each direction
+    const tilesX = Math.ceil(containerWidth / spriteWidth) + 2;
+    const tilesY = Math.ceil(containerHeight / spriteHeight) + 2;
+    
+    // Create tiles
+    for (let y = -1; y < tilesY; y++) {
+        for (let x = -1; x < tilesX; x++) {
+            const tile = $('<div class="tile"></div>');
+            tile.css({
+                '--sprite-sheet': `url(${spriteImage.src})`,
+                '--sprite-w': `${spriteWidth}px`,
+                '--sprite-h': `${spriteHeight}px`,
+                'left': `${x * spriteWidth}px`,
+                'top': `${y * spriteHeight}px`
+            });
+            container.append(tile);
+        }
+    }
+    
+    // Start animation loop
+    lastFrameTime = performance.now();
+    animationId = requestAnimationFrame(animate);
+}
+
+function animate(timestamp) {
+    // Calculate time since last frame
+    const deltaTime = (timestamp - lastFrameTime) / 1000; // in seconds
+    lastFrameTime = timestamp;
+    
+    // Update animation frame if needed
+    frameDuration -= deltaTime;
+    if (frameDuration <= 0) {
+        currentFrameIndex = (currentFrameIndex + 1) % animationFrames.length;
+        const frame = animationFrames[currentFrameIndex];
+        frameDuration = frame.duration;
         
-        items.forEach(item => {
-            item.files.forEach(filename => {
-            promises.push(
-                fetch('assets/' + filename)
-                .then(response => response.blob())
-                .then(blob => zip.file(filename, blob))
-        )});
-        });
-        
-        Promise.all(promises)
-            .then(() => zip.generateAsync({type: 'blob'}))
-            .then(content => saveAs(content, 'files.zip'));
+        // Update all tiles with new sprite position
+        $('.tile').css('--sprite-pos', `-${frame.x}px -${frame.y}px`);
+    }
+    // Update position based on velocity
+    xOffset = (xOffset + xVelocity * deltaTime) % spriteWidth;
+    yOffset = (yOffset + yVelocity * deltaTime) % spriteHeight;
+
+    // Position tiles to create infinite scroll
+    const containerWidth = container.width();
+    const containerHeight = container.height();
+    const tilesX = Math.ceil(containerWidth / spriteWidth) + 2;
+    const tilesY = Math.ceil(containerHeight / spriteHeight) + 2;
+    
+    let tileIndex = 0;
+    for (let y = -1; y < tilesY; y++) {
+        for (let x = -1; x < tilesX; x++) {
+            const tile = $('.tile').eq(tileIndex);
+            tile.css({
+                'left': `${x * spriteWidth - xOffset}px`,
+                'top': `${y * spriteHeight - yOffset}px`
+            });
+            tileIndex++;
+        }
+    }
+    
+    // Continue animation loop
+    animationId = requestAnimationFrame(animate);
+}
+
+/* Function for Background Preview */
+
+function showBackgroundPreview(item){
+
+  const imgPath = 'files/'+item.preview;
+  $('#preview-image-bg').attr('src','#');
+  $('#detail-author-bg').text(item.author);
+  $('#detail-game-bg').text(item.game);
+  $('#detail-velx-bg').text(item.velx !== undefined ? item.velx : '—');
+  $('#detail-vely-bg').text(item.vely !== undefined ? item.vely : '—');
+  createAnimatedBackground('files/'+item.preview, item.velx, item.vely);
+  $('#detail-permission-bg').text(item.credit ? 'Yes, please provide credit.' : 'No credit required.');
+  $('#download-single-bg').prop('disabled', false).off().on('click', ()=>downloadMultiple([item]));
+}
+
+/* Function to Music Player */
+
+function showMusicPreview(item){
+  if(currentAudio) {
+    currentAudio.pause();
+    currentAudio = null;
+  }
+  
+  $('#detail-title-music').text(item.name);
+  $('#detail-author-music').text(item.author);
+  $('#detail-game-music').text(item.game);
+  $('#detail-permission-music').text(item.credit ? 'Yes, please provide credit.' : 'No credit required.');
+  $('#download-single-music').prop('disabled', false).off().on('click', ()=>downloadMultiple([item]));
+  
+  const audioPath = 'music/'+item.files[0];
+  
+  currentAudio = new Audio(audioPath);
+  currentAudio.volume = .05;
+  // Set up audio player controls
+  $('#play-btn').off().on('click', function(){
+    if(currentAudio.paused) {
+      currentAudio.play();
+      $(this).text('❚❚');
+      $('#play-btn').text('❚❚');
+      if(currentlyPlayingRow) {
+        currentlyPlayingRow.find('.music-play-btn').text('❚❚');
+      }
+    } else {
+      currentAudio.pause();
+      $(this).text('▶');
+      $('#play-btn').text('▶');
+      if(currentlyPlayingRow) {
+        currentlyPlayingRow.find('.music-play-btn').text('▶');
+      }
     }
   });
+  
+  currentAudio.addEventListener('timeupdate', function(){
+    const currentTime = formatTime(currentAudio.currentTime);
+    const duration = formatTime(currentAudio.duration);
+    $('#current-time').text(currentTime);
+    $('#duration').text(duration);
+    const progress = (currentAudio.currentTime / currentAudio.duration) * 100;
+    $('#audio-timeline').val(progress || 0);
+  });
+  
+  $('#audio-timeline').off().on('input', function(){
+    const seekTime = (currentAudio.duration * $(this).val()) / 100;
+    currentAudio.currentTime = seekTime;
+  });
+  
+  currentAudio.addEventListener('ended', function(){
+    $('#play-btn').text('▶');
+    if(currentlyPlayingRow) {
+      currentlyPlayingRow.find('.music-play-btn').text('▶');
+    }
+  });
+}
+
+function formatTime(seconds) {
+  const mins = Math.floor(seconds / 60);
+  const secs = Math.floor(seconds % 60);
+  return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+}
+
+/* Function to Animate TSX files */
+
+function animateTSX(tsxUrl, containerSelector) {
+  $(".preview-animated").empty();
+  // 1) Fetch TSX via AJAX as XML
+  $.ajax({
+    url: tsxUrl,
+    dataType: 'xml'
+  }).done(function(xml) {
+    // 2) Parse <tileset> attributes
+    var $tileset = $(xml).find('tileset').first();
+    var tileWidth  = parseInt($tileset.attr('tilewidth'), 10);
+    var tileHeight = parseInt($tileset.attr('tileheight'), 10);
+    var columns    = parseInt($tileset.attr('columns'), 10);
+
+    // 3) Get <image> source (relative path inside TSX)
+    var imageSource = $tileset.find('image').attr('source');
+
+    // Compute base path of TSX, so we can resolve the image path:
+    //  e.g. if tsxUrl = 'assets/Beach Arrows.tsx' → base = 'assets/'
+    var lastSlashIndex = tsxUrl.lastIndexOf('/');
+    var basePath = (lastSlashIndex >= 0) 
+                    ? tsxUrl.substr(0, lastSlashIndex + 1) 
+                    : '';
+    var imagePath = basePath + imageSource;
+
+    // 4) Find every <tile> that has an <animation> child
+    var $tiles = $(xml).find('tile').filter(function() {
+      return $(this).find('animation').length > 0;
+    });
+
+    // If no animations found, do nothing (or you could show a console warning)
+    if ($tiles.length === 0) {
+      //console.warn('No animated tiles found in TSX:', tsxUrl);
+      return;
+    }
+    /*
+    else{
+          console.log("Found frames.")
+          $("#preview-image").attr("src","");
+        }
+    */
+
+    // 5) For each animated tile, build its frame list & durations, then create a DIV
+    $tiles.each(function() {
+      var $tile = $(this);
+      var animationFrames = [];
+      // Collect each <frame> under <animation>
+      $tile.find('animation > frame').each(function() {
+        var tileId = parseInt($(this).attr('tileid'), 10);
+        var dur    = parseInt($(this).attr('duration'), 10);
+        animationFrames.push({ tileid: tileId, duration: dur });
+      });
+
+      // Create a wrapper DIV for this single animation, float left
+      var $animDiv = $('<div>')
+        .css({
+          'margin':'2px',
+          'float': 'left',
+          'zoom':'200%',
+          'width': tileWidth + 'px',
+          'height': tileHeight + 'px',
+          'overflow': 'hidden',
+          'background-image': 'url("' + imagePath + '")',
+          'background-repeat': 'no-repeat'
+        });
+
+      // Append to container
+      $(".preview-animated").append($animDiv);
+      // $(".preview-animated").css({'height': tileHeight + 'px'});
+
+      // Precompute the background-position coordinates for each frame
+      var frameBgs = animationFrames.map(function(frame) {
+        var id = frame.tileid;
+        var cx = (id % columns) * tileWidth;
+        var cy = Math.floor(id / columns) * tileHeight;
+        // background-position needs negative offsets
+        return {
+          posX: -cx,
+          posY: -cy,
+          duration: frame.duration
+        };
+      });
+
+      // 6) Start cycling through frames (using recursive setTimeout so durations can vary)
+      var idx = 0;
+      function showNextFrame() {
+        var fb = frameBgs[idx];
+        // Move the background so that the correct tile shows
+        $animDiv.css('background-position', fb.posX + 'px ' + fb.posY + 'px');
+        // Schedule next frame
+        var nextIndex = (idx + 1) % frameBgs.length;
+        setTimeout(function() {
+          idx = nextIndex;
+          showNextFrame();
+        }, fb.duration);
+      }
+      // Kick off the animation loop
+      showNextFrame();
+    });
+  }).fail(function(jqXHR, status, err) {
+    console.error('Failed to load TSX:', tsxUrl, status, err);
+  });
+}
+
+/* End Function to Animate TSX files */
+
+/* Arrow Key Navigation */
+$(document).on('keydown', function(e){
+  if(e.key === 'ArrowDown' || e.key === 'ArrowUp'){
+    const $rows = $(`#${currentTab}-content table.file-list tbody tr`);
+    let idx = $rows.index($('tr.selected'));
+    if(idx < 0) idx = e.key==='ArrowDown' ? -1 : 0;
+    const nextIdx = e.key==='ArrowDown' ? Math.min(idx+1, $rows.length-1) : Math.max(idx-1, 0);
+    $rows.eq(nextIdx).trigger('click');
+    e.preventDefault();
+  }
+});
+
+/* File Download Function */
+
+function downloadMultiple(items) {
+    const zip = new JSZip();
+    const promises = [];
+    
+    items.forEach(item => {
+        item.files.forEach(filename => {
+        promises.push(
+            fetch('assets/' + filename)
+            .then(response => response.blob())
+            .then(blob => zip.file(filename, blob))
+    )});
+    });
+    
+    Promise.all(promises)
+        .then(() => zip.generateAsync({type: 'blob'}))
+        .then(content => saveAs(content, 'files.zip'));
+}
+});
   </script>
 </body>
 </html>
