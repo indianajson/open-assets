@@ -12,6 +12,7 @@ let allMusic = [
     {"name": "Battle Theme","files": ["Battle Theme-BN1.ogg"], "author": "D3str0y3d","credit": false,"game": "BN1","duration": "1:44"},
     {"name": "Boss Theme","files": ["Boss Theme-BN1.ogg"], "author": "D3str0y3d","credit": false,"game": "BN1","duration": "1:30"},
     {"name": "Final Battle Theme","files": ["Finale Battle-BN1.ogg"], "author": "D3str0y3d","credit": false,"game": "BN1","duration": "1:49"},
+    {"name": "End Credits","files": ["BN1-End Roll.ogg"], "author": "D3str0y3d","credit": false,"game": "BN1","duration": "1:27"},
     {"name": "ACDC (Overworld)","files": ["ACDC Town-BN2.ogg"], "author": "D3str0y3d","credit": false,"game": "BN2","duration": "1:59"},
     {"name": "Okuden (Overworld)","files": ["BN2-Okuden.ogg"], "author": "D3str0y3d","credit": false,"game": "BN2","duration": "1:28"},
     {"name": "Marine Harbor (Overworld)","files": ["BN2-Marine Harbor.ogg"], "author": "D3str0y3d","credit": false,"game": "BN2","duration": "1:20"},
@@ -34,6 +35,9 @@ let allMusic = [
     {"name": "WWW Area","files": ["BN2-WWW Area.ogg"], "author": "D3str0y3d","credit": false,"game": "BN2","duration": "1:30"},
     {"name": "Battle Theme","files": ["BN2-Battle Theme.ogg"], "author": "D3str0y3d","credit": false,"game": "BN2","duration": "1:19"},
     {"name": "Boss Theme","files": ["BN2-Boss Theme.ogg"], "author": "D3str0y3d","credit": false,"game": "BN2","duration": "1:24"},
+    {"name": "Boss Encounter","files": ["BN2-Boss Encounter.ogg"], "author": "D3str0y3d","credit": false,"game": "BN2","duration": "0:37"},
     {"name": "Final Battle Theme","files": ["BN2-Final Battle Theme.ogg"], "author": "D3str0y3d","credit": false,"game": "BN2","duration": "1:33"},
+    {"name": "End Credits","files": ["BN2-End Roll.ogg"], "author": "D3str0y3d","credit": false,"game": "BN2","duration": "2:21"},
+    {"name": "ACDC (Overworld)","files": ["BN3-ACDC Town"], "author": "D3str0y3d","credit": false,"game": "BN3","duration": "2:01"},
 
     ];
