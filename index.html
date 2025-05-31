@@ -36,7 +36,7 @@
       padding: 10px;
     }
     button { cursor: pointer; }
-    #preview-image,#preview-image-bg{
+    #preview-image,#preview-image-bg,.preview-animated{
         image-rendering: -moz-crisp-edges;
         image-rendering: -o-crisp-edges;
         image-rendering: -webkit-optimize-contrast;
@@ -324,6 +324,7 @@
 
         <div class="preview-panel">
           <div class="preview-window">
+            <div class="preview-animated"></div>
             <img id="preview-image" src="">
           </div>
           <div class="details">
@@ -663,6 +664,8 @@ function buildFilterOptions(){
 
     function showPreview(item){
       const imgPath = 'files/'+item.preview;
+      const tsxPath = imgPath.replace('.png','.tsx');
+      animateTSX(tsxPath, ".preview-animated");
       $('#preview-image').attr('src', imgPath).css({transform: ''});
       $('#detail-author').text(item.author);
       $('#detail-game').text(item.game);
@@ -686,10 +689,6 @@ function buildFilterOptions(){
         let container = null;
 
         function createAnimatedBackground(animationFile, xVel, yVel) {
-            //xVelocity = xVel * -1 * 200 //* spriteWidth/120
-            //yVelocity = yVel * -1 * 200 //* spriteWidth/120
-            //console.log(xVelocity+" "+yVelocity)
-
             xVelocity = xVel;
             yVelocity = yVel;
             
@@ -726,7 +725,6 @@ function buildFilterOptions(){
                     imagePath = line.split('"')[1];
                 } else if (line.includes('frame duration=')) {
                     const parts = line.split(' ');
-                    console.log(parts);
                     const frame = {
                         duration: parseFloat(parts[1].split('"')[1]),
                         x: parseInt(parts[2].split('"')[1]),
@@ -844,9 +842,7 @@ function buildFilterOptions(){
     function showBackgroundPreview(item){
 
       const imgPath = 'files/'+item.preview;
-      //$('#preview-image-bg').attr('src', ' ').css({transform: ''});
       $('#preview-image-bg').attr('src','#');
-
       $('#detail-author-bg').text(item.author);
       $('#detail-game-bg').text(item.game);
       $('#detail-velx-bg').text(item.velx !== undefined ? item.velx : '—');
@@ -917,6 +913,111 @@ function buildFilterOptions(){
       const mins = Math.floor(seconds / 60);
       const secs = Math.floor(seconds % 60);
       return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+    }
+
+    /* Function to Animate TSC files */
+
+    function animateTSX(tsxUrl, containerSelector) {
+      $(".preview-animated").empty();
+      // 1) Fetch TSX via AJAX as XML
+      $.ajax({
+        url: tsxUrl,
+        dataType: 'xml'
+      }).done(function(xml) {
+        // 2) Parse <tileset> attributes
+        var $tileset = $(xml).find('tileset').first();
+        var tileWidth  = parseInt($tileset.attr('tilewidth'), 10);
+        var tileHeight = parseInt($tileset.attr('tileheight'), 10);
+        var columns    = parseInt($tileset.attr('columns'), 10);
+
+        // 3) Get <image> source (relative path inside TSX)
+        var imageSource = $tileset.find('image').attr('source');
+
+        // Compute base path of TSX, so we can resolve the image path:
+        //  e.g. if tsxUrl = 'assets/Beach Arrows.tsx' → base = 'assets/'
+        var lastSlashIndex = tsxUrl.lastIndexOf('/');
+        var basePath = (lastSlashIndex >= 0) 
+                        ? tsxUrl.substr(0, lastSlashIndex + 1) 
+                        : '';
+        var imagePath = basePath + imageSource;
+
+        // 4) Find every <tile> that has an <animation> child
+        var $tiles = $(xml).find('tile').filter(function() {
+          return $(this).find('animation').length > 0;
+        });
+
+        // If no animations found, do nothing (or you could show a console warning)
+        if ($tiles.length === 0) {
+          //console.warn('No animated tiles found in TSX:', tsxUrl);
+          return;
+        }
+        /*
+        else{
+              console.log("Found frames.")
+              $("#preview-image").attr("src","");
+            }
+        */
+
+        // 5) For each animated tile, build its frame list & durations, then create a DIV
+        $tiles.each(function() {
+          var $tile = $(this);
+          var animationFrames = [];
+          // Collect each <frame> under <animation>
+          $tile.find('animation > frame').each(function() {
+            var tileId = parseInt($(this).attr('tileid'), 10);
+            var dur    = parseInt($(this).attr('duration'), 10);
+            animationFrames.push({ tileid: tileId, duration: dur });
+          });
+
+          // Create a wrapper DIV for this single animation, float left
+          var $animDiv = $('<div>')
+            .css({
+              'margin':'2px',
+              'float': 'left',
+              'zoom':'200%',
+              'width': tileWidth + 'px',
+              'height': tileHeight + 'px',
+              'overflow': 'hidden',
+              'background-image': 'url("' + imagePath + '")',
+              'background-repeat': 'no-repeat'
+            });
+
+          // Append to container
+          $(".preview-animated").append($animDiv);
+         // $(".preview-animated").css({'height': tileHeight + 'px'});
+
+          // Precompute the background-position coordinates for each frame
+          var frameBgs = animationFrames.map(function(frame) {
+            var id = frame.tileid;
+            var cx = (id % columns) * tileWidth;
+            var cy = Math.floor(id / columns) * tileHeight;
+            // background-position needs negative offsets
+            return {
+              posX: -cx,
+              posY: -cy,
+              duration: frame.duration
+            };
+          });
+
+          // 6) Start cycling through frames (using recursive setTimeout so durations can vary)
+          var idx = 0;
+          function showNextFrame() {
+            var fb = frameBgs[idx];
+            // Move the background so that the correct tile shows
+            $animDiv.css('background-position', fb.posX + 'px ' + fb.posY + 'px');
+            // Schedule next frame
+            var nextIndex = (idx + 1) % frameBgs.length;
+            setTimeout(function() {
+              idx = nextIndex;
+              showNextFrame();
+            }, fb.duration);
+          }
+          // Kick off the animation loop
+          showNextFrame();
+        });
+      }).fail(function(jqXHR, status, err) {
+        console.error('Failed to load TSX:', tsxUrl, status, err);
+      });
     }
 
     // arrow key navigation
