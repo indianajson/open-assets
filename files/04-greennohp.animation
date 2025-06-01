@@ -1,0 +1,4 @@
+imagePath="04-greennohp.png"
+
+animation state="BG"
+frame duration="0" x="0" y="0" w="256" h="256" originx="0" originy="0" flipx="0" flipy="0"

@@ -38,6 +38,6 @@ let allMusic = [
     {"name": "Boss Encounter","files": ["BN2-Boss Encounter.ogg"], "author": "D3str0y3d","credit": false,"game": "BN2","duration": "0:37"},
     {"name": "Final Battle Theme","files": ["BN2-Final Battle Theme.ogg"], "author": "D3str0y3d","credit": false,"game": "BN2","duration": "1:33"},
     {"name": "End Credits","files": ["BN2-End Roll.ogg"], "author": "D3str0y3d","credit": false,"game": "BN2","duration": "2:21"},
-    {"name": "ACDC (Overworld)","files": ["BN3-ACDC Town"], "author": "D3str0y3d","credit": false,"game": "BN3","duration": "2:01"},
+    {"name": "ACDC (Overworld)","files": ["BN3-ACDC Town.ogg"], "author": "D3str0y3d","credit": false,"game": "BN3","duration": "2:01"},
 
     ];

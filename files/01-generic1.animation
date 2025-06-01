@@ -1,0 +1,8 @@
+imagePath="01-generic1.png"
+
+animation state="BG"
+frame duration="2.317" x="0" y="0" w="64" h="64" originx="0" originy="0" flipx="0" flipy="0"
+frame duration="0.2" x="64" y="0" w="64" h="64" originx="0" originy="0" flipx="0" flipy="0"
+frame duration="0.067" x="128" y="0" w="64" h="64" originx="0" originy="0" flipx="0" flipy="0"
+frame duration="0.1" x="192" y="0" w="64" h="64" originx="0" originy="0" flipx="0" flipy="0"
+frame duration="0.15" x="256" y="0" w="64" h="64" originx="0" originy="0" flipx="0" flipy="0"

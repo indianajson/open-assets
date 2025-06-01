@@ -503,9 +503,19 @@ function buildFilterOptions(){
   const $auth = $('.filter[data-filter=author] .dropdown');
   $auth.empty(); // Clear existing options
   authors.forEach(a=>{
+if (Array.isArray(a)) {
+    //Ignore multi-author items for simplicity. 
+    /*
+    a.forEach(singleAuthor => {
+      const id = 'a-'+singleAuthor.replace(/\s+/g,'_');
+      $auth.append(`<div><input type="checkbox" value="${a}" id="${id}"><label for="${id}"> ${a}</label></div>`);
+    });
+    */
+    } else {
     const id = 'a-'+a.replace(/\s+/g,'_');
     $auth.append(`<div><input type="checkbox" value="${a}" id="${id}"><label for="${id}"> ${a}</label></div>`);
-  });
+    }
+    });
   
   if(currentTab === 'tiles') {
     $('.filter[data-filter=type] input').on('change', ()=>{ renderList(); updateClearButton(); });
@@ -573,12 +583,12 @@ function renderList(){
           <td><button class="music-play-btn">▶</button></td>
           <td>${it.name}</td>
           <td>${it.game}</td>
-          <td>${it.author}</td>
+          <td>${Array.isArray(it.author) ? '<i>Multiple</i>' : it.author}</td>
         </tr>`
       );
     } else {
       $tb.append(
-        `<tr><td><input type="checkbox" class="sel"/></td><td>${it.name}</td><td>${it.game}</td><td>${it.author}</td></tr>`
+        `<tr><td><input type="checkbox" class="sel"/></td><td>${it.name}</td><td>${it.game}</td><td>${Array.isArray(it.author) ? '<i>Multiple</i>' : it.author}</td></tr></tr>`
       );
     }
   });
@@ -673,7 +683,8 @@ function showPreview(item){
       const tsxPath = imgPath.replace('.png','.tsx');
       animateTSX(tsxPath, ".preview-animated");
       $('#preview-image').attr('src', imgPath).css({transform: ''});
-      $('#detail-author').text(item.author);
+      //$('#detail-author').text(item.author);
+      $('#detail-author').text(Array.isArray(item.author) ? item.author.join(', ') : item.author);
       $('#detail-game').text(item.game);
       $('#detail-permission').text(item.credit ? 'Yes, please provide credit.' : 'Unknown at this time.');
       $('#download-single').prop('disabled', false).off().on('click', ()=>downloadMultiple([item]));
@@ -726,6 +737,54 @@ function parseAnimationFile(data) {
     // Parse the animation file
     const lines = data.split('\n');
     let imagePath = '';
+
+    // A regex to capture any key="value" pair
+    const attrRegex = /(\w+)\s*=\s*"([^"]*)"/g;
+
+    for (const line of lines) {
+        // Look for imagePath="..."
+        if (line.includes('imagePath=')) {
+            const match = /imagePath\s*=\s*"([^"]*)"/.exec(line);
+            if (match) {
+                imagePath = match[1];
+            }
+            continue;
+        }
+
+        // Look for lines that start with "frame "
+        if (line.trim().startsWith('frame ')) {
+            // Build an object of all attributes on this line
+            const frameAttrs = {};
+            let m;
+            while ((m = attrRegex.exec(line)) !== null) {
+                // m[1] is the attribute name, m[2] is its value
+                frameAttrs[m[1]] = m[2];
+            }
+
+            // Now pick out the mandatory fields (duration, x, y, w, h, originx, originy)
+            // and optional fields (flipx, flipy). If flipx/flipy are missing, default to 0.
+            const frame = {
+                duration:    parseFloat(frameAttrs.duration),
+                x:           parseInt(frameAttrs.x, 10),
+                y:           parseInt(frameAttrs.y, 10),
+                w:           parseInt(frameAttrs.w, 10),
+                h:           parseInt(frameAttrs.h, 10),
+                originx:     parseInt(frameAttrs.originx, 10),
+                originy:     parseInt(frameAttrs.originy, 10),
+                flipx:       frameAttrs.flipx !== undefined ? parseInt(frameAttrs.flipx, 10) : 0,
+                flipy:       frameAttrs.flipy !== undefined ? parseInt(frameAttrs.flipy, 10) : 0
+            };
+
+            animationFrames.push(frame);
+        }
+    }
+
+
+
+    /*
+    // Parse the animation file
+    const lines = data.split('\n');
+    let imagePath = '';
     
     for (const line of lines) {
         if (line.includes('imagePath=')) {
@@ -746,7 +805,7 @@ function parseAnimationFile(data) {
             animationFrames.push(frame);
         }
     }
-    
+    */
     if (animationFrames.length === 0) {
         throw new Error('No animation frames found in file');
     }
@@ -851,7 +910,7 @@ function showBackgroundPreview(item){
 
   const imgPath = 'files/'+item.preview;
   $('#preview-image-bg').attr('src','#');
-  $('#detail-author-bg').text(item.author);
+  $('#detail-author-bg').text(Array.isArray(item.author) ? item.author.join(', ') : item.author);
   $('#detail-game-bg').text(item.game);
   $('#detail-velx-bg').text(item.velx !== undefined ? item.velx : '—');
   $('#detail-vely-bg').text(item.vely !== undefined ? item.vely : '—');
