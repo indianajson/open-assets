@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.8" tiledversion="1.8.2" name="Water station base" tilewidth="128" tileheight="64" tilecount="6" columns="2" objectalignment="bottom">
  <tileoffset x="0" y="64"/>
- <image source="Water_station_base.PNG" width="256" height="192"/>
+ <image source="Water_station_base.png" width="256" height="192"/>
  <tile id="0">
   <objectgroup draworder="index" id="2">
    <object id="1" x="96" y="64">
