@@ -5,9 +5,7 @@ let allBackgrounds = [
     {"name":"Dex's PC (Battle)","velx":"0.10","vely":"0.05","files":["dex-pc-battle.animation","dex-pc-battle.png"],"author":"Kirbyatina","credit":false,"game":"BN1","preview":"dex-pc-battle.animation"},
     {"name":"School Comp","velx":"0","vely":"0","files":["school-comp.png","school-comp.animation"],"author":"Kirbyatina","credit":false,"game":"BN1","preview":"school-comp.animation"},   
     {"name":"Internet","velx":"0.35","vely":"0.20","files":["internet.png","internet.animation"],"author":"Kirbyatina","credit":false,"game":"BN1","preview":"internet.animation"},
-  /*  {"name":"Power Plant","velx":"0.0","vely":"0.0","files":["powerplant.animation","powerplant.png"],"author":"Kirbyatina","credit":false,"game":"BN1","preview":"powerplant.animation"}, */
     {"name":"Power Plant (Battle)","velx":"0.0","vely":"0.0","files":["powerplant-battle.animation","powerplant-battle.png"],"author":"Kirbyatina","credit":false,"game":"BN1","preview":"powerplant-battle.animation"},
-
     {"name":"Internet1 Daytime","velx":".3","vely":".15","files":["Internet1BGDaytime.png","Internet1BGDaytime.animation"],"author":["D3str0yed","BlaXun","Indiana"],"credit":false,"game":"BN4.5","preview":"Internet1BGDaytime.animation"},
     {"name":"Generic - Green","velx":"0.455","vely":"0.245","files":["01-generic1.png","01-generic1.animation"],"author":"Kirbyatina","credit":false,"game":"BN6","preview":"01-generic1.animation"},
     {"name":"Generic - Purple","velx":"0.455","vely":"0.245","files":["01-generic2.png","01-generic2.animation"],"author":"Kirbyatina","credit":false,"game":"BN6","preview":"01-generic2.animation"},
@@ -18,7 +16,7 @@ let allBackgrounds = [
     {"name":"Akihara Area","velx":"0.225","vely":"0.225","files":["07e-akihara.png","07e-akihara.animation"],"author":"Kirbyatina","credit":false,"game":"BN6","preview":"07e-akihara.animation"},
     {"name":"Undernet","velx":"0","vely":"0","files":["08a-undernet.png","08a-undernet.animation"],"author":"Kirbyatina","credit":false,"game":"BN6","preview":"08a-undernet.animation"},
     {"name":"Underground","velx":"0","vely":"0","files":["08b-underground.png","08b-underground.animation"],"author":"Kirbyatina","credit":false,"game":"BN6","preview":"08b-underground.animation"},
-    {"name":"Graveyard","velx":"-0.0295","vely":"0","files":["09-graveyard.animation","09-graveyard.png"],"author":["Kirbyatina"],"credit":false,"game":"BN6","preview":"09-graveyard.animation"},
+    {"name":"Graveyard","velx":"-0.0295","vely":"0","files":["09-graveyard.animation","09-graveyard.png"],"author":"Kirbyatina","credit":false,"game":"BN6","preview":"09-graveyard.animation"},
     {"name":"Aquarium Comp","velx":"0.115","vely":"0","files":["11-aquarium.png","11-aquarium.animation"],"author":"Kirbyatina","credit":false,"game":"BN6","preview":"11-aquarium.animation"},
     {"name":"Weather Comp - Stormy","velx":"0.125","vely":"0.125","files":["14-weatherkunnodennou1.png","14-weatherkunnodennou1.animation"],"author":"Kirbyatina","credit":false,"game":"BN6","preview":"14-weatherkunnodennou1.animation"},
     {"name":"Weather Comp - Sunny","velx":"0.125","vely":"0.125","files":["14-weatherkunnodennou2.png","14-weatherkunnodennou2.animation"],"author":"Kirbyatina","credit":false,"game":"BN6","preview":"14-weatherkunnodennou2.animation"},
