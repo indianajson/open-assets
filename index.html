@@ -330,7 +330,7 @@
           <div class="details">
             <p><strong>Author: </strong> <span id="detail-author">—</span></p>
             <p><strong>Game: </strong> <span id="detail-game">—</span></p>
-            <p><strong>Credit Required: </strong> <span id="detail-permission">—</span></p>
+          <!--  <p><strong>Credit> Required: </strong> <span id="detail-permission">—</span></p>-->
             <button id="download-single" disabled>Download This Set</button>
           </div>
         </div>
@@ -356,7 +356,7 @@
 
             <p><strong>Author: </strong> <span id="detail-author-bg">—</span></p>
             <p><strong>Game: </strong> <span id="detail-game-bg">—</span></p>
-            <p><strong>Credit: </strong> <span id="detail-permission-bg">—</span></p>
+           <!-- <p><strong>Credit: </strong> <span id="detail-permission-bg">—</span></p>-->
             <p><strong>Background Vel X: </strong> <span id="detail-velx-bg">—</span></p>
             <p><strong>Background Vel Y: </strong> <span id="detail-vely-bg">—</span></p>
 
@@ -388,7 +388,7 @@
           <div class="details">
             <p><strong>Author: </strong> <span id="detail-author-music">—</span></p>
             <p><strong>Game: </strong> <span id="detail-game-music">—</span></p>
-            <p><strong>Credit: </strong> <span id="detail-permission-music">—</span></p>
+          <!-- <p><strong>Credit: </strong> <span id="detail-permission-music">—</span></p>--> 
             <button id="download-single-music" disabled>Download This Track</button>
           </div>
         </div>
@@ -686,7 +686,7 @@ function showPreview(item){
       //$('#detail-author').text(item.author);
       $('#detail-author').text(Array.isArray(item.author) ? item.author.join(', ') : item.author);
       $('#detail-game').text(item.game);
-      $('#detail-permission').text(item.credit ? 'Yes, please provide credit.' : 'Unknown at this time.');
+      //$('#detail-permission').text(item.credit ? 'Yes, please provide credit.' : 'Unknown at this time.');
       $('#download-single').prop('disabled', false).off().on('click', ()=>downloadMultiple([item]));
     }
     
@@ -915,7 +915,7 @@ function showBackgroundPreview(item){
   $('#detail-velx-bg').text(item.velx !== undefined ? item.velx : '—');
   $('#detail-vely-bg').text(item.vely !== undefined ? item.vely : '—');
   createAnimatedBackground('files/'+item.preview, item.velx, item.vely);
-  $('#detail-permission-bg').text(item.credit ? 'Yes, please provide credit.' : 'No credit required.');
+  //$('#detail-permission-bg').text(item.credit ? 'Yes, please provide credit.' : 'No credit required.');
   $('#download-single-bg').prop('disabled', false).off().on('click', ()=>downloadMultiple([item]));
 }
 
@@ -930,7 +930,7 @@ function showMusicPreview(item){
   $('#detail-title-music').text(item.name);
   $('#detail-author-music').text(item.author);
   $('#detail-game-music').text(item.game);
-  $('#detail-permission-music').text(item.credit ? 'Yes, please provide credit.' : 'No credit required.');
+  //$('#detail-permission-music').text(item.credit ? 'Yes, please provide credit.' : 'No credit required.');
   $('#download-single-music').prop('disabled', false).off().on('click', ()=>downloadMultiple([item]));
   
   const audioPath = 'music/'+item.files[0];
