@@ -137,9 +137,9 @@ let allData = [
 {"name":"ACDC Bus Stop","files":["Bus Stop.png","Bus Stop.tsx"],"author":"Claris","credit":true,"game":"Other","preview":"Bus Stop.png"},
 {"name":"ACDC Elephant Slide","files":["Elephant Slide.png","Elephant Slide.tsx"],"author":"Claris","credit":true,"game":"Other","preview":"Elephant Slide.png"},
 {"name":"ACDC Park Bench","files":["Park Bench.png","Park Bench.tsx"],"author":"Claris","credit":true,"game":"Other","preview":"Park Bench.png"},
-{"name":"ACDC Play Dome","files":["Play Dome.png","Play Dome.tsx"],"author":"Claris","credit":true,"game":"Other","preview":"Play Dome.png"},
+{"name":"ACDC Play Dome","files":["Play Dome.png","Play Dome.tsx"],"author":["Claris","Quetzen"],"credit":true,"game":"Other","preview":"Play Dome.png"},
 {"name":"Cyber Elephant Slide","files":["Cyber Elephant Slide.png","Cyber Elephant Slide.tsx"],"author":"Claris","credit":true,"game":"Other","preview":"Cyber Elephant Slide.png"},
-{"name":"Cyber Play Dome","files":["Cyber Play Dome.png","Cyber Play Dome.tsx"],"author":"Claris","credit":true,"game":"Other","preview":"Cyber Play Dome.png"},
+{"name":"Cyber Play Dome","files":["Cyber Play Dome.png","Cyber Play Dome.tsx"],"author":["Claris","Quetzen"],"credit":true,"game":"Other","preview":"Cyber Play Dome.png"},
 {"name":"Chip Traders","files": ["Traders.png","Traders.tsx"],"author": "unknown","BlaXun": false,"game": "Other","preview": "Traders.png"},
 {"name":"Boktai Dolls","files":["BoktaiDolls28x33.png","BoktaiDolls28x33.tsx"],"author":"unknown","credit":false,"game":"BN4","preview":"BoktaiDolls28x33.png"},
 {"name":"Bridge Tile","files":["BridgeTile.png","BridgeTile.tsx"],"author":"FrozenLake","credit":false,"game":"Other","preview":"BridgeTile.png"},
@@ -162,7 +162,7 @@ let allData = [
 {"name":"Cracked Floor","files":["CrackedFloorForKeristero.png","CrackedFloorForKeristero.tsx"],"author":"unknown","credit":false,"game":"Other","preview":"CrackedFloorForKeristero.png"},
 {"name":"HP Warp - Blue","files":["hp_warp_blue.png","hp_warp_blue.tsx"],"author":"Claris","credit":false,"game":"Other","preview":"hp_warp_blue.png"},
 {"name":"HP Warp","files":["hp_warp.png","hp_warp.tsx"],"author":"unknown","credit":false,"game":"Other","preview":"hp_warp.png"},
-{"name":"Napalm Warp","files":["Napalm Warp.png","Napalm Warp.tsx"],"author":"unknown","credit":false,"game":"Other","preview":"Napalm Warp.png"},
+{"name":"WWW Warp","files":["Napalm Warp.png","Napalm Warp.tsx"],"author":"unknown","credit":false,"game":"Other","preview":"Napalm Warp.png"},
 {"name":"Server Warp","files":["ServerWarp.png","ServerWarp.tsx"],"author":"unknown","credit":false,"game":"Other","preview":"ServerWarp.png"},
 {"name": "Tiles Colorful","files": ["TilesColorful.png","TilesColorful.tsx"],"author": "D3str0y3d","credit": false,"game": "Other","preview": "TilesColorful.png"},
 {"name":"Beyblade","type":"object","files":["beyblade.tsx","beyblade.png"],"author":"Cyan","credit":true,"game":"BN4","preview":"beyblade.png"},
@@ -178,7 +178,6 @@ let allData = [
 {"name":"Undernet Warp","type":"object","files":["BN3UndernetWarpVariant1.png","BN3UndernetWarpVariant1.tsx"],"author":"unknown","credit":false,"game":"BN3","preview":"BN3UndernetWarpVariant1.png"},
 {"name":"Undernet Square Warp","type":"object","files":["BN3UndernetWarpVariant2.png","BN3UndernetWarpVariant2.tsx"],"author":"unknown","credit":false,"game":"BN3","preview":"BN3UndernetWarpVariant2.png"},
 {"name":"Lan HP Tile Overlay","type":"object","files":["LanHpAnimatedTiles.png","LanHpAnimatedTiles.tsx"],"author":"unknown","credit":false,"game":"BN4","preview":"LanHpAnimatedTiles.png"},
-{"name":"Sky Area 2 Undernet Skull","type":"object","files":["PurpleArchsSkull.png","PurpleArchsSkull.tsx"],"author":"unknown","credit":false,"game":"BN6","preview":"PurpleArchsSkull.png"},
 {"name":"Secret Area Entrance Warp","type":"object","files":["UndernetInteractWarp.png","UndernetInteractWarp.tsx"],"author":"unknown","credit":false,"game":"BN3","preview":"UndernetInteractWarp.png"},
 
 /*
