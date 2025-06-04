@@ -1,24 +1,40 @@
 let allTools = [
     {"name": "Spritesheet Editor","tooltype":"Web Tool","description":'A tool designed to allow you to edit or create .animation or .TSX files for spritesheets this webtool has all the major functionality to get you from sprite to ONB asset in a matter of minutes. <br><br> <button><a href="https://keristero.github.io/spritesheet-tool/" target="_blank" style="text-decoration:none; color:#000;">Launch Tool</a></button>',"author": "Keristero"},
+
     {"name": "Official Discord Server","tooltype":"For Players","description":'The ONB Discord Server is where it is happening, quite literally. How did you even get here without joining the Discord, anyway? Doesn\'t matter. Join our growing community with the invite link below. <br><br><button id="download-single-tool"><a href="https://discord.gg/yAK9MG2" target="_blank" style="text-decoration:none; color:#000;">Join the Discord</a></button>',"author": "Dr. Nerd"},
-    {"name": "ONB's Source Code","tooltype":"Source Code","description":'This is where is all begin and where is still continues. The project is open source and this is the source code. Unless you\'re petty savy you probably don\'t need to fool with this but it is there if you want to check it out. <br><br><button id="download-single-tool"><a href="https://github.com/TheMaverickProgrammer/OpenNetBattle" target="_blank" style="text-decoration:none; color:#000;">Open the Repository</a></button>',"author": "Dr. Nerd"},
+
+    {"name": "ONB Source Code","tooltype":"Source Code","description":'This is where is all begin and where is still continues. The project is open source and this is the source code. Unless you\'re petty savy you probably don\'t need to fool with this but it is there if you want to check it out. <br><br><button id="download-single-tool"><a href="https://github.com/TheMaverickProgrammer/OpenNetBattle" target="_blank" style="text-decoration:none; color:#000;">Open the Repository</a></button>',"author": "Dr. Nerd"},
+
     {"name": "Server List","tooltype":"For Players","description":'This is a list of servers that are currently online and available for you to explore. <br><br><button id="download-single-tool"><a href="https://keristero.github.io/onb-modsite/servers.html" target="_blank" style="text-decoration:none; color:#000;">Open the Server List</a></button>',"author": "Keristero"},
+
     {"name": "Modsite","tooltype":"For Players","description":'This is the place to download mods in order to actually play and expand your ONB experience. <br><br><button id="download-single-tool"><a href="https://keristero.github.io/onb-modsite/" target="_blank" style="text-decoration:none; color:#000;">Open the Modsite</a></button>',"author": "Keristero"},
+
     {"name": "Official Game Download","tooltype":"For Players","description":'If you need the link to download the game for Windows it is right here. Playing on Linux or Mac? Go search the Discord, there are threads about running ONB on those operating systems. <br><br><button id="download-single-tool"><a href="https://gamejolt.com/games/OpenNetBattle/509302" target="_blank" style="text-decoration:none; color:#000;">Download the Game</a></button>',"author": "Dr. Nerd"},
 
-    {"name": "Basic Navi (mod) Guide","tooltype":"Written Guide","description":'This written guide gives you some of the basics for how to build your own custom navi in ONB. <br><br><button id="download-single-tool"><a href="https://docs.google.com/document/d/1Nw4zCf0VQxk-rfK61CJ2E4NoHhyOu-YskyH4_ZpLFs8/edit?tab=t.0#heading=h.9soowlucp0n8" target="_blank" style="text-decoration:none; color:#000;">Read the Guide</a></button>',"author": ""},
+    {"name": "Basic Navi (mod) Guide","tooltype":"Written Guide","description":'This written guide gives you some of the basics for how to build your own custom navi in ONB. <br><br><button id="download-single-tool"><a href="https://docs.google.com/document/d/1Nw4zCf0VQxk-rfK61CJ2E4NoHhyOu-YskyH4_ZpLFs8/edit?tab=t.0#heading=h.9soowlucp0n8" target="_blank" style="text-decoration:none; color:#000;">Read the Guide</a></button>',"author": "unknown"},
 
     {"name": "Sprite Palette Changer","tooltype":"Web Tool","description":'A niche, but useful tool for previewing, modifying, and generating sprite palettes. <br><br><button id="download-single-tool"><a href="https://bnlouis.github.io/bn-palette-tool/" target="_blank" style="text-decoration:none; color:#000;">Launch the Tool</a></button>',"author": "Louis"},
 
     {"name": "Making Battle Chips Guide","tooltype":"Written Guide","description":'A brief but insightful guide for making "card" mods (Battle Chips) for ONB. <br><br><button id="download-single-tool"><a href="https://bnlouis.github.io/OnbGuideLibrary/cards/" target="_blank" style="text-decoration:none; color:#000;">Read the Guide</a></button>',"author": "Louis"},
+
+    {"name": "Visual Encounters","tooltype":"Web Tool","description":'<img src="img/visual-battle-editor.png" style="float:right;" width=100 height=100 />Have you always wanted to build your own custom battle encounters, boss fights, or battle scenarios? Whether you want to design PVE, PVP, or CO-OP battle experiences this is the place to do it.  <br><br>This tool allows you to configure battle encounters for your server using an interface (no more editing LUA scripts). Made to support Keristero\'s ezLibs server script, this tool can provide all the files for your server, which makes adding encounters as seamless as possible. <br><br> <button id="download-single-tool"><a href="https://indianajson.github.io/visual-encounters/" target="_blank" style="text-decoration:none; color:#000;">Launch the Tool</a></button>',"author": "Indiana"},
+
+    {"name": "Net Battle API Documentation","tooltype":"Documentation","description":'This link provides documentation for handling the engine APIs for chips and enemies.<br><br> <button id="download-single-tool"><a href="https://protobasilisk.github.io/OpenNetBattleDocs/api/#cardaction-objects" target="_blank" style="text-decoration:none; color:#000;"></a></button>',"author": "protoBASILISK"},
+
+    {"name": "ONB Server Source Code","tooltype":"Documentation","description":'<img src="img/james-coding.png" style="float:right;" width=100 height=100 />This contains the source code for the Scriptable ONB server (which you probably don\'t need), but more importantly it contains the documentation for the API endpoints on the server (which you very much will need if you get into custom server scripting).<br><br> <button id="download-single-tool"><a href="https://github.com/TheMaverickProgrammer/Scriptable-OpenNetBattle-Server?tab=readme-ov-file#scriptable-server-for-opennetbattle" target="_blank" style="text-decoration:none; color:#000;">Read the Docs</a></button>',"author": "Dr. Nerd"},
+
+    {"name": "Tiled Tutorial for Making Net Area","tooltype":"Video Guide","description":'<img src="img/destroyed-video.png" style="float:right;" width=100 height=100 />This is a recording from a livestream hosted by D3str0y3d where he goes through the basics of creating areas for ONB Servers using Tiled (free downloadable map editor). <br><br> <button id="download-single-tool"><a href="" target="_blank" style="text-decoration:none; color:#000;">Watch Tutorial</a></button>',"author": "D3str0y3d"},
+
+     
+
+    {"name": "Map Collision Generator","tooltype":"Web Tool","description":'<img src="img/collider-map.webp" style="float:right;" width=100 height=100 />This tool accepts a finalized map sprite and produces a Tiled object you can use as the collision/walls of your map (as opposed to the walkable areas being tile based). This is especially useful for maps that are rounded (like BN4) or have narrow paths (like BN1).<br><br> <button id="download-single-tool"><a href="https://colab.research.google.com/drive/1-MM0XX-1BQkzwxyIQ7LgfcenqT9YRV1K?usp=sharing" target="_blank" style="text-decoration:none; color:#000;">Launch the Tool</a></button>',"author": "Indiana"},
 
 
     /*
     
     //this is an empty dictionary you can use to make new entries, it includes the code for the button in the description field. 
 
-
-    {"name": "","description":'&nbsp; <button id="download-single-tool"><a href="" target="_blank" style="text-decoration:none; color:#000;"></a></button>',"author": ""},
+    {"name": "","tooltype":"","description":'<br><br> <button id="download-single-tool"><a href="" target="_blank" style="text-decoration:none; color:#000;"></a></button>',"author": ""},
     */
 
     ];
