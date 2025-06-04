@@ -98,7 +98,13 @@
       border:2px solid #808080;
       padding:6px;
       z-index:10;
-      min-width:130px;
+      min-width:110px;
+    }
+    .menu-bar .filter[data-filter="author"] .dropdown {
+      min-width:150px;
+    }
+    .menu-bar .filter[data-filter="tooltype"] .dropdown {
+      min-width:150px;
     }
     .menu-bar .filter.open .dropdown { display:block; }
     .menu-bar .filter .dropdown div {
@@ -247,7 +253,7 @@
       padding: 2px 6px;
       font-size: 16px;
     }
-    .menu-bar .filter[data-filter="type"].hidden , .menu-bar .filter[data-filter="game"].hidden {
+    .menu-bar .filter[data-filter="type"].hidden , .menu-bar .filter[data-filter="game"].hidden, .menu-bar .filter[data-filter="tooltype"].hidden {
     display: none;
     }
 
@@ -428,6 +434,11 @@
         <label>Author ▼</label>
         <div class="dropdown"></div>
       </div>
+      <div class="filter hidden" data-filter="tooltype">
+        <label>Type ▼</label>
+        <div class="dropdown"></div>
+      </div>
+
       <button id="clear-filters" disabled>Clear Filters</button>
       <button id="download-selected" disabled>Download Selected</button>
     </div>
@@ -558,7 +569,11 @@
   <div class="sidebar">
     <table class="file-list">
       <thead>
-        <tr><th></th><th class="sortable" data-sort="name">Name</th><th class="sortable" data-sort="author">Author</th></tr>
+        <tr><th></th>
+          <th class="sortable" data-sort="name">Name</th>
+          <th class="sortable" data-sort="tooltype">Type</th>
+          <th class="sortable" data-sort="author">Author</th>
+        </tr>
       </thead>
       <tbody></tbody>
     </table>
@@ -598,6 +613,13 @@
           // Also uncheck any type filters when hiding
           $('.filter[data-filter="type"] input').prop('checked', false);
           $('#type-both').prop('checked', true);
+      }
+      if (tab === 'tools') {
+          $('.filter[data-filter="tooltype"]').removeClass('hidden');
+      } else {
+          $('.filter[data-filter="tooltype"]').addClass('hidden');
+          // Also uncheck any type filters when hiding
+          $('.filter[data-filter="tooltype"] input').prop('checked', false);
       }
 
       if (tab === 'scripts' || tab === 'tools') {
@@ -653,6 +675,7 @@
       // reset filters
       $('.filter[data-filter=game] .dropdown input:checkbox').prop('checked', false);
       $('.filter[data-filter=author] .dropdown input:checkbox').prop('checked', false);
+      $('.filter[data-filter=tooltype] .dropdown input:checkbox').prop('checked', false);
       $('#type-both').prop('checked', true);
       $('#clear-filters').prop('disabled', true);
       $('#search-input').val('');
@@ -722,7 +745,19 @@
           $auth.append(`<div><input type="checkbox" value="${a}" id="${id}"><label for="${id}"> ${a}</label></div>`);
         }
       });
+
+      const tooltype = [...new Set(allTools.map(x=>x.tooltype))].sort();
+      const $tooltype = $('.filter[data-filter=tooltype] .dropdown');
+      $tooltype.empty(); // Clear existing options
+      tooltype.forEach(a=>{
+          const id = 'tt-'+a.replace(/\s+/g,'_');
+          $tooltype.append(`<div><input type="checkbox" value="${a}" id="${id}"><label for="${id}"> ${a}</label></div>`);
+        
+      });
       
+      if(currentTab === 'tiles') {
+        $('.filter[data-filter=tooltype] input').on('change', ()=>{ renderList(); updateClearButton(); });
+      }
       if(currentTab === 'tiles') {
         $('.filter[data-filter=type] input').on('change', ()=>{ renderList(); updateClearButton(); });
       }
@@ -740,20 +775,22 @@
       const games = $('.filter[data-filter=game] .dropdown input:checked').map((i,e)=>e.value).get();
       const type = $('.filter[data-filter=type] .dropdown input:checked').val();
       const authors = $('.filter[data-filter=author] .dropdown input:checked').map((i,e)=>e.value).get();
+      const tooltype = $('.filter[data-filter=tooltype] .dropdown input:checked').map((i,e)=>e.value).get();
+
       const searchTerm = $('#search-input').val().toLowerCase();
-      return { games, type, authors, searchTerm };
+      return { games, type, authors, tooltype, searchTerm };
     }
 
     function updateClearButton(){
-      const {games,type,authors,searchTerm} = getFilters();
-      const any = games.length>0 || authors.length>0 || type !== 'both' || searchTerm !== '';
+      const {games,type,authors,tooltype,searchTerm} = getFilters();
+      const any = games.length>0 || authors.length>0 || tooltype.length>0 || type !== 'both' || searchTerm !== '';
       $('#clear-filters').prop('disabled', !any);
     }
 
     /* Functions to Render File Lists and File Previews */
 
     function renderList(){
-      const {games,type,authors,searchTerm} = getFilters();
+      const {games,type,authors,tooltype,searchTerm} = getFilters();
       let currentData;
       
       if(currentTab === 'tiles') {
@@ -773,12 +810,13 @@
       let rows = currentData.filter(item=>{
         if(games.length && !games.includes(item.game) && currentTab !== 'scripts'  && currentTab !== 'tools') return false;
         if(authors.length && !authors.includes(item.author)) return false;
+        if(tooltype.length && !tooltype.includes(item.tooltype) && currentTab == 'tools') return false;
         if(type!=='both' && item.type!==type && currentTab !== 'music' && currentTab !== 'scripts' && currentTab !== 'tools') return false;
         if(searchTerm && !item.name.toLowerCase().includes(searchTerm)) return false;
         return true;
       });
       
-      if (currentTab == 'scripts' || currentTab == 'scripts'){
+      if (currentTab == 'scripts' || currentTab == 'tools'){
         if(sortField == "game") {
             sortField = "name";
         }
@@ -805,12 +843,23 @@
             </tr>`
           );
         });
-      } else if (currentTab === 'scripts' || currentTab === 'tools') {
+      } else if (currentTab === 'scripts') {
         rows.forEach(it=>{
           $tb.append(
             `<tr>
               <td><input type="checkbox" class="sel"/></td>
               <td>${it.name}</td>
+              <td>${Array.isArray(it.author) ? '<i>Multiple</i>' : it.author}</td>
+            </tr>`
+          );
+        });
+      } else if (currentTab === 'tools') {
+        rows.forEach(it=>{
+          $tb.append(
+            `<tr>
+              <td><input type="checkbox" class="sel"/></td>
+              <td>${it.name}</td>
+              <td>${it.tooltype}</td>
               <td>${Array.isArray(it.author) ? '<i>Multiple</i>' : it.author}</td>
             </tr>`
           );
@@ -1192,154 +1241,6 @@
 
   }
 
-
-    
-function oldpreviewNPCAnimation(animationUrl) {
-  // 1) Clear any existing animations:
-  $('#preview-image-npc').empty();
-
-  // 2) Load the .animation file via AJAX:
-  $.get(animationUrl, function(text) {
-    const lines = text.split('\n');
-    let spriteSrc = '';
-    const animations = {};
-    let currentState = null;
-    const attrRegex = /(\w+)="([^"]+)"/g;
-
-    // 3) Parse out imagePath + each "animation state=…" block and its frames
-    lines.forEach(rawLine => {
-      const line = rawLine.trim();
-      if (!line) return;
-
-      // 3.a) imagePath="…"
-      if (line.startsWith('imagePath=')) {
-        const m = /imagePath="([^"]+)"/.exec(line);
-        if (m) spriteSrc = m[1];
-      }
-      // 3.b) animation state="SOME_STATE"
-      else if (line.startsWith('animation state=')) {
-        const attrs = {};
-        let match;
-        while ((match = attrRegex.exec(line)) !== null) {
-          attrs[match[1]] = match[2];
-        }
-        if (attrs.state) {
-          currentState = attrs.state;
-          animations[currentState] = [];
-        }
-      }
-      // 3.c) frame … (inside a currentState)
-      else if (line.startsWith('frame ') && currentState) {
-        const attrs = {};
-        let match;
-        while ((match = attrRegex.exec(line)) !== null) {
-          attrs[match[1]] = match[2];
-        }
-        const frame = {
-          duration: parseFloat(attrs.duration) || 0,
-          x:        parseInt(attrs.x, 10)       || 0,
-          y:        parseInt(attrs.y, 10)       || 0,
-          w:        parseInt(attrs.w, 10)       || 0,
-          h:        parseInt(attrs.h, 10)       || 0,
-          originx:  parseInt(attrs.originx, 10) || 0,
-          originy:  parseInt(attrs.originy, 10) || 0,
-          flipx:    attrs.flipx === '1'
-        };
-        animations[currentState].push(frame);
-      }
-    });
-
-    if (!spriteSrc) {
-      console.error('No imagePath found in ' + animationUrl);
-      return;
-    }
-
-    // 4) Preload the sprite sheet
-    const spriteImg = new Image();
-    spriteImg.onload = function() {
-      // Once loaded, loop over every state
-      Object.keys(animations).forEach(stateName => {
-        const frames = animations[stateName];
-        if (!frames.length) return;
-
-        // 4.a) Compute per‐state maxima for origin + size:
-        let maxOriginX = 0, maxOriginY = 0;
-        let maxRight   = 0, maxBelow   = 0;
-        frames.forEach(f => {
-          if (f.originx > maxOriginX) maxOriginX = f.originx;
-          if (f.originy > maxOriginY) maxOriginY = f.originy;
-          const right = f.w - f.originx;
-          const below = f.h - f.originy;
-          if (right  > maxRight)   maxRight   = right;
-          if (below  > maxBelow)   maxBelow   = below;
-        });
-
-        // 4.b) Determine container size so all frames fit with a shared baseline:
-        const containerW = maxOriginX + maxRight;
-        const containerH = maxOriginY + maxBelow;
-
-        // 4.c) Create a <div> for this state:
-        const $container = $('<div>')
-          .css({
-            position:    'relative',
-            width:       containerW*2  + 'px',
-            height:      containerH*2 + 'px',
-            overflow:    'hidden',
-            display:     'inline-block',
-            margin:      '8px',
-            verticalAlign: 'bottom'
-          })
-          .attr('data-state', stateName);
-
-        // (Optional label above each animation)
-        // $('<div>')
-        //   .text(stateName)
-        //   .css({ textAlign: 'center', fontSize: '0.8em' })
-        //   .appendTo($container);
-
-        // 4.d) Clone the preloaded sprite <img> into this container:
-        const $img = $(spriteImg).clone().css({
-          position: 'absolute',
-          top:      '0px',
-          left:     '0px',
-          width:    spriteImg.width  + 'px',
-          height:   spriteImg.height + 'px'
-        });
-        $container.append($img);
-        $('#preview-image-npc').append($container);
-
-        // 4.e) Animate all frames in this state, aligning by originx/originy:
-        (function animateState($imgEl, framesArray, maxOX, maxOY) {
-          let idx = 0;
-          function showNextFrame() {
-            const f = framesArray[idx];
-            //  • We want (CSS top + (f.y + f.originy)) = maxOriginY.
-            //    So CSS top = maxOriginY - (f.y + f.originy).
-            const topPos  = maxOY - (f.y + f.originy);
-            //  • We want (CSS left + (f.x + f.originx)) = maxOriginX.
-            //    So CSS left = maxOriginX - (f.x + f.originx).
-            const leftPos = maxOX - (f.x + f.originx);
-
-            $imgEl.css({
-              top:  topPos + 'px',
-              left: leftPos + 'px'
-            });
-
-            idx = (idx + 1) % framesArray.length;
-            setTimeout(showNextFrame, f.duration * 1000);
-          }
-          showNextFrame();
-        })($img, frames, maxOriginX, maxOriginY);
-      });
-    };
-    spriteImg.src = 'npc/'+spriteSrc;
-
-  }).fail(function() {
-    console.error('Failed to load animation file at: ' + animationUrl);
-  });
-}
-
-
     /* Functions for Background Animation */
 
     let animationFrames = [];
@@ -1471,22 +1372,6 @@ function oldpreviewNPCAnimation(animationUrl) {
     }
 
     function createTiles() {
-        if (currentTab === 'npcs') {
-            // For NPCs, just create one centered tile
-            const tile = $('<div class="tile"></div>');
-            tile.css({
-                '--sprite-sheet': `url(${spriteImage.src})`,
-                '--sprite-w': `${spriteWidth}px`,
-                '--sprite-h': `${spriteHeight}px`,
-                'position': 'absolute'
-            });
-            container.append(tile);
-            
-            // Start animation loop
-            lastFrameTime = performance.now();
-            animationId = requestAnimationFrame(animate);
-            return;
-        }
     
         const containerWidth = container.width();
         const containerHeight = container.height();
