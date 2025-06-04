@@ -816,9 +816,13 @@
         return true;
       });
       
-      if (currentTab == 'scripts' || currentTab == 'tools'){
+      if (currentTab == 'scripts'){
         if(sortField == "game") {
             sortField = "name";
+        }
+      }else if (currentTab == 'tools'){
+        if(sortField == "game") {
+            sortField = "tooltype";
         }
       }
         if(sortField) {
