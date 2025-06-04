@@ -1,0 +1,11 @@
+imagePath="MetSwing.png"
+
+animation state="Unnamed State"
+frame duration="0.1" x="6" y="4" w="25" h="26" originx="9" originy="23" flipx="0" flipy="0"
+frame duration="0.1" x="37" y="2" w="27" h="39" originx="11" originy="37" flipx="0" flipy="0"
+frame duration="0.1" x="71" y="0" w="27" h="39" originx="11" originy="37" flipx="0" flipy="0"
+frame duration="0.1" x="110" y="1" w="34" h="35" originx="10" originy="34" flipx="0" flipy="0"
+frame duration="0.1" x="154" y="2" w="37" h="39" originx="12" originy="38" flipx="0" flipy="0"
+frame duration="0.1" x="197" y="2" w="37" h="39" originx="21" originy="34" flipx="0" flipy="0"
+frame duration="0.1" x="236" y="2" w="37" h="39" originx="20" originy="33" flipx="0" flipy="0"
+frame duration="0.1" x="282" y="4" w="37" h="39" originx="21" originy="31" flipx="0" flipy="0"
