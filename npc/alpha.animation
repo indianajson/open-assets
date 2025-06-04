@@ -1,0 +1,9 @@
+imagePath="alpha.png"
+
+animation state="IDLE_DL"
+frame duration="0.2" x="1" y="1" w="87" h="104" originx="41" originy="93" flipx="0" flipy="0"
+frame duration="0.2" x="89" y="1" w="87" h="104" originx="41" originy="93" flipx="0" flipy="0"
+frame duration="0.2" x="1" y="108" w="87" h="104" originx="41" originy="93" flipx="0" flipy="0"
+frame duration="0.2" x="89" y="108" w="87" h="104" originx="41" originy="93" flipx="0" flipy="0"
+frame duration="0.2" x="1" y="215" w="87" h="104" originx="41" originy="93" flipx="0" flipy="0"
+frame duration="0.2" x="89" y="215" w="87" h="104" originx="41" originy="93" flipx="0" flipy="0"

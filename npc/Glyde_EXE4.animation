@@ -1,0 +1,13 @@
+imagePath="Glyde_EXE4.png"
+
+animation state="IDLE_UL"
+frame duration="0.1" x="0" y="0" w="18" h="37" originx="7" originy="36"
+
+animation state="IDLE_UR"
+frame duration="0.1" x="0" y="0" w="18" h="37" originx="7" originy="36" flipx="1"
+
+animation state="IDLE_DL"
+frame duration="0.1" x="0" y="37" w="19" h="37" originx="7" originy="36"
+
+animation state="IDLE_DR"
+frame duration="0.1" x="0" y="37" w="19" h="37" originx="7" originy="36" flipx="1"
