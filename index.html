@@ -1112,8 +1112,10 @@
     // 4) Preload the sprite sheet:
     const spriteImg = new Image();
     spriteImg.onload = function() {
+      
       // 5) Once the sheet is loaded, iterate every state:
       Object.keys(animations).forEach(stateName => {
+        flip = false;
         const frames = animations[stateName];
         if (!frames.length) return;
 
@@ -1125,6 +1127,7 @@
         let maxOriginX = 0, maxOriginY = 0;
         let maxRight   = 0, maxBelow   = 0;
         frames.forEach(f => {
+          if (f.flipx){ flip = true;}
           if (f.originx > maxOriginX) maxOriginX = f.originx;
           if (f.originy > maxOriginY) maxOriginY = f.originy;
           const right = f.w - f.originx;
@@ -1137,19 +1140,33 @@
         //      each frame’s origin can sit at (maxOriginX, maxOriginY) without clipping.
         const containerW = maxOriginX + maxRight;
         const containerH = maxOriginY + maxBelow;
-
-        const $container = $('<div>')
-          .css({
-            position:      'relative',
-            width:         containerW*2  + 'px',
-            height:        containerH*2 + 'px',
-            overflow:      'visible',      // mask inside will hide everything except the one frame
-            display:       'inline-block', // so multiple states line up side by side
-            verticalAlign: 'bottom',       // all states share same baseline
-            margin:        '8px'
-          })
-          .attr('data-state', stateName);
-
+        $container = "";
+        if(flip == true){
+          $container = $('<div>')
+            .css({
+              position:      'relative',
+              width:         containerW*2  + 'px',
+              height:        containerH*2 + 'px',
+              overflow:      'visible',      // mask inside will hide everything except the one frame
+              display:       'inline-block', // so multiple states line up side by side
+              verticalAlign: 'bottom',       // all states share same baseline
+              margin:        '8px',
+              transform: 'scaleX(-1)'
+            })
+            .attr('data-state', stateName);
+        }else{
+          $container = $('<div>')
+            .css({
+              position:      'relative',
+              width:         containerW*2  + 'px',
+              height:        containerH*2 + 'px',
+              overflow:      'visible',      // mask inside will hide everything except the one frame
+              display:       'inline-block', // so multiple states line up side by side
+              verticalAlign: 'bottom',       // all states share same baseline
+              margin:        '8px',
+            })
+            .attr('data-state', stateName);
+        }
         // (Optional label) Uncomment if you want the state name above each animation:
         // $('<div>')
         //   .text(stateName)
@@ -1160,23 +1177,22 @@
         //      – It must have `overflow: hidden` so nothing else from the spritesheet shows.
         //      – We will resize it to fit each frame’s w×h every tick, and move it so
         //        the origin lines up at (maxOriginX, maxOriginY).
-        const $mask = $('<div>')
+       const $mask = $('<div>')
           .css({
             position: 'absolute',
             top:      '0px',     // will be overridden per frame
             left:     '0px',     // will be overridden per frame
             width:    '0px',     // will be set to f.w
             height:   '0px',     // will be set to f.h
-            overflow: 'hidden'   // 🔒 without this, neighboring frames can peek through!
+            overflow: 'hidden',   // 🔒 without this, neighboring frames can peek through! 
           });
-
         // 5.d) Clone the preloaded <img> into that mask (so we don’t re-download):
         const $img = $(spriteImg).clone().css({
           position: 'absolute',
           top:      '0px',
           left:     '0px',
           width:    spriteImg.width  + 'px',
-          height:   spriteImg.height + 'px'
+          height:   spriteImg.height + 'px',          
         });
 
         // Nest them and append to #preview-image-npc:
@@ -1195,7 +1211,7 @@
             //      That ensures only this rectangle is ever visible.
             $maskEl.css({
               width:  f.w*2 + 'px',
-              height: f.h*2 + 'px'
+              height: f.h*2 + 'px',
             });
 
             // 6.b) Move the mask so that (f.originx, f.originy) within it lines up
@@ -1208,7 +1224,7 @@
             const maskLeft = maxOX - f.originx;
             $maskEl.css({
               top:  maskTop*2  + 'px',
-              left: maskLeft*2 + 'px'
+              left: maskLeft*2 + 'px',
             });
 
             // 6.c) Move the <img> inside the mask so that (f.x, f.y) in the sheet
