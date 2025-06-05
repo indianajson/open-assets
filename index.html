@@ -829,12 +829,19 @@
         }
       }
         if(sortField) {
-            rows.sort((a,b)=>{
-            const av = a[sortField].toLowerCase();
-            const bv = b[sortField].toLowerCase();
-            return (av < bv ? -1 : av > bv ? 1 : 0) * (sortAsc?1:-1);
-            });
-        }
+          rows.sort((a,b)=>{
+              // Handle cases where the field might be an array
+              const av = Array.isArray(a[sortField]) ? a[sortField].join(', ') : a[sortField];
+              const bv = Array.isArray(b[sortField]) ? b[sortField].join(', ') : b[sortField];
+              
+              // Convert to lowercase strings for comparison
+              const avLower = String(av).toLowerCase();
+              const bvLower = String(bv).toLowerCase();
+              
+              return (avLower < bvLower ? -1 : avLower > bvLower ? 1 : 0) * (sortAsc?1:-1);
+          });
+      }
+
       
       const $tb = $(`#${currentTab}-content table.file-list tbody`).empty();
       
@@ -1670,15 +1677,23 @@
 
     /* Arrow Key Navigation */
     $(document).on('keydown', function(e){
-      if(e.key === 'ArrowDown' || e.key === 'ArrowUp'){
+      if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
         const $rows = $(`#${currentTab}-content table.file-list tbody tr`);
         let idx = $rows.index($('tr.selected'));
-        if(idx < 0) idx = e.key==='ArrowDown' ? -1 : 0;
-        const nextIdx = e.key==='ArrowDown' ? Math.min(idx+1, $rows.length-1) : Math.max(idx-1, 0);
-        $rows.eq(nextIdx).trigger('click');
+        if (idx < 0) idx = (e.key === 'ArrowDown' ? -1 : 0);
+        const nextIdx = (e.key === 'ArrowDown')
+          ? Math.min(idx + 1, $rows.length - 1)
+          : Math.max(idx - 1, 0);
+
+        const $nextRow = $rows.eq(nextIdx);
+        $nextRow.trigger('click');
+        // <-- scroll the newly‐selected row into view
+        $nextRow[0].scrollIntoView({ block: 'nearest' });
+
         e.preventDefault();
       }
     });
+
 
     /* File Download Function */
 
