@@ -35,7 +35,7 @@ let allData = [
 {"name":"ACDC Arrows","files":["ACDC_Arrows.png","ACDC_Arrows.tsx"],"type":"tile","author":"unknown","game":"BN3","preview":"ACDC_Arrows.png"},
 {"name":"Beach Area Conveyers","files":["Beach Arrows.png","Beach Arrows.tsx"],"type":"tile","author":"Claris","game":"BN3","preview":"Beach Arrows.png"},
 {"name":"Beach Area Stairs","files":["Beach Stairs.png","Beach Stairs.tsx"],"type":"tile","author":"Claris","game":"BN3","preview":"Beach Stairs.png"},
-{"name":"Beach Area Tiles","files":["Beach Tileset.png","Beach Tiles.tsx"],"type":"tile","author":"Claris","game":"BN3","preview":"Beach Tileset.png"},
+{"name":"Beach Area Tiles","files":["Beach Tileset.png","Beach Tileset.tsx"],"type":"tile","author":"Claris","game":"BN3","preview":"Beach Tileset.png"},
 {"name":"Beach Area Arrows","files":["Beach_Next_Area.png","Beach_Next_Area.tsx"],"type":"tile","author":"Claris","game":"BN3","preview":"Beach_Next_Area.png"},
 {"name":"Beach Area Warp","files":["Beach_Warp.png","Beach_Warp.tsx"],"type":"object","type":"object","author":"Claris","game":"BN3","preview":"Beach_Warp.png"},
 {"name":"SciLab Area Arrows (1 of 2)","files":["SciLabF1_Arrows.png","SciLabF1_Arrows.tsx"],"type":"tile","author":"unknown","game":"BN3","preview":"SciLabF1_Arrows.png"},
