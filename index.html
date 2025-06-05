@@ -1680,7 +1680,7 @@
       if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
         const $rows = $(`#${currentTab}-content table.file-list tbody tr`);
         let idx = $rows.index($('tr.selected'));
-        if (idx < 0) idx = (e.key === 'ArrowDown' ? -1 : 0);
+        if (idx < 0){ idx = (e.key === 'ArrowDown' ? -1 : 0); }
         const nextIdx = (e.key === 'ArrowDown')
           ? Math.min(idx + 1, $rows.length - 1)
           : Math.max(idx - 1, 0);
