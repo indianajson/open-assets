@@ -841,6 +841,7 @@
         currentData = allTools;
       }
       
+      if (games.includes("BN5")){ games.push('EXE5DS') }
       let rows = currentData.filter(item=>{
         if(games.length && !games.includes(item.game) && currentTab !== 'scripts'  && currentTab !== 'tools') return false;
         if(authors.length && !authors.includes(item.author)) return false;
@@ -864,11 +865,9 @@
               // Handle cases where the field might be an array
               const av = Array.isArray(a[sortField]) ? a[sortField].join(', ') : a[sortField];
               const bv = Array.isArray(b[sortField]) ? b[sortField].join(', ') : b[sortField];
-              
               // Convert to lowercase strings for comparison
-              const avLower = String(av).toLowerCase();
-              const bvLower = String(bv).toLowerCase();
-              
+              avLower = String(av).toLowerCase();             
+              bvLower = String(bv).toLowerCase();
               return (avLower < bvLower ? -1 : avLower > bvLower ? 1 : 0) * (sortAsc?1:-1);
           });
       }
