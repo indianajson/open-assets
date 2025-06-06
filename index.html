@@ -540,7 +540,8 @@
         </div>
 
         <div class="preview-panel">
-          <p><strong></strong> <span id="detail-title-music">—</span></p>
+          <p><strong></strong> <span id="detail-title-music">—</span><br>
+         <span id="detail-ostname-music" style="margin-top:-5px; margin-bottom:-5px;font-size:20px;">—</span></p>
           <div class="audio-player">
             <div class="audio-controls">
               <button style="font-size:20px;" id="play-btn">&nbsp;▶</button>
@@ -550,9 +551,14 @@
             <audio id="audio-player"></audio>
           </div>
           <div class="details">
-            <p><strong>Author: </strong> <span id="detail-author-music">—</span></p>
+            <button id="download-single-music" style="float:right;" disabled>Download This Track</button>
+            <p><strong>Loop Start (ms): </strong> <span id="detail-loopstart-music">—</span></p>
+            <p><strong>Loop End (ms): </strong> <span id="detail-loopend-music">—</span></p>
             <p><strong>Game: </strong> <span id="detail-game-music">—</span></p>
-            <button id="download-single-music" disabled>Download This Track</button>
+            <p><strong>Composer(s): </strong> <span id="detail-composer-music">—</span></p>
+            <p><strong>Places Used: </strong> <span id="detail-places-music">—</span></p>
+            <p><strong>Contributor(s): </strong> <span id="detail-author-music">—</span></p>
+
           </div>
         </div>
       </div>
@@ -860,7 +866,7 @@
               <td><input type="checkbox" class="sel"/></td>
               <td><button class="music-play-btn">▶</button></td>
               <td>${it.name}</td>
-              <td></td>
+              <td>${it.ostname}</td>
               <td>${it.game}</td>
               <td>${Array.isArray(it.author) ? '<i>Multiple</i>' : it.author}</td>
             </tr>`
@@ -1539,6 +1545,11 @@
       $('#detail-title-music').text(item.name);
       $('#detail-author-music').text(item.author);
       $('#detail-game-music').text(item.game);
+      $('#detail-loopstart-music').text(item.start);
+      $('#detail-loopend-music').text(item.stop);
+      $('#detail-places-music').text(item.places);
+      $('#detail-ostname-music').text(item.ostname);
+      $('#detail-composer-music').text(Array.isArray(item.composer) ? item.composer.join(', ') : item.composer);
       $('#download-single-music').prop('disabled', false).off().on('click', ()=>downloadMultipleMusic([item]));
       
       const audioPath = 'music/'+item.files[0];
