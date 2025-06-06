@@ -396,6 +396,16 @@
       font-family: 'pixel';
       font-weight: bold;
     }
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    .spinning {
+      animation: spin 3s linear infinite;
+      animation-direction: reverse;
+      animation-play-state: paused;
+    }
 
   </style>
 </head>
@@ -540,8 +550,13 @@
         </div>
 
         <div class="preview-panel">
+          <div class="disc-preview" style="text-align:center;">
+            <img id="disc-image" src="" class="spinning" style="width:180px; height:180px;">
+          </div>
           <p><strong></strong> <span id="detail-title-music">—</span><br>
          <span id="detail-ostname-music" style="margin-top:-5px; margin-bottom:-5px;font-size:20px;">—</span></p>
+           
+
           <div class="audio-player">
             <div class="audio-controls">
               <button style="font-size:20px;" id="play-btn">&nbsp;▶</button>
@@ -653,6 +668,8 @@
           if(currentlyPlayingRow) {
             currentlyPlayingRow.find('.music-play-btn').text('▶');
             $('#play-btn').text('▶');
+            $('#disc-image').css({'animation-play-state': 'paused'});
+    
             currentlyPlayingRow = null;
           }
       }
@@ -928,9 +945,11 @@
             if(currentAudio.paused) {
               currentAudio.play();
               $(this).text('❚❚');
+              $('#disc-image').css({'animation-play-state': 'running'});
               $('#play-btn').text('❚❚');
             } else {
               currentAudio.pause();
+              $('#disc-image').css({'animation-play-state': 'paused'});
               $(this).text('▶');
               $('#play-btn').text('▶');
             }
@@ -938,12 +957,14 @@
             // New track selected
             if(currentlyPlayingRow) {
               currentlyPlayingRow.find('.music-play-btn').text('▶');
+              $('#disc-image').css({'animation-play-state': 'paused'});
             }
             currentlyPlayingRow = $row;
             $(this).text('❚❚');
             $('#play-btn').text('❚❚');
             showMusicPreview(item);
             currentAudio.play();
+            $('#disc-image').css({'animation-play-state': 'running'});
           }
         });
       } else if (currentTab === 'scripts' || currentTab === 'tools') {
@@ -1540,8 +1561,18 @@
     function showMusicPreview(item){
       if(currentAudio) {
         currentAudio.pause();
+        $('#disc-image').css({'animation-play-state': 'paused'});
         currentAudio = null;
       }
+      if(item.disc) {
+        $('#disc-image').attr('src', 'img/' + item.disc);
+        $('#disc-image').css({"display":""});
+      }else{
+        $('#disc-image').css({"display":"none"});
+      }
+      
+      $('#detail-title-music').text(item.name);
+
       
       $('#detail-title-music').text(item.name);
       $('#detail-author-music').text(item.author);
@@ -1562,6 +1593,7 @@
         if(currentAudio.paused) {
           currentAudio.play();
           $(this).text('❚❚');
+          $('#disc-image').css({'animation-play-state': 'running'});
           $('#play-btn').text('❚❚');
           if(currentlyPlayingRow) {
             currentlyPlayingRow.find('.music-play-btn').text('❚❚');
@@ -1569,6 +1601,7 @@
         } else {
           currentAudio.pause();
           $(this).text('▶');
+          $('#disc-image').css({'animation-play-state': 'paused'});
           $('#play-btn').text('▶');
           if(currentlyPlayingRow) {
             currentlyPlayingRow.find('.music-play-btn').text('▶');
@@ -1591,6 +1624,7 @@
       });
       
       currentAudio.addEventListener('ended', function(){
+        $('#disc-image').css({'animation-play-state': 'paused'});
         $('#play-btn').text('▶');
         if(currentlyPlayingRow) {
           currentlyPlayingRow.find('.music-play-btn').text('▶');
