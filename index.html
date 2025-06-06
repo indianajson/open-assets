@@ -955,6 +955,7 @@
         });
         } else if(currentTab === 'tiles') {
         $(`#${currentTab}-content table.file-list tbody tr`).on('click', function(e){
+          $("#preview-animated").empty()
           if(e.target.type==='checkbox') return;
           $('table.file-list tr').removeClass('selected');
           $(this).addClass('selected');
