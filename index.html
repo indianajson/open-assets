@@ -423,7 +423,7 @@
       <div class="tab" data-tab="npcs">NPCs</div>
       <div class="tab" data-tab="music">Music</div>
       <div class="tab" data-tab="scripts">Scripts</div>
-      <div class="tab" data-tab="tools">Resources</div>
+      <div class="tab" data-tab="tools">Tools/Info</div>
     </div>
 
     <!-- Search bar -->
@@ -553,8 +553,8 @@
           <div class="disc-preview" style="text-align:center;">
             <img id="disc-image" src="" class="spinning" style="width:180px; height:180px;">
           </div>
-          <p><strong></strong> <span id="detail-title-music">—</span><br>
-         <span id="detail-ostname-music" style="margin-top:-5px; margin-bottom:-5px;font-size:20px;">—</span></p>
+          <p><strong></strong> <span id="detail-ostname-music">—</span><br>
+         <span id="detail-title-music" style="margin-top:-5px; margin-bottom:-5px;font-size:20px;">—</span></p>
            
 
           <div class="audio-player">
@@ -563,10 +563,12 @@
               <input type="range" id="audio-timeline" class="audio-timeline" value="0" min="0" max="100">
               <span id="current-time">0:00</span> / <span id="duration">0:00</span>
             </div>
+			  <button id="toggleLoop" style="float:left; font-size:15px;">Enable Looping</button>
             <audio id="audio-player"></audio>
           </div>
           <div class="details">
             <button id="download-single-music" style="float:right;" disabled>Download This Track</button>
+            <!--<p><strong>curTime: </strong> <span id="detail-curtime-music">—</span></p>-->
             <p><strong>Loop Start (ms): </strong> <span id="detail-loopstart-music">—</span></p>
             <p><strong>Loop End (ms): </strong> <span id="detail-loopend-music">—</span></p>
             <p><strong>Game: </strong> <span id="detail-game-music">—</span></p>
@@ -628,6 +630,8 @@
     let sortAsc = true;
     let currentAudio = null;
     let currentlyPlayingRow = null;
+    let isLooping = false;
+
 
     // Initialize tabs
     $('.tab').on('click', function(){
@@ -692,7 +696,7 @@
     }else if(currentTab=="music" || currentTab=="tiles" || currentTab=="npcs"){ 
         sortField = "game"; sortAsc = true; 
     }else if(currentTab=="scripts" || currentTab=="tools"){ 
-        sortField = "name"; sortAsc = true; 
+        sortField = "tooltype"; sortAsc = true; 
     }
     renderList();
 
@@ -745,7 +749,7 @@
     /* Functions to Build Filters */
 
     function buildFilterOptions(){
-      const games = ["BN1","BN2","BN3","BN4","BN4.5","BN5","BN6","LoN","PoN","Shanghai","Custom","Other"];
+      const games = ["EXE1/BN1","EXE2/BN2","EXE3/BN3","EXE4/BN4","EXE4.5","EXE5/BN5","EXE6/BN6","EXETM/NT","EXEGP/BCC","EXEPoN","EXELoN","SSR1/SF1","SSR2/SF2","SSR3/SF3","Shanghai","Custom","Other"];
       const $game = $('.filter[data-filter=game] .dropdown');
       $game.empty(); // Clear existing options
       games.forEach(g=>{
@@ -841,7 +845,8 @@
         currentData = allTools;
       }
       
-      if (games.includes("BN5")){ games.push('EXE5DS') }
+	  if (games.includes("EXE1/BN1")){games.push('EXEOSS')}
+	  if (games.includes("EXE5/BN5")){games.push('EXE5DS/BN5DS')}
       let rows = currentData.filter(item=>{
         if(games.length && !games.includes(item.game) && currentTab !== 'scripts'  && currentTab !== 'tools') return false;
         if(authors.length && !authors.includes(item.author)) return false;
@@ -865,9 +870,14 @@
               // Handle cases where the field might be an array
               const av = Array.isArray(a[sortField]) ? a[sortField].join(', ') : a[sortField];
               const bv = Array.isArray(b[sortField]) ? b[sortField].join(', ') : b[sortField];
+              
               // Convert to lowercase strings for comparison
-              avLower = String(av).toLowerCase();             
+              avLower = String(av).toLowerCase();
+              if(avLower == "custom"){ avLower = "zcustom";}
+              if(avLower == "other"){ avLower = "yother";}
               bvLower = String(bv).toLowerCase();
+              if(bvLower == "custom"){ bvLower = "zcustom";}
+              if(bvLower == "other"){ bvLower = "yother";}
               return (avLower < bvLower ? -1 : avLower > bvLower ? 1 : 0) * (sortAsc?1:-1);
           });
       }
@@ -925,6 +935,7 @@
       // Set up row click handlers based on current tab
       if(currentTab === 'music') {
         $(`#${currentTab}-content table.file-list tbody tr`).on('click', function(e){
+          $("#play-btn").text("▶");
           if($(e.target).hasClass('music-play-btn') || $(e.target).hasClass('sel')) return;
           
           $('table.file-list tr').removeClass('selected');
@@ -1409,6 +1420,7 @@
         spriteHeight = animationFrames[0].h;
         
         // Only apply velocity scaling for backgrounds, not NPCs
+		
         if (currentTab === 'backgrounds') {
           xVelocity = xVelocity * -1 * 200 * spriteWidth/120;
           yVelocity = yVelocity * -1 * 200 * spriteWidth/120;
@@ -1586,7 +1598,13 @@
       const audioPath = 'music/'+item.files[0];
       
       currentAudio = new Audio(audioPath);
+      currentAudio.loopStart = item.start * 0.001;
+      currentAudio.loopEnd = item.stop * 0.001;
       currentAudio.volume = .05;
+	  
+      let loopStart = currentAudio.loopStart || 0;
+      let loopEnd = currentAudio.loopEnd || currentAudio.duration;
+      
       // Set up audio player controls
       $('#play-btn').off().on('click', function(){
         if(currentAudio.paused) {
@@ -1608,27 +1626,45 @@
         }
       });
       
-      currentAudio.addEventListener('timeupdate', function(){
-        const currentTime = formatTime(currentAudio.currentTime);
-        const duration = formatTime(currentAudio.duration);
-        $('#current-time').text(currentTime);
-        $('#duration').text(duration);
-        const progress = (currentAudio.currentTime / currentAudio.duration) * 100;
-        $('#audio-timeline').val(progress || 0);
-      });
-      
-      $('#audio-timeline').off().on('input', function(){
-        const seekTime = (currentAudio.duration * $(this).val()) / 100;
-        currentAudio.currentTime = seekTime;
-      });
-      
-      currentAudio.addEventListener('ended', function(){
-        $('#disc-image').css({'animation-play-state': 'paused'});
-        $('#play-btn').text('▶');
-        if(currentlyPlayingRow) {
-          currentlyPlayingRow.find('.music-play-btn').text('▶');
-        }
-      });
+	  // Toggle loop button
+	  $('#toggleLoop').off().on('click', function(){
+		  isLooping = !isLooping;
+		  $(this).text(isLooping ? 'Disable Looping' : 'Enable Looping');
+	  });
+	  
+	  currentAudio.addEventListener('timeupdate', function(){
+		  const currentTime = formatTime(currentAudio.currentTime);
+		  const duration = formatTime(currentAudio.duration);
+		  $('#current-time').text(currentTime);
+		  $('#duration').text(duration);
+		  const progress = (currentAudio.currentTime / currentAudio.duration) * 100;
+		  $('#audio-timeline').val(progress || 0);
+		  
+		  // Handle looping
+		  if (isLooping && loopEnd > 0 && currentAudio.currentTime >= loopEnd) {
+		    currentAudio.currentTime = loopStart;
+        currentAudio.play();
+		  }
+		  $('#detail-curtime-music').text(currentAudio.currentTime);
+	  });
+	  
+	  $('#audio-timeline').off().on('input', function(){
+		  const seekTime = (currentAudio.duration * $(this).val()) / 100;
+		  currentAudio.currentTime = seekTime;
+	  });
+	  
+	  currentAudio.addEventListener('ended', function(){
+		  if (isLooping) {
+		  currentAudio.currentTime = loopStart;
+		  currentAudio.play();
+		  } else {
+		  $('#disc-image').css({'animation-play-state': 'paused'});
+		  $('#play-btn').text('▶');
+		  if(currentlyPlayingRow) {
+			  currentlyPlayingRow.find('.music-play-btn').text('▶');
+		  }
+		  }
+	  });
     }
 
     function formatTime(seconds) {
