@@ -39,8 +39,6 @@ let allMusic = [
 {"name": "Final Battle Theme","files": ["BN2-Final Battle Theme.ogg"], "author": "D3str0y3d","game": "EXE2/BN2","duration": "1:33", "composer": "Aoki Yoshino", "places": "", "start": "", "stop": "", "ostname": "VS. Gospel","disc":"bn1-2.png"},
 {"name": "End Credits","files": ["BN2-End Roll.ogg"], "author": "D3str0y3d","game": "EXE2/BN2","duration": "2:21", "composer": "Aoki Yoshino", "places": "", "start": "", "stop": "", "ostname": "Peace Again","disc":"bn1-2.png"},
 {"name": "ACDC (Overworld)","files": ["BN3-ACDC Town.ogg"], "author": "D3str0y3d","game": "EXE3/BN3","duration": "2:01", "composer": "Aoki Yoshino", "places": "", "start": "", "stop": "", "ostname": "Hometown","disc":"disc2.png"},
-
-
 {"ostname": "Be Somewhere", "files": ["exe5ds-opening-jp.ogg"], "author": "K1rbYat1Na", "game": "EXE5DS/BN5DS",  "composer": ["Buzy (original)", "Mitsuhiko Takano (arrangement)"], "places": "Pre-Start Screen (JP)", "start": "", "stop": "", "name": "Opening Theme (JP)","disc":"disc5.png"},
 {"ostname": "Theme of Rockman EXE (TGS Mix)", "files": ["exe5ds-opening-us.ogg"], "author": "K1rbYat1Na", "game": "EXE5DS/BN5DS",  "composer": [" (original)", "Mitsuhiko Takano (arrangement)"], "places": "Pre-Start Screen (US)", "start": "", "stop": "", "name": "Opening Theme (US)","disc":"disc5.png"},
 {"ostname": "Theme of Rockman EXE5", "files": ["exe5ds-title.ogg"], "author": "K1rbYat1Na", "game": "EXE5DS/BN5DS",  "composer": ["Akari Kaida (original)", "Mitsuhiko Takano (arrangement)"], "places": "Title Screen", "start": "18616", "stop": "32237", "name": "Title Theme","disc":"disc5.png"},
