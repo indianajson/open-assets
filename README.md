@@ -6,6 +6,9 @@
 
 ### <a style="text-decoration:underline;" href="https://indianajson.github.io/open-assets/index.html">Click here</a> to launch the interface and view the collection!
 
-If you want to contribute assets to the collection please ping @indianajson on the Discord server. 
+If you want to contribute assets to the collection please use go to the Issues tab here on Github and click `New Issue`.
 
+<h2> Special Thanks</h2>
 
+- CyanMan, D3str0y3d, Keristero, and Quetzen _for beta testing (names in alphabetical order)_
+- K1rbYat1Na _for contributing code to the Music tab._
