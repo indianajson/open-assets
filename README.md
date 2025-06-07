@@ -10,5 +10,6 @@ If you want to contribute assets to the collection please use go to the Issues t
 
 <h2> Special Thanks</h2>
 
-- CyanMan, [D3str0y3d](https://github.com/ninjaman255), [Keristero](https://github.com/Keristero), and Quetzen _for beta testing (names in alphabetical order)_
-- [K1rbYat1Na](https://github.com/K1rbYat1Na) _for contributing code to the Music tab._
+- CyanMan, [D3str0y3d](https://github.com/ninjaman255), [Keristero](https://github.com/Keristero), [K1rbYat1Na](https://github.com/K1rbYat1Na), and Quetzen _for beta testing (names in alphabetical order)_
+- [K1rbYat1Na](https://github.com/K1rbYat1Na) _for suggestions and contributing code to the Music tab._
+- All the authors who created and contributed assets to this project.
