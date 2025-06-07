@@ -1,0 +1,12 @@
+imagePath="C:\Users\dgmullins\Downloads\Nettomug_exe3.png"
+
+animation state="IDLE"
+frame duration="5" x="2" y="2" w="40" h="48" originx="0" originy="0" flipx="0" flipy="0"
+frame duration="0.1" x="134" y="2" w="40" h="48" originx="0" originy="0" flipx="0" flipy="0"
+frame duration="0.1" x="178" y="2" w="40" h="48" originx="0" originy="0" flipx="0" flipy="0"
+frame duration="0.1" x="134" y="2" w="40" h="48" originx="0" originy="0" flipx="0" flipy="0"
+
+animation state="TALK"
+frame duration="0.066" x="2" y="2" w="40" h="48" originx="0" originy="0" flipx="0" flipy="0"
+frame duration="0.066" x="46" y="2" w="40" h="48" originx="0" originy="0" flipx="0" flipy="0"
+frame duration="0.066" x="90" y="2" w="40" h="48" originx="0" originy="0" flipx="0" flipy="0"

@@ -1,0 +1,9 @@
+imagePath="C:/Users/dgmullins/OneDrive/Desktop/ezlibs-assets/eznpcs/mug/BassBn3.png"
+
+animation state="IDLE"
+frame duration="0.005" x="0" y="0" w="40" h="48" originx="0" originy="0" flipx="0" flipy="0"
+
+animation state="TALK"
+frame duration="0.005" x="0" y="0" w="40" h="48" originx="0" originy="0" flipx="0" flipy="0"
+frame duration="0.005" x="0" y="0" w="40" h="48" originx="0" originy="0" flipx="0" flipy="0"
+frame duration="0.005" x="0" y="0" w="40" h="48" originx="0" originy="0" flipx="0" flipy="0"
