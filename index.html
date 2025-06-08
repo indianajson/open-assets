@@ -1592,7 +1592,7 @@
       $('#download-single-music').prop('disabled', false).off().on('click', ()=>downloadMultipleMusic([item]));
 		  $('#current-time').text("0:00");
 		  $('#duration').text(item.duration);
-
+      file_duration = item.duration
       const audioPath = 'music/'+item.files[0];
       currentAudio = new Audio(audioPath);
       currentAudio.loopStart = item.start * 0.001;
@@ -1630,17 +1630,7 @@
 	  
 	  currentAudio.addEventListener('timeupdate', function(){
 		  const currentTime = formatTime(currentAudio.currentTime);
-		  duration = formatTime(currentAudio.duration);
-      if (duration == "NaN:NaN"){
-        duration = item.duration
-        console.log("tried")
-      }
-      if (duration == "0:00"){
-        duration = item.duration
-        console.log("tried2")
-      }
 		  $('#current-time').text(currentTime);
-		  $('#duration').text(duration);
 		  const progress = (currentAudio.currentTime / currentAudio.duration) * 100;
 		  $('#audio-timeline').val(progress || 0);
 		  
