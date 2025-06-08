@@ -13,3 +13,6 @@ If you want to contribute assets to the collection please use go to the Issues t
 - [CyanMan](https://github.com/CyanmanEXE), [D3str0y3d](https://github.com/ninjaman255), [Keristero](https://github.com/Keristero), [K1rbYat1Na](https://github.com/K1rbYat1Na), and Quetzen _for beta testing (names in alphabetical order)_
 - [K1rbYat1Na](https://github.com/K1rbYat1Na) _for suggestions and contributing code to the Music tab._
 - All the authors who created and contributed assets to this project.
+
+<h2> Known Limitations</h2>
+- <b>Background preview</b> does not accurately reflect the movement speed of the background as it will appear in-game with the same velocity values. The renderer will need to be refactored in order to more accurately display background movement. 
