@@ -188,7 +188,7 @@ let allData = [
 {"name":"Large Fires (1/2)","type":"object","files":["obstacle_fire_1.tsx","obstacle_fire_1.png"],"author":"Quetzen","game":"EXE3/BN3","preview":"obstacle_fire_1.png"},
 {"name":"Large Fires (2/2)","type":"object","files":["obstacle_fire_2.tsx","obstacle_fire_2.png"],"author":"Quetzen","game":"EXE6/BN6","preview":"obstacle_fire_2.png"},
 {"name":"Stones","type":"objects","files":["obstacle_stone.tsx","obstacle_stone.png"],"author":"Quetzen","game":"EXE5/BN5","preview":"obstacle_stone.png"},
-{"name":"Stump","type":"object","files":["obstacle_stump.tsx","obstacle_stump.png"],"author":"Quetzen","game":"Other","preview":"obstacle_stump.png"},
+{"name":"Stump","type":"object","files":["obstacle_stump.tsx","obstacle_stump.png"],"author":"Quetzen","game":"EXE4.5","preview":"obstacle_stump.png"},
 {"name":"Podium","type":"object","files":["Podium.tsx","Podium.png"],"author":"Quetzen","game":"EXE5/BN5","preview":"Podium.png"},
 {"name":"Roadblock","type":"object","files":["Roadblock.tsx","Roadblock.png"],"author":"Quetzen","game":"EXE2/BN2","preview":"Roadblock.png"},
 {"name":"Sewage Station (1/3)","type":"object","files":["Sewage_station_base.tsx","Sewage_station_base.png"],"author":"Quetzen","game":"EXE6/BN6","preview":"Sewage_station_base.png"},
