@@ -25,7 +25,7 @@ assignees: ''
 
 #### <code>Assets</code> 
 
-(be sure to upload your assets with your post, all sprites must have an accompanying .tsx or .animation file)
+(Upload your assets with your post in a ZIP file, all sprites must have an accompanying .tsx or .animation file)
 
 #### <code>Additional Information</code> 
 
