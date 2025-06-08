@@ -1,6 +1,6 @@
 let allData = [
-{"name":"Den Area Tiles","files":["BN2_ACDC.tsx","BN2_ACDC.png"],"author":"Quetzen","type":"tile","game":"EXE2/BN2","preview":"BN2_ACDC.png"},
-{"name":"Den Area Tile (Square)","files":["ACDC_Net_Tileset.png","ACDC_Net_Tileset.tsx"],"type":"tile","author":"Claris","game":"EXE2/BN2","preview":"ACDC_Net_Tileset.png"},
+{"name":"Den / ACDC Area Tiles","files":["BN2 ACDC.tsx","BN2 ACDC.png"],"author":"Quetzen","type":"tile","game":"EXE2/BN2","preview":"BN2 ACDC.png"},
+//{"name":"Den Area Tile (Square)","files":["ACDC_Net_Tileset.png","ACDC_Net_Tileset.tsx"],"type":"tile","author":"Claris","game":"EXE2/BN2","preview":"ACDC_Net_Tileset.png"},
 {"name":"Security Cube","files":["bn6_securitycube.tsx","bn6_securitycube.png"],"author":"Claris","type":"object","game":"EXE6/BN6","preview":"bn6_securitycube.png"},
 {"name":"Security Cube (gray)","files":["bn6_cube_gray.tsx","bn6_cube_gray.png"],"author":"Claris","type":"object","game":"EXE6/BN6","preview":"bn6_cube_gray.png"},
 {"name":"Home Warp","files":["home warp.png","home warp.tsx"],"author":"unknown","type":"object","game":"EXE5/BN5","preview":"home warp.png"},
