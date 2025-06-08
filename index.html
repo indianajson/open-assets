@@ -1581,10 +1581,6 @@
       }else{
         $('#disc-image').css({"display":"none"});
       }
-      
-      $('#detail-title-music').text(item.name);
-
-      
       $('#detail-title-music').text(item.name);
       $('#detail-author-music').text(item.author);
       $('#detail-game-music').text(item.game);
@@ -1594,17 +1590,17 @@
       $('#detail-ostname-music').text(item.ostname);
       $('#detail-composer-music').text(Array.isArray(item.composer) ? item.composer.join(', ') : item.composer);
       $('#download-single-music').prop('disabled', false).off().on('click', ()=>downloadMultipleMusic([item]));
-      
+		  $('#current-time').text("0:00");
+		  $('#duration').text(item.duration);
+
       const audioPath = 'music/'+item.files[0];
-      
       currentAudio = new Audio(audioPath);
       currentAudio.loopStart = item.start * 0.001;
       currentAudio.loopEnd = item.stop * 0.001;
       currentAudio.volume = .05;
-	  
       let loopStart = currentAudio.loopStart || 0;
       let loopEnd = currentAudio.loopEnd || currentAudio.duration;
-      
+
       // Set up audio player controls
       $('#play-btn').off().on('click', function(){
         if(currentAudio.paused) {
@@ -1634,7 +1630,15 @@
 	  
 	  currentAudio.addEventListener('timeupdate', function(){
 		  const currentTime = formatTime(currentAudio.currentTime);
-		  const duration = formatTime(currentAudio.duration);
+		  duration = formatTime(currentAudio.duration);
+      if (duration == "NaN:NaN"){
+        duration = item.duration
+        console.log("tried")
+      }
+      if (duration == "0:00"){
+        duration = item.duration
+        console.log("tried2")
+      }
 		  $('#current-time').text(currentTime);
 		  $('#duration').text(duration);
 		  const progress = (currentAudio.currentTime / currentAudio.duration) * 100;
@@ -1648,23 +1652,23 @@
 		  $('#detail-curtime-music').text(currentAudio.currentTime);
 	  });
 	  
-	  $('#audio-timeline').off().on('input', function(){
-		  const seekTime = (currentAudio.duration * $(this).val()) / 100;
-		  currentAudio.currentTime = seekTime;
-	  });
+      $('#audio-timeline').off().on('input', function(){
+        const seekTime = (currentAudio.duration * $(this).val()) / 100;
+        currentAudio.currentTime = seekTime;
+      });
 	  
-	  currentAudio.addEventListener('ended', function(){
-		  if (isLooping) {
-		  currentAudio.currentTime = loopStart;
-		  currentAudio.play();
-		  } else {
-		  $('#disc-image').css({'animation-play-state': 'paused'});
-		  $('#play-btn').text('▶');
-		  if(currentlyPlayingRow) {
-			  currentlyPlayingRow.find('.music-play-btn').text('▶');
-		  }
-		  }
-	  });
+      currentAudio.addEventListener('ended', function(){
+        if (isLooping) {
+        currentAudio.currentTime = loopStart;
+        currentAudio.play();
+        } else {
+        $('#disc-image').css({'animation-play-state': 'paused'});
+        $('#play-btn').text('▶');
+        if(currentlyPlayingRow) {
+          currentlyPlayingRow.find('.music-play-btn').text('▶');
+        }
+        }
+      });
     }
 
     function formatTime(seconds) {

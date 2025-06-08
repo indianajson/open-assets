@@ -71,7 +71,7 @@ let allNPCs = [
     {"name": "Toadman","files": ["toadman.animation", "toadman.png","mug.animation","toadman-mug.png"],"author": "unknown","game": "Other","preview": "toadman.animation"},
     {"name": "Tomahawk","files": ["tomahawk.animation", "tomahawk.png","mug.animation","tomahawk-mug.png"],"author": "unknown","game": "Other","preview": "tomahawk.animation"},
     {"name": "Undernet Navi","files": ["undernet-navi-shanghai.animation", "undernet-navi-shanghai.png","mug.animation","undernet-navi-shanghai-mug.png"],"author": "unknown","game": "Shanghai","preview": "undernet-navi-shanghai.animation"},
-    {"name": "Wily","files": ["wily.animation", "wily.png","mug.animation","wily-mug.png"],"author": "unknown","game": "EXE3/BN3","preview": "wily.animation"},
+    {"name": "Wily","files": ["wily.animation", "wily.png","mug.animation","wily-mug.png"],"author": ["unknown","Indiana (tweaks)"],"game": "EXE3/BN3","preview": "wily.animation"},
     {"name": "Windman","files": ["windman.animation", "windman.png","mug.animation","windman-mug.png"],"author": "unknown","game": "Other","preview": "windman.animation"},
     {"name": "Woodman","files": ["woodman.animation", "woodman.png","mug.animation","woodman-mug.png"],"author": "unknown","game": "Other","preview": "woodman.animation"}
   

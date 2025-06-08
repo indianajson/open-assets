@@ -13,9 +13,9 @@ animation state="IDLE_UL"
 frame duration="0.005" x="64" y="2" w="19" h="47" originx="9" originy="45" flipx="0" flipy="0"
 
 animation state="LAUGH_DR"
-frame duration="0.005" x="64" y="52" w="26" h="47" originx="14" originy="44" flipx="0" flipy="0"
-frame duration="0.005" x="2" y="52" w="27" h="48" originx="14" originy="45" flipx="0" flipy="0"
+frame duration="0.1" x="64" y="52" w="26" h="47" originx="14" originy="44" flipx="0" flipy="0"
+frame duration="0.1" x="2" y="52" w="27" h="48" originx="14" originy="45" flipx="0" flipy="0"
 
 animation state="LAUGH_DL"
-frame duration="0.005" x="94" y="52" w="26" h="47" originx="12" originy="44" flipx="0" flipy="0"
-frame duration="0.005" x="33" y="52" w="27" h="48" originx="12" originy="45" flipx="0" flipy="0"
+frame duration="0.1" x="94" y="52" w="26" h="47" originx="12" originy="44" flipx="0" flipy="0"
+frame duration="0.1" x="34" y="52" w="27" h="48" originx="12" originy="45" flipx="0" flipy="0"
