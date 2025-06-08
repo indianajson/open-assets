@@ -25,8 +25,8 @@ let allBackgrounds = [
     {"name":"Netto's HP","velx":"0.115","vely":"0.065","files":["02-nettonohp.png","02-nettonohp.animation"],"author":"K1rbYat1Na","credit":false,"game":"EXE6/BN6","preview":"02-nettonohp.animation"},
     {"name":"Sky's HP","velx":"0.115","vely":"0.065","files":["05-skynohp.png","05-skynohp.animation"],"author":"K1rbYat1Na","credit":false,"game":"EXE6/BN6","preview":"05-skynohp.animation"},
     {"name":"Aquarium's HP","velx":"0.115","vely":"0.065","files":["03-aquariumhp.png","03-aquariumhp.animation"],"author":"K1rbYat1Na","credit":false,"game":"EXE6/BN6","preview":"03-aquariumhp.animation"},
-    {"name":"","velx":"","vely":"","files":[".png",".animation"],"author":"K1rbYat1Na","credit":false,"game":"EXE6/BN6","preview":".animation"},
-    {"name":"","velx":"","vely":"","files":[".png",".animation"],"author":"K1rbYat1Na","credit":false,"game":"EXE6/BN6","preview":".animation"},
+   // {"name":"","velx":"","vely":"","files":[".png",".animation"],"author":"K1rbYat1Na","credit":false,"game":"EXE6/BN6","preview":".animation"},
+   // {"name":"","velx":"","vely":"","files":[".png",".animation"],"author":"K1rbYat1Na","credit":false,"game":"EXE6/BN6","preview":".animation"},
 
 /*
 
