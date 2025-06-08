@@ -53,7 +53,7 @@ let allData = [
 {"name":"Tamako Panel","files":["BN3TamakoPanel.png","BN3TamakoPanel.tsx"],"type":"tile","author":"unknown","game":"EXE3/BN3","preview":"BN3TamakoPanel.png"},
 {"name":"Yai Panel","files":["BN3YaiPanel.png","BN3YaiPanel.tsx"],"type":"tile","author":"unknown","game":"EXE3/BN3","preview":"BN3YaiPanel.png"},
 {"name":"Mayl Panel","files":["BN3MaylPanel.png","BN3MaylPanel.tsx"],"type":"tile","author":"FrozenLake","game":"EXE3/BN3","preview":"BN3MaylPanel.png"},
-{"name":"Yoka Compression Roads","files":["CompressionRoadsYoka.png","CompressionRoadsYoka.tsx"],"type":"tile","author":"D3str0y3d","game":"EXE3/BN3","preview":"CompressionRoadsYoka.png"},
+{"name":"Yoka Compression Roads","files":["CompressionRoadsYoka.png","CompressionRoadsYoka.tsx"],"type":"tile","author":["D3str0y3d","FrozenLake"],"game":"EXE3/BN3","preview":"CompressionRoadsYoka.png"},
 {"name":"Yoka Compression Roads Shadows","type":"object","files":["ShadowCompressionRoad.png","ShadowCompressionRoad.tsx"],"author":"D3str0y3d","game":"EXE3/BN3","preview":"ShadowCompressionRoad.png"},
 {"name":"Yoka Custom Tiles","type":"tile","files":["yokaforjamestileset67x52.png","yokaforjamestileset67x52.tsx"],"type":"tile","author":"DigitalL33T","game":"EXE3/BN3","preview":"yokaforjamestileset67x52.png"},
 {"name":"Cyber Metro Rail","files":["Cyber_Rail.png","Cyber_Rail.tsx"],"type":"tile","author":"unknown","game":"EXE3/BN3","preview":"Cyber_Rail.png"},
