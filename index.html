@@ -406,7 +406,13 @@
       animation-direction: reverse;
       animation-play-state: paused;
     }
+  #disc-image
+  {
+        image-rendering:auto;
+        image-rendering: auto;
+        -ms-interpolation-mode:bicubic;
 
+  }
   </style>
 </head>
 <body>
@@ -553,9 +559,16 @@
           <div class="disc-preview" style="text-align:center;">
             <img id="disc-image" src="" class="spinning" style="width:180px; height:180px;">
           </div>
-          <p><strong></strong> <span id="detail-ostname-music">—</span><br>
-         <span id="detail-title-music" style="margin-top:-5px; margin-bottom:-5px;font-size:20px;">—</span></p>
-           
+<div>
+          <div style="float:left;"><p>
+             <span id="detail-ostname-music">—</span><br>
+         <span id="detail-title-music" style="margin-top:-5px; margin-bottom:-5px;font-size:20px;">—</span>
+        </p></div>
+                             
+            <img id="game-image" src="" style="float:right;width:120px;">
+          
+</div>
+
 
           <div class="audio-player">
             <div class="audio-controls">
@@ -1580,6 +1593,13 @@
         $('#disc-image').css({"display":""});
       }else{
         $('#disc-image').css({"display":"none"});
+      }
+      if(item.gameimage){
+        $('#game-image').attr('src', 'img/' + item.gameimage);
+        $('#game-image').css({"display":""});
+
+      }else{
+        $('#game-image').css({"display":"none"});
       }
       $('#detail-title-music').text(item.name);
       $('#detail-author-music').text(item.author);
