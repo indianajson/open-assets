@@ -1,0 +1,7 @@
+imagePath="shingoukinodennou4.png"
+
+animation state="BG"
+frame duration="0.135" x="0" y="0" w="32" h="64" originx="0" originy="0" flipx="0" flipy="0"
+frame duration="0.135" x="32" y="0" w="32" h="64" originx="0" originy="0" flipx="0" flipy="0"
+frame duration="0.135" x="64" y="0" w="32" h="64" originx="0" originy="0" flipx="0" flipy="0"
+frame duration="0.135" x="96" y="0" w="32" h="64" originx="0" originy="0" flipx="0" flipy="0"

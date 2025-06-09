@@ -1,0 +1,7 @@
+imagePath="yaitonoenodennou.png"
+
+animation state="BG"
+frame duration="0.203" x="0" y="0" w="256" h="256" originx="0" originy="0" flipx="0" flipy="0"
+frame duration="0.203" x="0" y="256" w="256" h="256" originx="0" originy="0" flipx="0" flipy="0"
+frame duration="0.203" x="256" y="0" w="256" h="256" originx="0" originy="0" flipx="0" flipy="0"
+frame duration="0.203" x="256" y="256" w="256" h="256" originx="0" originy="0" flipx="0" flipy="0"
