@@ -15,5 +15,5 @@ If you want to contribute assets to the collection please use go to the Issues t
 - All the authors who created and contributed assets to this project.
 
 <h2> Known Limitations</h2>
-- <b>Background preview</b> does not accurately reflect the movement speed of the background as it will appear in-game with the same velocity values. The renderer will need to be refactored in order to more accurately display background movement. 
-- <b>Tile/Object preview</b> sometimes shows the animation for a different tile if scrolling to fast with arrows. This is resolved by moving down or up one row and back again.
+- <b>Background preview</b> does not accurately reflect the movement speed of the background as it will appear in-game with the same velocity values. The renderer will need to be refactored in order to more accurately display background movement. <br>
+- <b>Tile/Object preview</b> sometimes shows the animation for a different tile if scrolling too fast. This is resolved by moving down or up one row and back again.
