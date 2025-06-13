@@ -102,7 +102,7 @@ let allData = [
 {"name":"Liberation Compatible Arrow","files":["LiberationArrow.png","LiberationArrow.tsx"],"author":"Quetzen","game":"Custom","preview":"LiberationArrow.png"},
 {"name":"Liberation Compatible Dark Stairs","type":"tile","files":["DarkLiberationRamp.png","DarkLiberationRamp.tsx"],"author":"Quetzen","game":"Custom","preview":"DarkLiberationRamp.png"},
 {"name":"Liberation Compatible Stairs","type":"tile","files":["LiberationRamp.png","LiberationRamp.tsx"],"author":"Quetzen","game":"Custom","preview":"LiberationRamp.png"},
-{"name":"Liberation Panels","type":"object","files":["panels.png","panels.tsx"],"author":"unknown","game":"EXE5/BN5","preview":"panels.png"},
+{"name":"Liberation Panels","type":"object","files":["panels.png","panels.tsx"],"author":["frozenLake","Konstinople"],"game":"EXE5/BN5","preview":"panels.png"},
 {"name":"Liberation Panel Tile","type":"tile","files":["panel base.png","panel base.tsx"],"author":"unknown","game":"EXE5/BN5","preview":"panel base.png"},
 {"name":"Liberation Panel Tile Selection","files":["selected tile.png","selected tile.tsx"],"author":"unknown","game":"EXE5/BN5","preview":"selected tile.png"},
 {"name":"Generic Stairs","files": ["stairs.png","stairs.tsx"],"author": "unknown","credit": false,"game": "EXE6/BN6","preview": "stairs.png"},
