@@ -1,4 +1,6 @@
 let allTools = [
+    {"name": "Tiled Layer Fixer","tooltype":"Tiled Extension","description":'A Tiled 1.8+ extension to make adding new layers to Tiled a breeze. The extension will rename and fix vertical offsets in all layers instantly based on their order in the Layers panel.<br><br> <button><a href="https://github.com/indianajson/fix-layers" target="_blank" style="text-decoration:none; color:#000;">Launch Tool</a></button>',"author": "Indiana"},
+
     {"name": "Spritesheet Editor","tooltype":"Web Tool","description":'A tool designed to allow you to edit or create .animation or .TSX files for spritesheets this webtool has all the major functionality to get you from sprite to ONB asset in a matter of minutes. <br><br> <button><a href="https://keristero.github.io/spritesheet-tool/" target="_blank" style="text-decoration:none; color:#000;">Launch Tool</a></button>',"author": "Keristero"},
 
     {"name": "Official Discord Server","tooltype":"For Players","description":'The ONB Discord Server is where it is happening, quite literally. How did you even get here without joining the Discord, anyway? Doesn\'t matter. Join our growing community with the invite link below. <br><br><button id="download-single-tool"><a href="https://discord.gg/yAK9MG2" target="_blank" style="text-decoration:none; color:#000;">Join the Discord</a></button>',"author": "Dr. Nerd"},
