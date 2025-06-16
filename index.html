@@ -598,7 +598,7 @@
   <div class="sidebar">
     <table class="file-list">
       <thead>
-        <tr><th></th><th class="sortable" data-sort="name">Name</th><th class="sortable" data-sort="author">Author</th></tr>
+        <tr><th></th><th class="sortable" data-sort="name">Name</th><th class="sortable" data-sort="scripttype">Type</th><th class="sortable" data-sort="author">Author</th></tr>
       </thead>
       <tbody></tbody>
     </table>
@@ -649,6 +649,7 @@
     // Initialize tabs
     $('.tab').on('click', function(){
       const tab = $(this).data('tab');
+      window.location.hash = tab;
       $('.tab').removeClass('active');
       $(this).addClass('active');
       $('.tab-content').removeClass('active');
@@ -695,6 +696,16 @@
       buildFilterOptions();
       renderList();
     });
+    
+    function handleHashOnLoad() {
+      const hash = window.location.hash.substring(1); // Remove the #
+      const validTabs = ['tiles', 'backgrounds', 'npcs', 'music', 'scripts', 'tools'];
+      
+      if (hash && validTabs.includes(hash)) {
+        // Trigger click on the corresponding tab
+        $(`.tab[data-tab="${hash}"]`).trigger('click');
+      }
+    }
 
     // Search functionality
     $('#search-input').on('input', function(){
@@ -708,9 +719,12 @@
         sortAsc = !sortAsc; 
     }else if(currentTab=="music" || currentTab=="tiles" || currentTab=="npcs"){ 
         sortField = "game"; sortAsc = true; 
-    }else if(currentTab=="scripts" || currentTab=="tools"){ 
+    }else if(currentTab=="tools"){ 
         sortField = "tooltype"; sortAsc = true; 
+    }else if(currentTab=="scripts"){ 
+        sortField = "scripttype"; sortAsc = true; 
     }
+    
     renderList();
 
     $('.menu-bar .filter > label').on('click', function(){
@@ -871,7 +885,7 @@
       
       if (currentTab == 'scripts'){
         if(sortField == "game") {
-            sortField = "name";
+            sortField = "scripttype";
         }
       }else if (currentTab == 'tools'){
         if(sortField == "game") {
@@ -917,6 +931,7 @@
             `<tr>
               <td><input type="checkbox" class="sel"/></td>
               <td>${it.name}</td>
+              <td>${it.scripttype}</td>
               <td>${Array.isArray(it.author) ? '<i>Multiple</i>' : it.author}</td>
             </tr>`
           );
@@ -1861,7 +1876,7 @@
             .then(content => saveAs(content, 'npc.zip'));
     }
   
-  
+  handleHashOnLoad();
   });
   </script>
 <!-- dimmed overlay -->
