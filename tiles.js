@@ -145,7 +145,7 @@ let allData = [
 {"name":"Glow Tileset - Large","files":["GlowLrg.png","GlowLrg.tsx"],"author":"unknown","game":"Custom","preview":"GlowLrg.png"},
 {"name":"Glow Tileset - Small","files":["GlowSm.png","GlowSm.tsx"],"author":"unknown","game":"Custom","preview":"GlowSm.png"},
 {"name":"Glow Tileset - Stairs","files":["GlowStairs.png","GlowStairs.tsx"],"author":"unknown","game":"Custom","preview":"GlowStairs.png"},
-{"name":"Holo Tile (BN6)","files":["HoloPanelz.tsx","HoloPanelz.png"],"author":"unknown","game":"Custom","preview":"HoloPanelz.png"},
+{"name":"Holo Tile (BN6)","files":["HoloPanelz.tsx","HoloPanelz.png"],"author":"Rune","game":"Custom","preview":"HoloPanelz.png"},
 {"name":"Noise Wave Entrance","files":["NoiseWaveEntrance.png","NoiseWaveEntrance.tsx"],"author":"FrozenLake","game":"Other","preview":"NoiseWaveEntrance.png"},
 {"name":"Shademan Comp Warp Animation","files":["ShademanCompWarpAnimation.png","ShademanCompWarpAnimation.tsx"],"author":"unknown","game":"EXE4/BN4","preview":"ShademanCompWarpAnimation.png"},
 {"name":"Undernet Statue","type":"object","files":["UndernetStatue.png","UndernetStatue.tsx"],"author":"unknown","game":"EXE3/BN3","preview":"UndernetStatue.png"},
@@ -206,6 +206,7 @@ let allData = [
 {"name":"Trees","type":"object","files":["exe45_trees.png","exe45_trees.tsx"],"author":"Quetzen","game":"EXE4.5","preview":"exe45_trees.png"},
 {"name":"Wave Roads Decoration (1 of 2)","type":"object","files":["WaveRoadsLBlocks.tsx","WaveRoadsLBlocks.png"],"author":"D3str0y3d","game":"Other","preview":"WaveRoadsLBlocks.png"},
 {"name":"Wave Roads Decoration (2 of 2)","type":"object","files":["WaveRoadAccentAnimationsStraightLine.tsx","WaveRoadAccentAnimationsStraightLine.png"],"author":"D3str0y3d","game":"Other","preview":"WaveRoadAccentAnimationsStraightLine.png"},
+{"name":"WWW Machine","type":"object","files":["exe1 wwwmachine1.png","exe1 wwwmachine1.tsx"],"author":"Quetzen","game":"EXE1/BN1","preview":"exe1 wwwmachine1.png"},
 
 /*
 
