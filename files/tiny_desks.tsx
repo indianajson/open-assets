@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.5" tiledversion="1.7.2" name="tiny desks" tilewidth="32" tileheight="32" tilecount="2" columns="2" objectalignment="bottom">
  <tileoffset x="0" y="8"/>
- <image source="tiny desks.png" width="64" height="32"/>
+ <image source="tiny_desks.png" width="64" height="32"/>
  <tile id="0">
   <objectgroup draworder="index" id="2">
    <object id="1" x="32" y="24">
