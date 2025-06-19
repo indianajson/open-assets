@@ -10,7 +10,7 @@ let allScripts = [
 
     {"name": 'Dawn\'s Liberation Server',"description":'This server features several maps, custom encounters, boss encounters, NPCs, encounters, mystery data, side quests, and liberation missions. <br><br><button id="download-single-script"><a href="http://github.com/ninjaman255/DawnLibServer" target="_blank" style="text-decoration:none; color:#000;">Repository</a></button>',"author": "Claris","scripttype":"Server Code"},
 
-    {"name": 'PVP Matchmaking',"description":'This script allows users to enter free (unranked) or ranked matchmaking queues, as well as, view a leaderboard based on performance by their fellow players.<br><br><button id="download-single-script"><a href="https://github.com/indianajson/octo-ranking" target="_blank" style="text-decoration:none; color:#000;"></a></button>',"author": ["OctoChris","Indiana (improvements)"],"scripttype":"Lua Script"},
+    {"name": 'PVP Matchmaking',"description":'This script allows users to enter free (unranked) or ranked matchmaking queues, as well as, view a leaderboard based on performance by their fellow players.<br><br><button id="download-single-script"><a href="https://github.com/indianajson/octo-ranking" target="_blank" style="text-decoration:none; color:#000;">Repository</a></button>',"author": ["OctoChris","Indiana (improvements)"],"scripttype":"Lua Script"},
 
     /*
     
