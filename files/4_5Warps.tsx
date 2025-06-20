@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.5" tiledversion="1.5.0" name="4_5Warps" tilewidth="68" tileheight="35" tilecount="60" columns="5">
+<tileset version="1.10" tiledversion="1.11.2" name="4_5Warps" tilewidth="68" tileheight="35" tilecount="60" columns="5">
  <grid orientation="orthogonal" width="35" height="68"/>
  <image source="4_5Warps.png" width="340" height="420"/>
  <tile id="0">
+  <objectgroup draworder="index" id="2">
+   <object id="2" x="34" y="6">
+    <polygon points="0,0 17,9 0,18 -17,9"/>
+   </object>
+  </objectgroup>
   <animation>
    <frame tileid="0" duration="100"/>
    <frame tileid="1" duration="100"/>
@@ -12,6 +17,11 @@
   </animation>
  </tile>
  <tile id="5">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="34" y="6">
+    <polygon points="0,0 17,9 0,18 -17,9"/>
+   </object>
+  </objectgroup>
   <animation>
    <frame tileid="5" duration="100"/>
    <frame tileid="6" duration="100"/>
@@ -21,6 +31,11 @@
   </animation>
  </tile>
  <tile id="10">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="34" y="6">
+    <polygon points="0,0 17,9 0,18 -17,9"/>
+   </object>
+  </objectgroup>
   <animation>
    <frame tileid="10" duration="100"/>
    <frame tileid="11" duration="100"/>
@@ -30,6 +45,11 @@
   </animation>
  </tile>
  <tile id="15">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="34" y="6">
+    <polygon points="0,0 17,9 0,18 -17,9"/>
+   </object>
+  </objectgroup>
   <animation>
    <frame tileid="20" duration="100"/>
    <frame tileid="21" duration="100"/>
@@ -39,6 +59,11 @@
   </animation>
  </tile>
  <tile id="20">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="34" y="6">
+    <polygon points="0,0 17,9 0,18 -17,9"/>
+   </object>
+  </objectgroup>
   <animation>
    <frame tileid="20" duration="100"/>
    <frame tileid="21" duration="100"/>
@@ -48,6 +73,11 @@
   </animation>
  </tile>
  <tile id="25">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="34" y="6">
+    <polygon points="0,0 17,9 0,18 -17,9"/>
+   </object>
+  </objectgroup>
   <animation>
    <frame tileid="25" duration="100"/>
    <frame tileid="26" duration="100"/>
@@ -57,6 +87,11 @@
   </animation>
  </tile>
  <tile id="30">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="34" y="6">
+    <polygon points="0,0 17,9 0,18 -17,9"/>
+   </object>
+  </objectgroup>
   <animation>
    <frame tileid="30" duration="100"/>
    <frame tileid="31" duration="100"/>
@@ -66,6 +101,11 @@
   </animation>
  </tile>
  <tile id="35">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="34" y="6">
+    <polygon points="0,0 17,9 0,18 -17,9"/>
+   </object>
+  </objectgroup>
   <animation>
    <frame tileid="35" duration="100"/>
    <frame tileid="36" duration="100"/>
@@ -75,6 +115,11 @@
   </animation>
  </tile>
  <tile id="40">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="34" y="6">
+    <polygon points="0,0 17,9 0,18 -17,9"/>
+   </object>
+  </objectgroup>
   <animation>
    <frame tileid="40" duration="100"/>
    <frame tileid="41" duration="100"/>
@@ -84,6 +129,11 @@
   </animation>
  </tile>
  <tile id="45">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="34" y="6">
+    <polygon points="0,0 17,9 0,18 -17,9"/>
+   </object>
+  </objectgroup>
   <animation>
    <frame tileid="45" duration="100"/>
    <frame tileid="46" duration="100"/>
@@ -93,6 +143,11 @@
   </animation>
  </tile>
  <tile id="50">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="34" y="6">
+    <polygon points="0,0 17,9 0,18 -17,9"/>
+   </object>
+  </objectgroup>
   <animation>
    <frame tileid="50" duration="100"/>
    <frame tileid="51" duration="100"/>
@@ -102,6 +157,11 @@
   </animation>
  </tile>
  <tile id="55">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="34" y="6">
+    <polygon points="0,0 17,9 0,18 -17,9"/>
+   </object>
+  </objectgroup>
   <animation>
    <frame tileid="55" duration="100"/>
    <frame tileid="56" duration="100"/>

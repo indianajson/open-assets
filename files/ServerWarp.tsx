@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.5" tiledversion="1.6.0" name="ServerWarp" tilewidth="58" tileheight="30" tilecount="10" columns="5" objectalignment="top">
+<tileset version="1.10" tiledversion="1.11.2" name="ServerWarp" tilewidth="58" tileheight="30" tilecount="10" columns="5" objectalignment="top">
  <tileoffset x="0" y="2"/>
  <image source="ServerWarp.png" trans="ffffff" width="290" height="60"/>
  <tile id="0">
-  <objectgroup draworder="index" id="2">
-   <object id="4" x="23" y="9" width="12" height="10">
-    <ellipse/>
-   </object>
-  </objectgroup>
   <animation>
    <frame tileid="0" duration="150"/>
    <frame tileid="1" duration="150"/>
@@ -18,8 +13,8 @@
  </tile>
  <tile id="5">
   <objectgroup draworder="index" id="2">
-   <object id="1" x="23" y="9" width="12" height="10">
-    <ellipse/>
+   <object id="3" x="29" y="5">
+    <polygon points="0,0 15,7 15,11 0,18 -15,11 -15,7"/>
    </object>
   </objectgroup>
   <animation>

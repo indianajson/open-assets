@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.5" tiledversion="1.7.2" name="warp" tilewidth="64" tileheight="32" tilecount="6" columns="3" objectalignment="top">
+<tileset version="1.10" tiledversion="1.11.2" name="warp" tilewidth="64" tileheight="32" tilecount="6" columns="3" objectalignment="top">
  <image source="warp_lib.png" width="192" height="64"/>
  <tile id="1">
   <objectgroup draworder="index" id="2">
-   <object id="1" x="13" y="1" width="38" height="22">
+   <object id="1" x="16" y="3" width="32" height="18">
     <ellipse/>
    </object>
   </objectgroup>

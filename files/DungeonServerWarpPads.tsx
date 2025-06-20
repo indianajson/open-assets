@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.5" tiledversion="1.7.2" name="DungeonServerWarpPads" tilewidth="57" tileheight="33" tilecount="60" columns="10" objectalignment="top">
+<tileset version="1.10" tiledversion="1.11.2" name="DungeonServerWarpPads" tilewidth="57" tileheight="33" tilecount="60" columns="10" objectalignment="top">
  <image source="DungeonServerWarpPads.png" width="570" height="198"/>
  <tile id="0">
   <objectgroup draworder="index" id="2">
-   <object id="1" x="8.125" y="4" width="39" height="24.25">
+   <object id="2" x="7" y="6" width="42" height="20">
     <ellipse/>
    </object>
   </objectgroup>
@@ -31,7 +31,7 @@
  </tile>
  <tile id="10">
   <objectgroup draworder="index" id="2">
-   <object id="1" x="8.625" y="4.375" width="39" height="24.25">
+   <object id="2" x="7" y="6" width="42" height="20">
     <ellipse/>
    </object>
   </objectgroup>
@@ -59,7 +59,7 @@
  </tile>
  <tile id="20">
   <objectgroup draworder="index" id="2">
-   <object id="1" x="8.375" y="4" width="39" height="24.25">
+   <object id="2" x="7" y="6" width="42" height="20">
     <ellipse/>
    </object>
   </objectgroup>
@@ -87,7 +87,7 @@
  </tile>
  <tile id="30">
   <objectgroup draworder="index" id="2">
-   <object id="1" x="8.125" y="4" width="39" height="24.25">
+   <object id="2" x="7" y="6" width="42" height="20">
     <ellipse/>
    </object>
   </objectgroup>
@@ -115,7 +115,7 @@
  </tile>
  <tile id="40">
   <objectgroup draworder="index" id="2">
-   <object id="1" x="7.625" y="3.25" width="39" height="24.25">
+   <object id="3" x="7" y="6" width="42" height="20">
     <ellipse/>
    </object>
   </objectgroup>
@@ -143,7 +143,7 @@
  </tile>
  <tile id="50">
   <objectgroup draworder="index" id="2">
-   <object id="1" x="8.75" y="4.5" width="39" height="24.25">
+   <object id="1" x="7" y="6" width="42" height="20">
     <ellipse/>
    </object>
   </objectgroup>
