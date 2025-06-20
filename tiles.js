@@ -10,7 +10,7 @@ let allData = [
 {"name":"Liberation - Alpha Tileset (BN3)","type":"tiles","files":["AlphaAreaTileset.png","AlphaAreaTileset.tsx"],"author":"Quetzen","game":"Custom","preview":"AlphaAreaTileset.png"},
 {"name":"Liberation - Alpha Panels (BN3)","type":"object","files":["alpha-liberation-panels.png","alpha-liberation-panels.tsx"],"author":["D3str0yed","Jawnii [Alcor/Kuri]"],"game":"Custom","preview":"alpha-liberation-panels.png"},
 {"name":"Alpha Comp Tiles","files":["Alpha_Comp.png","Alpha_Comp.tsx"],"author":"Claris","type":"tile","game":"EXE3/BN3","preview":"Alpha_Comp.png"},
-{"name":"Oven Comp Tiles (BN1)","files":["Cords.png","Cords.tsx"],"type":"tile","author":["Claris","Mint Flav","Rune","Alcor"],"game":"Custom","preview":"Cords.png"},
+{"name":"Oven Comp Tiles (BN1)","files":["Cords.png","Cords.tsx"],"type":"tile","author":["Claris","Mint Flav","Rune","Jawnii [Alcor/Kuri]"],"game":"Custom","preview":"Cords.png"},
 {"name":"Oven Comp Honeycomb Tile (BN1)","files":["OvenHoneycombs.tsx","ovenhoneycomb.png"],"type":"tile","author":"Mint Flav","game":"Custom","preview":"ovenhoneycomb.png"},
 {"name":"Oven Comp Honeycomb Tile","type":"tile","files":["test-honey.tsx","test-honey.png"],"author":"Keristero","game":"EXE1/BN1","preview":"test-honey.png"},
 {"name":"Fireman Flames","files":["Fireman Flame.png","Fireman Flame.tsx"],"type":"object","author":"unknown","game":"EXE1/BN1","preview":"Fireman Flame.png"},
