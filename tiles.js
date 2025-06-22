@@ -91,7 +91,7 @@ let allData = [
 {"name":"Dark Chip","type":"object","files":["Darkchip13x32.png","Darkchip13x32.tsx"],"author":"unknown","game":"EXE4/BN4","preview":"Darkchip13x32.png"},
 {"name":"Graveyard Stairs","type":"tile","files": ["UndernetStairs.png","UndernetStairs.tsx"],"author": "Keristero","credit": false,"game": "EXE6/BN6","preview": "UndernetStairs.png"},
 {"name":"Graveyard Tiles","type":"tile","files": ["UndernetTiles.png","UndernetTiles.tsx"],"author": "Keristero","credit": false,"game": "EXE6/BN6","preview": "UndernetTiles.png"},
-{"name":"Graveyward Arrows","type":"tile","files": ["simplegraveyardarrows.tsx","simplegraveyardarrows.png"],"author": "Keristero","credit": false,"game": "Other","preview": "simplegraveyardarrows.png"},
+{"name":"Graveyard Arrows","type":"tile","files": ["simplegraveyardarrows.tsx","simplegraveyardarrows.png"],"author": "Keristero","credit": false,"game": "EXE6/BN6","preview": "simplegraveyardarrows.png"},
 {"name":"Graveyard Backward Stairs","type":"tile","files":["cursed-stairs-2.png","cursed-stairs-2.tsx"],"author":"Keristero","game":"EXE6/BN6","preview":"cursed-stairs-2.png"},
 {"name":"Sky Area 2 Undernet Gate","type":"object","files":["Gate_sky2_exe6.png","Gate_sky2_exe6.tsx"],"author":"Claris","game":"EXE6/BN6","preview":"Gate_sky2_exe6.png"},
 {"name":"Sky Area 2 Undernet Skull","type":"object","files":["PurpleArchsSkull.png","PurpleArchsSkull.tsx"],"author":"unknown","game":"EXE6/BN6","preview":"PurpleArchsSkull.png"},
