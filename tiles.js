@@ -80,7 +80,7 @@ let allData = [
 {"name":"Home Warp","type":"object","files":["home_warp.png","home_warp.tsx"],"author":"unknown","game":"EXE6/BN6","preview":"home_warp.png"},
 {"name":"Mystery Data - Red","type":"object","files":["RedMysteryData.png","RedMysteryData.tsx"],"author":"unknown","game":"Other","preview":"RedMysteryData.png"},
 {"name":"HP Colored Tiles","type":"tile","files":["rainbow_floor.png","rainbow_floor.tsx"],"author":"unknown","game":"EXE6/BN6","preview":"rainbow_floor.png"},
-{"name":"Custom Conveyers","type":"tile","files":["simple-graveyard-conveyers-64-40-alt.png","simple-graveyard-conveyers-64-40-alt.tsx"],"author":"unknown","game":"Other","preview":"simple-graveyard-conveyers-64-40-alt.png"},
+{"name":"Custom Conveyers","type":"tile","files":["simple-graveyard-conveyers-64-40-alt.png","simple-graveyard-conveyers-64-40-alt.tsx"],"author":"Keristero","game":"Other","preview":"simple-graveyard-conveyers-64-40-alt.png"},
 {"name":"Cyber Talisman","type":"object","files":["Talisman.png","Talisman.tsx"],"author":"Claris","game":"EXE6/BN6","preview":"Talisman.png"},
 {"name":"Cyber Teddy","type":"object","files":["Teddy.png","Teddy.tsx"],"author":"Claris","game":"EXE6/BN6","preview":"Teddy.png"},
 {"name":"Cyber Duck","type":"object","files":["Ducky.png","Ducky.tsx"],"author":"Claris","game":"EXE6/BN6","preview":"Ducky.png"},
