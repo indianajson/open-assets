@@ -10,9 +10,11 @@ let allScripts = [
 
     {"name": 'Dawn\'s Liberation Server',"description":'This server features several maps, custom encounters, boss encounters, NPCs, encounters, mystery data, side quests, and liberation missions. <br><br><button id="download-single-script"><a href="http://github.com/ninjaman255/DawnLibServer" target="_blank" style="text-decoration:none; color:#000;">Repository</a></button>',"author": "Claris","scripttype":"Server Code"},
 
-    //{"name": 'PVP Matchmaking',"description":'This script allows users to enter free (unranked) or ranked matchmaking queues, as well as, view a leaderboard based on performance by their fellow players.<br><br><button id="download-single-script"><a href="https://github.com/indianajson/octo-ranking" target="_blank" style="text-decoration:none; color:#000;">Repository</a></button>',"author": ["OctoChris","Indiana (improvements)"],"scripttype":"Lua Script"},
+    {"name": 'PVP Matchmaking',"description":'This script allows users to enter free (unranked) or ranked matchmaking queues, as well as, view a leaderboard based on performance by their fellow players.<br><br><button id="download-single-script"><a href="https://github.com/indianajson/octo-ranking" target="_blank" style="text-decoration:none; color:#000;">Repository</a></button>',"author": ["OctoChris","Indiana (improvements)"],"scripttype":"Lua Script"},
 
     {"name": 'ShaDisNX255\'s HP',"description":'A small but thorough server equipt with BBS, custom background, and functioning server-to-server cyber metro. <br><br><button id="download-single-script"><a href="https://github.com/ShaDisNX255/shadis_hp" target="_blank" style="text-decoration:none; color:#000;">Repository</a></button>',"author": "ShaDisNX255","scripttype":"Server Code"},
+
+    {"name": 'Simple Drops',"description":'This script allows you to add customizable drop edges to ice tiles that cause a player to fall down to a layer below the tile.<br><br><button id="download-single-script"><a href="https://github.com/indianajson/simple-drops" target="_blank" style="text-decoration:none; color:#000;">Repository</a></button>',"author": "Indiana","scripttype":"Lua Script"},
 
     
     /*
