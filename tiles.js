@@ -207,6 +207,7 @@ let allData = [
 {"name":"Wave Roads Decoration (1 of 2)","type":"object","files":["WaveRoadsLBlocks.tsx","WaveRoadsLBlocks.png"],"author":"D3str0y3d","game":"Other","preview":"WaveRoadsLBlocks.png"},
 {"name":"Wave Roads Decoration (2 of 2)","type":"object","files":["WaveRoadAccentAnimationsStraightLine.tsx","WaveRoadAccentAnimationsStraightLine.png"],"author":"D3str0y3d","game":"Other","preview":"WaveRoadAccentAnimationsStraightLine.png"},
 {"name":"WWW Machine","type":"object","files":["exe1 wwwmachine1.png","exe1 wwwmachine1.tsx"],"author":"Quetzen","game":"EXE1/BN1","preview":"exe1 wwwmachine1.png"},
+{"name":"Ice Tiles","type":"tile","files":["ice-tile.tsx","ice-tile.png","IceSlide.ogg","ice-tile-readme.md"],"author":"D3str0y3d","game":"EXE2/BN2","preview":"ice-tile.png"},
 
 /*
 
