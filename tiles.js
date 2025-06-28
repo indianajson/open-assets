@@ -59,7 +59,7 @@ let allData = [
 {"name":"Yoka Custom Tiles","type":"tile","files":["yokaforjamestileset67x52.png","yokaforjamestileset67x52.tsx"],"type":"tile","author":"DigitalL33T","game":"EXE3/BN3","preview":"yokaforjamestileset67x52.png"},
 {"name":"Cyber Metro Rail","files":["Cyber_Rail.png","Cyber_Rail.tsx"],"type":"tile","author":"unknown","game":"EXE3/BN3","preview":"Cyber_Rail.png"},
 {"name":"DrillMan Portal","files":["DrillManPortal36x46.png","DrillManPortal36x46.tsx"],"type":"object","author":"unknown","game":"EXE3/BN3","preview":"DrillManPortal36x46.png"},
-{"name":"BBS Board","files":["BBSOldFixed.png","BBSOldFixed.tsx"],"type":"object","author":"unknown","game":"EXE3/BN3","preview":"BBSOldFixed.png"},
+{"name":"BBS Board","files":["bn3-bbs.png","bn3-bbs.tsx"],"type":"object","author":"D3str0y3d","game":"EXE3/BN3","preview":"bn3-bbs.png"},
 {"name":"BBS Board","files":["BBS-BN4.png","BBS-BN4.tsx"],"author":"unknown","game":"EXE4/BN4","preview":"BBS-BN4.png"},
 {"name":"BBS Board","files":["BBS.tsx","BBS.png"],"author":"unknown","type":"object","game":"EXE6/BN6","preview":"BBS.png"},
 {"name":"HP Tiles","files":["bn6_pc_tile.png","bn6_pc_tile.tsx"],"type":"tile","author":"unknown","game":"EXE6/BN6","preview":"bn6_pc_tile.png"},
