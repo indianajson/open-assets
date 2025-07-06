@@ -1,5 +1,6 @@
 let allNPCs = [
 
+    {"name":"Cyber Bat","files":["cyber_bat.animation","cyber_bat.png"],"author":["Indiana","Keristero"],"game":"EXE4/BN4","preview":"cyber_bat.animation"},
     {"name":"Mr. Prog (Santa)","files":["progsmas.animation","progsmas.png","mug.animation","progsmas-mug.png"],"author":"unknown","game":"Custom","preview":"progsmas.animation"},
     {"name":"Mettaur Swing","files":["MetSwing.animation","MetSwing.png","mug.animation","mettaur-mug.png"],"author":"D3str0y3d","game":"Custom","preview":"MetSwing.animation"},
     {"name":"Bass","files":["bass.animation","bass.png","mug.animation","bass-mug.png"],"author":"unknown","game":"EXE6/BN6","preview":"bass.animation"},
