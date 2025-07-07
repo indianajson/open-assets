@@ -1,0 +1,50 @@
+imagePath="volgear.png"
+#authors Keristero,Indiana
+animation state="IDLE_UR"
+frame duration="0.1" x="0" y="0" w="33" h="30" originx="17" originy="24"
+frame duration="0.1" x="99" y="30" w="32" h="29" originx="16" originy="23"
+frame duration="0.1" x="128" y="118" w="30" h="28" originx="14" originy="22"
+frame duration="0.1" x="131" y="30" w="32" h="29" originx="16" originy="23"
+
+animation state="WALK_UR"
+frame duration="0.1" x="33" y="0" w="33" h="30" originx="17" originy="24"
+frame duration="0.1" x="0" y="60" w="32" h="29" originx="16" originy="23"
+frame duration="0.1" x="0" y="147" w="30" h="28" originx="14" originy="22"
+frame duration="0.1" x="32" y="60" w="32" h="29" originx="16" originy="23"
+
+animation state="IDLE_DR"
+frame duration="0.1" x="66" y="0" w="33" h="30" originx="17" originy="24"
+frame duration="0.1" x="64" y="60" w="31" h="29" originx="16" originy="23"
+frame duration="0.1" x="30" y="147" w="30" h="28" originx="14" originy="22"
+frame duration="0.1" x="95" y="60" w="31" h="29" originx="16" originy="23"
+
+animation state="WALK_DR"
+frame duration="0.1" x="99" y="0" w="33" h="30" originx="17" originy="24"
+frame duration="0.1" x="126" y="60" w="31" h="29" originx="16" originy="23"
+frame duration="0.1" x="60" y="147" w="30" h="28" originx="14" originy="22"
+frame duration="0.1" x="0" y="89" w="31" h="29" originx="16" originy="23"
+
+animation state="IDLE_DL"
+frame duration="0.1" x="132" y="0" w="33" h="30" originx="16" originy="24"
+frame duration="0.1" x="31" y="89" w="31" h="29" originx="15" originy="23"
+frame duration="0.1" x="90" y="147" w="30" h="28" originx="16" originy="22"
+frame duration="0.1" x="62" y="89" w="31" h="29" originx="15" originy="23"
+
+animation state="WALK_DL"
+frame duration="0.1" x="0" y="30" w="33" h="30" originx="16" originy="24"
+frame duration="0.1" x="93" y="89" w="31" h="29" originx="15" originy="23"
+frame duration="0.1" x="120" y="147" w="30" h="28" originx="16" originy="22"
+frame duration="0.1" x="124" y="89" w="31" h="29" originx="15" originy="23"
+
+animation state="IDLE_UL"
+frame duration="0.1" x="33" y="30" w="33" h="30" originx="16" originy="24"
+frame duration="0.1" x="0" y="118" w="32" h="29" originx="16" originy="23"
+frame duration="0.1" x="0" y="175" w="30" h="28" originx="16" originy="22"
+frame duration="0.1" x="32" y="118" w="32" h="29" originx="16" originy="23"
+
+animation state="WALK_UL"
+frame duration="0.1" x="66" y="30" w="33" h="30" originx="16" originy="24"
+frame duration="0.1" x="64" y="118" w="32" h="29" originx="16" originy="23"
+frame duration="0.1" x="30" y="175" w="30" h="28" originx="16" originy="22"
+frame duration="0.1" x="96" y="118" w="32" h="29" originx="16" originy="23"
+
