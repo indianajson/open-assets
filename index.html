@@ -699,13 +699,31 @@
     
     function handleHashOnLoad() {
       const hash = window.location.hash.substring(1); // Remove the #
+      const params = new URLSearchParams(hash);
+      const tab = params.get('tab');
+      const itemId = params.get('item');
       const validTabs = ['tiles', 'backgrounds', 'npcs', 'music', 'scripts', 'tools'];
       
-      if (hash && validTabs.includes(hash)) {
+      if (tab && validTabs.includes(tab)) {
         // Trigger click on the corresponding tab
-        $(`.tab[data-tab="${hash}"]`).trigger('click');
+        $(`.tab[data-tab="${tab}"]`).trigger('click');
+        
+        // After tab loads, select the item if specified
+        if (itemId) {
+          setTimeout(() => {
+            const $rows = $(`#${tab}-content table.file-list tbody tr`);
+            $rows.each(function() {
+              const rowItemId = $(this).data('item-id');
+              if (rowItemId == itemId) {
+                $(this).trigger('click');
+                $(this)[0].scrollIntoView({ block: 'nearest' });
+              }
+            });
+          }, 100); // Small delay to ensure tab content is loaded
+        }
       }
     }
+
 
     // Search functionality
     $('#search-input').on('input', function(){
@@ -913,9 +931,9 @@
       const $tb = $(`#${currentTab}-content table.file-list tbody`).empty();
       
       if (currentTab === 'music') {
-        rows.forEach(it=>{
+        rows.forEach((it, index) => {
           $tb.append(
-            `<tr>
+            `<tr data-item-id="${it.id || index}">
               <td><input type="checkbox" class="sel"/></td>
               <td><button class="music-play-btn">▶</button></td>
               <td>${it.name}</td>
@@ -926,9 +944,9 @@
           );
         });
       } else if (currentTab === 'scripts') {
-        rows.forEach(it=>{
+        rows.forEach((it, index) => {
           $tb.append(
-            `<tr>
+            `<tr data-item-id="${it.id || index}">
               <td><input type="checkbox" class="sel"/></td>
               <td>${it.name}</td>
               <td>${it.scripttype}</td>
@@ -937,9 +955,9 @@
           );
         });
       } else if (currentTab === 'tools') {
-        rows.forEach(it=>{
+        rows.forEach((it, index) => {
           $tb.append(
-            `<tr>
+            `<tr data-item-id="${it.id || index}">
               <td><input type="checkbox" class="sel"/></td>
               <td>${it.name}</td>
               <td>${it.tooltype}</td>
@@ -948,9 +966,9 @@
           );
         });
       } else {
-        rows.forEach(it=>{
+        rows.forEach((it, index) => {
           $tb.append(
-            `<tr>
+            `<tr data-item-id="${it.id || index}">
               <td><input type="checkbox" class="sel"/></td>
               <td>${it.name}</td>
               <td>${it.game}</td>
@@ -968,6 +986,12 @@
           
           $('table.file-list tr').removeClass('selected');
           $(this).addClass('selected');
+          const itemId = $(this).data('item-id');
+          const params = new URLSearchParams();
+          params.set('tab', currentTab);
+          params.set('item', itemId);
+          window.location.hash = params.toString();
+
           showMusicPreview(rows[$(this).index()]);
         });
         
@@ -1010,6 +1034,12 @@
             if(e.target.type==='checkbox') return;
             $('table.file-list tr').removeClass('selected');
             $(this).addClass('selected');
+            const itemId = $(this).data('item-id');
+            const params = new URLSearchParams();
+            params.set('tab', currentTab);
+            params.set('item', itemId);
+            window.location.hash = params.toString();
+
             showInfoPreview(rows[$(this).index()]);
         });
         } else if(currentTab === 'tiles') {
@@ -1018,6 +1048,12 @@
           if(e.target.type==='checkbox') return;
           $('table.file-list tr').removeClass('selected');
           $(this).addClass('selected');
+          const itemId = $(this).data('item-id');
+          const params = new URLSearchParams();
+          params.set('tab', currentTab);
+          params.set('item', itemId);
+          window.location.hash = params.toString();
+
           showPreview(rows[$(this).index()]);
         });
       } else if(currentTab === 'backgrounds') {
@@ -1025,6 +1061,11 @@
           if(e.target.type==='checkbox') return;
           $('table.file-list tr').removeClass('selected');
           $(this).addClass('selected');
+          const itemId = $(this).data('item-id');
+          const params = new URLSearchParams();
+          params.set('tab', currentTab);
+          params.set('item', itemId);
+          window.location.hash = params.toString();
           showBackgroundPreview(rows[$(this).index()]);
         });
       } else if(currentTab === 'npcs') {
@@ -1032,6 +1073,12 @@
           if(e.target.type==='checkbox') return;
           $('table.file-list tr').removeClass('selected');
           $(this).addClass('selected');
+          const itemId = $(this).data('item-id');
+          const params = new URLSearchParams();
+          params.set('tab', currentTab);
+          params.set('item', itemId);
+          window.location.hash = params.toString();
+
           showNPCPreview(rows[$(this).index()]);
         });
       }

@@ -1,63 +1,720 @@
 let allBackgrounds = [
-    {"name":"Internet1 Daytime","velx":".3","vely":".15","files":["Internet1BGDaytime.png","Internet1BGDaytime.animation"],"author":["D3str0yed","BlaXun","Indiana"],"credit":false,"game":"EXE4.5","preview":"Internet1BGDaytime.animation"},
-    {"name":"Generic - Green","velx":"0.455","vely":"0.245","files":["01-generic1.png","01-generic1.animation"],"author":"K1rbYat1Na","credit":false,"game":"EXE6/BN6","preview":"01-generic1.animation"},
-    {"name":"Generic - Purple","velx":"0.455","vely":"0.245","files":["01-generic2.png","01-generic2.animation"],"author":"K1rbYat1Na","credit":false,"game":"EXE6/BN6","preview":"01-generic2.animation"},
-    {"name":"Central Area","velx":"0.225","vely":"0.225","files":["07a-centralarea.png","07a-centralarea.animation"],"author":"K1rbYat1Na","credit":false,"game":"EXE6/BN6","preview":"07a-centralarea.animation"},
-    {"name":"Seaside Area","velx":"0.225","vely":"0.225","files":["07b-seasidearea.png","07b-seasidearea.animation"],"author":"K1rbYat1Na","credit":false,"game":"EXE6/BN6","preview":"07b-seasidearea.animation"},
-    {"name":"Green Area","velx":"0.225","vely":"0.225","files":["07c-greenarea.png","07c-greenarea.animation"],"author":"K1rbYat1Na","credit":false,"game":"EXE6/BN6","preview":"07c-greenarea.animation"},
-    {"name":"Sky Area","velx":"0.225","vely":"0.225","files":["07d-skyarea.png","07d-skyarea.animation"],"author":"K1rbYat1Na","credit":false,"game":"EXE6/BN6","preview":"07d-skyarea.animation"},
-    {"name":"Akihara Area","velx":"0.225","vely":"0.225","files":["07e-akihara.png","07e-akihara.animation"],"author":"K1rbYat1Na","credit":false,"game":"EXE6/BN6","preview":"07e-akihara.animation"},
-    {"name":"Undernet","velx":"0","vely":"0","files":["08a-undernet.png","08a-undernet.animation"],"author":"K1rbYat1Na","credit":false,"game":"EXE6/BN6","preview":"08a-undernet.animation"},
-    {"name":"Underground","velx":"0","vely":"0","files":["08b-underground.png","08b-underground.animation"],"author":"K1rbYat1Na","credit":false,"game":"EXE6/BN6","preview":"08b-underground.animation"},
-    {"name":"Graveyard","velx":"-0.0295","vely":"0","files":["09-graveyard.animation","09-graveyard.png"],"author":"K1rbYat1Na","credit":false,"game":"EXE6/BN6","preview":"09-graveyard.animation"},
-    {"name":"Aquarium Comp","velx":"0.115","vely":"0","files":["11-aquarium.png","11-aquarium.animation"],"author":"K1rbYat1Na","credit":false,"game":"EXE6/BN6","preview":"11-aquarium.animation"},
-    {"name":"Weather Comp - Stormy","velx":"0.125","vely":"0.125","files":["14-weatherkunnodennou1.png","14-weatherkunnodennou1.animation"],"author":"K1rbYat1Na","credit":false,"game":"EXE6/BN6","preview":"14-weatherkunnodennou1.animation"},
-    {"name":"Weather Comp - Sunny","velx":"0.125","vely":"0.125","files":["14-weatherkunnodennou2.png","14-weatherkunnodennou2.animation"],"author":"K1rbYat1Na","credit":false,"game":"EXE6/BN6","preview":"14-weatherkunnodennou2.animation"},
-    {"name":"Copybot Comp","velx":"0","vely":"-0.125","files":["15-copybot.png","15-copybot.animation"],"author":"K1rbYat1Na","credit":false,"game":"EXE6/BN6","preview":"15-copybot.animation"},
-    {"name":"Green's HP","velx":"0.115","vely":"0.065","files":["04-greennohp.png","04-greennohp.animation"],"author":"K1rbYat1Na","credit":false,"game":"EXE6/BN6","preview":"04-greennohp.animation"},
-    {"name":"Netto's HP","velx":"0.115","vely":"0.065","files":["02-nettonohp.png","02-nettonohp.animation"],"author":"K1rbYat1Na","credit":false,"game":"EXE6/BN6","preview":"02-nettonohp.animation"},
-    {"name":"Sky's HP","velx":"0.115","vely":"0.065","files":["05-skynohp.png","05-skynohp.animation"],"author":"K1rbYat1Na","credit":false,"game":"EXE6/BN6","preview":"05-skynohp.animation"},
-    {"name":"Aquarium's HP","velx":"0.115","vely":"0.065","files":["03-aquariumhp.png","03-aquariumhp.animation"],"author":"K1rbYat1Na","credit":false,"game":"EXE6/BN6","preview":"03-aquariumhp.animation"},
-   
-{"name":"Generic","velx":"0.35","vely":"0.20","files":["generic.animation","generic.png"],"author":"K1rbYat1Na","places":"Most of generic Cyberworld Areas","game":"EXE1/BN1","preview":"generic.animation"},
-{"name":"Oven Comp","velx":"0","vely":"0","files":["renjinodennou.animation","renjinodennou-bg.png"],"author":"K1rbYat1Na","places":"Oven Comp 1-2, WWW Comp 1","game":"EXE1/BN1","preview":"renjinodennou.animation"},
-{"name":"Oven Comp (in-battle)","velx":"0","vely":"0","files":["renjinodennou-battle.animation","renjinodennou-battle.png"],"author":"K1rbYat1Na","places":"Oven Comp 1-2 (in-battle), WWW Comp 1 (in-battle)","game":"EXE1/BN1","preview":"renjinodennou-battle.animation"},
-{"name":"School Comp","velx":"0","vely":"0","files":["school-comp.animation","school-comp.png"],"author":"K1rbYat1Na","places":"School Comp 1-5, WWW Comp 2","game":"EXE1/BN1","preview":"school-comp.animation"},
-{"name":"Waterworks Comp 1","velx":"0","vely":"0.5","files":["suidoukyokunodennou1.animation","suidoukyokunodennou1.png"],"author":"K1rbYat1Na","places":"Waterworks Comp 1 (before IceMan fight)","game":"EXE1/BN1","preview":"suidoukyokunodennou1.animation"},
-{"name":"Waterworks Comp 2","velx":"0","vely":"0.5","files":["suidoukyokunodennou2.animation","suidoukyokunodennou2.png"],"author":"K1rbYat1Na","places":"Waterworks Comp 2 (before IceMan fight)","game":"EXE1/BN1","preview":"suidoukyokunodennou2.animation"},
-{"name":"Waterworks Comp 3","velx":"0","vely":"0.5","files":["suidoukyokunodennou3.animation","suidoukyokunodennou3.png"],"author":"K1rbYat1Na","places":"Waterworks Comp 3 (before IceMan), Waterworks Comp 1-5 (in-battle, before IceMan), WWW Comp 3","game":"EXE1/BN1","preview":"suidoukyokunodennou3.animation"},
-{"name":"Waterworks Comp 4","velx":"0","vely":"0.5","files":["suidoukyokunodennou4.animation","suidoukyokunodennou4.png"],"author":"K1rbYat1Na","places":"Waterworks Comp 4 (before IceMan)","game":"EXE1/BN1","preview":"suidoukyokunodennou4.animation"},
-{"name":"Waterworks Comp 5","velx":"0","vely":"0.5","files":["suidoukyokunodennou5.animation","suidoukyokunodennou5.png"],"author":"K1rbYat1Na","places":"Waterworks Comp 5 (before IceMan)","game":"EXE1/BN1","preview":"suidoukyokunodennou5.animation"},
-{"name":"Waterworks Comp 6","velx":"0","vely":"0.5","files":["suidoukyokunodennou6.animation","suidoukyokunodennou6.png"],"author":"K1rbYat1Na","places":"Waterworks Comp 6 (before IceMan)","game":"EXE1/BN1","preview":"suidoukyokunodennou6.animation"},
-{"name":"Waterworks Comp (Post-IceMan)","velx":"0","vely":"1","files":["suidoukyokunodennou-fixed.animation","suidoukyokunodennou-fixed.png"],"author":"K1rbYat1Na","places":"Waterworks Comp 1-5 (after IceMan)","game":"EXE1/BN1","preview":"suidoukyokunodennou-fixed.animation"},
-{"name":"Traffic Light Comp 1","velx":"0","vely":"0","files":["shingoukinodennou1.animation","shingoukinodennou1.png"],"author":"K1rbYat1Na","places":"Traffic Light Comp 1","game":"EXE1/BN1","preview":"shingoukinodennou1.animation"},
-{"name":"Traffic Light Comp 2","velx":"0","vely":"0","files":["shingoukinodennou2.animation","shingoukinodennou2.png"],"author":"K1rbYat1Na","places":"Traffic Light Comp 2","game":"EXE1/BN1","preview":"shingoukinodennou2.animation"},
-{"name":"Traffic Light Comp 3","velx":"0","vely":"0","files":["shingoukinodennou3.animation","shingoukinodennou3.png"],"author":"K1rbYat1Na","places":"Traffic Light Comp 3","game":"EXE1/BN1","preview":"shingoukinodennou3.animation"},
-{"name":"Traffic Light Comp 4","velx":"0","vely":"0","files":["shingoukinodennou4.animation","shingoukinodennou4.png"],"author":"K1rbYat1Na","places":"Traffic Light Comp 4","game":"EXE1/BN1","preview":"shingoukinodennou4.animation"},
-{"name":"Traffic Light Comp 5","velx":"0","vely":"0","files":["shingoukinodennou5.animation","shingoukinodennou5.png"],"author":"K1rbYat1Na","places":"Traffic Light Comp 5, Traffic Light Comp 1-5 (in-battle), WWW Comp 4, WWW Comp 4 (in-battle)","game":"EXE1/BN1","preview":"shingoukinodennou5.animation"},
-{"name":"Internet 1-4","velx":"0.35","vely":"0.20","files":["internet.animation","internet.png"],"author":"K1rbYat1Na","places":"Internet 1-4, Ura Internet 1-12","game":"EXE1/BN1","preview":"internet.animation"},
-{"name":"Power Plant Comp","velx":"0","vely":"0","files":["powerplant.animation","powerplant.png"],"author":"K1rbYat1Na","places":"Power Plant Comp 1-4, WWW Comp 5","game":"EXE1/BN1","preview":"powerplant.animation"},
-{"name":"Power Plant Comp (in-battle)","velx":"0","vely":"0","files":["powerplant-battle.animation","powerplant-battle.png"],"author":"K1rbYat1Na","places":"Power Plant Comp 1-4 (in-battle), WWW Comp 5 (in-battle)","game":"EXE1/BN1","preview":"powerplant-battle.animation"},
-{"name":"Lan's PC","velx":"0.35","vely":"0.20","files":["nettonopcnodennou.animation","nettonopcnodennou.png"],"author":"K1rbYat1Na","places":"Netto's PC Comp","game":"EXE1/BN1","preview":"nettonopcnodennou.animation"},
-{"name":"Mayl's Piano Comp","velx":"0.10","vely":"0.05","files":["meirunopianonodennou.animation","meirunopianonodennou.png"],"author":"K1rbYat1Na","places":"Meiru's Piano Comp","game":"EXE1/BN1","preview":"meirunopianonodennou.animation"},
-{"name":"Mayl's Piano Comp (in-battle)","velx":"0.10","vely":"0.05","files":["meirunopianonodennou-battle.animation","meirunopianonodennou-battle.png"],"author":"K1rbYat1Na","places":"Meiru's Piano Comp (in-battle)","game":"EXE1/BN1","preview":"meirunopianonodennou-battle.animation"},
-{"name":"Dex's PC","velx":"0.10","vely":"0.05","files":["dex-pc.animation","dex-pc.png"],"author":"K1rbYat1Na","places":"Dekao's PC Comp","game":"EXE1/BN1","preview":"dex-pc.animation"},
-{"name":"Dex's PC  (in-battle)","velx":"0.10","vely":"0.05","files":["dex-pc-battle.animation","dex-pc-battle.png"],"author":"K1rbYat1Na","places":"Dekao's PC Comp (in-battle)","game":"EXE1/BN1","preview":"dex-pc-battle.animation"},
-{"name":"Yai's Portrait Comp","velx":"0.10","vely":"0.05","files":["yaitonoenodennou.animation","yaitonoenodennou.png"],"author":"K1rbYat1Na","places":"Yaito's Portrait Comp","game":"EXE1/BN1","preview":"yaitonoenodennou.animation"},
-{"name":"Yai's Portrait Comp (in-battle)","velx":"0.10","vely":"0.05","files":["yaitonoenodennou-battle.animation","yaitonoenodennou-battle.png"],"author":"K1rbYat1Na","places":"Yaito's Portrait Comp (in-battle)","game":"EXE1/BN1","preview":"yaitonoenodennou-battle.animation"},
-{"name":"Dad's PC","velx":"0.35","vely":"0.20","files":["papanopcnodennou.animation","papanopcnodennou.png"],"author":"K1rbYat1Na","places":"Papa's PC Comp","game":"EXE1/BN1","preview":"papanopcnodennou.animation"},
-{"name":"Dad's PC (in-battle)","velx":"0.35","vely":"0.20","files":["papanopcnodennou-battle.animation","papanopcnodennou-battle.png"],"author":"K1rbYat1Na","places":"Papa's PC Comp (in-battle)","game":"EXE1/BN1","preview":"papanopcnodennou-battle.animation"},
-{"name":"Sal's PC Comp","velx":"0.35","vely":"0","files":["bentouyanodennou.animation","bentouyanodennou.png"],"author":"K1rbYat1Na","places":"Bentou Stand Comp","game":"EXE1/BN1","preview":"bentouyanodennou.animation"},
-{"name":"Antique Shop Comp","velx":"0.35","vely":"0.20","files":["kottouhinyanodennou.animation","kottouhinyanodennou.png"],"author":"K1rbYat1Na","places":"Antique Shop Comp","game":"EXE1/BN1","preview":"kottouhinyanodennou.animation"},
-{"name":"Fish Stand Comp","velx":"-0.35","vely":"0","files":["sakanayanodennou.animation","sakanayanodennou.png"],"author":"K1rbYat1Na","places":"Fish Stand Comp","game":"EXE1/BN1","preview":"sakanayanodennou.animation"},
-{"name":"??? (ClockMan's Area)","velx":"0.20","vely":"0.10","files":["clockman.animation","clockman.png"],"author":"K1rbYat1Na","places":"??? (ClockMan's area)","game":"EXEOSS","preview":"clockman.animation"}
-
-    // {"name":"","velx":"","vely":"","files":[".png",".animation"],"author":"K1rbYat1Na","credit":false,"game":"EXE6/BN6","preview":".animation"},
-   // {"name":"","velx":"","vely":"","files":[".png",".animation"],"author":"K1rbYat1Na","credit":false,"game":"EXE6/BN6","preview":".animation"},
-
-/*
-
-    {"name":"","velx":"","vely":"","files":["",""],"author":"unknown","credit":false,"game":"","preview":""},
-
-*/
+  {
+    "name": "Internet1 Daytime",
+    "velx": ".3",
+    "vely": ".15",
+    "files": [
+      "Internet1BGDaytime.png",
+      "Internet1BGDaytime.animation"
+    ],
+    "author": [
+      "D3str0yed",
+      "BlaXun",
+      "Indiana"
+    ],
+    "credit": false,
+    "game": "EXE4.5",
+    "preview": "Internet1BGDaytime.animation",
+    "id": "internet1-daytime-exe4-5"
+  },
+  {
+    "name": "Generic - Green",
+    "velx": "0.455",
+    "vely": "0.245",
+    "files": [
+      "01-generic1.png",
+      "01-generic1.animation"
+    ],
+    "author": "K1rbYat1Na",
+    "credit": false,
+    "game": "EXE6/BN6",
+    "preview": "01-generic1.animation",
+    "id": "generic-green-exe6"
+  },
+  {
+    "name": "Generic - Purple",
+    "velx": "0.455",
+    "vely": "0.245",
+    "files": [
+      "01-generic2.png",
+      "01-generic2.animation"
+    ],
+    "author": "K1rbYat1Na",
+    "credit": false,
+    "game": "EXE6/BN6",
+    "preview": "01-generic2.animation",
+    "id": "generic-purple-exe6"
+  },
+  {
+    "name": "Central Area",
+    "velx": "0.225",
+    "vely": "0.225",
+    "files": [
+      "07a-centralarea.png",
+      "07a-centralarea.animation"
+    ],
+    "author": "K1rbYat1Na",
+    "credit": false,
+    "game": "EXE6/BN6",
+    "preview": "07a-centralarea.animation",
+    "id": "central-area-exe6"
+  },
+  {
+    "name": "Seaside Area",
+    "velx": "0.225",
+    "vely": "0.225",
+    "files": [
+      "07b-seasidearea.png",
+      "07b-seasidearea.animation"
+    ],
+    "author": "K1rbYat1Na",
+    "credit": false,
+    "game": "EXE6/BN6",
+    "preview": "07b-seasidearea.animation",
+    "id": "seaside-area-exe6"
+  },
+  {
+    "name": "Green Area",
+    "velx": "0.225",
+    "vely": "0.225",
+    "files": [
+      "07c-greenarea.png",
+      "07c-greenarea.animation"
+    ],
+    "author": "K1rbYat1Na",
+    "credit": false,
+    "game": "EXE6/BN6",
+    "preview": "07c-greenarea.animation",
+    "id": "green-area-exe6"
+  },
+  {
+    "name": "Sky Area",
+    "velx": "0.225",
+    "vely": "0.225",
+    "files": [
+      "07d-skyarea.png",
+      "07d-skyarea.animation"
+    ],
+    "author": "K1rbYat1Na",
+    "credit": false,
+    "game": "EXE6/BN6",
+    "preview": "07d-skyarea.animation",
+    "id": "sky-area-exe6"
+  },
+  {
+    "name": "Akihara Area",
+    "velx": "0.225",
+    "vely": "0.225",
+    "files": [
+      "07e-akihara.png",
+      "07e-akihara.animation"
+    ],
+    "author": "K1rbYat1Na",
+    "credit": false,
+    "game": "EXE6/BN6",
+    "preview": "07e-akihara.animation",
+    "id": "akihara-area-exe6"
+  },
+  {
+    "name": "Undernet",
+    "velx": "0",
+    "vely": "0",
+    "files": [
+      "08a-undernet.png",
+      "08a-undernet.animation"
+    ],
+    "author": "K1rbYat1Na",
+    "credit": false,
+    "game": "EXE6/BN6",
+    "preview": "08a-undernet.animation",
+    "id": "undernet-exe6"
+  },
+  {
+    "name": "Underground",
+    "velx": "0",
+    "vely": "0",
+    "files": [
+      "08b-underground.png",
+      "08b-underground.animation"
+    ],
+    "author": "K1rbYat1Na",
+    "credit": false,
+    "game": "EXE6/BN6",
+    "preview": "08b-underground.animation",
+    "id": "underground-exe6"
+  },
+  {
+    "name": "Graveyard",
+    "velx": "-0.0295",
+    "vely": "0",
+    "files": [
+      "09-graveyard.animation",
+      "09-graveyard.png"
+    ],
+    "author": "K1rbYat1Na",
+    "credit": false,
+    "game": "EXE6/BN6",
+    "preview": "09-graveyard.animation",
+    "id": "graveyard-exe6"
+  },
+  {
+    "name": "Aquarium Comp",
+    "velx": "0.115",
+    "vely": "0",
+    "files": [
+      "11-aquarium.png",
+      "11-aquarium.animation"
+    ],
+    "author": "K1rbYat1Na",
+    "credit": false,
+    "game": "EXE6/BN6",
+    "preview": "11-aquarium.animation",
+    "id": "aquarium-comp-exe6"
+  },
+  {
+    "name": "Weather Comp - Stormy",
+    "velx": "0.125",
+    "vely": "0.125",
+    "files": [
+      "14-weatherkunnodennou1.png",
+      "14-weatherkunnodennou1.animation"
+    ],
+    "author": "K1rbYat1Na",
+    "credit": false,
+    "game": "EXE6/BN6",
+    "preview": "14-weatherkunnodennou1.animation",
+    "id": "weather-comp-stormy-exe6"
+  },
+  {
+    "name": "Weather Comp - Sunny",
+    "velx": "0.125",
+    "vely": "0.125",
+    "files": [
+      "14-weatherkunnodennou2.png",
+      "14-weatherkunnodennou2.animation"
+    ],
+    "author": "K1rbYat1Na",
+    "credit": false,
+    "game": "EXE6/BN6",
+    "preview": "14-weatherkunnodennou2.animation",
+    "id": "weather-comp-sunny-exe6"
+  },
+  {
+    "name": "Copybot Comp",
+    "velx": "0",
+    "vely": "-0.125",
+    "files": [
+      "15-copybot.png",
+      "15-copybot.animation"
+    ],
+    "author": "K1rbYat1Na",
+    "credit": false,
+    "game": "EXE6/BN6",
+    "preview": "15-copybot.animation",
+    "id": "copybot-comp-exe6"
+  },
+  {
+    "name": "Green's HP",
+    "velx": "0.115",
+    "vely": "0.065",
+    "files": [
+      "04-greennohp.png",
+      "04-greennohp.animation"
+    ],
+    "author": "K1rbYat1Na",
+    "credit": false,
+    "game": "EXE6/BN6",
+    "preview": "04-greennohp.animation",
+    "id": "green-s-hp-exe6"
+  },
+  {
+    "name": "Netto's HP",
+    "velx": "0.115",
+    "vely": "0.065",
+    "files": [
+      "02-nettonohp.png",
+      "02-nettonohp.animation"
+    ],
+    "author": "K1rbYat1Na",
+    "credit": false,
+    "game": "EXE6/BN6",
+    "preview": "02-nettonohp.animation",
+    "id": "netto-s-hp-exe6"
+  },
+  {
+    "name": "Sky's HP",
+    "velx": "0.115",
+    "vely": "0.065",
+    "files": [
+      "05-skynohp.png",
+      "05-skynohp.animation"
+    ],
+    "author": "K1rbYat1Na",
+    "credit": false,
+    "game": "EXE6/BN6",
+    "preview": "05-skynohp.animation",
+    "id": "sky-s-hp-exe6"
+  },
+  {
+    "name": "Aquarium's HP",
+    "velx": "0.115",
+    "vely": "0.065",
+    "files": [
+      "03-aquariumhp.png",
+      "03-aquariumhp.animation"
+    ],
+    "author": "K1rbYat1Na",
+    "credit": false,
+    "game": "EXE6/BN6",
+    "preview": "03-aquariumhp.animation",
+    "id": "aquarium-s-hp-exe6"
+  },
+  {
+    "name": "Generic",
+    "velx": "0.35",
+    "vely": "0.20",
+    "files": [
+      "generic.animation",
+      "generic.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Most of generic Cyberworld Areas",
+    "game": "EXE1/BN1",
+    "preview": "generic.animation",
+    "id": "generic-exe1"
+  },
+  {
+    "name": "Oven Comp",
+    "velx": "0",
+    "vely": "0",
+    "files": [
+      "renjinodennou.animation",
+      "renjinodennou-bg.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Oven Comp 1-2, WWW Comp 1",
+    "game": "EXE1/BN1",
+    "preview": "renjinodennou.animation",
+    "id": "oven-comp-exe1"
+  },
+  {
+    "name": "Oven Comp (in-battle)",
+    "velx": "0",
+    "vely": "0",
+    "files": [
+      "renjinodennou-battle.animation",
+      "renjinodennou-battle.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Oven Comp 1-2 (in-battle), WWW Comp 1 (in-battle)",
+    "game": "EXE1/BN1",
+    "preview": "renjinodennou-battle.animation",
+    "id": "oven-comp-in-battle-exe1"
+  },
+  {
+    "name": "School Comp",
+    "velx": "0",
+    "vely": "0",
+    "files": [
+      "school-comp.animation",
+      "school-comp.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "School Comp 1-5, WWW Comp 2",
+    "game": "EXE1/BN1",
+    "preview": "school-comp.animation",
+    "id": "school-comp-exe1"
+  },
+  {
+    "name": "Waterworks Comp 1",
+    "velx": "0",
+    "vely": "0.5",
+    "files": [
+      "suidoukyokunodennou1.animation",
+      "suidoukyokunodennou1.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Waterworks Comp 1 (before IceMan fight)",
+    "game": "EXE1/BN1",
+    "preview": "suidoukyokunodennou1.animation",
+    "id": "waterworks-comp-1-exe1"
+  },
+  {
+    "name": "Waterworks Comp 2",
+    "velx": "0",
+    "vely": "0.5",
+    "files": [
+      "suidoukyokunodennou2.animation",
+      "suidoukyokunodennou2.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Waterworks Comp 2 (before IceMan fight)",
+    "game": "EXE1/BN1",
+    "preview": "suidoukyokunodennou2.animation",
+    "id": "waterworks-comp-2-exe1"
+  },
+  {
+    "name": "Waterworks Comp 3",
+    "velx": "0",
+    "vely": "0.5",
+    "files": [
+      "suidoukyokunodennou3.animation",
+      "suidoukyokunodennou3.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Waterworks Comp 3 (before IceMan), Waterworks Comp 1-5 (in-battle, before IceMan), WWW Comp 3",
+    "game": "EXE1/BN1",
+    "preview": "suidoukyokunodennou3.animation",
+    "id": "waterworks-comp-3-exe1"
+  },
+  {
+    "name": "Waterworks Comp 4",
+    "velx": "0",
+    "vely": "0.5",
+    "files": [
+      "suidoukyokunodennou4.animation",
+      "suidoukyokunodennou4.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Waterworks Comp 4 (before IceMan)",
+    "game": "EXE1/BN1",
+    "preview": "suidoukyokunodennou4.animation",
+    "id": "waterworks-comp-4-exe1"
+  },
+  {
+    "name": "Waterworks Comp 5",
+    "velx": "0",
+    "vely": "0.5",
+    "files": [
+      "suidoukyokunodennou5.animation",
+      "suidoukyokunodennou5.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Waterworks Comp 5 (before IceMan)",
+    "game": "EXE1/BN1",
+    "preview": "suidoukyokunodennou5.animation",
+    "id": "waterworks-comp-5-exe1"
+  },
+  {
+    "name": "Waterworks Comp 6",
+    "velx": "0",
+    "vely": "0.5",
+    "files": [
+      "suidoukyokunodennou6.animation",
+      "suidoukyokunodennou6.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Waterworks Comp 6 (before IceMan)",
+    "game": "EXE1/BN1",
+    "preview": "suidoukyokunodennou6.animation",
+    "id": "waterworks-comp-6-exe1"
+  },
+  {
+    "name": "Waterworks Comp (Post-IceMan)",
+    "velx": "0",
+    "vely": "1",
+    "files": [
+      "suidoukyokunodennou-fixed.animation",
+      "suidoukyokunodennou-fixed.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Waterworks Comp 1-5 (after IceMan)",
+    "game": "EXE1/BN1",
+    "preview": "suidoukyokunodennou-fixed.animation",
+    "id": "waterworks-comp-post-iceman-exe1"
+  },
+  {
+    "name": "Traffic Light Comp 1",
+    "velx": "0",
+    "vely": "0",
+    "files": [
+      "shingoukinodennou1.animation",
+      "shingoukinodennou1.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Traffic Light Comp 1",
+    "game": "EXE1/BN1",
+    "preview": "shingoukinodennou1.animation",
+    "id": "traffic-light-comp-1-exe1"
+  },
+  {
+    "name": "Traffic Light Comp 2",
+    "velx": "0",
+    "vely": "0",
+    "files": [
+      "shingoukinodennou2.animation",
+      "shingoukinodennou2.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Traffic Light Comp 2",
+    "game": "EXE1/BN1",
+    "preview": "shingoukinodennou2.animation",
+    "id": "traffic-light-comp-2-exe1"
+  },
+  {
+    "name": "Traffic Light Comp 3",
+    "velx": "0",
+    "vely": "0",
+    "files": [
+      "shingoukinodennou3.animation",
+      "shingoukinodennou3.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Traffic Light Comp 3",
+    "game": "EXE1/BN1",
+    "preview": "shingoukinodennou3.animation",
+    "id": "traffic-light-comp-3-exe1"
+  },
+  {
+    "name": "Traffic Light Comp 4",
+    "velx": "0",
+    "vely": "0",
+    "files": [
+      "shingoukinodennou4.animation",
+      "shingoukinodennou4.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Traffic Light Comp 4",
+    "game": "EXE1/BN1",
+    "preview": "shingoukinodennou4.animation",
+    "id": "traffic-light-comp-4-exe1"
+  },
+  {
+    "name": "Traffic Light Comp 5",
+    "velx": "0",
+    "vely": "0",
+    "files": [
+      "shingoukinodennou5.animation",
+      "shingoukinodennou5.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Traffic Light Comp 5, Traffic Light Comp 1-5 (in-battle), WWW Comp 4, WWW Comp 4 (in-battle)",
+    "game": "EXE1/BN1",
+    "preview": "shingoukinodennou5.animation",
+    "id": "traffic-light-comp-5-exe1"
+  },
+  {
+    "name": "Internet 1-4",
+    "velx": "0.35",
+    "vely": "0.20",
+    "files": [
+      "internet.animation",
+      "internet.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Internet 1-4, Ura Internet 1-12",
+    "game": "EXE1/BN1",
+    "preview": "internet.animation",
+    "id": "internet-1-4-exe1"
+  },
+  {
+    "name": "Power Plant Comp",
+    "velx": "0",
+    "vely": "0",
+    "files": [
+      "powerplant.animation",
+      "powerplant.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Power Plant Comp 1-4, WWW Comp 5",
+    "game": "EXE1/BN1",
+    "preview": "powerplant.animation",
+    "id": "power-plant-comp-exe1"
+  },
+  {
+    "name": "Power Plant Comp (in-battle)",
+    "velx": "0",
+    "vely": "0",
+    "files": [
+      "powerplant-battle.animation",
+      "powerplant-battle.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Power Plant Comp 1-4 (in-battle), WWW Comp 5 (in-battle)",
+    "game": "EXE1/BN1",
+    "preview": "powerplant-battle.animation",
+    "id": "power-plant-comp-in-battle-exe1"
+  },
+  {
+    "name": "Lan's PC",
+    "velx": "0.35",
+    "vely": "0.20",
+    "files": [
+      "nettonopcnodennou.animation",
+      "nettonopcnodennou.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Netto's PC Comp",
+    "game": "EXE1/BN1",
+    "preview": "nettonopcnodennou.animation",
+    "id": "lan-s-pc-exe1"
+  },
+  {
+    "name": "Mayl's Piano Comp",
+    "velx": "0.10",
+    "vely": "0.05",
+    "files": [
+      "meirunopianonodennou.animation",
+      "meirunopianonodennou.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Meiru's Piano Comp",
+    "game": "EXE1/BN1",
+    "preview": "meirunopianonodennou.animation",
+    "id": "mayl-s-piano-comp-exe1"
+  },
+  {
+    "name": "Mayl's Piano Comp (in-battle)",
+    "velx": "0.10",
+    "vely": "0.05",
+    "files": [
+      "meirunopianonodennou-battle.animation",
+      "meirunopianonodennou-battle.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Meiru's Piano Comp (in-battle)",
+    "game": "EXE1/BN1",
+    "preview": "meirunopianonodennou-battle.animation",
+    "id": "mayl-s-piano-comp-in-battle-exe1"
+  },
+  {
+    "name": "Dex's PC",
+    "velx": "0.10",
+    "vely": "0.05",
+    "files": [
+      "dex-pc.animation",
+      "dex-pc.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Dekao's PC Comp",
+    "game": "EXE1/BN1",
+    "preview": "dex-pc.animation",
+    "id": "dex-s-pc-exe1"
+  },
+  {
+    "name": "Dex's PC  (in-battle)",
+    "velx": "0.10",
+    "vely": "0.05",
+    "files": [
+      "dex-pc-battle.animation",
+      "dex-pc-battle.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Dekao's PC Comp (in-battle)",
+    "game": "EXE1/BN1",
+    "preview": "dex-pc-battle.animation",
+    "id": "dex-s-pc-in-battle-exe1"
+  },
+  {
+    "name": "Yai's Portrait Comp",
+    "velx": "0.10",
+    "vely": "0.05",
+    "files": [
+      "yaitonoenodennou.animation",
+      "yaitonoenodennou.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Yaito's Portrait Comp",
+    "game": "EXE1/BN1",
+    "preview": "yaitonoenodennou.animation",
+    "id": "yai-s-portrait-comp-exe1"
+  },
+  {
+    "name": "Yai's Portrait Comp (in-battle)",
+    "velx": "0.10",
+    "vely": "0.05",
+    "files": [
+      "yaitonoenodennou-battle.animation",
+      "yaitonoenodennou-battle.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Yaito's Portrait Comp (in-battle)",
+    "game": "EXE1/BN1",
+    "preview": "yaitonoenodennou-battle.animation",
+    "id": "yai-s-portrait-comp-in-battle-exe1"
+  },
+  {
+    "name": "Dad's PC",
+    "velx": "0.35",
+    "vely": "0.20",
+    "files": [
+      "papanopcnodennou.animation",
+      "papanopcnodennou.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Papa's PC Comp",
+    "game": "EXE1/BN1",
+    "preview": "papanopcnodennou.animation",
+    "id": "dad-s-pc-exe1"
+  },
+  {
+    "name": "Dad's PC (in-battle)",
+    "velx": "0.35",
+    "vely": "0.20",
+    "files": [
+      "papanopcnodennou-battle.animation",
+      "papanopcnodennou-battle.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Papa's PC Comp (in-battle)",
+    "game": "EXE1/BN1",
+    "preview": "papanopcnodennou-battle.animation",
+    "id": "dad-s-pc-in-battle-exe1"
+  },
+  {
+    "name": "Sal's PC Comp",
+    "velx": "0.35",
+    "vely": "0",
+    "files": [
+      "bentouyanodennou.animation",
+      "bentouyanodennou.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Bentou Stand Comp",
+    "game": "EXE1/BN1",
+    "preview": "bentouyanodennou.animation",
+    "id": "sal-s-pc-comp-exe1"
+  },
+  {
+    "name": "Antique Shop Comp",
+    "velx": "0.35",
+    "vely": "0.20",
+    "files": [
+      "kottouhinyanodennou.animation",
+      "kottouhinyanodennou.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Antique Shop Comp",
+    "game": "EXE1/BN1",
+    "preview": "kottouhinyanodennou.animation",
+    "id": "antique-shop-comp-exe1"
+  },
+  {
+    "name": "Fish Stand Comp",
+    "velx": "-0.35",
+    "vely": "0",
+    "files": [
+      "sakanayanodennou.animation",
+      "sakanayanodennou.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "Fish Stand Comp",
+    "game": "EXE1/BN1",
+    "preview": "sakanayanodennou.animation",
+    "id": "fish-stand-comp-exe1"
+  },
+  {
+    "name": "??? (ClockMan's Area)",
+    "velx": "0.20",
+    "vely": "0.10",
+    "files": [
+      "clockman.animation",
+      "clockman.png"
+    ],
+    "author": "K1rbYat1Na",
+    "places": "??? (ClockMan's area)",
+    "game": "EXEOSS",
+    "preview": "clockman.animation",
+    "id": "clockman-s-area-exeoss"
+  }
 ];
