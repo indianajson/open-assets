@@ -31,12 +31,14 @@ let allTools = [
 
 {"name": "Map Collision Generator","tooltype":"Web Tool","description":'<img src="img/collider-map.webp" style="float:right;" width=100 height=100 />This tool accepts a finalized map sprite and produces a Tiled object you can use as the collision/walls of your map (as opposed to the walkable areas being tile based). This is especially useful for maps that are rounded (like BN4) or have narrow paths (like BN1).<br><br> <button id="download-single-tool"><a href="https://colab.research.google.com/drive/1-MM0XX-1BQkzwxyIQ7LgfcenqT9YRV1K?usp=sharing" target="_blank" style="text-decoration:none; color:#000;">Launch the Tool</a></button>',"author": "Indiana","id":"map-indiana"},
 
+{"name": "Navi Making Guide","tooltype":"Written Guide","description":'After learning how to make navis for the first time, ShaDisNX255 decided to write a new guide based on their experience. The result is an excellent navi making guide designed to help beginners go step-by-step through the navi making process. <br><br> <button id="download-single-tool"><a href="https://docs.google.com/document/d/1l1TarsSA3u5wZxp_6O28elxm3DFu1mUfuEI8K6w41Do/edit?tab=t.0#heading=h.ai4gmsgtfc4" target="_blank" style="text-decoration:none; color:#000;">Read the Guide</a></button>',"author": "ShaDisNX255","id":"shadis-guide"},
+
 
     /*
     
     //this is an empty dictionary you can use to make new entries, it includes the code for the button in the description field. 
 
-    {"name": "","tooltype":"","description":'<br><br> <button id="download-single-tool"><a href="" target="_blank" style="text-decoration:none; color:#000;"></a></button>',"author": ""},
+{"name": "","tooltype":"","description":'<br><br> <button id="download-single-tool"><a href="" target="_blank" style="text-decoration:none; color:#000;"></a></button>',"author": "","id":""},
     */
 
     ];
