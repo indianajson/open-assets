@@ -14,8 +14,12 @@ let allScripts = [
 
 {"name": 'ShaDis HP',"description":'This server features a BBS, whitelist, custom items, custom events, encounters, ice puzzles, server-to-server cyber metro, and more! <i>Please remember</i> not to use any custom sprites/assets from this server unless given permission.<br><br><button id="download-single-script"><a href="https://github.com/ShaDisNX255/shadis_hp" target="_blank" style="text-decoration:none; color:#000;">Repository</a></button>',"author": "ShaDisNX255","scripttype":"Server Code","id":"shadis-hp"},
 
-{"name": 'Simple Drops',"description":'This script allows you to add customizable drop edges to ice tiles that cause a player to fall down to a layer below the tile.<br><br><button id="download-single-script"><a href="https://github.com/indianajson/simple-drops" target="_blank" style="text-decoration:none; color:#000;">Repository</a></button>',"author": "Indiana","scripttype":"Lua Script","id":"simple-drops"}
+{"name": 'Simple Drops',"description":'This script allows you to add customizable drop edges to ice tiles that cause a player to fall down to a layer below the tile.<br><br><button id="download-single-script"><a href="https://github.com/indianajson/simple-drops" target="_blank" style="text-decoration:none; color:#000;">Repository</a></button>',"author": "Indiana","scripttype":"Lua Script","id":"simple-drops"},
     
+{"name": 'The Block',"description":'This server features huge sprawling custom areas, quests, many NPCs, difficult encounters, cyber-metro stations, and much more. <i>Please remember</i> not to use any custom sprites/assets from this server unless given permission.<br><br><button id="download-single-script"><a href="https://github.com/CyanmanEXE/CyanServerTheBlock/" target="_blank" style="text-decoration:none; color:#000;">Repository</a></button>',"author": "CyanMan.EXE","scripttype":"Server Code","id":"the-block"},
+
+{"name": 'The Undernet',"description":'This server features quests, custom ranking system, a cyber-metro station, encounters, spawling custom area, many NPCs, and much more! <i>Please remember</i> not to use any custom sprites/assets from this server unless given permission.<br><br><button id="download-single-script"><a href="https://github.com/HeadDM/undernet-server" target="_blank" style="text-decoration:none; color:#000;">Repository</a></button>',"author": "Mannerek.EXE","scripttype":"Server Code","id":"undernet"}
+
     /*
     
     //this is an empty dictionary you can use to make new entries, it includes the code for the button in the description field. 
