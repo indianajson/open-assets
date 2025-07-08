@@ -1,5 +1,5 @@
 let allNPCs = [ 
-  { "name": "Volgear", "files": [ "volgear.animation", "volgear.png" ], "author": [ "Indiana", "Keristero" ], "game": "EXE4/BN4", "preview": "volgear.animation", "id": "volgear-exe4" },
+  { "name": "Volgear (Virus)", "files": [ "volgear.animation", "volgear.png" ], "author": [ "Indiana", "Keristero" ], "game": "EXE4/BN4", "preview": "volgear.animation", "id": "volgear-exe4" },
   { "name": "Cyber Bat", "files": [ "cyber_bat.animation", "cyber_bat.png" ], "author": [ "Indiana", "Keristero" ], "game": "EXE4/BN4", "preview": "cyber_bat.animation", "id": "cyber-bat-exe4" },
  { "name": "Mr. Prog (Santa)", "files": [ "progsmas.animation", "progsmas.png", "mug.animation", "progsmas-mug.png" ], "author": "unknown", "game": "Custom", "preview": "progsmas.animation", "id": "mr-prog-santa-custom" },
  { "name": "Mettaur Swing", "files": [ "MetSwing.animation", "MetSwing.png", "mug.animation", "mettaur-mug.png" ], "author": "D3str0y3d", "game": "Custom", "preview": "MetSwing.animation", "id": "mettaur-swing-custom" },
