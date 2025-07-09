@@ -1,5 +1,5 @@
 let allBackgrounds = [ 
-{ "name": "Internet1 Daytime", "velx": ".3", "vely": ".15", "files": [ "Internet1BGDaytime.png", "Internet1BGDaytime.animation" ], "author": [ "D3str0yed", "BlaXun", "Indiana" ], "credit": false, "game": "EXE4.5", "preview": "Internet1BGDaytime.animation", "id": "internet1-daytime-exe4-5" },
+{ "name": "Internet1 Daytime", "velx": ".3", "vely": ".15", "files": [ "Internet1BGDaytime.png", "Internet1BGDaytime.animation" ], "author": ["BlaXun", "Indiana" ], "credit": false, "game": "EXE4.5", "preview": "Internet1BGDaytime.animation", "id": "internet1-daytime-exe4-5" },
 { "name": "Generic - Green", "velx": "0.455", "vely": "0.245", "files": [ "01-generic1.png", "01-generic1.animation" ], "author": "K1rbYat1Na", "credit": false, "game": "EXE6/BN6", "preview": "01-generic1.animation", "id": "generic-green-exe6" },
 { "name": "Generic - Purple", "velx": "0.455", "vely": "0.245", "files": [ "01-generic2.png", "01-generic2.animation" ], "author": "K1rbYat1Na", "credit": false, "game": "EXE6/BN6", "preview": "01-generic2.animation", "id": "generic-purple-exe6" },
 { "name": "Central Area", "velx": "0.225", "vely": "0.225", "files": [ "07a-centralarea.png", "07a-centralarea.animation" ], "author": "K1rbYat1Na", "credit": false, "game": "EXE6/BN6", "preview": "07a-centralarea.animation", "id": "central-area-exe6" },
@@ -51,5 +51,15 @@ let allBackgrounds = [
 { "name": "Fish Stand Comp", "velx": "-0.35", "vely": "0", "files": [ "sakanayanodennou.animation", "sakanayanodennou.png" ], "author": "K1rbYat1Na", "places": "Fish Stand Comp", "game": "EXE1/BN1", "preview": "sakanayanodennou.animation", "id": "fish-stand-comp-exe1" },
 { "name": "??? (ClockMan's Area)", "velx": "0.20", "vely": "0.10", "files": [ "clockman.animation", "clockman.png" ], "author": "K1rbYat1Na", "places": "??? (ClockMan's area)", "game": "EXEOSS", "preview": "clockman.animation", "id": "clockman-s-area-exeoss" },
 { "name": "Starry Night", "velx": "0.0", "vely": "0.0", "files": [ "StarryNight.animation", "StarryNight.png" ], "author": "D3str0y3d", "places": "", "game": "Custom", "preview": "StarryNight.animation", "id": "starry-d3" },
+{ "name": "Megaman HP", "velx": "0.3", "vely": "0.15", "files": [ "HPRockmanBG.animation", "HPRockmanBG.png" ], "author": ["BlaXun","Indiana"], "places": "Personal HP", "game": "EXE4.5", "preview": "HPRockmanBG.animation", "id": "megaman-4.5" },
+{ "name": "Roll HP", "velx": "0.3", "vely": "0.15", "files": [ "HPRollBG.animation", "HPRollBG.png" ], "author": ["BlaXun","Indiana"], "places": "Personal HP", "game": "EXE4.5", "preview": "HPRollBG.animation", "id": "roll-4.5" },
+{ "name": "Roll HP (Night)", "velx": "0.3", "vely": "0.15", "files": [ "HPRollBGNight.animation", "HPRollBGNight.png" ], "author": ["BlaXun","Indiana"], "places": "Personal HP", "game": "EXE4.5", "preview": "HPRollBGNight.animation", "id": "rollnight-4.5" },
+{ "name": "Rainbow HP", "velx": "0.3", "vely": "0.15", "files": [ "HPRainbowBG.animation", "HPRainbowBG.png" ], "author": ["BlaXun","Indiana"], "places": "Personal HP", "game": "EXE4.5", "preview": "HPRainbowBG.animation", "id": "rainbow-4.5" },
+
+/*
+{ "name": "", "velx": "0.0", "vely": "0.0", "files": [ ".animation", ".png" ], "author": "", "places": "", "game": "", "preview": ".animation", "id": "" },
+
+
+*/
 
 ];
