@@ -208,4 +208,12 @@ let allData = [
  { "name": "WWW Machine", "type": "object", "files": [ "exe1 wwwmachine1.png", "exe1 wwwmachine1.tsx" ], "author": "Quetzen", "game": "EXE1/BN1", "preview": "exe1 wwwmachine1.png", "id": "www-machine-exe1" },
  { "name": "Ice Tiles", "type": "tile", "files": [ "ice-tile.tsx", "ice-tile.png", "IceSlide.ogg", "ice-tile-readme.md" ], "author": "D3str0y3d", "game": "EXE2/BN2", "preview": "ice-tile.png", "id": "ice-tiles-exe2" },
  { "name": "Tournament BBS", "type": "object", "files": [ "TBS.tsx", "TBS.png" ], "author": "Indiana", "game": "EXE4.5", "preview": "TBS.png", "id": "TBS-exe45" },
+  { "name": "Wood and Bamboo Tile", "type": "tile", "files": [ "ShangWoodAndBamboo.tsx", "ShangWoodAndBamboo.png" ], "author": "D3str0y3d", "game": "Shanghai", "preview": "ShangWoodAndBamboo.png", "id": "shangwood-d3" },
+  { "name": "Wood Warp", "type": "tile", "files": [ "ShanWoodWarp.tsx", "ShanWoodWarp.png" ], "author": "D3str0y3d", "game": "Shanghai", "preview": "ShanWoodWarp.png", "id": "shangwarp-d3" },
+  { "name": "Arcade Tile", "type": "tile", "files": [ "ArcadeFloor.tsx", "ArcadeFloor.png" ], "author": "Rune", "game": "Custom", "preview": "ArcadeFloor.png", "id": "arcade-rune" },
+ /*
+ 
+  { "name": "", "type": "", "files": [ ".tsx", ".png" ], "author": "", "game": "", "preview": ".png", "id": "" },
+
+  */
 ];
