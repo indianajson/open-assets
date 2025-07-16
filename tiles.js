@@ -78,7 +78,7 @@ let allData = [
  { "name": "Home Warp", "type": "object", "files": [ "home_warp.png", "home_warp.tsx" ], "author": "unknown", "game": "EXE6/BN6", "preview": "home_warp.png", "id": "home-warp-exe6" },
 { "name": "Mystery Data - Normal", "files": [ "MysteryData.png", "MysteryData.tsx" ], "author": "unknown", "type": "object", "game": "EXE4.5", "preview": "MysteryData.png", "id": "mystery-data-exe4-5" },
  { "name": "Mystery Data - Red", "type": "object", "files": [ "RedMysteryData.png", "RedMysteryData.tsx" ], "author": "unknown", "game": "Other", "preview": "RedMysteryData.png", "id": "mystery-data-red-other" },
-{ "name": "Myster Data - Square", "type": "object", "files": [ "square_data.tsx", "square_data.png" ], "author": ["Rune","Indiana"], "game": "Shanghai", "preview": "square_data.png", "id": "square-data" },
+{ "name": "Mystery Data - Square", "type": "object", "files": [ "square_data.tsx", "square_data.png" ], "author": ["Rune","Indiana"], "game": "Shanghai", "preview": "square_data.png", "id": "square-data" },
 
 { "name": "Mystery Data - Pumpkin", "type": "object", "files": [ "pumpkindata.tsx", "pumpkindata.png" ], "author": ["KanoYugoro","Indiana"], "game": "Custom", "preview": "pumpkindata.png", "id": "pumpkin-data" },
  { "name": "HP Colored Tiles", "type": "tile", "files": [ "rainbow_floor.png", "rainbow_floor.tsx" ], "author": "unknown", "game": "EXE6/BN6", "preview": "rainbow_floor.png", "id": "hp-colored-tiles-exe6" },
