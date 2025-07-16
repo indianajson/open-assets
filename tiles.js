@@ -47,8 +47,8 @@ let allData = [
  { "name": "Spikey Gargoyle", "files": [ "Spikey Gargoyle.png", "Spikey Gargoyle.tsx" ], "type": "tile", "author": "unknown", "game": "Other", "preview": "Spikey Gargoyle.png", "id": "spikey-gargoyle-other" },
  { "name": "Tombstone", "files": [ "Tombstone_exe6.png", "Tombstone_exe6.tsx" ], "author": "unknown", "credit": false, "game": "EXE6/BN6", "preview": "Tombstone_exe6.png", "id": "tombstone-exe6" },
  { "name": "Program Chip Form", "type": "object", "files": [ "ProgramChipForm.png", "ProgramChipForm.tsx" ], "author": "unknown", "game": "Other", "preview": "ProgramChipForm.png", "id": "program-chip-form-other" },
- { "name": "ACDC Warp", "files": [ "BN3ACDC1Warp.png", "BN3ACDC1Warp.tsx" ], "type": "object", "author": "unknown", "game": "EXE3/BN3", "preview": "BN3ACDC1Warp.png", "id": "acdc-warp-exe3" },
- { "name": "ACDC Square Warp", "files": [ "BN3ACDCWarp2.png", "BN3ACDCWarp2.tsx" ], "type": "object", "author": "unknown", "game": "EXE3/BN3", "preview": "BN3ACDCWarp2.png", "id": "acdc-square-warp-exe3" },
+ { "name": "ACDC Warp", "files": [ "BN3ACDC1Warp.png", "BN3ACDC1Warp.tsx" ], "type": "object", "author": "FrozenLake", "game": "EXE3/BN3", "preview": "BN3ACDC1Warp.png", "id": "acdc-warp-exe3" },
+ { "name": "ACDC Square Warp", "files": [ "BN3ACDCWarp2.png", "BN3ACDCWarp2.tsx" ], "type": "object", "author": "FrozenLake", "game": "EXE3/BN3", "preview": "BN3ACDCWarp2.png", "id": "acdc-square-warp-exe3" },
  { "name": "Dex Panel", "files": [ "BN3DexPanel.png", "BN3DexPanel.tsx" ], "type": "tile", "author": "unknown", "game": "EXE3/BN3", "preview": "BN3DexPanel.png", "id": "dex-panel-exe3" },
  { "name": "Tamako Panel", "files": [ "BN3TamakoPanel.png", "BN3TamakoPanel.tsx" ], "type": "tile", "author": "unknown", "game": "EXE3/BN3", "preview": "BN3TamakoPanel.png", "id": "tamako-panel-exe3" },
  { "name": "Yai Panel", "files": [ "BN3YaiPanel.png", "BN3YaiPanel.tsx" ], "type": "tile", "author": "unknown", "game": "EXE3/BN3", "preview": "BN3YaiPanel.png", "id": "yai-panel-exe3" },
@@ -213,8 +213,8 @@ let allData = [
   { "name": "Arcade Tile", "type": "tile", "files": [ "ArcadeFloor.tsx", "ArcadeFloor.png" ], "author": "Rune", "game": "Custom", "preview": "ArcadeFloor.png", "id": "arcade-rune" },
    { "name": "Undernet Tiles", "type": "tile", "files": [ "bn3_undernet_tiles.tsx", "bn3_undernet_tiles.png" ], "author": "Gobby", "game": "EXE3/BN3", "preview": "bn3_undernet_tiles.png", "id": "under-gobby" },
    { "name": "Undernet Arrows", "type": "tile", "files": [ "bn3_arrows_undernet.tsx", "bn3_arrows_undernet.png" ], "author": "Gobby", "game": "EXE3/BN3", "preview": "bn3_arrows_undernet.png", "id": "underarrow-gobby" },
-
    { "name": "Pumpkin Mystery Data", "type": "object", "files": [ "pumpkindata.tsx", "pumpkindata.png" ], "author": ["KanoYugoro","Indiana"], "game": "Custom", "preview": "pumpkindata.png", "id": "pumpkin-data" },
+  { "name": "Internet 1-4 Area Tiles", "type": "tile", "files": [ "Bn4_5Tilesets.tsx", "Bn4_5Tilesets.png" ], "author": "D3str0y3d", "game": "EXE4.5", "preview": "Bn4_5Tilesets.png", "id": "int1-4" },
 
   /*
  

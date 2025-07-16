@@ -68,7 +68,7 @@ let allNPCs = [
  { "name": "Mr. Prog (Sir)", "files": [ "sirprog.animation", "sirprog.png", "mug.animation", "sirprog-mug.png" ], "author": "unknown", "game": "Custom", "preview": "sirprog.animation", "id": "mr-prog-sir-custom" },
  { "name": "Sprite", "files": [ "sprite-shanghai.animation", "sprite-shanghai.png", "mug.animation", "sprite-shanghai-mug.png" ], "author": "unknown", "game": "Shanghai", "preview": "sprite-shanghai.animation", "id": "sprite-shanghai" },
  { "name": "Starman", "files": [ "starman.animation", "starman.png", "mug.animation", "starman-mug.png" ], "author": "unknown", "game": "Other", "preview": "starman.animation", "id": "starman-other" },
- { "name": "Sumo", "files": [ "sumo-bn5.animation", "sumo-bn5.png", "mug.animation" ], "author": "unknown", "game": "EXE5/BN5", "preview": "sumo-bn5.animation", "id": "sumo-exe5" },
+ { "name": "Sumo", "files": [ "sumo-bn5.animation", "sumo-bn5.png", "mug.animation" ], "author": "D3str0y3d", "game": "EXE5/BN5", "preview": "sumo-bn5.animation", "id": "sumo-exe5" },
  { "name": "Toadman", "files": [ "toadman.animation", "toadman.png", "mug.animation", "toadman-mug.png" ], "author": "unknown", "game": "Other", "preview": "toadman.animation", "id": "toadman-other" },
  { "name": "Tomahawk", "files": [ "tomahawk.animation", "tomahawk.png", "mug.animation", "tomahawk-mug.png" ], "author": "unknown", "game": "Other", "preview": "tomahawk.animation", "id": "tomahawk-other" },
  { "name": "Undernet Navi", "files": [ "undernet-navi-shanghai.animation", "undernet-navi-shanghai.png", "mug.animation", "undernet-navi-shanghai-mug.png" ], "author": "unknown", "game": "Shanghai", "preview": "undernet-navi-shanghai.animation", "id": "undernet-navi-shanghai" },
