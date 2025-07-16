@@ -214,7 +214,8 @@ let allData = [
    { "name": "Undernet Tiles", "type": "tile", "files": [ "bn3_undernet_tiles.tsx", "bn3_undernet_tiles.png" ], "author": "Gobby", "game": "EXE3/BN3", "preview": "bn3_undernet_tiles.png", "id": "under-gobby" },
    { "name": "Undernet Arrows", "type": "tile", "files": [ "bn3_arrows_undernet.tsx", "bn3_arrows_undernet.png" ], "author": "Gobby", "game": "EXE3/BN3", "preview": "bn3_arrows_undernet.png", "id": "underarrow-gobby" },
 
- 
+   { "name": "Pumpkin Mystery Data", "type": "object", "files": [ "pumpkindata.tsx", "pumpkindata.png" ], "author": ["KanoYugoro","Indiana"], "game": "Custom", "preview": "pumpkindata.png", "id": "pumpkin-data" },
+
   /*
  
   { "name": "", "type": "", "files": [ ".tsx", ".png" ], "author": "", "game": "", "preview": ".png", "id": "" },
