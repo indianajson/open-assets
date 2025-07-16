@@ -1,7 +1,7 @@
 let allNPCs = [ 
   { "name": "Volgear (Virus)", "files": [ "volgear.animation", "volgear.png" ], "author": [ "Indiana", "Keristero" ], "game": "EXE4/BN4", "preview": "volgear.animation", "id": "volgear-exe4" },
   { "name": "Cyber Bat", "files": [ "cyber_bat.animation", "cyber_bat.png" ], "author": [ "Indiana", "Keristero" ], "game": "EXE4/BN4", "preview": "cyber_bat.animation", "id": "cyber-bat-exe4" },
- { "name": "Mr. Prog (Santa)", "files": [ "progsmas.animation", "progsmas.png", "mug.animation", "progsmas-mug.png" ], "author": "unknown", "game": "Custom", "preview": "progsmas.animation", "id": "mr-prog-santa-custom" },
+ { "name": "Mr. Prog (Santa)", "files": [ "progsmas.animation", "progsmas.png", "mug.animation", "progsmas-mug.png" ], "author": ["Learn2Fly (sprite)","D3str0y3d (tiled)"], "game": "Custom", "preview": "progsmas.animation", "id": "mr-prog-santa-custom" },
  { "name": "Mettaur Swing", "files": [ "MetSwing.animation", "MetSwing.png", "mug.animation", "mettaur-mug.png" ], "author": "D3str0y3d", "game": "Custom", "preview": "MetSwing.animation", "id": "mettaur-swing-custom" },
  { "name": "Bass", "files": [ "bass.animation", "bass.png", "mug.animation", "bass-mug.png" ], "author": "unknown", "game": "EXE6/BN6", "preview": "bass.animation", "id": "bass-exe6" },
  { "name": "Acid Ace", "files": [ "acid-ace-sf3.animation", "acid-ace-sf3.png", "mug.animation", "acid-ace-sf3-mug.png" ], "author": "unknown", "game": "SSR3/SF3", "preview": "acid-ace-sf3.animation", "id": "acid-ace-ssr3" },
