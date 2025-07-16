@@ -218,6 +218,7 @@ let allData = [
    { "name": "Undernet Arrows", "type": "tile", "files": [ "bn3_arrows_undernet.tsx", "bn3_arrows_undernet.png" ], "author": "Gobby", "game": "EXE3/BN3", "preview": "bn3_arrows_undernet.png", "id": "underarrow-gobby" },
   { "name": "Internet 1-4 Area Tiles", "type": "tile", "files": [ "Bn4_5Tilesets.tsx", "Bn4_5Tilesets.png" ], "author": "D3str0y3d", "game": "EXE4.5", "preview": "Bn4_5Tilesets.png", "id": "int1-4" },
   { "name": "Water Tiles", "type": "tile", "files": [ "water_tiles.tsx", "water_tiles.png" ], "author": "D3str0y3d", "game": "Custom", "preview": "water_tiles.png", "id": "splash" },
+  { "name": "Lava Tiles", "type": "tile", "files": [ "lava_tile.tsx", "lava_tile.png" ], "author": "Learn2Fly", "game": "Custom", "preview": "lava_tile.png", "id": "lava-tile" },
 
   /*
  
