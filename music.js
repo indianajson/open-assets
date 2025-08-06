@@ -1408,7 +1408,10 @@ let allMusic = [
       "exe4-plugin.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
+    "game": [
+        "EXE4/BN4",
+        "EXE4.5"
+    ],
     "duration": "0:03",
     "composer": "Toshihiko Horiyama",
     "places": "during the Plug-in transition",
@@ -1476,7 +1479,10 @@ let allMusic = [
       "exe4-win.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
+    "game": [
+        "EXE4/BN4",
+        "EXE4.5"
+    ],
     "duration": "0:10",
     "composer": "Toshihiko Horiyama",
     "places": "when winning a battle with the Results screen",
@@ -1493,7 +1499,10 @@ let allMusic = [
       "exe4-win.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
+    "game": [
+        "EXE4/BN4",
+        "EXE4.5"
+    ],
     "duration": "0:02",
     "composer": "Toshihiko Horiyama",
     "places": "when winning a battle without the Results screen",
@@ -1805,7 +1814,7 @@ let allMusic = [
     "ostname": "Save Our Planet",
     "name": "Asteroid Comp",
     "files": [
-      "exe4-hero.ogg"
+      "exe4-ryouwakuseidennou.ogg"
     ],
     "author": "K1rbYat1Na",
     "game": "EXE4/BN4",
@@ -1825,7 +1834,10 @@ let allMusic = [
       "exe4-gameover.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
+    "game": [
+        "EXE4/BN4",
+        "EXE4.5"
+    ],
     "duration": "0:03",
     "composer": "Toshihiko Horiyama",
     "places": "Game Over Screen",
@@ -1842,7 +1854,10 @@ let allMusic = [
       "exe4-lose.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
+    "game": [
+        "EXE4/BN4",
+        "EXE4.5"
+    ],
     "duration": "0:08",
     "composer": "Toshihiko Horiyama",
     "places": "when losing a PvP battle (with the Results screen)",
