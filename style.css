@@ -1,0 +1,421 @@
+@font-face {
+  font-family: "pixel";
+  src: url("fonts/MotaPixel-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "pixel";
+  src: url("fonts/MotaPixel-Regular.woff") format("woff");
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "pixel";
+  background: #008080;
+  font-size: 30px;
+  padding: 10px;
+}
+button {
+  cursor: pointer;
+}
+#preview-image,
+#preview-image-bg,
+.preview-animated,
+img {
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  -webkit-font-smoothing: none;
+  -ms-interpolation-mode: nearest-neighbor;
+}
+.window {
+  background: #c0c0c0;
+  border: 2px solid #808080;
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+}
+.title-bar {
+  background: #000080;
+  color: #fff;
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+  user-select: none;
+}
+thead {
+  background: rgb(130, 130, 130);
+}
+.menu-bar {
+  display: flex;
+  align-items: center;
+  background: #c0c0c0;
+  border-left: 2px solid #fff;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #808080;
+  border-bottom: 2px solid #808080;
+  padding: 4px;
+  gap: 12px;
+}
+.menu-bar .filter {
+  position: relative;
+}
+.menu-bar .filter > label {
+  display: inline-block;
+  padding: 4px 8px;
+  border: 2px outset #fff;
+  background: #c0c0c0;
+  font-size: 20px;
+  user-select: none;
+  cursor: pointer;
+}
+.menu-bar .filter.open > label {
+  border: 2px inset #fff;
+}
+.menu-bar .filter .dropdown {
+  display: none;
+  position: absolute;
+  top: 120%;
+  left: 0;
+  background: #c0c0c0;
+  border: 2px solid #808080;
+  padding: 6px;
+  z-index: 10;
+  min-width: 110px;
+}
+.menu-bar .filter[data-filter="author"] .dropdown {
+  min-width: 150px;
+}
+.menu-bar .filter[data-filter="tooltype"] .dropdown {
+  min-width: 150px;
+}
+.menu-bar .filter.open .dropdown {
+  display: block;
+}
+.menu-bar .filter .dropdown div {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+.menu-bar button#download-selected,
+.menu-bar button#clear-filters {
+  padding: 4px 10px;
+  font-size: 20px;
+  border: 2px outset #fff;
+  background: #c0c0c0;
+}
+.menu-bar button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.content {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+.tab-content {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+.sidebar {
+  width: 60%;
+  border-right: 2px inset #808080;
+  overflow-y: auto;
+}
+table.file-list {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 20px;
+}
+table.file-list th,
+table.file-list td {
+  padding: 4px;
+  border-bottom: 1px solid #808080;
+  text-align: left;
+}
+table.file-list tr.selected {
+  background: #000080;
+  color: #fff;
+}
+th.sortable {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.preview-panel {
+  flex: 1;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+}
+.preview-window {
+  border: 2px inset #fff;
+  background: #e0e0e0;
+  flex: 1;
+  overflow: scroll;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 8px;
+}
+.preview-window img {
+  user-select: none;
+  max-width: none;
+  transform-origin: center top;
+  zoom: 200%;
+  overflow-x: scroll;
+}
+.details {
+  font-size: 20px;
+  padding: 10px;
+}
+button {
+  font-family: pixel;
+  font-weight: bold;
+}
+.details p {
+  margin-bottom: 4px;
+}
+.details button {
+  padding: 4px 8px;
+  font-size: 20px;
+  border: 2px outset #fff;
+  background: #c0c0c0;
+}
+.title-bar-text {
+  font-weight: bold;
+}
+
+/* New styles for search and tabs */
+.search-bar {
+  padding: 8px;
+  background: #c0c0c0;
+  border-left: 2px solid #fff;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #808080;
+  border-bottom: 2px solid #808080;
+}
+.search-bar input {
+  width: 100%;
+  padding: 4px;
+  font-family: "pixel";
+  font-size: 20px;
+  border: 2px inset #fff;
+}
+.tabs {
+  display: flex;
+  background: #c0c0c0;
+  border-left: 2px solid #fff;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #808080;
+  border-bottom: 2px solid #808080;
+}
+.tab {
+  padding: 8px 16px;
+  cursor: pointer;
+  border-right: 1px solid #808080;
+}
+.tab.active {
+  background: #000080;
+  color: #fff;
+}
+.tab-content {
+  display: none;
+}
+.tab-content.active {
+  display: flex;
+  flex: 1;
+}
+/* Audio player styles */
+.audio-player {
+  width: 100%;
+  margin-top: 10px;
+}
+.audio-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.audio-timeline {
+  flex-grow: 1;
+}
+#play-btn {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.music-play-btn {
+  cursor: pointer;
+  padding: 2px 6px;
+  font-size: 16px;
+}
+.menu-bar .filter[data-filter="type"].hidden,
+.menu-bar .filter[data-filter="game"].hidden,
+.menu-bar .filter[data-filter="tooltype"].hidden {
+  display: none;
+}
+
+/* CSS for Background Animation */
+#preview-image-bg {
+  position: relative;
+  zoom: 200%;
+  max-height: 200px;
+  height: 70%;
+  overflow: hidden;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  -ms-interpolation-mode: nearest-neighbor;
+}
+#preview-image-npc {
+  position: relative;
+  zoom: 200%;
+  max-height: 200px;
+  height: 70%;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  -ms-interpolation-mode: nearest-neighbor;
+}
+
+.npc-frames-container {
+  display: flex;
+  gap: 10px;
+  animation: scrollFrames 10s linear infinite;
+}
+
+.npc-frame {
+  flex-shrink: 0;
+  image-rendering: pixelated;
+}
+
+.tile {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: var(--sprite-sheet);
+  background-position: var(--sprite-pos);
+  width: var(--sprite-w);
+  height: var(--sprite-h);
+}
+
+/* Styles for Scripts and Tools tabs */
+.info-panel {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+.info-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #e0e0e0;
+  border: 2px inset #fff;
+}
+.info-item h3 {
+  margin-bottom: 10px;
+  color: #000080;
+}
+.info-item p {
+  margin-bottom: 8px;
+}
+.info-item a {
+  color: #0000ff;
+  text-decoration: underline;
+}
+/* ======= Modal overlay (dimmed background) ======= */
+#modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  z-index: 1000;
+}
+
+/* ======= Modal window itself ======= */
+#feedback-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  max-width: 500px;
+  background: #c0c0c0;
+  border: 2px solid #808080;
+  display: none;
+  z-index: 1001;
+  font-family: "pixel";
+}
+
+/* Title bar inside modal (Win95 style) */
+#feedback-modal .modal-title-bar {
+  background: #000080;
+  color: #fff;
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+  user-select: none;
+}
+
+/* Close button “X” in top-right */
+#feedback-modal .close-btn {
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 1;
+  padding: 0 8px;
+  font-weight: bold;
+}
+
+/* Content area inside modal */
+#feedback-modal .modal-content {
+  padding: 8px;
+  font-size: 20px;
+  color: #000;
+}
+
+/* Ensure textarea also looks “pixel” and Win95-ish */
+#feedback-modal textarea {
+  border: 2px inset #fff;
+  background: #fff;
+  color: #000;
+  outline: none;
+}
+
+/* Ensure the Submit button has Win95 borders */
+#feedback-modal button {
+  cursor: pointer;
+  border: 2px outset #fff;
+  background: #c0c0c0;
+  font-family: "pixel";
+  font-weight: bold;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spinning {
+  animation: spin 3s linear infinite;
+  animation-direction: reverse;
+  animation-play-state: paused;
+}
+#disc-image {
+  image-rendering: auto;
+  image-rendering: auto;
+  -ms-interpolation-mode: bicubic;
+}
