@@ -1459,7 +1459,7 @@ let allMusic = [
     "ostname": "Cyber Battle (unused)",
     "name": "Virus Battle (unused)",
     "files": [
-      "exe4-virus.ogg"
+      "exe4-virus-alt.ogg"
     ],
     "author": "K1rbYat1Na",
     "game": "EXE4/BN4",
@@ -1860,7 +1860,7 @@ let allMusic = [
     ],
     "duration": "0:08",
     "composer": "Toshihiko Horiyama",
-    "places": "when losing a PvP battle (with the Results screen)",
+    "places": "when losing a PvP battle",
     "start": "2009",
     "stop": "8439",
     "disc": "disc5.png",
@@ -2580,6 +2580,601 @@ let allMusic = [
     "disc": "disc4.png",
     "gameimage": "exe45.png",
     "id": "credits-theme-exe45"
+  },
+  {
+    "ostname": "Theme of ROCKMAN EXE5",
+    "name": "Title Theme",
+    "files": [
+      "exe5-title.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "Title Screen",
+    "start": "18861",
+    "stop": "32460",
+    "disc": "disc4.png",
+    "duration": "0:32",
+    "gameimage": "exe5.png",
+    "id": "title-theme-exe5"
+  },
+  {
+    "ostname": "Theme of Nebula",
+    "name": "Nebula Theme",
+    "files": [
+      "exe5-nebula.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "Cutscenes feat. Dr. Regal or Nebula",
+    "start": "2894",
+    "stop": "39979",
+    "disc": "disc4.png",
+    "duration": "0:40",
+    "gameimage": "exe5.png",
+    "id": "nebula-theme-exe5"
+  },
+  {
+    "ostname": "Hometown",
+    "name": "Akihara Town",
+    "files": [
+      "exe5-hometown.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "Akihara Town",
+    "start": "0",
+    "stop": "55950",
+    "disc": "disc4.png",
+    "duration": "0:56",
+    "gameimage": "exe5.png",
+    "id": "akihara-town-exe5"
+  },
+  {
+    "ostname": "Indoors",
+    "name": "Akihara Town (indoors)",
+    "files": [
+      "exe5-indoors.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "Akihara Town (indoors)",
+    "start": "1256",
+    "stop": "17329",
+    "disc": "disc4.png",
+    "duration": "0:17",
+    "gameimage": "exe5.png",
+    "id": "akihara-town-indoors-exe5"
+  },
+  {
+    "ostname": "Scientific Forefront",
+    "name": "Ministry of Science",
+    "files": [
+      "exe5-kagakushou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "Ministry of Science, Higureya Secret Base, Luxury Liner Pier",
+    "start": "0",
+    "stop": "41918",
+    "disc": "disc4.png",
+    "duration": "0:42",
+    "gameimage": "exe5.png",
+    "id": "ministry-of-science-exe5"
+  },
+  {
+    "ostname": "Incident Occurence!",
+    "name": "Incident",
+    "files": [
+      "exe5-incident.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "overworld (when an incident has occurred)",
+    "start": "578",
+    "stop": "13106",
+    "disc": "disc4.png",
+    "duration": "0:13",
+    "gameimage": "exe5.png",
+    "id": "incident-exe5"
+  },
+  {
+    "ostname": "Transmission!",
+    "name": "Plug-in Transition",
+    "files": [
+      "exe5-plugin.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "during the Plug-in transition",
+    "start": "",
+    "stop": "",
+    "disc": "disc4.png",
+    "duration": "0:04",
+    "gameimage": "exe5.png",
+    "id": "plug-in-transition-exe5"
+  },
+  {
+    "ostname": "Seek a Cord",
+    "name": "Main System Comp",
+    "files": [
+      "exe5-mainsystemdennou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "Main System Comp 1-2",
+    "start": "0",
+    "stop": "38083",
+    "disc": "disc4.png",
+    "duration": "0:38",
+    "gameimage": "exe5.png",
+    "id": "main-system-comp-exe5"
+  },
+  {
+    "ostname": "Battle Start!",
+    "name": "Virus Battle",
+    "files": [
+      "exe5-virus.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "Virus Battles",
+    "start": "2650",
+    "stop": "35229",
+    "disc": "disc4.png",
+    "duration": "0:35",
+    "gameimage": "exe5.png",
+    "id": "virus-battle-exe5"
+  },
+  {
+    "ostname": "Enemy Deleted!",
+    "name": "Results Theme",
+    "files": [
+      "exe5-win.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "when winning a battle with the Results screen",
+    "start": "2962",
+    "stop": "9755",
+    "disc": "disc4.png",
+    "duration": "0:10",
+    "gameimage": "exe5.png",
+    "id": "results-theme-exe5"
+  },
+  {
+    "ostname": "Enemy Deleted! (short)",
+    "name": "Results Theme (short)",
+    "files": [
+      "exe5-win-short.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "when winning a battle without the Results screen",
+    "start": "",
+    "stop": "",
+    "disc": "disc4.png",
+    "duration": "0:02",
+    "gameimage": "exe5.png",
+    "id": "results-theme-short-exe5"
+  },
+  {
+    "ostname": "Oran Island",
+    "name": "Oran Island",
+    "files": [
+      "exe5-orantou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "Oran Island, Abandoned Mine (outside)",
+    "start": "2947",
+    "stop": "39545",
+    "disc": "disc4.png",
+    "duration": "0:40",
+    "gameimage": "exe5.png",
+    "id": "oran-island-exe5"
+  },
+  {
+    "ostname": "Abandoned Mine",
+    "name": "Abandoned Mine",
+    "files": [
+      "exe5-haikou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "Abandoned Mine",
+    "start": "0",
+    "stop": "13260",
+    "disc": "disc4.png",
+    "duration": "0:13",
+    "gameimage": "exe5.png",
+    "id": "abandoned-mine-exe5"
+  },
+  {
+    "ostname": "Drill Crush!",
+    "name": "Rock Drill Comp",
+    "files": [
+      "exe5-sakugankidennou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "Rock Drill Comp 1-4",
+    "start": "1291",
+    "stop": "42625",
+    "disc": "disc4.png",
+    "duration": "0:43",
+    "gameimage": "exe5.png",
+    "id": "rock-drill-comp-exe5"
+  },
+  {
+    "ostname": "Network Space",
+    "name": "Internet Theme",
+    "files": [
+      "exe5-internet.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "Akihara Area 1-3, Oran Island Area 1-3, Ministry of Science Area 1-4, Endo Area 1-5, every generic Comp",
+    "start": "0",
+    "stop": "38609",
+    "disc": "disc4.png",
+    "duration": "0:39",
+    "gameimage": "exe5.png",
+    "id": "internet-theme-exe5"
+  },
+  {
+    "ostname": "Black Power",
+    "name": "Pre-Boss Theme",
+    "files": [
+      "exe5-preboss.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "cutscenes (before a boss battle, before a Liberate Mission)",
+    "start": "14450",
+    "stop": "28231",
+    "disc": "disc4.png",
+    "duration": "0:28",
+    "gameimage": "exe5.png",
+    "id": "pre-boss-theme-exe5"
+  },
+  {
+    "ostname": "Liberate Mission",
+    "name": "Liberate Mission",
+    "files": [
+      "exe5-liberation.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "overworld (Liberate Mission)",
+    "start": "0",
+    "stop": "29284",
+    "disc": "disc4.png",
+    "duration": "0:29",
+    "gameimage": "exe5.png",
+    "id": "liberate-mission-exe5"
+  },
+  {
+    "ostname": "Powerful Enemy",
+    "name": "Boss Battle",
+    "files": [
+      "exe5-boss.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "Boss Battles",
+    "start": "3771",
+    "stop": "41841",
+    "disc": "disc4.png",
+    "duration": "0:42",
+    "gameimage": "exe5.png",
+    "id": "boss-battle-exe5"
+  },
+  {
+    "ostname": "Liberate Complete!",
+    "name": "Liberate Complete",
+    "files": [
+      "exe5-liberated.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "finishing a Liberate Mission",
+    "start": "",
+    "stop": "",
+    "disc": "disc4.png",
+    "duration": "0:04",
+    "gameimage": "exe5.png",
+    "id": "liberate-complete-exe5"
+  },
+  {
+    "ostname": "Navi Customizer",
+    "name": "NaviCus",
+    "files": [
+      "exe5-navicus.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "Navi Customizer Screen",
+    "start": "0",
+    "stop": "45843",
+    "disc": "disc4.png",
+    "duration": "0:46",
+    "gameimage": "exe5.png",
+    "id": "navicus-exe5"
+  },
+  {
+    "ostname": "Luxury Liner",
+    "name": "Luxury Liner",
+    "files": [
+      "exe5-goukakyakusen.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "Queen Czecho Cruiser",
+    "start": "0",
+    "stop": "31108",
+    "disc": "disc4.png",
+    "duration": "0:31",
+    "gameimage": "exe5.png",
+    "id": "luxury-liner-exe5"
+  },
+  {
+    "ostname": "Quest in the Water",
+    "name": "Luxury Liner Comp",
+    "files": [
+      "exe5-goukakyakusendennou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "Luxury Liner Comp 1-4",
+    "start": "5341",
+    "stop": "51116",
+    "disc": "disc4.png",
+    "duration": "0:51",
+    "gameimage": "exe5.png",
+    "id": "luxury-liner-comp-exe5"
+  },
+  {
+    "ostname": "Endo City",
+    "name": "Endo City",
+    "files": [
+      "exe5-endocity.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "Endo City",
+    "start": "2009",
+    "stop": "34155",
+    "disc": "disc4.png",
+    "duration": "0:34",
+    "gameimage": "exe5.png",
+    "id": "endo-city-exe5"
+  },
+  {
+    "ostname": "Castle of NINJA!",
+    "name": "Shachihoko Comp",
+    "files": [
+      "exe5-shachihokodennou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "Shachihoko Comp 1-4",
+    "start": "0",
+    "stop": "51936",
+    "disc": "disc4.png",
+    "duration": "0:52",
+    "gameimage": "exe5.png",
+    "id": "shachihoko-comp-exe5"
+  },
+  {
+    "ostname": "Depth",
+    "name": "Ura Internet Theme",
+    "files": [
+      "exe5-urainternet.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "Ura Internet 1-4, Nebula Hole Area 1-6",
+    "start": "0",
+    "stop": "48218",
+    "disc": "disc4.png",
+    "duration": "0:48",
+    "gameimage": "exe5.png",
+    "id": "ura-internet-theme-exe5"
+  },
+  {
+    "ostname": "A Heart's Shadow",
+    "name": "Sad Theme",
+    "files": [
+      "exe5-sad.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "some cutscenes",
+    "start": "1288",
+    "stop": "22250",
+    "disc": "disc4.png",
+    "duration": "0:22",
+    "gameimage": "exe5.png",
+    "id": "sad-theme-exe5"
+  },
+  {
+    "ostname": "You're Not Alone!",
+    "name": "Hero Theme",
+    "files": [
+      "exe5-hero.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "some cutscenes",
+    "start": "989",
+    "stop": "26044",
+    "disc": "disc4.png",
+    "duration": "0:26",
+    "gameimage": "exe5.png",
+    "id": "hero-theme-exe5"
+  },
+  {
+    "ostname": "Dark Chip Factory",
+    "name": "Dark Chip Factory",
+    "files": [
+      "exe5-darkchipfactory.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "Mount Fuji, Dark Chip Factory",
+    "start": "0",
+    "stop": "49311",
+    "disc": "disc4.png",
+    "duration": "0:49",
+    "gameimage": "exe5.png",
+    "id": "dark-chip-factory-exe5"
+  },
+  {
+    "ostname": "A Total War",
+    "name": "Factory Comp",
+    "files": [
+      "exe5-factorydennou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "Factory Comp 1-4, Heart Server Comp",
+    "start": "1255",
+    "stop": "44786",
+    "disc": "disc4.png",
+    "duration": "0:45",
+    "gameimage": "exe5.png",
+    "id": "factory-comp-exe5"
+  },
+  {
+    "ostname": "Trial",
+    "name": "Minigame Theme",
+    "files": [
+      "exe5-minigame.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "During the Samurai/1000 Bats minigame at Endo City",
+    "start": "0",
+    "stop": "13395",
+    "disc": "disc4.png",
+    "duration": "0:13",
+    "gameimage": "exe5.png",
+    "id": "minigame-theme-exe5"
+  },
+  {
+    "ostname": "1-Turn Liberate!",
+    "name": "1-Turn Liberate",
+    "files": [
+      "exe5-1turndelete.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "when battle ends after deleting enemies in one turn during a Liberate Mission",
+    "start": "",
+    "stop": "0:02",
+    "disc": "disc4.png",
+    "duration": "",
+    "gameimage": "exe5.png",
+    "id": "1-turn-liberate-exe5"
+  },
+  {
+    "ostname": "Game Over",
+    "name": "Game Over",
+    "files": [
+      "exe5-gameover.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "Game Over Screen",
+    "start": "",
+    "stop": "",
+    "disc": "disc4.png",
+    "duration": "0:03",
+    "gameimage": "exe5.png",
+    "id": "game-over-exe5"
+  },
+  {
+    "ostname": "Loser",
+    "name": "Loser Theme",
+    "files": [
+      "exe5-lose.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "when losing a PvP battle",
+    "start": "2844",
+    "stop": "9363",
+    "disc": "disc4.png",
+    "duration": "0:09",
+    "gameimage": "exe5.png",
+    "id": "loser-theme-exe5"
+  },
+  {
+    "ostname": "VS. Nebula Gray",
+    "name": "Final Battle",
+    "files": [
+      "exe5-final.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "Nebula Gray Battle",
+    "start": "7038",
+    "stop": "46015",
+    "disc": "disc4.png",
+    "duration": "0:46",
+    "gameimage": "exe5.png",
+    "id": "final-battle-exe5"
+  },
+  {
+    "ostname": "Chain of Wish",
+    "name": "Credits Theme",
+    "files": [
+      "exe5-credits.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE5",
+    "composer": "Akari Kaida",
+    "places": "End Credits",
+    "start": "81838",
+    "stop": "115093",
+    "disc": "disc4.png",
+    "duration": "1:55",
+    "gameimage": "exe5.png",
+    "id": "credits-theme-exe5"
   },
   {
     "ostname": "Be Somewhere",
@@ -3372,7 +3967,7 @@ let allMusic = [
       "Akari Kaida (original)",
       "Mitsuhiko Takano (arrangement)"
     ],
-    "places": "when losing a PvP battle (with the Results screen)",
+    "places": "when losing a PvP battle",
     "start": "3447",
     "stop": "9940",
     "disc": "disc5.png",
