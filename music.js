@@ -343,7 +343,7 @@ let allMusic = [
   },
   {
     "ostname": "WINNER!",
-    "name": "Enemy Deleted",
+    "name": "Results Theme",
     "files": [
       "exe1-win.ogg"
     ],
@@ -358,7 +358,7 @@ let allMusic = [
     "disc": "disc1.png",
     "duration": "0:10",
     "gameimage": "exe1.png",
-    "id": "enemy-deleted-exe1"
+    "id": "results-theme-exe1"
   },
   {
     "ostname": "GAME OVER",
@@ -779,7 +779,7 @@ let allMusic = [
   },
   {
     "ostname": "WINNER!",
-    "name": "Enemy Deleted",
+    "name": "Results Theme",
     "files": [
       "exeoss-win.ogg"
     ],
@@ -795,7 +795,7 @@ let allMusic = [
     "disc": "disc1.png",
     "duration": "0:10",
     "gameimage": "exeoss.png",
-    "id": "enemy-deleted-exeoss"
+    "id": "results-theme-exeoss"
   },
   {
     "ostname": "GAME OVER",
@@ -1394,7 +1394,7 @@ let allMusic = [
     "game": "EXE4/BN4",
     "duration": "0:15",
     "composer": "Toshihiko Horiyama",
-    "places": "overworld (when an incident has occurred)",
+    "places": "overworld (when an incident has occurred; post-game)",
     "start": "2645",
     "stop": "15175",
     "disc": "disc3.png",
@@ -1945,7 +1945,7 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:09",
     "composer": "Toshihiko Horiyama",
-    "places": "Settings Screen, Player Select Screen",
+    "places": "Settings Screen, Navi Select Screen",
     "start": "0",
     "stop": "8607",
     "disc": "disc3.png",
@@ -2588,7 +2588,7 @@ let allMusic = [
       "exe5-title.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "Title Screen",
     "start": "18861",
@@ -2605,9 +2605,9 @@ let allMusic = [
       "exe5-nebula.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
-    "places": "Cutscenes feat. Dr. Regal or Nebula",
+    "places": "Cutscenes feat. Dr. Regal and/or Nebula",
     "start": "2894",
     "stop": "39979",
     "disc": "disc4.png",
@@ -2622,7 +2622,7 @@ let allMusic = [
       "exe5-hometown.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "Akihara Town",
     "start": "0",
@@ -2634,12 +2634,12 @@ let allMusic = [
   },
   {
     "ostname": "Indoors",
-    "name": "Akihara Town (indoors)",
+    "name": "Indoors Theme",
     "files": [
       "exe5-indoors.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "Akihara Town (indoors)",
     "start": "1256",
@@ -2647,7 +2647,7 @@ let allMusic = [
     "disc": "disc4.png",
     "duration": "0:17",
     "gameimage": "exe5.png",
-    "id": "akihara-town-indoors-exe5"
+    "id": "indoors-theme-exe5"
   },
   {
     "ostname": "Scientific Forefront",
@@ -2656,7 +2656,7 @@ let allMusic = [
       "exe5-kagakushou.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "Ministry of Science, Higureya Secret Base, Luxury Liner Pier",
     "start": "0",
@@ -2668,12 +2668,12 @@ let allMusic = [
   },
   {
     "ostname": "Incident Occurence!",
-    "name": "Incident",
+    "name": "Incident Occurence",
     "files": [
       "exe5-incident.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "overworld (when an incident has occurred)",
     "start": "578",
@@ -2681,7 +2681,7 @@ let allMusic = [
     "disc": "disc4.png",
     "duration": "0:13",
     "gameimage": "exe5.png",
-    "id": "incident-exe5"
+    "id": "incident-occurence-exe5"
   },
   {
     "ostname": "Transmission!",
@@ -2690,7 +2690,7 @@ let allMusic = [
       "exe5-plugin.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "during the Plug-in transition",
     "start": "",
@@ -2707,7 +2707,7 @@ let allMusic = [
       "exe5-mainsystemdennou.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "Main System Comp 1-2",
     "start": "0",
@@ -2724,7 +2724,7 @@ let allMusic = [
       "exe5-virus.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "Virus Battles",
     "start": "2650",
@@ -2741,7 +2741,7 @@ let allMusic = [
       "exe5-win.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "when winning a battle with the Results screen",
     "start": "2962",
@@ -2758,7 +2758,7 @@ let allMusic = [
       "exe5-win-short.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "when winning a battle without the Results screen",
     "start": "",
@@ -2775,7 +2775,7 @@ let allMusic = [
       "exe5-orantou.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "Oran Island, Abandoned Mine (outside)",
     "start": "2947",
@@ -2792,7 +2792,7 @@ let allMusic = [
       "exe5-haikou.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "Abandoned Mine",
     "start": "0",
@@ -2809,7 +2809,7 @@ let allMusic = [
       "exe5-sakugankidennou.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "Rock Drill Comp 1-4",
     "start": "1291",
@@ -2826,7 +2826,7 @@ let allMusic = [
       "exe5-internet.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "Akihara Area 1-3, Oran Island Area 1-3, Ministry of Science Area 1-4, Endo Area 1-5, every generic Comp",
     "start": "0",
@@ -2843,7 +2843,7 @@ let allMusic = [
       "exe5-preboss.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "cutscenes (before a boss battle, before a Liberate Mission)",
     "start": "14450",
@@ -2860,7 +2860,7 @@ let allMusic = [
       "exe5-liberation.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "overworld (Liberate Mission)",
     "start": "0",
@@ -2877,7 +2877,7 @@ let allMusic = [
       "exe5-boss.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "Boss Battles",
     "start": "3771",
@@ -2894,7 +2894,7 @@ let allMusic = [
       "exe5-liberated.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "finishing a Liberate Mission",
     "start": "",
@@ -2911,7 +2911,7 @@ let allMusic = [
       "exe5-navicus.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "Navi Customizer Screen",
     "start": "0",
@@ -2928,7 +2928,7 @@ let allMusic = [
       "exe5-goukakyakusen.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "Queen Czecho Cruiser",
     "start": "0",
@@ -2945,7 +2945,7 @@ let allMusic = [
       "exe5-goukakyakusendennou.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "Luxury Liner Comp 1-4",
     "start": "5341",
@@ -2962,7 +2962,7 @@ let allMusic = [
       "exe5-endocity.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "Endo City",
     "start": "2009",
@@ -2979,7 +2979,7 @@ let allMusic = [
       "exe5-shachihokodennou.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "Shachihoko Comp 1-4",
     "start": "0",
@@ -2996,7 +2996,7 @@ let allMusic = [
       "exe5-urainternet.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "Ura Internet 1-4, Nebula Hole Area 1-6",
     "start": "0",
@@ -3013,7 +3013,7 @@ let allMusic = [
       "exe5-sad.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "some cutscenes",
     "start": "1288",
@@ -3030,7 +3030,7 @@ let allMusic = [
       "exe5-hero.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "some cutscenes",
     "start": "989",
@@ -3047,7 +3047,7 @@ let allMusic = [
       "exe5-darkchipfactory.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "Mount Fuji, Dark Chip Factory",
     "start": "0",
@@ -3064,7 +3064,7 @@ let allMusic = [
       "exe5-factorydennou.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "Factory Comp 1-4, Heart Server Comp",
     "start": "1255",
@@ -3081,7 +3081,7 @@ let allMusic = [
       "exe5-minigame.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "During the Samurai/1000 Bats minigame at Endo City",
     "start": "0",
@@ -3098,7 +3098,7 @@ let allMusic = [
       "exe5-1turndelete.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "when battle ends after deleting enemies in one turn during a Liberate Mission",
     "start": "",
@@ -3115,7 +3115,7 @@ let allMusic = [
       "exe5-gameover.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "Game Over Screen",
     "start": "",
@@ -3132,7 +3132,7 @@ let allMusic = [
       "exe5-lose.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "when losing a PvP battle",
     "start": "2844",
@@ -3149,7 +3149,7 @@ let allMusic = [
       "exe5-final.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "Nebula Gray Battle",
     "start": "7038",
@@ -3166,7 +3166,7 @@ let allMusic = [
       "exe5-credits.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE5",
+    "game": "EXE5/BN5",
     "composer": "Akari Kaida",
     "places": "End Credits",
     "start": "81838",
@@ -3276,7 +3276,7 @@ let allMusic = [
   },
   {
     "ostname": "Indoors",
-    "name": "Akihara Town (indoors)",
+    "name": "Indoors Theme",
     "files": [
       "exe5ds-indoors.ogg"
     ],
@@ -3292,7 +3292,7 @@ let allMusic = [
     "disc": "disc5.png",
     "duration": "0:16",
     "gameimage": "exe5ds.png",
-    "id": "akihara-town-indoors-exe5ds"
+    "id": "indoors-theme-exe5ds"
   },
   {
     "ostname": "Scientific Forefront",
@@ -3316,7 +3316,7 @@ let allMusic = [
   },
   {
     "ostname": "Incident Occurence!",
-    "name": "Incident",
+    "name": "Incident Occurence",
     "files": [
       "exe5ds-incident.ogg"
     ],
@@ -3332,7 +3332,7 @@ let allMusic = [
     "disc": "disc5.png",
     "duration": "0:12",
     "gameimage": "exe5ds.png",
-    "id": "incident-exe5ds"
+    "id": "incident-occurence-exe5ds"
   },
   {
     "ostname": "Transmission!",
@@ -4014,5 +4014,634 @@ let allMusic = [
     "duration": "1:54",
     "gameimage": "exe5ds.png",
     "id": "credits-theme-exe5ds"
+  },
+  {
+    "ostname": "Theme of ROCKMAN EXE6",
+    "name": "Title Theme",
+    "files": [
+      "exe6-title.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "composer": "Yoshino Aoki",
+    "places": "Title Screen",
+    "start": "18173",
+    "stop": "36812",
+    "disc": "disc5.png",
+    "duration": "0:37",
+    "gameimage": "exe6.png",
+    "id": "title-theme-exe6"
+  },
+  {
+    "ostname": "Organization",
+    "name": "WWW Theme",
+    "files": [
+      "exe6-www.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "composer": "Yoshino Aoki",
+    "places": "Cutscenes feat. Dr. Wily and/or WWW",
+    "start": "2561",
+    "stop": "17396",
+    "disc": "disc5.png",
+    "duration": "0:17",
+    "gameimage": "exe6.png",
+    "id": "www-theme-exe6"
+  },
+  {
+    "ostname": "Central Town",
+    "name": "Central Town",
+    "files": [
+      "exe6-centraltown.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "composer": "Yoshino Aoki",
+    "places": "Central Town",
+    "start": "0",
+    "stop": "61476",
+    "disc": "disc5.png",
+    "duration": "1:01",
+    "gameimage": "exe6.png",
+    "id": "central-town-exe6"
+  },
+  {
+    "ostname": "Indoors",
+    "name": "Indoors Theme",
+    "files": [
+      "exe5-indoors.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "composer": "Yoshino Aoki",
+    "places": "Akihara Town (indoors)",
+    "start": "0",
+    "stop": "15554",
+    "disc": "disc5.png",
+    "duration": "0:16",
+    "gameimage": "exe6.png",
+    "id": "indoors-theme-exe6"
+  },
+  {
+    "ostname": "Saiba Academy",
+    "name": "School Theme",
+    "files": [
+      "exe5-gakkou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "composer": "Yoshino Aoki",
+    "places": "Saiba Academy",
+    "start": "0",
+    "stop": "30606",
+    "disc": "disc5.png",
+    "duration": "0:31",
+    "gameimage": "exe6.png",
+    "id": "school-theme-exe6"
+  },
+  {
+    "ostname": "Incident Occurence!",
+    "name": "Incident",
+    "files": [
+      "exe6-incident.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "composer": "Yoshino Aoki",
+    "places": "overworld (when an incident has occurred; post-game in the GBA version)",
+    "start": "0",
+    "stop": "12394",
+    "disc": "disc5.png",
+    "duration": "0:13",
+    "gameimage": "exe6.png",
+    "id": "incident-exe6"
+  },
+  {
+    "ostname": "Transmission!",
+    "name": "Plug-in Transition",
+    "files": [
+      "exe6-plugin.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "composer": "Yoshino Aoki",
+    "places": "during the Plug-in transition",
+    "start": "",
+    "stop": "",
+    "disc": "disc5.png",
+    "duration": "0:03",
+    "gameimage": "exe6.png",
+    "id": "plug-in-transition-exe6"
+  },
+  {
+    "ostname": "Blast Speed",
+    "name": "Robot Control PC Comp",
+    "files": [
+      "exe6-roboseigyopcdennou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "composer": "Yoshino Aoki",
+    "places": "Robot Control PC Comp 1-2",
+    "start": "0",
+    "stop": "43839",
+    "disc": "disc5.png",
+    "duration": "0:44",
+    "gameimage": "exe6.png",
+    "id": "robot-control-pc-comp-exe6"
+  },
+  {
+    "ostname": "Seaside Town",
+    "name": "Seaside Town",
+    "files": [
+      "exe6-seasidetown.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "composer": "Yoshino Aoki",
+    "places": "Seaside Town",
+    "start": "0",
+    "stop": "37102",
+    "disc": "disc5.png",
+    "duration": "0:37",
+    "gameimage": "exe6.png",
+    "id": "seaside-town-exe6"
+  },
+  {
+    "ostname": "Aquarium Question",
+    "name": "Aquarium Comp",
+    "files": [
+      "exe6-suizokukannodennou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "composer": "Yoshino Aoki",
+    "places": "Aquarium Comp 1-3 (normal)",
+    "start": "1891",
+    "stop": "27507",
+    "disc": "disc5.png",
+    "duration": "0:28",
+    "gameimage": "exe6.png",
+    "id": "aquarium-comp-exe6"
+  },
+  {
+    "ostname": "Shark Panic",
+    "name": "Aquarium Comp (chase)",
+    "files": [
+      "exe6-suizokukannodennou2.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "composer": "Yoshino Aoki",
+    "places": "Aquarium Comp 1-3 (when sharks are active)",
+    "start": "2257",
+    "stop": "8286",
+    "disc": "disc5.png",
+    "duration": "0:08",
+    "gameimage": "exe6.png",
+    "id": "aquarium-comp-chase-exe6"
+  },
+  {
+    "ostname": "Battle Field",
+    "name": "Virus Battle",
+    "files": [
+      "exe6-virus.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "composer": "Yoshino Aoki",
+    "places": "Virus Battles",
+    "start": "4219",
+    "stop": "42795",
+    "disc": "disc5.png",
+    "duration": "0:43",
+    "gameimage": "exe6.png",
+    "id": "virus-battle-exe6"
+  },
+  {
+    "ostname": "Enemy Deleted!",
+    "name": "Results Theme",
+    "files": [
+      "exe6-win.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "composer": "Yoshino Aoki",
+    "places": "when winning a battle with the Results screen",
+    "start": "2094",
+    "stop": "8801",
+    "disc": "disc5.png",
+    "duration": "0:09",
+    "gameimage": "exe6.png",
+    "id": "results-theme-exe6"
+  },
+  {
+    "ostname": "Enemy Deleted! (short)",
+    "name": "Results Theme (short)",
+    "files": [
+      "exe6-win-short.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "composer": "Yoshino Aoki",
+    "places": "when winning a battle without the Results screen",
+    "start": "",
+    "stop": "",
+    "disc": "disc5.png",
+    "duration": "0:02",
+    "gameimage": "exe6.png",
+    "id": "results-theme-short-exe6"
+  },
+  {
+    "ostname": "Green Town",
+    "name": "Green Town",
+    "files": [
+      "exe6-greentown.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "composer": "Yoshino Aoki",
+    "places": "Green Town",
+    "start": "0",
+    "stop": "38073",
+    "disc": "disc5.png",
+    "duration": "0:38",
+    "gameimage": "exe6.png",
+    "id": "green-town-exe6"
+  },
+  {
+    "ostname": "Doubt",
+    "name": "Suspicious Theme",
+    "files": [
+      "exe6-suspicious.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "composer": "Yoshino Aoki",
+    "places": "overworld (during some events)",
+    "start": "0",
+    "stop": "9391",
+    "disc": "disc5.png",
+    "duration": "0:09",
+    "gameimage": "exe6.png",
+    "id": "suspicious-theme-exe6"
+  },
+  {
+    "ostname": "Tree of Judgement",
+    "name": "Judgement Tree Comp",
+    "files": [
+      "exe6-shinpandennou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "composer": "Yoshino Aoki",
+    "places": "Judgement Tree Comp 1-3",
+    "start": "469",
+    "stop": "41274",
+    "disc": "disc5.png",
+    "duration": "0:41",
+    "gameimage": "exe6.png",
+    "id": "judgement-tree-comp-exe6"
+  },
+  {
+    "ostname": "Distortion!",
+    "name": "Pre-Boss Theme",
+    "files": [
+        "exe6-preboss.ogg"
+      ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "composer": "Yoshino Aoki",
+    "places": "cutscenes before fighting a story boss",
+    "start": "1079",
+    "stop": "14844",
+    "disc": "disc5.png",
+    "duration": "0:15",
+    "gameimage": "exe6.png",
+    "id": "pre-boss-theme-exe6"
+  },
+  {
+    "ostname": "Surge of Power!",
+    "name": "Boss Battle",
+    "files": [
+        "exe6-boss.ogg"
+      ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "composer": "Yoshino Aoki",
+    "places": "Boss Battles",
+    "start": "6833",
+    "stop": "58267",
+    "disc": "disc5.png",
+    "duration": "0:58",
+    "gameimage": "exe6.png",
+    "id": "boss-battle-exe6"
+  },
+  {
+    "ostname": "Digital Strider",
+    "name": "Internet Theme",
+    "files": [
+        "exe6-internet.ogg"
+      ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "composer": "Yoshino Aoki",
+    "places": "Central Area 1-3, Seaside Area 1-3, Green Area 1-2, Sky Area 1-2, Akihara Area, every generic Comp",
+    "start": "14651",
+    "stop": "55403",
+    "disc": "disc5.png",
+    "duration": "0:55",
+    "gameimage": "exe6.png",
+    "id": "internet-theme-exe6"
+  },
+  {
+    "ostname": "Sky Town",
+    "name": "Sky Town",
+    "files": [
+        "exe6-skytown.ogg"
+      ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "composer": "Yoshino Aoki",
+    "places": "Sky Town",
+    "start": "1725",
+    "stop": "43062",
+    "disc": "disc5.png",
+    "duration": "0:43",
+    "gameimage": "exe6.png",
+    "id": "sky-town-exe6"
+  },
+  {
+    "ostname": "Promise",
+    "name": "Sad Theme",
+    "files": [
+        "exe6-sad.ogg"
+      ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "composer": "Yoshino Aoki",
+    "places": "some cutscenes",
+    "start": "1072",
+    "stop": "22990",
+    "disc": "disc5.png",
+    "duration": "0:23",
+    "gameimage": "exe6.png",
+    "id": "sad-theme-exe6"
+  },
+  {
+    "ostname": "Break the Storm",
+    "name": "Weather-kun Comp",
+    "files": [
+        "exe6-weatherkundennou.ogg"
+      ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "composer": "Yoshino Aoki",
+    "places": "Weather-kun Comp 1-3",
+    "start": "0",
+    "stop": "47551",
+    "disc": "disc5.png",
+    "duration": "0:48",
+    "gameimage": "exe6.png",
+    "id": "weatherkun-comp-exe6"
+  },
+  {
+    "ostname": "Evil Spirit",
+    "name": "Cyber Beast Theme",
+    "files": [
+        "exe6-dennoujuu.ogg"
+      ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "duration": "0:21",
+    "composer": "Yoshino Aoki",
+    "places": "overworld (when Gregar/Falzar is on the loose; during the Evil Spirit minigame), some cutscenes feat. Gregar/Falzar",
+    "start": "0",
+    "stop": "21161",
+    "disc": "disc5.png",
+    "gameimage": "exe6.png",
+    "id": "cyber-beast-theme-exe6"
+  },
+  {
+    "ostname": "Hometown",
+    "name": "Akihara Town",
+    "files": [
+      "exe6-hometown.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "duration": "0:56",
+    "composer": "Yoshino Aoki",
+    "places": "Akihara Town",
+    "start": "2229",
+    "stop": "55586",
+    "disc": "disc5.png",
+    "gameimage": "exe6.png",
+    "id": "akihara-town-exe6"
+  },
+  {
+    "ostname": "Hero!",
+    "name": "Hero Theme",
+    "files": [
+      "exe6-hero.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "duration": "0:23",
+    "composer": "Yoshino Aoki",
+    "places": "some cutscenes, Expo Site's Central Hall (post-game in the AC version)",
+    "start": "1524",
+    "stop": "22888",
+    "disc": "disc5.png",
+    "gameimage": "exe6.png",
+    "id": "hero-theme-exe6"
+  },
+  {
+    "ostname": "Danger Zone!",
+    "name": "Ura Internet Theme",
+    "files": [
+      "exe6-urainternet.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "duration": "0:42",
+    "composer": "Yoshino Aoki",
+    "places": "Ura Internet Zero, Ura Internet 1-3, Underground 1-2",
+    "start": "0",
+    "stop": "42342",
+    "disc": "disc5.png",
+    "gameimage": "exe6.png",
+    "id": "ura-internet-theme-exe6"
+  },
+  {
+    "ostname": "Navi Customizer",
+    "name": "NaviCus",
+    "files": [
+      "exe6-navicus.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "duration": "0:58",
+    "composer": "Yoshino Aoki",
+    "places": "Navi Customizer Screen",
+    "start": "14684",
+    "stop": "58382",
+    "disc": "disc5.png",
+    "gameimage": "exe6.png",
+    "id": "navicus-exe6"
+  },
+  {
+    "ostname": "Parade!",
+    "name": "Expo Site",
+    "files": [
+      "exe6-banpakukaijou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "duration": "0:07",
+    "composer": "Yoshino Aoki",
+    "places": "Expo Site (normal; post-game in the AC ver)",
+    "start": "0",
+    "stop": "7306",
+    "disc": "disc5.png",
+    "gameimage": "exe6.png",
+    "id": "expo-site-exe6"
+  },
+  {
+    "ostname": "Graveyard",
+    "name": "Graveyard",
+    "files": [
+      "exe6-graveyard.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "duration": "0:35",
+    "composer": "Yoshino Aoki",
+    "places": "Graveyard 1-2, Immortal Area",
+    "start": "0",
+    "stop": "35058",
+    "disc": "disc5.png",
+    "gameimage": "exe6.png",
+    "id": "graveyard-exe6"
+  },
+  {
+    "ostname": "Game Over",
+    "name": "Game Over",
+    "files": [
+      "exe6-gameover.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "duration": "0:04",
+    "composer": "Yoshino Aoki",
+    "places": "Game Over Screen",
+    "start": "",
+    "stop": "",
+    "disc": "disc5.png",
+    "gameimage": "exe6.png",
+    "id": "game-over-exe6"
+  },
+  {
+    "ostname": "Loser",
+    "name": "Loser Theme",
+    "files": [
+      "exe6-lose.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "duration": "0:09",
+    "composer": "Yoshino Aoki",
+    "places": "when losing a PvP battle",
+    "start": "2226",
+    "stop": "8758",
+    "disc": "disc5.png",
+    "gameimage": "exe6.png",
+    "id": "loser-theme-exe6"
+  },
+  {
+    "ostname": "Secret Base",
+    "name": "WWW Base",
+    "files": [
+      "exe6-wwwnohonkyochi.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "duration": "0:47",
+    "composer": "Yoshino Aoki",
+    "places": "Expo Site (when it turns out to be WWW's base; post-game in the GBA ver.)",
+    "start": "0",
+    "stop": "46662",
+    "disc": "disc5.png",
+    "gameimage": "exe6.png",
+    "id": "www-base-exe6"
+  },
+  {
+    "ostname": "Two of Braves",
+    "name": "Pavilion Comp",
+    "files": [
+      "exe6-paviliondennou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "duration": "0:52",
+    "composer": "Yoshino Aoki",
+    "places": "Pavilion Comp 1-4, Copyroid Comp",
+    "start": "0",
+    "stop": "51672",
+    "disc": "disc5.png",
+    "gameimage": "exe6.png",
+    "id": "pavilion-comp-exe6"
+  },
+  {
+    "ostname": "Decisive Battle, Cyber Beasts!",
+    "name": "Final Battle",
+    "files": [
+      "exe6-final.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "duration": "0:55",
+    "composer": "Yoshino Aoki",
+    "places": "Gregar/Falzar Battle",
+    "start": "8406",
+    "stop": "54665",
+    "disc": "disc5.png",
+    "gameimage": "exe6.png",
+    "id": "final-battle-exe6"
+  },
+  {
+    "ostname": "Future",
+    "name": "Credits Theme",
+    "files": [
+      "exe6-credits.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "duration": "2:13",
+    "composer": "Yoshino Aoki",
+    "places": "End Credits",
+    "start": "109715",
+    "stop": "133422",
+    "disc": "disc5.png",
+    "gameimage": "exe6.png",
+    "id": "credits-theme-exe6"
+  },
+  {
+    "ostname": "The Count -crossover ver.-",
+    "name": "Crossover Battle",
+    "files": [
+      "exe6-crossover.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE6/BN6",
+    "duration": "0:34",
+    "composer": "Yoshino Aoki",
+    "places": "Crossover Battle 2 (Rockman EXE6 VS. Shin Bokura no Taiyou)",
+    "start": "4470",
+    "stop": "33804",
+    "disc": "disc5.png",
+    "gameimage": "exe6.png",
+    "id": "crossover-battle-exe6"
   }
 ];
