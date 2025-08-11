@@ -418,446 +418,6 @@ let allMusic = [
     "id": "credits-theme-exe1"
   },
   {
-    "ostname": "THEME OF ROCKMAN EXE",
-    "name": "Title Theme",
-    "files": [
-      "exeoss-title.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXEOSS",
-    "composer": [
-      "Akari Kaida (original)",
-      "Mitsuhiko Takano (arrangement)"
-    ],
-    "places": "Title Screen",
-    "start": "20382",
-    "stop": "33977",
-    "disc": "disc1.png",
-    "duration": "0:33",
-    "gameimage": "exeoss.png",
-    "id": "title-theme-exeoss"
-  },
-  {
-    "ostname": "Hometown",
-    "name": "Akihara Town",
-    "files": [
-      "exeoss-hometown.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXEOSS",
-    "composer": [
-      "Akari Kaida (original)",
-      "Mitsuhiko Takano (arrangement)"
-    ],
-    "places": "Akihara Town, School (outside), Government Complex (outside), Densan Town, Metroline",
-    "start": "0",
-    "stop": "54015",
-    "disc": "disc1.png",
-    "duration": "1:57",
-    "gameimage": "exeoss.png",
-    "id": "akihara-town-exeoss"
-  },
-  {
-    "ostname": "School",
-    "name": "School",
-    "files": [
-      "exeoss-gakkou.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXEOSS",
-    "composer": [
-      "Akari Kaida (original)",
-      "Mitsuhiko Takano (arrangement)"
-    ],
-    "places": "School",
-    "start": "0",
-    "stop": "38403",
-    "disc": "disc1.png",
-    "duration": "0:38",
-    "gameimage": "exeoss.png",
-    "id": "school-exeoss"
-  },
-  {
-    "ostname": "Indoors",
-    "name": "Indoors Theme",
-    "files": [
-      "exeoss-indoors.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXEOSS",
-    "composer": [
-      "Akari Kaida (original)",
-      "Mitsuhiko Takano (arrangement)"
-    ],
-    "places": "Akihara Town (indoors), Government Complex, Densan Town (indoors)",
-    "start": "0",
-    "stop": "7445",
-    "disc": "disc1.png",
-    "duration": "0:07",
-    "gameimage": "exeoss.png",
-    "id": "indoors-theme-exeoss"
-  },
-  {
-    "ostname": "Suspicious Mood?",
-    "name": "Suspicious Theme",
-    "files": [
-      "exeoss-suspicious.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXEOSS",
-    "composer": [
-      "Akari Kaida (original)",
-      "Mitsuhiko Takano (arrangement)"
-    ],
-    "places": "Overworld (during some events), WWW Research Facility",
-    "start": "0",
-    "stop": "16005",
-    "disc": "disc1.png",
-    "duration": "0:16",
-    "gameimage": "exeoss.png",
-    "id": "suspicious-theme-exeoss"
-  },
-  {
-    "ostname": "Incident Occurrence!",
-    "name": "Incident Occurrence",
-    "files": [
-      "exeoss-incident.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXEOSS",
-    "composer": [
-      "Akari Kaida (original)",
-      "Mitsuhiko Takano (arrangement)"
-    ],
-    "places": "Overworld (when an incident has occurred)",
-    "start": "798",
-    "stop": "13602",
-    "disc": "disc1.png",
-    "duration": "0:13",
-    "gameimage": "exeoss.png",
-    "id": "incident-occurrence-exeoss"
-  },
-  {
-    "ostname": "Transmission!",
-    "name": "Plug-in Transition",
-    "files": [
-      "exeoss-plugin.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXEOSS",
-    "composer": [
-      "Akari Kaida (original)",
-      "Mitsuhiko Takano (arrangement)"
-    ],
-    "places": "during the Plug-in transition",
-    "start": "",
-    "stop": "",
-    "disc": "disc1.png",
-    "duration": "0:03",
-    "gameimage": "exeoss.png",
-    "id": "plug-in-transition-exeoss"
-  },
-  {
-    "ostname": "FIRE FIELD",
-    "name": "Oven Comp",
-    "files": [
-      "exeoss-renjidennou.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXEOSS",
-    "composer": [
-      "Akari Kaida (original)",
-      "Mitsuhiko Takano (arrangement)"
-    ],
-    "places": "Oven Comp 1-2",
-    "start": "1324",
-    "stop": "56195",
-    "disc": "disc1.png",
-    "duration": "0:56",
-    "gameimage": "exeoss.png",
-    "id": "oven-comp-exeoss"
-  },
-  {
-    "ostname": "RUNNING THROUGH THE CYBER WORLD",
-    "name": "School Comp",
-    "files": [
-      "exeoss-gakkoudennou.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXEOSS",
-    "composer": [
-      "Akari Kaida (original)",
-      "Mitsuhiko Takano (arrangement)"
-    ],
-    "places": "School Comp 1-4, the cutscene where Rockman gets the power of saito.bat",
-    "start": "0",
-    "stop": "49329",
-    "disc": "disc1.png",
-    "duration": "0:49",
-    "gameimage": "exeoss.png",
-    "id": "school-comp-exeoss"
-  },
-  {
-    "ostname": "BOUNDLESS NETWORK",
-    "name": "Internet Theme",
-    "files": [
-      "exeoss-internet.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXEOSS",
-    "composer": [
-      "Akari Kaida (original)",
-      "Mitsuhiko Takano (arrangement)"
-    ],
-    "places": "Internet 1-4, Ura Internet 1-12",
-    "start": "0",
-    "stop": "41158",
-    "disc": "disc1.png",
-    "duration": "0:41",
-    "gameimage": "exeoss.png",
-    "id": "internet-theme-exeoss"
-  },
-  {
-    "ostname": "Hour of Fate",
-    "name": "Saito Theme",
-    "files": [
-      "exeoss-saito.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXEOSS",
-    "composer": [
-      "Akari Kaida (original)",
-      "Mitsuhiko Takano (arrangement)"
-    ],
-    "places": "the cutscene that reveals the story behind Rockman.EXE/Saito Hikari",
-    "start": "2531",
-    "stop": "51786",
-    "disc": "disc1.png",
-    "duration": "0:51",
-    "gameimage": "exeoss.png",
-    "id": "saito-theme-exeoss"
-  },
-  {
-    "ostname": "COLD & SILENT",
-    "name": "Waterworks Comp",
-    "files": [
-      "exeoss-suidoukyokudennou.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXEOSS",
-    "composer": [
-      "Akari Kaida (original)",
-      "Mitsuhiko Takano (arrangement)"
-    ],
-    "places": "Waterworks Comp 1-6",
-    "start": "0",
-    "stop": "50925",
-    "disc": "disc1.png",
-    "duration": "0:50",
-    "gameimage": "exeoss.png",
-    "id": "waterworks-comp-exeoss"
-  },
-  {
-    "ostname": "RED OR BLUE",
-    "name": "Traffic Light Comp",
-    "files": [
-      "exeoss-shingoukidennou.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXEOSS",
-    "composer": [
-      "Akari Kaida (original)",
-      "Mitsuhiko Takano (arrangement)"
-    ],
-    "places": "Traffic Light Comp 1-5",
-    "start": "6267",
-    "stop": "39667",
-    "disc": "disc1.png",
-    "duration": "0:39",
-    "gameimage": "exeoss.png",
-    "id": "traffic-light-comp-exeoss"
-  },
-  {
-    "ostname": "ELECTRICAL CRISIS",
-    "name": "Power Plant Comp",
-    "files": [
-      "exeoss-hatsudenshodennou.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXEOSS",
-    "composer": [
-      "Akari Kaida (original)",
-      "Mitsuhiko Takano (arrangement)"
-    ],
-    "places": "Power Plant Comp 1-4",
-    "start": "3558",
-    "stop": "47779",
-    "disc": "disc1.png",
-    "duration": "0:47",
-    "gameimage": "exeoss.png",
-    "id": "power-plant-comp-exeoss"
-  },
-  {
-    "ostname": "VOID",
-    "name": "WWW Comp",
-    "files": [
-      "exeoss-wwwdennou.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXEOSS",
-    "composer": [
-      "Akari Kaida (original)",
-      "Mitsuhiko Takano (arrangement)"
-    ],
-    "places": "WWW Comp 1-5, Rocket Comp",
-    "start": "0",
-    "stop": "51265",
-    "disc": "disc1.png",
-    "duration": "0:51",
-    "gameimage": "exeoss.png",
-    "id": "www-comp-exeoss"
-  },
-  {
-    "ostname": "Operation!",
-    "name": "Virus Battle",
-    "files": [
-      "exeoss-virus.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXEOSS",
-    "composer": [
-      "Akari Kaida (original)",
-      "Mitsuhiko Takano (arrangement)"
-    ],
-    "places": "Virus Battles. Used only while playing as Rockman.EXE",
-    "start": "208",
-    "stop": "46247",
-    "disc": "disc1.png",
-    "duration": "0:46",
-    "gameimage": "exeoss.png",
-    "id": "virus-battle-exeoss"
-  },
-  {
-    "ostname": "Net Battle",
-    "name": "Boss Battle",
-    "files": [
-      "exeoss-boss.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXEOSS",
-    "composer": [
-      "Akari Kaida (original)",
-      "Mitsuhiko Takano (arrangement)"
-    ],
-    "places": "Boss Battles, some Story-only Virus Battles. Used only while playing as Rockman.EXE.",
-    "start": "7207",
-    "stop": "45619",
-    "disc": "disc1.png",
-    "duration": "0:45",
-    "gameimage": "exeoss.png",
-    "id": "boss-battle-exeoss"
-  },
-  {
-    "ostname": "VS. Dream Virus",
-    "name": "Final Battle",
-    "files": [
-      "exeoss-final.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXEOSS",
-    "composer": [
-      "Akari Kaida (original)",
-      "Mitsuhiko Takano (arrangement)"
-    ],
-    "places": "Dream Virus Battle",
-    "start": "3704",
-    "stop": "47352",
-    "disc": "disc1.png",
-    "duration": "0:47",
-    "gameimage": "exeoss.png",
-    "id": "final-battle-exeoss"
-  },
-  {
-    "ostname": "WINNER!",
-    "name": "Results Theme",
-    "files": [
-      "exeoss-win.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXEOSS",
-    "composer": [
-      "Akari Kaida (original)",
-      "Mitsuhiko Takano (arrangement)"
-    ],
-    "places": "when winning a battle",
-    "start": "3506",
-    "stop": "10518",
-    "disc": "disc1.png",
-    "duration": "0:10",
-    "gameimage": "exeoss.png",
-    "id": "results-theme-exeoss"
-  },
-  {
-    "ostname": "GAME OVER",
-    "name": "Game Over",
-    "files": [
-      "exeoss-gameover.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXEOSS",
-    "composer": [
-      "Akari Kaida (original)",
-      "Mitsuhiko Takano (arrangement)"
-    ],
-    "places": "Game Over Screen",
-    "start": "",
-    "stop": "",
-    "disc": "disc1.png",
-    "duration": "0:03",
-    "gameimage": "exeoss.png",
-    "id": "game-over-exeoss"
-  },
-  {
-    "ostname": "LOSER",
-    "name": "Loser Theme",
-    "files": [
-      "exeoss-lose.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXEOSS",
-    "composer": [
-      "Akari Kaida (original)",
-      "Mitsuhiko Takano (arrangement)"
-    ],
-    "places": "when losing a PvP battle",
-    "start": "1876",
-    "stop": "8362",
-    "disc": "disc1.png",
-    "duration": "0:08",
-    "gameimage": "exeoss.png",
-    "id": "loser-theme-exeoss"
-  },
-  {
-    "ostname": "end roll",
-    "name": "Credits Theme",
-    "files": [
-      "exeoss-credits.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXEOSS",
-    "composer": [
-      "Akari Kaida (original)",
-      "Mitsuhiko Takano (arrangement)"
-    ],
-    "places": "End Credits",
-    "start": "45255",
-    "stop": "61958",
-    "disc": "disc1.png",
-    "duration": "1:01",
-    "gameimage": "exeoss.png",
-    "id": "credits-theme-exeoss"
-  },
-  {
     "name": "ACDC (Overworld)",
     "files": [
       "ACDC Town-BN2.ogg"
@@ -4797,4 +4357,444 @@ let allMusic = [
     "gameimage": "exelon.png",
     "id": "credits-theme-exelon"
   },
+  {
+    "ostname": "THEME OF ROCKMAN EXE",
+    "name": "Title Theme",
+    "files": [
+      "exeoss-title.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXEOSS",
+    "composer": [
+      "Akari Kaida (original)",
+      "Mitsuhiko Takano (arrangement)"
+    ],
+    "places": "Title Screen",
+    "start": "20382",
+    "stop": "33977",
+    "disc": "disc1.png",
+    "duration": "0:33",
+    "gameimage": "exeoss.png",
+    "id": "title-theme-exeoss"
+  },
+  {
+    "ostname": "Hometown",
+    "name": "Akihara Town",
+    "files": [
+      "exeoss-hometown.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXEOSS",
+    "composer": [
+      "Akari Kaida (original)",
+      "Mitsuhiko Takano (arrangement)"
+    ],
+    "places": "Akihara Town, School (outside), Government Complex (outside), Densan Town, Metroline",
+    "start": "0",
+    "stop": "54015",
+    "disc": "disc1.png",
+    "duration": "1:57",
+    "gameimage": "exeoss.png",
+    "id": "akihara-town-exeoss"
+  },
+  {
+    "ostname": "School",
+    "name": "School",
+    "files": [
+      "exeoss-gakkou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXEOSS",
+    "composer": [
+      "Akari Kaida (original)",
+      "Mitsuhiko Takano (arrangement)"
+    ],
+    "places": "School",
+    "start": "0",
+    "stop": "38403",
+    "disc": "disc1.png",
+    "duration": "0:38",
+    "gameimage": "exeoss.png",
+    "id": "school-exeoss"
+  },
+  {
+    "ostname": "Indoors",
+    "name": "Indoors Theme",
+    "files": [
+      "exeoss-indoors.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXEOSS",
+    "composer": [
+      "Akari Kaida (original)",
+      "Mitsuhiko Takano (arrangement)"
+    ],
+    "places": "Akihara Town (indoors), Government Complex, Densan Town (indoors)",
+    "start": "0",
+    "stop": "7445",
+    "disc": "disc1.png",
+    "duration": "0:07",
+    "gameimage": "exeoss.png",
+    "id": "indoors-theme-exeoss"
+  },
+  {
+    "ostname": "Suspicious Mood?",
+    "name": "Suspicious Theme",
+    "files": [
+      "exeoss-suspicious.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXEOSS",
+    "composer": [
+      "Akari Kaida (original)",
+      "Mitsuhiko Takano (arrangement)"
+    ],
+    "places": "Overworld (during some events), WWW Research Facility",
+    "start": "0",
+    "stop": "16005",
+    "disc": "disc1.png",
+    "duration": "0:16",
+    "gameimage": "exeoss.png",
+    "id": "suspicious-theme-exeoss"
+  },
+  {
+    "ostname": "Incident Occurrence!",
+    "name": "Incident Occurrence",
+    "files": [
+      "exeoss-incident.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXEOSS",
+    "composer": [
+      "Akari Kaida (original)",
+      "Mitsuhiko Takano (arrangement)"
+    ],
+    "places": "Overworld (when an incident has occurred)",
+    "start": "798",
+    "stop": "13602",
+    "disc": "disc1.png",
+    "duration": "0:13",
+    "gameimage": "exeoss.png",
+    "id": "incident-occurrence-exeoss"
+  },
+  {
+    "ostname": "Transmission!",
+    "name": "Plug-in Transition",
+    "files": [
+      "exeoss-plugin.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXEOSS",
+    "composer": [
+      "Akari Kaida (original)",
+      "Mitsuhiko Takano (arrangement)"
+    ],
+    "places": "during the Plug-in transition",
+    "start": "",
+    "stop": "",
+    "disc": "disc1.png",
+    "duration": "0:03",
+    "gameimage": "exeoss.png",
+    "id": "plug-in-transition-exeoss"
+  },
+  {
+    "ostname": "FIRE FIELD",
+    "name": "Oven Comp",
+    "files": [
+      "exeoss-renjidennou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXEOSS",
+    "composer": [
+      "Akari Kaida (original)",
+      "Mitsuhiko Takano (arrangement)"
+    ],
+    "places": "Oven Comp 1-2",
+    "start": "1324",
+    "stop": "56195",
+    "disc": "disc1.png",
+    "duration": "0:56",
+    "gameimage": "exeoss.png",
+    "id": "oven-comp-exeoss"
+  },
+  {
+    "ostname": "RUNNING THROUGH THE CYBER WORLD",
+    "name": "School Comp",
+    "files": [
+      "exeoss-gakkoudennou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXEOSS",
+    "composer": [
+      "Akari Kaida (original)",
+      "Mitsuhiko Takano (arrangement)"
+    ],
+    "places": "School Comp 1-4, the cutscene where Rockman gets the power of saito.bat",
+    "start": "0",
+    "stop": "49329",
+    "disc": "disc1.png",
+    "duration": "0:49",
+    "gameimage": "exeoss.png",
+    "id": "school-comp-exeoss"
+  },
+  {
+    "ostname": "BOUNDLESS NETWORK",
+    "name": "Internet Theme",
+    "files": [
+      "exeoss-internet.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXEOSS",
+    "composer": [
+      "Akari Kaida (original)",
+      "Mitsuhiko Takano (arrangement)"
+    ],
+    "places": "Internet 1-4, Ura Internet 1-12",
+    "start": "0",
+    "stop": "41158",
+    "disc": "disc1.png",
+    "duration": "0:41",
+    "gameimage": "exeoss.png",
+    "id": "internet-theme-exeoss"
+  },
+  {
+    "ostname": "Hour of Fate",
+    "name": "Saito Theme",
+    "files": [
+      "exeoss-saito.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXEOSS",
+    "composer": [
+      "Akari Kaida (original)",
+      "Mitsuhiko Takano (arrangement)"
+    ],
+    "places": "the cutscene that reveals the story behind Rockman.EXE/Saito Hikari",
+    "start": "2531",
+    "stop": "51786",
+    "disc": "disc1.png",
+    "duration": "0:51",
+    "gameimage": "exeoss.png",
+    "id": "saito-theme-exeoss"
+  },
+  {
+    "ostname": "COLD & SILENT",
+    "name": "Waterworks Comp",
+    "files": [
+      "exeoss-suidoukyokudennou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXEOSS",
+    "composer": [
+      "Akari Kaida (original)",
+      "Mitsuhiko Takano (arrangement)"
+    ],
+    "places": "Waterworks Comp 1-6",
+    "start": "0",
+    "stop": "50925",
+    "disc": "disc1.png",
+    "duration": "0:50",
+    "gameimage": "exeoss.png",
+    "id": "waterworks-comp-exeoss"
+  },
+  {
+    "ostname": "RED OR BLUE",
+    "name": "Traffic Light Comp",
+    "files": [
+      "exeoss-shingoukidennou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXEOSS",
+    "composer": [
+      "Akari Kaida (original)",
+      "Mitsuhiko Takano (arrangement)"
+    ],
+    "places": "Traffic Light Comp 1-5",
+    "start": "6267",
+    "stop": "39667",
+    "disc": "disc1.png",
+    "duration": "0:39",
+    "gameimage": "exeoss.png",
+    "id": "traffic-light-comp-exeoss"
+  },
+  {
+    "ostname": "ELECTRICAL CRISIS",
+    "name": "Power Plant Comp",
+    "files": [
+      "exeoss-hatsudenshodennou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXEOSS",
+    "composer": [
+      "Akari Kaida (original)",
+      "Mitsuhiko Takano (arrangement)"
+    ],
+    "places": "Power Plant Comp 1-4",
+    "start": "3558",
+    "stop": "47779",
+    "disc": "disc1.png",
+    "duration": "0:47",
+    "gameimage": "exeoss.png",
+    "id": "power-plant-comp-exeoss"
+  },
+  {
+    "ostname": "VOID",
+    "name": "WWW Comp",
+    "files": [
+      "exeoss-wwwdennou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXEOSS",
+    "composer": [
+      "Akari Kaida (original)",
+      "Mitsuhiko Takano (arrangement)"
+    ],
+    "places": "WWW Comp 1-5, Rocket Comp",
+    "start": "0",
+    "stop": "51265",
+    "disc": "disc1.png",
+    "duration": "0:51",
+    "gameimage": "exeoss.png",
+    "id": "www-comp-exeoss"
+  },
+  {
+    "ostname": "Operation!",
+    "name": "Virus Battle",
+    "files": [
+      "exeoss-virus.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXEOSS",
+    "composer": [
+      "Akari Kaida (original)",
+      "Mitsuhiko Takano (arrangement)"
+    ],
+    "places": "Virus Battles. Used only while playing as Rockman.EXE",
+    "start": "208",
+    "stop": "46247",
+    "disc": "disc1.png",
+    "duration": "0:46",
+    "gameimage": "exeoss.png",
+    "id": "virus-battle-exeoss"
+  },
+  {
+    "ostname": "Net Battle",
+    "name": "Boss Battle",
+    "files": [
+      "exeoss-boss.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXEOSS",
+    "composer": [
+      "Akari Kaida (original)",
+      "Mitsuhiko Takano (arrangement)"
+    ],
+    "places": "Boss Battles, some Story-only Virus Battles. Used only while playing as Rockman.EXE.",
+    "start": "7207",
+    "stop": "45619",
+    "disc": "disc1.png",
+    "duration": "0:45",
+    "gameimage": "exeoss.png",
+    "id": "boss-battle-exeoss"
+  },
+  {
+    "ostname": "VS. Dream Virus",
+    "name": "Final Battle",
+    "files": [
+      "exeoss-final.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXEOSS",
+    "composer": [
+      "Akari Kaida (original)",
+      "Mitsuhiko Takano (arrangement)"
+    ],
+    "places": "Dream Virus Battle",
+    "start": "3704",
+    "stop": "47352",
+    "disc": "disc1.png",
+    "duration": "0:47",
+    "gameimage": "exeoss.png",
+    "id": "final-battle-exeoss"
+  },
+  {
+    "ostname": "WINNER!",
+    "name": "Results Theme",
+    "files": [
+      "exeoss-win.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXEOSS",
+    "composer": [
+      "Akari Kaida (original)",
+      "Mitsuhiko Takano (arrangement)"
+    ],
+    "places": "when winning a battle",
+    "start": "3506",
+    "stop": "10518",
+    "disc": "disc1.png",
+    "duration": "0:10",
+    "gameimage": "exeoss.png",
+    "id": "results-theme-exeoss"
+  },
+  {
+    "ostname": "GAME OVER",
+    "name": "Game Over",
+    "files": [
+      "exeoss-gameover.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXEOSS",
+    "composer": [
+      "Akari Kaida (original)",
+      "Mitsuhiko Takano (arrangement)"
+    ],
+    "places": "Game Over Screen",
+    "start": "",
+    "stop": "",
+    "disc": "disc1.png",
+    "duration": "0:03",
+    "gameimage": "exeoss.png",
+    "id": "game-over-exeoss"
+  },
+  {
+    "ostname": "LOSER",
+    "name": "Loser Theme",
+    "files": [
+      "exeoss-lose.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXEOSS",
+    "composer": [
+      "Akari Kaida (original)",
+      "Mitsuhiko Takano (arrangement)"
+    ],
+    "places": "when losing a PvP battle",
+    "start": "1876",
+    "stop": "8362",
+    "disc": "disc1.png",
+    "duration": "0:08",
+    "gameimage": "exeoss.png",
+    "id": "loser-theme-exeoss"
+  },
+  {
+    "ostname": "end roll",
+    "name": "Credits Theme",
+    "files": [
+      "exeoss-credits.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXEOSS",
+    "composer": [
+      "Akari Kaida (original)",
+      "Mitsuhiko Takano (arrangement)"
+    ],
+    "places": "End Credits",
+    "start": "45255",
+    "stop": "61958",
+    "disc": "disc1.png",
+    "duration": "1:01",
+    "gameimage": "exeoss.png",
+    "id": "credits-theme-exeoss"
+  }
 ];
