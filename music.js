@@ -86,7 +86,7 @@ let allMusic = [
     "composer": [
       "Akari Kaida"
     ],
-    "places": "overworld (during some events), WWW Research Facility",
+    "places": "Overworld (during some events), WWW Research Facility",
     "start": "0",
     "stop": "16091",
     "disc": "disc1.png",
@@ -95,8 +95,8 @@ let allMusic = [
     "id": "suspicious-theme-exe1"
   },
   {
-    "ostname": "Incident Occurence!",
-    "name": "Incident Occurence",
+    "ostname": "Incident Occurrence!",
+    "name": "Incident Occurrence",
     "files": [
       "exe1-incident.ogg"
     ],
@@ -105,13 +105,13 @@ let allMusic = [
     "composer": [
       "Akari Kaida"
     ],
-    "places": "overworld (when an incident has occurred)",
+    "places": "Overworld (when an incident has occurred)",
     "start": "0",
     "stop": "12868",
     "disc": "disc1.png",
     "duration": "0:12",
     "gameimage": "exe1.png",
-    "id": "incident-occurence-exe1"
+    "id": "incident-occurrence-exe1"
   },
   {
     "ostname": "Transmission!",
@@ -509,7 +509,7 @@ let allMusic = [
       "Akari Kaida (original)",
       "Mitsuhiko Takano (arrangement)"
     ],
-    "places": "overworld (during some events), WWW Research Facility",
+    "places": "Overworld (during some events), WWW Research Facility",
     "start": "0",
     "stop": "16005",
     "disc": "disc1.png",
@@ -518,8 +518,8 @@ let allMusic = [
     "id": "suspicious-theme-exeoss"
   },
   {
-    "ostname": "Incident Occurence!",
-    "name": "Incident Occurence",
+    "ostname": "Incident Occurrence!",
+    "name": "Incident Occurrence",
     "files": [
       "exeoss-incident.ogg"
     ],
@@ -529,13 +529,13 @@ let allMusic = [
       "Akari Kaida (original)",
       "Mitsuhiko Takano (arrangement)"
     ],
-    "places": "overworld (when an incident has occurred)",
+    "places": "Overworld (when an incident has occurred)",
     "start": "798",
     "stop": "13602",
     "disc": "disc1.png",
     "duration": "0:13",
     "gameimage": "exeoss.png",
-    "id": "incident-occurence-exeoss"
+    "id": "incident-occurrence-exeoss"
   },
   {
     "ostname": "Transmission!",
@@ -872,7 +872,7 @@ let allMusic = [
     "ostname": "Home Town",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
-    "id": "acdc-overworld-exe2"
+    "id": "acdc-Overworld-exe2"
   },
   {
     "name": "Okuden (Overworld)",
@@ -889,7 +889,7 @@ let allMusic = [
     "ostname": "Okuden Valley",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
-    "id": "okuden-overworld-exe2"
+    "id": "okuden-Overworld-exe2"
   },
   {
     "name": "Marine Harbor (Overworld)",
@@ -906,7 +906,7 @@ let allMusic = [
     "ostname": "Marine Harbor",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
-    "id": "marine-harbor-overworld-exe2"
+    "id": "marine-harbor-Overworld-exe2"
   },
   {
     "name": "Official Center (Overworld)",
@@ -923,7 +923,7 @@ let allMusic = [
     "ostname": "Official Center",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
-    "id": "official-center-overworld-exe2"
+    "id": "official-center-Overworld-exe2"
   },
   {
     "name": "Airport (Overworld)",
@@ -940,7 +940,7 @@ let allMusic = [
     "ostname": "Depature",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
-    "id": "airport-overworld-exe2"
+    "id": "airport-Overworld-exe2"
   },
   {
     "name": "Netopia City (Overworld)",
@@ -957,7 +957,7 @@ let allMusic = [
     "ostname": "Foreign Townscape",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
-    "id": "netopia-city-overworld-exe2"
+    "id": "netopia-city-Overworld-exe2"
   },
   {
     "name": "Netopia Castle (Overworld)",
@@ -974,7 +974,7 @@ let allMusic = [
     "ostname": "Ameroppa Castle",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
-    "id": "netopia-castle-overworld-exe2"
+    "id": "netopia-castle-Overworld-exe2"
   },
   {
     "name": "Netopia Alley (Overworld)",
@@ -991,7 +991,7 @@ let allMusic = [
     "ostname": "Alley",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
-    "id": "netopia-alley-overworld-exe2"
+    "id": "netopia-alley-Overworld-exe2"
   },
   {
     "name": "Netopia Dungeon (Overworld)",
@@ -1008,7 +1008,7 @@ let allMusic = [
     "ostname": "Underground Prison",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
-    "id": "netopia-dungeon-overworld-exe2"
+    "id": "netopia-dungeon-Overworld-exe2"
   },
   {
     "name": "Airplane (Overworld)",
@@ -1025,7 +1025,7 @@ let allMusic = [
     "ostname": "Air Travel",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
-    "id": "airplane-overworld-exe2"
+    "id": "airplane-Overworld-exe2"
   },
   {
     "name": "kotobuki (Overworld)",
@@ -1042,7 +1042,7 @@ let allMusic = [
     "ostname": "With Determination",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
-    "id": "kotobuki-overworld-exe2"
+    "id": "kotobuki-Overworld-exe2"
   },
   {
     "name": "Gas Comp",
@@ -1297,7 +1297,7 @@ let allMusic = [
     "ostname": "Hometown",
     "disc": "disc2.png",
     "gameimage": "exe3.png",
-    "id": "acdc-overworld-exe3"
+    "id": "acdc-Overworld-exe3"
   },
   {
     "ostname": "Theme of ROCKMAN EXE4",
@@ -1385,8 +1385,8 @@ let allMusic = [
     "id": "denki-town-exe4"
   },
   {
-    "ostname": "Incident Occurence!",
-    "name": "Incident Occurence",
+    "ostname": "Incident Occurrence!",
+    "name": "Incident Occurrence",
     "files": [
       "exe4-incident.ogg"
     ],
@@ -1394,12 +1394,12 @@ let allMusic = [
     "game": "EXE4/BN4",
     "duration": "0:15",
     "composer": "Toshihiko Horiyama",
-    "places": "overworld (when an incident has occurred; post-game)",
+    "places": "Overworld (when an incident has occurred; post-game)",
     "start": "2645",
     "stop": "15175",
     "disc": "disc3.png",
     "gameimage": "exe4.png",
-    "id": "incident-occurence-exe4"
+    "id": "incident-occurrence-exe4"
   },
   {
     "ostname": "Transmission!",
@@ -2667,21 +2667,21 @@ let allMusic = [
     "id": "ministry-of-science-exe5"
   },
   {
-    "ostname": "Incident Occurence!",
-    "name": "Incident Occurence",
+    "ostname": "Incident Occurrence!",
+    "name": "Incident Occurrence",
     "files": [
       "exe5-incident.ogg"
     ],
     "author": "K1rbYat1Na",
     "game": "EXE5/BN5",
     "composer": "Akari Kaida",
-    "places": "overworld (when an incident has occurred)",
+    "places": "Overworld (when an incident has occurred)",
     "start": "578",
     "stop": "13106",
     "disc": "disc4.png",
     "duration": "0:13",
     "gameimage": "exe5.png",
-    "id": "incident-occurence-exe5"
+    "id": "incident-occurrence-exe5"
   },
   {
     "ostname": "Transmission!",
@@ -2862,7 +2862,7 @@ let allMusic = [
     "author": "K1rbYat1Na",
     "game": "EXE5/BN5",
     "composer": "Akari Kaida",
-    "places": "overworld (Liberate Mission)",
+    "places": "Overworld (Liberate Mission)",
     "start": "0",
     "stop": "29284",
     "disc": "disc4.png",
@@ -3315,8 +3315,8 @@ let allMusic = [
     "id": "ministry-of-science-exe5ds"
   },
   {
-    "ostname": "Incident Occurence!",
-    "name": "Incident Occurence",
+    "ostname": "Incident Occurrence!",
+    "name": "Incident Occurrence",
     "files": [
       "exe5ds-incident.ogg"
     ],
@@ -3326,13 +3326,13 @@ let allMusic = [
       "Akari Kaida (original)",
       "Mitsuhiko Takano (arrangement)"
     ],
-    "places": "overworld (when an incident has occurred)",
+    "places": "Overworld (when an incident has occurred)",
     "start": "0",
     "stop": "12394",
     "disc": "disc5.png",
     "duration": "0:12",
     "gameimage": "exe5ds.png",
-    "id": "incident-occurence-exe5ds"
+    "id": "incident-occurrence-exe5ds"
   },
   {
     "ostname": "Transmission!",
@@ -3647,7 +3647,7 @@ let allMusic = [
       "Akari Kaida (original)",
       "Mitsuhiko Takano (arrangement)"
     ],
-    "places": "overworld (Liberate Mission)",
+    "places": "Overworld (Liberate Mission)",
     "start": "1912",
     "stop": "30852",
     "disc": "disc5.png",
@@ -4101,7 +4101,7 @@ let allMusic = [
     "id": "school-theme-exe6"
   },
   {
-    "ostname": "Incident Occurence!",
+    "ostname": "Incident Occurrence!",
     "name": "Incident",
     "files": [
       "exe6-incident.ogg"
@@ -4109,7 +4109,7 @@ let allMusic = [
     "author": "K1rbYat1Na",
     "game": "EXE6/BN6",
     "composer": "Yoshino Aoki",
-    "places": "overworld (when an incident has occurred; post-game in the GBA version)",
+    "places": "Overworld (when an incident has occurred; post-game in the GBA version)",
     "start": "0",
     "stop": "12394",
     "disc": "disc5.png",
@@ -4279,7 +4279,7 @@ let allMusic = [
     "author": "K1rbYat1Na",
     "game": "EXE6/BN6",
     "composer": "Yoshino Aoki",
-    "places": "overworld (during some events)",
+    "places": "Overworld (during some events)",
     "start": "0",
     "stop": "9391",
     "disc": "disc5.png",
@@ -4416,7 +4416,7 @@ let allMusic = [
     "game": "EXE6/BN6",
     "duration": "0:21",
     "composer": "Yoshino Aoki",
-    "places": "overworld (when Gregar/Falzar is on the loose; during the Evil Spirit minigame), some cutscenes feat. Gregar/Falzar",
+    "places": "Overworld (when Gregar/Falzar is on the loose; during the Evil Spirit minigame), some cutscenes feat. Gregar/Falzar",
     "start": "0",
     "stop": "21161",
     "disc": "disc5.png",
@@ -4643,5 +4643,158 @@ let allMusic = [
     "disc": "disc5.png",
     "gameimage": "exe6.png",
     "id": "crossover-battle-exe6"
-  }
+  },
+  {
+    "ostname": "Theme of ROCKMAN EXELON",
+    "name": "Title Theme",
+    "files": [
+      "exelon-title.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXELoN",
+    "duration": "0:27",
+    "composer": "Masami Onodera",
+    "places": "Title Screen",
+    "start": "425",
+    "stop": "26725",
+    "disc": "disc-lon.png",
+    "gameimage": "exelon.png",
+    "id": "title-theme-exelon"
+  },
+  {
+    "ostname": "Hometown",
+    "name": "Real World",
+    "files": [
+      "exelon-hometown.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXELoN",
+    "duration": "0:51",
+    "composer": "Masami Onodera",
+    "places": "Overworld",
+    "start": "0",
+    "stop": "50620",
+    "disc": "disc-lon.png",
+    "gameimage": "exelon.png",
+    "id": "akihara-town-exelon"
+  },
+  {
+    "ostname": "Incident Occurrence!",
+    "name": "Incident Occurrence",
+    "files": [
+      "exelon-incident.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXELoN",
+    "duration": "0:12",
+    "composer": "Masami Onodera",
+    "places": "Overworld (when an incident has occurred)",
+    "start": "3015",
+    "stop": "12303",
+    "disc": "disc-lon.png",
+    "gameimage": "exelon.png",
+    "id": "incident-occurrence-exelon"
+  },
+  {
+    "ostname": "Cyberworld",
+    "name": "Internet Theme",
+    "files": [
+      "exelon-internet.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXELoN",
+    "duration": "0:42",
+    "composer": "Masami Onodera",
+    "places": "Cyberworld",
+    "start": "0",
+    "stop": "41665",
+    "disc": "disc-lon.png",
+    "gameimage": "exelon.png",
+    "id": "internet-theme-exelon"
+  },
+  {
+    "ostname": "Virus Busting",
+    "name": "Virus Battle",
+    "files": [
+      "exelon-virus.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXELoN",
+    "duration": "0:39",
+    "composer": "Masami Onodera",
+    "places": "Virus Battles",
+    "start": "0",
+    "stop": "39180",
+    "disc": "disc-lon.png",
+    "gameimage": "exelon.png",
+    "id": "virus-battle-exelon"
+  },
+  {
+    "ostname": "Net Battle",
+    "name": "Boss Battle",
+    "files": [
+      "exelon-boss.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXELoN",
+    "duration": "0:41",
+    "composer": "Masami Onodera",
+    "places": "Boss Battles",
+    "start": "6272",
+    "stop": "40776",
+    "disc": "disc-lon.png",
+    "gameimage": "exelon.png",
+    "id": "boss-battle-exelon"
+  },
+  {
+    "ostname": "Legend of the Network",
+    "name": "Trojan Comp",
+    "files": [
+      "exelon-troydennou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXELoN",
+    "duration": "0:42",
+    "composer": "Masami Onodera",
+    "places": "Trojan Comp 1-5",
+    "start": "856",
+    "stop": "41996",
+    "disc": "disc-lon.png",
+    "gameimage": "exelon.png",
+    "id": "trojan-comp-exelon"
+  },
+  {
+    "ostname": "VS. Trojan Horse",
+    "name": "Final Battle",
+    "files": [
+      "exelon-final.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXELoN",
+    "duration": "0:39",
+    "composer": "Masami Onodera",
+    "places": "Trojan Horse Battle",
+    "start": "4653",
+    "stop": "38717",
+    "disc": "disc-lon.png",
+    "gameimage": "exelon.png",
+    "id": "final-battle-exelon"
+  },
+  {
+    "ostname": "In the Future",
+    "name": "Credits Theme",
+    "files": [
+      "exelon-credits.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXELoN",
+    "composer": "Masami Onodera",
+    "places": "End Credits",
+    "start": "520",
+    "stop": "33912",
+    "disc": "disc-lon.png",
+    "duration": "0:34",
+    "gameimage": "exelon.png",
+    "id": "credits-theme-exelon"
+  },
 ];
