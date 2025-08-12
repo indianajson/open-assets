@@ -44,7 +44,11 @@ let allMusic = [
       "exe1-gakkou.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE1/BN1",
+    "game": [
+        "EXE1/BN1", 
+        "EXE2/BN2", 
+        "EXE3/BN3"
+    ],
     "composer": [
       "Akari Kaida"
     ],
@@ -63,7 +67,11 @@ let allMusic = [
       "exe1-indoors.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE1/BN1",
+    "game": [
+        "EXE1/BN1", 
+        "EXE2/BN2", 
+        "EXE3/BN3"
+    ],
     "composer": [
       "Akari Kaida"
     ],
@@ -348,7 +356,11 @@ let allMusic = [
       "exe1-win.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE1/BN1",
+    "game": [
+        "EXE1/BN1", 
+        "EXE2/BN2", 
+        "EXE3/BN3"
+    ],
     "composer": [
       "Akari Kaida"
     ],
@@ -367,7 +379,11 @@ let allMusic = [
       "exe1-gameover.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE1/BN1",
+    "game": [
+        "EXE1/BN1", 
+        "EXE2/BN2", 
+        "EXE3/BN3"
+    ],
     "composer": [
       "Akari Kaida"
     ],
@@ -386,7 +402,11 @@ let allMusic = [
       "exe1-lose.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE1/BN1",
+    "game": [
+        "EXE1/BN1", 
+        "EXE2/BN2", 
+        "EXE3/BN3"
+    ],
     "composer": [
       "Akari Kaida"
     ],
@@ -843,21 +863,516 @@ let allMusic = [
     "id": "end-credits-exe2"
   },
   {
-    "name": "ACDC (Overworld)",
+    "ostname": "THEME OF ROCKMAN EXE3",
+    "name": "Title Theme",
     "files": [
-      "BN3-ACDC Town.ogg"
+      "exe3-title.ogg"
     ],
-    "author": "D3str0y3d",
+    "author": "K1rbYat1Na",
     "game": "EXE3/BN3",
-    "duration": "1:58",
-    "composer": "Aoki Yoshino",
-    "places": "",
-    "start": "",
-    "stop": "",
-    "ostname": "Hometown",
+    "duration": "0:34",
+    "composer": [
+      "Yoshino Aoki"
+    ],
+    "places": "Title Screen",
+    "start": "20008",
+    "stop": "33787",
     "disc": "disc2.png",
     "gameimage": "exe3.png",
-    "id": "acdc-Overworld-exe3"
+    "id": "title-theme-exe3"
+  },
+  {
+    "ostname": "Theme of WWW",
+    "name": "WWW Theme",
+    "files": [
+      "exe3-www.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "0:08",
+    "composer": "Yoshino Aoki",
+    "places": "Cutscenes feat. Dr. Wily and/or WWW",
+    "start": "0",
+    "stop": "7903",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "www-theme-exe3"
+  },
+  {
+    "ostname": "Hometown",
+    "name": "Akihara Town",
+    "files": [
+      "exe3-hometown.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "0:53",
+    "composer": "Yoshino Aoki",
+    "places": "Akihara Town (day)",
+    "start": "0",
+    "stop": "53117",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "akihara-town-exe3"
+  },
+  {
+    "ostname": "Tree of Life",
+    "name": "Gulf Coast Hospital",
+    "files": [
+      "exe3-wanganbyouin.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "0:34",
+    "composer": "Yoshino Aoki",
+    "places": "Gulf Coast Hospital",
+    "start": "0",
+    "stop": "34441",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "gulf-coast-hospital-exe3"
+  },
+  {
+    "ostname": "Yoka-Yoka Village",
+    "name": "Yoka-Yoka Village",
+    "files": [
+      "exe3-yokayokamura.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "0:41",
+    "composer": "Yoshino Aoki",
+    "places": "Yoka-Yoka Village, Ura Inn",
+    "start": "0",
+    "stop": "41321",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "yoka-yoka-village-exe3"
+  },
+  {
+    "ostname": "Sea Breeze Town",
+    "name": "Beach Street",
+    "files": [
+      "exe3-beachstreet.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "0:38",
+    "composer": "Yoshino Aoki",
+    "places": "Beach Street, Gulf Coast Hospital (outside)",
+    "start": "1104",
+    "stop": "37569",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "beach-street-exe3"
+  },
+  {
+    "ostname": "Scientific Forefront",
+    "name": "Ministry of Science",
+    "files": [
+      "exe3-kagakushou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "0:30",
+    "composer": "Yoshino Aoki",
+    "places": "Ministry of Science",
+    "start": "0",
+    "stop": "29718",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "ministry-of-science-exe3"
+  },
+  {
+    "ostname": "TV Station",
+    "name": "DNN TV Station",
+    "files": [
+      "exe3-dnn.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "0:16",
+    "composer": "Yoshino Aoki",
+    "places": "Densan News Network TV Station",
+    "start": "0",
+    "stop": "16345",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "tv-station-exe3"
+  },
+  {
+    "ostname": "N1 Grand Prix!",
+    "name": "N1 Grand Prix",
+    "files": [
+      "exe3-n1gp.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "0:44",
+    "composer": "Yoshino Aoki",
+    "places": "N1 Grand Prix",
+    "start": "3131",
+    "stop": "43835",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "n1-grand-prix-exe3"
+  },
+  {
+    "ostname": "Hell Island",
+    "name": "Hell Island",
+    "files": [
+      "exe3-jigokujima.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "0:17",
+    "composer": "Yoshino Aoki",
+    "places": "Hell Island",
+    "start": "505",
+    "stop": "16812",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "hell-island-exe3"
+  },
+  {
+    "ostname": "Wily Research Lab",
+    "name": "Wily Castle",
+    "files": [
+      "exe3-wilyjou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "0:38",
+    "composer": "Yoshino Aoki",
+    "places": "Wily Castle in Demon's Waters",
+    "start": "922",
+    "stop": "38023",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "wily-castle-exe3"
+  },
+  {
+    "ostname": "Suspicious Mood?",
+    "name": "Suspicious Theme",
+    "files": [
+      "exe3-suspicious.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "0:16",
+    "composer": "Yoshino Aoki",
+    "places": "Overworld (during some events)",
+    "start": "919",
+    "stop": "15753",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "suspicious-theme-exe3"
+  },
+  {
+    "ostname": "Incident Occurrence!",
+    "name": "Incident Occurrence",
+    "files": [
+      "exe3-incident.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "0:11",
+    "composer": "Yoshino Aoki",
+    "places": "Overworld (when an incident has occurred)",
+    "start": "0",
+    "stop": "10715",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "incident-occurrence-exe3"
+  },
+  {
+    "ostname": "Wiping Tears",
+    "name": "Sad Theme",
+    "files": [
+      "exe3-sad.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "0:21",
+    "composer": "Yoshino Aoki",
+    "places": "some cutscenes",
+    "start": "1089",
+    "stop": "20829",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "sad-theme-exe3"
+  },
+  {
+    "ostname": "Proof of Courage",
+    "name": "Hero Theme",
+    "files": [
+      "exe3-hero.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "0:25",
+    "composer": "Yoshino Aoki",
+    "places": "some cutscenes",
+    "start": "1474",
+    "stop": "24913",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "hero-theme-exe3"
+  },
+  {
+    "ostname": "Transmission!",
+    "name": "Plug-in Transition",
+    "files": [
+      "exe3-plugin.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "0:02",
+    "composer": "Yoshino Aoki",
+    "places": "during the Plug-in transition",
+    "start": "",
+    "stop": "",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "plug-in-transition-exe3"
+  },
+  {
+    "ostname": "BLIND MODE",
+    "name": "Principal's Laptop Comp",
+    "files": [
+      "exe3-kouchounotepcdennou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "0:41",
+    "composer": "Yoshino Aoki",
+    "places": "Principal's Laptop Comp 1-2",
+    "start": "2014",
+    "stop": "40585",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "principal-laptop-comp-exe3"
+  },
+  {
+    "ostname": "MAZE OF WILDERNESS",
+    "name": "Zoo Comp",
+    "files": [
+      "exe3-doubutsuendennou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "0:41",
+    "composer": "Yoshino Aoki",
+    "places": "Zoo Comp 1-4",
+    "start": "1428",
+    "stop": "40522",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "zoo-comp-exe3"
+  },
+  {
+    "ostname": "SAVE A LIFE",
+    "name": "Hospital Comp",
+    "files": [
+      "exe3-byouindennou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "0:33",
+    "composer": "Yoshino Aoki",
+    "places": "Hospital Comp 1-5",
+    "start": "0",
+    "stop": "33384",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "hospital-comp-exe3"
+  },
+  {
+    "ostname": "FINAL TRANSMISSION",
+    "name": "WWW Comp",
+    "files": [
+      "exe3-wwwdennou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "0:32",
+    "composer": "Yoshino Aoki",
+    "places": "WWW Comp 1-4, Proto (cyberworld)",
+    "start": "603",
+    "stop": "31543",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "www-comp-exe3"
+  },
+  {
+    "ostname": "NETWORK IS SPREADING",
+    "name": "Internet Theme",
+    "files": [
+      "exe3-internet.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "0:37",
+    "composer": "Yoshino Aoki",
+    "places": "Akihara Area 1-3 & Square, Ministry of Science Area 1-2 & Square, Yoka-Yoka Area 1-2 & Square, Beach Area 1-2 & Square, every generic Comp",
+    "start": "0",
+    "stop": "36521",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "internet-theme-exe3"
+  },
+  {
+    "ostname": "DANGEROUS BLACK",
+    "name": "Ura Internet Theme",
+    "files": [
+      "exe3-urainternet.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "0:38",
+    "composer": "Yoshino Aoki",
+    "places": "Ura Internet 1-7 & Square, Hell Island Area",
+    "start": "0",
+    "stop": "37872",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "ura-internet-theme-exe3"
+  },
+  {
+    "ostname": "SHINE IN THE DARK",
+    "name": "Secret Area",
+    "files": [
+      "exe3-secretarea.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "0:51",
+    "composer": "Yoshino Aoki",
+    "places": "Secret Area 1-3",
+    "start": "1322",
+    "stop": "50965",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "secret-area-exe3"
+  },
+  {
+    "ostname": "Shooting Enemy",
+    "name": "Virus Battle",
+    "files": [
+      "exe3-virus.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "0:32",
+    "composer": "Yoshino Aoki",
+    "places": "Virus Battles",
+    "start": "0",
+    "stop": "32146",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "virus-battle-exe3"
+  },
+  {
+    "ostname": "Boss Battle!",
+    "name": "Boss Battle",
+    "files": [
+      "exe3-boss.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "0:39",
+    "composer": "Yoshino Aoki",
+    "places": "Boss Battles",
+    "start": "7535",
+    "stop": "39259",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "boss-battle-exe3"
+  },
+  {
+    "ostname": "VS. Proto",
+    "name": "Final Battle",
+    "files": [
+      "exe3-final.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "1:02",
+    "composer": "Yoshino Aoki",
+    "places": "Proto Battle",
+    "start": "10816",
+    "stop": "61813",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "final-battle-exe3"
+  },
+  {
+    "ostname": "Great Battlers",
+    "name": "Tournament Battle",
+    "files": [
+      "exe3-tournament.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "0:31",
+    "composer": "Yoshino Aoki",
+    "places": "Tournament Battles",
+    "start": "0",
+    "stop": "30890",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "tournament-battle-exe3"
+  },
+  {
+    "ostname": "Showdown!",
+    "name": "Pre-Boss Theme",
+    "files": [
+        "exe3-preboss.ogg"
+      ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "0:11",
+    "composer": "Yoshino Aoki",
+    "places": "cutscenes before fighting a boss",
+    "start": "0",
+    "stop": "11486",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "pre-boss-theme-exe3"
+  },
+  {
+    "ostname": "Navi Customizer",
+    "name": "NaviCus",
+    "files": [
+        "exe3-navicus.ogg"
+      ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "0:49",
+    "composer": "Yoshino Aoki",
+    "places": "Navi Customizer Screen",
+    "start": "6262",
+    "stop": "48538",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "navicus-exe3"
+  },
+  {
+    "ostname": "farewell",
+    "name": "Credits Theme",
+    "files": [
+        "exe3-credits.ogg"
+      ],
+    "author": "K1rbYat1Na",
+    "game": "EXE3/BN3",
+    "duration": "1:33",
+    "composer": "Yoshino Aoki",
+    "places": "End Credits",
+    "start": "0",
+    "stop": "93140",
+    "disc": "disc2.png",
+    "gameimage": "exe3.png",
+    "id": "credits-theme-exe3"
   },
   {
     "ostname": "Theme of ROCKMAN EXE4",
@@ -897,7 +1412,7 @@ let allMusic = [
     "ostname": "Hometown",
     "name": "Akihara Town",
     "files": [
-      "exe4-akiharatown.ogg"
+      "exe4-hometown.ogg"
     ],
     "author": "K1rbYat1Na",
     "game": "EXE4/BN4",
@@ -969,7 +1484,7 @@ let allMusic = [
     ],
     "author": "K1rbYat1Na",
     "game": [
-        "EXE4/BN4",
+        "EXE4/BN4", 
         "EXE4.5"
     ],
     "duration": "0:03",
@@ -1040,7 +1555,7 @@ let allMusic = [
     ],
     "author": "K1rbYat1Na",
     "game": [
-        "EXE4/BN4",
+        "EXE4/BN4", 
         "EXE4.5"
     ],
     "duration": "0:10",
@@ -1060,7 +1575,7 @@ let allMusic = [
     ],
     "author": "K1rbYat1Na",
     "game": [
-        "EXE4/BN4",
+        "EXE4/BN4", 
         "EXE4.5"
     ],
     "duration": "0:02",
@@ -1114,7 +1629,7 @@ let allMusic = [
     ],
     "author": "K1rbYat1Na",
     "game": [
-        "EXE4/BN4",
+        "EXE4/BN4", 
         "EXE4.5"
     ],
     "duration": "0:14",
@@ -1151,7 +1666,7 @@ let allMusic = [
     ],
     "author": "K1rbYat1Na",
     "game": [
-        "EXE4/BN4",
+        "EXE4/BN4", 
         "EXE4.5"
     ],
     "duration": "1:00",
@@ -1256,7 +1771,7 @@ let allMusic = [
       ],
     "author": "K1rbYat1Na",
     "game": [
-        "EXE4/BN4",
+        "EXE4/BN4", 
         "EXE4.5"
     ],
     "duration": "0:17",
@@ -1395,7 +1910,7 @@ let allMusic = [
     ],
     "author": "K1rbYat1Na",
     "game": [
-        "EXE4/BN4",
+        "EXE4/BN4", 
         "EXE4.5"
     ],
     "duration": "0:03",
@@ -1415,7 +1930,7 @@ let allMusic = [
     ],
     "author": "K1rbYat1Na",
     "game": [
-        "EXE4/BN4",
+        "EXE4/BN4", 
         "EXE4.5"
     ],
     "duration": "0:08",
@@ -3647,7 +4162,7 @@ let allMusic = [
     "ostname": "Saiba Academy",
     "name": "School Theme",
     "files": [
-      "exe5-gakkou.ogg"
+      "exe6-gakkou.ogg"
     ],
     "author": "K1rbYat1Na",
     "game": "EXE6/BN6",
@@ -3732,7 +4247,7 @@ let allMusic = [
     "ostname": "Aquarium Question",
     "name": "Aquarium Comp",
     "files": [
-      "exe6-suizokukannodennou.ogg"
+      "exe6-suizokukandennou.ogg"
     ],
     "author": "K1rbYat1Na",
     "game": "EXE6/BN6",
@@ -3749,7 +4264,7 @@ let allMusic = [
     "ostname": "Shark Panic",
     "name": "Aquarium Comp (chase)",
     "files": [
-      "exe6-suizokukannodennou2.ogg"
+      "exe6-suizokukandennou2.ogg"
     ],
     "author": "K1rbYat1Na",
     "game": "EXE6/BN6",
