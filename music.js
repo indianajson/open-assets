@@ -1375,6 +1375,194 @@ let allMusic = [
     "id": "credits-theme-exe3"
   },
   {
+    "ostname": "THEME OF ROCKMAN EXEPON",
+    "name": "Title Theme",
+    "files": [
+      "exepon-title.ogg"
+    ],
+    "author": [
+        "(川━)ゞ", 
+        "MidniteW", 
+        "K1rbYat1Na"
+    ],
+    "game": "EXEPoN",
+    "duration": "0:27",
+    "composer": "Yuko Takehara",
+    "places": "Title Screen, some cutscenes (as Hero Theme)",
+    "start": "0",
+    "stop": "27428",
+    "disc": "disc-pon.png",
+    "gameimage": "exepon.png",
+    "id": "title-theme-exepon"
+  },
+  {
+    "ostname": "Hometown",
+    "name": "Real World",
+    "files": [
+      "exepon-hometown.ogg"
+    ],
+    "author": [
+        "(川━)ゞ", 
+        "MidniteW", 
+        "K1rbYat1Na"
+    ],
+    "game": "EXEPoN",
+    "duration": "0:54",
+    "composer": "Yuko Takehara",
+    "places": "Overworld",
+    "start": "0",
+    "stop": "53996",
+    "disc": "disc-pon.png",
+    "gameimage": "exepon.png",
+    "id": "akihara-town-exepon"
+  },
+  {
+    "ostname": "Incident Occurrence!",
+    "name": "Incident Occurrence",
+    "files": [
+      "exepon-incident.ogg"
+    ],
+    "author": [
+        "MidniteW", 
+        "K1rbYat1Na"
+    ],
+    "game": "EXEPoN",
+    "duration": "0:05",
+    "composer": "Yuko Takehara",
+    "places": "Overworld (when an incident has occurred)",
+    "start": "311",
+    "stop": "5188",
+    "disc": "disc-pon.png",
+    "gameimage": "exepon.png",
+    "id": "incident-occurrence-exepon"
+  },
+  {
+    "ostname": "CYBER WORLD",
+    "name": "Internet Theme",
+    "files": [
+      "exepon-internet.ogg"
+    ],
+    "author": [
+        "(川━)ゞ", 
+        "MidniteW", 
+        "K1rbYat1Na"
+    ],
+    "game": "EXEPoN",
+    "duration": "0:39",
+    "composer": "Yuko Takehara",
+    "places": "Cyberworld",
+    "start": "0",
+    "stop": "39448",
+    "disc": "disc-pon.png",
+    "gameimage": "exepon.png",
+    "id": "internet-theme-exepon"
+  },
+  {
+    "ostname": "Virus Busting",
+    "name": "Virus Battle",
+    "files": [
+      "exepon-virus.ogg"
+    ],
+    "author": [
+        "(川━)ゞ", 
+        "MidniteW", 
+        "K1rbYat1Na"
+    ],
+    "game": "EXEPoN",
+    "duration": "0:48",
+    "composer": "Yuko Takehara",
+    "places": "Virus Battles",
+    "start": "2060",
+    "stop": "48400",
+    "disc": "disc-pon.png",
+    "gameimage": "exepon.png",
+    "id": "virus-battle-exepon"
+  },
+  {
+    "ostname": "Net Battle",
+    "name": "Boss Battle",
+    "files": [
+      "exepon-boss.ogg"
+    ],
+    "author": [
+        "(川━)ゞ", 
+        "MidniteW", 
+        "K1rbYat1Na"
+    ],
+    "game": "EXEPoN",
+    "duration": "0:39",
+    "composer": "Yuko Takehara",
+    "places": "Boss Battles",
+    "start": "900",
+    "stop": "39300",
+    "disc": "disc-pon.png",
+    "gameimage": "exepon.png",
+    "id": "boss-battle-exepon"
+  },
+  {
+    "ostname": "PHANTOM OF THE NETWORK",
+    "name": "Cache Server Comp",
+    "files": [
+      "exepon-cacheserverdennou.ogg"
+    ],
+    "author": [
+        "(川━)ゞ", 
+        "MidniteW", 
+        "K1rbYat1Na"
+    ],
+    "game": "EXEPoN",
+    "duration": "0:40",
+    "composer": "Yuko Takehara",
+    "places": "Cache Server Comp 1-5",
+    "start": "1026",
+    "stop": "40473",
+    "disc": "disc-pon.png",
+    "gameimage": "exepon.png",
+    "id": "cache-server-comp-exepon"
+  },
+  {
+    "ostname": "VS. Cache 2nd",
+    "name": "Final Battle",
+    "files": [
+      "exepon-final.ogg"
+    ],
+    "author": [
+        "(川━)ゞ", 
+        "MidniteW", 
+        "K1rbYat1Na"
+    ],
+    "game": "EXEPoN",
+    "duration": "0:39",
+    "composer": "Yuko Takehara",
+    "places": "Cache 2nd Battle",
+    "start": "2325",
+    "stop": "39479",
+    "disc": "disc-pon.png",
+    "gameimage": "exepon.png",
+    "id": "final-battle-exepon"
+  },
+  {
+    "ostname": "main theme arrangement",
+    "name": "Credits Theme",
+    "files": [
+      "exepon-credits.ogg"
+    ],
+    "author": [
+        "(川━)ゞ", 
+        "MidniteW", 
+        "K1rbYat1Na"
+    ],
+    "game": "EXEPoN",
+    "composer": "Yuko Takehara",
+    "places": "End Credits, some cutscenes (as Sad Theme)",
+    "start": "0",
+    "stop": "42918",
+    "disc": "disc-pon.png",
+    "duration": "0:43",
+    "gameimage": "exepon.png",
+    "id": "credits-theme-exepon"
+  },
+  {
     "ostname": "Theme of ROCKMAN EXE4",
     "name": "Title Theme",
     "files": [
@@ -4725,11 +4913,15 @@ let allMusic = [
     "files": [
       "exelon-title.ogg"
     ],
-    "author": "K1rbYat1Na",
+    "author": [
+        "(川━)ゞ", 
+        "MidniteW", 
+        "K1rbYat1Na"
+    ],
     "game": "EXELoN",
     "duration": "0:27",
     "composer": "Masami Onodera",
-    "places": "Title Screen",
+    "places": "Title Screen, some cutscenes (as Hero Theme)",
     "start": "425",
     "stop": "26725",
     "disc": "disc-lon.png",
@@ -4742,7 +4934,11 @@ let allMusic = [
     "files": [
       "exelon-hometown.ogg"
     ],
-    "author": "K1rbYat1Na",
+    "author": [
+        "(川━)ゞ", 
+        "MidniteW", 
+        "K1rbYat1Na"
+    ],
     "game": "EXELoN",
     "duration": "0:51",
     "composer": "Masami Onodera",
@@ -4759,7 +4955,11 @@ let allMusic = [
     "files": [
       "exelon-incident.ogg"
     ],
-    "author": "K1rbYat1Na",
+    "author": [
+        "(川━)ゞ", 
+        "MidniteW", 
+        "K1rbYat1Na"
+    ],
     "game": "EXELoN",
     "duration": "0:12",
     "composer": "Masami Onodera",
@@ -4776,7 +4976,11 @@ let allMusic = [
     "files": [
       "exelon-internet.ogg"
     ],
-    "author": "K1rbYat1Na",
+    "author": [
+        "(川━)ゞ", 
+        "MidniteW", 
+        "K1rbYat1Na"
+    ],
     "game": "EXELoN",
     "duration": "0:42",
     "composer": "Masami Onodera",
@@ -4793,7 +4997,11 @@ let allMusic = [
     "files": [
       "exelon-virus.ogg"
     ],
-    "author": "K1rbYat1Na",
+    "author": [
+        "(川━)ゞ", 
+        "MidniteW", 
+        "K1rbYat1Na"
+    ],
     "game": "EXELoN",
     "duration": "0:39",
     "composer": "Masami Onodera",
@@ -4810,7 +5018,11 @@ let allMusic = [
     "files": [
       "exelon-boss.ogg"
     ],
-    "author": "K1rbYat1Na",
+    "author": [
+        "(川━)ゞ", 
+        "MidniteW", 
+        "K1rbYat1Na"
+    ],
     "game": "EXELoN",
     "duration": "0:41",
     "composer": "Masami Onodera",
@@ -4827,7 +5039,11 @@ let allMusic = [
     "files": [
       "exelon-troydennou.ogg"
     ],
-    "author": "K1rbYat1Na",
+    "author": [
+        "(川━)ゞ", 
+        "MidniteW", 
+        "K1rbYat1Na"
+    ],
     "game": "EXELoN",
     "duration": "0:42",
     "composer": "Masami Onodera",
@@ -4844,7 +5060,11 @@ let allMusic = [
     "files": [
       "exelon-final.ogg"
     ],
-    "author": "K1rbYat1Na",
+    "author": [
+        "(川━)ゞ", 
+        "MidniteW", 
+        "K1rbYat1Na"
+    ],
     "game": "EXELoN",
     "duration": "0:39",
     "composer": "Masami Onodera",
@@ -4861,7 +5081,11 @@ let allMusic = [
     "files": [
       "exelon-credits.ogg"
     ],
-    "author": "K1rbYat1Na",
+    "author": [
+        "(川━)ゞ", 
+        "MidniteW", 
+        "K1rbYat1Na"
+    ],
     "game": "EXELoN",
     "composer": "Masami Onodera",
     "places": "End Credits",
@@ -4873,7 +5097,7 @@ let allMusic = [
     "id": "credits-theme-exelon"
   },
   {
-    "ostname": "THEME OF ROCKMAN EXE",
+    "ostname": "THEME OF ROCKMAN EXEOSS",
     "name": "Title Theme",
     "files": [
       "exeoss-title.ogg"
