@@ -2362,8 +2362,8 @@ let allMusic = [
     "duration": "0:19",
     "composer": "Akari Kaida",
     "places": "PET Main Screen if the Player's Navi is Rockman",
-    "start": "0",
-    "stop": "8607",
+    "start": "2729",
+    "stop": "19355",
     "disc": "disc3.png",
     "gameimage": "exe45.png",
     "id": "rockman-theme-exe45"
