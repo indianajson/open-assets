@@ -132,7 +132,7 @@ let allMusic = [
     "composer": [
       "Akari Kaida"
     ],
-    "places": "during the Plug-in transition",
+    "places": "During the Plug-in transition",
     "start": "",
     "stop": "",
     "disc": "disc1.png",
@@ -208,7 +208,7 @@ let allMusic = [
     "composer": [
       "Akari Kaida"
     ],
-    "places": "the cutscene that reveals the story behind Rockman.EXE/Saito Hikari",
+    "places": "The cutscene that reveals the story behind Rockman.EXE/Saito Hikari",
     "start": "518",
     "stop": "50395",
     "disc": "disc1.png",
@@ -322,7 +322,7 @@ let allMusic = [
     "composer": [
       "Akari Kaida"
     ],
-    "places": "Boss Battles, some Story-only Virus Battles",
+    "places": "Boss Battles, some Story-Only Virus Battles",
     "start": "12858",
     "stop": "51433",
     "disc": "disc1.png",
@@ -364,7 +364,7 @@ let allMusic = [
     "composer": [
       "Akari Kaida"
     ],
-    "places": "when winning a battle",
+    "places": "When winning a battle",
     "start": "3548",
     "stop": "10647",
     "disc": "disc1.png",
@@ -410,7 +410,7 @@ let allMusic = [
     "composer": [
       "Akari Kaida"
     ],
-    "places": "when losing a PvP battle",
+    "places": "When losing a PvP battle",
     "start": "3451",
     "stop": "9964",
     "disc": "disc1.png",
@@ -438,429 +438,565 @@ let allMusic = [
     "id": "credits-theme-exe1"
   },
   {
-    "name": "ACDC (Overworld)",
+    "ostname": "THEME OF ROCKMAN EXE2",
+    "name": "Title Theme",
     "files": [
-      "ACDC Town-BN2.ogg"
+      "exe2-title.ogg"
     ],
-    "author": "D3str0y3d",
+    "author": "K1rbYat1Na",
     "game": "EXE2/BN2",
-    "duration": "1:55",
-    "composer": "Aoki Yoshino",
-    "places": "",
-    "start": "",
-    "stop": "",
-    "ostname": "Home Town",
+    "duration": "0:38",
+    "composer": "Yoshino Aoki",
+    "places": "Title Screen",
+    "start": "23724",
+    "stop": "37507",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
-    "id": "acdc-Overworld-exe2"
+    "id": "title-theme-exe2"
   },
   {
-    "name": "Okuden (Overworld)",
+    "ostname": "Secret Maneuvers",
+    "name": "Gospel Theme",
     "files": [
-      "BN2-Okuden.ogg"
+      "exe2-gospel.ogg"
     ],
-    "author": "D3str0y3d",
+    "author": "K1rbYat1Na",
     "game": "EXE2/BN2",
-    "duration": "1:28",
-    "composer": "Aoki Yoshino",
-    "places": "",
-    "start": "",
-    "stop": "",
+    "duration": "0:10",
+    "composer": "Yoshino Aoki",
+    "places": "Cutscenes feat. The Ringleader of Gospel (Shun Obihiro)",
+    "start": "0",
+    "stop": "9646",
+    "disc": "disc1.png",
+    "gameimage": "exe2.png",
+    "id": "gospel-theme-exe2"
+  },
+  {
+    "ostname": "Hometown",
+    "name": "Akihara Town",
+    "files": [
+      "exe2-hometown.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE2/BN2",
+    "duration": "0:52",
+    "composer": "Yoshino Aoki",
+    "places": "Akihara Town",
+    "start": "0",
+    "stop": "51668",
+    "disc": "disc1.png",
+    "gameimage": "exe2.png",
+    "id": "akihara-town-exe2"
+  },
+  {
     "ostname": "Okuden Valley",
+    "name": "Okuden Valley",
+    "files": [
+      "exe2-okudendani.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE2/BN2",
+    "duration": "0:38",
+    "composer": "Yoshino Aoki",
+    "places": "Okuden Valley",
+    "start": "0",
+    "stop": "38258",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
-    "id": "okuden-Overworld-exe2"
+    "id": "okuden-valley-exe2"
   },
   {
-    "name": "Marine Harbor (Overworld)",
-    "files": [
-      "BN2-Marine Harbor.ogg"
-    ],
-    "author": "D3str0y3d",
-    "game": "EXE2/BN2",
-    "duration": "1:20",
-    "composer": "Aoki Yoshino",
-    "places": "",
-    "start": "",
-    "stop": "",
     "ostname": "Marine Harbor",
+    "name": "Marine Harbor",
+    "files": [
+      "exe2-marineharbor.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE2/BN2",
+    "duration": "0:34",
+    "composer": "Yoshino Aoki",
+    "places": "Marine Harbor",
+    "start": "0",
+    "stop": "33837",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
-    "id": "marine-harbor-Overworld-exe2"
+    "id": "marine-harbor-exe2"
   },
   {
-    "name": "Official Center (Overworld)",
-    "files": [
-      "BN2-Official Center.ogg"
-    ],
-    "author": "D3str0y3d",
-    "game": "EXE2/BN2",
-    "duration": "1:09",
-    "composer": "Aoki Yoshino",
-    "places": "",
-    "start": "",
-    "stop": "",
     "ostname": "Official Center",
+    "name": "Official Center",
+    "files": [
+      "exe2-officialcenter.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE2/BN2",
+    "duration": "0:29",
+    "composer": "Yoshino Aoki",
+    "places": "Official Center",
+    "start": "0",
+    "stop": "28932",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
-    "id": "official-center-Overworld-exe2"
+    "id": "official-center-exe2"
   },
   {
-    "name": "Airport (Overworld)",
+    "ostname": "Departure",
+    "name": "Densan Airport",
     "files": [
-      "BN2-Airport.ogg"
+      "exe2-densankuukou.ogg"
     ],
-    "author": "D3str0y3d",
+    "author": "K1rbYat1Na",
     "game": "EXE2/BN2",
-    "duration": "2:00",
-    "composer": "Aoki Yoshino",
-    "places": "",
+    "duration": "0:54",
+    "composer": "Yoshino Aoki",
+    "places": "Densan Airport",
+    "start": "0",
+    "stop": "53930",
+    "disc": "disc1.png",
+    "gameimage": "exe2.png",
+    "id": "densan-airport-exe2"
+  },
+  {
+    "ostname": "Foreign Country Scenery",
+    "name": "Amerope Town",
+    "files": [
+      "exe2-ameropetown.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE2/BN2",
+    "duration": "0:41",
+    "composer": "Yoshino Aoki",
+    "places": "Amerope's streets",
+    "start": "0",
+    "stop": "41288",
+    "disc": "disc1.png",
+    "gameimage": "exe2.png",
+    "id": "amerope-town-exe2"
+  },
+  {
+    "ostname": "Amerope Castle",
+    "name": "Amerope Castle",
+    "files": [
+      "exe2-ameropejou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE2/BN2",
+    "duration": "0:36",
+    "composer": "Yoshino Aoki",
+    "places": "Amerope Park and Castle",
+    "start": "0",
+    "stop": "35968",
+    "disc": "disc1.png",
+    "gameimage": "exe2.png",
+    "id": "amerope-castle-exe2"
+  },
+  {
+    "ostname": "Back Street",
+    "name": "Back Street",
+    "files": [
+      "exe2-uradoori.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE2/BN2",
+    "duration": "0:08",
+    "composer": "Yoshino Aoki",
+    "places": "Back Street in Amerope",
+    "start": "0",
+    "stop": "8038",
+    "disc": "disc1.png",
+    "gameimage": "exe2.png",
+    "id": "back-street-exe2"
+  },
+  {
+    "ostname": "Dungeon",
+    "name": "Dungeon",
+    "files": [
+      "exe2-chikarou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE2/BN2",
+    "duration": "0:14",
+    "composer": "Yoshino Aoki",
+    "places": "Dungeon in Amerope Castle",
+    "start": "0",
+    "stop": "13980",
+    "disc": "disc1.png",
+    "gameimage": "exe2.png",
+    "id": "dungeon-exe2"
+  },
+  {
+    "ostname": "Air Travel",
+    "name": "Airplane",
+    "files": [
+      "exe2-hikouki.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE2/BN2",
+    "duration": "0:25",
+    "composer": "Yoshino Aoki",
+    "places": "Dungeon in Amerope Castle",
+    "start": "8924",
+    "stop": "24999",
+    "disc": "disc1.png",
+    "gameimage": "exe2.png",
+    "id": "airplane-exe2"
+  },
+  {
+    "ostname": "Determination in Heart",
+    "name": "Kotobuki Town",
+    "files": [
+      "exe2-kotobukichou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE2/BN2",
+    "duration": "0:29",
+    "composer": "Yoshino Aoki",
+    "places": "Kotobuki Town",
+    "start": "653",
+    "stop": "28597",
+    "disc": "disc1.png",
+    "gameimage": "exe2.png",
+    "id": "kotobuki-town-exe2"
+  },
+  {
+    "ostname": "Suspicious Mood?",
+    "name": "Suspicious Theme",
+    "files": [
+      "exe2-suspicious.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE2/BN2",
+    "duration": "0:15",
+    "composer": "Yoshino Aoki",
+    "places": "Overworld (during some events)",
+    "start": "0",
+    "stop": "14834",
+    "disc": "disc1.png",
+    "gameimage": "exe2.png",
+    "id": "suspicious-theme-exe2"
+  },
+  {
+    "ostname": "Incident Occurrence!",
+    "name": "Incident Occurrence",
+    "files": [
+      "exe2-incident.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE2/BN2",
+    "duration": "0:15",
+    "composer": "Yoshino Aoki",
+    "places": "Overworld (when an incident has occurred)",
+    "start": "0",
+    "stop": "14877",
+    "disc": "disc1.png",
+    "gameimage": "exe2.png",
+    "id": "incident-occurrence-exe2"
+  },
+  {
+    "ostname": "Vicinity of Sorrow",
+    "name": "Sad Theme",
+    "files": [
+      "exe2-sad.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE2/BN2",
+    "duration": "0:19",
+    "composer": "Yoshino Aoki",
+    "places": "Some cutscenes, Asina Square (after ShadowMan kills CookMan)",
+    "start": "0",
+    "stop": "18551",
+    "disc": "disc1.png",
+    "gameimage": "exe2.png",
+    "id": "sad-theme-exe2"
+  },
+  {
+    "ostname": "Proof of Courage",
+    "name": "Hero Theme",
+    "files": [
+      "exe2-hero.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE2/BN2",
+    "duration": "0:28",
+    "composer": "Yoshino Aoki",
+    "places": "Some cutscenes, Boss Deletion Record screen (appears only once after defeating True Forte)",
+    "start": "1238",
+    "stop": "27658",
+    "disc": "disc1.png",
+    "gameimage": "exe2.png",
+    "id": "hero-theme-exe2"
+  },
+  {
+    "ostname": "Transmission!",
+    "name": "Plug-in Transition",
+    "files": [
+      "exe2-plugin.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE2/BN2",
+    "duration": "0:03",
+    "composer": "Yoshino Aoki",
+    "places": "During the Plug-in transition",
     "start": "",
     "stop": "",
-    "ostname": "Depature",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
-    "id": "airport-Overworld-exe2"
+    "id": "plug-in-transition-exe2"
   },
   {
-    "name": "Netopia City (Overworld)",
+    "ostname": "SMOKY FIELD",
+    "name": "Gas Boiler Comp",
     "files": [
-      "BN2-Netopia.ogg"
+      "exe2-gasyuwakashikidennou.ogg"
     ],
-    "author": "D3str0y3d",
+    "author": "K1rbYat1Na",
     "game": "EXE2/BN2",
-    "duration": "1:34",
-    "composer": "Aoki Yoshino",
-    "places": "",
-    "start": "",
-    "stop": "",
-    "ostname": "Foreign Townscape",
+    "duration": "0:38",
+    "composer": "Yoshino Aoki",
+    "places": "Gas Boiler Comp 1-2",
+    "start": "0",
+    "stop": "38274",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
-    "id": "netopia-city-Overworld-exe2"
+    "id": "gas-boiler-exe2"
   },
   {
-    "name": "Netopia Castle (Overworld)",
+    "ostname": "TIME LIMIT",
+    "name": "Detonator Comp",
     "files": [
-      "BN2-Netopia Castle.ogg"
+      "exe2-kibakusouchidennou.ogg"
     ],
-    "author": "D3str0y3d",
+    "author": "K1rbYat1Na",
     "game": "EXE2/BN2",
-    "duration": "1:24",
-    "composer": "Aoki Yoshino",
-    "places": "",
-    "start": "",
-    "stop": "",
-    "ostname": "Ameroppa Castle",
+    "duration": "0:39",
+    "composer": "Yoshino Aoki",
+    "places": "Detonator Comp 1-5",
+    "start": "0",
+    "stop": "38582",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
-    "id": "netopia-castle-Overworld-exe2"
+    "id": "detonator-comp-exe2"
   },
   {
-    "name": "Netopia Alley (Overworld)",
+    "ostname": "A SERIOUS MISSION",
+    "name": "Mother Computer Comp",
     "files": [
-      "BN2-NetopiaAlley.ogg"
+      "exe2-mothercomputerdennou.ogg"
     ],
-    "author": "D3str0y3d",
-    "game": "EXE2/BN2",
-    "duration": "0:26",
-    "composer": "Aoki Yoshino",
-    "places": "",
-    "start": "",
-    "stop": "",
-    "ostname": "Alley",
-    "disc": "disc1.png",
-    "gameimage": "exe2.png",
-    "id": "netopia-alley-Overworld-exe2"
-  },
-  {
-    "name": "Netopia Dungeon (Overworld)",
-    "files": [
-      "BN2-Netopia Dungeon.ogg"
-    ],
-    "author": "D3str0y3d",
-    "game": "EXE2/BN2",
-    "duration": "0:24",
-    "composer": "Aoki Yoshino",
-    "places": "",
-    "start": "",
-    "stop": "",
-    "ostname": "Underground Prison",
-    "disc": "disc1.png",
-    "gameimage": "exe2.png",
-    "id": "netopia-dungeon-Overworld-exe2"
-  },
-  {
-    "name": "Airplane (Overworld)",
-    "files": [
-      "BN2-NAL Airport.ogg"
-    ],
-    "author": "D3str0y3d",
+    "author": "K1rbYat1Na",
     "game": "EXE2/BN2",
     "duration": "0:51",
-    "composer": "Aoki Yoshino",
-    "places": "",
-    "start": "",
-    "stop": "",
-    "ostname": "Air Travel",
+    "composer": "Yoshino Aoki",
+    "places": "Mother Computer Comp 1-5",
+    "start": "685",
+    "stop": "51065",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
-    "id": "airplane-Overworld-exe2"
+    "id": "mother-computer-comp-exe2"
   },
   {
-    "name": "kotobuki (Overworld)",
-    "files": [
-      "BN2-Kotubuki.ogg"
-    ],
-    "author": "D3str0y3d",
-    "game": "EXE2/BN2",
-    "duration": "1:08",
-    "composer": "Aoki Yoshino",
-    "places": "",
-    "start": "",
-    "stop": "",
-    "ostname": "With Determination",
-    "disc": "disc1.png",
-    "gameimage": "exe2.png",
-    "id": "kotobuki-Overworld-exe2"
-  },
-  {
-    "name": "Gas Comp",
-    "files": [
-      "BN2-Gas Comp.ogg"
-    ],
-    "author": "D3str0y3d",
-    "game": "EXE2/BN2",
-    "duration": "1:28",
-    "composer": "Aoki Yoshino",
-    "places": "",
-    "start": "",
-    "stop": "",
-    "ostname": "Smokey Field",
-    "disc": "disc1.png",
-    "gameimage": "exe2.png",
-    "id": "gas-comp-exe2"
-  },
-  {
-    "name": "Bomb Comp",
-    "files": [
-      "BN2-BomComp.ogg"
-    ],
-    "author": "D3str0y3d",
-    "game": "EXE2/BN2",
-    "duration": "1:29",
-    "composer": "Aoki Yoshino",
-    "places": "",
-    "start": "",
-    "stop": "",
-    "ostname": "Time Limit",
-    "disc": "disc1.png",
-    "gameimage": "exe2.png",
-    "id": "bomb-comp-exe2"
-  },
-  {
-    "name": "Mother Comp",
-    "files": [
-      "BN2-Mother Tree Comp.ogg"
-    ],
-    "author": "D3str0y3d",
-    "game": "EXE2/BN2",
-    "duration": "1:52",
-    "composer": "Aoki Yoshino",
-    "places": "",
-    "start": "",
-    "stop": "",
-    "ostname": "A Serious Mission",
-    "disc": "disc1.png",
-    "gameimage": "exe2.png",
-    "id": "mother-comp-exe2"
-  },
-  {
+    "ostname": "FEAR IN THE CASTLE",
     "name": "Castle Comp",
     "files": [
-      "BN2-Csstle Comp.ogg"
+      "exe2-oshirodennou.ogg"
     ],
-    "author": "D3str0y3d",
+    "author": "K1rbYat1Na",
     "game": "EXE2/BN2",
-    "duration": "1:16",
-    "composer": "Aoki Yoshino",
-    "places": "",
-    "start": "",
-    "stop": "",
-    "ostname": "Fear in the Castle",
+    "duration": "0:32",
+    "composer": "Yoshino Aoki",
+    "places": "Castle Comp 1-5",
+    "start": "0",
+    "stop": "32146",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
     "id": "castle-comp-exe2"
   },
   {
+    "ostname": "MAGNETIC AIRPLANE",
     "name": "Airplane Comp",
     "files": [
-      "BN2-AirComp.ogg"
+      "exe2-hikoukidennou.ogg"
     ],
-    "author": "D3str0y3d",
+    "author": "K1rbYat1Na",
     "game": "EXE2/BN2",
-    "duration": "1:12",
-    "composer": "Aoki Yoshino",
-    "places": "",
-    "start": "",
-    "stop": "",
-    "ostname": "Magnetic Airplane",
+    "duration": "0:51",
+    "composer": "Yoshino Aoki",
+    "places": "Airplane Comp 1-5",
+    "start": "20895",
+    "stop": "51434",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
     "id": "airplane-comp-exe2"
   },
   {
-    "name": "Gospel Comp",
+    "ostname": "YOU CAN'T GO BACK",
+    "name": "Apartment Comp",
     "files": [
-      "BN2-Gospel Comp.ogg"
+      "exe2-mansiondennou.ogg"
     ],
-    "author": "D3str0y3d",
+    "author": "K1rbYat1Na",
     "game": "EXE2/BN2",
-    "duration": "1:20",
-    "composer": "Aoki Yoshino",
-    "places": "",
-    "start": "",
-    "stop": "",
-    "ostname": "You Can't Go Back",
+    "duration": "0:35",
+    "composer": "Yoshino Aoki",
+    "places": "Apartment Comp 1-4, Gospel Server Comp 1-2",
+    "start": "0",
+    "stop": "34674",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
-    "id": "gospel-comp-exe2"
+    "id": "apartment-comp-exe2"
   },
   {
+    "ostname": "INTERNET WORLD",
     "name": "Internet Theme",
     "files": [
-      "BN2-Internet Theme.ogg"
+      "exe2-internet.ogg"
     ],
-    "author": "D3str0y3d",
+    "author": "K1rbYat1Na",
     "game": "EXE2/BN2",
-    "duration": "1:40",
-    "composer": "Aoki Yoshino",
-    "places": "",
-    "start": "",
-    "stop": "",
-    "ostname": "Internet World",
+    "duration": "0:44",
+    "composer": "Yoshino Aoki",
+    "places": "Densan Area 1-3, Koto Area 1-2, Asina Area 1-2, Amerope Area 1-3, every generic Comp",
+    "start": "0",
+    "stop": "44154",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
     "id": "internet-theme-exe2"
   },
   {
-    "name": "Undernet Theme",
+    "ostname": "FEARFUL",
+    "name": "Ura Internet Theme",
     "files": [
-      "BN2-Undernet Theme.ogg"
+      "exe2-urainternet.ogg"
     ],
-    "author": "D3str0y3d",
+    "author": "K1rbYat1Na",
     "game": "EXE2/BN2",
-    "duration": "1:25",
-    "composer": "Aoki Yoshino",
-    "places": "",
-    "start": "",
-    "stop": "",
-    "ostname": "Fearful",
+    "duration": "0:37",
+    "composer": "Yoshino Aoki",
+    "places": "Ura Internet 1-7, Gospel HQ, the post-credits cutscene feat. True Forte in WWW Area",
+    "start": "0",
+    "stop": "36516",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
-    "id": "undernet-theme-exe2"
+    "id": "ura-internet-theme-exe2"
   },
   {
+    "ostname": "AND YOU WILL KNOW THE TRUTH",
     "name": "WWW Area",
     "files": [
-      "BN2-WWW Area.ogg"
+      "exe2-wwwarea.ogg"
     ],
-    "author": "D3str0y3d",
+    "author": "K1rbYat1Na",
     "game": "EXE2/BN2",
-    "duration": "1:30",
-    "composer": "Aoki Yoshino",
-    "places": "",
-    "start": "",
-    "stop": "",
-    "ostname": "And You Will Know the Truth",
+    "duration": "0:43",
+    "composer": "Yoshino Aoki",
+    "places": "WWW Area 1-3",
+    "start": "6803",
+    "stop": "43300",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
     "id": "www-area-exe2"
   },
   {
-    "name": "Battle Theme",
-    "files": [
-      "BN2-Battle Theme.ogg"
-    ],
-    "author": "D3str0y3d",
-    "game": "EXE2/BN2",
-    "duration": "1:16",
-    "composer": "Aoki Yoshino",
-    "places": "",
-    "start": "",
-    "stop": "",
     "ostname": "Virus Busting",
+    "name": "Virus Battle",
+    "files": [
+      "exe2-virus.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE2/BN2",
+    "duration": "0:39",
+    "composer": "Yoshino Aoki",
+    "places": "Virus Battles",
+    "start": "6634",
+    "stop": "38782",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
-    "id": "battle-theme-exe2"
+    "id": "virus-battle-exe2"
   },
   {
-    "name": "Boss Theme",
-    "files": [
-      "BN2-Boss Theme.ogg"
-    ],
-    "author": "D3str0y3d",
-    "game": "EXE2/BN2",
-    "duration": "1:25",
-    "composer": "Aoki Yoshino",
-    "places": "",
-    "start": "",
-    "stop": "",
     "ostname": "Battle Spirit",
+    "name": "Boss Battle",
+    "files": [
+      "exe2-boss.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE2/BN2",
+    "duration": "0:43",
+    "composer": "Yoshino Aoki",
+    "places": "Boss Battles, some Story-Only Virus Battles",
+    "start": "9594",
+    "stop": "42627",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
-    "id": "boss-theme-exe2"
+    "id": "boss-battle-exe2"
   },
   {
-    "name": "Boss Encounter",
-    "files": [
-      "BN2-Boss Encounter.ogg"
-    ],
-    "author": "D3str0y3d",
-    "game": "EXE2/BN2",
-    "duration": "0:37",
-    "composer": "Aoki Yoshino",
-    "places": "",
-    "start": "",
-    "stop": "",
-    "ostname": "Pressure",
-    "disc": "disc1.png",
-    "gameimage": "exe2.png",
-    "id": "boss-encounter-exe2"
-  },
-  {
-    "name": "Final Battle Theme",
-    "files": [
-      "BN2-Final Battle Theme.ogg"
-    ],
-    "author": "D3str0y3d",
-    "game": "EXE2/BN2",
-    "duration": "1:34",
-    "composer": "Aoki Yoshino",
-    "places": "",
-    "start": "",
-    "stop": "",
     "ostname": "VS. Gospel",
+    "name": "Final Battle",
+    "files": [
+      "exe2-final.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE2/BN2",
+    "duration": "0:43",
+    "composer": "Yoshino Aoki",
+    "places": "Gospel Battle",
+    "start": "1919",
+    "stop": "42576",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
-    "id": "final-battle-theme-exe2"
+    "id": "final-battle-exe2"
   },
   {
-    "name": "End Credits",
+    "ostname": "Style Change",
+    "name": "Style Change",
     "files": [
-      "BN2-End Roll.ogg"
+      "exe2-stylechange.ogg"
     ],
-    "author": "D3str0y3d",
+    "author": "K1rbYat1Na",
     "game": "EXE2/BN2",
-    "duration": "2:37",
-    "composer": "Aoki Yoshino",
-    "places": "",
-    "start": "",
-    "stop": "",
-    "ostname": "Peace Again",
+    "duration": "0:09",
+    "composer": "Yoshino Aoki",
+    "places": "Getting a new Style Change",
+    "start": "0",
+    "stop": "9443",
     "disc": "disc1.png",
     "gameimage": "exe2.png",
-    "id": "end-credits-exe2"
+    "id": "style-change-exe2"
+  },
+  {
+    "ostname": "PRESSURE",
+    "name": "Pre-Boss Theme",
+    "files": [
+      "exe2-preboss.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE2/BN2",
+    "duration": "0:14",
+    "composer": "Yoshino Aoki",
+    "places": "Cutscenes before fighting a boss",
+    "start": "647",
+    "stop": "14231",
+    "disc": "disc1.png",
+    "gameimage": "exe2.png",
+    "id": "pre-boss-theme-exe2"
+  },
+  {
+    "ostname": "peace again",
+    "name": "Credits Theme",
+    "files": [
+      "exe2-credits.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE2/BN2",
+    "duration": "1:57",
+    "composer": "Yoshino Aoki",
+    "places": "End Credits",
+    "start": "84968",
+    "stop": "116598",
+    "disc": "disc1.png",
+    "gameimage": "exe2.png",
+    "id": "credits-theme-exe2"
   },
   {
     "ostname": "THEME OF ROCKMAN EXE3",
@@ -1095,7 +1231,7 @@ let allMusic = [
     "game": "EXE3/BN3",
     "duration": "0:21",
     "composer": "Yoshino Aoki",
-    "places": "some cutscenes",
+    "places": "Some cutscenes",
     "start": "1089",
     "stop": "20829",
     "disc": "disc2.png",
@@ -1112,7 +1248,7 @@ let allMusic = [
     "game": "EXE3/BN3",
     "duration": "0:25",
     "composer": "Yoshino Aoki",
-    "places": "some cutscenes",
+    "places": "Some cutscenes",
     "start": "1474",
     "stop": "24913",
     "disc": "disc2.png",
@@ -1129,7 +1265,7 @@ let allMusic = [
     "game": "EXE3/BN3",
     "duration": "0:02",
     "composer": "Yoshino Aoki",
-    "places": "during the Plug-in transition",
+    "places": "During the Plug-in transition",
     "start": "",
     "stop": "",
     "disc": "disc2.png",
@@ -1333,7 +1469,7 @@ let allMusic = [
     "game": "EXE3/BN3",
     "duration": "0:11",
     "composer": "Yoshino Aoki",
-    "places": "cutscenes before fighting a boss",
+    "places": "Cutscenes before fighting a boss",
     "start": "0",
     "stop": "11486",
     "disc": "disc2.png",
@@ -1677,7 +1813,7 @@ let allMusic = [
     ],
     "duration": "0:03",
     "composer": "Toshihiko Horiyama",
-    "places": "during the Plug-in transition",
+    "places": "During the Plug-in transition",
     "start": "",
     "stop": "",
     "disc": "disc3.png",
@@ -1785,7 +1921,7 @@ let allMusic = [
     "game": "EXE4/BN4",
     "duration": "1:04",
     "composer": "Toshihiko Horiyama",
-    "places": "some cutscenes",
+    "places": "Some cutscenes",
     "start": "0",
     "stop": "64292",
     "disc": "disc3.png",
@@ -1964,7 +2100,7 @@ let allMusic = [
     ],
     "duration": "0:17",
     "composer": "Toshihiko Horiyama",
-    "places": "cutscenes before fighting a non-tournament boss",
+    "places": "Cutscenes before fighting a non-tournament boss",
     "start": "3149",
     "stop": "16547",
     "disc": "disc3.png",
@@ -2015,7 +2151,7 @@ let allMusic = [
     "game": "EXE4/BN4",
     "duration": "0:38",
     "composer": "Toshihiko Horiyama",
-    "places": "foreign countries (Amerope, Asina, Sharo, Affrique)",
+    "places": "Foreign countries (Amerope, Asina, Sharo, Affrique)",
     "start": "3231",
     "stop": "37672",
     "disc": "disc3.png",
@@ -2049,7 +2185,7 @@ let allMusic = [
     "game": "EXE4/BN4",
     "duration": "0:25",
     "composer": "Toshihiko Horiyama",
-    "places": "some cutscenes",
+    "places": "Some cutscenes",
     "start": "2193",
     "stop": "24795",
     "disc": "disc3.png",
@@ -2066,7 +2202,7 @@ let allMusic = [
     "game": "EXE4/BN4",
     "duration": "0:30",
     "composer": "Toshihiko Horiyama",
-    "places": "some cutscenes",
+    "places": "Some cutscenes",
     "start": "925",
     "stop": "30191",
     "disc": "disc3.png",
@@ -2123,7 +2259,7 @@ let allMusic = [
     ],
     "duration": "0:08",
     "composer": "Toshihiko Horiyama",
-    "places": "when losing a PvP battle",
+    "places": "When losing a PvP battle",
     "start": "2009",
     "stop": "8439",
     "disc": "disc5.png",
@@ -2955,7 +3091,7 @@ let allMusic = [
     "author": "K1rbYat1Na",
     "game": "EXE5/BN5",
     "composer": "Akari Kaida",
-    "places": "during the Plug-in transition",
+    "places": "During the Plug-in transition",
     "start": "",
     "stop": "",
     "disc": "disc4.png",
@@ -3108,7 +3244,7 @@ let allMusic = [
     "author": "K1rbYat1Na",
     "game": "EXE5/BN5",
     "composer": "Akari Kaida",
-    "places": "cutscenes (before a boss battle, before a Liberate Mission)",
+    "places": "Cutscenes (before a boss battle, before a Liberate Mission)",
     "start": "14450",
     "stop": "28231",
     "disc": "disc4.png",
@@ -3278,7 +3414,7 @@ let allMusic = [
     "author": "K1rbYat1Na",
     "game": "EXE5/BN5",
     "composer": "Akari Kaida",
-    "places": "some cutscenes",
+    "places": "Some cutscenes",
     "start": "1288",
     "stop": "22250",
     "disc": "disc4.png",
@@ -3295,7 +3431,7 @@ let allMusic = [
     "author": "K1rbYat1Na",
     "game": "EXE5/BN5",
     "composer": "Akari Kaida",
-    "places": "some cutscenes",
+    "places": "Some cutscenes",
     "start": "989",
     "stop": "26044",
     "disc": "disc4.png",
@@ -3397,7 +3533,7 @@ let allMusic = [
     "author": "K1rbYat1Na",
     "game": "EXE5/BN5",
     "composer": "Akari Kaida",
-    "places": "when losing a PvP battle",
+    "places": "When losing a PvP battle",
     "start": "2844",
     "stop": "9363",
     "disc": "disc4.png",
@@ -3609,7 +3745,7 @@ let allMusic = [
       "Akari Kaida (original)",
       "Mitsuhiko Takano (arrangement)"
     ],
-    "places": "during the Plug-in transition",
+    "places": "During the Plug-in transition",
     "start": "",
     "stop": "",
     "disc": "disc5.png",
@@ -3890,7 +4026,7 @@ let allMusic = [
       "Akari Kaida (original)",
       "Mitsuhiko Takano (arrangement)"
     ],
-    "places": "cutscenes (before a boss battle, before a Liberate Mission)",
+    "places": "Cutscenes (before a boss battle, before a Liberate Mission)",
     "start": "14020",
     "stop": "27758",
     "disc": "disc5.png",
@@ -4090,7 +4226,7 @@ let allMusic = [
       "Akari Kaida (original)",
       "Mitsuhiko Takano (arrangement)"
     ],
-    "places": "some cutscenes",
+    "places": "Some cutscenes",
     "start": "2936",
     "stop": "23810",
     "disc": "disc5.png",
@@ -4110,7 +4246,7 @@ let allMusic = [
       "Akari Kaida (original)",
       "Mitsuhiko Takano (arrangement)"
     ],
-    "places": "some cutscenes",
+    "places": "Some cutscenes",
     "start": "2028",
     "stop": "27978",
     "disc": "disc5.png",
@@ -4230,7 +4366,7 @@ let allMusic = [
       "Akari Kaida (original)",
       "Mitsuhiko Takano (arrangement)"
     ],
-    "places": "when losing a PvP battle",
+    "places": "When losing a PvP battle",
     "start": "3447",
     "stop": "9940",
     "disc": "disc5.png",
@@ -4389,7 +4525,7 @@ let allMusic = [
     "author": "K1rbYat1Na",
     "game": "EXE6/BN6",
     "composer": "Yoshino Aoki",
-    "places": "during the Plug-in transition",
+    "places": "During the Plug-in transition",
     "start": "",
     "stop": "",
     "disc": "disc5.png",
@@ -4576,7 +4712,7 @@ let allMusic = [
     "author": "K1rbYat1Na",
     "game": "EXE6/BN6",
     "composer": "Yoshino Aoki",
-    "places": "cutscenes before fighting a story boss",
+    "places": "Cutscenes before fighting a story boss",
     "start": "1079",
     "stop": "14844",
     "disc": "disc5.png",
@@ -4644,7 +4780,7 @@ let allMusic = [
     "author": "K1rbYat1Na",
     "game": "EXE6/BN6",
     "composer": "Yoshino Aoki",
-    "places": "some cutscenes",
+    "places": "Some cutscenes",
     "start": "1072",
     "stop": "22990",
     "disc": "disc5.png",
@@ -4713,7 +4849,7 @@ let allMusic = [
     "game": "EXE6/BN6",
     "duration": "0:23",
     "composer": "Yoshino Aoki",
-    "places": "some cutscenes, Expo Site's Central Hall (post-game in the AC version)",
+    "places": "Some cutscenes, Expo Site's Central Hall (post-game in the AC version)",
     "start": "1524",
     "stop": "22888",
     "disc": "disc5.png",
@@ -4815,7 +4951,7 @@ let allMusic = [
     "game": "EXE6/BN6",
     "duration": "0:09",
     "composer": "Yoshino Aoki",
-    "places": "when losing a PvP battle",
+    "places": "When losing a PvP battle",
     "start": "2226",
     "stop": "8758",
     "disc": "disc5.png",
@@ -5228,7 +5364,7 @@ let allMusic = [
       "Akari Kaida (original)",
       "Mitsuhiko Takano (arrangement)"
     ],
-    "places": "during the Plug-in transition",
+    "places": "During the Plug-in transition",
     "start": "",
     "stop": "",
     "disc": "disc1.png",
@@ -5308,7 +5444,7 @@ let allMusic = [
       "Akari Kaida (original)",
       "Mitsuhiko Takano (arrangement)"
     ],
-    "places": "the cutscene that reveals the story behind Rockman.EXE/Saito Hikari",
+    "places": "The cutscene that reveals the story behind Rockman.EXE/Saito Hikari",
     "start": "2531",
     "stop": "51786",
     "disc": "disc1.png",
@@ -5428,7 +5564,7 @@ let allMusic = [
       "Akari Kaida (original)",
       "Mitsuhiko Takano (arrangement)"
     ],
-    "places": "Boss Battles, some Story-only Virus Battles. Used only while playing as Rockman.EXE.",
+    "places": "Boss Battles, some Story-Only Virus Battles. Used only while playing as Rockman.EXE.",
     "start": "7207",
     "stop": "45619",
     "disc": "disc1.png",
@@ -5468,7 +5604,7 @@ let allMusic = [
       "Akari Kaida (original)",
       "Mitsuhiko Takano (arrangement)"
     ],
-    "places": "when winning a battle",
+    "places": "When winning a battle",
     "start": "3506",
     "stop": "10518",
     "disc": "disc1.png",
@@ -5508,7 +5644,7 @@ let allMusic = [
       "Akari Kaida (original)",
       "Mitsuhiko Takano (arrangement)"
     ],
-    "places": "when losing a PvP battle",
+    "places": "When losing a PvP battle",
     "start": "1876",
     "stop": "8362",
     "disc": "disc1.png",
