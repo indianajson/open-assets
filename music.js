@@ -1527,7 +1527,7 @@ let allMusic = [
     "places": "Title Screen, some cutscenes (as Hero Theme)",
     "start": "0",
     "stop": "27428",
-    "disc": "disc-pon.png",
+    "disc": "disc-p&lon.png",
     "gameimage": "exepon.png",
     "id": "title-theme-exepon"
   },
@@ -1548,7 +1548,7 @@ let allMusic = [
     "places": "Overworld",
     "start": "0",
     "stop": "53996",
-    "disc": "disc-pon.png",
+    "disc": "disc-p&lon.png",
     "gameimage": "exepon.png",
     "id": "akihara-town-exepon"
   },
@@ -1568,7 +1568,7 @@ let allMusic = [
     "places": "Overworld (when an incident has occurred)",
     "start": "311",
     "stop": "5188",
-    "disc": "disc-pon.png",
+    "disc": "disc-p&lon.png",
     "gameimage": "exepon.png",
     "id": "incident-occurrence-exepon"
   },
@@ -1589,7 +1589,7 @@ let allMusic = [
     "places": "Cyberworld",
     "start": "0",
     "stop": "39448",
-    "disc": "disc-pon.png",
+    "disc": "disc-p&lon.png",
     "gameimage": "exepon.png",
     "id": "internet-theme-exepon"
   },
@@ -1610,7 +1610,7 @@ let allMusic = [
     "places": "Virus Battles",
     "start": "2060",
     "stop": "48400",
-    "disc": "disc-pon.png",
+    "disc": "disc-p&lon.png",
     "gameimage": "exepon.png",
     "id": "virus-battle-exepon"
   },
@@ -1631,7 +1631,7 @@ let allMusic = [
     "places": "Boss Battles",
     "start": "900",
     "stop": "39300",
-    "disc": "disc-pon.png",
+    "disc": "disc-p&lon.png",
     "gameimage": "exepon.png",
     "id": "boss-battle-exepon"
   },
@@ -1652,7 +1652,7 @@ let allMusic = [
     "places": "Cache Server Comp 1-5",
     "start": "1026",
     "stop": "40473",
-    "disc": "disc-pon.png",
+    "disc": "disc-p&lon.png",
     "gameimage": "exepon.png",
     "id": "cache-server-comp-exepon"
   },
@@ -1673,7 +1673,7 @@ let allMusic = [
     "places": "Cache 2nd Battle",
     "start": "2325",
     "stop": "39479",
-    "disc": "disc-pon.png",
+    "disc": "disc-p&lon.png",
     "gameimage": "exepon.png",
     "id": "final-battle-exepon"
   },
@@ -1693,7 +1693,7 @@ let allMusic = [
     "places": "End Credits, some cutscenes (as Sad Theme)",
     "start": "0",
     "stop": "42918",
-    "disc": "disc-pon.png",
+    "disc": "disc-p&lon.png",
     "duration": "0:43",
     "gameimage": "exepon.png",
     "id": "credits-theme-exepon"
@@ -5060,7 +5060,7 @@ let allMusic = [
     "places": "Title Screen, some cutscenes (as Hero Theme)",
     "start": "425",
     "stop": "26725",
-    "disc": "disc-lon.png",
+    "disc": "disc-p&lon.png",
     "gameimage": "exelon.png",
     "id": "title-theme-exelon"
   },
@@ -5081,7 +5081,7 @@ let allMusic = [
     "places": "Overworld",
     "start": "0",
     "stop": "50620",
-    "disc": "disc-lon.png",
+    "disc": "disc-p&lon.png",
     "gameimage": "exelon.png",
     "id": "akihara-town-exelon"
   },
@@ -5102,7 +5102,7 @@ let allMusic = [
     "places": "Overworld (when an incident has occurred)",
     "start": "3015",
     "stop": "12303",
-    "disc": "disc-lon.png",
+    "disc": "disc-p&lon.png",
     "gameimage": "exelon.png",
     "id": "incident-occurrence-exelon"
   },
@@ -5123,7 +5123,7 @@ let allMusic = [
     "places": "Cyberworld",
     "start": "0",
     "stop": "41665",
-    "disc": "disc-lon.png",
+    "disc": "disc-p&lon.png",
     "gameimage": "exelon.png",
     "id": "internet-theme-exelon"
   },
@@ -5144,7 +5144,7 @@ let allMusic = [
     "places": "Virus Battles",
     "start": "0",
     "stop": "39180",
-    "disc": "disc-lon.png",
+    "disc": "disc-p&lon.png",
     "gameimage": "exelon.png",
     "id": "virus-battle-exelon"
   },
@@ -5165,7 +5165,7 @@ let allMusic = [
     "places": "Boss Battles",
     "start": "6272",
     "stop": "40776",
-    "disc": "disc-lon.png",
+    "disc": "disc-p&lon.png",
     "gameimage": "exelon.png",
     "id": "boss-battle-exelon"
   },
@@ -5186,7 +5186,7 @@ let allMusic = [
     "places": "Trojan Comp 1-5",
     "start": "856",
     "stop": "41996",
-    "disc": "disc-lon.png",
+    "disc": "disc-p&lon.png",
     "gameimage": "exelon.png",
     "id": "trojan-comp-exelon"
   },
@@ -5207,7 +5207,7 @@ let allMusic = [
     "places": "Trojan Horse Battle",
     "start": "4653",
     "stop": "38717",
-    "disc": "disc-lon.png",
+    "disc": "disc-p&lon.png",
     "gameimage": "exelon.png",
     "id": "final-battle-exelon"
   },
@@ -5227,7 +5227,7 @@ let allMusic = [
     "places": "End Credits",
     "start": "520",
     "stop": "33912",
-    "disc": "disc-lon.png",
+    "disc": "disc-p&lon.png",
     "duration": "0:34",
     "gameimage": "exelon.png",
     "id": "credits-theme-exelon"
