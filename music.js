@@ -13,7 +13,7 @@ let allMusic = [
     "places": "Title Screen",
     "start": "22298",
     "stop": "35863",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:35",
     "gameimage": "exe1.png",
     "id": "title-theme-exe1"
@@ -32,7 +32,7 @@ let allMusic = [
     "places": "Akihara Town, School (outside), Government Complex (outside), Densan Town, Metroline",
     "start": "0",
     "stop": "54246",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:54",
     "gameimage": "exe1.png",
     "id": "akihara-town-exe1"
@@ -55,9 +55,14 @@ let allMusic = [
     "places": "School",
     "start": "0",
     "stop": "38589",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:38",
-    "gameimage": "exe1.png",
+    "gameimage": [
+      "exe1.png",
+      "exe2.png",
+      "exe3.png",
+      "exe3b.png",
+    ],
     "id": "school-exe1"
   },
   {
@@ -78,9 +83,14 @@ let allMusic = [
     "places": "Akihara Town (indoors), Government Complex, Densan Town (indoors)",
     "start": "0",
     "stop": "7434",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:07",
-    "gameimage": "exe1.png",
+    "gameimage": [
+      "exe1.png",
+      "exe2.png",
+      "exe3.png",
+      "exe3b.png",
+    ],
     "id": "indoors-theme-exe1"
   },
   {
@@ -97,7 +107,7 @@ let allMusic = [
     "places": "Overworld (during some events), WWW Research Facility",
     "start": "0",
     "stop": "16091",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:16",
     "gameimage": "exe1.png",
     "id": "suspicious-theme-exe1"
@@ -116,7 +126,7 @@ let allMusic = [
     "places": "Overworld (when an incident has occurred)",
     "start": "0",
     "stop": "12868",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:12",
     "gameimage": "exe1.png",
     "id": "incident-occurrence-exe1"
@@ -135,7 +145,7 @@ let allMusic = [
     "places": "During the Plug-in transition",
     "start": "",
     "stop": "",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:03",
     "gameimage": "exe1.png",
     "id": "plug-in-transition-exe1"
@@ -154,7 +164,7 @@ let allMusic = [
     "places": "Oven Comp 1-2",
     "start": "1722",
     "stop": "56839",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:58",
     "gameimage": "exe1.png",
     "id": "oven-comp-exe1"
@@ -173,7 +183,7 @@ let allMusic = [
     "places": "School Comp 1-4, the cutscene where Rockman gets the power of saito.bat",
     "start": "0",
     "stop": "49542",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:49",
     "gameimage": "exe1.png",
     "id": "school-comp-exe1"
@@ -192,7 +202,7 @@ let allMusic = [
     "places": "Internet 1-4, Ura Internet 1-12",
     "start": "0",
     "stop": "41338",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:41",
     "gameimage": "exe1.png",
     "id": "internet-theme-exe1"
@@ -211,7 +221,7 @@ let allMusic = [
     "places": "The cutscene that reveals the story behind Rockman.EXE/Saito Hikari",
     "start": "518",
     "stop": "50395",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:50",
     "gameimage": "exe1.png",
     "id": "saito-theme-exe1"
@@ -230,7 +240,7 @@ let allMusic = [
     "places": "Waterworks Comp 1-6",
     "start": "0",
     "stop": "51149",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:51",
     "gameimage": "exe1.png",
     "id": "waterworks-comp-exe1"
@@ -249,7 +259,7 @@ let allMusic = [
     "places": "Traffic Light Comp 1-5",
     "start": "6093",
     "stop": "39930",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:39",
     "gameimage": "exe1.png",
     "id": "traffic-light-comp-exe1"
@@ -268,7 +278,7 @@ let allMusic = [
     "places": "Power Plant Comp 1-4",
     "start": "3565",
     "stop": "47967",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:47",
     "gameimage": "exe1.png",
     "id": "power-plant-comp-exe1"
@@ -287,7 +297,7 @@ let allMusic = [
     "places": "WWW Comp 1-5, Rocket Comp",
     "start": "0",
     "stop": "51491",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:51",
     "gameimage": "exe1.png",
     "id": "www-comp-exe1"
@@ -306,7 +316,7 @@ let allMusic = [
     "places": "Virus Battles",
     "start": "2692",
     "stop": "48922",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:48",
     "gameimage": "exe1.png",
     "id": "virus-battle-exe1"
@@ -325,7 +335,7 @@ let allMusic = [
     "places": "Boss Battles, some Story-Only Virus Battles",
     "start": "12858",
     "stop": "51433",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:51",
     "gameimage": "exe1.png",
     "id": "boss-battle-exe1"
@@ -344,7 +354,7 @@ let allMusic = [
     "places": "Dream Virus Battle",
     "start": "4319",
     "stop": "48151",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:48",
     "gameimage": "exe1.png",
     "id": "final-battle-exe1"
@@ -367,9 +377,14 @@ let allMusic = [
     "places": "When winning a battle",
     "start": "3548",
     "stop": "10647",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:10",
-    "gameimage": "exe1.png",
+    "gameimage": [
+      "exe1.png",
+      "exe2.png",
+      "exe3.png",
+      "exe3b.png",
+    ],
     "id": "results-theme-exe1"
   },
   {
@@ -390,9 +405,14 @@ let allMusic = [
     "places": "Game Over Screen",
     "start": "",
     "stop": "",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:03",
-    "gameimage": "exe1.png",
+    "gameimage": [
+      "exe1.png",
+      "exe2.png",
+      "exe3.png",
+      "exe3b.png",
+    ],
     "id": "game-over-exe1"
   },
   {
@@ -413,9 +433,14 @@ let allMusic = [
     "places": "When losing a PvP battle",
     "start": "3451",
     "stop": "9964",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:09",
-    "gameimage": "exe1.png",
+    "gameimage": [
+      "exe1.png",
+      "exe2.png",
+      "exe3.png",
+      "exe3b.png",
+    ],
     "id": "loser-theme-exe1"
   },
   {
@@ -432,7 +457,7 @@ let allMusic = [
     "places": "End Credits",
     "start": "45466",
     "stop": "62402",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "1:02",
     "gameimage": "exe1.png",
     "id": "credits-theme-exe1"
@@ -450,7 +475,7 @@ let allMusic = [
     "places": "Title Screen",
     "start": "23724",
     "stop": "37507",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "title-theme-exe2"
   },
@@ -467,7 +492,7 @@ let allMusic = [
     "places": "Cutscenes feat. The Ringleader of Gospel (Shun Obihiro)",
     "start": "0",
     "stop": "9646",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "gospel-theme-exe2"
   },
@@ -484,7 +509,7 @@ let allMusic = [
     "places": "Akihara Town",
     "start": "0",
     "stop": "51668",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "akihara-town-exe2"
   },
@@ -501,7 +526,7 @@ let allMusic = [
     "places": "Okuden Valley",
     "start": "0",
     "stop": "38258",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "okuden-valley-exe2"
   },
@@ -518,7 +543,7 @@ let allMusic = [
     "places": "Marine Harbor",
     "start": "0",
     "stop": "33837",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "marine-harbor-exe2"
   },
@@ -535,7 +560,7 @@ let allMusic = [
     "places": "Official Center",
     "start": "0",
     "stop": "28932",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "official-center-exe2"
   },
@@ -552,7 +577,7 @@ let allMusic = [
     "places": "Densan Airport",
     "start": "0",
     "stop": "53930",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "densan-airport-exe2"
   },
@@ -569,7 +594,7 @@ let allMusic = [
     "places": "Amerope's streets",
     "start": "0",
     "stop": "41288",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "amerope-town-exe2"
   },
@@ -586,7 +611,7 @@ let allMusic = [
     "places": "Amerope Park and Castle",
     "start": "0",
     "stop": "35968",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "amerope-castle-exe2"
   },
@@ -603,7 +628,7 @@ let allMusic = [
     "places": "Back Street in Amerope",
     "start": "0",
     "stop": "8038",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "back-street-exe2"
   },
@@ -620,7 +645,7 @@ let allMusic = [
     "places": "Dungeon in Amerope Castle",
     "start": "0",
     "stop": "13980",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "dungeon-exe2"
   },
@@ -637,7 +662,7 @@ let allMusic = [
     "places": "Dungeon in Amerope Castle",
     "start": "8924",
     "stop": "24999",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "airplane-exe2"
   },
@@ -654,7 +679,7 @@ let allMusic = [
     "places": "Kotobuki Town",
     "start": "653",
     "stop": "28597",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "kotobuki-town-exe2"
   },
@@ -671,7 +696,7 @@ let allMusic = [
     "places": "Overworld (during some events)",
     "start": "0",
     "stop": "14834",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "suspicious-theme-exe2"
   },
@@ -688,7 +713,7 @@ let allMusic = [
     "places": "Overworld (when an incident has occurred)",
     "start": "0",
     "stop": "14877",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "incident-occurrence-exe2"
   },
@@ -705,7 +730,7 @@ let allMusic = [
     "places": "Some cutscenes, Asina Square (after ShadowMan kills CookMan)",
     "start": "0",
     "stop": "18551",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "sad-theme-exe2"
   },
@@ -722,7 +747,7 @@ let allMusic = [
     "places": "Some cutscenes, Boss Deletion Record screen (appears only once after defeating True Forte)",
     "start": "1238",
     "stop": "27658",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "hero-theme-exe2"
   },
@@ -739,7 +764,7 @@ let allMusic = [
     "places": "During the Plug-in transition",
     "start": "",
     "stop": "",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "plug-in-transition-exe2"
   },
@@ -756,7 +781,7 @@ let allMusic = [
     "places": "Gas Boiler Comp 1-2",
     "start": "0",
     "stop": "38274",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "gas-boiler-exe2"
   },
@@ -773,7 +798,7 @@ let allMusic = [
     "places": "Detonator Comp 1-5",
     "start": "0",
     "stop": "38582",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "detonator-comp-exe2"
   },
@@ -790,7 +815,7 @@ let allMusic = [
     "places": "Mother Computer Comp 1-5",
     "start": "685",
     "stop": "51065",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "mother-computer-comp-exe2"
   },
@@ -807,7 +832,7 @@ let allMusic = [
     "places": "Castle Comp 1-5",
     "start": "0",
     "stop": "32146",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "castle-comp-exe2"
   },
@@ -824,7 +849,7 @@ let allMusic = [
     "places": "Airplane Comp 1-5",
     "start": "20895",
     "stop": "51434",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "airplane-comp-exe2"
   },
@@ -841,7 +866,7 @@ let allMusic = [
     "places": "Apartment Comp 1-4, Gospel Server Comp 1-2",
     "start": "0",
     "stop": "34674",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "apartment-comp-exe2"
   },
@@ -858,7 +883,7 @@ let allMusic = [
     "places": "Densan Area 1-3, Koto Area 1-2, Asina Area 1-2, Amerope Area 1-3, every generic Comp",
     "start": "0",
     "stop": "44154",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "internet-theme-exe2"
   },
@@ -875,7 +900,7 @@ let allMusic = [
     "places": "Ura Internet 1-7, Gospel HQ, the post-credits cutscene feat. True Forte in WWW Area",
     "start": "0",
     "stop": "36516",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "ura-internet-theme-exe2"
   },
@@ -892,7 +917,7 @@ let allMusic = [
     "places": "WWW Area 1-3",
     "start": "6803",
     "stop": "43300",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "www-area-exe2"
   },
@@ -909,7 +934,7 @@ let allMusic = [
     "places": "Virus Battles",
     "start": "6634",
     "stop": "38782",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "virus-battle-exe2"
   },
@@ -926,7 +951,7 @@ let allMusic = [
     "places": "Boss Battles, some Story-Only Virus Battles",
     "start": "9594",
     "stop": "42627",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "boss-battle-exe2"
   },
@@ -943,7 +968,7 @@ let allMusic = [
     "places": "Gospel Battle",
     "start": "1919",
     "stop": "42576",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "final-battle-exe2"
   },
@@ -960,7 +985,7 @@ let allMusic = [
     "places": "Getting a new Style Change",
     "start": "0",
     "stop": "9443",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "style-change-exe2"
   },
@@ -977,7 +1002,7 @@ let allMusic = [
     "places": "Cutscenes before fighting a boss",
     "start": "647",
     "stop": "14231",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "pre-boss-theme-exe2"
   },
@@ -994,7 +1019,7 @@ let allMusic = [
     "places": "End Credits",
     "start": "84968",
     "stop": "116598",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "credits-theme-exe2"
   },
@@ -1013,8 +1038,11 @@ let allMusic = [
     "places": "Title Screen",
     "start": "20008",
     "stop": "33787",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "title-theme-exe3"
   },
   {
@@ -1030,8 +1058,11 @@ let allMusic = [
     "places": "Cutscenes feat. Dr. Wily and/or WWW",
     "start": "0",
     "stop": "7903",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "www-theme-exe3"
   },
   {
@@ -1047,8 +1078,11 @@ let allMusic = [
     "places": "Akihara Town (day)",
     "start": "0",
     "stop": "53117",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "akihara-town-exe3"
   },
   {
@@ -1064,8 +1098,11 @@ let allMusic = [
     "places": "Gulf Coast Hospital",
     "start": "0",
     "stop": "34441",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "gulf-coast-hospital-exe3"
   },
   {
@@ -1081,8 +1118,11 @@ let allMusic = [
     "places": "Yoka-Yoka Village, Ura Inn",
     "start": "0",
     "stop": "41321",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "yoka-yoka-village-exe3"
   },
   {
@@ -1098,8 +1138,11 @@ let allMusic = [
     "places": "Beach Street, Gulf Coast Hospital (outside)",
     "start": "1104",
     "stop": "37569",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "beach-street-exe3"
   },
   {
@@ -1115,8 +1158,11 @@ let allMusic = [
     "places": "Ministry of Science",
     "start": "0",
     "stop": "29718",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "ministry-of-science-exe3"
   },
   {
@@ -1132,8 +1178,11 @@ let allMusic = [
     "places": "Densan News Network TV Station",
     "start": "0",
     "stop": "16345",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "tv-station-exe3"
   },
   {
@@ -1149,8 +1198,11 @@ let allMusic = [
     "places": "N1 Grand Prix",
     "start": "3131",
     "stop": "43835",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "n1-grand-prix-exe3"
   },
   {
@@ -1166,8 +1218,11 @@ let allMusic = [
     "places": "Hell Island",
     "start": "505",
     "stop": "16812",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "hell-island-exe3"
   },
   {
@@ -1183,8 +1238,11 @@ let allMusic = [
     "places": "Wily Castle in Demon's Waters",
     "start": "922",
     "stop": "38023",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "wily-castle-exe3"
   },
   {
@@ -1200,8 +1258,11 @@ let allMusic = [
     "places": "Overworld (during some events)",
     "start": "919",
     "stop": "15753",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "suspicious-theme-exe3"
   },
   {
@@ -1217,8 +1278,11 @@ let allMusic = [
     "places": "Overworld (when an incident has occurred)",
     "start": "0",
     "stop": "10715",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "incident-occurrence-exe3"
   },
   {
@@ -1234,8 +1298,11 @@ let allMusic = [
     "places": "Some cutscenes",
     "start": "1089",
     "stop": "20829",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "sad-theme-exe3"
   },
   {
@@ -1251,8 +1318,11 @@ let allMusic = [
     "places": "Some cutscenes",
     "start": "1474",
     "stop": "24913",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "hero-theme-exe3"
   },
   {
@@ -1268,8 +1338,11 @@ let allMusic = [
     "places": "During the Plug-in transition",
     "start": "",
     "stop": "",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "plug-in-transition-exe3"
   },
   {
@@ -1285,8 +1358,11 @@ let allMusic = [
     "places": "Principal's Laptop Comp 1-2",
     "start": "2014",
     "stop": "40585",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "principal-laptop-comp-exe3"
   },
   {
@@ -1302,8 +1378,11 @@ let allMusic = [
     "places": "Zoo Comp 1-4",
     "start": "1428",
     "stop": "40522",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "zoo-comp-exe3"
   },
   {
@@ -1319,8 +1398,11 @@ let allMusic = [
     "places": "Hospital Comp 1-5",
     "start": "0",
     "stop": "33384",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "hospital-comp-exe3"
   },
   {
@@ -1336,8 +1418,11 @@ let allMusic = [
     "places": "WWW Comp 1-4, Proto (cyberworld)",
     "start": "603",
     "stop": "31543",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "www-comp-exe3"
   },
   {
@@ -1353,8 +1438,11 @@ let allMusic = [
     "places": "Akihara Area 1-3 & Square, Ministry of Science Area 1-2 & Square, Yoka-Yoka Area 1-2 & Square, Beach Area 1-2 & Square, every generic Comp",
     "start": "0",
     "stop": "36521",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "internet-theme-exe3"
   },
   {
@@ -1370,8 +1458,11 @@ let allMusic = [
     "places": "Ura Internet 1-7 & Square, Hell Island Area",
     "start": "0",
     "stop": "37872",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "ura-internet-theme-exe3"
   },
   {
@@ -1387,8 +1478,11 @@ let allMusic = [
     "places": "Secret Area 1-3",
     "start": "1322",
     "stop": "50965",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "secret-area-exe3"
   },
   {
@@ -1404,8 +1498,11 @@ let allMusic = [
     "places": "Virus Battles",
     "start": "0",
     "stop": "32146",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "virus-battle-exe3"
   },
   {
@@ -1421,8 +1518,11 @@ let allMusic = [
     "places": "Boss Battles",
     "start": "7535",
     "stop": "39259",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "boss-battle-exe3"
   },
   {
@@ -1438,8 +1538,11 @@ let allMusic = [
     "places": "Proto Battle",
     "start": "10816",
     "stop": "61813",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "final-battle-exe3"
   },
   {
@@ -1455,8 +1558,11 @@ let allMusic = [
     "places": "Tournament Battles",
     "start": "0",
     "stop": "30890",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "tournament-battle-exe3"
   },
   {
@@ -1472,8 +1578,11 @@ let allMusic = [
     "places": "Cutscenes before fighting a boss",
     "start": "0",
     "stop": "11486",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "pre-boss-theme-exe3"
   },
   {
@@ -1489,8 +1598,11 @@ let allMusic = [
     "places": "Navi Customizer Screen",
     "start": "6262",
     "stop": "48538",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "navicus-exe3"
   },
   {
@@ -1506,13 +1618,1408 @@ let allMusic = [
     "places": "End Credits",
     "start": "0",
     "stop": "93140",
-    "disc": "disc2.png",
-    "gameimage": "exe3.png",
+    "disc": "sb2.png",
+    "gameimage": [
+      "exe3.png",
+      "exe3b.png"
+    ],
     "id": "credits-theme-exe3"
   },
   {
-    "ostname": "THEME OF ROCKMAN EXEPON",
+    "ostname": "Theme of ROCKMAN EXE4",
     "name": "Title Theme",
+    "files": [
+      "exe4-title.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4/BN4",
+    "duration": "0:30",
+    "composer": "Toshihiko Horiyama",
+    "places": "Title Screen",
+    "start": "1800",
+    "stop": "29870",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png"
+    ],
+    "id": "title-theme-exe4"
+  },
+  {
+    "ostname": "ANSA",
+    "name": "ANSA",
+    "files": [
+      "exe4-ansa.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4/BN4",
+    "duration": "1:34",
+    "composer": "Toshihiko Horiyama",
+    "places": "Ameropean International Space Agency (ANSA)",
+    "start": "4222",
+    "stop": "93929",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png"
+    ],
+    "id": "ansa-exe4"
+  },
+  {
+    "ostname": "Hometown",
+    "name": "Akihara Town",
+    "files": [
+      "exe4-hometown.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4/BN4",
+    "duration": "1:06",
+    "composer": "Toshihiko Horiyama",
+    "places": "Akihara Town",
+    "start": "0",
+    "stop": "65914",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png"
+    ],
+    "id": "akihara-town-exe4"
+  },
+  {
+    "ostname": "Indoors",
+    "name": "Indoors Theme",
+    "files": [
+      "exe4-indoors.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4/BN4",
+    "duration": "0:29",
+    "composer": "Toshihiko Horiyama",
+    "places": "Akihara Town (indoors)",
+    "start": "0",
+    "stop": "29223",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png"
+    ],
+    "id": "indoors-theme-exe4"
+  },
+  {
+    "ostname": "Denki Town",
+    "name": "Denki Town",
+    "files": [
+      "exe4-denkigai.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4/BN4",
+    "duration": "0:34",
+    "composer": "Toshihiko Horiyama",
+    "places": "Denki Town",
+    "start": "7818",
+    "stop": "33535",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png"
+    ],
+    "id": "denki-town-exe4"
+  },
+  {
+    "ostname": "Incident Occurrence!",
+    "name": "Incident Occurrence",
+    "files": [
+      "exe4-incident.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4/BN4",
+    "duration": "0:15",
+    "composer": "Toshihiko Horiyama",
+    "places": "Overworld (when an incident has occurred; post-game)",
+    "start": "2645",
+    "stop": "15175",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png"
+    ],
+    "id": "incident-occurrence-exe4"
+  },
+  {
+    "ostname": "Transmission!",
+    "name": "Plug-in Transition",
+    "files": [
+      "exe4-plugin.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": [
+        "EXE4/BN4", 
+        "EXE4.5"
+    ],
+    "duration": "0:03",
+    "composer": "Toshihiko Horiyama",
+    "places": "During the Plug-in transition",
+    "start": "",
+    "stop": "",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png",
+      "exe45.png"
+    ],
+    "id": "plug-in-transition-exeoss"
+  },
+  {
+    "ostname": "Invisible Wing",
+    "name": "Radio Tower Comp",
+    "files": [
+      "exe4-denpatoudennou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4/BN4",
+    "duration": "0:29",
+    "composer": "Toshihiko Horiyama",
+    "places": "Radio Tower Comp 1-2",
+    "start": "0",
+    "stop": "29233",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png"
+    ],
+    "id": "radio-tower-comp-exe4"
+  },
+  {
+    "ostname": "Cyber Battle",
+    "name": "Virus Battle",
+    "files": [
+      "exe4-virus.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4/BN4",
+    "duration": "0:32",
+    "composer": "Toshihiko Horiyama",
+    "places": "Virus Battles",
+    "start": "6846",
+    "stop": "31577",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png"
+    ],
+    "id": "virus-battle-exe4"
+  },
+  {
+    "ostname": "Cyber Battle (unused)",
+    "name": "Virus Battle (unused)",
+    "files": [
+      "exe4-virus-alt.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4/BN4",
+    "duration": "0:32",
+    "composer": "Toshihiko Horiyama",
+    "places": "?",
+    "start": "6846",
+    "stop": "31577",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png"
+    ],
+    "id": "virus-battle-unused-exe4"
+  },
+  {
+    "ostname": "Enemy Deleted!",
+    "name": "Results Theme",
+    "files": [
+      "exe4-win.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": [
+        "EXE4/BN4", 
+        "EXE4.5"
+    ],
+    "duration": "0:10",
+    "composer": "Toshihiko Horiyama",
+    "places": "when winning a battle with the Results screen",
+    "start": "3431",
+    "stop": "10212",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png",
+      "exe45.png"
+    ],
+    "id": "results-theme-exe4"
+  },
+  {
+    "ostname": "Enemy Deleted! (short)",
+    "name": "Results Theme (short)",
+    "files": [
+      "exe4-win.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": [
+        "EXE4/BN4", 
+        "EXE4.5"
+    ],
+    "duration": "0:02",
+    "composer": "Toshihiko Horiyama",
+    "places": "when winning a battle without the Results screen",
+    "start": "",
+    "stop": "",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png",
+      "exe45.png"
+    ],
+    "id": "results-theme-short-exe4"
+  },
+  {
+    "ostname": "Silent Darkness",
+    "name": "Enemy Dialogue",
+    "files": [
+      "exe4-enemytalk.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4/BN4",
+    "duration": "1:04",
+    "composer": "Toshihiko Horiyama",
+    "places": "Some cutscenes",
+    "start": "0",
+    "stop": "64292",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png"
+    ],
+    "id": "enemy-dialogue-exe4"
+  },
+  {
+    "ostname": "Densan Stadium",
+    "name": "Densan Dome",
+    "files": [
+      "exe4-densandome.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4/BN4",
+    "duration": "0:35",
+    "composer": "Toshihiko Horiyama",
+    "places": "Densan Dome",
+    "start": "854",
+    "stop": "35294",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png"
+    ],
+    "id": "densan-dome-exe4"
+  },
+  {
+    "ostname": "Player Admission",
+    "name": "Tournament Intro",
+    "files": [
+      "exe4-tournament-intro.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": [
+        "EXE4/BN4", 
+        "EXE4.5"
+    ],
+    "duration": "0:14",
+    "composer": "Toshihiko Horiyama",
+    "places": "Tournament Status Screen (EXE4 and EXE4.5), cutscenes before starting of a tournament battle (EXE4 only)",
+    "start": "0",
+    "stop": "13963",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png",
+      "exe45.png"
+    ],
+    "id": "tournament-intro-exe4"
+  },
+  {
+    "ostname": "Battle Pressure",
+    "name": "Tournament Battle",
+    "files": [
+      "exe4-tournament.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4/BN4",
+    "duration": "0:59",
+    "composer": "Toshihiko Horiyama",
+    "places": "Tournament Battles",
+    "start": "6898",
+    "stop": "58550",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png"
+    ],
+    "id": "tournament-battle-exe4"
+  },
+  {
+    "ostname": "Great Victory!",
+    "name": "Tournament Win",
+    "files": [
+      "exe4-tournament-win.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": [
+        "EXE4/BN4", 
+        "EXE4.5"
+    ],
+    "duration": "1:00",
+    "composer": "Toshihiko Horiyama",
+    "places": "winning a tournament (a non-main tournament in EXE4.5)",
+    "start": "8288",
+    "stop": "60408",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png",
+      "exe45.png"
+    ],
+    "id": "tournament-win-exe4"
+  },
+  {
+    "ostname": "Global Network",
+    "name": "Internet Theme",
+    "files": [
+      "exe4-internet.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4/BN4",
+    "duration": "1:20",
+    "composer": "Toshihiko Horiyama",
+    "places": "Akihara Area 1-3, Town Area 1-4, Park Area 1-3, Amerope Area, Asina Area, Sharo Area, Affrique Area, every generic Comp",
+    "start": "9312",
+    "stop": "80218",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png"
+    ],
+    "id": "internet-theme-exe4"
+  },
+  {
+    "ostname": "Cielo Castillo",
+    "name": "Cielo Castillo",
+    "files": [
+      "exe4-cielocastillo.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4/BN4",
+    "duration": "1:08",
+    "composer": "Toshihiko Horiyama",
+    "places": "Cielo Castillo",
+    "start": "9878",
+    "stop": "67691",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png"
+    ],
+    "id": "cielo-castillo-exe4"
+  },
+  {
+    "ostname": "Dracky's Mansion",
+    "name": "Dracky's Mansion",
+    "files": [
+      "exe4-drackynoyakata.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4/BN4",
+    "duration": "0:18",
+    "composer": "Toshihiko Horiyama",
+    "places": "Dracky's Mansion in Cielo Castillo, the cutscene where Higure tells about Dark Chips",
+    "start": "284",
+    "stop": "18367",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png"
+    ],
+    "id": "dracky-mansion-exe4"
+  },
+  {
+    "ostname": "Story of Wonder",
+    "name": "Toy Robot Comp 1",
+    "files": [
+      "exe4-nuigurumirobodennou1.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4/BN4",
+    "duration": "0:31",
+    "composer": "Toshihiko Horiyama",
+    "places": "Toy Robot Comp 1-3",
+    "start": "942",
+    "stop": "30602",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png"
+    ],
+    "id": "toy-robot-comp-1-exe4"
+  },
+  {
+    "ostname": "Vampire",
+    "name": "Toy Robot Comp 2",
+    "files": [
+      "exe4-nuigurumirobodennou2.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4/BN4",
+    "duration": "0:43",
+    "composer": "Toshihiko Horiyama",
+    "places": "Toy Robot Comp 4",
+    "start": "3164",
+    "stop": "43348",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png"
+    ],
+    "id": "toy-robot-comp-2-exe4"
+  },
+  {
+    "ostname": "Versus",
+    "name": "Pre-Boss Theme",
+    "files": [
+        "exe4-preboss.ogg"
+      ],
+    "author": "K1rbYat1Na",
+    "game": [
+        "EXE4/BN4", 
+        "EXE4.5"
+    ],
+    "duration": "0:17",
+    "composer": "Toshihiko Horiyama",
+    "places": "Cutscenes before fighting a non-tournament boss",
+    "start": "3149",
+    "stop": "16547",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png",
+      "exe45.png"
+    ],
+    "id": "pre-boss-theme-exe4"
+  },
+  {
+    "ostname": "Fighting Oneself",
+    "name": "Boss Battle",
+    "files": [
+        "exe4-boss.ogg"
+      ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4/BN4",
+    "duration": "0:48",
+    "composer": "Toshihiko Horiyama",
+    "places": "Boss Battles",
+    "start": "9644",
+    "stop": "47934",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png"
+    ],
+    "id": "boss-battle-exe4"
+  },
+  {
+    "ostname": "Navi Customizer",
+    "name": "NaviCus",
+    "files": [
+      "exe4-navicus.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4/BN4",
+    "duration": "0:56",
+    "composer": "Toshihiko Horiyama",
+    "places": "Navi Customizer Screen",
+    "start": "8042",
+    "stop": "56255",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png"
+    ],
+    "id": "navicus-exe4"
+  },
+  {
+    "ostname": "Determined Journey",
+    "name": "Foreign Country",
+    "files": [
+      "exe4-world.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4/BN4",
+    "duration": "0:38",
+    "composer": "Toshihiko Horiyama",
+    "places": "Foreign countries (Amerope, Asina, Sharo, Affrique)",
+    "start": "3231",
+    "stop": "37672",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png"
+    ],
+    "id": "foreign-country-exe4"
+  },
+  {
+    "ostname": "Heel's Paradise",
+    "name": "Ura Internet Theme",
+    "files": [
+      "exe4-urainternet.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4/BN4",
+    "duration": "0:38",
+    "composer": "Toshihiko Horiyama",
+    "places": "Ura Internet 1-6, Black Earth 1-2",
+    "start": "6006",
+    "stop": "37593",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png"
+    ],
+    "id": "ura-internet-theme-exe4"
+  },
+  {
+    "ostname": "Sad Rain",
+    "name": "Sad Theme",
+    "files": [
+      "exe4-sad.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4/BN4",
+    "duration": "0:25",
+    "composer": "Toshihiko Horiyama",
+    "places": "Some cutscenes",
+    "start": "2193",
+    "stop": "24795",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png"
+    ],
+    "id": "sad-theme-exe4"
+  },
+  {
+    "ostname": "Under Justice",
+    "name": "Hero Theme",
+    "files": [
+      "exe4-hero.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4/BN4",
+    "duration": "0:30",
+    "composer": "Toshihiko Horiyama",
+    "places": "Some cutscenes",
+    "start": "925",
+    "stop": "30191",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png"
+    ],
+    "id": "hero-theme-exe4"
+  },
+  {
+    "ostname": "Save Our Planet",
+    "name": "Asteroid Comp",
+    "files": [
+      "exe4-ryouwakuseidennou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4/BN4",
+    "duration": "0:50",
+    "composer": "Toshihiko Horiyama",
+    "places": "Asteroid Comp 1-4, Control Area",
+    "start": "3081",
+    "stop": "49559",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png"
+    ],
+    "id": "asteroid-comp-exe4"
+  },
+  {
+    "ostname": "Game Over",
+    "name": "Game Over",
+    "files": [
+      "exe4-gameover.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": [
+        "EXE4/BN4", 
+        "EXE4.5"
+    ],
+    "duration": "0:03",
+    "composer": "Toshihiko Horiyama",
+    "places": "Game Over Screen",
+    "start": "",
+    "stop": "",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png",
+      "exe45.png"
+    ],
+    "id": "game-over-exe4"
+  },
+  {
+    "ostname": "Loser",
+    "name": "Loser Theme",
+    "files": [
+      "exe4-lose.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": [
+        "EXE4/BN4", 
+        "EXE4.5"
+    ],
+    "duration": "0:08",
+    "composer": "Toshihiko Horiyama",
+    "places": "When losing a PvP battle",
+    "start": "2009",
+    "stop": "8439",
+    "disc": "sb5.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png",
+      "exe45.png"
+    ],
+    "id": "loser-theme-exe4"
+  },
+  {
+    "ostname": "VS. Duo",
+    "name": "Final Battle",
+    "files": [
+      "exe4-final.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4/BN4",
+    "duration": "1:16",
+    "composer": "Toshihiko Horiyama",
+    "places": "Duo Battle",
+    "start": "5964",
+    "stop": "75714",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png"
+    ],
+    "id": "final-battle-exe4"
+  },
+  {
+    "ostname": "Your Answer",
+    "name": "Credits Theme",
+    "files": [
+      "exe4-credits.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4/BN4",
+    "duration": "3:10",
+    "composer": "Toshihiko Horiyama",
+    "places": "End Credits",
+    "start": "158269",
+    "stop": "189899",
+    "disc": "sb3.png",
+    "gameimage": [
+      "exe4r.png",
+      "exe4b.png"
+    ],
+    "id": "credits-theme-exe4"
+  },
+  {
+    "ostname": "Introduction",
+    "name": "PET Intro",
+    "files": [
+      "exe45-intro.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:02",
+    "composer": "Toshihiko Horiyama",
+    "places": "Advanced PET II Intro",
+    "start": "",
+    "stop": "",
+    "disc": "sb3.png",
+    "gameimage": "exe45.png",
+    "id": "pet-intro-exe45"
+  },
+  {
+    "ostname": "Theme of ROCKMAN EXE4.5",
+    "name": "Title Theme",
+    "files": [
+      "exe45-title.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:31",
+    "composer": "Toshihiko Horiyama",
+    "places": "Title Screen",
+    "start": "2670",
+    "stop": "31042",
+    "disc": "sb3.png",
+    "gameimage": "exe45.png",
+    "id": "title-theme-exe45"
+  },
+  {
+    "ostname": "PET Display",
+    "name": "Settings Theme",
+    "files": [
+      "exe45-settings.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:09",
+    "composer": "Toshihiko Horiyama",
+    "places": "Settings Screen, Navi Select Screen",
+    "start": "0",
+    "stop": "8607",
+    "disc": "sb3.png",
+    "gameimage": "exe45.png",
+    "id": "settings-theme-exe45"
+  },
+  {
+    "ostname": "Theme of Rockman",
+    "name": "Rockman Theme",
+    "files": [
+      "exe45-rockman.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:19",
+    "composer": "Akari Kaida",
+    "places": "PET Main Screen if the Player's Navi is Rockman",
+    "start": "2729",
+    "stop": "19355",
+    "disc": "sb3.png",
+    "gameimage": "exe45.png",
+    "id": "rockman-theme-exe45"
+  },
+  {
+    "ostname": "Theme of Roll",
+    "name": "Roll Theme",
+    "files": [
+      "exe45-roll.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:21",
+    "composer": "Akari Kaida",
+    "places": "PET Main Screen if the Player's Navi is Roll",
+    "start": "1238",
+    "stop": "20914",
+    "disc": "sb3.png",
+    "gameimage": "exe45.png",
+    "id": "roll-theme-exe45"
+  },
+  {
+    "ostname": "Theme of GutsMan",
+    "name": "GutsMan Theme",
+    "files": [
+      "exe45-gutsman.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:34",
+    "composer": "Toshihiko Horiyama",
+    "places": "PET Main Screen if the Player's Navi is GutsMan",
+    "start": "3165",
+    "stop": "34272",
+    "disc": "sb3.png",
+    "gameimage": "exe45.png",
+    "id": "gutsman-theme-exe45"
+  },
+  {
+    "ostname": "Theme of NumberMan",
+    "name": "NumberMan Theme",
+    "files": [
+      "exe45-numberman.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:24",
+    "composer": "Akari Kaida",
+    "places": "PET Main Screen if the Player's Navi is NumberMan",
+    "start": "2510",
+    "stop": "24429",
+    "disc": "sb3.png",
+    "gameimage": "exe45.png",
+    "id": "numberman-theme-exe45"
+  },
+  {
+    "ostname": "Theme of FireMan",
+    "name": "FireMan Theme",
+    "files": [
+      "exe45-fireman.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:25",
+    "composer": "Toshihiko Horiyama",
+    "places": "PET Main Screen if the Player's Navi is FireMan",
+    "start": "0",
+    "stop": "24511",
+    "disc": "sb3.png",
+    "gameimage": "exe45.png",
+    "id": "fireman-theme-exe45"
+  },
+  {
+    "ostname": "Theme of WoodMan",
+    "name": "WoodMan Theme",
+    "files": [
+      "exe45-woodman.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:17",
+    "composer": "Toshihiko Horiyama",
+    "places": "PET Main Screen if the Player's Navi is WoodMan",
+    "start": "1024",
+    "stop": "17359",
+    "disc": "sb3.png",
+    "gameimage": "exe45.png",
+    "id": "woodman-theme-exe45"
+  },
+  {
+    "ostname": "Theme of WindMan",
+    "name": "WindMan Theme",
+    "files": [
+      "exe45-windman.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:31",
+    "composer": "Toshihiko Horiyama",
+    "places": "PET Main Screen if the Player's Navi is WindMan",
+    "start": "0",
+    "stop": "31111",
+    "disc": "sb3.png",
+    "gameimage": "exe45.png",
+    "id": "windman-theme-exe45"
+  },
+  {
+    "ostname": "Theme of SearchMan",
+    "name": "SearchMan Theme",
+    "files": [
+      "exe45-searchman.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:32",
+    "composer": "Akari Kaida",
+    "places": "PET Main Screen if the Player's Navi is SearchMan",
+    "start": "2894",
+    "stop": "32413",
+    "disc": "sb3.png",
+    "gameimage": "exe45.png",
+    "id": "searchman-theme-exe45"
+  },
+  {
+    "ostname": "Theme of AquaMan",
+    "name": "AquaMan Theme",
+    "files": [
+      "exe45-aquaman.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:28",
+    "composer": "Akari Kaida",
+    "places": "PET Main Screen if the Player's Navi is AquaMan",
+    "start": "10752",
+    "stop": "27982",
+    "disc": "sb3.png",
+    "gameimage": "exe45.png",
+    "id": "aquaman-theme-exe45"
+  },
+  {
+    "ostname": "Theme of ThunderMan",
+    "name": "ThunderMan Theme",
+    "files": [
+      "exe45-thunderman.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:23",
+    "composer": "Akari Kaida",
+    "places": "PET Main Screen if the Player's Navi is ThunderMan",
+    "start": "1805",
+    "stop": "23419",
+    "disc": "sb3.png",
+    "gameimage": "exe45.png",
+    "id": "thunderman-theme-exe45"
+  },
+  {
+    "ostname": "Theme of MetalMan",
+    "name": "MetalMan Theme",
+    "files": [
+      "exe45-metalman.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:34",
+    "composer": "Toshihiko Horiyama",
+    "places": "PET Main Screen if the Player's Navi is MetalMan",
+    "start": "0",
+    "stop": "33837",
+    "disc": "sb3.png",
+    "gameimage": "exe45.png",
+    "id": "metalman-theme-exe45"
+  },
+  {
+    "ostname": "Theme of JunkMan",
+    "name": "JunkMan Theme",
+    "files": [
+      "exe45-junkman.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:34",
+    "composer": "Toshihiko Horiyama",
+    "places": "PET Main Screen if the Player's Navi is JunkMan",
+    "start": "0",
+    "stop": "33842",
+    "disc": "sb3.png",
+    "gameimage": "exe45.png",
+    "id": "junkman-theme-exe45"
+  },
+  {
+    "ostname": "Theme of Blues",
+    "name": "Blues Theme",
+    "files": [
+      "exe45-blues.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:29",
+    "composer": "Toshihiko Horiyama",
+    "places": "PET Main Screen if the Player's Navi is Blues",
+    "start": "7987",
+    "stop": "29417",
+    "disc": "sb3.png",
+    "gameimage": "exe45.png",
+    "id": "blues-theme-exe45"
+  },
+  {
+    "ostname": "Theme of StarMan",
+    "name": "StarMan Theme",
+    "files": [
+      "exe45-starman.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:33",
+    "composer": "Toshihiko Horiyama",
+    "places": "PET Main Screen if the Player's Navi is StarMan",
+    "start": "1924",
+    "stop": "32539",
+    "disc": "sb3.png",
+    "gameimage": "exe45.png",
+    "id": "starman-theme-exe45"
+  },
+  {
+    "ostname": "Theme of NapalmMan",
+    "name": "NapalmMan Theme",
+    "files": [
+      "exe45-napalmman.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:33",
+    "composer": "Toshihiko Horiyama",
+    "places": "PET Main Screen if the Player's Navi is NapalmMan",
+    "start": "0",
+    "stop": "33251",
+    "disc": "sb3.png",
+    "gameimage": "exe45.png",
+    "id": "napalmman-theme-exe45"
+  },
+  {
+    "ostname": "Theme of IceMan",
+    "name": "IceMan Theme",
+    "files": [
+      "exe45-iceman.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:25",
+    "composer": "Toshihiko Horiyama",
+    "places": "PET Main Screen if the Player's Navi is IceMan",
+    "start": "1005",
+    "stop": "25114",
+    "disc": "sb3.png",
+    "gameimage": "exe45.png",
+    "id": "iceman-theme-exe45"
+  },
+  {
+    "ostname": "Theme of ElecMan",
+    "name": "ElecMan Theme",
+    "files": [
+      "exe45-elecman.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:47",
+    "composer": "Toshihiko Horiyama",
+    "places": "PET Main Screen if the Player's Navi is ElecMan",
+    "start": "951",
+    "stop": "46876",
+    "disc": "sb3.png",
+    "gameimage": "exe45.png",
+    "id": "elecman-theme-exe45"
+  },
+  {
+    "ostname": "Theme of PlantMan",
+    "name": "PlantMan Theme",
+    "files": [
+      "exe45-plantman.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:17",
+    "composer": "Toshihiko Horiyama",
+    "places": "PET Main Screen if the Player's Navi is PlantMan",
+    "start": "0",
+    "stop": "16927",
+    "disc": "sb3.png",
+    "gameimage": "exe45.png",
+    "id": "plantman-theme-exe45"
+  },
+  {
+    "ostname": "Theme of KnightMan",
+    "name": "KnightMan Theme",
+    "files": [
+      "exe45-knightman.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:33",
+    "composer": "Toshihiko Horiyama",
+    "places": "PET Main Screen if the Player's Navi is KnightMan",
+    "start": "0",
+    "stop": "32682",
+    "disc": "sb3.png",
+    "gameimage": "exe45.png",
+    "id": "knightman-theme-exe45"
+  },
+  {
+    "ostname": "Theme of ShadowMan",
+    "name": "ShadowMan Theme",
+    "files": [
+      "exe45-shadowman.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:24",
+    "composer": "Toshihiko Horiyama",
+    "places": "PET Main Screen if the Player's Navi is ShadowMan",
+    "start": "0",
+    "stop": "24110",
+    "disc": "sb3.png",
+    "gameimage": "exe45.png",
+    "id": "shadowman-theme-exe45"
+  },
+  {
+    "ostname": "Theme of Forte",
+    "name": "Forte Theme",
+    "files": [
+      "exe45-forte.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:51",
+    "composer": "Toshihiko Horiyama",
+    "places": "PET Main Screen if the Player's Navi is Forte",
+    "start": "6697",
+    "stop": "51350",
+    "disc": "sb3.png",
+    "gameimage": "exe45.png",
+    "id": "forte-theme-exe45"
+  },
+  {
+    "ostname": "Life in the Network",
+    "name": "Internet Theme",
+    "files": [
+      "exe45-internet.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:56",
+    "composer": "Toshihiko Horiyama",
+    "places": "Internet 1-12, every generic Comp",
+    "start": "0",
+    "stop": "55640",
+    "disc": "sb4.png",
+    "gameimage": "exe45.png",
+    "id": "internet-theme-exe45"
+  },
+  {
+    "ostname": "Battlefield",
+    "name": "Virus Battle",
+    "files": [
+      "exe45-virus.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:35",
+    "composer": "Toshihiko Horiyama",
+    "places": "Virus Battles",
+    "start": "1759",
+    "stop": "34778",
+    "disc": "sb4.png",
+    "gameimage": "exe45.png",
+    "id": "virus-battle-exe45"
+  },
+  {
+    "ostname": "Lecture",
+    "name": "Minigame Tutorial",
+    "files": [
+      "exe45-tutorial.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:12",
+    "composer": "Toshihiko Horiyama",
+    "places": "Minigame Tutorials",
+    "start": "4152",
+    "stop": "12474",
+    "disc": "sb4.png",
+    "gameimage": "exe45.png",
+    "id": "minigame-tutorial-exe45"
+  },
+  {
+    "ostname": "Calculation Drill",
+    "name": "NumberMan Minigame",
+    "files": [
+      "exe45-numbergame.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:20",
+    "composer": "Toshihiko Horiyama",
+    "places": "NumberMan's Minigame",
+    "start": "1944",
+    "stop": "19809",
+    "disc": "sb4.png",
+    "gameimage": "exe45.png",
+    "id": "numberman-minigame-exe45"
+  },
+  {
+    "ostname": "Awaken the Wind!",
+    "name": "WindMan Minigame",
+    "files": [
+      "exe45-windgame.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:06",
+    "composer": "Toshihiko Horiyama",
+    "places": "WindMan's Minigame",
+    "start": "0",
+    "stop": "6347",
+    "disc": "sb4.png",
+    "gameimage": "exe45.png",
+    "id": "windman-minigame-exe45"
+  },
+  {
+    "ostname": "Search Mission",
+    "name": "SearchMan Minigame",
+    "files": [
+      "exe45-searchgame.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:24",
+    "composer": "Toshihiko Horiyama",
+    "places": "SearchMan's Minigame",
+    "start": "2276",
+    "stop": "23841",
+    "disc": "sb4.png",
+    "gameimage": "exe45.png",
+    "id": "searchman-minigame-exe45"
+  },
+  {
+    "ostname": "Metal Shooting!",
+    "name": "MetalMan Minigame",
+    "files": [
+      "exe45-metalgame.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:28",
+    "composer": "Toshihiko Horiyama",
+    "places": "MetalMan's Minigame",
+    "start": "0",
+    "stop": "27559",
+    "disc": "sb4.png",
+    "gameimage": "exe45.png",
+    "id": "metalman-minigame-exe45"
+  },
+  {
+    "ostname": "Napalm Bomb!",
+    "name": "NapalmMan Minigame",
+    "files": [
+      "exe45-napalmgame.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:27",
+    "composer": "Toshihiko Horiyama",
+    "places": "NapalmMan's Minigame",
+    "start": "0",
+    "stop": "26788",
+    "disc": "sb4.png",
+    "gameimage": "exe45.png",
+    "id": "napalmman-minigame-exe45"
+  },
+  {
+    "ostname": "Ice Puzzle",
+    "name": "IceMan Minigame",
+    "files": [
+      "exe45-icegame.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:23",
+    "composer": "Toshihiko Horiyama",
+    "places": "IceMan's Minigame",
+    "start": "0",
+    "stop": "22603",
+    "disc": "sb4.png",
+    "gameimage": "exe45.png",
+    "id": "iceman-minigame-exe45"
+  },
+  {
+    "ostname": "Tournament Under Way",
+    "name": "Tournament AI Demo",
+    "files": [
+      "exe45-tournament-aidemo.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:13",
+    "composer": "Toshihiko Horiyama",
+    "places": "when two AI opponents fight each other in a tournament",
+    "start": "0",
+    "stop": "13396",
+    "disc": "sb4.png",
+    "gameimage": "exe45.png",
+    "id": "tournament-ai-demo-exe45"
+  },
+  {
+    "ostname": "Tournament Battle",
+    "name": "Tournament Battle",
+    "files": [
+      "exe45-tournament.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:39",
+    "composer": "Toshihiko Horiyama",
+    "places": "Tournament Battles (not final)",
+    "start": "6826",
+    "stop": "38977",
+    "disc": "sb4.png",
+    "gameimage": "exe45.png",
+    "id": "tournament-ai-demo-exe45"
+  },
+  {
+    "ostname": "Deep Inside",
+    "name": "Ura Internet Theme",
+    "files": [
+      "exe45-urainternet.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:45",
+    "composer": "Toshihiko Horiyama",
+    "places": "Ura Internet 1-4",
+    "start": "592",
+    "stop": "45087",
+    "disc": "sb4.png",
+    "gameimage": "exe45.png",
+    "id": "ura-internet-theme-exe45"
+  },
+  {
+    "ostname": "Chaos Area",
+    "name": "Chaos Area",
+    "files": [
+      "exe45-chaosarea.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:45",
+    "composer": "Toshihiko Horiyama",
+    "places": "Chaos Area 1-2",
+    "start": "719",
+    "stop": "55306",
+    "disc": "sb4.png",
+    "gameimage": "exe45.png",
+    "id": "chaos-area-exe45"
+  },
+  {
+    "ostname": "Fighter's Soul",
+    "name": "Boss Battle",
+    "files": [
+      "exe45-boss.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:49",
+    "composer": "Toshihiko Horiyama",
+    "places": "Boss Battles, Final Tournament Battles",
+    "start": "5512",
+    "stop": "49093",
+    "disc": "sb4.png",
+    "gameimage": "exe45.png",
+    "id": "boss-battle-exe45"
+  },
+  {
+    "ostname": "Champion!",
+    "name": "Official Tournament Win",
+    "files": [
+      "exe45-champion.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "0:46",
+    "composer": "Toshihiko Horiyama",
+    "places": "winning the Official Tournament",
+    "start": "16442",
+    "stop": "45658",
+    "disc": "sb4.png",
+    "gameimage": "exe45.png",
+    "id": "official-tournament-win-exe45"
+  },
+  {
+    "ostname": "All Cast",
+    "name": "Credits Theme",
+    "files": [
+      "exe45-credits.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE4.5",
+    "duration": "3:54",
+    "composer": "Toshihiko Horiyama",
+    "places": "End Credits",
+    "start": "16398",
+    "stop": "234148",
+    "disc": "sb4.png",
+    "gameimage": "exe45.png",
+    "id": "credits-theme-exe45"
+  },
+  {
+    "ostname": "THEME OF ROCKMAN EXEPON",
+    "name": "Title Theme/Hero Theme",
     "files": [
       "exepon-title.ogg"
     ],
@@ -1527,7 +3034,7 @@ let allMusic = [
     "places": "Title Screen, some cutscenes (as Hero Theme)",
     "start": "0",
     "stop": "27428",
-    "disc": "disc-p&lon.png",
+    "disc": "pon&lon.png",
     "gameimage": "exepon.png",
     "id": "title-theme-exepon"
   },
@@ -1548,7 +3055,7 @@ let allMusic = [
     "places": "Overworld",
     "start": "0",
     "stop": "53996",
-    "disc": "disc-p&lon.png",
+    "disc": "pon&lon.png",
     "gameimage": "exepon.png",
     "id": "akihara-town-exepon"
   },
@@ -1568,7 +3075,7 @@ let allMusic = [
     "places": "Overworld (when an incident has occurred)",
     "start": "311",
     "stop": "5188",
-    "disc": "disc-p&lon.png",
+    "disc": "pon&lon.png",
     "gameimage": "exepon.png",
     "id": "incident-occurrence-exepon"
   },
@@ -1589,7 +3096,7 @@ let allMusic = [
     "places": "Cyberworld",
     "start": "0",
     "stop": "39448",
-    "disc": "disc-p&lon.png",
+    "disc": "pon&lon.png",
     "gameimage": "exepon.png",
     "id": "internet-theme-exepon"
   },
@@ -1610,7 +3117,7 @@ let allMusic = [
     "places": "Virus Battles",
     "start": "2060",
     "stop": "48400",
-    "disc": "disc-p&lon.png",
+    "disc": "pon&lon.png",
     "gameimage": "exepon.png",
     "id": "virus-battle-exepon"
   },
@@ -1631,7 +3138,7 @@ let allMusic = [
     "places": "Boss Battles",
     "start": "900",
     "stop": "39300",
-    "disc": "disc-p&lon.png",
+    "disc": "pon&lon.png",
     "gameimage": "exepon.png",
     "id": "boss-battle-exepon"
   },
@@ -1652,7 +3159,7 @@ let allMusic = [
     "places": "Cache Server Comp 1-5",
     "start": "1026",
     "stop": "40473",
-    "disc": "disc-p&lon.png",
+    "disc": "pon&lon.png",
     "gameimage": "exepon.png",
     "id": "cache-server-comp-exepon"
   },
@@ -1673,13 +3180,13 @@ let allMusic = [
     "places": "Cache 2nd Battle",
     "start": "2325",
     "stop": "39479",
-    "disc": "disc-p&lon.png",
+    "disc": "pon&lon.png",
     "gameimage": "exepon.png",
     "id": "final-battle-exepon"
   },
   {
     "ostname": "main theme arrangement",
-    "name": "Credits Theme",
+    "name": "Credits Theme/Sad Theme",
     "files": [
       "exepon-credits.ogg"
     ],
@@ -1693,1292 +3200,10 @@ let allMusic = [
     "places": "End Credits, some cutscenes (as Sad Theme)",
     "start": "0",
     "stop": "42918",
-    "disc": "disc-p&lon.png",
+    "disc": "pon&lon.png",
     "duration": "0:43",
     "gameimage": "exepon.png",
     "id": "credits-theme-exepon"
-  },
-  {
-    "ostname": "Theme of ROCKMAN EXE4",
-    "name": "Title Theme",
-    "files": [
-      "exe4-title.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
-    "duration": "0:30",
-    "composer": "Toshihiko Horiyama",
-    "places": "Title Screen",
-    "start": "1800",
-    "stop": "29870",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "title-theme-exe4"
-  },
-  {
-    "ostname": "ANSA",
-    "name": "ANSA",
-    "files": [
-      "exe4-ansa.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
-    "duration": "1:34",
-    "composer": "Toshihiko Horiyama",
-    "places": "Ameropean International Space Agency (ANSA)",
-    "start": "4222",
-    "stop": "93929",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "ansa-exe4"
-  },
-  {
-    "ostname": "Hometown",
-    "name": "Akihara Town",
-    "files": [
-      "exe4-hometown.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
-    "duration": "1:06",
-    "composer": "Toshihiko Horiyama",
-    "places": "Akihara Town",
-    "start": "0",
-    "stop": "65914",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "akihara-town-exe4"
-  },
-  {
-    "ostname": "Indoors",
-    "name": "Indoors Theme",
-    "files": [
-      "exe4-indoors.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
-    "duration": "0:29",
-    "composer": "Toshihiko Horiyama",
-    "places": "Akihara Town (indoors)",
-    "start": "0",
-    "stop": "29223",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "indoors-theme-exe4"
-  },
-  {
-    "ostname": "Denki Town",
-    "name": "Denki Town",
-    "files": [
-      "exe4-denkigai.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
-    "duration": "0:34",
-    "composer": "Toshihiko Horiyama",
-    "places": "Denki Town",
-    "start": "7818",
-    "stop": "33535",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "denki-town-exe4"
-  },
-  {
-    "ostname": "Incident Occurrence!",
-    "name": "Incident Occurrence",
-    "files": [
-      "exe4-incident.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
-    "duration": "0:15",
-    "composer": "Toshihiko Horiyama",
-    "places": "Overworld (when an incident has occurred; post-game)",
-    "start": "2645",
-    "stop": "15175",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "incident-occurrence-exe4"
-  },
-  {
-    "ostname": "Transmission!",
-    "name": "Plug-in Transition",
-    "files": [
-      "exe4-plugin.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": [
-        "EXE4/BN4", 
-        "EXE4.5"
-    ],
-    "duration": "0:03",
-    "composer": "Toshihiko Horiyama",
-    "places": "During the Plug-in transition",
-    "start": "",
-    "stop": "",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "plug-in-transition-exeoss"
-  },
-  {
-    "ostname": "Invisible Wing",
-    "name": "Radio Tower Comp",
-    "files": [
-      "exe4-denpatoudennou.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
-    "duration": "0:29",
-    "composer": "Toshihiko Horiyama",
-    "places": "Radio Tower Comp 1-2",
-    "start": "0",
-    "stop": "29233",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "radio-tower-comp-exe4"
-  },
-  {
-    "ostname": "Cyber Battle",
-    "name": "Virus Battle",
-    "files": [
-      "exe4-virus.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
-    "duration": "0:32",
-    "composer": "Toshihiko Horiyama",
-    "places": "Virus Battles",
-    "start": "6846",
-    "stop": "31577",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "virus-battle-exe4"
-  },
-  {
-    "ostname": "Cyber Battle (unused)",
-    "name": "Virus Battle (unused)",
-    "files": [
-      "exe4-virus-alt.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
-    "duration": "0:32",
-    "composer": "Toshihiko Horiyama",
-    "places": "?",
-    "start": "6846",
-    "stop": "31577",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "virus-battle-unused-exe4"
-  },
-  {
-    "ostname": "Enemy Deleted!",
-    "name": "Results Theme",
-    "files": [
-      "exe4-win.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": [
-        "EXE4/BN4", 
-        "EXE4.5"
-    ],
-    "duration": "0:10",
-    "composer": "Toshihiko Horiyama",
-    "places": "when winning a battle with the Results screen",
-    "start": "3431",
-    "stop": "10212",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "results-theme-exe4"
-  },
-  {
-    "ostname": "Enemy Deleted! (short)",
-    "name": "Results Theme (short)",
-    "files": [
-      "exe4-win.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": [
-        "EXE4/BN4", 
-        "EXE4.5"
-    ],
-    "duration": "0:02",
-    "composer": "Toshihiko Horiyama",
-    "places": "when winning a battle without the Results screen",
-    "start": "",
-    "stop": "",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "results-theme-short-exe4"
-  },
-  {
-    "ostname": "Silent Darkness",
-    "name": "Enemy Dialogue",
-    "files": [
-      "exe4-enemytalk.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
-    "duration": "1:04",
-    "composer": "Toshihiko Horiyama",
-    "places": "Some cutscenes",
-    "start": "0",
-    "stop": "64292",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "enemy-dialogue-exe4"
-  },
-  {
-    "ostname": "Densan Stadium",
-    "name": "Densan Dome",
-    "files": [
-      "exe4-densandome.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
-    "duration": "0:35",
-    "composer": "Toshihiko Horiyama",
-    "places": "Densan Dome",
-    "start": "854",
-    "stop": "35294",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "densan-dome-exe4"
-  },
-  {
-    "ostname": "Player Admission",
-    "name": "Tournament Intro",
-    "files": [
-      "exe4-tournament-intro.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": [
-        "EXE4/BN4", 
-        "EXE4.5"
-    ],
-    "duration": "0:14",
-    "composer": "Toshihiko Horiyama",
-    "places": "Tournament Status Screen (EXE4 and EXE4.5), cutscenes before starting of a tournament battle (EXE4 only)",
-    "start": "0",
-    "stop": "13963",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "tournament-intro-exe4"
-  },
-  {
-    "ostname": "Battle Pressure",
-    "name": "Tournament Battle",
-    "files": [
-      "exe4-tournament.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
-    "duration": "0:59",
-    "composer": "Toshihiko Horiyama",
-    "places": "Tournament Battles",
-    "start": "6898",
-    "stop": "58550",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "tournament-battle-exe4"
-  },
-  {
-    "ostname": "Great Victory!",
-    "name": "Tournament Win",
-    "files": [
-      "exe4-tournament-win.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": [
-        "EXE4/BN4", 
-        "EXE4.5"
-    ],
-    "duration": "1:00",
-    "composer": "Toshihiko Horiyama",
-    "places": "winning a tournament (a non-main tournament in EXE4.5)",
-    "start": "8288",
-    "stop": "60408",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "tournament-win-exe4"
-  },
-  {
-    "ostname": "Global Network",
-    "name": "Internet Theme",
-    "files": [
-      "exe4-internet.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
-    "duration": "1:20",
-    "composer": "Toshihiko Horiyama",
-    "places": "Akihara Area 1-3, Town Area 1-4, Park Area 1-3, Amerope Area, Asina Area, Sharo Area, Affrique Area, every generic Comp",
-    "start": "9312",
-    "stop": "80218",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "internet-theme-exe4"
-  },
-  {
-    "ostname": "Cielo Castillo",
-    "name": "Cielo Castillo",
-    "files": [
-      "exe4-cielocastillo.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
-    "duration": "1:08",
-    "composer": "Toshihiko Horiyama",
-    "places": "Cielo Castillo",
-    "start": "9878",
-    "stop": "67691",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "cielo-castillo-exe4"
-  },
-  {
-    "ostname": "Dracky's Mansion",
-    "name": "Dracky's Mansion",
-    "files": [
-      "exe4-drackynoyakata.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
-    "duration": "0:18",
-    "composer": "Toshihiko Horiyama",
-    "places": "Dracky's Mansion in Cielo Castillo, the cutscene where Higure tells about Dark Chips",
-    "start": "284",
-    "stop": "18367",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "dracky-mansion-exe4"
-  },
-  {
-    "ostname": "Story of Wonder",
-    "name": "Toy Robot Comp 1",
-    "files": [
-      "exe4-nuigurumirobodennou1.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
-    "duration": "0:31",
-    "composer": "Toshihiko Horiyama",
-    "places": "Toy Robot Comp 1-3",
-    "start": "942",
-    "stop": "30602",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "toy-robot-comp-1-exe4"
-  },
-  {
-    "ostname": "Vampire",
-    "name": "Toy Robot Comp 2",
-    "files": [
-      "exe4-nuigurumirobodennou2.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
-    "duration": "0:43",
-    "composer": "Toshihiko Horiyama",
-    "places": "Toy Robot Comp 4",
-    "start": "3164",
-    "stop": "43348",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "toy-robot-comp-2-exe4"
-  },
-  {
-    "ostname": "Versus",
-    "name": "Pre-Boss Theme",
-    "files": [
-        "exe4-preboss.ogg"
-      ],
-    "author": "K1rbYat1Na",
-    "game": [
-        "EXE4/BN4", 
-        "EXE4.5"
-    ],
-    "duration": "0:17",
-    "composer": "Toshihiko Horiyama",
-    "places": "Cutscenes before fighting a non-tournament boss",
-    "start": "3149",
-    "stop": "16547",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "pre-boss-theme-exe4"
-  },
-  {
-    "ostname": "Fighting Oneself",
-    "name": "Boss Battle",
-    "files": [
-        "exe4-boss.ogg"
-      ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
-    "duration": "0:48",
-    "composer": "Toshihiko Horiyama",
-    "places": "Boss Battles",
-    "start": "9644",
-    "stop": "47934",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "boss-battle-exe4"
-  },
-  {
-    "ostname": "Navi Customizer",
-    "name": "NaviCus",
-    "files": [
-      "exe4-navicus.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
-    "duration": "0:56",
-    "composer": "Toshihiko Horiyama",
-    "places": "Navi Customizer Screen",
-    "start": "8042",
-    "stop": "56255",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "navicus-exe4"
-  },
-  {
-    "ostname": "Determined Journey",
-    "name": "Foreign Country",
-    "files": [
-      "exe4-world.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
-    "duration": "0:38",
-    "composer": "Toshihiko Horiyama",
-    "places": "Foreign countries (Amerope, Asina, Sharo, Affrique)",
-    "start": "3231",
-    "stop": "37672",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "foreign-country-exe4"
-  },
-  {
-    "ostname": "Heel's Paradise",
-    "name": "Ura Internet Theme",
-    "files": [
-      "exe4-urainternet.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
-    "duration": "0:38",
-    "composer": "Toshihiko Horiyama",
-    "places": "Ura Internet 1-6, Black Earth 1-2",
-    "start": "6006",
-    "stop": "37593",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "ura-internet-theme-exe4"
-  },
-  {
-    "ostname": "Sad Rain",
-    "name": "Sad Theme",
-    "files": [
-      "exe4-sad.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
-    "duration": "0:25",
-    "composer": "Toshihiko Horiyama",
-    "places": "Some cutscenes",
-    "start": "2193",
-    "stop": "24795",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "sad-theme-exe4"
-  },
-  {
-    "ostname": "Under Justice",
-    "name": "Hero Theme",
-    "files": [
-      "exe4-hero.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
-    "duration": "0:30",
-    "composer": "Toshihiko Horiyama",
-    "places": "Some cutscenes",
-    "start": "925",
-    "stop": "30191",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "hero-theme-exe4"
-  },
-  {
-    "ostname": "Save Our Planet",
-    "name": "Asteroid Comp",
-    "files": [
-      "exe4-ryouwakuseidennou.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
-    "duration": "0:50",
-    "composer": "Toshihiko Horiyama",
-    "places": "Asteroid Comp 1-4, Control Area",
-    "start": "3081",
-    "stop": "49559",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "asteroid-comp-exe4"
-  },
-  {
-    "ostname": "Game Over",
-    "name": "Game Over",
-    "files": [
-      "exe4-gameover.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": [
-        "EXE4/BN4", 
-        "EXE4.5"
-    ],
-    "duration": "0:03",
-    "composer": "Toshihiko Horiyama",
-    "places": "Game Over Screen",
-    "start": "",
-    "stop": "",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "game-over-exe4"
-  },
-  {
-    "ostname": "Loser",
-    "name": "Loser Theme",
-    "files": [
-      "exe4-lose.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": [
-        "EXE4/BN4", 
-        "EXE4.5"
-    ],
-    "duration": "0:08",
-    "composer": "Toshihiko Horiyama",
-    "places": "When losing a PvP battle",
-    "start": "2009",
-    "stop": "8439",
-    "disc": "disc5.png",
-    "gameimage": "exe4.png",
-    "id": "loser-theme-exe4"
-  },
-  {
-    "ostname": "VS. Duo",
-    "name": "Final Battle",
-    "files": [
-      "exe4-final.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
-    "duration": "1:16",
-    "composer": "Toshihiko Horiyama",
-    "places": "Duo Battle",
-    "start": "5964",
-    "stop": "75714",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "final-battle-exe4"
-  },
-  {
-    "ostname": "Your Answer",
-    "name": "Credits Theme",
-    "files": [
-      "exe4-credits.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4/BN4",
-    "duration": "3:10",
-    "composer": "Toshihiko Horiyama",
-    "places": "End Credits",
-    "start": "158269",
-    "stop": "189899",
-    "disc": "disc3.png",
-    "gameimage": "exe4.png",
-    "id": "credits-theme-exe4"
-  },
-  {
-    "ostname": "Introduction",
-    "name": "PET Intro",
-    "files": [
-      "exe45-intro.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:02",
-    "composer": "Toshihiko Horiyama",
-    "places": "Advanced PET II Intro",
-    "start": "",
-    "stop": "",
-    "disc": "disc3.png",
-    "gameimage": "exe45.png",
-    "id": "pet-intro-exe45"
-  },
-  {
-    "ostname": "Theme of ROCKMAN EXE4.5",
-    "name": "Title Theme",
-    "files": [
-      "exe45-title.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:31",
-    "composer": "Toshihiko Horiyama",
-    "places": "Title Screen",
-    "start": "2670",
-    "stop": "31042",
-    "disc": "disc3.png",
-    "gameimage": "exe45.png",
-    "id": "title-theme-exe45"
-  },
-  {
-    "ostname": "PET Display",
-    "name": "Settings Theme",
-    "files": [
-      "exe45-settings.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:09",
-    "composer": "Toshihiko Horiyama",
-    "places": "Settings Screen, Navi Select Screen",
-    "start": "0",
-    "stop": "8607",
-    "disc": "disc3.png",
-    "gameimage": "exe45.png",
-    "id": "settings-theme-exe45"
-  },
-  {
-    "ostname": "Theme of Rockman",
-    "name": "Rockman Theme",
-    "files": [
-      "exe45-rockman.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:19",
-    "composer": "Akari Kaida",
-    "places": "PET Main Screen if the Player's Navi is Rockman",
-    "start": "2729",
-    "stop": "19355",
-    "disc": "disc3.png",
-    "gameimage": "exe45.png",
-    "id": "rockman-theme-exe45"
-  },
-  {
-    "ostname": "Theme of Roll",
-    "name": "Roll Theme",
-    "files": [
-      "exe45-roll.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:21",
-    "composer": "Akari Kaida",
-    "places": "PET Main Screen if the Player's Navi is Roll",
-    "start": "1238",
-    "stop": "20914",
-    "disc": "disc3.png",
-    "gameimage": "exe45.png",
-    "id": "roll-theme-exe45"
-  },
-  {
-    "ostname": "Theme of GutsMan",
-    "name": "GutsMan Theme",
-    "files": [
-      "exe45-gutsman.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:34",
-    "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is GutsMan",
-    "start": "3165",
-    "stop": "34272",
-    "disc": "disc3.png",
-    "gameimage": "exe45.png",
-    "id": "gutsman-theme-exe45"
-  },
-  {
-    "ostname": "Theme of NumberMan",
-    "name": "NumberMan Theme",
-    "files": [
-      "exe45-numberman.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:24",
-    "composer": "Akari Kaida",
-    "places": "PET Main Screen if the Player's Navi is NumberMan",
-    "start": "2510",
-    "stop": "24429",
-    "disc": "disc3.png",
-    "gameimage": "exe45.png",
-    "id": "numberman-theme-exe45"
-  },
-  {
-    "ostname": "Theme of FireMan",
-    "name": "FireMan Theme",
-    "files": [
-      "exe45-fireman.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:25",
-    "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is FireMan",
-    "start": "0",
-    "stop": "24511",
-    "disc": "disc3.png",
-    "gameimage": "exe45.png",
-    "id": "fireman-theme-exe45"
-  },
-  {
-    "ostname": "Theme of WoodMan",
-    "name": "WoodMan Theme",
-    "files": [
-      "exe45-woodman.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:17",
-    "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is WoodMan",
-    "start": "1024",
-    "stop": "17359",
-    "disc": "disc3.png",
-    "gameimage": "exe45.png",
-    "id": "woodman-theme-exe45"
-  },
-  {
-    "ostname": "Theme of WindMan",
-    "name": "WindMan Theme",
-    "files": [
-      "exe45-windman.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:31",
-    "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is WindMan",
-    "start": "0",
-    "stop": "31111",
-    "disc": "disc3.png",
-    "gameimage": "exe45.png",
-    "id": "windman-theme-exe45"
-  },
-  {
-    "ostname": "Theme of SearchMan",
-    "name": "SearchMan Theme",
-    "files": [
-      "exe45-searchman.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:32",
-    "composer": "Akari Kaida",
-    "places": "PET Main Screen if the Player's Navi is SearchMan",
-    "start": "2894",
-    "stop": "32413",
-    "disc": "disc3.png",
-    "gameimage": "exe45.png",
-    "id": "searchman-theme-exe45"
-  },
-  {
-    "ostname": "Theme of AquaMan",
-    "name": "AquaMan Theme",
-    "files": [
-      "exe45-aquaman.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:28",
-    "composer": "Akari Kaida",
-    "places": "PET Main Screen if the Player's Navi is AquaMan",
-    "start": "10752",
-    "stop": "27982",
-    "disc": "disc3.png",
-    "gameimage": "exe45.png",
-    "id": "aquaman-theme-exe45"
-  },
-  {
-    "ostname": "Theme of ThunderMan",
-    "name": "ThunderMan Theme",
-    "files": [
-      "exe45-thunderman.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:23",
-    "composer": "Akari Kaida",
-    "places": "PET Main Screen if the Player's Navi is ThunderMan",
-    "start": "1805",
-    "stop": "23419",
-    "disc": "disc3.png",
-    "gameimage": "exe45.png",
-    "id": "thunderman-theme-exe45"
-  },
-  {
-    "ostname": "Theme of MetalMan",
-    "name": "MetalMan Theme",
-    "files": [
-      "exe45-metalman.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:34",
-    "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is MetalMan",
-    "start": "0",
-    "stop": "33837",
-    "disc": "disc3.png",
-    "gameimage": "exe45.png",
-    "id": "metalman-theme-exe45"
-  },
-  {
-    "ostname": "Theme of JunkMan",
-    "name": "JunkMan Theme",
-    "files": [
-      "exe45-junkman.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:34",
-    "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is JunkMan",
-    "start": "0",
-    "stop": "33842",
-    "disc": "disc3.png",
-    "gameimage": "exe45.png",
-    "id": "junkman-theme-exe45"
-  },
-  {
-    "ostname": "Theme of Blues",
-    "name": "Blues Theme",
-    "files": [
-      "exe45-blues.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:29",
-    "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is Blues",
-    "start": "7987",
-    "stop": "29417",
-    "disc": "disc3.png",
-    "gameimage": "exe45.png",
-    "id": "blues-theme-exe45"
-  },
-  {
-    "ostname": "Theme of StarMan",
-    "name": "StarMan Theme",
-    "files": [
-      "exe45-starman.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:33",
-    "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is StarMan",
-    "start": "1924",
-    "stop": "32539",
-    "disc": "disc3.png",
-    "gameimage": "exe45.png",
-    "id": "starman-theme-exe45"
-  },
-  {
-    "ostname": "Theme of NapalmMan",
-    "name": "NapalmMan Theme",
-    "files": [
-      "exe45-napalmman.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:33",
-    "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is NapalmMan",
-    "start": "0",
-    "stop": "33251",
-    "disc": "disc3.png",
-    "gameimage": "exe45.png",
-    "id": "napalmman-theme-exe45"
-  },
-  {
-    "ostname": "Theme of IceMan",
-    "name": "IceMan Theme",
-    "files": [
-      "exe45-iceman.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:25",
-    "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is IceMan",
-    "start": "1005",
-    "stop": "25114",
-    "disc": "disc3.png",
-    "gameimage": "exe45.png",
-    "id": "iceman-theme-exe45"
-  },
-  {
-    "ostname": "Theme of ElecMan",
-    "name": "ElecMan Theme",
-    "files": [
-      "exe45-elecman.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:47",
-    "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is ElecMan",
-    "start": "951",
-    "stop": "46876",
-    "disc": "disc3.png",
-    "gameimage": "exe45.png",
-    "id": "elecman-theme-exe45"
-  },
-  {
-    "ostname": "Theme of PlantMan",
-    "name": "PlantMan Theme",
-    "files": [
-      "exe45-plantman.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:17",
-    "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is PlantMan",
-    "start": "0",
-    "stop": "16927",
-    "disc": "disc3.png",
-    "gameimage": "exe45.png",
-    "id": "plantman-theme-exe45"
-  },
-  {
-    "ostname": "Theme of KnightMan",
-    "name": "KnightMan Theme",
-    "files": [
-      "exe45-knightman.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:33",
-    "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is KnightMan",
-    "start": "0",
-    "stop": "32682",
-    "disc": "disc3.png",
-    "gameimage": "exe45.png",
-    "id": "knightman-theme-exe45"
-  },
-  {
-    "ostname": "Theme of ShadowMan",
-    "name": "ShadowMan Theme",
-    "files": [
-      "exe45-shadowman.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:24",
-    "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is ShadowMan",
-    "start": "0",
-    "stop": "24110",
-    "disc": "disc3.png",
-    "gameimage": "exe45.png",
-    "id": "shadowman-theme-exe45"
-  },
-  {
-    "ostname": "Theme of Forte",
-    "name": "Forte Theme",
-    "files": [
-      "exe45-forte.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:51",
-    "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is Forte",
-    "start": "6697",
-    "stop": "51350",
-    "disc": "disc3.png",
-    "gameimage": "exe45.png",
-    "id": "forte-theme-exe45"
-  },
-  {
-    "ostname": "Life in the Network",
-    "name": "Internet Theme",
-    "files": [
-      "exe45-internet.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:56",
-    "composer": "Toshihiko Horiyama",
-    "places": "Internet 1-12, every generic Comp",
-    "start": "0",
-    "stop": "55640",
-    "disc": "disc4.png",
-    "gameimage": "exe45.png",
-    "id": "internet-theme-exe45"
-  },
-  {
-    "ostname": "Battlefield",
-    "name": "Virus Battle",
-    "files": [
-      "exe45-virus.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:35",
-    "composer": "Toshihiko Horiyama",
-    "places": "Virus Battles",
-    "start": "1759",
-    "stop": "34778",
-    "disc": "disc4.png",
-    "gameimage": "exe45.png",
-    "id": "virus-battle-exe45"
-  },
-  {
-    "ostname": "Lecture",
-    "name": "Minigame Tutorial",
-    "files": [
-      "exe45-tutorial.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:12",
-    "composer": "Toshihiko Horiyama",
-    "places": "Minigame Tutorials",
-    "start": "4152",
-    "stop": "12474",
-    "disc": "disc4.png",
-    "gameimage": "exe45.png",
-    "id": "minigame-tutorial-exe45"
-  },
-  {
-    "ostname": "Calculation",
-    "name": "NumberMan Minigame",
-    "files": [
-      "exe45-numbergame.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:20",
-    "composer": "Toshihiko Horiyama",
-    "places": "NumberMan's Minigame",
-    "start": "1944",
-    "stop": "19809",
-    "disc": "disc4.png",
-    "gameimage": "exe45.png",
-    "id": "numberman-minigame-exe45"
-  },
-  {
-    "ostname": "Awaken the Wind!",
-    "name": "WindMan Minigame",
-    "files": [
-      "exe45-windgame.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:06",
-    "composer": "Toshihiko Horiyama",
-    "places": "WindMan's Minigame",
-    "start": "0",
-    "stop": "6347",
-    "disc": "disc4.png",
-    "gameimage": "exe45.png",
-    "id": "windman-minigame-exe45"
-  },
-  {
-    "ostname": "Search Mission",
-    "name": "SearchMan Minigame",
-    "files": [
-      "exe45-searchgame.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:24",
-    "composer": "Toshihiko Horiyama",
-    "places": "SearchMan's Minigame",
-    "start": "2276",
-    "stop": "23841",
-    "disc": "disc4.png",
-    "gameimage": "exe45.png",
-    "id": "searchman-minigame-exe45"
-  },
-  {
-    "ostname": "Metal Shooting!",
-    "name": "MetalMan Minigame",
-    "files": [
-      "exe45-metalgame.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:28",
-    "composer": "Toshihiko Horiyama",
-    "places": "MetalMan's Minigame",
-    "start": "0",
-    "stop": "27559",
-    "disc": "disc4.png",
-    "gameimage": "exe45.png",
-    "id": "metalman-minigame-exe45"
-  },
-  {
-    "ostname": "Napalm Bomb!",
-    "name": "NapalmMan Minigame",
-    "files": [
-      "exe45-napalmgame.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:27",
-    "composer": "Toshihiko Horiyama",
-    "places": "NapalmMan's Minigame",
-    "start": "0",
-    "stop": "26788",
-    "disc": "disc4.png",
-    "gameimage": "exe45.png",
-    "id": "napalmman-minigame-exe45"
-  },
-  {
-    "ostname": "Ice Puzzle",
-    "name": "IceMan Minigame",
-    "files": [
-      "exe45-icegame.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:23",
-    "composer": "Toshihiko Horiyama",
-    "places": "IceMan's Minigame",
-    "start": "0",
-    "stop": "22603",
-    "disc": "disc4.png",
-    "gameimage": "exe45.png",
-    "id": "iceman-minigame-exe45"
-  },
-  {
-    "ostname": "Tournament Under Way",
-    "name": "Tournament AI Demo",
-    "files": [
-      "exe45-tournament-aidemo.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:13",
-    "composer": "Toshihiko Horiyama",
-    "places": "when two AI opponents fight each other in a tournament",
-    "start": "0",
-    "stop": "13396",
-    "disc": "disc4.png",
-    "gameimage": "exe45.png",
-    "id": "tournament-ai-demo-exe45"
-  },
-  {
-    "ostname": "Tournament Battle",
-    "name": "Tournament Battle",
-    "files": [
-      "exe45-tournament.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:39",
-    "composer": "Toshihiko Horiyama",
-    "places": "Tournament Battles (not final)",
-    "start": "6826",
-    "stop": "38977",
-    "disc": "disc4.png",
-    "gameimage": "exe45.png",
-    "id": "tournament-ai-demo-exe45"
-  },
-  {
-    "ostname": "Deep Inside",
-    "name": "Ura Internet Theme",
-    "files": [
-      "exe45-urainternet.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:45",
-    "composer": "Toshihiko Horiyama",
-    "places": "Ura Internet 1-4",
-    "start": "592",
-    "stop": "45087",
-    "disc": "disc4.png",
-    "gameimage": "exe45.png",
-    "id": "ura-internet-theme-exe45"
-  },
-  {
-    "ostname": "Chaos Area",
-    "name": "Chaos Area",
-    "files": [
-      "exe45-chaosarea.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:45",
-    "composer": "Toshihiko Horiyama",
-    "places": "Chaos Area 1-2",
-    "start": "719",
-    "stop": "55306",
-    "disc": "disc4.png",
-    "gameimage": "exe45.png",
-    "id": "chaos-area-exe45"
-  },
-  {
-    "ostname": "Fighter's Soul",
-    "name": "Boss Battle",
-    "files": [
-      "exe45-boss.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:49",
-    "composer": "Toshihiko Horiyama",
-    "places": "Boss Battles, Final Tournament Battles",
-    "start": "5512",
-    "stop": "49093",
-    "disc": "disc4.png",
-    "gameimage": "exe45.png",
-    "id": "boss-battle-exe45"
-  },
-  {
-    "ostname": "Champion!",
-    "name": "Official Tournament Win",
-    "files": [
-      "exe45-champion.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "0:46",
-    "composer": "Toshihiko Horiyama",
-    "places": "winning the Official Tournament",
-    "start": "16442",
-    "stop": "45658",
-    "disc": "disc4.png",
-    "gameimage": "exe45.png",
-    "id": "official-tournament-win-exe45"
-  },
-  {
-    "ostname": "All Cast",
-    "name": "Credits Theme",
-    "files": [
-      "exe45-credits.ogg"
-    ],
-    "author": "K1rbYat1Na",
-    "game": "EXE4.5",
-    "duration": "3:54",
-    "composer": "Toshihiko Horiyama",
-    "places": "End Credits",
-    "start": "16398",
-    "stop": "234148",
-    "disc": "disc4.png",
-    "gameimage": "exe45.png",
-    "id": "credits-theme-exe45"
   },
   {
     "ostname": "Theme of ROCKMAN EXE5",
@@ -2992,9 +3217,12 @@ let allMusic = [
     "places": "Title Screen",
     "start": "18861",
     "stop": "32460",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:32",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "title-theme-exe5"
   },
   {
@@ -3009,9 +3237,12 @@ let allMusic = [
     "places": "Cutscenes feat. Dr. Regal and/or Nebula",
     "start": "2894",
     "stop": "39979",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:40",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "nebula-theme-exe5"
   },
   {
@@ -3026,9 +3257,12 @@ let allMusic = [
     "places": "Akihara Town",
     "start": "0",
     "stop": "55950",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:56",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "akihara-town-exe5"
   },
   {
@@ -3043,9 +3277,12 @@ let allMusic = [
     "places": "Akihara Town (indoors)",
     "start": "1256",
     "stop": "17329",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:17",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "indoors-theme-exe5"
   },
   {
@@ -3060,9 +3297,12 @@ let allMusic = [
     "places": "Ministry of Science, Higureya Secret Base, Luxury Liner Pier",
     "start": "0",
     "stop": "41918",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:42",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "ministry-of-science-exe5"
   },
   {
@@ -3077,9 +3317,12 @@ let allMusic = [
     "places": "Overworld (when an incident has occurred)",
     "start": "578",
     "stop": "13106",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:13",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "incident-occurrence-exe5"
   },
   {
@@ -3094,9 +3337,12 @@ let allMusic = [
     "places": "During the Plug-in transition",
     "start": "",
     "stop": "",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:04",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "plug-in-transition-exe5"
   },
   {
@@ -3111,9 +3357,12 @@ let allMusic = [
     "places": "Main System Comp 1-2",
     "start": "0",
     "stop": "38083",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:38",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "main-system-comp-exe5"
   },
   {
@@ -3128,9 +3377,12 @@ let allMusic = [
     "places": "Virus Battles",
     "start": "2650",
     "stop": "35229",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:35",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "virus-battle-exe5"
   },
   {
@@ -3145,9 +3397,12 @@ let allMusic = [
     "places": "when winning a battle with the Results screen",
     "start": "2962",
     "stop": "9755",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:10",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "results-theme-exe5"
   },
   {
@@ -3162,9 +3417,12 @@ let allMusic = [
     "places": "when winning a battle without the Results screen",
     "start": "",
     "stop": "",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:02",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "results-theme-short-exe5"
   },
   {
@@ -3179,9 +3437,12 @@ let allMusic = [
     "places": "Oran Island, Abandoned Mine (outside)",
     "start": "2947",
     "stop": "39545",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:40",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "oran-island-exe5"
   },
   {
@@ -3196,9 +3457,12 @@ let allMusic = [
     "places": "Abandoned Mine",
     "start": "0",
     "stop": "13260",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:13",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "abandoned-mine-exe5"
   },
   {
@@ -3213,9 +3477,12 @@ let allMusic = [
     "places": "Rock Drill Comp 1-4",
     "start": "1291",
     "stop": "42625",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:43",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "rock-drill-comp-exe5"
   },
   {
@@ -3230,9 +3497,12 @@ let allMusic = [
     "places": "Akihara Area 1-3, Oran Island Area 1-3, Ministry of Science Area 1-4, Endo Area 1-5, every generic Comp",
     "start": "0",
     "stop": "38609",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:39",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "internet-theme-exe5"
   },
   {
@@ -3247,9 +3517,12 @@ let allMusic = [
     "places": "Cutscenes (before a boss battle, before a Liberate Mission)",
     "start": "14450",
     "stop": "28231",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:28",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "pre-boss-theme-exe5"
   },
   {
@@ -3264,9 +3537,12 @@ let allMusic = [
     "places": "Overworld (Liberate Mission)",
     "start": "0",
     "stop": "29284",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:29",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "liberate-mission-exe5"
   },
   {
@@ -3281,9 +3557,12 @@ let allMusic = [
     "places": "Boss Battles",
     "start": "3771",
     "stop": "41841",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:42",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "boss-battle-exe5"
   },
   {
@@ -3298,9 +3577,12 @@ let allMusic = [
     "places": "finishing a Liberate Mission",
     "start": "",
     "stop": "",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:04",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "liberate-complete-exe5"
   },
   {
@@ -3315,9 +3597,12 @@ let allMusic = [
     "places": "Navi Customizer Screen",
     "start": "0",
     "stop": "45843",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:46",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "navicus-exe5"
   },
   {
@@ -3332,9 +3617,12 @@ let allMusic = [
     "places": "Queen Czecho Cruiser",
     "start": "0",
     "stop": "31108",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:31",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "luxury-liner-exe5"
   },
   {
@@ -3349,9 +3637,12 @@ let allMusic = [
     "places": "Luxury Liner Comp 1-4",
     "start": "5341",
     "stop": "51116",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:51",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "luxury-liner-comp-exe5"
   },
   {
@@ -3366,9 +3657,12 @@ let allMusic = [
     "places": "Endo City",
     "start": "2009",
     "stop": "34155",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:34",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "endo-city-exe5"
   },
   {
@@ -3383,9 +3677,12 @@ let allMusic = [
     "places": "Shachihoko Comp 1-4",
     "start": "0",
     "stop": "51936",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:52",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "shachihoko-comp-exe5"
   },
   {
@@ -3400,9 +3697,12 @@ let allMusic = [
     "places": "Ura Internet 1-4, Nebula Hole Area 1-6",
     "start": "0",
     "stop": "48218",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:48",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "ura-internet-theme-exe5"
   },
   {
@@ -3417,9 +3717,12 @@ let allMusic = [
     "places": "Some cutscenes",
     "start": "1288",
     "stop": "22250",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:22",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "sad-theme-exe5"
   },
   {
@@ -3434,9 +3737,12 @@ let allMusic = [
     "places": "Some cutscenes",
     "start": "989",
     "stop": "26044",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:26",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "hero-theme-exe5"
   },
   {
@@ -3451,9 +3757,12 @@ let allMusic = [
     "places": "Mount Fuji, Dark Chip Factory",
     "start": "0",
     "stop": "49311",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:49",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "dark-chip-factory-exe5"
   },
   {
@@ -3468,9 +3777,12 @@ let allMusic = [
     "places": "Factory Comp 1-4, Heart Server Comp",
     "start": "1255",
     "stop": "44786",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:45",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "factory-comp-exe5"
   },
   {
@@ -3485,9 +3797,12 @@ let allMusic = [
     "places": "During the Samurai/1000 Bats minigame at Endo City",
     "start": "0",
     "stop": "13395",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:13",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "minigame-theme-exe5"
   },
   {
@@ -3502,9 +3817,12 @@ let allMusic = [
     "places": "when battle ends after deleting enemies in one turn during a Liberate Mission",
     "start": "",
     "stop": "0:02",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "1-turn-liberate-exe5"
   },
   {
@@ -3519,9 +3837,12 @@ let allMusic = [
     "places": "Game Over Screen",
     "start": "",
     "stop": "",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:03",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "game-over-exe5"
   },
   {
@@ -3536,9 +3857,12 @@ let allMusic = [
     "places": "When losing a PvP battle",
     "start": "2844",
     "stop": "9363",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:09",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "loser-theme-exe5"
   },
   {
@@ -3553,9 +3877,12 @@ let allMusic = [
     "places": "Nebula Gray Battle",
     "start": "7038",
     "stop": "46015",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "0:46",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "final-battle-exe5"
   },
   {
@@ -3570,9 +3897,12 @@ let allMusic = [
     "places": "End Credits",
     "start": "81838",
     "stop": "115093",
-    "disc": "disc4.png",
+    "disc": "sb4.png",
     "duration": "1:55",
-    "gameimage": "exe5.png",
+    "gameimage": [
+      "exe5b.png",
+      "exe5c.png"
+    ],
     "id": "credits-theme-exe5"
   },
   {
@@ -3589,7 +3919,7 @@ let allMusic = [
     "places": "Pre-Start Screen (JP)",
     "start": "",
     "stop": "",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:34",
     "gameimage": "exe5ds.png",
     "id": "opening-theme-jp-exe5ds"
@@ -3608,7 +3938,7 @@ let allMusic = [
     "places": "Pre-Start Screen (US)",
     "start": "",
     "stop": "",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:28",
     "gameimage": "exe5ds.png",
     "id": "opening-theme-us-exe5ds"
@@ -3628,7 +3958,7 @@ let allMusic = [
     "places": "Title Screen",
     "start": "18616",
     "stop": "32237",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:32",
     "gameimage": "exe5ds.png",
     "id": "title-theme-exe5ds"
@@ -3648,7 +3978,7 @@ let allMusic = [
     "places": "Cutscenes feat. Dr. Regal or Nebula",
     "start": "3059",
     "stop": "39644",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:39",
     "gameimage": "exe5ds.png",
     "id": "nebula-theme-exe5ds"
@@ -3668,7 +3998,7 @@ let allMusic = [
     "places": "Akihara Town",
     "start": "519",
     "stop": "54325",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:54",
     "gameimage": "exe5ds.png",
     "id": "akihara-town-exe5ds"
@@ -3688,7 +4018,7 @@ let allMusic = [
     "places": "Akihara Town (indoors)",
     "start": "375",
     "stop": "16379",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:16",
     "gameimage": "exe5ds.png",
     "id": "indoors-theme-exe5ds"
@@ -3708,7 +4038,7 @@ let allMusic = [
     "places": "Ministry of Science, Higureya Secret Base, Luxury Liner Pier",
     "start": "434",
     "stop": "42187",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:42",
     "gameimage": "exe5ds.png",
     "id": "ministry-of-science-exe5ds"
@@ -3728,7 +4058,7 @@ let allMusic = [
     "places": "Overworld (when an incident has occurred)",
     "start": "0",
     "stop": "12394",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:12",
     "gameimage": "exe5ds.png",
     "id": "incident-occurrence-exe5ds"
@@ -3748,7 +4078,7 @@ let allMusic = [
     "places": "During the Plug-in transition",
     "start": "",
     "stop": "",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:08",
     "gameimage": "exe5ds.png",
     "id": "plug-in-transition-exe5ds"
@@ -3768,7 +4098,7 @@ let allMusic = [
     "places": "Main System Comp 1-2",
     "start": "880",
     "stop": "39293",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:39",
     "gameimage": "exe5ds.png",
     "id": "main-system-comp-exe5ds"
@@ -3788,7 +4118,7 @@ let allMusic = [
     "places": "Virus Battles (if the W Slot has been performed with an EXE1 or BN1 cartridge)",
     "start": "5230",
     "stop": "58953",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:58",
     "gameimage": "exe5ds.png",
     "id": "virus-battle-exe1-exe5ds"
@@ -3808,7 +4138,7 @@ let allMusic = [
     "places": "Virus Battles (if the W Slot has been performed with an EXE2 or BN2 cartridge)",
     "start": "6906",
     "stop": "38490",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:38",
     "gameimage": "exe5ds.png",
     "id": "virus-battle-exe2-exe5ds"
@@ -3828,7 +4158,7 @@ let allMusic = [
     "places": "Virus Battles (if the W Slot has been performed with an EXE3 or BN3 cartridge)",
     "start": "1792",
     "stop": "33805",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:33",
     "gameimage": "exe5ds.png",
     "id": "virus-battle-exe3-exe5ds"
@@ -3848,7 +4178,7 @@ let allMusic = [
     "places": "Virus Battles (if the W Slot has been performed with an EXE4 or BN4 cartidge)",
     "start": "8053",
     "stop": "32694",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:32",
     "gameimage": "exe5ds.png",
     "id": "virus-battle-exe4-exe5ds"
@@ -3863,13 +4193,12 @@ let allMusic = [
     "game": "EXE5DS/BN5DS",
     "composer": [
       "Toshihiko Horiyama (original)",
-      "Akari Kaida (original)",
       "Seiko Kobuchi (arrangement)"
     ],
     "places": "Virus Battles (if the W Slot has been performed with an EXE4.5 cartridge)",
     "start": "1594",
     "stop": "33605",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:33",
     "gameimage": "exe5ds.png",
     "id": "virus-battle-exe45-exe5ds"
@@ -3889,7 +4218,7 @@ let allMusic = [
     "places": "Virus Battles (normal)",
     "start": "2704",
     "stop": "36047",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:48",
     "gameimage": "exe5ds.png",
     "id": "virus-battle-exe5-exe5ds"
@@ -3909,7 +4238,7 @@ let allMusic = [
     "places": "when winning a battle with the Results screen",
     "start": "2093",
     "stop": "8858",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:10",
     "gameimage": "exe5ds.png",
     "id": "results-theme-exe5ds"
@@ -3929,7 +4258,7 @@ let allMusic = [
     "places": "when winning a battle without the Results screen",
     "start": "",
     "stop": "",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:02",
     "gameimage": "exe5ds.png",
     "id": "results-theme-short-exe5ds"
@@ -3949,7 +4278,7 @@ let allMusic = [
     "places": "Oran Island, Abandoned Mine (outside)",
     "start": "2170",
     "stop": "38606",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:38",
     "gameimage": "exe5ds.png",
     "id": "oran-island-exe5ds"
@@ -3969,7 +4298,7 @@ let allMusic = [
     "places": "Abandoned Mine",
     "start": "900",
     "stop": "14107",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:14",
     "gameimage": "exe5ds.png",
     "id": "abandoned-mine-exe5ds"
@@ -3989,7 +4318,7 @@ let allMusic = [
     "places": "Rock Drill Comp 1-4",
     "start": "6813",
     "stop": "47674",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:47",
     "gameimage": "exe5ds.png",
     "id": "rock-drill-comp-exe5ds"
@@ -4009,7 +4338,7 @@ let allMusic = [
     "places": "Akihara Area 1-3, Oran Island Area 1-3, Ministry of Science Area 1-4, Endo Area 1-5, every generic Comp",
     "start": "2328",
     "stop": "40479",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:40",
     "gameimage": "exe5ds.png",
     "id": "internet-theme-exe5ds"
@@ -4029,7 +4358,7 @@ let allMusic = [
     "places": "Cutscenes (before a boss battle, before a Liberate Mission)",
     "start": "14020",
     "stop": "27758",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:27",
     "gameimage": "exe5ds.png",
     "id": "pre-boss-theme-exe5ds"
@@ -4049,7 +4378,7 @@ let allMusic = [
     "places": "Overworld (Liberate Mission)",
     "start": "1912",
     "stop": "30852",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:30",
     "gameimage": "exe5ds.png",
     "id": "liberate-mission-exe5ds"
@@ -4069,7 +4398,7 @@ let allMusic = [
     "places": "Boss Battles",
     "start": "5986",
     "stop": "43642",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:43",
     "gameimage": "exe5ds.png",
     "id": "boss-battle-exe5ds"
@@ -4089,7 +4418,7 @@ let allMusic = [
     "places": "finishing a Liberate Mission",
     "start": "",
     "stop": "",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:04",
     "gameimage": "exe5ds.png",
     "id": "liberate-complete-exe5ds"
@@ -4109,7 +4438,7 @@ let allMusic = [
     "places": "Navi Customizer Screen",
     "start": "1905",
     "stop": "47549",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:47",
     "gameimage": "exe5ds.png",
     "id": "navicus-exe5ds"
@@ -4129,7 +4458,7 @@ let allMusic = [
     "places": "Queen Czecho Cruiser",
     "start": "2500",
     "stop": "34353",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:34",
     "gameimage": "exe5ds.png",
     "id": "luxury-liner-exe5ds"
@@ -4149,7 +4478,7 @@ let allMusic = [
     "places": "Luxury Liner Comp 1-4",
     "start": "8303",
     "stop": "53600",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:53",
     "gameimage": "exe5ds.png",
     "id": "luxury-liner-comp-exe5ds"
@@ -4169,7 +4498,7 @@ let allMusic = [
     "places": "Endo City",
     "start": "3331",
     "stop": "35339",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:35",
     "gameimage": "exe5ds.png",
     "id": "endo-city-exe5ds"
@@ -4189,7 +4518,7 @@ let allMusic = [
     "places": "Shachihoko Comp 1-4",
     "start": "1615",
     "stop": "53320",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:53",
     "gameimage": "exe5ds.png",
     "id": "shachihoko-comp-exe5ds"
@@ -4209,7 +4538,7 @@ let allMusic = [
     "places": "Ura Internet 1-4, Nebula Hole Area 1-6",
     "start": "2940",
     "stop": "52438",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:52",
     "gameimage": "exe5ds.png",
     "id": "ura-internet-theme-exe5ds"
@@ -4229,7 +4558,7 @@ let allMusic = [
     "places": "Some cutscenes",
     "start": "2936",
     "stop": "23810",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:23",
     "gameimage": "exe5ds.png",
     "id": "sad-theme-exe5ds"
@@ -4249,7 +4578,7 @@ let allMusic = [
     "places": "Some cutscenes",
     "start": "2028",
     "stop": "27978",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:27",
     "gameimage": "exe5ds.png",
     "id": "hero-theme-exe5ds"
@@ -4269,7 +4598,7 @@ let allMusic = [
     "places": "Mount Fuji, Dark Chip Factory",
     "start": "0",
     "stop": "49108",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:49",
     "gameimage": "exe5ds.png",
     "id": "dark-chip-factory-exe5ds"
@@ -4289,7 +4618,7 @@ let allMusic = [
     "places": "Factory Comp 1-4, Heart Server Comp",
     "start": "641",
     "stop": "44836",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:44",
     "gameimage": "exe5ds.png",
     "id": "factory-comp-exe5ds"
@@ -4309,7 +4638,7 @@ let allMusic = [
     "places": "During the Samurai/1000 Bats minigame at Endo City",
     "start": "0",
     "stop": "13248",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:13",
     "gameimage": "exe5ds.png",
     "id": "minigame-theme-exe5ds"
@@ -4329,7 +4658,7 @@ let allMusic = [
     "places": "when battle ends after deleting enemies in one turn during a Liberate Mission",
     "start": "",
     "stop": "0:02",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "",
     "gameimage": "exe5ds.png",
     "id": "1-turn-liberate-exe5ds"
@@ -4349,7 +4678,7 @@ let allMusic = [
     "places": "Game Over Screen",
     "start": "",
     "stop": "",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:03",
     "gameimage": "exe5ds.png",
     "id": "game-over-exe5ds"
@@ -4369,7 +4698,7 @@ let allMusic = [
     "places": "When losing a PvP battle",
     "start": "3447",
     "stop": "9940",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:09",
     "gameimage": "exe5ds.png",
     "id": "loser-theme-exe5ds"
@@ -4389,7 +4718,7 @@ let allMusic = [
     "places": "Nebula Gray Battle",
     "start": "9997",
     "stop": "48810",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:48",
     "gameimage": "exe5ds.png",
     "id": "final-battle-exe5ds"
@@ -4409,7 +4738,7 @@ let allMusic = [
     "places": "End Credits",
     "start": "81809",
     "stop": "114652",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "1:54",
     "gameimage": "exe5ds.png",
     "id": "credits-theme-exe5ds"
@@ -4426,9 +4755,12 @@ let allMusic = [
     "places": "Title Screen",
     "start": "18173",
     "stop": "36812",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:37",
-    "gameimage": "exe6.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "title-theme-exe6"
   },
   {
@@ -4443,9 +4775,12 @@ let allMusic = [
     "places": "Cutscenes feat. Dr. Wily and/or WWW",
     "start": "2561",
     "stop": "17396",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:17",
-    "gameimage": "exe6.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "www-theme-exe6"
   },
   {
@@ -4460,9 +4795,12 @@ let allMusic = [
     "places": "Central Town",
     "start": "0",
     "stop": "61476",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "1:01",
-    "gameimage": "exe6.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "central-town-exe6"
   },
   {
@@ -4477,9 +4815,12 @@ let allMusic = [
     "places": "Akihara Town (indoors)",
     "start": "0",
     "stop": "15554",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:16",
-    "gameimage": "exe6.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "indoors-theme-exe6"
   },
   {
@@ -4494,9 +4835,12 @@ let allMusic = [
     "places": "Saiba Academy",
     "start": "0",
     "stop": "30606",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:31",
-    "gameimage": "exe6.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "school-theme-exe6"
   },
   {
@@ -4511,9 +4855,12 @@ let allMusic = [
     "places": "Overworld (when an incident has occurred; post-game in the GBA version)",
     "start": "0",
     "stop": "12394",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:13",
-    "gameimage": "exe6.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "incident-exe6"
   },
   {
@@ -4528,9 +4875,12 @@ let allMusic = [
     "places": "During the Plug-in transition",
     "start": "",
     "stop": "",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:03",
-    "gameimage": "exe6.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "plug-in-transition-exe6"
   },
   {
@@ -4545,9 +4895,12 @@ let allMusic = [
     "places": "Robot Control PC Comp 1-2",
     "start": "0",
     "stop": "43839",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:44",
-    "gameimage": "exe6.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "robot-control-pc-comp-exe6"
   },
   {
@@ -4562,9 +4915,12 @@ let allMusic = [
     "places": "Seaside Town",
     "start": "0",
     "stop": "37102",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:37",
-    "gameimage": "exe6.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "seaside-town-exe6"
   },
   {
@@ -4579,9 +4935,12 @@ let allMusic = [
     "places": "Aquarium Comp 1-3 (normal)",
     "start": "1891",
     "stop": "27507",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:28",
-    "gameimage": "exe6.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "aquarium-comp-exe6"
   },
   {
@@ -4596,9 +4955,12 @@ let allMusic = [
     "places": "Aquarium Comp 1-3 (when sharks are active)",
     "start": "2257",
     "stop": "8286",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:08",
-    "gameimage": "exe6.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "aquarium-comp-chase-exe6"
   },
   {
@@ -4613,9 +4975,12 @@ let allMusic = [
     "places": "Virus Battles",
     "start": "4219",
     "stop": "42795",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:43",
-    "gameimage": "exe6.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "virus-battle-exe6"
   },
   {
@@ -4630,9 +4995,12 @@ let allMusic = [
     "places": "when winning a battle with the Results screen",
     "start": "2094",
     "stop": "8801",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:09",
-    "gameimage": "exe6.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "results-theme-exe6"
   },
   {
@@ -4647,9 +5015,12 @@ let allMusic = [
     "places": "when winning a battle without the Results screen",
     "start": "",
     "stop": "",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:02",
-    "gameimage": "exe6.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "results-theme-short-exe6"
   },
   {
@@ -4664,9 +5035,12 @@ let allMusic = [
     "places": "Green Town",
     "start": "0",
     "stop": "38073",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:38",
-    "gameimage": "exe6.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "green-town-exe6"
   },
   {
@@ -4681,9 +5055,12 @@ let allMusic = [
     "places": "Overworld (during some events)",
     "start": "0",
     "stop": "9391",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:09",
-    "gameimage": "exe6.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "suspicious-theme-exe6"
   },
   {
@@ -4698,9 +5075,12 @@ let allMusic = [
     "places": "Judgement Tree Comp 1-3",
     "start": "469",
     "stop": "41274",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:41",
-    "gameimage": "exe6.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "judgement-tree-comp-exe6"
   },
   {
@@ -4715,9 +5095,12 @@ let allMusic = [
     "places": "Cutscenes before fighting a story boss",
     "start": "1079",
     "stop": "14844",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:15",
-    "gameimage": "exe6.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "pre-boss-theme-exe6"
   },
   {
@@ -4732,9 +5115,12 @@ let allMusic = [
     "places": "Boss Battles",
     "start": "6833",
     "stop": "58267",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:58",
-    "gameimage": "exe6.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "boss-battle-exe6"
   },
   {
@@ -4749,9 +5135,12 @@ let allMusic = [
     "places": "Central Area 1-3, Seaside Area 1-3, Green Area 1-2, Sky Area 1-2, Akihara Area, every generic Comp",
     "start": "14651",
     "stop": "55403",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:55",
-    "gameimage": "exe6.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "internet-theme-exe6"
   },
   {
@@ -4766,9 +5155,12 @@ let allMusic = [
     "places": "Sky Town",
     "start": "1725",
     "stop": "43062",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:43",
-    "gameimage": "exe6.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "sky-town-exe6"
   },
   {
@@ -4783,9 +5175,12 @@ let allMusic = [
     "places": "Some cutscenes",
     "start": "1072",
     "stop": "22990",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:23",
-    "gameimage": "exe6.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "sad-theme-exe6"
   },
   {
@@ -4800,9 +5195,12 @@ let allMusic = [
     "places": "Weather-kun Comp 1-3",
     "start": "0",
     "stop": "47551",
-    "disc": "disc5.png",
+    "disc": "sb5.png",
     "duration": "0:48",
-    "gameimage": "exe6.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "weatherkun-comp-exe6"
   },
   {
@@ -4818,8 +5216,11 @@ let allMusic = [
     "places": "Overworld (when Gregar/Falzar is on the loose; during the Evil Spirit minigame), some cutscenes feat. Gregar/Falzar",
     "start": "0",
     "stop": "21161",
-    "disc": "disc5.png",
-    "gameimage": "exe6.png",
+    "disc": "sb5.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "cyber-beast-theme-exe6"
   },
   {
@@ -4835,8 +5236,11 @@ let allMusic = [
     "places": "Akihara Town",
     "start": "2229",
     "stop": "55586",
-    "disc": "disc5.png",
-    "gameimage": "exe6.png",
+    "disc": "sb5.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "akihara-town-exe6"
   },
   {
@@ -4852,8 +5256,11 @@ let allMusic = [
     "places": "Some cutscenes, Expo Site's Central Hall (post-game in the AC version)",
     "start": "1524",
     "stop": "22888",
-    "disc": "disc5.png",
-    "gameimage": "exe6.png",
+    "disc": "sb5.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "hero-theme-exe6"
   },
   {
@@ -4869,8 +5276,11 @@ let allMusic = [
     "places": "Ura Internet Zero, Ura Internet 1-3, Underground 1-2",
     "start": "0",
     "stop": "42342",
-    "disc": "disc5.png",
-    "gameimage": "exe6.png",
+    "disc": "sb5.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "ura-internet-theme-exe6"
   },
   {
@@ -4886,8 +5296,11 @@ let allMusic = [
     "places": "Navi Customizer Screen",
     "start": "14684",
     "stop": "58382",
-    "disc": "disc5.png",
-    "gameimage": "exe6.png",
+    "disc": "sb5.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "navicus-exe6"
   },
   {
@@ -4903,8 +5316,11 @@ let allMusic = [
     "places": "Expo Site (normal; post-game in the AC ver)",
     "start": "0",
     "stop": "7306",
-    "disc": "disc5.png",
-    "gameimage": "exe6.png",
+    "disc": "sb5.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "expo-site-exe6"
   },
   {
@@ -4920,8 +5336,11 @@ let allMusic = [
     "places": "Graveyard 1-2, Immortal Area",
     "start": "0",
     "stop": "35058",
-    "disc": "disc5.png",
-    "gameimage": "exe6.png",
+    "disc": "sb5.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "graveyard-exe6"
   },
   {
@@ -4937,8 +5356,11 @@ let allMusic = [
     "places": "Game Over Screen",
     "start": "",
     "stop": "",
-    "disc": "disc5.png",
-    "gameimage": "exe6.png",
+    "disc": "sb5.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "game-over-exe6"
   },
   {
@@ -4954,8 +5376,11 @@ let allMusic = [
     "places": "When losing a PvP battle",
     "start": "2226",
     "stop": "8758",
-    "disc": "disc5.png",
-    "gameimage": "exe6.png",
+    "disc": "sb5.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "loser-theme-exe6"
   },
   {
@@ -4971,8 +5396,11 @@ let allMusic = [
     "places": "Expo Site (when it turns out to be WWW's base; post-game in the GBA ver.)",
     "start": "0",
     "stop": "46662",
-    "disc": "disc5.png",
-    "gameimage": "exe6.png",
+    "disc": "sb5.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "www-base-exe6"
   },
   {
@@ -4988,8 +5416,11 @@ let allMusic = [
     "places": "Pavilion Comp 1-4, Copyroid Comp",
     "start": "0",
     "stop": "51672",
-    "disc": "disc5.png",
-    "gameimage": "exe6.png",
+    "disc": "sb5.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "pavilion-comp-exe6"
   },
   {
@@ -5005,8 +5436,11 @@ let allMusic = [
     "places": "Gregar/Falzar Battle",
     "start": "8406",
     "stop": "54665",
-    "disc": "disc5.png",
-    "gameimage": "exe6.png",
+    "disc": "sb5.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "final-battle-exe6"
   },
   {
@@ -5022,8 +5456,11 @@ let allMusic = [
     "places": "End Credits",
     "start": "109715",
     "stop": "133422",
-    "disc": "disc5.png",
-    "gameimage": "exe6.png",
+    "disc": "sb5.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "credits-theme-exe6"
   },
   {
@@ -5039,13 +5476,16 @@ let allMusic = [
     "places": "Crossover Battle 2 (Rockman EXE6 VS. Shin Bokura no Taiyou)",
     "start": "4470",
     "stop": "33804",
-    "disc": "disc5.png",
-    "gameimage": "exe6.png",
+    "disc": "sb5.png",
+    "gameimage": [
+      "exe6g.png",
+      "exe6f.png"
+    ],
     "id": "crossover-battle-exe6"
   },
   {
     "ostname": "Theme of ROCKMAN EXELON",
-    "name": "Title Theme",
+    "name": "Title Theme/Hero Theme",
     "files": [
       "exelon-title.ogg"
     ],
@@ -5060,7 +5500,7 @@ let allMusic = [
     "places": "Title Screen, some cutscenes (as Hero Theme)",
     "start": "425",
     "stop": "26725",
-    "disc": "disc-p&lon.png",
+    "disc": "pon&lon.png",
     "gameimage": "exelon.png",
     "id": "title-theme-exelon"
   },
@@ -5081,7 +5521,7 @@ let allMusic = [
     "places": "Overworld",
     "start": "0",
     "stop": "50620",
-    "disc": "disc-p&lon.png",
+    "disc": "pon&lon.png",
     "gameimage": "exelon.png",
     "id": "akihara-town-exelon"
   },
@@ -5102,7 +5542,7 @@ let allMusic = [
     "places": "Overworld (when an incident has occurred)",
     "start": "3015",
     "stop": "12303",
-    "disc": "disc-p&lon.png",
+    "disc": "pon&lon.png",
     "gameimage": "exelon.png",
     "id": "incident-occurrence-exelon"
   },
@@ -5123,7 +5563,7 @@ let allMusic = [
     "places": "Cyberworld",
     "start": "0",
     "stop": "41665",
-    "disc": "disc-p&lon.png",
+    "disc": "pon&lon.png",
     "gameimage": "exelon.png",
     "id": "internet-theme-exelon"
   },
@@ -5144,7 +5584,7 @@ let allMusic = [
     "places": "Virus Battles",
     "start": "0",
     "stop": "39180",
-    "disc": "disc-p&lon.png",
+    "disc": "pon&lon.png",
     "gameimage": "exelon.png",
     "id": "virus-battle-exelon"
   },
@@ -5165,7 +5605,7 @@ let allMusic = [
     "places": "Boss Battles",
     "start": "6272",
     "stop": "40776",
-    "disc": "disc-p&lon.png",
+    "disc": "pon&lon.png",
     "gameimage": "exelon.png",
     "id": "boss-battle-exelon"
   },
@@ -5186,7 +5626,7 @@ let allMusic = [
     "places": "Trojan Comp 1-5",
     "start": "856",
     "stop": "41996",
-    "disc": "disc-p&lon.png",
+    "disc": "pon&lon.png",
     "gameimage": "exelon.png",
     "id": "trojan-comp-exelon"
   },
@@ -5207,7 +5647,7 @@ let allMusic = [
     "places": "Trojan Horse Battle",
     "start": "4653",
     "stop": "38717",
-    "disc": "disc-p&lon.png",
+    "disc": "pon&lon.png",
     "gameimage": "exelon.png",
     "id": "final-battle-exelon"
   },
@@ -5227,7 +5667,7 @@ let allMusic = [
     "places": "End Credits",
     "start": "520",
     "stop": "33912",
-    "disc": "disc-p&lon.png",
+    "disc": "pon&lon.png",
     "duration": "0:34",
     "gameimage": "exelon.png",
     "id": "credits-theme-exelon"
@@ -5247,7 +5687,7 @@ let allMusic = [
     "places": "Title Screen",
     "start": "20382",
     "stop": "33977",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:33",
     "gameimage": "exeoss.png",
     "id": "title-theme-exeoss"
@@ -5267,7 +5707,7 @@ let allMusic = [
     "places": "Akihara Town, School (outside), Government Complex (outside), Densan Town, Metroline",
     "start": "0",
     "stop": "54015",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "1:57",
     "gameimage": "exeoss.png",
     "id": "akihara-town-exeoss"
@@ -5287,7 +5727,7 @@ let allMusic = [
     "places": "School",
     "start": "0",
     "stop": "38403",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:38",
     "gameimage": "exeoss.png",
     "id": "school-exeoss"
@@ -5307,7 +5747,7 @@ let allMusic = [
     "places": "Akihara Town (indoors), Government Complex, Densan Town (indoors)",
     "start": "0",
     "stop": "7445",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:07",
     "gameimage": "exeoss.png",
     "id": "indoors-theme-exeoss"
@@ -5327,7 +5767,7 @@ let allMusic = [
     "places": "Overworld (during some events), WWW Research Facility",
     "start": "0",
     "stop": "16005",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:16",
     "gameimage": "exeoss.png",
     "id": "suspicious-theme-exeoss"
@@ -5347,7 +5787,7 @@ let allMusic = [
     "places": "Overworld (when an incident has occurred)",
     "start": "798",
     "stop": "13602",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:13",
     "gameimage": "exeoss.png",
     "id": "incident-occurrence-exeoss"
@@ -5367,7 +5807,7 @@ let allMusic = [
     "places": "During the Plug-in transition",
     "start": "",
     "stop": "",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:03",
     "gameimage": "exeoss.png",
     "id": "plug-in-transition-exeoss"
@@ -5387,7 +5827,7 @@ let allMusic = [
     "places": "Oven Comp 1-2",
     "start": "1324",
     "stop": "56195",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:56",
     "gameimage": "exeoss.png",
     "id": "oven-comp-exeoss"
@@ -5407,7 +5847,7 @@ let allMusic = [
     "places": "School Comp 1-4, the cutscene where Rockman gets the power of saito.bat",
     "start": "0",
     "stop": "49329",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:49",
     "gameimage": "exeoss.png",
     "id": "school-comp-exeoss"
@@ -5427,7 +5867,7 @@ let allMusic = [
     "places": "Internet 1-4, Ura Internet 1-12",
     "start": "0",
     "stop": "41158",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:41",
     "gameimage": "exeoss.png",
     "id": "internet-theme-exeoss"
@@ -5447,7 +5887,7 @@ let allMusic = [
     "places": "The cutscene that reveals the story behind Rockman.EXE/Saito Hikari",
     "start": "2531",
     "stop": "51786",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:51",
     "gameimage": "exeoss.png",
     "id": "saito-theme-exeoss"
@@ -5467,7 +5907,7 @@ let allMusic = [
     "places": "Waterworks Comp 1-6",
     "start": "0",
     "stop": "50925",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:50",
     "gameimage": "exeoss.png",
     "id": "waterworks-comp-exeoss"
@@ -5487,7 +5927,7 @@ let allMusic = [
     "places": "Traffic Light Comp 1-5",
     "start": "6267",
     "stop": "39667",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:39",
     "gameimage": "exeoss.png",
     "id": "traffic-light-comp-exeoss"
@@ -5507,7 +5947,7 @@ let allMusic = [
     "places": "Power Plant Comp 1-4",
     "start": "3558",
     "stop": "47779",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:47",
     "gameimage": "exeoss.png",
     "id": "power-plant-comp-exeoss"
@@ -5527,7 +5967,7 @@ let allMusic = [
     "places": "WWW Comp 1-5, Rocket Comp",
     "start": "0",
     "stop": "51265",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:51",
     "gameimage": "exeoss.png",
     "id": "www-comp-exeoss"
@@ -5547,7 +5987,7 @@ let allMusic = [
     "places": "Virus Battles. Used only while playing as Rockman.EXE",
     "start": "208",
     "stop": "46247",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:46",
     "gameimage": "exeoss.png",
     "id": "virus-battle-exeoss"
@@ -5567,7 +6007,7 @@ let allMusic = [
     "places": "Boss Battles, some Story-Only Virus Battles. Used only while playing as Rockman.EXE.",
     "start": "7207",
     "stop": "45619",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:45",
     "gameimage": "exeoss.png",
     "id": "boss-battle-exeoss"
@@ -5587,7 +6027,7 @@ let allMusic = [
     "places": "Dream Virus Battle",
     "start": "3704",
     "stop": "47352",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:47",
     "gameimage": "exeoss.png",
     "id": "final-battle-exeoss"
@@ -5607,7 +6047,7 @@ let allMusic = [
     "places": "When winning a battle",
     "start": "3506",
     "stop": "10518",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:10",
     "gameimage": "exeoss.png",
     "id": "results-theme-exeoss"
@@ -5627,7 +6067,7 @@ let allMusic = [
     "places": "Game Over Screen",
     "start": "",
     "stop": "",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:03",
     "gameimage": "exeoss.png",
     "id": "game-over-exeoss"
@@ -5647,7 +6087,7 @@ let allMusic = [
     "places": "When losing a PvP battle",
     "start": "1876",
     "stop": "8362",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "0:08",
     "gameimage": "exeoss.png",
     "id": "loser-theme-exeoss"
@@ -5667,7 +6107,7 @@ let allMusic = [
     "places": "End Credits",
     "start": "45255",
     "stop": "61958",
-    "disc": "disc1.png",
+    "disc": "sb1.png",
     "duration": "1:01",
     "gameimage": "exeoss.png",
     "id": "credits-theme-exeoss"
