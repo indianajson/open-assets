@@ -186,13 +186,13 @@ $(function () {
       "EXE1/BN1",
       "EXE2/BN2",
       "EXE3/BN3",
-      "EXE4/BN4",
-      "EXE4.5",
-      "EXE5/BN5",
-      "EXE6/BN6",
       "EXETM/NT",
       "EXEGP/BCC",
+      "EXE4/BN4",
+      "EXE4.5",
       "EXEPoN",
+      "EXE5/BN5",
+      "EXE6/BN6",
       "EXELoN",
       "SSR1/SF1",
       "SSR2/SF2",
@@ -646,57 +646,33 @@ $(function () {
     let detailsHtml = "";
 
     if (currentTab === "scripts") {
-      detailsHtml = `
-        <p><strong>Name:</strong> ${item.name}</p>
-        <p><strong>Author:</strong> ${
-          Array.isArray(item.author) ? item.author.join(", ") : item.author
-        }</p>
-        <!--<p><strong>Repository:</strong> <a href="${
-          item.repository
-        }" target="_blank">${item.repository}</a></p>-->
-        <p><strong>Description:</strong> ${item.description}</p>
-        <!--<button id="download-single-script" disabled><a href="${
-          item.repository
-        }" target="_blank" style="text-decoration:none; color:#000;">Repository</a></button>-->
-      `;
+        detailsHtml = `
+            <p><strong>Name:</strong> ${item.name}</p>
+            <p><strong>Author:</strong> ${
+                Array.isArray(item.author) ? item.author.join(", ") : item.author
+            }</p>
+            <p><strong>Description:</strong> ${item.description}</p>
+        `;
     } else if (currentTab === "tools") {
-      detailsHtml = `
-        <p><strong>Name:</strong> ${item.name}</p>
-        <p><strong>Author:</strong> ${
-          Array.isArray(item.author) ? item.author.join(", ") : item.author
-        }</p>
-        ${
-          item.repository
-            ? `<p><strong>Repository:</strong> <a href="${item.repository}" target="_blank">${item.repository}</a></p>`
-            : ""
-        }
-        <!-- ${
-          item.url
-            ? `<p><strong>URL:</strong> <a href="${item.url}" target="_blank">${item.url}</a></p>`
-            : ""
-        } -->
-        <p><strong>Description:</strong> ${item.description}</p>
-      `;
+        detailsHtml = `
+            <p><strong>Name:</strong> ${item.name}</p>
+            <p><strong>Author:</strong> ${
+                Array.isArray(item.author) ? item.author.join(", ") : item.author
+            }</p>
+            ${item.repository ? `<p><strong>Repository:</strong> <a href="${item.repository}" target="_blank">${item.repository}</a></p>` : ''}
+            <p><strong>Description:</strong> ${item.description}</p>
+        `;
     }
 
-    // Update the correct details div based on current tab
-    if (currentTab === "scripts") {
-      $("#script-details").html(detailsHtml);
-      if (item.files) {
-        $("#download-single-script")
-          .prop("disabled", false)
-          .off()
-          .on("click", () => downloadMultiple([item]));
+    // Update the correct details div
+      if (currentTab === "scripts") {
+          $("#script-details").html(detailsHtml);
+      } else if (currentTab === "tools") {
+          $("#tool-details").html(detailsHtml);
       }
-    } else if (currentTab === "tools") {
-      $("#tool-details").html(detailsHtml);
-      if (item.files) {
-        $("#download-single-tool")
-          .prop("disabled", false)
-          .off()
-          .on("click", () => downloadMultiple([item]));
-      }
-    }
+    
+      // Scroll to top when new content is loaded
+      $(".preview-scrollable").scrollTop(0);
   }
 
   /* Functions for NPC Preview */
@@ -1185,27 +1161,72 @@ $(function () {
 
   /* Function to Music Player */
 
+  let currentVolume = 1;
+  let slideshowInterval = null
   function showMusicPreview(item) {
+    if (slideshowInterval) {
+        clearInterval(slideshowInterval);
+        slideshowInterval = null;
+    }
     if (currentAudio) {
       currentAudio.pause();
       $("#disc-image").css({ "animation-play-state": "paused" });
       currentAudio = null;
     }
     if (item.disc) {
-      $("#disc-image").attr("src", "img/" + item.disc);
+      $("#disc-image").attr("src", "img/disc/" + item.disc);
       $("#disc-image").css({ display: "" });
     } else {
       $("#disc-image").css({ display: "none" });
     }
     if (item.gameimage) {
-      $("#game-image").attr("src", "img/" + item.gameimage);
-      $("#game-image").css({ display: "" });
+        const $container = $("#game-image-container").empty();
+        
+        if (Array.isArray(item.gameimage)) {
+            // Create slideshow for multiple images
+            item.gameimage.forEach((img, index) => {
+                $container.append($('<img>')
+                    .attr('src', 'img/logo/' + img)
+                    .css('opacity', index === 0 ? 1 : 0) // Start with first image visible
+                    .addClass(index === 0 ? 'active' : ''));
+            });
+            
+            // Start slideshow with proper fading
+            let currentIndex = 0;
+            slideshowInterval = setInterval(() => {
+                const $images = $container.find('img');
+                $images.removeClass('active');
+                
+                // Fade out current image
+                $images.eq(currentIndex).css('opacity', 0);
+                
+                // Calculate next index
+                currentIndex = (currentIndex + 1) % item.gameimage.length;
+                
+                // Fade in next image after a small delay
+                setTimeout(() => {
+                    $images.eq(currentIndex)
+                        .css('opacity', 1)
+                        .addClass('active');
+                }, 50);
+            }, 2000); // Change image every 2 seconds (with 0.5s fade)
+        } else {
+            // Single image
+            $container.append($('<img>')
+                .attr('src', 'img/logo/' + item.gameimage)
+                .css('opacity', 1)
+                .addClass('active'));
+        }
     } else {
-      $("#game-image").css({ display: "none" });
+        $("#game-image-container").empty();
     }
     $("#detail-title-music").text(item.name);
-    $("#detail-author-music").text(item.author);
-    $("#detail-game-music").text(item.game);
+    $("#detail-author-music").text(
+      Array.isArray(item.author) ? item.author.join(", ") : item.author
+    );
+    $("#detail-game-music").text(
+      Array.isArray(item.game) ? item.game.join(", ") : item.game
+    );
     $("#detail-loopstart-music").text(item.start);
     $("#detail-loopend-music").text(item.stop);
     $("#detail-places-music").text(item.places);
@@ -1224,9 +1245,17 @@ $(function () {
     currentAudio = new Audio(audioPath);
     currentAudio.loopStart = item.start * 0.001;
     currentAudio.loopEnd = item.stop * 0.001;
-    currentAudio.volume = 0.05;
     let loopStart = currentAudio.loopStart || 0;
     let loopEnd = currentAudio.loopEnd || currentAudio.duration;
+
+    currentAudio.volume = currentVolume;
+    $("#volume-slider").off().on("input", function() {
+      currentVolume = $(this).val() / 100;
+      if (currentAudio) {
+        currentAudio.volume = currentVolume;
+      }
+    });
+    $("#volume-slider").val(currentVolume * 100);
 
     // Set up audio player controls
     $("#play-btn")
@@ -1443,6 +1472,17 @@ $(function () {
     Promise.all(promises)
       .then(() => zip.generateAsync({ type: "blob" }))
       .then((content) => saveAs(content, "files.zip"));
+  }
+  function downloadSingleMusic(filename) {
+    console.log(items);
+    fetch("music/" + filename)
+      .then((response) => response.blob())
+      .then((blob) => {
+        saveAs(blob, filename);
+      })
+      .catch((error) => {
+        console.error('Error downloading file:', error);
+      });
   }
   function downloadMultipleMusic(items) {
     const zip = new JSZip();
