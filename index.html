@@ -161,43 +161,49 @@
           </table>
         </div>
 
-        <div class="preview-panel">
-          <div class="disc-preview" style="text-align:center;">
-            <img id="disc-image" src="" class="spinning" style="width:180px; height:180px;">
+  <div class="preview-panel">
+    <div class="music-preview-container">
+      <div class="music-preview-content">
+        <div class="disc-preview" style="text-align:center;">
+          <img id="disc-image" src="" class="spinning" style="width:180px; height:180px;">
+        </div>
+        <div class="music-preview-header">
+          <div class="music-title-info">
+            <p><span id="detail-ostname-music">—</span></p>
+            <p><span id="detail-title-music" style="margin-top:-5px; margin-bottom:-5px;font-size:20px;">—</span></p>
           </div>
-<div>
-          <div style="float:left;"><p>
-             <span id="detail-ostname-music">—</span><br>
-         <span id="detail-title-music" style="margin-top:-5px; margin-bottom:-5px;font-size:20px;">—</span>
-        </p></div>
-                             
-            <img id="game-image" src="" style="float:right;width:120px;">
-          
-</div>
-
-
-          <div class="audio-player">
-            <div class="audio-controls">
-              <button style="font-size:20px;" id="play-btn">&nbsp;▶</button>
-              <input type="range" id="audio-timeline" class="audio-timeline" value="0" min="0" max="100">
-              <span id="current-time">0:00</span> / <span id="duration">0:00</span>
-            </div>
-			  <button id="toggleLoop" style="float:left; font-size:15px;">Enable Looping</button>
-            <audio id="audio-player"></audio>
-          </div>
-          <div class="details">
-            <button id="download-single-music" style="float:right;" disabled>Download This Track</button>
-            <!--<p><strong>curTime: </strong> <span id="detail-curtime-music">—</span></p>-->
-            <p><strong>Loop Start (ms): </strong> <span id="detail-loopstart-music">—</span></p>
-            <p><strong>Loop End (ms): </strong> <span id="detail-loopend-music">—</span></p>
-            <p><strong>Game: </strong> <span id="detail-game-music">—</span></p>
-            <p><strong>Composer(s): </strong> <span id="detail-composer-music">—</span></p>
-            <p><strong>Places Used: </strong> <span id="detail-places-music">—</span></p>
-            <p><strong>Contributor(s): </strong> <span id="detail-author-music">—</span></p>
-
+          <div id="game-image-container" class="game-image-slideshow"></div>
+        </div>
+      
+      <div class="audio-player">
+        <div class="audio-controls">
+          <button style="font-size:20px;" id="play-btn">&nbsp;▶</button>
+          <input type="range" id="audio-timeline" class="audio-timeline" value="0" min="0" max="100">
+          <span id="current-time">0:00</span> / <span id="duration">0:00</span>
+        </div>
+        <div class="audio-extra-controls">
+          <button id="toggleLoop" style="font-size:15px;">Enable Looping</button>
+          <div class="volume-control">
+            <span style="font-size:15px;">Vol:</span>
+            <input type="range" id="volume-slider" min="0" max="100" value="50" style="width:80px;">
           </div>
         </div>
+        <audio id="audio-player"></audio>
       </div>
+        <div class="details">
+          <button id="download-single-music" style="float:right;" disabled>Download This Track</button>
+          <!--<p><strong>curTime: </strong> <span id="detail-curtime-music">—</span></p>-->
+          <p><strong>Loop Start (ms): </strong> <span id="detail-loopstart-music">—</span></p>
+          <p><strong>Loop End (ms): </strong> <span id="detail-loopend-music">—</span></p>
+          <p><strong>Game: </strong> <span id="detail-game-music">—</span></p>
+          <p><strong>Composer(s): </strong> <span id="detail-composer-music">—</span></p>
+          <p><strong>Places Used: </strong> <span id="detail-places-music">—</span></p>
+          <p><strong>Contributor(s): </strong> <span id="detail-author-music">—</span></p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
       
       <!-- Scripts Tab -->
 <div class="tab-content" id="scripts-content">
@@ -211,8 +217,10 @@
   </div>
   
   <div class="preview-panel">
-    <div style="overflow: auto;">
-      <div id="script-details" class="details"></div>
+    <div class="preview-scrollable">
+      <div style="height:100%; overflow:auto;">
+        <div id="script-details" class="details"></div>
+      </div>
     </div>
   </div>
 </div>
@@ -233,8 +241,10 @@
   </div>
   
   <div class="preview-panel">
-    <div style="overflow: auto;">
-      <div id="tool-details" class="details"></div>
+    <div class="preview-scrollable">
+      <div style="height:100%; overflow:auto;">
+        <div id="tool-details" class="details"></div>
+      </div>
     </div>
   </div>
 </div>
