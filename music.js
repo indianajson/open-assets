@@ -6111,5 +6111,293 @@ let allMusic = [
     "duration": "1:01",
     "gameimage": "exeoss.png",
     "id": "credits-theme-exeoss"
+  },
+  {
+    "ostname": "Dance Robot Dance (menu ver.)",
+    "name": "Main Menu",
+    "files": [
+      "compass-menu.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": "?",
+    "places": "Main Menu",
+    "start": "0",
+    "stop": "35863",
+    "disc": "compassostdisc1.png",
+    "duration": "0:57",
+    "gameimage": "compass.png",
+    "id": "main-menu-compass"
+  },
+  {
+    "ostname": "Dance Robot Dance",
+    "name": "Voidoll Theme",
+    "files": [
+      "compass-voidoll.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "Nayutan Seijin (music, lyrics)",
+      "Hatsune Miku (singer)"
+    ],
+    "places": "Theme of Voidoll",
+    "start": "18474",
+    "stop": "94263",
+    "disc": "compassostdisc1.png",
+    "duration": "1:34",
+    "gameimage": [
+      "compass.png",
+      "compasslivearena.png"
+    ],
+    "id": "voidoll-theme-compass"
+  },
+  {
+    "ostname": "High Spec Neet",
+    "name": "Marcos'55 Theme",
+    "files": [
+      "compass-marcos55.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "40mP (music, lyrics)",
+      "[TEST] (guitar)",
+      "mao (bass)",
+      "Hatsune Miku (singer)"
+    ],
+    "places": "Theme of Marcos'55",
+    "start": "9023",
+    "stop": "74476",
+    "disc": "compassostdisc1.png",
+    "duration": "1:14",
+    "gameimage": [
+      "compass.png",
+      "compasslivearena.png"
+    ],
+    "id": "marcos55-theme-compass"
+  },
+  {
+    "ostname": "Alkali Rettousei",
+    "name": "Lyrica Theme",
+    "files": [
+      "compass-lyrica.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "Kairiki Bear (music, lyrics)",
+      "Hatsune Miku (singer)"
+    ],
+    "places": "Theme of Lyrica the Magical Girl",
+    "start": "17469",
+    "stop": "90380",
+    "disc": "compassostdisc1.png",
+    "duration": "1:30",
+    "gameimage": [
+      "compass.png",
+      "compasslivearena.png"
+    ],
+    "id": "lyrica-theme-compass"
+  },
+  {
+    "ostname": "Zankyou",
+    "name": "Tadaomi Theme",
+    "files": [
+      "compass-tadaomi.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "164 (music, lyrics)",
+      "GUMI (singer)"
+    ],
+    "places": "Theme of Ouka Tadaomi",
+    "start": "27105",
+    "stop": "105964",
+    "disc": "compassostdisc1.png",
+    "duration": "1:46",
+    "gameimage": [
+      "compass.png",
+      "compasslivearena.png"
+    ],
+    "id": "tadaomi-theme-compass"
+  },
+  {
+    "ostname": "Ayakashi",
+    "name": "Matoi Theme",
+    "files": [
+      "compass-matoi.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "buzzG (music, lyrics)",
+      "Kei Nakamura (bass)",
+      "tomoboP (mix, mastering)",
+      "Hatsune Miku (singer)"
+    ],
+    "places": "Theme of Fukagawa Matoi",
+    "start": "24700",
+    "stop": "81465",
+    "disc": "compassostdisc1.png",
+    "duration": "1:21",
+    "gameimage": [
+      "compass.png",
+      "compasslivearena.png"
+    ],
+    "id": "matoi-theme-compass"
+  },
+  {
+    "ostname": "Retro Mania Kyousoukyoku",
+    "name": "Atari Theme",
+    "files": [
+      "compass-atari.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "PolyphonicBranch (music, lyrics)",
+      "Kagamine Rin (singer)",
+      "Kagamine Len (singer)"
+    ],
+    "places": "Theme of Juumonji Atari",
+    "start": "10497",
+    "stop": "69169",
+    "disc": "compassostdisc1.png",
+    "duration": "1:09",
+    "gameimage": [
+      "compass.png",
+      "compasslivearena.png"
+    ],
+    "id": "atari-theme-compass"
+  },
+  {
+    "ostname": "Dokuhaku",
+    "name": "Luciano Theme",
+    "files": [
+      "compass-luciano.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "MARETU (music, lyrics)",
+      "Hatsune Miku (singer)"
+    ],
+    "places": "Theme of Luciano",
+    "start": "34636",
+    "stop": "94636",
+    "disc": "compassostdisc1.png",
+    "duration": "1:35",
+    "gameimage": [
+      "compass.png",
+      "compasslivearena.png"
+    ],
+    "id": "luciano-theme-compass"
+  },
+  {
+    "ostname": "Machigai Sagashi",
+    "name": "Jeanne Theme",
+    "files": [
+      "compass-jeanne.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "Mafumafu (music, lyrics)",
+      "IA (singer)"
+    ],
+    "places": "Theme of Jeanne d'Arc",
+    "start": "29376",
+    "stop": "109376",
+    "disc": "compassostdisc1.png",
+    "duration": "1:49",
+    "gameimage": [
+      "compass.png",
+      "compasslivearena.png"
+    ],
+    "id": "jeanne-theme-compass"
+  },
+  {
+    "ostname": "Call of Justice",
+    "name": "Justice Theme",
+    "files": [
+      "compass-justice.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "Devilish-P (music, lyrics)",
+      "beriko (bass)",
+      "SHOTARO YAMAUCHI (drum)",
+      "KYO (singer)",
+      "Camui Gackpo (singer)"
+    ],
+    "places": "Theme of Justice Hancock",
+    "start": "37157",
+    "stop": "111470",
+    "disc": "compassostdisc1.png",
+    "duration": "1:51",
+    "gameimage": [
+      "compass.png",
+      "compasslivearena.png"
+    ],
+    "id": "justice-theme-compass"
+  },
+  {
+    "ostname": "Kire Carry On",
+    "name": "Noho Theme",
+    "files": [
+      "compass-noho.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "Police Piccadilly (music, lyrics)",
+      "Hatsune Miku (singer)"
+    ],
+    "places": "Theme of Soubiki Noho",
+    "start": "15580",
+    "stop": "86169",
+    "disc": "compassostdisc1.png",
+    "duration": "1:26",
+    "gameimage": [
+      "compass.png",
+      "compasslivearena.png"
+    ],
+    "id": "noho-theme-compass"
   }
 ];
