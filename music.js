@@ -6136,7 +6136,7 @@ let allMusic = [
     "ostname": "Dance Robot Dance",
     "name": "Voidoll Theme",
     "files": [
-      "compass-voidoll.ogg"
+      "compass/compass-voidoll.ogg"
     ],
     "author": [
       "peterdao",
@@ -6162,7 +6162,7 @@ let allMusic = [
     "ostname": "High Spec Neet",
     "name": "Marcos'55 Theme",
     "files": [
-      "compass-marcos55.ogg"
+      "compass/compass-marcos55.ogg"
     ],
     "author": [
       "peterdao",
@@ -6190,7 +6190,7 @@ let allMusic = [
     "ostname": "Alkali Rettousei",
     "name": "Lyrica Theme",
     "files": [
-      "compass-lyrica.ogg"
+      "compass/compass-lyrica.ogg"
     ],
     "author": [
       "peterdao",
@@ -6216,7 +6216,7 @@ let allMusic = [
     "ostname": "Zankyou",
     "name": "Tadaomi Theme",
     "files": [
-      "compass-tadaomi.ogg"
+      "compass/compass-tadaomi.ogg"
     ],
     "author": [
       "peterdao",
@@ -6242,7 +6242,7 @@ let allMusic = [
     "ostname": "Ayakashi",
     "name": "Matoi Theme",
     "files": [
-      "compass-matoi.ogg"
+      "compass/compass-matoi.ogg"
     ],
     "author": [
       "peterdao",
@@ -6270,7 +6270,7 @@ let allMusic = [
     "ostname": "Retro Mania Kyousoukyoku",
     "name": "Atari Theme",
     "files": [
-      "compass-atari.ogg"
+      "compass/compass-atari.ogg"
     ],
     "author": [
       "peterdao",
@@ -6297,7 +6297,7 @@ let allMusic = [
     "ostname": "Dokuhaku",
     "name": "Luciano Theme",
     "files": [
-      "compass-luciano.ogg"
+      "compass/compass-luciano.ogg"
     ],
     "author": [
       "peterdao",
@@ -6323,7 +6323,7 @@ let allMusic = [
     "ostname": "Machigai Sagashi",
     "name": "Jeanne Theme",
     "files": [
-      "compass-jeanne.ogg"
+      "compass/compass-jeanne.ogg"
     ],
     "author": [
       "peterdao",
@@ -6349,7 +6349,7 @@ let allMusic = [
     "ostname": "Call of Justice",
     "name": "Justice Theme",
     "files": [
-      "compass-justice.ogg"
+      "compass/compass-justice.ogg"
     ],
     "author": [
       "peterdao",
@@ -6378,7 +6378,7 @@ let allMusic = [
     "ostname": "Kire Carry On",
     "name": "Noho Theme",
     "files": [
-      "compass-noho.ogg"
+      "compass/compass-noho.ogg"
     ],
     "author": [
       "peterdao",
