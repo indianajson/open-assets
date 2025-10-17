@@ -6116,7 +6116,7 @@ let allMusic = [
     "ostname": "Dance Robot Dance (menu ver.)",
     "name": "Main Menu",
     "files": [
-      "compass-menu.ogg"
+      "compass/compass-menu.ogg"
     ],
     "author": [
       "peterdao",
