@@ -6457,7 +6457,7 @@ let allMusic = [
     "ostname": "Tesla wa Yume no Naka (Hero Singing ver.)",
     "name": "Tesla Theme (Voice)",
     "files": [
-      "compasslivearena-tesla.ogg"
+      "compass/compasslivearena-tesla.ogg"
     ],
     "author": [
       "peterdao",
