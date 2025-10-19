@@ -6404,7 +6404,7 @@ let allMusic = [
     "ostname": "Grave",
     "name": "Gustav Theme",
     "files": [
-      "compass-gustav.ogg"
+      "compass/compass-gustav.ogg"
     ],
     "author": [
       "peterdao",
@@ -6430,7 +6430,7 @@ let allMusic = [
     "ostname": "Tesla wa Yume no Naka",
     "name": "Tesla Theme",
     "files": [
-      "compass-tesla.ogg"
+      "compass/compass-tesla.ogg"
     ],
     "author": [
       "peterdao",
@@ -6481,7 +6481,7 @@ let allMusic = [
     "ostname": "Cantabile x Passione",
     "name": "Violetta Theme",
     "files": [
-      "compass-violetta.ogg"
+      "compass/compass-violetta.ogg"
     ],
     "author": [
       "peterdao",
@@ -6507,7 +6507,7 @@ let allMusic = [
     "ostname": "KILLER B",
     "name": "Maria Theme",
     "files": [
-      "compass-maria.ogg"
+      "compass/compass-maria.ogg"
     ],
     "author": [
       "peterdao",
@@ -6537,7 +6537,7 @@ let allMusic = [
     "ostname": "Zenmai Shoujo Tokei",
     "name": "Coquelicot Theme",
     "files": [
-      "compass-coquelicot.ogg"
+      "compass/compass-coquelicot.ogg"
     ],
     "author": [
       "peterdao",
@@ -6564,7 +6564,7 @@ let allMusic = [
     "ostname": "Tenshi da to Omotte ita no ni",
     "name": "Thirteen Theme",
     "files": [
-      "compass-thirteen.ogg"
+      "compass/compass-thirteen.ogg"
     ],
     "author": [
       "peterdao",
@@ -6590,7 +6590,7 @@ let allMusic = [
     "ostname": "Violence Trigger",
     "name": "Meg Meg Theme",
     "files": [
-      "compass-megmeg.ogg"
+      "compass/compass-megmeg.ogg"
     ],
     "author": [
       "peterdao",
@@ -6616,7 +6616,7 @@ let allMusic = [
     "ostname": "Kimi no Kaze ni Naru",
     "name": "Istaqa Theme",
     "files": [
-      "compass-istaqa.ogg"
+      "compass/compass-istaqa.ogg"
     ],
     "author": [
       "peterdao",
@@ -6642,7 +6642,7 @@ let allMusic = [
     "ostname": "Kimi wa Tada Ni-kai Tobeba Ii",
     "name": "Hero Theme",
     "files": [
-      "compass-yuusha.ogg"
+      "compass/compass-yuusha.ogg"
     ],
     "author": [
       "peterdao",
@@ -6668,7 +6668,7 @@ let allMusic = [
     "ostname": "Dakara Itta Desho?",
     "name": "Kirara Theme",
     "files": [
-      "compass-kirara.ogg"
+      "compass/compass-kirara.ogg"
     ],
     "author": [
       "peterdao",
@@ -6694,7 +6694,7 @@ let allMusic = [
     "ostname": "Let Me Take You",
     "name": "Adam Theme",
     "files": [
-      "compass-adam.ogg"
+      "compass/compass-adam.ogg"
     ],
     "author": [
       "peterdao",
@@ -6720,7 +6720,7 @@ let allMusic = [
     "ostname": "Crazy Beat",
     "name": "Pororotcho Theme",
     "files": [
-      "compass-pororotcho.ogg"
+      "compass/compass-pororotcho.ogg"
     ],
     "author": [
       "peterdao",
