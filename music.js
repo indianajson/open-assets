@@ -6742,5 +6742,5 @@ let allMusic = [
       "compasslivearena.png"
     ],
     "id": "pororotcho-theme-compass"
-  },
+  }
 ];
