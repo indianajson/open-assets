@@ -329,6 +329,9 @@ $(function () {
     if (games.includes("EXE5/BN5")) {
       games.push("EXE5DS/BN5DS");
     }
+    if (games.includes("Other")) {
+      games.push("#COMPASS");
+    }
     let rows = currentData.filter((item) => {
       if (
         games.length &&
