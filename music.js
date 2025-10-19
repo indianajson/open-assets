@@ -6422,7 +6422,7 @@ let allMusic = [
     "duration": "1:26",
     "gameimage": [
       "compass.png",
-      "compasslifearena.png"
+      "compasslivearena.png"
     ],
     "id": "gustav-theme-compass"
   },
@@ -6449,7 +6449,7 @@ let allMusic = [
     "duration": "1:23",
     "gameimage": [
       "compass.png",
-      "compasslifearena.png"
+      "compasslivearena.png"
     ],
     "id": "tesla-theme-compass"
   },
@@ -6457,7 +6457,7 @@ let allMusic = [
     "ostname": "Tesla wa Yume no Naka (Hero Singing ver.)",
     "name": "Tesla Theme (Voice)",
     "files": [
-      "compasslifearena-tesla.ogg"
+      "compasslivearena-tesla.ogg"
     ],
     "author": [
       "peterdao",
@@ -6474,8 +6474,8 @@ let allMusic = [
     "stop": "81433",
     "disc": "compassostdisc2.png",
     "duration": "1:21",
-    "gameimage": "compasslifearena.png",
-    "id": "tesla-theme-voice-compasslifearena"
+    "gameimage": "compasslivearena.png",
+    "id": "tesla-theme-voice-compasslivearena"
   },
   {
     "ostname": "Cantabile x Passione",
@@ -6499,7 +6499,7 @@ let allMusic = [
     "duration": "2:00",
     "gameimage": [
       "compass.png",
-      "compasslifearena.png"
+      "compasslivearena.png"
     ],
     "id": "violetta-theme-compass"
   },
@@ -6529,7 +6529,7 @@ let allMusic = [
     "duration": "1:14",
     "gameimage": [
       "compass.png",
-      "compasslifearena.png"
+      "compasslivearena.png"
     ],
     "id": "maria-theme-compass"
   },
@@ -6556,7 +6556,7 @@ let allMusic = [
     "duration": "2:08",
     "gameimage": [
       "compass.png",
-      "compasslifearena.png"
+      "compasslivearena.png"
     ],
     "id": "coquelicot-theme-compass"
   },
@@ -6582,7 +6582,7 @@ let allMusic = [
     "duration": "2:08",
     "gameimage": [
       "compass.png",
-      "compasslifearena.png"
+      "compasslivearena.png"
     ],
     "id": "thirteen-theme-compass"
   },
@@ -6608,7 +6608,7 @@ let allMusic = [
     "duration": "1:08",
     "gameimage": [
       "compass.png",
-      "compasslifearena.png"
+      "compasslivearena.png"
     ],
     "id": "megmeg-theme-compass"
   },
@@ -6634,7 +6634,7 @@ let allMusic = [
     "duration": "1:08",
     "gameimage": [
       "compass.png",
-      "compasslifearena.png"
+      "compasslivearena.png"
     ],
     "id": "istaqa-theme-compass"
   },
@@ -6660,7 +6660,7 @@ let allMusic = [
     "duration": "2:00",
     "gameimage": [
       "compass.png",
-      "compasslifearena.png"
+      "compasslivearena.png"
     ],
     "id": "yuusha-theme-compass"
   },
@@ -6686,7 +6686,7 @@ let allMusic = [
     "duration": "1:39",
     "gameimage": [
       "compass.png",
-      "compasslifearena.png"
+      "compasslivearena.png"
     ],
     "id": "kirara-theme-compass"
   },
@@ -6712,7 +6712,7 @@ let allMusic = [
     "duration": "2:01",
     "gameimage": [
       "compass.png",
-      "compasslifearena.png"
+      "compasslivearena.png"
     ],
     "id": "adam-theme-compass"
   },
@@ -6739,7 +6739,7 @@ let allMusic = [
     "duration": "1:43",
     "gameimage": [
       "compass.png",
-      "compasslifearena.png"
+      "compasslivearena.png"
     ],
     "id": "pororotcho-theme-compass"
   },
