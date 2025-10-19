@@ -6399,5 +6399,348 @@ let allMusic = [
       "compasslivearena.png"
     ],
     "id": "noho-theme-compass"
-  }
+  },
+  {
+    "ostname": "Grave",
+    "name": "Gustav Theme",
+    "files": [
+      "compass-gustav.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "niki (music, lyrics)",
+      "Hatsune Miku (singer)"
+    ],
+    "places": "Theme of Gustav Heydrich",
+    "start": "34470",
+    "stop": "86336",
+    "disc": "compassostdisc2.png",
+    "duration": "1:26",
+    "gameimage": [
+      "compass.png",
+      "compasslifearena.png"
+    ],
+    "id": "gustav-theme-compass"
+  },
+  {
+    "ostname": "Tesla wa Yume no Naka",
+    "name": "Tesla Theme",
+    "files": [
+      "compass-tesla.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "TOKOTOKO (music, lyrics)",
+      "Tomobo-P (mixing, mastering)",
+      "Hatsune Miku (singer)"
+    ],
+    "places": "Theme of Nikola Tesla",
+    "start": "16388",
+    "stop": "83382",
+    "disc": "compassostdisc2.png",
+    "duration": "1:23",
+    "gameimage": [
+      "compass.png",
+      "compasslifearena.png"
+    ],
+    "id": "tesla-theme-compass"
+  },
+  {
+    "ostname": "Tesla wa Yume no Naka (Hero Singing ver.)",
+    "name": "Tesla Theme (Voice)",
+    "files": [
+      "compasslifearena-tesla.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS:LA",
+    "composer": [
+      "TOKOTOKO (music, lyrics)",
+      "Tomobo-P (mixing, mastering)",
+      "Nikola Tesla (Murase Ayumu) (singer)"
+    ],
+    "places": "Theme of Nikola Tesla",
+    "start": "14473",
+    "stop": "81433",
+    "disc": "compassostdisc2.png",
+    "duration": "1:21",
+    "gameimage": "compasslifearena.png",
+    "id": "tesla-theme-voice-compasslifearena"
+  },
+  {
+    "ostname": "Cantabile x Passione",
+    "name": "Violetta Theme",
+    "files": [
+      "compass-violetta.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "OSTER Project (music, lyrics)",
+      "Hatsune Miku (singer)"
+    ],
+    "places": "Theme of Violetta Noire",
+    "start": "28588",
+    "stop": "120088",
+    "disc": "compassostdisc2.png",
+    "duration": "2:00",
+    "gameimage": [
+      "compass.png",
+      "compasslifearena.png"
+    ],
+    "id": "violetta-theme-compass"
+  },
+  {
+    "ostname": "KILLER B",
+    "name": "Maria Theme",
+    "files": [
+      "compass-maria.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "Umetora (music, lyrics)",
+      "Megurine Luka (singer)",
+      "Hatsune Miku (singer)",
+      "GUMI (singer)",
+      "IA (singer)",
+      "Kagamine Rin (singer)"
+    ],
+    "places": "Theme of Maria S. Leonburg",
+    "start": "22386",
+    "stop": "74079",
+    "disc": "compassostdisc2.png",
+    "duration": "1:14",
+    "gameimage": [
+      "compass.png",
+      "compasslifearena.png"
+    ],
+    "id": "maria-theme-compass"
+  },
+  {
+    "ostname": "Zenmai Shoujo Tokei",
+    "name": "Coquelicot Theme",
+    "files": [
+      "compass-coquelicot.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "Drop (music)",
+      "Hatsuki Yura (lyrics)",
+      "Hatsune Miku (singer)"
+    ],
+    "places": "Theme of Coquelicot Blanche",
+    "start": "21483",
+    "stop": "128943",
+    "disc": "compassostdisc2.png",
+    "duration": "2:08",
+    "gameimage": [
+      "compass.png",
+      "compasslifearena.png"
+    ],
+    "id": "coquelicot-theme-compass"
+  },
+  {
+    "ostname": "Tenshi da to Omotte ita no ni",
+    "name": "Thirteen Theme",
+    "files": [
+      "compass-thirteen.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "Utsu-P (music, lyrics)",
+      "Hatsune Miku (singer)"
+    ],
+    "places": "Theme of 13 (Thirteen)",
+    "start": "39532",
+    "stop": "128333",
+    "disc": "compassostdisc2.png",
+    "duration": "2:08",
+    "gameimage": [
+      "compass.png",
+      "compasslifearena.png"
+    ],
+    "id": "thirteen-theme-compass"
+  },
+  {
+    "ostname": "Violence Trigger",
+    "name": "Meg Meg Theme",
+    "files": [
+      "compass-megmeg.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "HachiojiP (music, lyrics)",
+      "Hatsune Miku (singer)"
+    ],
+    "places": "Theme of Meg Meg",
+    "start": "9795",
+    "stop": "68571",
+    "disc": "compassostdisc2.png",
+    "duration": "1:08",
+    "gameimage": [
+      "compass.png",
+      "compasslifearena.png"
+    ],
+    "id": "megmeg-theme-compass"
+  },
+  {
+    "ostname": "Kimi no Kaze ni Naru",
+    "name": "Istaqa Theme",
+    "files": [
+      "compass-istaqa.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "Noboru↑-P (music, lyrics)",
+      "Kagamine Rin (singer)"
+    ],
+    "places": "Theme of Istaqa",
+    "start": "12429",
+    "stop": "68167",
+    "disc": "compassostdisc2.png",
+    "duration": "1:08",
+    "gameimage": [
+      "compass.png",
+      "compasslifearena.png"
+    ],
+    "id": "istaqa-theme-compass"
+  },
+  {
+    "ostname": "Kimi wa Tada Ni-kai Tobeba Ii",
+    "name": "Hero Theme",
+    "files": [
+      "compass-yuusha.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "mothy (music, lyrics)",
+      "Kagamine Len (singer)"
+    ],
+    "places": "Theme of Starting Hero",
+    "start": "27779",
+    "stop": "120223",
+    "disc": "compassostdisc2.png",
+    "duration": "2:00",
+    "gameimage": [
+      "compass.png",
+      "compasslifearena.png"
+    ],
+    "id": "yuusha-theme-compass"
+  },
+  {
+    "ostname": "Dakara Itta Desho?",
+    "name": "Kirara Theme",
+    "files": [
+      "compass-kirara.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "EasyPop (music, lyrics)",
+      "Megurine Luka (singer)"
+    ],
+    "places": "Theme of Kiryuin Kirara",
+    "start": "20604",
+    "stop": "99276",
+    "disc": "compassostdisc2.png",
+    "duration": "1:39",
+    "gameimage": [
+      "compass.png",
+      "compasslifearena.png"
+    ],
+    "id": "kirara-theme-compass"
+  },
+  {
+    "ostname": "Let Me Take You",
+    "name": "Adam Theme",
+    "files": [
+      "compass-adam.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "banvox (music, lyrics, singer)",
+      "Hatsune Miku (singer)"
+    ],
+    "places": "Theme of Adam Yuriev",
+    "start": "33105",
+    "stop": "121376",
+    "disc": "compassostdisc2.png",
+    "duration": "2:01",
+    "gameimage": [
+      "compass.png",
+      "compasslifearena.png"
+    ],
+    "id": "adam-theme-compass"
+  },
+  {
+    "ostname": "Crazy Beat",
+    "name": "Pororotcho Theme",
+    "files": [
+      "compass-pororotcho.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "Satsuki Ga Tenkomori (music, lyrics)",
+      "Hatsune Miku (singer)",
+      "Kagamine Len (singer)"
+    ],
+    "places": "Theme of Venus Pororotcho",
+    "start": "14783",
+    "stop": "103399",
+    "disc": "compassostdisc2.png",
+    "duration": "1:43",
+    "gameimage": [
+      "compass.png",
+      "compasslifearena.png"
+    ],
+    "id": "pororotcho-theme-compass"
+  },
 ];
