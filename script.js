@@ -331,6 +331,7 @@ $(function () {
     }
     if (games.includes("Other")) {
       games.push("#COMPASS");
+      games.push("#COMPASS:LA");
     }
     let rows = currentData.filter((item) => {
       if (
