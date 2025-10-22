@@ -209,15 +209,19 @@ let allData = [
  { "name": "Wave Roads Decoration (1 of 2)", "type": "object", "files": [ "WaveRoadsLBlocks.tsx", "WaveRoadsLBlocks.png" ], "author": "D3str0y3d", "game": "Other", "preview": "WaveRoadsLBlocks.png", "id": "wave-roads-decoration-1-of-2-other" },
  { "name": "Wave Roads Decoration (2 of 2)", "type": "object", "files": [ "WaveRoadAccentAnimationsStraightLine.tsx", "WaveRoadAccentAnimationsStraightLine.png" ], "author": "D3str0y3d", "game": "Other", "preview": "WaveRoadAccentAnimationsStraightLine.png", "id": "wave-roads-decoration-2-of-2-other" },
  { "name": "WWW Machine", "type": "object", "files": [ "exe1 wwwmachine1.png", "exe1 wwwmachine1.tsx" ], "author": "Quetzen", "game": "EXE1/BN1", "preview": "exe1 wwwmachine1.png", "id": "www-machine-exe1" },
- { "name": "Ice Tiles", "type": "tile", "files": [ "ice-tile.tsx", "ice-tile.png", "IceSlide.ogg", "ice-tile-readme.md" ], "author": "D3str0y3d", "game": "EXE2/BN2", "preview": "ice-tile.png", "id": "ice-tiles-exe2" },
- { "name": "Tournament BBS", "type": "object", "files": [ "TBS.tsx", "TBS.png" ], "author": "Indiana", "game": "EXE4.5", "preview": "TBS.png", "id": "TBS-exe45" },
+ { "name": "Ice Tiles (dark)", "type": "tile", "files": [ "dark_ice.tsx", "dark_ice.png", "IceSlide.ogg", "ice-tile-readme.md" ], "author": "D3str0y3d", "game": "EXE2/BN2", "preview": "dark_ice.png", "id": "ice-tiles-exe2" },
+  { "name": "Ice Tiles (light)", "type": "tile", "files": [ "light_ice.tsx", "light_ice.png", "IceSlide.ogg", "light_ice-readme.md" ], "author": "D3str0y3d", "game": "EXE2/BN2", "preview": "light_ice.png", "id": "ice-tiles-exe2" },
+
+ { "name": "Tournament BBS", "type": "object", "files": [ "ow-tourney-board.tsx", "ow-tourney-board.png" ], "author": ["Indiana","D3str0y3d"], "game": "EXE4.5", "preview": "ow-tourney-board.png", "id": "TBS-exe45" },
   { "name": "Wood and Bamboo Tile", "type": "tile", "files": [ "ShangWoodAndBamboo.tsx", "ShangWoodAndBamboo.png" ], "author": "D3str0y3d", "game": "Shanghai", "preview": "ShangWoodAndBamboo.png", "id": "shangwood-d3" },
   { "name": "Wood Warp", "type": "tile", "files": [ "ShanWoodWarp.tsx", "ShanWoodWarp.png" ], "author": "D3str0y3d", "game": "Shanghai", "preview": "ShanWoodWarp.png", "id": "shangwarp-d3" },
   { "name": "Arcade Tile", "type": "tile", "files": [ "ArcadeFloor.tsx", "ArcadeFloor.png" ], "author": "Rune", "game": "Custom", "preview": "ArcadeFloor.png", "id": "arcade-rune" },
    { "name": "Undernet Tiles", "type": "tile", "files": [ "bn3_undernet_tiles.tsx", "bn3_undernet_tiles.png" ], "author": "Gobby", "game": "EXE3/BN3", "preview": "bn3_undernet_tiles.png", "id": "under-gobby" },
    { "name": "Undernet Arrows", "type": "tile", "files": [ "bn3_arrows_undernet.tsx", "bn3_arrows_undernet.png" ], "author": "Gobby", "game": "EXE3/BN3", "preview": "bn3_arrows_undernet.png", "id": "underarrow-gobby" },
   { "name": "Internet 1-4 Area Tiles", "type": "tile", "files": [ "Bn4_5Tilesets.tsx", "Bn4_5Tilesets.png" ], "author": "D3str0y3d", "game": "EXE4.5", "preview": "Bn4_5Tilesets.png", "id": "int1-4" },
-  { "name": "Water Tiles", "type": "tile", "files": [ "water_tiles.tsx", "water_tiles.png" ], "author": "D3str0y3d", "game": "Custom", "preview": "water_tiles.png", "id": "splash" },
+  { "name": "Water Tiles (stylized)", "type": "tile", "files": [ "water_tiles.tsx", "water_tiles.png" ], "author": "D3str0y3d", "game": "Custom", "preview": "water_tiles.png", "id": "splash" },
+    { "name": "Water Tiles (enclosed)", "type": "tile", "files": [ "enclosed-water-tiles.tsx", "enclosed-water-tiles.png" ], "author": "D3str0y3d", "game": "Custom", "preview": "enclosed-water-tiles.png", "id": "splash" },
+
   { "name": "Lava Tiles", "type": "tile", "files": [ "lava_tile.tsx", "lava_tile.png" ], "author": "Learn2Fly", "game": "Custom", "preview": "lava_tile.png", "id": "lava-tile" },
 
   /*
