@@ -61,9 +61,25 @@ $(function () {
 
   function handleHashOnLoad() {
     const hash = window.location.hash.substring(1); // Remove the #
-    const params = new URLSearchParams(hash);
-    const tab = params.get("tab");
-    const itemId = params.get("item");
+    
+    // Try to parse as URLSearchParams first (for tab=value&item=value format)
+    let tab = null;
+    let itemId = null;
+    
+    try {
+      const params = new URLSearchParams(hash);
+      tab = params.get("tab");
+      itemId = params.get("item");
+    } catch (e) {
+      // If URLSearchParams fails, treat the entire hash as the tab name
+      tab = hash;
+    }
+    
+    // If no tab was found via URLSearchParams but we have a hash, use the hash as tab
+    if (!tab && hash) {
+      tab = hash;
+    }
+    
     const validTabs = [
       "tiles",
       "backgrounds",
@@ -92,6 +108,7 @@ $(function () {
       }
     }
   }
+
 
   // Search functionality
   $("#search-input").on("input", function () {
