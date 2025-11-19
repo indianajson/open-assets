@@ -1,5 +1,5 @@
 let allTools = [
-{"name": "Tiled Layer Fixer","tooltype":"Tiled Extension","description":'A Tiled 1.8+ extension to make adding new layers to Tiled a breeze. The extension will rename and fix vertical offsets in all layers instantly based on their order in the Layers panel.<br><br> <button><a href="fix-layers/" target="_blank" style="text-decoration:none; color:#000;">Info/Download</a></button>',"author": "Indiana","id":"fix-layers-indiana"},
+{"name": "Tiled Layer Fixer","tooltype":"Tiled Extension","description":'A Tiled 1.8+ extension to make adding new layers to Tiled a breeze. The extension will rename and fix vertical offsets in all layers instantly based on their order in the Layers panel.<br><br> <button><a href="s/fix-layers/" target="_blank" style="text-decoration:none; color:#000;">Info/Download</a></button>',"author": "Indiana","id":"fix-layers-indiana"},
 
 {"name": "Boomsheets (Spritesheet Editor)","tooltype":"Software","description":'Paid software for Windows built by ONB\'s creator to give you full control when creating .animation or .TSX files for spritesheets. <br><br> <button><a href="https://store.steampowered.com/app/2189000/BoomSheets/" target="_blank" style="text-decoration:none; color:#000;">Launch Tool</a></button>',"author": "Dr. Nerd","id":"boomsheets"},
 
