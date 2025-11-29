@@ -8,6 +8,14 @@ $(function () {
   let currentlyPlayingRow = null;
   let isLooping = false;
   const tabsWithoutSelection = ["scripts", "tools"];
+  const $tabMenuList = $("#tab-menu-list");
+  const $tabMenuItems = $("#tab-menu-list .tab-menu-item");
+  const $mainTitle = $(".title-bar .title-bar-text").first();
+  const fullTitleText = $mainTitle.text();
+  const compactTitleText = "openAssets";
+  const $feedbackLabel = $("#feedback-btn span");
+  const fullFeedbackText = $feedbackLabel.text();
+  const compactFeedbackText = "Feedback / Removals ▸";
 
   function selectionEnabled(tab = currentTab) {
     return !tabsWithoutSelection.includes(tab);
@@ -22,6 +30,7 @@ $(function () {
     $(".tab-content").removeClass("active");
     $(`#${tab}-content`).addClass("active");
     currentTab = tab;
+    setMobileTabActive(tab);
 
     if (tab === "tiles") {
       $('.filter[data-filter="type"]').removeClass("hidden");
@@ -62,6 +71,24 @@ $(function () {
     // Rebuild filter options for new tab
     buildFilterOptions();
     renderList();
+    applyResponsiveAdjustments();
+  });
+
+  $("#tab-menu-button").on("click", function (e) {
+    e.stopPropagation();
+    $tabMenuList.toggleClass("open");
+  });
+
+  $tabMenuItems.on("click", function () {
+    const tab = $(this).data("tab");
+    $tabMenuList.removeClass("open");
+    $(`.tab[data-tab="${tab}"]`).trigger("click");
+  });
+
+  $(document).on("click", function (e) {
+    if (!$(e.target).closest(".tab-menu-mobile").length) {
+      $tabMenuList.removeClass("open");
+    }
   });
 
   function handleHashOnLoad() {
@@ -323,6 +350,23 @@ $(function () {
       type !== "both" ||
       searchTerm !== "";
     $("#clear-filters").prop("disabled", !any);
+  }
+
+  function setMobileTabActive(tab) {
+    $tabMenuItems.removeClass("active");
+    $tabMenuItems.filter(`[data-tab="${tab}"]`).addClass("active");
+  }
+
+  function applyResponsiveAdjustments() {
+    const isNarrow = window.innerWidth < 800;
+    if (isNarrow) {
+      $mainTitle.text(compactTitleText);
+      $feedbackLabel.text(compactFeedbackText);
+      setMobileTabActive(currentTab);
+    } else {
+      $mainTitle.text(fullTitleText);
+      $feedbackLabel.text(fullFeedbackText);
+    }
   }
 
   function updateDownloadSelectedVisibility(
@@ -1567,4 +1611,6 @@ $(function () {
   }
 
   handleHashOnLoad();
+  applyResponsiveAdjustments();
+  $(window).on("resize", applyResponsiveAdjustments);
 });
