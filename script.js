@@ -7,6 +7,11 @@ $(function () {
   let currentAudio = null;
   let currentlyPlayingRow = null;
   let isLooping = false;
+  const tabsWithoutSelection = ["scripts", "tools"];
+
+  function selectionEnabled(tab = currentTab) {
+    return !tabsWithoutSelection.includes(tab);
+  }
 
   // Initialize tabs
   $(".tab").on("click", function () {
@@ -320,10 +325,23 @@ $(function () {
     $("#clear-filters").prop("disabled", !any);
   }
 
+  function updateDownloadSelectedVisibility(
+    supportsSelection = selectionEnabled()
+  ) {
+    const $downloadBtn = $("#download-selected");
+    if (supportsSelection) {
+      $downloadBtn.show();
+      $downloadBtn.prop("disabled", $(".sel:checked").length === 0);
+    } else {
+      $downloadBtn.hide().prop("disabled", true);
+    }
+  }
+
   /* Functions to Render File Lists and File Previews */
 
   function renderList() {
     const { games, type, authors, tooltype, searchTerm } = getFilters();
+    const supportsSelection = selectionEnabled();
     let currentData;
 
     if (currentTab === "tiles") {
@@ -420,12 +438,15 @@ $(function () {
     }
 
     const $tb = $(`#${currentTab}-content table.file-list tbody`).empty();
+    const selectionCell = supportsSelection
+      ? '<td><input type="checkbox" class="sel"/></td>'
+      : "";
 
     if (currentTab === "music") {
       rows.forEach((it, index) => {
         $tb.append(
           `<tr data-item-id="${it.id || index}">
-              <td><input type="checkbox" class="sel"/></td>
+              ${selectionCell}
               <td><button class="music-play-btn">▶</button></td>
               <td>${it.name}</td>
               <td>${it.ostname}</td>
@@ -440,7 +461,6 @@ $(function () {
       rows.forEach((it, index) => {
         $tb.append(
           `<tr data-item-id="${it.id || index}">
-              <td><input type="checkbox" class="sel"/></td>
               <td>${it.name}</td>
               <td>${it.scripttype}</td>
               <td>${
@@ -453,7 +473,6 @@ $(function () {
       rows.forEach((it, index) => {
         $tb.append(
           `<tr data-item-id="${it.id || index}">
-              <td><input type="checkbox" class="sel"/></td>
               <td>${it.name}</td>
               <td>${it.tooltype}</td>
               <td>${
@@ -466,7 +485,7 @@ $(function () {
       rows.forEach((it, index) => {
         $tb.append(
           `<tr data-item-id="${it.id || index}">
-              <td><input type="checkbox" class="sel"/></td>
+              ${selectionCell}
               <td>${it.name}</td>
               <td>${it.game}</td>
               <td>${
@@ -601,19 +620,23 @@ $(function () {
       );
     }
 
-    $(".sel").on("change", () => {
-      $("#download-selected").prop("disabled", $(".sel:checked").length === 0);
-    });
-
-    $("#download-selected")
-      .off()
-      .on("click", () => {
-        const checked = $(".sel:checked")
-          .closest("tr")
-          .map((i, tr) => rows[$(tr).index()])
-          .get();
-        downloadMultiple(checked);
+    if (supportsSelection) {
+      $(".sel").on("change", () => {
+        updateDownloadSelectedVisibility(supportsSelection);
       });
+
+      $("#download-selected")
+        .off()
+        .on("click", () => {
+          const checked = $(".sel:checked")
+            .closest("tr")
+            .map((i, tr) => rows[$(tr).index()])
+            .get();
+          downloadMultiple(checked);
+        });
+    } else {
+      $("#download-selected").off();
+    }
 
     // reset preview based on current tab
     if (currentTab === "tiles") {
@@ -645,6 +668,7 @@ $(function () {
     } else if (currentTab === "tools") {
       $("#tool-details").empty();
     }
+    updateDownloadSelectedVisibility(supportsSelection);
   }
 
   function showPreview(item) {

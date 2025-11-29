@@ -146,6 +146,12 @@ table.file-list tr.selected {
   background: #000080;
   color: #fff;
 }
+#scripts-content table.file-list th:first-child,
+#scripts-content table.file-list td:first-child,
+#tools-content table.file-list th:first-child,
+#tools-content table.file-list td:first-child {
+  padding-left: 16px;
+}
 th.sortable {
   cursor: pointer;
   text-decoration: underline;
