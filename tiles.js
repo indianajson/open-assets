@@ -148,6 +148,8 @@ let allData = [
  { "name": "Glow Tileset - Small", "files": [ "GlowSm.png", "GlowSm.tsx" ], "author": "unknown", "game": "Custom", "preview": "GlowSm.png", "id": "glow-tileset-small-custom" },
  { "name": "Glow Tileset - Stairs", "files": [ "GlowStairs.png", "GlowStairs.tsx" ], "author": "unknown", "game": "Custom", "preview": "GlowStairs.png", "id": "glow-tileset-stairs-custom" },
  { "name": "Holo Tile (BN6)", "files": [ "HoloPanelz.tsx", "HoloPanelz.png" ], "author": "Rune", "game": "Custom", "preview": "HoloPanelz.png", "id": "holo-tile-bn6-custom" },
+{ "name": "Arcade Cabinet - On (BN3)", "files": [ "ArcadeCabinet.tsx", "ArcadeCabinet.png" ], "author": "Rune", "game": "Custom", "preview": "ArcadeCabinet.png", "id": "arcade-on-bn3-custom" },
+{ "name": "Arcade Cabinet - Off (BN3)", "files": [ "ArcadeCabinetOff.tsx", "ArcadeCabinetOff.png" ], "author": "Rune", "game": "Custom", "preview": "ArcadeCabinetOff.png", "id": "arcade-off-bn3-custom" },
  { "name": "Noise Wave Entrance", "files": [ "NoiseWaveEntrance.png", "NoiseWaveEntrance.tsx" ], "author": "FrozenLake", "game": "SSR3/SF3", "preview": "NoiseWaveEntrance.png", "id": "noise-wave-entrance-other" },
  { "name": "Shademan Comp Warp Animation", "files": [ "ShademanCompWarpAnimation.png", "ShademanCompWarpAnimation.tsx" ], "author": "unknown", "game": "EXE4/BN4", "preview": "ShademanCompWarpAnimation.png", "id": "shademan-comp-warp-animation-exe4" },
  { "name": "Undernet Statue", "type": "object", "files": [ "UndernetStatue.png", "UndernetStatue.tsx" ], "author": "unknown", "game": "EXE3/BN3", "preview": "UndernetStatue.png", "id": "undernet-statue-exe3" },
