@@ -1,3 +1,5 @@
+imagePath="blizzardman.png"
+
 animation state="IDLE_U"
 frame duration="0.05" x="24" y="18" w="38" h="47" originx="20" originy="43"
 
