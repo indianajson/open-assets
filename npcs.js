@@ -1,4 +1,9 @@
+//  { "name": "", "files": [ ".animation", ".png" ], "author": "", "game": "", "preview": ".animation", "id": "" },
+
 let allNPCs = [ 
+  { "name": "Swordy (Virus)", "files": [ "swordy_ow.animation", "swordy_ow.png" ], "author": "D3str0y3d", "game": "Custom", "preview": "swordy_ow.animation", "id": "swordy-custom" },
+  { "name": "Ratty (Virus)", "files": [ "ratty_ow.animation", "ratty_ow.png" ], "author": "D3str0y3d", "game": "Custom", "preview": "ratty_ow.animation", "id": "ratty-custom" },
+  { "name": "Trumpy (Virus)", "files": [ "trumpy_ow.animation", "trumpy_ow.png" ], "author": "D3str0y3d", "game": "Custom", "preview": "trumpy_ow.animation", "id": "trumpy-custom" },
   { "name": "Volgear (Virus)", "files": [ "volgear.animation", "volgear.png" ], "author": [ "Indiana", "Keristero" ], "game": "EXE4/BN4", "preview": "volgear.animation", "id": "volgear-exe4" },
   { "name": "BlizzardMan", "files": [ "blizzardman.animation", "blizzardman.png", "blizzardman-mug.png","mug.animation" ], "author": "DarkwarePX", "game": "EXE5/BN5", "preview": "blizzardman.animation", "id": "blizzardman-bn5" },
   { "name": "Noir", "files": [ "noir-ow.animation", "noir-ow.png", "noir-mug.png","noir-mug.animation" ], "author": "OctoChris", "game": "Custom", "preview": "noir-ow.animation", "id": "noir" },

@@ -1,0 +1,101 @@
+imagePath="swordy_ow.png"
+
+animation state="IDLE_D"
+frame duration="0.3" x="0" y="0" w="34" h="33" originx="19" originy="32" flipx="0" flipy="0"
+frame duration="0.3" x="42" y="0" w="34" h="33" originx="19" originy="32" flipx="0" flipy="0"
+
+animation state="IDLE_DL"
+frame duration="0.3" x="1" y="37" w="34" h="33" originx="19" originy="32" flipx="0" flipy="0"
+frame duration="0.3" x="43" y="37" w="34" h="33" originx="19" originy="32" flipx="0" flipy="0"
+
+animation state="IDLE_L"
+frame duration="0.3" x="6" y="71" w="22" h="33" originx="12" originy="32" flipx="0" flipy="0"
+frame duration="0.3" x="48" y="71" w="22" h="33" originx="12" originy="32" flipx="0" flipy="0"
+
+animation state="IDLE_UL"
+frame duration="0.3" x="3" y="109" w="25" h="33" originx="15" originy="32" flipx="0" flipy="0"
+frame duration="0.3" x="45" y="109" w="25" h="33" originx="15" originy="32" flipx="0" flipy="0"
+
+animation state="IDLE_U"
+frame duration="0.3" x="5" y="147" w="26" h="31" originx="13" originy="30" flipx="0" flipy="0"
+frame duration="0.3" x="47" y="147" w="26" h="31" originx="13" originy="30" flipx="0" flipy="0"
+
+animation state="IDLE_DR"
+frame duration="0.3" x="1" y="37" w="34" h="33" originx="19" originy="32" flipx="1" flipy="0"
+frame duration="0.3" x="43" y="37" w="34" h="33" originx="19" originy="32" flipx="1" flipy="0"
+
+animation state="IDLE_R"
+frame duration="0.3" x="6" y="71" w="22" h="33" originx="12" originy="32" flipx="1" flipy="0"
+frame duration="0.3" x="48" y="71" w="22" h="33" originx="12" originy="32" flipx="1" flipy="0"
+
+animation state="IDLE_UR"
+frame duration="0.3" x="3" y="109" w="25" h="33" originx="15" originy="32" flipx="1" flipy="0"
+frame duration="0.3" x="45" y="109" w="25" h="33" originx="15" originy="32" flipx="1" flipy="0"
+
+animation state="WALK_D"
+frame duration="0.3" x="0" y="0" w="34" h="33" originx="19" originy="32" flipx="0" flipy="0"
+frame duration="0.3" x="42" y="0" w="34" h="33" originx="19" originy="32" flipx="0" flipy="0"
+
+animation state="WALK_DL"
+frame duration="0.3" x="1" y="37" w="34" h="33" originx="19" originy="32" flipx="0" flipy="0"
+frame duration="0.3" x="43" y="37" w="34" h="33" originx="19" originy="32" flipx="0" flipy="0"
+
+animation state="WALK_L"
+frame duration="0.3" x="6" y="71" w="22" h="33" originx="12" originy="32" flipx="0" flipy="0"
+frame duration="0.3" x="48" y="71" w="22" h="33" originx="12" originy="32" flipx="0" flipy="0"
+
+animation state="WALK_UL"
+frame duration="0.3" x="3" y="109" w="25" h="33" originx="15" originy="32" flipx="0" flipy="0"
+frame duration="0.3" x="45" y="109" w="25" h="33" originx="15" originy="32" flipx="0" flipy="0"
+
+animation state="WALK_U"
+frame duration="0.3" x="5" y="147" w="26" h="31" originx="13" originy="30" flipx="0" flipy="0"
+frame duration="0.3" x="47" y="147" w="26" h="31" originx="13" originy="30" flipx="0" flipy="0"
+
+
+
+animation state="WALK_DR"
+frame duration="0.3" x="1" y="37" w="34" h="33" originx="19" originy="32" flipx="1" flipy="0"
+frame duration="0.3" x="43" y="37" w="34" h="33" originx="19" originy="32" flipx="1" flipy="0"
+
+animation state="WALK_R"
+frame duration="0.3" x="6" y="71" w="22" h="33" originx="12" originy="32" flipx="1" flipy="0"
+frame duration="0.3" x="48" y="71" w="22" h="33" originx="12" originy="32" flipx="1" flipy="0"
+
+animation state="WALK_UR"
+frame duration="0.3" x="3" y="109" w="25" h="33" originx="15" originy="32" flipx="1" flipy="0"
+frame duration="0.3" x="45" y="109" w="25" h="33" originx="15" originy="32" flipx="1" flipy="0"
+
+animation state="RUN_D"
+frame duration="0.2" x="0" y="0" w="34" h="33" originx="19" originy="32" flipx="0" flipy="0"
+frame duration="0.2" x="42" y="0" w="34" h="33" originx="19" originy="32" flipx="0" flipy="0"
+
+animation state="RUN_DL"
+frame duration="0.2" x="1" y="37" w="34" h="33" originx="19" originy="32" flipx="0" flipy="0"
+frame duration="0.2" x="43" y="37" w="34" h="33" originx="19" originy="32" flipx="0" flipy="0"
+
+animation state="RUN_L"
+frame duration="0.2" x="6" y="71" w="22" h="33" originx="12" originy="32" flipx="0" flipy="0"
+frame duration="0.2" x="48" y="71" w="22" h="33" originx="12" originy="32" flipx="0" flipy="0"
+
+animation state="RUN_UL"
+frame duration="0.2" x="3" y="109" w="25" h="33" originx="15" originy="32" flipx="0" flipy="0"
+frame duration="0.2" x="45" y="109" w="25" h="33" originx="15" originy="32" flipx="0" flipy="0"
+
+animation state="RUN_U"
+frame duration="0.2" x="5" y="147" w="26" h="31" originx="13" originy="30" flipx="0" flipy="0"
+frame duration="0.2" x="47" y="147" w="26" h="31" originx="13" originy="30" flipx="0" flipy="0"
+
+
+
+animation state="RUN_DR"
+frame duration="0.2" x="1" y="37" w="34" h="33" originx="19" originy="32" flipx="1" flipy="0"
+frame duration="0.2" x="43" y="37" w="34" h="33" originx="19" originy="32" flipx="1" flipy="0"
+
+animation state="RUN_R"
+frame duration="0.2" x="6" y="71" w="22" h="33" originx="12" originy="32" flipx="1" flipy="0"
+frame duration="0.2" x="48" y="71" w="22" h="33" originx="12" originy="32" flipx="1" flipy="0"
+
+animation state="RUN_UR"
+frame duration="0.2" x="3" y="109" w="25" h="33" originx="15" originy="32" flipx="1" flipy="0"
+frame duration="0.2" x="45" y="109" w="25" h="33" originx="15" originy="32" flipx="1" flipy="0"
