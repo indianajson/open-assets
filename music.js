@@ -4807,7 +4807,7 @@ let allMusic = [
     "ostname": "Indoors",
     "name": "Indoors Theme",
     "files": [
-      "exe5-indoors.ogg"
+      "exe6-indoors.ogg"
     ],
     "author": "K1rbYat1Na",
     "game": "EXE6/BN6",
