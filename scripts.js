@@ -6,8 +6,8 @@ let allScripts = [
 
     { "name": 'Indy\'s Trains (Cyber Metro)', "description": 'A standalone script to easily add customizable cyber metro trains (from BN3/EXE3) to Open Net Battle servers. Features a Tiled extension for easy configuration, new sprites for the cyber metro trains and conductor, server-to-server trains, and more!<br><br><button id="download-single-script"><a href="https://github.com/indianajson/cyber-trains/" target="_blank" style="text-decoration:none; color:#000;">Repository</a></button><br><br><img src="img/other/metro.png" height=200 /><br>', "author": "Indiana", "scripttype": "Lua Script", "id": "trains-indiana" },
 
-    {"name": 'Fishing Mini-Game',"description":'If you\'re looking for a reel good time then add this fintastic fishing mini-game to your server with custom graphics and an easy to install standalone script from ShaDisNX255.<br><br><button id="download-single-script"><a href="https://discord.com/channels/455429604455219211/1425305088456523786" target="_blank" style="text-decoration:none; color:#000;">Documentation</a></button><br><br><img src="img/other/fishing.png" height=200 /><br>',"author": "ShaDisNX255","scripttype":"Lua Script","id":"shadis-fish"},
-    
+    { "name": 'Fishing Mini-Game', "description": 'If you\'re looking for a reel good time then add this fintastic fishing mini-game to your server with custom graphics and an easy to install standalone script from ShaDisNX255.<br><br><button id="download-single-script"><a href="https://discord.com/channels/455429604455219211/1425305088456523786" target="_blank" style="text-decoration:none; color:#000;">Documentation</a></button><br><br><img src="img/other/fishing.png" height=200 /><br>', "author": "ShaDisNX255", "scripttype": "Lua Script", "id": "shadis-fish" },
+
     { "name": 'Gravy Yum', "description": 'This server features encounters, key items, farming, BBS board, and NPCs. It uses the ezlibs library for much of it\'s content. <i>Please remember</i> not to use any custom sprites/assets from this server unless given permission.<br><br><button id="download-single-script"><a href="https://github.com/Keristero/gravy-yum" target="_blank" style="text-decoration:none; color:#000;">Repository</a></button>', "author": "Keristero", "scripttype": "Server Code", "id": "gravy-keristero" },
 
     { "name": 'Dawn\'s Liberation Server', "description": 'This server features several maps, custom encounters, boss encounters, NPCs, encounters, mystery data, side quests, and liberation missions. <br><br><button id="download-single-script"><a href="http://github.com/ninjaman255/DawnLibServer" target="_blank" style="text-decoration:none; color:#000;">Repository</a></button>', "author": "Claris", "scripttype": "Server Code", "id": "dawn-lib" },
@@ -18,10 +18,14 @@ let allScripts = [
 
     { "name": 'Simple Drops', "description": 'This script allows you to add customizable drop edges to ice tiles that cause a player to fall down to a layer below the tile.<br><br><button id="download-single-script"><a href="s/simple-drops/" target="_blank" style="text-decoration:none; color:#000;">Info/Download</a></button>', "author": "Indiana", "scripttype": "Lua Script", "id": "simple-drops" },
 
+    { "name": 'Pretty-Json', "description": 'This adds pretty-print formatting to json.lua.<br><br><button id="download-single-script"><a href="s/pretty-json/" target="_blank" style="text-decoration:none; color:#000;">Info/Download</a></button>', "author": "D3str0y3d255", "scripttype": "Lua Script", "id": "pretty-json" },
+
     { "name": 'The Block', "description": 'This server features huge sprawling custom areas, quests, many NPCs, difficult encounters, cyber-metro stations, and much more. <i>Please remember</i> not to use any custom sprites/assets from this server unless given permission.<br><br><button id="download-single-script"><a href="https://github.com/CyanmanEXE/CyanServerTheBlock/" target="_blank" style="text-decoration:none; color:#000;">Repository</a></button>', "author": "CyanMan.EXE", "scripttype": "Server Code", "id": "the-block" },
 
-    { "name": 'The Undernet',
-         "description": 'This server features quests, custom ranking system, a cyber-metro station, encounters, spawling custom area, many NPCs, and much more! <i>Please remember</i> not to use any custom sprites/assets from this server unless given permission.<br><br><button id="download-single-script"><a href="https://github.com/HeadDM/undernet-server" target="_blank" style="text-decoration:none; color:#000;">Repository</a></button>', "author": "Mannerek.EXE", "scripttype": "Server Code", "id": "undernet" }
+    {
+        "name": 'The Undernet',
+        "description": 'This server features quests, custom ranking system, a cyber-metro station, encounters, spawling custom area, many NPCs, and much more! <i>Please remember</i> not to use any custom sprites/assets from this server unless given permission.<br><br><button id="download-single-script"><a href="https://github.com/HeadDM/undernet-server" target="_blank" style="text-decoration:none; color:#000;">Repository</a></button>', "author": "Mannerek.EXE", "scripttype": "Server Code", "id": "undernet"
+    }
 
     /*
     
