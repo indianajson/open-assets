@@ -6127,7 +6127,7 @@ let allMusic = [
     "places": "Main Menu",
     "start": "0",
     "stop": "35863",
-    "disc": "compassostdisc1.png",
+    "disc": "compassostdisc_1.png",
     "duration": "0:57",
     "gameimage": "compass.png",
     "id": "main-menu-compass"
@@ -6150,7 +6150,7 @@ let allMusic = [
     "places": "Theme of Voidoll",
     "start": "18474",
     "stop": "94263",
-    "disc": "compassostdisc1.png",
+    "disc": "compassostdisc_1.png",
     "duration": "1:34",
     "gameimage": [
       "compass.png",
@@ -6178,7 +6178,7 @@ let allMusic = [
     "places": "Theme of Marcos'55",
     "start": "9023",
     "stop": "74476",
-    "disc": "compassostdisc1.png",
+    "disc": "compassostdisc_1.png",
     "duration": "1:14",
     "gameimage": [
       "compass.png",
@@ -6187,7 +6187,7 @@ let allMusic = [
     "id": "marcos55-theme-compass"
   },
   {
-    "ostname": "Alkali Rettousei",
+    "ostname": "Alkali Underachiever", // "Alkali Rettousei"
     "name": "Lyrica Theme",
     "files": [
       "compass/compass-lyrica.ogg"
@@ -6204,7 +6204,7 @@ let allMusic = [
     "places": "Theme of Lyrica the Magical Girl",
     "start": "17469",
     "stop": "90380",
-    "disc": "compassostdisc1.png",
+    "disc": "compassostdisc_1.png",
     "duration": "1:30",
     "gameimage": [
       "compass.png",
@@ -6213,7 +6213,7 @@ let allMusic = [
     "id": "lyrica-theme-compass"
   },
   {
-    "ostname": "Zankyou",
+    "ostname": "Reverberation", // "Zankyou"
     "name": "Tadaomi Theme",
     "files": [
       "compass/compass-tadaomi.ogg"
@@ -6230,7 +6230,7 @@ let allMusic = [
     "places": "Theme of Ouka Tadaomi",
     "start": "27105",
     "stop": "105964",
-    "disc": "compassostdisc1.png",
+    "disc": "compassostdisc_1.png",
     "duration": "1:46",
     "gameimage": [
       "compass.png",
@@ -6258,7 +6258,7 @@ let allMusic = [
     "places": "Theme of Fukagawa Matoi",
     "start": "24700",
     "stop": "81465",
-    "disc": "compassostdisc1.png",
+    "disc": "compassostdisc_1.png",
     "duration": "1:21",
     "gameimage": [
       "compass.png",
@@ -6267,7 +6267,7 @@ let allMusic = [
     "id": "matoi-theme-compass"
   },
   {
-    "ostname": "Retro Mania Kyousoukyoku",
+    "ostname": "Retro Mania Rhapsody", // "Retro Mania Kyousoukyoku"
     "name": "Atari Theme",
     "files": [
       "compass/compass-atari.ogg"
@@ -6285,7 +6285,7 @@ let allMusic = [
     "places": "Theme of Juumonji Atari",
     "start": "10497",
     "stop": "69169",
-    "disc": "compassostdisc1.png",
+    "disc": "compassostdisc_1.png",
     "duration": "1:09",
     "gameimage": [
       "compass.png",
@@ -6294,7 +6294,7 @@ let allMusic = [
     "id": "atari-theme-compass"
   },
   {
-    "ostname": "Dokuhaku",
+    "ostname": "Monologue", // "Dokuhaku"
     "name": "Luciano Theme",
     "files": [
       "compass/compass-luciano.ogg"
@@ -6311,7 +6311,7 @@ let allMusic = [
     "places": "Theme of Luciano",
     "start": "34636",
     "stop": "94636",
-    "disc": "compassostdisc1.png",
+    "disc": "compassostdisc_1.png",
     "duration": "1:35",
     "gameimage": [
       "compass.png",
@@ -6320,7 +6320,7 @@ let allMusic = [
     "id": "luciano-theme-compass"
   },
   {
-    "ostname": "Machigai Sagashi",
+    "ostname": "Spot The Difference", // "Machigai Sagashi"
     "name": "Jeanne Theme",
     "files": [
       "compass/compass-jeanne.ogg"
@@ -6337,7 +6337,7 @@ let allMusic = [
     "places": "Theme of Jeanne d'Arc",
     "start": "29376",
     "stop": "109376",
-    "disc": "compassostdisc1.png",
+    "disc": "compassostdisc_1.png",
     "duration": "1:49",
     "gameimage": [
       "compass.png",
@@ -6366,7 +6366,7 @@ let allMusic = [
     "places": "Theme of Justice Hancock",
     "start": "37157",
     "stop": "111470",
-    "disc": "compassostdisc1.png",
+    "disc": "compassostdisc_1.png",
     "duration": "1:51",
     "gameimage": [
       "compass.png",
@@ -6392,7 +6392,7 @@ let allMusic = [
     "places": "Theme of Soubiki Noho",
     "start": "15580",
     "stop": "86169",
-    "disc": "compassostdisc1.png",
+    "disc": "compassostdisc_1.png",
     "duration": "1:26",
     "gameimage": [
       "compass.png",
@@ -6418,7 +6418,7 @@ let allMusic = [
     "places": "Theme of Gustav Heydrich",
     "start": "34470",
     "stop": "86336",
-    "disc": "compassostdisc2.png",
+    "disc": "compassostdisc_2.png",
     "duration": "1:26",
     "gameimage": [
       "compass.png",
@@ -6427,7 +6427,7 @@ let allMusic = [
     "id": "gustav-theme-compass"
   },
   {
-    "ostname": "Tesla wa Yume no Naka",
+    "ostname": "Tesla In A Dream", // "Tesla wa Yume no Naka"
     "name": "Tesla Theme",
     "files": [
       "compass/compass-tesla.ogg"
@@ -6445,7 +6445,7 @@ let allMusic = [
     "places": "Theme of Nikola Tesla",
     "start": "16388",
     "stop": "83382",
-    "disc": "compassostdisc2.png",
+    "disc": "compassostdisc_2.png",
     "duration": "1:23",
     "gameimage": [
       "compass.png",
@@ -6454,7 +6454,7 @@ let allMusic = [
     "id": "tesla-theme-compass"
   },
   {
-    "ostname": "Tesla wa Yume no Naka (Hero Singing ver.)",
+    "ostname": "Tesla In A Dream (Hero Singing ver.)", // "Tesla wa Yume no Naka (Hero Singing ver.)"
     "name": "Tesla Theme (Voice)",
     "files": [
       "compass/compasslivearena-tesla.ogg"
@@ -6472,7 +6472,7 @@ let allMusic = [
     "places": "Theme of Nikola Tesla",
     "start": "14473",
     "stop": "81433",
-    "disc": "compassostdisc2.png",
+    "disc": "compassostdisc_2.png",
     "duration": "1:21",
     "gameimage": "compasslivearena.png",
     "id": "tesla-theme-voice-compasslivearena"
@@ -6495,7 +6495,7 @@ let allMusic = [
     "places": "Theme of Violetta Noire",
     "start": "28588",
     "stop": "120088",
-    "disc": "compassostdisc2.png",
+    "disc": "compassostdisc_2.png",
     "duration": "2:00",
     "gameimage": [
       "compass.png",
@@ -6525,7 +6525,7 @@ let allMusic = [
     "places": "Theme of Maria S. Leonburg",
     "start": "22386",
     "stop": "74079",
-    "disc": "compassostdisc2.png",
+    "disc": "compassostdisc_2.png",
     "duration": "1:14",
     "gameimage": [
       "compass.png",
@@ -6534,7 +6534,7 @@ let allMusic = [
     "id": "maria-theme-compass"
   },
   {
-    "ostname": "Zenmai Shoujo Tokei",
+    "ostname": "Clockwork Girl", // "Zenmai Shoujo Tokei"
     "name": "Coquelicot Theme",
     "files": [
       "compass/compass-coquelicot.ogg"
@@ -6552,7 +6552,7 @@ let allMusic = [
     "places": "Theme of Coquelicot Blanche",
     "start": "21483",
     "stop": "128943",
-    "disc": "compassostdisc2.png",
+    "disc": "compassostdisc_2.png",
     "duration": "2:08",
     "gameimage": [
       "compass.png",
@@ -6561,7 +6561,7 @@ let allMusic = [
     "id": "coquelicot-theme-compass"
   },
   {
-    "ostname": "Tenshi da to Omotte ita no ni",
+    "ostname": "I Thought I Was An Angel", // "Tenshi da to Omotte ita no ni"
     "name": "Thirteen Theme",
     "files": [
       "compass/compass-thirteen.ogg"
@@ -6578,7 +6578,7 @@ let allMusic = [
     "places": "Theme of 13 (Thirteen)",
     "start": "39532",
     "stop": "128333",
-    "disc": "compassostdisc2.png",
+    "disc": "compassostdisc_2.png",
     "duration": "2:08",
     "gameimage": [
       "compass.png",
@@ -6604,7 +6604,7 @@ let allMusic = [
     "places": "Theme of Meg Meg",
     "start": "9795",
     "stop": "68571",
-    "disc": "compassostdisc2.png",
+    "disc": "compassostdisc_2.png",
     "duration": "1:08",
     "gameimage": [
       "compass.png",
@@ -6613,7 +6613,7 @@ let allMusic = [
     "id": "megmeg-theme-compass"
   },
   {
-    "ostname": "Kimi no Kaze ni Naru",
+    "ostname": "Become Your Wind", // "Kimi no Kaze ni Naru"
     "name": "Istaqa Theme",
     "files": [
       "compass/compass-istaqa.ogg"
@@ -6630,7 +6630,7 @@ let allMusic = [
     "places": "Theme of Istaqa",
     "start": "12429",
     "stop": "68167",
-    "disc": "compassostdisc2.png",
+    "disc": "compassostdisc_2.png",
     "duration": "1:08",
     "gameimage": [
       "compass.png",
@@ -6639,7 +6639,7 @@ let allMusic = [
     "id": "istaqa-theme-compass"
   },
   {
-    "ostname": "Kimi wa Tada Ni-kai Tobeba Ii",
+    "ostname": "You Only Have To Jump Twice", // "Kimi wa Tada Ni-kai Tobeba Ii"
     "name": "Hero Theme",
     "files": [
       "compass/compass-yuusha.ogg"
@@ -6656,7 +6656,7 @@ let allMusic = [
     "places": "Theme of Starting Hero",
     "start": "27779",
     "stop": "120223",
-    "disc": "compassostdisc2.png",
+    "disc": "compassostdisc_2.png",
     "duration": "2:00",
     "gameimage": [
       "compass.png",
@@ -6665,7 +6665,7 @@ let allMusic = [
     "id": "yuusha-theme-compass"
   },
   {
-    "ostname": "Dakara Itta Desho?",
+    "ostname": "Didn't I Tell You?", // "Dakara Itta Desho?"
     "name": "Kirara Theme",
     "files": [
       "compass/compass-kirara.ogg"
@@ -6682,7 +6682,7 @@ let allMusic = [
     "places": "Theme of Kiryuin Kirara",
     "start": "20604",
     "stop": "99276",
-    "disc": "compassostdisc2.png",
+    "disc": "compassostdisc_2.png",
     "duration": "1:39",
     "gameimage": [
       "compass.png",
@@ -6708,7 +6708,7 @@ let allMusic = [
     "places": "Theme of Adam Yuriev",
     "start": "33105",
     "stop": "121376",
-    "disc": "compassostdisc2.png",
+    "disc": "compassostdisc_2.png",
     "duration": "2:01",
     "gameimage": [
       "compass.png",
@@ -6735,12 +6735,420 @@ let allMusic = [
     "places": "Theme of Venus Pororotcho",
     "start": "14783",
     "stop": "103399",
-    "disc": "compassostdisc2.png",
+    "disc": "compassostdisc_2.png",
     "duration": "1:43",
     "gameimage": [
       "compass.png",
       "compasslivearena.png"
     ],
     "id": "pororotcho-theme-compass"
+  },
+  {
+    "ostname": "Mistletoe", // "Yadorigi"
+    "name": "Son Theme",
+    "files": [
+      "compass/compass-thorne.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "Eve (music, lyrics)",
+      "Numa (arrangement)",
+      "Hatsune Miku (singer)",
+    ],
+    "places": "Theme of Son Yuriev",
+    "start": "16000",
+    "stop": "87990",
+    "disc": "compassostdisc_3.png",
+    "duration": "1:28",
+    "gameimage": [
+      "compass.png",
+      "compasslivearena.png"
+    ],
+    "id": "thorne-theme-compass"
+  },
+  {
+    "ostname": "The World's Dancefloor", // "Wakusei no Dancefloor"
+    "name": "Delmin Theme",
+    "files": [
+      "compass/compass-delmin.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "SANRIO (music, lyrics)",
+      "Norainu (video)",
+      "Nanakawa (illustration)",
+      "Hatsune Miku (singer)",
+    ],
+    "places": "Theme of Devilmintkiryu Delmin",
+    "start": "3529",
+    "stop": "117441",
+    "disc": "compassostdisc_3.png",
+    "duration": "1:57",
+    "gameimage": [
+      "compass.png",
+      "compasslivearena.png"
+    ],
+    "id": "delmin-theme-compass"
+  },
+  {
+    "ostname": "Absolute",
+    "name": "Thomas Theme",
+    "files": [
+      "compass/compass-thomas.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "YASUHIRO (music, lyrics)",
+      "yshimedi (illustration)",
+      "Kiyoichi (illustration)",
+      "Komomo (illustration)",
+      "Kagamine Rin (singer)",
+    ],
+    "places": "Theme of Thomas",
+    "start": "8423",
+    "stop": "84597",
+    "disc": "compassostdisc_3.png",
+    "duration": "1:25",
+    "gameimage": [
+      "compass.png",
+      "compasslivearena.png"
+    ],
+    "id": "thomas-theme-compass"
+  },
+  {
+    "ostname": "Parallel Layer",
+    "name": "Layer Theme",
+    "files": [
+      "compass/compass-layer.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "lumo (music, orchestra)",
+      "chamooi (director)",
+      "Hatsune Miku (singer)",
+      "VY2 (singer)"
+    ],
+    "places": "Theme of Layer",
+    "start": "11078",
+    "stop": "79385",
+    "disc": "compassostdisc_3.png",
+    "duration": "1:19",
+    "gameimage": [
+      "compass.png",
+      "compasslivearena.png"
+    ],
+    "id": "layer-theme-compass"
+  },
+  {
+    "ostname": "Underachieving Lover", // "Aijou Rettousei"
+    "name": "Luruca Theme",
+    "files": [
+      "compass/compass-luruca.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "Kairiki Bear (music, lyrics)",
+      "Kagamine Rin (singer)"
+    ],
+    "places": "Theme of Luruca the Magical Girl",
+    "start": "9214",
+    "stop": "93636",
+    "disc": "compassostdisc_3.png",
+    "duration": "1:34",
+    "gameimage": [
+      "compass.png",
+      "compasslivearena.png"
+    ],
+    "id": "luruca-theme-compass"
+  },
+  {
+    "ostname": "Do Not Restrain Your Desire", // "Yokubou Gaman Surukoto Nakare"
+    "name": "Pierre the 77th Theme",
+    "files": [
+      "compass/compass-pierre77.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "cosMo (music, lyrics)",
+      "Yuzuki Yukari (singer)"
+    ],
+    "places": "Theme of Pierre the Ikassa-Maniaghi Facchinetti Lallala Lovelyaura Dragonactor Hideyoshi Maximilian Caloverie Björlund Mocchi-Mochi Marioge Margherita Wilfred Punit Puniatowski the 77th",
+    "start": "8232",
+    "stop": "69779",
+    "disc": "compassostdisc_3.png",
+    "duration": "1:10",
+    "gameimage": [
+      "compass.png",
+      "compasslivearena.png"
+    ],
+    "id": "pierre77-theme-compass"
+  },
+  {
+    "ostname": "My Budding Heart", // "Kizasu Kokoro o"
+    "name": "Amairo Theme",
+    "files": [
+      "compass/compass-amairo.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "Hifumi (music, lyrics)",
+      "Hatsune Miku (singer)"
+    ],
+    "places": "Theme of Kitsunegasaki Amairo",
+    "start": "5734",
+    "stop": "152563",
+    "disc": "compassostdisc_3.png",
+    "duration": "2:33",
+    "gameimage": [
+      "compass.png",
+      "compasslivearena.png"
+    ],
+    "id": "amairo-theme-compass"
+  },
+  {
+    "ostname": "ST/A#R",
+    "name": "Nidhogg Theme",
+    "files": [
+      "compass/compass-nidhogg.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "*Luna (music, lyrics, illustration)",
+      "Haluo (mixing)",
+      "Bibi (tuning)",
+      "Nontan (video)",
+      "Hatsune Miku (singer)"
+    ],
+    "places": "Theme of HM-WA100 Nidhogg",
+    "start": "21265",
+    "stop": "104806",
+    "disc": "compassostdisc_3.png",
+    "duration": "1:45",
+    "gameimage": [
+      "compass.png",
+      "compasslivearena.png"
+    ],
+    "id": "nidhogg-theme-compass"
+  },
+  {
+    "ostname": "KICK-ASS *LITERALLY", // Real ni Buttobasu
+    "name": "GB Girl Theme",
+    "files": [
+      "compass/compass-gbgirl.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "Pinnochio-P (music, lyrics, illustration)",
+      "Yaduki (guitar, bass)",
+      "Hatsune Miku (singer)",
+      "Yukkuri (chorus)"
+    ],
+    "places": "Theme of Game Bazooka Girl",
+    "start": "18001",
+    "stop": "80992",
+    "disc": "compassostdisc_3.png",
+    "duration": "1:21",
+    "gameimage": [
+      "compass.png",
+      "compasslivearena.png"
+    ],
+    "id": "gbgirl-theme-compass"
+  },
+  {
+    "ostname": "Alice Blue",
+    "name": "Alice Theme",
+    "files": [
+      "compass/compass-alice.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "HoneyWorks (music, lyrics, character producer)",
+      "Oji (guitar)",
+      "Nakanishi (guitar)",
+      "Keiki Uto (keyboard, programming)",
+      "Komiya Mario (programming)",
+      "Yuuki Leon (drums)",
+      "Hatsune Miku (singer)"
+    ],
+    "places": "Theme of Aoharu Alice",
+    "start": "16869",
+    "stop": "79869",
+    "disc": "compassostdisc_3.png",
+    "duration": "1:20",
+    "gameimage": [
+      "compass.png",
+      "compasslivearena.png"
+    ],
+    "id": "alice-theme-compass"
+  },
+  {
+    "ostname": "Ironic",
+    "name": "Ignis Theme",
+    "files": [
+      "compass/compass-ignis.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "Kanaria (music, lyrics)",
+      "Shirasaki Maguru (illustration)",
+      "Hatsune Miku (singer)"
+    ],
+    "places": "Theme of Ignis 'Will' Wisp",
+    "start": "7265",
+    "stop": "70297",
+    "disc": "compassostdisc_3.png",
+    "duration": "1:10",
+    "gameimage": [
+      "compass.png",
+    ],
+    "id": "ignis-theme-compass"
+  },
+  {
+    "ostname": "Poisonous Loneliness", // "Kodoku Dokudoku"
+    "name": "Rinne Theme",
+    "files": [
+      "compass/compass-rinne.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "syudou (music, lyrics)",
+      "Kuroume (illustration)",
+      "Hatsune Miku (singer)"
+    ],
+    "places": "Theme of Itomeguri Rinne",
+    "start": "18572",
+    "stop": "68129",
+    "disc": "compassostdisc_3.png",
+    "duration": "1:08",
+    "gameimage": [
+      "compass.png",
+    ],
+    "id": "rinne-theme-compass"
+  },
+  {
+    "ostname": "Steal You",
+    "name": "Bugdoll Theme",
+    "files": [
+      "compass/compass-bugdoll.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "Omoi (music, lyrics)",
+      "Zumimatsu (illustration)",
+      "Hatsune Miku (singer)"
+    ],
+    "places": "Theme of Bugdoll",
+    "start": "11029",
+    "stop": "76727",
+    "disc": "compassostdisc_4.png",
+    "duration": "1:17",
+    "gameimage": [
+      "compass.png"
+    ],
+    "id": "bugdoll-theme-compass"
+  },
+  {
+    "ostname": "PUNISHMENT GIMMICK!!", // "OSHIOKI GIMMICK!!"
+    "name": "Stellea Theme",
+    "files": [
+      "compass/compass-stellea.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "Junky (music, lyrics)",
+      "U-I-T-Ware (illustration)",
+      "Kumashiro Taamu (video)",
+      "Kagamine Rin (singer)"
+    ],
+    "places": "Theme of Stellea Lala Silva",
+    "start": "11029",
+    "stop": "76727",
+    "disc": "compassostdisc_4.png",
+    "duration": "1:27",
+    "gameimage": [
+      "compass.png"
+    ],
+    "id": "stellea-theme-compass"
+  },
+  {
+    "ostname": "Lavie",
+    "name": "Lovey Theme",
+    "files": [
+      "compass/compass-lovey.ogg"
+    ],
+    "author": [
+      "peterdao",
+      "K1rbYat1Na"
+    ],
+    "game": "#COMPASS",
+    "composer": [
+      "Surii (music, lyrics)",
+      "Kagamine Len (singer)"
+    ],
+    "places": "Theme of Lovey Chouchoumarchou",
+    "start": "10984",
+    "stop": "73935",
+    "disc": "compassostdisc_4.png",
+    "duration": "1:14",
+    "gameimage": [
+      "compass.png"
+    ],
+    "id": "lovey-theme-compass"
   }
 ];
