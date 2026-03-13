@@ -7042,9 +7042,7 @@ let allMusic = [
     "stop": "70297",
     "disc": "compassostdisc_3.png",
     "duration": "1:10",
-    "gameimage": [
-      "compass.png",
-    ],
+    "gameimage": "compass.png",
     "id": "ignis-theme-compass"
   },
   {
@@ -7068,9 +7066,7 @@ let allMusic = [
     "stop": "68129",
     "disc": "compassostdisc_3.png",
     "duration": "1:08",
-    "gameimage": [
-      "compass.png",
-    ],
+    "gameimage": "compass.png",
     "id": "rinne-theme-compass"
   },
   {
@@ -7094,9 +7090,7 @@ let allMusic = [
     "stop": "76727",
     "disc": "compassostdisc_4.png",
     "duration": "1:17",
-    "gameimage": [
-      "compass.png"
-    ],
+    "gameimage": "compass.png",
     "id": "bugdoll-theme-compass"
   },
   {
@@ -7117,13 +7111,11 @@ let allMusic = [
       "Kagamine Rin (singer)"
     ],
     "places": "Theme of Stellea Lala Silva",
-    "start": "11029",
-    "stop": "76727",
+    "start": "0",
+    "stop": "87273",
     "disc": "compassostdisc_4.png",
     "duration": "1:27",
-    "gameimage": [
-      "compass.png"
-    ],
+    "gameimage": "compass.png",
     "id": "stellea-theme-compass"
   },
   {
@@ -7146,9 +7138,7 @@ let allMusic = [
     "stop": "73935",
     "disc": "compassostdisc_4.png",
     "duration": "1:14",
-    "gameimage": [
-      "compass.png"
-    ],
+    "gameimage": "compass.png",
     "id": "lovey-theme-compass"
   }
 ];
