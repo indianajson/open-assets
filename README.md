@@ -3,7 +3,7 @@
 
 |         |         |
 |---------|---------|
-| English | [Русский](https://https://github.com/indianajson/open-assets/blob/main/README.RUS.md) |
+| English | [Русский](https://github.com/indianajson/open-assets/blob/main/README.RUS.md) |
 
 ![openassets](https://github.com/user-attachments/assets/8e768e8b-d92e-464c-ad11-5557857584c8)
 
