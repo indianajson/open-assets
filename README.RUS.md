@@ -8,7 +8,7 @@
 ![openassets](https://github.com/user-attachments/assets/8e768e8b-d92e-464c-ad11-5557857584c8)
 
 
-### <a style="text-decoration:underline;" href="https://indianajson.github.io/open-assets/index.html">Нажмите здесь,</a> чтобы открыть интерфейс и просмотреть коллекцию!
+### <a style="text-decoration:underline;" href="https://indianajson.github.io/open-assets/index.html">Нажмите здесь</a>, чтобы открыть интерфейс и просмотреть коллекцию!
 
 Если вы хотите добавить ресурсы в коллекцию, пожалуйста, перейдите на вкладку «Issues» на Github и нажмите `New Issue`.
 
