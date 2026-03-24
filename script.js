@@ -1110,8 +1110,8 @@ $(function () {
     // Only apply velocity scaling for backgrounds, not NPCs
 
     if (currentTab === "backgrounds") {
-      xVelocity = (xVelocity * -1 * 200 * imageWidth) / 120;
-      yVelocity = (yVelocity * -1 * 200 * imageHeight) / 120;
+      xVelocity = (xVelocity * -1 * 200 * spriteWidth) / 120;
+      yVelocity = (yVelocity * -1 * 200 * spriteHeight) / 120;
     } else {
       xVelocity = 0;
       yVelocity = 0;
