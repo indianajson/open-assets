@@ -1001,6 +1001,8 @@ $(function () {
 
   /* Functions for Background Animation */
 
+  let imageWidth = 0;
+  let imageHeight = 0;
   let animationFrames = [];
   let currentFrameIndex = 0;
   let lastFrameTime = 0;
@@ -1040,6 +1042,8 @@ $(function () {
 
   function parseAnimationFile(data) {
     // Reset animation data
+    imageWidth = 0;
+    imageHeight = 0;
     animationFrames = [];
     currentFrameIndex = 0;
     lastFrameTime = 0;
@@ -1057,6 +1061,10 @@ $(function () {
         const match = /imagePath\s*=\s*"([^"]*)"/.exec(line);
         if (match) {
           imagePath = match[1];
+          const imgRef = new Image();
+          imgRef.src = imagePath;
+          imageWidth = imgRef.naturalWidth;
+          imageHeight = imgRef.naturalHeight;
         }
         continue;
       }
@@ -1102,8 +1110,8 @@ $(function () {
     // Only apply velocity scaling for backgrounds, not NPCs
 
     if (currentTab === "backgrounds") {
-      xVelocity = (xVelocity * -1 * 200 * spriteWidth) / 120;
-      yVelocity = (yVelocity * -1 * 200 * spriteHeight) / 120;
+      xVelocity = (xVelocity * -1 * 200 * imageWidth) / 120;
+      yVelocity = (yVelocity * -1 * 200 * imageHeight) / 120;
     } else {
       xVelocity = 0;
       yVelocity = 0;
