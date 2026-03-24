@@ -1103,7 +1103,7 @@ $(function () {
 
     if (currentTab === "backgrounds") {
       xVelocity = (xVelocity * -1 * 200 * spriteWidth) / 120;
-      yVelocity = (yVelocity * -1 * 200 * spriteWidth) / 120;
+      yVelocity = (yVelocity * -1 * 200 * spriteHeight) / 120;
     } else {
       xVelocity = 0;
       yVelocity = 0;
