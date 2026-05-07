@@ -1017,70 +1017,54 @@ $(function () {
   let spriteImage = null;
   let container = null;
 
-  function createAnimatedBackground(animationFile, xVel, yVel) {
-    xVelocity = xVel;
-    yVelocity = yVel;
+  function createAnimatedBackground(item) {
+    xVelocity = item.velx;
+    yVelocity = item.vely;
 
-    // Clear any existing animation
     if (animationId) {
       cancelAnimationFrame(animationId);
       animationId = null;
     }
 
-    // Clear container
-    container =
-      currentTab === "npcs" ? $("#preview-image-npc") : $("#preview-image-bg");
+    container = currentTab === "npcs" ? $("#preview-image-npc") : $("#preview-image-bg");
     container.empty();
 
-    // Load the animation file
-    fetch(animationFile)
+    // Find the animation file and png file in the files array
+    const animationFile = item.files.find(f => f.endsWith('.animation'));
+    const pngFile = item.files.find(f => f.endsWith('.png'));
+
+    fetch("files/" + animationFile)
       .then((response) => response.text())
-      .then(parseAnimationFile)
+      .then((data) => {
+        // We pass the pngFile directly to the next step
+        parseAnimationFile(data);
+        return pngFile; 
+      })
       .then(loadSpriteImage)
       .catch((error) => console.error("Error:", error));
-  }
+}
 
   function parseAnimationFile(data) {
-    // Reset animation data
     imageWidth = 0;
     imageHeight = 0;
     animationFrames = [];
     currentFrameIndex = 0;
     lastFrameTime = 0;
 
-    // Parse the animation file
     const lines = data.split("\n");
-    let imagePath = "";
-
-    // A regex to capture any key="value" pair
     const attrRegex = /(\w+)\s*=\s*"([^"]*)"/g;
 
     for (const line of lines) {
-      // Look for imagePath="..."
-      if (line.includes("imagePath=")) {
-        const match = /imagePath\s*=\s*"([^"]*)"/.exec(line);
-        if (match) {
-          imagePath = match[1];
-          const imgRef = new Image();
-          imgRef.src = imagePath;
-          imageWidth = imgRef.naturalWidth;
-          imageHeight = imgRef.naturalHeight;
-        }
-        continue;
-      }
-
-      // Look for lines that start with "frame "
+      // Logic for imagePath="..." is removed here 
+      // because we are getting the PNG from backgrounds.js
+      
       if (line.trim().startsWith("frame ")) {
-        // Build an object of all attributes on this line
         const frameAttrs = {};
         let m;
         while ((m = attrRegex.exec(line)) !== null) {
-          // m[1] is the attribute name, m[2] is its value
           frameAttrs[m[1]] = m[2];
         }
 
-        // Now pick out the mandatory fields (duration, x, y, w, h, originx, originy)
-        // and optional fields (flipx, flipy). If flipx/flipy are missing, default to 0.
         const frame = {
           duration: parseFloat(frameAttrs.duration),
           x: parseInt(frameAttrs.x, 10),
@@ -1089,12 +1073,9 @@ $(function () {
           h: parseInt(frameAttrs.h, 10),
           originx: parseInt(frameAttrs.originx, 10),
           originy: parseInt(frameAttrs.originy, 10),
-          flipx:
-            frameAttrs.flipx !== undefined ? parseInt(frameAttrs.flipx, 10) : 0,
-          flipy:
-            frameAttrs.flipy !== undefined ? parseInt(frameAttrs.flipy, 10) : 0,
+          flipx: frameAttrs.flipx !== undefined ? parseInt(frameAttrs.flipx, 10) : 0,
+          flipy: frameAttrs.flipy !== undefined ? parseInt(frameAttrs.flipy, 10) : 0,
         };
-
         animationFrames.push(frame);
       }
     }
@@ -1103,11 +1084,8 @@ $(function () {
       throw new Error("No animation frames found in file");
     }
 
-    // Set initial sprite dimensions from first frame
     spriteWidth = animationFrames[0].w;
     spriteHeight = animationFrames[0].h;
-
-    // Only apply velocity scaling for backgrounds, not NPCs
 
     if (currentTab === "backgrounds") {
       xVelocity = (xVelocity * -1 * 200 * spriteWidth) / 120;
@@ -1118,9 +1096,8 @@ $(function () {
     }
 
     frameDuration = animationFrames[0].duration;
-
-    return imagePath;
-  }
+    // No longer returning imagePath from here
+}
 
   function loadSpriteImage(imagePath) {
     return new Promise((resolve, reject) => {
@@ -1242,19 +1219,21 @@ $(function () {
 
   function showBackgroundPreview(item) {
     const imgPath = "files/" + item.preview;
-    //$('#preview-image-bg').attr('src','#');
     $("#detail-author-bg").text(
       Array.isArray(item.author) ? item.author.join(", ") : item.author
     );
     $("#detail-game-bg").text(item.game);
     $("#detail-velx-bg").text(item.velx !== undefined ? item.velx : "—");
     $("#detail-vely-bg").text(item.vely !== undefined ? item.vely : "—");
-    createAnimatedBackground("files/" + item.preview, item.velx, item.vely);
+    
+    // Pass the item object instead of just the preview string
+    createAnimatedBackground(item); 
+    
     $("#download-single-bg")
       .prop("disabled", false)
       .off()
       .on("click", () => downloadMultiple([item]));
-  }
+}
 
   /* Function to Music Player */
 
