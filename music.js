@@ -18,10 +18,21 @@ let allMusic = [
     "gameimage": "exe1.png",
     "id": "title-theme-exe1",
     "i18n": {
+            "jp": {
+                "name": "タイトルのテーマ",
+                "ostname":"THEME OF ROCKMAN EXE",
+                "places":"タイトル画面",
+                "composer": [
+                  "海田明里"
+                ],
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Заглавная тема",
+                "ostname":"ТЕМА ROCKMAN EXE",
+                "places":"Главный экран",
+                "composer": [
+                  "Акари Каида"
+                ],
             }
         }
   },
@@ -44,10 +55,21 @@ let allMusic = [
     "gameimage": "exe1.png",
     "id": "akihara-town-exe1",
     "i18n": {
+            "jp": {
+                "name": "秋原町",
+                "ostname": "ホームタウン",
+                "places": "秋原町、学校（屋外）、官公庁（屋外）、デンサンタウン、メトロライン",
+                "composer": [
+                  "海田明里"
+                ],
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Акихара",
+                "ostname": "Родной город",
+                "places": "Акихара, школа (снаружи), Правительственный комплекс (снаружи), Денсан, Метролайн",
+                "composer": [
+                  "Акари Каида"
+                ],
             }
         }
   },
@@ -79,10 +101,21 @@ let allMusic = [
     ],
     "id": "school-exe1",
     "i18n": {
+            "jp": {
+                "name": "学校",
+                "ostname": "学校",
+                "places": "学校",
+                "composer": [
+                  "海田明里"
+                ],
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Школа",
+                "ostname": "Школа",
+                "places": "в школе",
+                "composer": [
+                  "Акари Каида"
+                ],
             }
         }
   },
@@ -890,7 +923,7 @@ let allMusic = [
     "game": "EXE2/BN2",
     "duration": "0:25",
     "composer": "Yoshino Aoki",
-    "places": "Dungeon in Amerope Castle",
+    "places": "Airplane",
     "start": "8924",
     "stop": "24999",
     "disc": "sb1.png",
@@ -1495,7 +1528,7 @@ let allMusic = [
     "ostname": "Tree of Life",
     "name": "Gulf Coast Hospital",
     "files": [
-      "exe3-wanganbyouin.ogg"
+      "exe3-wankanbyouin.ogg"
     ],
     "author": "K1rbYat1Na",
     "game": "EXE3/BN3",
@@ -2529,7 +2562,7 @@ let allMusic = [
     "ostname": "Enemy Deleted! (short)",
     "name": "Results Theme (short)",
     "files": [
-      "exe4-win.ogg"
+      "exe4-win-short.ogg"
     ],
     "author": "K1rbYat1Na",
     "game": [
@@ -6595,7 +6628,7 @@ let allMusic = [
   },
   {
     "ostname": "Incident Occurrence!",
-    "name": "Incident",
+    "name": "Incident Occurrence",
     "files": [
       "exe6-incident.ogg"
     ],
@@ -8317,16 +8350,21 @@ let allMusic = [
     "composer": "?",
     "places": "Main Menu",
     "start": "0",
-    "stop": "35863",
+    "stop": "57087",
     "disc": "compassostdisc_1.png",
     "duration": "0:57",
     "gameimage": "compass.png",
     "id": "main-menu-compass",
     "i18n": {
+            "jp": {
+                "name": "メインメニュー",
+                "ostname":"ダンスロボットダンス（メニューver.）",
+                "places":"メインメニュー",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Главное меню",
+                "ostname":"Dance Robot Dance (в меню)",
+                "places":"в главном меню",
             }
         }
   },
@@ -8356,10 +8394,15 @@ let allMusic = [
     ],
     "id": "voidoll-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "Voidollのテーマ",
+                "ostname":"ダンスロボットダンス",
+                "places":"Voidollのテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Войдолл",
+                "ostname":"Dance Robot Dance",
+                "places":"тема Войдолл",
             }
         }
   },
@@ -8391,10 +8434,15 @@ let allMusic = [
     ],
     "id": "marcos55-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "マルコス'55のテーマ",
+                "ostname":"ハイスペックニート",
+                "places":"マルコス'55のテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Маркоса'55",
+                "ostname":"High Spec NEET",
+                "places":"тема Маркоса'55",
             }
         }
   },
@@ -8424,10 +8472,15 @@ let allMusic = [
     ],
     "id": "lyrica-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "リリカのテーマ",
+                "ostname":"アルカリレットウセイ",
+                "places":"リリカのテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Лирики",
+                "ostname":"Alkali Rettousei",
+                "places":"тема Лирики",
             }
         }
   },
@@ -8446,7 +8499,7 @@ let allMusic = [
       "164 (music, lyrics)",
       "GUMI (singer)"
     ],
-    "places": "Theme of Ouka Tadaomi",
+    "places": "Theme of Tadaomi Ouka",
     "start": "27105",
     "stop": "105964",
     "disc": "compassostdisc_1.png",
@@ -8457,10 +8510,15 @@ let allMusic = [
     ],
     "id": "tadaomi-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "忠臣のテーマ",
+                "ostname":"残響",
+                "places":"桜華 忠臣のテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Тадаоми",
+                "ostname":"Zankyou",
+                "places":"тема Тадаоми Оки",
             }
         }
   },
@@ -8481,7 +8539,7 @@ let allMusic = [
       "tomoboP (mix, mastering)",
       "Hatsune Miku (singer)"
     ],
-    "places": "Theme of Fukagawa Matoi",
+    "places": "Theme of Matoi Fukagawa",
     "start": "24700",
     "stop": "81465",
     "disc": "compassostdisc_1.png",
@@ -8492,10 +8550,15 @@ let allMusic = [
     ],
     "id": "matoi-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "まといのテーマ",
+                "ostname":"アヤカシ",
+                "places":"深川まといのテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Матой",
+                "ostname":"Ayakashi",
+                "places":"тема Матой Фукагавы",
             }
         }
   },
@@ -8515,7 +8578,7 @@ let allMusic = [
       "Kagamine Rin (singer)",
       "Kagamine Len (singer)"
     ],
-    "places": "Theme of Juumonji Atari",
+    "places": "Theme of Atari Juumonji",
     "start": "10497",
     "stop": "69169",
     "disc": "compassostdisc_1.png",
@@ -8526,10 +8589,15 @@ let allMusic = [
     ],
     "id": "atari-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "アタリのテーマ",
+                "ostname":"レトロマニア狂想曲",
+                "places":"十文字アタリのテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Атари",
+                "ostname":"Retro Mania Kyousoukyoku",
+                "places":"тема Атари Дзюмондзи",
             }
         }
   },
@@ -8559,10 +8627,15 @@ let allMusic = [
     ],
     "id": "luciano-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "ルチアーノのテーマ",
+                "ostname":"ドクハク",
+                "places":"ルチアーノのテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Люсиано",
+                "ostname":"Dokuhaku",
+                "places":"тема Люсиано",
             }
         }
   },
@@ -8592,10 +8665,15 @@ let allMusic = [
     ],
     "id": "jeanne-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "ジャンヌのテーマ",
+                "ostname":"マチガイサガシ",
+                "places":"ジャンヌ ダルクのテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Темы Жанны",
+                "ostname":"Machigai Sagashi",
+                "places":"тема Жанны д'Арк",
             }
         }
   },
@@ -8628,10 +8706,15 @@ let allMusic = [
     ],
     "id": "justice-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "ジャスティスのテーマ",
+                "ostname":"Call of Justice",
+                "places":"ジャスティス ハンコックのテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Джастиса",
+                "ostname":"Call of Justice",
+                "places":"тема Джастиса Хэнкока",
             }
         }
   },
@@ -8650,7 +8733,7 @@ let allMusic = [
       "Police Piccadilly (music, lyrics)",
       "Hatsune Miku (singer)"
     ],
-    "places": "Theme of Soubiki Noho",
+    "places": "Theme of Noho Soubiki",
     "start": "15580",
     "stop": "86169",
     "disc": "compassostdisc_1.png",
@@ -8661,10 +8744,15 @@ let allMusic = [
     ],
     "id": "noho-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "乃保のテーマ",
+                "ostname":"キレキャリオン",
+                "places":"双挽 乃保のテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Tема Нохо",
+                "ostname":"Kire Carry On",
+                "places":"тема Нохо Собики",
             }
         }
   },
@@ -8695,9 +8783,14 @@ let allMusic = [
     "id": "gustav-theme-compass",
     "i18n": {
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "グスタフのテーマ",
+                "ostname":"グラーヴェ",
+                "places":"グスタフ ハイドリヒのテーマ",
+            },
+            "ru": {
+                "name": "Тема Густава",
+                "ostname":"Grave",
+                "places":"тема Густава Хайдриха",
             }
         }
   },
@@ -8728,16 +8821,21 @@ let allMusic = [
     ],
     "id": "tesla-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "テスラのテーマ",
+                "ostname":"テスラは夢の中",
+                "places":"ニコラ テスラのテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Теслы",
+                "ostname":"Tesla wa Yume no Naka",
+                "places":"тема Николы Теслы",
             }
         }
   },
   {
-    "ostname": "Tesla In A Dream (Hero Singing ver.)", // "Tesla wa Yume no Naka (Hero Singing ver.)"
-    "name": "Tesla Theme (Voice)",
+    "ostname": "Tesla In A Dream feat. Nikola Tesla", // "Tesla wa Yume no Naka (Hero Singing ver.)"
+    "name": "Tesla Theme (Seiyuu ver.)",
     "files": [
       "compass/compasslivearena-tesla.ogg"
     ],
@@ -8759,10 +8857,15 @@ let allMusic = [
     "gameimage": "compasslivearena.png",
     "id": "tesla-theme-voice-compasslivearena",
     "i18n": {
+            "jp": {
+                "name": "テスラのテーマ (声優ver.)",
+                "ostname":"テスラは夢の中 feat. ニコラ テスラ",
+                "places":"ニコラ テスラのテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Теслы (сэйю-версия)",
+                "ostname":"Tesla wa Yume no Naka feat. Nikola Tesla",
+                "places":"тема Николы Теслы",
             }
         }
   },
@@ -8792,10 +8895,15 @@ let allMusic = [
     ],
     "id": "violetta-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "ヴィオレッタのテーマ",
+                "ostname":"カンタービレ×パッシオーネ",
+                "places":"ヴィオレッタ ノワールのテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Виолетты",
+                "ostname":"Cantabile x Passione",
+                "places":"тема Виолетты Нуар",
             }
         }
   },
@@ -8829,10 +8937,15 @@ let allMusic = [
     ],
     "id": "maria-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "マリアのテーマ",
+                "ostname":"KILLER B",
+                "places":"マリア＝S＝レオンブルクのテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Марии",
+                "ostname":"KILLER B",
+                "places":"тема Марии С. Леонбург",
             }
         }
   },
@@ -8863,10 +8976,15 @@ let allMusic = [
     ],
     "id": "coquelicot-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "コクリコットのテーマ",
+                "ostname":"撥条少女時計",
+                "places":"コクリコット ブランシュのテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Кокелико",
+                "ostname":"Zenmai Shoujo Tokei",
+                "places":"тема Кокелико Бланш",
             }
         }
   },
@@ -8896,10 +9014,15 @@ let allMusic = [
     ],
     "id": "thirteen-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "サーティーンのテーマ",
+                "ostname":"天使だと思っていたのに",
+                "places":"13†サーティーン†のテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Тринадцатого",
+                "ostname":"Tenshi da to Omotte ita no ni",
+                "places":"Тема 13-ого (Тринадцатого)",
             }
         }
   },
@@ -8929,10 +9052,15 @@ let allMusic = [
     ],
     "id": "megmeg-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "メグメグのテーマ",
+                "ostname":"バイオレンストリガー",
+                "places":"メグメグのテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Мег-Мег",
+                "ostname":"Violence Trigger",
+                "places":"тема Мег-Мег",
             }
         }
   },
@@ -8962,10 +9090,15 @@ let allMusic = [
     ],
     "id": "istaqa-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "イスタカのテーマ",
+                "ostname":"キミノカゼニナル",
+                "places":"イスタカのテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Истаки",
+                "ostname":"Kimi no Kaze ni Naru",
+                "places":"тема Истаки",
             }
         }
   },
@@ -8995,10 +9128,15 @@ let allMusic = [
     ],
     "id": "yuusha-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "勇者のテーマ",
+                "ostname":"君はただ二回飛べばいい",
+                "places":"かけだし勇者のテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Героя",
+                "ostname":"Kimi wa Tada Ni-kai Tobeba Ii",
+                "places":"тема Герой-новичок",
             }
         }
   },
@@ -9017,7 +9155,7 @@ let allMusic = [
       "EasyPop (music, lyrics)",
       "Megurine Luka (singer)"
     ],
-    "places": "Theme of Kiryuin Kirara",
+    "places": "Theme of Kirara Kiryuin",
     "start": "20604",
     "stop": "99276",
     "disc": "compassostdisc_2.png",
@@ -9028,10 +9166,15 @@ let allMusic = [
     ],
     "id": "kirara-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "きららのテーマ",
+                "ostname":"だから言ったでしょ？",
+                "places":"輝龍院きららのテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Кирары",
+                "ostname":"Dakara Itta Desho?",
+                "places":"тема Кирары Кирюин",
             }
         }
   },
@@ -9061,10 +9204,15 @@ let allMusic = [
     ],
     "id": "adam-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "アダムのテーマ",
+                "ostname":"Let Me Take You",
+                "places":"アダム=ユーリエフのテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Адама",
+                "ostname":"Let Me Take You",
+                "places":"тема Адама Юрьева",
             }
         }
   },
@@ -9095,10 +9243,15 @@ let allMusic = [
     ],
     "id": "pororotcho-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "ポロロッチョのテーマ",
+                "ostname":"クレイジー・ビート",
+                "places":"ヴィーナス ポロロッチョのテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема",
+                "ostname":"Crazy Beat",
+                "places":"тема Венаса Поророччо",
             }
         }
   },
@@ -9129,10 +9282,15 @@ let allMusic = [
     ],
     "id": "thorne-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "ソーンのテーマ",
+                "ostname":"やどりぎ",
+                "places":"ソーン ユーリエフのテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Сона",
+                "ostname":"Yadorigi",
+                "places":"тема Сона Юрьева",
             }
         }
   },
@@ -9164,10 +9322,15 @@ let allMusic = [
     ],
     "id": "delmin-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "デルミンのテーマ",
+                "ostname":"惑星のダンスフロア",
+                "places":"デビルミント鬼龍 デルミンのテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Дельмин",
+                "ostname":"Wakusei no Dancefloor",
+                "places":"тема Девилминткирю Дельмин",
             }
         }
   },
@@ -9200,10 +9363,15 @@ let allMusic = [
     ],
     "id": "thomas-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "トマスのテーマ",
+                "ostname":"アブソリュート",
+                "places":"トマスのテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Томаса",
+                "ostname":"Absolute",
+                "places":"тема Томаса",
             }
         }
   },
@@ -9235,10 +9403,15 @@ let allMusic = [
     ],
     "id": "layer-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "零夜のテーマ",
+                "ostname":"パラレルレイヤー",
+                "places":"零夜のテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Лэйера",
+                "ostname":"Parallel Layer",
+                "places":"тема Лэйера",
             }
         }
   },
@@ -9268,10 +9441,15 @@ let allMusic = [
     ],
     "id": "luruca-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "ルルカのテーマ",
+                "ostname":"アイ情劣等生",
+                "places":"ルルカのテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Луруки",
+                "ostname":"Aijou Rettousei",
+                "places":"тема Луруки",
             }
         }
   },
@@ -9301,10 +9479,15 @@ let allMusic = [
     ],
     "id": "pierre77-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "ピエール77世のテーマ",
+                "ostname":"欲望我慢スル事ナカレ",
+                "places":"ピエール・ダ・イカッサマニャーギ・ファッキネッティ・ラッラ・ラ・ラブリオーラ・ドラゴナクター・ヒデヨシ・マクシミリアン・スキーヨカローリ・ビョルルンド・モッチモーチ・マリオージェ・マルーゲリータ・ウィルフレッド・プニット・プニャトフスキ77世のテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Пьера 77-ого",
+                "ostname":"Yokubou Gaman Surukoto Nakare",
+                "places":"тема Пьера да Икасса-Маниаги Факкинетти Лаллала Лавеляура Драконактера Хидэёси Максимилиана Каловери Бьёрлунда Мотти-Моти Мариоджа Уилфреда Пунита Пуниатовского 77-ого",
             }
         }
   },
@@ -9323,7 +9506,7 @@ let allMusic = [
       "Hifumi (music, lyrics)",
       "Hatsune Miku (singer)"
     ],
-    "places": "Theme of Kitsunegasaki Amairo",
+    "places": "Theme of Amairo Kitsunegasaki",
     "start": "5734",
     "stop": "152563",
     "disc": "compassostdisc_3.png",
@@ -9334,10 +9517,15 @@ let allMusic = [
     ],
     "id": "amairo-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "甘色のテーマ",
+                "ostname":"萌す心を",
+                "places":"狐ヶ咲 甘色のテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Амайро",
+                "ostname":"Kizasu Kokoro o",
+                "places":"тема Амайро Кицунегасаки",
             }
         }
   },
@@ -9370,10 +9558,15 @@ let allMusic = [
     ],
     "id": "nidhogg-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "ニーズヘッグのテーマ",
+                "ostname":"ST/A#R",
+                "places":"HM-WA100 ニーズヘッグのテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Нидхогга",
+                "ostname":"ST/A#R",
+                "places":"тема HM-WA100 Нидхогга",
             }
         }
   },
@@ -9405,10 +9598,15 @@ let allMusic = [
     ],
     "id": "gbgirl-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "GBガールのテーマ",
+                "ostname":"リアルにぶっとばす",
+                "places":"ゲームバズーカガールのテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема ГБ-Гёрл",
+                "ostname":"Real ni Buttobasu",
+                "places":"Тема Гейм-Базука-Гёрл",
             }
         }
   },
@@ -9432,7 +9630,7 @@ let allMusic = [
       "Yuuki Leon (drums)",
       "Hatsune Miku (singer)"
     ],
-    "places": "Theme of Aoharu Alice",
+    "places": "Theme of Alice Aoharu",
     "start": "16869",
     "stop": "79869",
     "disc": "compassostdisc_3.png",
@@ -9443,10 +9641,15 @@ let allMusic = [
     ],
     "id": "alice-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "アリスのテーマ",
+                "ostname":"アリスブルー",
+                "places":"青春 アリスのテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Алисы",
+                "ostname":"Alice Blue",
+                "places":"тема Алисы Аохару",
             }
         }
   },
@@ -9474,10 +9677,15 @@ let allMusic = [
     "gameimage": "compass.png",
     "id": "ignis-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "イグニスのテーマ",
+                "ostname":"アイロニック",
+                "places":"イグニス=ウィル=ウィスプのテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Игниса",
+                "ostname":"Ironic",
+                "places":"тема Игниса 'Уилла' Уиспа",
             }
         }
   },
@@ -9497,7 +9705,7 @@ let allMusic = [
       "Kuroume (illustration)",
       "Hatsune Miku (singer)"
     ],
-    "places": "Theme of Itomeguri Rinne",
+    "places": "Theme of Rinne Itomeguri",
     "start": "18572",
     "stop": "68129",
     "disc": "compassostdisc_3.png",
@@ -9505,10 +9713,15 @@ let allMusic = [
     "gameimage": "compass.png",
     "id": "rinne-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "輪廻のテーマ",
+                "ostname":"孤独毒毒",
+                "places":"糸廻 輪廻のテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Риннэ",
+                "ostname":"Kodoku Dokudoku",
+                "places":"тема Риннэ Итомэгури",
             }
         }
   },
@@ -9536,10 +9749,15 @@ let allMusic = [
     "gameimage": "compass.png",
     "id": "bugdoll-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "Bugdollのテーマ",
+                "ostname":"スティールユー",
+                "places":"Bugdollのテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Багдолла",
+                "ostname":"Steal You",
+                "places":"тема Багдолла",
             }
         }
   },
@@ -9568,10 +9786,15 @@ let allMusic = [
     "gameimage": "compass.png",
     "id": "stellea-theme-compass",
     "i18n": {
+            "jp": {
+                "name": "ステリアのテーマ",
+                "ostname":"オシオキGIMMICK!!",
+                "places":"ステリア・ララ・シルワのテーマ",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Стеллеи",
+                "ostname":"OSHIOKI GIMMICK!!",
+                "places":"тема Стеллеи Лалы Сильвы",
             }
         }
   },
@@ -9587,15 +9810,35 @@ let allMusic = [
     ],
     "game": "#COMPASS",
     "composer": [
-      "Surii (music, lyrics)",
+      "Threee (music, lyrics)",
       "Kagamine Len (singer)"
     ],
-    "places": "Theme of Lovey Chouchoumarchou",
+    "places": "Theme of Lovey Chouchoumarchou Col Vespertilio",
     "start": "10984",
     "stop": "73935",
     "disc": "compassostdisc_4.png",
     "duration": "1:14",
     "gameimage": "compass.png",
-    "id": "lovey-theme-compass"
+    "id": "lovey-theme-compass",
+    "i18n": {
+            "jp": {
+                "name": "ラヴィのテーマ",
+                "ostname":"ラビィ",
+                "composer": [
+                  "すりぃ（作曲、作詞）",
+                  "鏡音レン（歌唱）"
+                ],
+                "places":"ラヴィ・シュシュマルシュ・コル・ウェスペルティーリオのテーマ",
+            },
+            "ru": {
+                "name": "Тема Лави",
+                "ostname":"Lavie",
+                "composer": [
+                  "Threee (музыка, текст)",
+                  "Кагаминэ Лен (вокалист)"
+                ],
+                "places":"тема Лави Шушумаршу Коль Веспертилио",
+            }
+        }
   }
 ];
