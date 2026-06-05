@@ -7,7 +7,8 @@ let allScripts = [{
         "i18n": {
             "ru": {
                 "name": "",
-                "description": ""
+                "description": "",
+                "scripttype": ""
             }
         }
     },
@@ -20,7 +21,8 @@ let allScripts = [{
         "i18n": {
             "ru": {
                 "name": "проигрыватель-автомат",
-                "description": ""
+                "description": "",
+                "scripttype": ""
             }
         }
     },
@@ -33,7 +35,8 @@ let allScripts = [{
         "i18n": {
             "ru": {
                 "name": "",
-                "description": ""
+                "description": "",
+                "scripttype": ""
             }
         }
     },
@@ -46,7 +49,8 @@ let allScripts = [{
         "i18n": {
             "ru": {
                 "name": "",
-                "description": ""
+                "description": "",
+                "scripttype": ""
             }
         }
     },
@@ -60,7 +64,8 @@ let allScripts = [{
         "i18n": {
             "ru": {
                 "name": "",
-                "description": ""
+                "description": "",
+                "scripttype": ""
             }
         }
     },
@@ -74,7 +79,8 @@ let allScripts = [{
         "i18n": {
             "ru": {
                 "name": "",
-                "description": ""
+                "description": "",
+                "scripttype": ""
             }
         }
     },
@@ -88,7 +94,8 @@ let allScripts = [{
         "i18n": {
             "ru": {
                 "name": "",
-                "description": ""
+                "description": "",
+                "scripttype": ""
             }
         }
     },
@@ -102,7 +109,8 @@ let allScripts = [{
         "i18n": {
             "ru": {
                 "name": "",
-                "description": ""
+                "description": "",
+                "scripttype": ""
             }
         }
     },
@@ -116,7 +124,8 @@ let allScripts = [{
         "i18n": {
             "ru": {
                 "name": "",
-                "description": ""
+                "description": "",
+                "scripttype": ""
             }
         }
     },
@@ -130,7 +139,8 @@ let allScripts = [{
         "i18n": {
             "ru": {
                 "name": "",
-                "description": ""
+                "description": "",
+                "scripttype": ""
             }
         }
     },
@@ -144,7 +154,8 @@ let allScripts = [{
         "i18n": {
             "ru": {
                 "name": "",
-                "description": ""
+                "description": "",
+                "scripttype": ""
             }
         }
     },
@@ -158,7 +169,8 @@ let allScripts = [{
         "i18n": {
             "ru": {
                 "name": "",
-                "description": ""
+                "description": "",
+                "scripttype": ""
             }
         }
     },
@@ -172,7 +184,8 @@ let allScripts = [{
         "i18n": {
             "ru": {
                 "name": "",
-                "description": ""
+                "description": "",
+                "scripttype": ""
             }
         }
     },
@@ -186,7 +199,8 @@ let allScripts = [{
         "i18n": {
             "ru": {
                 "name": "",
-                "description": ""
+                "description": "",
+                "scripttype": ""
             }
         }
     }
