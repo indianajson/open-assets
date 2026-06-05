@@ -222,8 +222,24 @@ button {
 }
 .title-bar-text {
   font-weight: bold;
+  padding-left:10px;
+  display:block;
 }
-
+.filter-lang-selector {
+  background: #333;
+  color: #fff;
+  border: 1px solid #555;
+  padding: 2px 4px;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  border-radius: 2px;
+  outline: none;
+}
+.filter-lang-selector:hover,
+.filter-lang-selector:focus {
+  border-color: #777;
+}
 /* New styles for search and tabs */
 .search-bar {
   display: flex;

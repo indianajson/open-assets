@@ -1,49 +1,274 @@
 let allTools = [
-{"name": "Tiled Layer Fixer","tooltype":"Tiled Extension","description":'A Tiled 1.8+ extension to make adding new layers to Tiled a breeze. The extension will rename and fix vertical offsets in all layers instantly based on their order in the Layers panel.<br><br> <button><a href="s/fix-layers/" target="_blank" style="text-decoration:none; color:#000;">Info/Download</a></button>',"author": "Indiana","id":"fix-layers-indiana"},
-
-{"name": "Boomsheets (Spritesheet Editor)","tooltype":"Software","description":'Professional, paid software for Windows built by ONB\'s creator to give you full control when creating .animation or .TSX files for spritesheets. Also works on Mac if installed with CrossOver or WINE. <br><br> <button><a href="https://store.steampowered.com/app/2189000/BoomSheets/" target="_blank" style="text-decoration:none; color:#000;">View on Steam</a></button>',"author": "Dr. Nerd","id":"boomsheets"},
-
-{"name": "Spritesheet Tool (Browser)","tooltype":"Web Tool","description":'A tool designed to allow you to edit or create .animation or .TSX files for spritesheets this webtool has the necessary functionality to get you from sprite to ONB asset. <br><br> <button><a href="https://keristero.github.io/spritesheet-tool/" target="_blank" style="text-decoration:none; color:#000;">Launch Tool</a></button>',"author": "Keristero","id":"spritesheet-keristero"},
-
-{"name": "Official Discord Server","tooltype":"For Players","description":'The ONB Discord Server is where it is happening, quite literally. How did you even get here without joining the Discord, anyway? Doesn\'t matter. Join our growing community with the invite link below. <br><br><button id="download-single-tool"><a href="https://discord.gg/yAK9MG2" target="_blank" style="text-decoration:none; color:#000;">Join the Discord</a></button>',"author": "Dr. Nerd","id":"discord-nerd"},
-
-{"name": "ONB v2.0 Source Code","tooltype":"Source Code","description":'This is where is all begin and where is still continues. The project is open source and this is the source code. Unless you\'re petty savy you probably don\'t need to fool with this but it is there if you want to check it out. <br><br><button id="download-single-tool"><a href="https://github.com/TheMaverickProgrammer/OpenNetBattle" target="_blank" style="text-decoration:none; color:#000;">Open the Repository</a></button>',"author": "Dr. Nerd","id":"source-nerd"},
-
-{"name": "Server List","tooltype":"For Players","description":'This is a list of servers that are currently online and available for you to explore. <br><br><button id="download-single-tool"><a href="https://keristero.github.io/onb-modsite/servers.html" target="_blank" style="text-decoration:none; color:#000;">Open the Server List</a></button>',"author": "Keristero","id":"servers-keristero"},
-
-{"name": "Modsite","tooltype":"For Players","description":'This is the place to download mods in order to actually play and expand your ONB experience. <br><br><button id="download-single-tool"><a href="https://keristero.github.io/onb-modsite/" target="_blank" style="text-decoration:none; color:#000;">Open the Modsite</a></button>',"author": "Keristero","id":"mod-keristero"},
-
-{"name": "Official Game Download","tooltype":"For Players","description":'If you need the link to download the game for Windows it is right here. Playing on Linux or Mac? Go search the Discord, there are threads about running ONB on those operating systems. <br><br><button id="download-single-tool"><a href="https://gamejolt.com/games/OpenNetBattle/509302" target="_blank" style="text-decoration:none; color:#000;">Download the Game</a></button>',"author": "Dr. Nerd","id":"game-nerd"},
-
-{"name": "Basic Navi Guide","tooltype":"Guide","description":'This written guide gives you some of the basics for how to build your own custom navi in ONB. <br><br><button id="download-single-tool"><a href="https://docs.google.com/document/d/1Nw4zCf0VQxk-rfK61CJ2E4NoHhyOu-YskyH4_ZpLFs8/edit?tab=t.0#heading=h.9soowlucp0n8" target="_blank" style="text-decoration:none; color:#000;">Read the Guide</a></button>',"author": ["Konstinople","D3str0y3d"],"id":"navi-d3"},
-
-{"name": "Overworld Creators Guide V2","tooltype":"Guide","description":'This comprehensive guide introduces content creators to the tools and tips necessary to start building their first ONB server.<br><br> <button id="download-single-tool"><a href="https://docs.google.com/document/d/18lsxnJ8Cpd05OhSYjW6ZvZH_RxnsH01vsH7x4hFa8QU/edit?tab=t.0#heading=h.ytm1yurawj5p" target="_blank" style="text-decoration:none; color:#000;">Read the Guide</a></button>',"author": "D3str0y3d","id":"overworld-d3"},
-
-{"name": "Sprite Palette Changer","tooltype":"Web Tool","description":'A niche, but useful tool for previewing, modifying, and generating sprite palettes. <br><br><button id="download-single-tool"><a href="https://bnlouis.github.io/bn-palette-tool/" target="_blank" style="text-decoration:none; color:#000;">Launch the Tool</a></button>',"author": "Louis","id":"palette-louis"},
-
-{"name": "Making Battle Chips Guide","tooltype":"Guide","description":'A brief but insightful guide for making "card" mods (Battle Chips) for ONB. <br><br><button id="download-single-tool"><a href="https://bnlouis.github.io/OnbGuideLibrary/cards/" target="_blank" style="text-decoration:none; color:#000;">Read the Guide</a></button>',"author": "Louis","id":"chip-guide-louis"},
-
-{"name": "Visual Encounters","tooltype":"Web Tool","description":'<img src="img/other/visual-battle-editor.png" style="float:right;" width=100 height=100 />Have you always wanted to build your own custom battle encounters, boss fights, or battle scenarios? Whether you want to design PVE, PVP, or CO-OP battle experiences this is the place to do it.  <br><br>This tool allows you to configure battle encounters for your server using an interface (no more editing LUA scripts). Made to support Keristero\'s ezLibs server script, this tool can provide all the files for your server, which makes adding encounters as seamless as possible. <br><br> <button id="download-single-tool"><a href="https://indianajson.github.io/visual-encounters/" target="_blank" style="text-decoration:none; color:#000;">Launch the Tool</a></button>',"author": "Indiana","id":"viz-indiana"},
-
-{"name": "Net Battle API Documentation","tooltype":"Documentation","description":'This link provides documentation for handling the engine APIs for chips and enemies.<br><br> <button id="download-single-tool"><a href="https://paintylux.github.io/OpenNetBattleDocs/api/#cardaction-objects" target="_blank" style="text-decoration:none; color:#000;">Read the Docs</a></button>',"author": "protoBASILISK","id":"battle-proto"},
-
-//{"name": "ONB Server Source Code","tooltype":"Documentation","description":'<img src="img/other/james-coding.png" style="float:right;" width=100 height=100 />This contains the source code for the Scriptable ONB server (which you probably don\'t need), but more importantly it contains the documentation for the API endpoints on the server (which you very much will need if you get into custom server scripting).<br><br> <button id="download-single-tool"><a href="https://github.com/Keristero/Scriptable-OpenNetBattle-Server?tab=readme-ov-file#scriptable-server-for-opennetbattle" target="_blank" style="text-decoration:none; color:#000;">Read the Docs</a></button>',"author": "Dr. Nerd","id":"server-nerd"},
-
-{"name": "Tiled (Map Making)","tooltype":"Software","description":'This free software is the only way to make maps for your ONB server. Use the links below to download and learn how to use it. <br><br> <button id="download-single-tool"><a href="https://thorbjorn.itch.io/tiled" target="_blank" style="text-decoration:none; color:#000;">Download</a></button> <button id="download-single-tool"><a href="https://indianajson.github.io/open-assets/#tab=tools&item=overworld-d3" target="_blank" style="text-decoration:none; color:#000;">ONB Tiled Tutorial</a></button>',"author": "Thorbjørn","id":"tiled"},
-
-
-{"name": "Tiled Tutorial for Making Net Area","tooltype":"Video","description":'<img src="img/other/destroyed-video.png" style="float:right;" width=100 height=100 />This is a recording from a livestream hosted by D3str0y3d where he goes through the basics of creating areas for ONB Servers using Tiled (free downloadable map editor). <br><br> <button id="download-single-tool"><a href="https://www.youtube.com/watch?v=A4aOBUPiBZg" target="_blank" style="text-decoration:none; color:#000;">Watch Tutorial</a></button>',"author": "D3str0y3d","id":"tutorial-d3"},
-
-{"name": "Map Collision Generator","tooltype":"Web Tool","description":'<img src="img/other/collider-map.webp" style="float:right;" width=100 height=100 />This tool accepts a finalized map sprite and produces a Tiled object you can use as the collision/walls of your map (as opposed to the walkable areas being tile based). This is especially useful for maps that are rounded (like BN4) or have narrow paths (like BN1).<br><br> <button id="download-single-tool"><a href="https://colab.research.google.com/drive/1-MM0XX-1BQkzwxyIQ7LgfcenqT9YRV1K?usp=sharing" target="_blank" style="text-decoration:none; color:#000;">Launch the Tool</a></button>',"author": "Indiana","id":"map-indiana"},
-
-{"name": "Navi Making Guide","tooltype":"Guide","description":'After learning how to make navis for the first time, ShaDisNX255 decided to write a new guide based on their experience. The result is an excellent navi making guide designed to help beginners go step-by-step through the navi making process. <br><br> <button id="download-single-tool"><a href="https://docs.google.com/document/d/1l1TarsSA3u5wZxp_6O28elxm3DFu1mUfuEI8K6w41Do/edit?tab=t.0#heading=h.ai4gmsgtfc4" target="_blank" style="text-decoration:none; color:#000;">Read the Guide</a></button>',"author": "ShaDisNX255","id":"shadis-guide"},
-
-
-    /*
+    {
+    "name": "Tiled Layer Fixer",
+    "tooltype": "Tiled Extension",
+    "description": 'A Tiled 1.8+ extension to make adding new layers to Tiled a breeze. The extension will rename and fix vertical offsets in all layers instantly based on their order in the Layers panel.<br><br> <button><a href="s/fix-layers/" target="_blank" style="text-decoration:none; color:#000;">Info/Download</a></button>',
+    "author": "Indiana",
+    "id": "fix-layers-indiana",
+    "i18n": {
+        "ru": {
+            "name": "",
+            "tooltype": "",
+            "description": ""
+        }
+    }},
     
-    //this is an empty dictionary you can use to make new entries, it includes the code for the button in the description field. 
+    {
+        "name": "BoomSheets (Spritesheet Editor)",
+        "tooltype": "Software",
+        "description": 'Professional, paid software for Windows built by ONB\'s creator to give you full control when creating .animation or .TSX files for spritesheets. Also works on Mac if installed with CrossOver or WINE. <br><br> <button><a href="https://store.steampowered.com/app/2189000/BoomSheets/" target="_blank" style="text-decoration:none; color:#000;">View on Steam</a></button>',
+        "author": "Dr. Nerd",
+        "id": "boomsheets",
+        "i18n": {
+            "ru": {
+                "name": "",
+                "tooltype": "",
+                "description": ""
+            }
+        }
+    },
 
-{"name": "","tooltype":"","description":'<br><br> <button id="download-single-tool"><a href="" target="_blank" style="text-decoration:none; color:#000;"></a></button>',"author": "","id":""},
-    */
+    {
+        "name": "Spritesheet Tool (Browser)",
+        "tooltype": "Web Tool",
+        "description": 'A tool designed to allow you to edit or create .animation or .TSX files for spritesheets this webtool has the necessary functionality to get you from sprite to ONB asset. <br><br> <button><a href="https://keristero.github.io/spritesheet-tool/" target="_blank" style="text-decoration:none; color:#000;">Launch Tool</a></button>',
+        "author": "Keristero",
+        "id": "spritesheet-keristero",
+        "i18n": {
+            "ru": {
+                "name": "",
+                "tooltype": "",
+                "description": ""
+            }
+        }
+    },
 
-    ];
+    {
+        "name": "Official Discord Server",
+        "tooltype": "For Players",
+        "description": 'The ONB Discord Server is where it is happening, quite literally. How did you even get here without joining the Discord, anyway? Doesn\'t matter. Join our growing community with the invite link below. <br><br><button id="download-single-tool"><a href="https://discord.gg/yAK9MG2" target="_blank" style="text-decoration:none; color:#000;">Join the Discord</a></button>',
+        "author": "Dr. Nerd",
+        "id": "discord-nerd",
+        "i18n": {
+            "ru": {
+                "name": "",
+                "tooltype": "",
+                "description": ""
+            }
+        }
+    },
+
+    {
+        "name": "ONB v2.0 Source Code",
+        "tooltype": "Source Code",
+        "description": 'This is where is all begin and where is still continues. The project is open source and this is the source code. Unless you\'re petty savy you probably don\'t need to fool with this but it is there if you want to check it out. <br><br><button id="download-single-tool"><a href="https://github.com/TheMaverickProgrammer/OpenNetBattle" target="_blank" style="text-decoration:none; color:#000;">Open the Repository</a></button>',
+        "author": "Dr. Nerd",
+        "id": "source-nerd",
+        "i18n": {
+            "ru": {
+                "name": "",
+                "tooltype": "",
+                "description": ""
+            }
+        }
+    },
+
+    {
+        "name": "Server List",
+        "tooltype": "For Players",
+        "description": 'This is a list of servers that are currently online and available for you to explore. <br><br><button id="download-single-tool"><a href="https://keristero.github.io/onb-modsite/servers.html" target="_blank" style="text-decoration:none; color:#000;">Open the Server List</a></button>',
+        "author": "Keristero",
+        "id": "servers-keristero",
+        "i18n": {
+            "ru": {
+                "name": "",
+                "tooltype": "",
+                "description": ""
+            }
+        }
+    },
+
+    {
+        "name": "Modsite",
+        "tooltype": "For Players",
+        "description": 'This is the place to download mods in order to actually play and expand your ONB experience. <br><br><button id="download-single-tool"><a href="https://keristero.github.io/onb-modsite/" target="_blank" style="text-decoration:none; color:#000;">Open the Modsite</a></button>',
+        "author": "Keristero",
+        "id": "mod-keristero",
+        "i18n": {
+            "ru": {
+                "name": "",
+                "tooltype": "",
+                "description": ""
+            }
+        }
+    },
+
+    {
+        "name": "Official Game Download",
+        "tooltype": "For Players",
+        "description": 'If you need the link to download the game for Windows it is right here. Playing on Linux or Mac? Go search the Discord, there are threads about running ONB on those operating systems. <br><br><button id="download-single-tool"><a href="https://gamejolt.com/games/OpenNetBattle/509302" target="_blank" style="text-decoration:none; color:#000;">Download the Game</a></button>',
+        "author": "Dr. Nerd",
+        "id": "game-nerd",
+        "i18n": {
+            "ru": {
+                "name": "",
+                "tooltype": "",
+                "description": ""
+            }
+        }
+    },
+
+    {
+        "name": "Basic Navi Guide",
+        "tooltype": "Guide",
+        "description": 'This written guide gives you some of the basics for how to build your own custom navi in ONB. <br><br><button id="download-single-tool"><a href="https://docs.google.com/document/d/1Nw4zCf0VQxk-rfK61CJ2E4NoHhyOu-YskyH4_ZpLFs8/edit?tab=t.0#heading=h.9soowlucp0n8" target="_blank" style="text-decoration:none; color:#000;">Read the Guide</a></button>',
+        "author": ["Konstinople", "D3str0y3d"],
+        "id": "navi-d3",
+        "i18n": {
+            "ru": {
+                "name": "",
+                "tooltype": "",
+                "description": ""
+            }
+        }
+    },
+
+    {
+        "name": "Overworld Creators Guide V2",
+        "tooltype": "Guide",
+        "description": 'This comprehensive guide introduces content creators to the tools and tips necessary to start building their first ONB server.<br><br> <button id="download-single-tool"><a href="https://docs.google.com/document/d/18lsxnJ8Cpd05OhSYjW6ZvZH_RxnsH01vsH7x4hFa8QU/edit?tab=t.0#heading=h.ytm1yurawj5p" target="_blank" style="text-decoration:none; color:#000;">Read the Guide</a></button>',
+        "author": "D3str0y3d",
+        "id": "overworld-d3",
+        "i18n": {
+            "ru": {
+                "name": "",
+                "tooltype": "",
+                "description": ""
+            }
+        }
+    },
+
+    {
+        "name": "Sprite Palette Changer",
+        "tooltype": "Web Tool",
+        "description": 'A niche, but useful tool for previewing, modifying, and generating sprite palettes. <br><br><button id="download-single-tool"><a href="https://bnlouis.github.io/bn-palette-tool/" target="_blank" style="text-decoration:none; color:#000;">Launch the Tool</a></button>',
+        "author": "Louis",
+        "id": "palette-louis",
+        "i18n": {
+            "ru": {
+                "name": "",
+                "tooltype": "",
+                "description": ""
+            }
+        }
+    },
+
+    {
+        "name": "Making Battle Chips Guide",
+        "tooltype": "Guide",
+        "description": 'A brief but insightful guide for making "card" mods (Battle Chips) for ONB. <br><br><button id="download-single-tool"><a href="https://bnlouis.github.io/OnbGuideLibrary/cards/" target="_blank" style="text-decoration:none; color:#000;">Read the Guide</a></button>',
+        "author": "Louis",
+        "id": "chip-guide-louis",
+        "i18n": {
+            "ru": {
+                "name": "",
+                "tooltype": "",
+                "description": ""
+            }
+        }
+    },
+
+    {
+        "name": "Visual Encounters",
+        "tooltype": "Web Tool",
+        "description": '<img src="img/other/visual-battle-editor.png" style="float:right;" width=100 height=100 />Have you always wanted to build your own custom battle encounters, boss fights, or battle scenarios? Whether you want to design PVE, PVP, or CO-OP battle experiences this is the place to do it.  <br><br>This tool allows you to configure battle encounters for your server using an interface (no more editing LUA scripts). Made to support Keristero\'s ezLibs server script, this tool can provide all the files for your server, which makes adding encounters as seamless as possible. <br><br> <button id="download-single-tool"><a href="https://indianajson.github.io/visual-encounters/" target="_blank" style="text-decoration:none; color:#000;">Launch the Tool</a></button>',
+        "author": "Indiana",
+        "id": "viz-indiana",
+        "i18n": {
+            "ru": {
+                "name": "",
+                "tooltype": "",
+                "description": ""
+            }
+        }
+    },
+
+    {
+        "name": "Net Battle API Documentation",
+        "tooltype": "Documentation",
+        "description": 'This link provides documentation for handling the engine APIs for chips and enemies.<br><br> <button id="download-single-tool"><a href="https://paintylux.github.io/OpenNetBattleDocs/api/#cardaction-objects" target="_blank" style="text-decoration:none; color:#000;">Read the Docs</a></button>',
+        "author": "protoBASILISK",
+        "id": "battle-proto",
+        "i18n": {
+            "ru": {
+                "name": "",
+                "tooltype": "",
+                "description": ""
+            }
+        }
+    },
+
+    //{"name": "ONB Server Source Code","tooltype":"Documentation","description":'<img src="img/other/james-coding.png" style="float:right;" width=100 height=100 />This contains the source code for the Scriptable ONB server (which you probably don\'t need), but more importantly it contains the documentation for the API endpoints on the server (which you very much will need if you get into custom server scripting).<br><br> <button id="download-single-tool"><a href="https://github.com/Keristero/Scriptable-OpenNetBattle-Server?tab=readme-ov-file#scriptable-server-for-opennetbattle" target="_blank" style="text-decoration:none; color:#000;">Read the Docs</a></button>',"author": "Dr. Nerd","id":"server-nerd" },
+
+    {
+        "name": "Tiled (Map Making)",
+        "tooltype": "Software",
+        "description": 'This free software is the only way to make maps for your ONB server. Use the links below to download and learn how to use it. <br><br> <button id="download-single-tool"><a href="https://thorbjorn.itch.io/tiled" target="_blank" style="text-decoration:none; color:#000;">Download</a></button> <button id="download-single-tool"><a href="https://indianajson.github.io/open-assets/#tab=tools&item=overworld-d3" target="_blank" style="text-decoration:none; color:#000;">ONB Tiled Tutorial</a></button>',
+        "author": "Thorbjørn",
+        "id": "tiled",
+        "i18n": {
+            "ru": {
+                "name": "",
+                "tooltype": "",
+                "description": ""
+            }
+        }
+    },
+
+
+    {
+        "name": "Tiled Tutorial for Making Net Area",
+        "tooltype": "Video",
+        "description": '<img src="img/other/destroyed-video.png" style="float:right;" width=100 height=100 />This is a recording from a livestream hosted by D3str0y3d where he goes through the basics of creating areas for ONB Servers using Tiled (free downloadable map editor). <br><br> <button id="download-single-tool"><a href="https://www.youtube.com/watch?v=A4aOBUPiBZg" target="_blank" style="text-decoration:none; color:#000;">Watch Tutorial</a></button>',
+        "author": "D3str0y3d",
+        "id": "tutorial-d3",
+        "i18n": {
+            "ru": {
+                "name": "",
+                "tooltype": "",
+                "description": ""
+            }
+        }
+    },
+
+    {
+        "name": "Map Collision Generator",
+        "tooltype": "Web Tool",
+        "description": '<img src="img/other/collider-map.webp" style="float:right;" width=100 height=100 />This tool accepts a finalized map sprite and produces a Tiled object you can use as the collision/walls of your map (as opposed to the walkable areas being tile based). This is especially useful for maps that are rounded (like BN4) or have narrow paths (like BN1).<br><br> <button id="download-single-tool"><a href="https://colab.research.google.com/drive/1-MM0XX-1BQkzwxyIQ7LgfcenqT9YRV1K?usp=sharing" target="_blank" style="text-decoration:none; color:#000;">Launch the Tool</a></button>',
+        "author": "Indiana",
+        "id": "map-indiana",
+        "i18n": {
+            "ru": {
+                "name": "",
+                "tooltype": "",
+                "description": ""
+            }
+        }
+    },
+
+    {
+        "name": "Navi Making Guide",
+        "tooltype": "Guide",
+        "description": 'After learning how to make navis for the first time, ShaDisNX255 decided to write a new guide based on their experience. The result is an excellent navi making guide designed to help beginners go step-by-step through the navi making process. <br><br> <button id="download-single-tool"><a href="https://docs.google.com/document/d/1l1TarsSA3u5wZxp_6O28elxm3DFu1mUfuEI8K6w41Do/edit?tab=t.0#heading=h.ai4gmsgtfc4" target="_blank" style="text-decoration:none; color:#000;">Read the Guide</a></button>',
+        "author": "ShaDisNX255",
+        "id": "shadis-guide",
+        "i18n": {
+            "ru": {
+                "name": "",
+                "tooltype": "",
+                "description": ""
+            }
+        }
+    }
+
+];

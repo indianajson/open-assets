@@ -16,7 +16,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:35",
     "gameimage": "exe1.png",
-    "id": "title-theme-exe1"
+    "id": "title-theme-exe1",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Hometown",
@@ -35,7 +42,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:54",
     "gameimage": "exe1.png",
-    "id": "akihara-town-exe1"
+    "id": "akihara-town-exe1",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "School",
@@ -63,7 +77,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png",
     ],
-    "id": "school-exe1"
+    "id": "school-exe1",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Indoors",
@@ -91,7 +112,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png",
     ],
-    "id": "indoors-theme-exe1"
+    "id": "indoors-theme-exe1",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Suspicious Mood?",
@@ -110,7 +138,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:16",
     "gameimage": "exe1.png",
-    "id": "suspicious-theme-exe1"
+    "id": "suspicious-theme-exe1",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Incident Occurrence!",
@@ -129,7 +164,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:12",
     "gameimage": "exe1.png",
-    "id": "incident-occurrence-exe1"
+    "id": "incident-occurrence-exe1",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Transmission!",
@@ -148,7 +190,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:03",
     "gameimage": "exe1.png",
-    "id": "plug-in-transition-exe1"
+    "id": "plug-in-transition-exe1",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "FIRE FIELD",
@@ -167,7 +216,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:58",
     "gameimage": "exe1.png",
-    "id": "oven-comp-exe1"
+    "id": "oven-comp-exe1",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "RUNNING THROUGH THE CYBER WORLD",
@@ -186,7 +242,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:49",
     "gameimage": "exe1.png",
-    "id": "school-comp-exe1"
+    "id": "school-comp-exe1",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "BOUNDLESS NETWORK",
@@ -205,7 +268,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:41",
     "gameimage": "exe1.png",
-    "id": "internet-theme-exe1"
+    "id": "internet-theme-exe1",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Hour of Fate",
@@ -224,7 +294,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:50",
     "gameimage": "exe1.png",
-    "id": "saito-theme-exe1"
+    "id": "saito-theme-exe1",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "COLD & SILENT",
@@ -243,7 +320,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:51",
     "gameimage": "exe1.png",
-    "id": "waterworks-comp-exe1"
+    "id": "waterworks-comp-exe1",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "RED OR BLUE",
@@ -262,7 +346,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:39",
     "gameimage": "exe1.png",
-    "id": "traffic-light-comp-exe1"
+    "id": "traffic-light-comp-exe1",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "ELECTRICAL CRISIS",
@@ -281,7 +372,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:47",
     "gameimage": "exe1.png",
-    "id": "power-plant-comp-exe1"
+    "id": "power-plant-comp-exe1",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "VOID",
@@ -300,7 +398,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:51",
     "gameimage": "exe1.png",
-    "id": "www-comp-exe1"
+    "id": "www-comp-exe1",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Operation!",
@@ -319,7 +424,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:48",
     "gameimage": "exe1.png",
-    "id": "virus-battle-exe1"
+    "id": "virus-battle-exe1",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Net Battle",
@@ -338,7 +450,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:51",
     "gameimage": "exe1.png",
-    "id": "boss-battle-exe1"
+    "id": "boss-battle-exe1",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "VS. Dream Virus",
@@ -357,7 +476,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:48",
     "gameimage": "exe1.png",
-    "id": "final-battle-exe1"
+    "id": "final-battle-exe1",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "WINNER!",
@@ -385,7 +511,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png",
     ],
-    "id": "results-theme-exe1"
+    "id": "results-theme-exe1",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "GAME OVER",
@@ -413,7 +546,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png",
     ],
-    "id": "game-over-exe1"
+    "id": "game-over-exe1",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "LOSER",
@@ -441,7 +581,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png",
     ],
-    "id": "loser-theme-exe1"
+    "id": "loser-theme-exe1",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "end roll",
@@ -460,7 +607,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "1:02",
     "gameimage": "exe1.png",
-    "id": "credits-theme-exe1"
+    "id": "credits-theme-exe1",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "THEME OF ROCKMAN EXE2",
@@ -477,7 +631,14 @@ let allMusic = [
     "stop": "37507",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "title-theme-exe2"
+    "id": "title-theme-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Secret Maneuvers",
@@ -494,7 +655,14 @@ let allMusic = [
     "stop": "9646",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "gospel-theme-exe2"
+    "id": "gospel-theme-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Hometown",
@@ -511,7 +679,14 @@ let allMusic = [
     "stop": "51668",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "akihara-town-exe2"
+    "id": "akihara-town-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Okuden Valley",
@@ -528,7 +703,14 @@ let allMusic = [
     "stop": "38258",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "okuden-valley-exe2"
+    "id": "okuden-valley-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Marine Harbor",
@@ -545,7 +727,14 @@ let allMusic = [
     "stop": "33837",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "marine-harbor-exe2"
+    "id": "marine-harbor-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Official Center",
@@ -562,7 +751,14 @@ let allMusic = [
     "stop": "28932",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "official-center-exe2"
+    "id": "official-center-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Departure",
@@ -579,7 +775,14 @@ let allMusic = [
     "stop": "53930",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "densan-airport-exe2"
+    "id": "densan-airport-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Foreign Country Scenery",
@@ -596,7 +799,14 @@ let allMusic = [
     "stop": "41288",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "amerope-town-exe2"
+    "id": "amerope-town-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Amerope Castle",
@@ -613,7 +823,14 @@ let allMusic = [
     "stop": "35968",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "amerope-castle-exe2"
+    "id": "amerope-castle-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Back Street",
@@ -630,7 +847,14 @@ let allMusic = [
     "stop": "8038",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "back-street-exe2"
+    "id": "back-street-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Dungeon",
@@ -647,7 +871,14 @@ let allMusic = [
     "stop": "13980",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "dungeon-exe2"
+    "id": "dungeon-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Air Travel",
@@ -664,7 +895,14 @@ let allMusic = [
     "stop": "24999",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "airplane-exe2"
+    "id": "airplane-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Determination in Heart",
@@ -681,7 +919,14 @@ let allMusic = [
     "stop": "28597",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "kotobuki-town-exe2"
+    "id": "kotobuki-town-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Suspicious Mood?",
@@ -698,7 +943,14 @@ let allMusic = [
     "stop": "14834",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "suspicious-theme-exe2"
+    "id": "suspicious-theme-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Incident Occurrence!",
@@ -715,7 +967,14 @@ let allMusic = [
     "stop": "14877",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "incident-occurrence-exe2"
+    "id": "incident-occurrence-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Vicinity of Sorrow",
@@ -732,7 +991,14 @@ let allMusic = [
     "stop": "18551",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "sad-theme-exe2"
+    "id": "sad-theme-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Proof of Courage",
@@ -749,7 +1015,14 @@ let allMusic = [
     "stop": "27658",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "hero-theme-exe2"
+    "id": "hero-theme-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Transmission!",
@@ -766,7 +1039,14 @@ let allMusic = [
     "stop": "",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "plug-in-transition-exe2"
+    "id": "plug-in-transition-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "SMOKY FIELD",
@@ -783,7 +1063,14 @@ let allMusic = [
     "stop": "38274",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "gas-boiler-exe2"
+    "id": "gas-boiler-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "TIME LIMIT",
@@ -800,7 +1087,14 @@ let allMusic = [
     "stop": "38582",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "detonator-comp-exe2"
+    "id": "detonator-comp-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "A SERIOUS MISSION",
@@ -817,7 +1111,14 @@ let allMusic = [
     "stop": "51065",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "mother-computer-comp-exe2"
+    "id": "mother-computer-comp-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "FEAR IN THE CASTLE",
@@ -834,7 +1135,14 @@ let allMusic = [
     "stop": "32146",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "castle-comp-exe2"
+    "id": "castle-comp-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "MAGNETIC AIRPLANE",
@@ -851,7 +1159,14 @@ let allMusic = [
     "stop": "51434",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "airplane-comp-exe2"
+    "id": "airplane-comp-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "YOU CAN'T GO BACK",
@@ -868,7 +1183,14 @@ let allMusic = [
     "stop": "34674",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "apartment-comp-exe2"
+    "id": "apartment-comp-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "INTERNET WORLD",
@@ -885,7 +1207,14 @@ let allMusic = [
     "stop": "44154",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "internet-theme-exe2"
+    "id": "internet-theme-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "FEARFUL",
@@ -902,7 +1231,14 @@ let allMusic = [
     "stop": "36516",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "ura-internet-theme-exe2"
+    "id": "ura-internet-theme-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "AND YOU WILL KNOW THE TRUTH",
@@ -919,7 +1255,14 @@ let allMusic = [
     "stop": "43300",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "www-area-exe2"
+    "id": "www-area-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Virus Busting",
@@ -936,7 +1279,14 @@ let allMusic = [
     "stop": "38782",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "virus-battle-exe2"
+    "id": "virus-battle-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Battle Spirit",
@@ -953,7 +1303,14 @@ let allMusic = [
     "stop": "42627",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "boss-battle-exe2"
+    "id": "boss-battle-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "VS. Gospel",
@@ -970,7 +1327,14 @@ let allMusic = [
     "stop": "42576",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "final-battle-exe2"
+    "id": "final-battle-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Style Change",
@@ -987,7 +1351,14 @@ let allMusic = [
     "stop": "9443",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "style-change-exe2"
+    "id": "style-change-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "PRESSURE",
@@ -1004,7 +1375,14 @@ let allMusic = [
     "stop": "14231",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "pre-boss-theme-exe2"
+    "id": "pre-boss-theme-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "peace again",
@@ -1021,7 +1399,14 @@ let allMusic = [
     "stop": "116598",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "credits-theme-exe2"
+    "id": "credits-theme-exe2",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "THEME OF ROCKMAN EXE3",
@@ -1043,7 +1428,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "title-theme-exe3"
+    "id": "title-theme-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of WWW",
@@ -1063,7 +1455,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "www-theme-exe3"
+    "id": "www-theme-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Hometown",
@@ -1083,7 +1482,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "akihara-town-exe3"
+    "id": "akihara-town-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Tree of Life",
@@ -1103,7 +1509,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "gulf-coast-hospital-exe3"
+    "id": "gulf-coast-hospital-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Yoka-Yoka Village",
@@ -1123,7 +1536,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "yoka-yoka-village-exe3"
+    "id": "yoka-yoka-village-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Sea Breeze Town",
@@ -1143,7 +1563,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "beach-street-exe3"
+    "id": "beach-street-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Scientific Forefront",
@@ -1163,7 +1590,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "ministry-of-science-exe3"
+    "id": "ministry-of-science-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "TV Station",
@@ -1183,7 +1617,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "tv-station-exe3"
+    "id": "tv-station-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "N1 Grand Prix!",
@@ -1203,7 +1644,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "n1-grand-prix-exe3"
+    "id": "n1-grand-prix-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Hell Island",
@@ -1223,7 +1671,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "hell-island-exe3"
+    "id": "hell-island-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Wily Research Lab",
@@ -1243,7 +1698,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "wily-castle-exe3"
+    "id": "wily-castle-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Suspicious Mood?",
@@ -1263,7 +1725,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "suspicious-theme-exe3"
+    "id": "suspicious-theme-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Incident Occurrence!",
@@ -1283,7 +1752,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "incident-occurrence-exe3"
+    "id": "incident-occurrence-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Wiping Tears",
@@ -1303,7 +1779,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "sad-theme-exe3"
+    "id": "sad-theme-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Proof of Courage",
@@ -1323,7 +1806,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "hero-theme-exe3"
+    "id": "hero-theme-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Transmission!",
@@ -1343,7 +1833,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "plug-in-transition-exe3"
+    "id": "plug-in-transition-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "BLIND MODE",
@@ -1363,7 +1860,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "principal-laptop-comp-exe3"
+    "id": "principal-laptop-comp-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "MAZE OF WILDERNESS",
@@ -1383,7 +1887,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "zoo-comp-exe3"
+    "id": "zoo-comp-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "SAVE A LIFE",
@@ -1403,7 +1914,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "hospital-comp-exe3"
+    "id": "hospital-comp-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "FINAL TRANSMISSION",
@@ -1423,7 +1941,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "www-comp-exe3"
+    "id": "www-comp-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "NETWORK IS SPREADING",
@@ -1443,7 +1968,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "internet-theme-exe3"
+    "id": "internet-theme-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "DANGEROUS BLACK",
@@ -1463,7 +1995,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "ura-internet-theme-exe3"
+    "id": "ura-internet-theme-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "SHINE IN THE DARK",
@@ -1483,7 +2022,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "secret-area-exe3"
+    "id": "secret-area-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Shooting Enemy",
@@ -1503,7 +2049,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "virus-battle-exe3"
+    "id": "virus-battle-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Boss Battle!",
@@ -1523,7 +2076,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "boss-battle-exe3"
+    "id": "boss-battle-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "VS. Proto",
@@ -1543,7 +2103,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "final-battle-exe3"
+    "id": "final-battle-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Great Battlers",
@@ -1563,7 +2130,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "tournament-battle-exe3"
+    "id": "tournament-battle-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Showdown!",
@@ -1583,7 +2157,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "pre-boss-theme-exe3"
+    "id": "pre-boss-theme-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Navi Customizer",
@@ -1603,7 +2184,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "navicus-exe3"
+    "id": "navicus-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "farewell",
@@ -1623,7 +2211,14 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "credits-theme-exe3"
+    "id": "credits-theme-exe3",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of ROCKMAN EXE4",
@@ -1643,7 +2238,14 @@ let allMusic = [
       "exe4r.png",
       "exe4b.png"
     ],
-    "id": "title-theme-exe4"
+    "id": "title-theme-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "ANSA",
@@ -1663,7 +2265,14 @@ let allMusic = [
       "exe4r.png",
       "exe4b.png"
     ],
-    "id": "ansa-exe4"
+    "id": "ansa-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Hometown",
@@ -1683,7 +2292,14 @@ let allMusic = [
       "exe4r.png",
       "exe4b.png"
     ],
-    "id": "akihara-town-exe4"
+    "id": "akihara-town-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Indoors",
@@ -1703,7 +2319,14 @@ let allMusic = [
       "exe4r.png",
       "exe4b.png"
     ],
-    "id": "indoors-theme-exe4"
+    "id": "indoors-theme-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Denki Town",
@@ -1723,7 +2346,14 @@ let allMusic = [
       "exe4r.png",
       "exe4b.png"
     ],
-    "id": "denki-town-exe4"
+    "id": "denki-town-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Incident Occurrence!",
@@ -1743,7 +2373,14 @@ let allMusic = [
       "exe4r.png",
       "exe4b.png"
     ],
-    "id": "incident-occurrence-exe4"
+    "id": "incident-occurrence-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Transmission!",
@@ -1767,7 +2404,14 @@ let allMusic = [
       "exe4b.png",
       "exe45.png"
     ],
-    "id": "plug-in-transition-exeoss"
+    "id": "plug-in-transition-exeoss",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Invisible Wing",
@@ -1787,7 +2431,14 @@ let allMusic = [
       "exe4r.png",
       "exe4b.png"
     ],
-    "id": "radio-tower-comp-exe4"
+    "id": "radio-tower-comp-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Cyber Battle",
@@ -1807,7 +2458,14 @@ let allMusic = [
       "exe4r.png",
       "exe4b.png"
     ],
-    "id": "virus-battle-exe4"
+    "id": "virus-battle-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Cyber Battle (unused)",
@@ -1827,7 +2485,14 @@ let allMusic = [
       "exe4r.png",
       "exe4b.png"
     ],
-    "id": "virus-battle-unused-exe4"
+    "id": "virus-battle-unused-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Enemy Deleted!",
@@ -1851,7 +2516,14 @@ let allMusic = [
       "exe4b.png",
       "exe45.png"
     ],
-    "id": "results-theme-exe4"
+    "id": "results-theme-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Enemy Deleted! (short)",
@@ -1875,7 +2547,14 @@ let allMusic = [
       "exe4b.png",
       "exe45.png"
     ],
-    "id": "results-theme-short-exe4"
+    "id": "results-theme-short-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Silent Darkness",
@@ -1895,7 +2574,14 @@ let allMusic = [
       "exe4r.png",
       "exe4b.png"
     ],
-    "id": "enemy-dialogue-exe4"
+    "id": "enemy-dialogue-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Densan Stadium",
@@ -1915,7 +2601,14 @@ let allMusic = [
       "exe4r.png",
       "exe4b.png"
     ],
-    "id": "densan-dome-exe4"
+    "id": "densan-dome-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Player Admission",
@@ -1939,7 +2632,14 @@ let allMusic = [
       "exe4b.png",
       "exe45.png"
     ],
-    "id": "tournament-intro-exe4"
+    "id": "tournament-intro-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Battle Pressure",
@@ -1959,7 +2659,14 @@ let allMusic = [
       "exe4r.png",
       "exe4b.png"
     ],
-    "id": "tournament-battle-exe4"
+    "id": "tournament-battle-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Great Victory!",
@@ -1983,7 +2690,14 @@ let allMusic = [
       "exe4b.png",
       "exe45.png"
     ],
-    "id": "tournament-win-exe4"
+    "id": "tournament-win-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Global Network",
@@ -2003,7 +2717,14 @@ let allMusic = [
       "exe4r.png",
       "exe4b.png"
     ],
-    "id": "internet-theme-exe4"
+    "id": "internet-theme-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Cielo Castillo",
@@ -2023,7 +2744,14 @@ let allMusic = [
       "exe4r.png",
       "exe4b.png"
     ],
-    "id": "cielo-castillo-exe4"
+    "id": "cielo-castillo-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Dracky's Mansion",
@@ -2043,7 +2771,14 @@ let allMusic = [
       "exe4r.png",
       "exe4b.png"
     ],
-    "id": "dracky-mansion-exe4"
+    "id": "dracky-mansion-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Story of Wonder",
@@ -2063,7 +2798,14 @@ let allMusic = [
       "exe4r.png",
       "exe4b.png"
     ],
-    "id": "toy-robot-comp-1-exe4"
+    "id": "toy-robot-comp-1-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Vampire",
@@ -2083,7 +2825,14 @@ let allMusic = [
       "exe4r.png",
       "exe4b.png"
     ],
-    "id": "toy-robot-comp-2-exe4"
+    "id": "toy-robot-comp-2-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Versus",
@@ -2107,7 +2856,14 @@ let allMusic = [
       "exe4b.png",
       "exe45.png"
     ],
-    "id": "pre-boss-theme-exe4"
+    "id": "pre-boss-theme-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Fighting Oneself",
@@ -2127,7 +2883,14 @@ let allMusic = [
       "exe4r.png",
       "exe4b.png"
     ],
-    "id": "boss-battle-exe4"
+    "id": "boss-battle-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Navi Customizer",
@@ -2147,7 +2910,14 @@ let allMusic = [
       "exe4r.png",
       "exe4b.png"
     ],
-    "id": "navicus-exe4"
+    "id": "navicus-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Determined Journey",
@@ -2167,7 +2937,14 @@ let allMusic = [
       "exe4r.png",
       "exe4b.png"
     ],
-    "id": "foreign-country-exe4"
+    "id": "foreign-country-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Heel's Paradise",
@@ -2187,7 +2964,14 @@ let allMusic = [
       "exe4r.png",
       "exe4b.png"
     ],
-    "id": "ura-internet-theme-exe4"
+    "id": "ura-internet-theme-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Sad Rain",
@@ -2207,7 +2991,14 @@ let allMusic = [
       "exe4r.png",
       "exe4b.png"
     ],
-    "id": "sad-theme-exe4"
+    "id": "sad-theme-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Under Justice",
@@ -2227,7 +3018,14 @@ let allMusic = [
       "exe4r.png",
       "exe4b.png"
     ],
-    "id": "hero-theme-exe4"
+    "id": "hero-theme-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Save Our Planet",
@@ -2247,7 +3045,14 @@ let allMusic = [
       "exe4r.png",
       "exe4b.png"
     ],
-    "id": "asteroid-comp-exe4"
+    "id": "asteroid-comp-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Game Over",
@@ -2271,7 +3076,14 @@ let allMusic = [
       "exe4b.png",
       "exe45.png"
     ],
-    "id": "game-over-exe4"
+    "id": "game-over-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Loser",
@@ -2295,7 +3107,14 @@ let allMusic = [
       "exe4b.png",
       "exe45.png"
     ],
-    "id": "loser-theme-exe4"
+    "id": "loser-theme-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "VS. Duo",
@@ -2315,7 +3134,14 @@ let allMusic = [
       "exe4r.png",
       "exe4b.png"
     ],
-    "id": "final-battle-exe4"
+    "id": "final-battle-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Your Answer",
@@ -2335,7 +3161,14 @@ let allMusic = [
       "exe4r.png",
       "exe4b.png"
     ],
-    "id": "credits-theme-exe4"
+    "id": "credits-theme-exe4",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Introduction",
@@ -2352,7 +3185,14 @@ let allMusic = [
     "stop": "",
     "disc": "sb3.png",
     "gameimage": "exe45.png",
-    "id": "pet-intro-exe45"
+    "id": "pet-intro-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of ROCKMAN EXE4.5",
@@ -2369,7 +3209,14 @@ let allMusic = [
     "stop": "31042",
     "disc": "sb3.png",
     "gameimage": "exe45.png",
-    "id": "title-theme-exe45"
+    "id": "title-theme-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "PET Display",
@@ -2386,7 +3233,14 @@ let allMusic = [
     "stop": "8607",
     "disc": "sb3.png",
     "gameimage": "exe45.png",
-    "id": "settings-theme-exe45"
+    "id": "settings-theme-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of Rockman",
@@ -2403,7 +3257,14 @@ let allMusic = [
     "stop": "19355",
     "disc": "sb3.png",
     "gameimage": "exe45.png",
-    "id": "rockman-theme-exe45"
+    "id": "rockman-theme-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of Roll",
@@ -2420,7 +3281,14 @@ let allMusic = [
     "stop": "20914",
     "disc": "sb3.png",
     "gameimage": "exe45.png",
-    "id": "roll-theme-exe45"
+    "id": "roll-theme-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of GutsMan",
@@ -2437,7 +3305,14 @@ let allMusic = [
     "stop": "34272",
     "disc": "sb3.png",
     "gameimage": "exe45.png",
-    "id": "gutsman-theme-exe45"
+    "id": "gutsman-theme-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of NumberMan",
@@ -2454,7 +3329,14 @@ let allMusic = [
     "stop": "24429",
     "disc": "sb3.png",
     "gameimage": "exe45.png",
-    "id": "numberman-theme-exe45"
+    "id": "numberman-theme-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of FireMan",
@@ -2471,7 +3353,14 @@ let allMusic = [
     "stop": "24511",
     "disc": "sb3.png",
     "gameimage": "exe45.png",
-    "id": "fireman-theme-exe45"
+    "id": "fireman-theme-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of WoodMan",
@@ -2488,7 +3377,14 @@ let allMusic = [
     "stop": "17359",
     "disc": "sb3.png",
     "gameimage": "exe45.png",
-    "id": "woodman-theme-exe45"
+    "id": "woodman-theme-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of WindMan",
@@ -2505,7 +3401,14 @@ let allMusic = [
     "stop": "31111",
     "disc": "sb3.png",
     "gameimage": "exe45.png",
-    "id": "windman-theme-exe45"
+    "id": "windman-theme-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of SearchMan",
@@ -2522,7 +3425,14 @@ let allMusic = [
     "stop": "32413",
     "disc": "sb3.png",
     "gameimage": "exe45.png",
-    "id": "searchman-theme-exe45"
+    "id": "searchman-theme-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of AquaMan",
@@ -2539,7 +3449,14 @@ let allMusic = [
     "stop": "27982",
     "disc": "sb3.png",
     "gameimage": "exe45.png",
-    "id": "aquaman-theme-exe45"
+    "id": "aquaman-theme-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of ThunderMan",
@@ -2556,7 +3473,14 @@ let allMusic = [
     "stop": "23419",
     "disc": "sb3.png",
     "gameimage": "exe45.png",
-    "id": "thunderman-theme-exe45"
+    "id": "thunderman-theme-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of MetalMan",
@@ -2573,7 +3497,14 @@ let allMusic = [
     "stop": "33837",
     "disc": "sb3.png",
     "gameimage": "exe45.png",
-    "id": "metalman-theme-exe45"
+    "id": "metalman-theme-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of JunkMan",
@@ -2590,7 +3521,14 @@ let allMusic = [
     "stop": "33842",
     "disc": "sb3.png",
     "gameimage": "exe45.png",
-    "id": "junkman-theme-exe45"
+    "id": "junkman-theme-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of Blues",
@@ -2607,7 +3545,14 @@ let allMusic = [
     "stop": "29417",
     "disc": "sb3.png",
     "gameimage": "exe45.png",
-    "id": "blues-theme-exe45"
+    "id": "blues-theme-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of StarMan",
@@ -2624,7 +3569,14 @@ let allMusic = [
     "stop": "32539",
     "disc": "sb3.png",
     "gameimage": "exe45.png",
-    "id": "starman-theme-exe45"
+    "id": "starman-theme-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of NapalmMan",
@@ -2641,7 +3593,14 @@ let allMusic = [
     "stop": "33251",
     "disc": "sb3.png",
     "gameimage": "exe45.png",
-    "id": "napalmman-theme-exe45"
+    "id": "napalmman-theme-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of IceMan",
@@ -2658,7 +3617,14 @@ let allMusic = [
     "stop": "25114",
     "disc": "sb3.png",
     "gameimage": "exe45.png",
-    "id": "iceman-theme-exe45"
+    "id": "iceman-theme-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of ElecMan",
@@ -2675,7 +3641,14 @@ let allMusic = [
     "stop": "46876",
     "disc": "sb3.png",
     "gameimage": "exe45.png",
-    "id": "elecman-theme-exe45"
+    "id": "elecman-theme-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of PlantMan",
@@ -2692,7 +3665,14 @@ let allMusic = [
     "stop": "16927",
     "disc": "sb3.png",
     "gameimage": "exe45.png",
-    "id": "plantman-theme-exe45"
+    "id": "plantman-theme-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of KnightMan",
@@ -2709,7 +3689,14 @@ let allMusic = [
     "stop": "32682",
     "disc": "sb3.png",
     "gameimage": "exe45.png",
-    "id": "knightman-theme-exe45"
+    "id": "knightman-theme-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of ShadowMan",
@@ -2726,7 +3713,14 @@ let allMusic = [
     "stop": "24110",
     "disc": "sb3.png",
     "gameimage": "exe45.png",
-    "id": "shadowman-theme-exe45"
+    "id": "shadowman-theme-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of Forte",
@@ -2743,7 +3737,14 @@ let allMusic = [
     "stop": "51350",
     "disc": "sb3.png",
     "gameimage": "exe45.png",
-    "id": "forte-theme-exe45"
+    "id": "forte-theme-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Life in the Network",
@@ -2760,7 +3761,14 @@ let allMusic = [
     "stop": "55640",
     "disc": "sb4.png",
     "gameimage": "exe45.png",
-    "id": "internet-theme-exe45"
+    "id": "internet-theme-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Battlefield",
@@ -2777,7 +3785,14 @@ let allMusic = [
     "stop": "34778",
     "disc": "sb4.png",
     "gameimage": "exe45.png",
-    "id": "virus-battle-exe45"
+    "id": "virus-battle-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Lecture",
@@ -2794,7 +3809,14 @@ let allMusic = [
     "stop": "12474",
     "disc": "sb4.png",
     "gameimage": "exe45.png",
-    "id": "minigame-tutorial-exe45"
+    "id": "minigame-tutorial-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Calculation Drill",
@@ -2811,7 +3833,14 @@ let allMusic = [
     "stop": "19809",
     "disc": "sb4.png",
     "gameimage": "exe45.png",
-    "id": "numberman-minigame-exe45"
+    "id": "numberman-minigame-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Awaken the Wind!",
@@ -2828,7 +3857,14 @@ let allMusic = [
     "stop": "6347",
     "disc": "sb4.png",
     "gameimage": "exe45.png",
-    "id": "windman-minigame-exe45"
+    "id": "windman-minigame-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Search Mission",
@@ -2845,7 +3881,14 @@ let allMusic = [
     "stop": "23841",
     "disc": "sb4.png",
     "gameimage": "exe45.png",
-    "id": "searchman-minigame-exe45"
+    "id": "searchman-minigame-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Metal Shooting!",
@@ -2862,7 +3905,14 @@ let allMusic = [
     "stop": "27559",
     "disc": "sb4.png",
     "gameimage": "exe45.png",
-    "id": "metalman-minigame-exe45"
+    "id": "metalman-minigame-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Napalm Bomb!",
@@ -2879,7 +3929,14 @@ let allMusic = [
     "stop": "26788",
     "disc": "sb4.png",
     "gameimage": "exe45.png",
-    "id": "napalmman-minigame-exe45"
+    "id": "napalmman-minigame-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Ice Puzzle",
@@ -2896,7 +3953,14 @@ let allMusic = [
     "stop": "22603",
     "disc": "sb4.png",
     "gameimage": "exe45.png",
-    "id": "iceman-minigame-exe45"
+    "id": "iceman-minigame-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Tournament Under Way",
@@ -2913,7 +3977,14 @@ let allMusic = [
     "stop": "13396",
     "disc": "sb4.png",
     "gameimage": "exe45.png",
-    "id": "tournament-ai-demo-exe45"
+    "id": "tournament-ai-demo-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Tournament Battle",
@@ -2930,7 +4001,14 @@ let allMusic = [
     "stop": "38977",
     "disc": "sb4.png",
     "gameimage": "exe45.png",
-    "id": "tournament-ai-demo-exe45"
+    "id": "tournament-ai-demo-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Deep Inside",
@@ -2947,7 +4025,14 @@ let allMusic = [
     "stop": "45087",
     "disc": "sb4.png",
     "gameimage": "exe45.png",
-    "id": "ura-internet-theme-exe45"
+    "id": "ura-internet-theme-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Chaos Area",
@@ -2964,7 +4049,14 @@ let allMusic = [
     "stop": "55306",
     "disc": "sb4.png",
     "gameimage": "exe45.png",
-    "id": "chaos-area-exe45"
+    "id": "chaos-area-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Fighter's Soul",
@@ -2981,7 +4073,14 @@ let allMusic = [
     "stop": "49093",
     "disc": "sb4.png",
     "gameimage": "exe45.png",
-    "id": "boss-battle-exe45"
+    "id": "boss-battle-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Champion!",
@@ -2998,7 +4097,14 @@ let allMusic = [
     "stop": "45658",
     "disc": "sb4.png",
     "gameimage": "exe45.png",
-    "id": "official-tournament-win-exe45"
+    "id": "official-tournament-win-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "All Cast",
@@ -3015,7 +4121,14 @@ let allMusic = [
     "stop": "234148",
     "disc": "sb4.png",
     "gameimage": "exe45.png",
-    "id": "credits-theme-exe45"
+    "id": "credits-theme-exe45",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "THEME OF ROCKMAN EXEPON",
@@ -3036,7 +4149,14 @@ let allMusic = [
     "stop": "27428",
     "disc": "pon&lon.png",
     "gameimage": "exepon.png",
-    "id": "title-theme-exepon"
+    "id": "title-theme-exepon",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Hometown",
@@ -3057,7 +4177,14 @@ let allMusic = [
     "stop": "53996",
     "disc": "pon&lon.png",
     "gameimage": "exepon.png",
-    "id": "akihara-town-exepon"
+    "id": "akihara-town-exepon",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Incident Occurrence!",
@@ -3077,7 +4204,14 @@ let allMusic = [
     "stop": "5188",
     "disc": "pon&lon.png",
     "gameimage": "exepon.png",
-    "id": "incident-occurrence-exepon"
+    "id": "incident-occurrence-exepon",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "CYBER WORLD",
@@ -3098,7 +4232,14 @@ let allMusic = [
     "stop": "39448",
     "disc": "pon&lon.png",
     "gameimage": "exepon.png",
-    "id": "internet-theme-exepon"
+    "id": "internet-theme-exepon",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Virus Busting",
@@ -3119,7 +4260,14 @@ let allMusic = [
     "stop": "48400",
     "disc": "pon&lon.png",
     "gameimage": "exepon.png",
-    "id": "virus-battle-exepon"
+    "id": "virus-battle-exepon",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Net Battle",
@@ -3140,7 +4288,14 @@ let allMusic = [
     "stop": "39300",
     "disc": "pon&lon.png",
     "gameimage": "exepon.png",
-    "id": "boss-battle-exepon"
+    "id": "boss-battle-exepon",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "PHANTOM OF THE NETWORK",
@@ -3161,7 +4316,14 @@ let allMusic = [
     "stop": "40473",
     "disc": "pon&lon.png",
     "gameimage": "exepon.png",
-    "id": "cache-server-comp-exepon"
+    "id": "cache-server-comp-exepon",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "VS. Cache 2nd",
@@ -3182,7 +4344,14 @@ let allMusic = [
     "stop": "39479",
     "disc": "pon&lon.png",
     "gameimage": "exepon.png",
-    "id": "final-battle-exepon"
+    "id": "final-battle-exepon",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "main theme arrangement",
@@ -3203,7 +4372,14 @@ let allMusic = [
     "disc": "pon&lon.png",
     "duration": "0:43",
     "gameimage": "exepon.png",
-    "id": "credits-theme-exepon"
+    "id": "credits-theme-exepon",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of ROCKMAN EXE5",
@@ -3223,7 +4399,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "title-theme-exe5"
+    "id": "title-theme-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of Nebula",
@@ -3243,7 +4426,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "nebula-theme-exe5"
+    "id": "nebula-theme-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Hometown",
@@ -3263,7 +4453,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "akihara-town-exe5"
+    "id": "akihara-town-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Indoors",
@@ -3283,7 +4480,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "indoors-theme-exe5"
+    "id": "indoors-theme-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Scientific Forefront",
@@ -3303,7 +4507,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "ministry-of-science-exe5"
+    "id": "ministry-of-science-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Incident Occurrence!",
@@ -3323,7 +4534,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "incident-occurrence-exe5"
+    "id": "incident-occurrence-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Transmission!",
@@ -3343,7 +4561,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "plug-in-transition-exe5"
+    "id": "plug-in-transition-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Seek a Cord",
@@ -3363,7 +4588,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "main-system-comp-exe5"
+    "id": "main-system-comp-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Battle Start!",
@@ -3383,7 +4615,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "virus-battle-exe5"
+    "id": "virus-battle-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Enemy Deleted!",
@@ -3403,7 +4642,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "results-theme-exe5"
+    "id": "results-theme-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Enemy Deleted! (short)",
@@ -3423,7 +4669,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "results-theme-short-exe5"
+    "id": "results-theme-short-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Oran Island",
@@ -3443,7 +4696,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "oran-island-exe5"
+    "id": "oran-island-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Abandoned Mine",
@@ -3463,7 +4723,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "abandoned-mine-exe5"
+    "id": "abandoned-mine-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Drill Crush!",
@@ -3483,7 +4750,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "rock-drill-comp-exe5"
+    "id": "rock-drill-comp-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Network Space",
@@ -3503,7 +4777,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "internet-theme-exe5"
+    "id": "internet-theme-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Black Power",
@@ -3523,7 +4804,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "pre-boss-theme-exe5"
+    "id": "pre-boss-theme-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Liberate Mission",
@@ -3543,7 +4831,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "liberate-mission-exe5"
+    "id": "liberate-mission-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Powerful Enemy",
@@ -3563,7 +4858,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "boss-battle-exe5"
+    "id": "boss-battle-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Liberate Complete!",
@@ -3583,7 +4885,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "liberate-complete-exe5"
+    "id": "liberate-complete-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Navi Customizer",
@@ -3603,7 +4912,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "navicus-exe5"
+    "id": "navicus-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Luxury Liner",
@@ -3623,7 +4939,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "luxury-liner-exe5"
+    "id": "luxury-liner-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Quest in the Water",
@@ -3643,7 +4966,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "luxury-liner-comp-exe5"
+    "id": "luxury-liner-comp-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Endo City",
@@ -3663,7 +4993,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "endo-city-exe5"
+    "id": "endo-city-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Castle of NINJA!",
@@ -3683,7 +5020,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "shachihoko-comp-exe5"
+    "id": "shachihoko-comp-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Depth",
@@ -3703,7 +5047,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "ura-internet-theme-exe5"
+    "id": "ura-internet-theme-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "A Heart's Shadow",
@@ -3723,7 +5074,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "sad-theme-exe5"
+    "id": "sad-theme-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "You're Not Alone!",
@@ -3743,7 +5101,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "hero-theme-exe5"
+    "id": "hero-theme-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Dark Chip Factory",
@@ -3763,7 +5128,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "dark-chip-factory-exe5"
+    "id": "dark-chip-factory-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "A Total War",
@@ -3783,7 +5155,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "factory-comp-exe5"
+    "id": "factory-comp-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Trial",
@@ -3803,7 +5182,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "minigame-theme-exe5"
+    "id": "minigame-theme-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "1-Turn Liberate!",
@@ -3823,7 +5209,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "1-turn-liberate-exe5"
+    "id": "1-turn-liberate-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Game Over",
@@ -3843,7 +5236,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "game-over-exe5"
+    "id": "game-over-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Loser",
@@ -3863,7 +5263,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "loser-theme-exe5"
+    "id": "loser-theme-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "VS. Nebula Gray",
@@ -3883,7 +5290,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "final-battle-exe5"
+    "id": "final-battle-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Chain of Wish",
@@ -3903,7 +5317,14 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "credits-theme-exe5"
+    "id": "credits-theme-exe5",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Be Somewhere",
@@ -3922,7 +5343,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:34",
     "gameimage": "exe5ds.png",
-    "id": "opening-theme-jp-exe5ds"
+    "id": "opening-theme-jp-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "THEME OF ROCKMAN EXE ~TGS2002 Mix~",
@@ -3941,7 +5369,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:28",
     "gameimage": "exe5ds.png",
-    "id": "opening-theme-us-exe5ds"
+    "id": "opening-theme-us-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of ROCKMAN EXE5",
@@ -3961,7 +5396,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:32",
     "gameimage": "exe5ds.png",
-    "id": "title-theme-exe5ds"
+    "id": "title-theme-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of Nebula",
@@ -3981,7 +5423,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:39",
     "gameimage": "exe5ds.png",
-    "id": "nebula-theme-exe5ds"
+    "id": "nebula-theme-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Hometown",
@@ -4001,7 +5450,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:54",
     "gameimage": "exe5ds.png",
-    "id": "akihara-town-exe5ds"
+    "id": "akihara-town-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Indoors",
@@ -4021,7 +5477,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:16",
     "gameimage": "exe5ds.png",
-    "id": "indoors-theme-exe5ds"
+    "id": "indoors-theme-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Scientific Forefront",
@@ -4041,7 +5504,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:42",
     "gameimage": "exe5ds.png",
-    "id": "ministry-of-science-exe5ds"
+    "id": "ministry-of-science-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Incident Occurrence!",
@@ -4061,7 +5531,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:12",
     "gameimage": "exe5ds.png",
-    "id": "incident-occurrence-exe5ds"
+    "id": "incident-occurrence-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Transmission!",
@@ -4081,7 +5558,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:08",
     "gameimage": "exe5ds.png",
-    "id": "plug-in-transition-exe5ds"
+    "id": "plug-in-transition-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Seek a Cord",
@@ -4101,7 +5585,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:39",
     "gameimage": "exe5ds.png",
-    "id": "main-system-comp-exe5ds"
+    "id": "main-system-comp-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Battle Theme -EXE1 STYLE-",
@@ -4121,7 +5612,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:58",
     "gameimage": "exe5ds.png",
-    "id": "virus-battle-exe1-exe5ds"
+    "id": "virus-battle-exe1-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Battle Theme -EXE2 STYLE-",
@@ -4141,7 +5639,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:38",
     "gameimage": "exe5ds.png",
-    "id": "virus-battle-exe2-exe5ds"
+    "id": "virus-battle-exe2-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Battle Theme -EXE3 STYLE-",
@@ -4161,7 +5666,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:33",
     "gameimage": "exe5ds.png",
-    "id": "virus-battle-exe3-exe5ds"
+    "id": "virus-battle-exe3-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Battle Theme -EXE4 STYLE-",
@@ -4181,7 +5693,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:32",
     "gameimage": "exe5ds.png",
-    "id": "virus-battle-exe4-exe5ds"
+    "id": "virus-battle-exe4-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Battle Theme -EXE4.5 STYLE-",
@@ -4201,7 +5720,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:33",
     "gameimage": "exe5ds.png",
-    "id": "virus-battle-exe45-exe5ds"
+    "id": "virus-battle-exe45-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Battle Theme -EXE5 STYLE-",
@@ -4221,7 +5747,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:48",
     "gameimage": "exe5ds.png",
-    "id": "virus-battle-exe5-exe5ds"
+    "id": "virus-battle-exe5-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Enemy Deleted!",
@@ -4241,7 +5774,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:10",
     "gameimage": "exe5ds.png",
-    "id": "results-theme-exe5ds"
+    "id": "results-theme-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Enemy Deleted! (short)",
@@ -4261,7 +5801,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:02",
     "gameimage": "exe5ds.png",
-    "id": "results-theme-short-exe5ds"
+    "id": "results-theme-short-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Oran Island",
@@ -4281,7 +5828,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:38",
     "gameimage": "exe5ds.png",
-    "id": "oran-island-exe5ds"
+    "id": "oran-island-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Abandoned Mine",
@@ -4301,7 +5855,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:14",
     "gameimage": "exe5ds.png",
-    "id": "abandoned-mine-exe5ds"
+    "id": "abandoned-mine-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Drill Crush!",
@@ -4321,7 +5882,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:47",
     "gameimage": "exe5ds.png",
-    "id": "rock-drill-comp-exe5ds"
+    "id": "rock-drill-comp-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Network Space",
@@ -4341,7 +5909,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:40",
     "gameimage": "exe5ds.png",
-    "id": "internet-theme-exe5ds"
+    "id": "internet-theme-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Black Power",
@@ -4361,7 +5936,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:27",
     "gameimage": "exe5ds.png",
-    "id": "pre-boss-theme-exe5ds"
+    "id": "pre-boss-theme-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Liberate Mission",
@@ -4381,7 +5963,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:30",
     "gameimage": "exe5ds.png",
-    "id": "liberate-mission-exe5ds"
+    "id": "liberate-mission-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Powerful Enemy",
@@ -4401,7 +5990,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:43",
     "gameimage": "exe5ds.png",
-    "id": "boss-battle-exe5ds"
+    "id": "boss-battle-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Liberate Complete!",
@@ -4421,7 +6017,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:04",
     "gameimage": "exe5ds.png",
-    "id": "liberate-complete-exe5ds"
+    "id": "liberate-complete-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Navi Customizer",
@@ -4441,7 +6044,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:47",
     "gameimage": "exe5ds.png",
-    "id": "navicus-exe5ds"
+    "id": "navicus-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Luxury Liner",
@@ -4461,7 +6071,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:34",
     "gameimage": "exe5ds.png",
-    "id": "luxury-liner-exe5ds"
+    "id": "luxury-liner-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Quest in the Water",
@@ -4481,7 +6098,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:53",
     "gameimage": "exe5ds.png",
-    "id": "luxury-liner-comp-exe5ds"
+    "id": "luxury-liner-comp-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Endo City",
@@ -4501,7 +6125,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:35",
     "gameimage": "exe5ds.png",
-    "id": "endo-city-exe5ds"
+    "id": "endo-city-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Castle of NINJA!",
@@ -4521,7 +6152,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:53",
     "gameimage": "exe5ds.png",
-    "id": "shachihoko-comp-exe5ds"
+    "id": "shachihoko-comp-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Depth",
@@ -4541,7 +6179,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:52",
     "gameimage": "exe5ds.png",
-    "id": "ura-internet-theme-exe5ds"
+    "id": "ura-internet-theme-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "A Heart's Shadow",
@@ -4561,7 +6206,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:23",
     "gameimage": "exe5ds.png",
-    "id": "sad-theme-exe5ds"
+    "id": "sad-theme-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "You're Not Alone!",
@@ -4581,7 +6233,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:27",
     "gameimage": "exe5ds.png",
-    "id": "hero-theme-exe5ds"
+    "id": "hero-theme-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Dark Chip Factory",
@@ -4601,7 +6260,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:49",
     "gameimage": "exe5ds.png",
-    "id": "dark-chip-factory-exe5ds"
+    "id": "dark-chip-factory-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "A Total War",
@@ -4621,7 +6287,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:44",
     "gameimage": "exe5ds.png",
-    "id": "factory-comp-exe5ds"
+    "id": "factory-comp-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Trial",
@@ -4641,7 +6314,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:13",
     "gameimage": "exe5ds.png",
-    "id": "minigame-theme-exe5ds"
+    "id": "minigame-theme-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "1-Turn Liberate!",
@@ -4661,7 +6341,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "",
     "gameimage": "exe5ds.png",
-    "id": "1-turn-liberate-exe5ds"
+    "id": "1-turn-liberate-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Game Over",
@@ -4681,7 +6368,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:03",
     "gameimage": "exe5ds.png",
-    "id": "game-over-exe5ds"
+    "id": "game-over-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Loser",
@@ -4701,7 +6395,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:09",
     "gameimage": "exe5ds.png",
-    "id": "loser-theme-exe5ds"
+    "id": "loser-theme-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "VS. Nebula Gray",
@@ -4721,7 +6422,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:48",
     "gameimage": "exe5ds.png",
-    "id": "final-battle-exe5ds"
+    "id": "final-battle-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Chain of Wish",
@@ -4741,7 +6449,14 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "1:54",
     "gameimage": "exe5ds.png",
-    "id": "credits-theme-exe5ds"
+    "id": "credits-theme-exe5ds",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of ROCKMAN EXE6",
@@ -4761,7 +6476,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "title-theme-exe6"
+    "id": "title-theme-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Organization",
@@ -4781,7 +6503,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "www-theme-exe6"
+    "id": "www-theme-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Central Town",
@@ -4801,7 +6530,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "central-town-exe6"
+    "id": "central-town-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Indoors",
@@ -4821,7 +6557,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "indoors-theme-exe6"
+    "id": "indoors-theme-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Saiba Academy",
@@ -4841,7 +6584,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "school-theme-exe6"
+    "id": "school-theme-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Incident Occurrence!",
@@ -4861,7 +6611,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "incident-exe6"
+    "id": "incident-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Transmission!",
@@ -4881,7 +6638,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "plug-in-transition-exe6"
+    "id": "plug-in-transition-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Blast Speed",
@@ -4901,7 +6665,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "robot-control-pc-comp-exe6"
+    "id": "robot-control-pc-comp-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Seaside Town",
@@ -4921,7 +6692,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "seaside-town-exe6"
+    "id": "seaside-town-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Aquarium Question",
@@ -4941,7 +6719,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "aquarium-comp-exe6"
+    "id": "aquarium-comp-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Shark Panic",
@@ -4961,7 +6746,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "aquarium-comp-chase-exe6"
+    "id": "aquarium-comp-chase-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Battle Field",
@@ -4981,7 +6773,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "virus-battle-exe6"
+    "id": "virus-battle-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Enemy Deleted!",
@@ -5001,7 +6800,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "results-theme-exe6"
+    "id": "results-theme-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Enemy Deleted! (short)",
@@ -5021,7 +6827,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "results-theme-short-exe6"
+    "id": "results-theme-short-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Green Town",
@@ -5041,7 +6854,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "green-town-exe6"
+    "id": "green-town-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Doubt",
@@ -5061,7 +6881,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "suspicious-theme-exe6"
+    "id": "suspicious-theme-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Tree of Judgement",
@@ -5081,7 +6908,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "judgement-tree-comp-exe6"
+    "id": "judgement-tree-comp-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Distortion!",
@@ -5101,7 +6935,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "pre-boss-theme-exe6"
+    "id": "pre-boss-theme-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Surge of Power!",
@@ -5121,7 +6962,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "boss-battle-exe6"
+    "id": "boss-battle-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Digital Strider",
@@ -5141,7 +6989,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "internet-theme-exe6"
+    "id": "internet-theme-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Sky Town",
@@ -5161,7 +7016,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "sky-town-exe6"
+    "id": "sky-town-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Promise",
@@ -5181,7 +7043,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "sad-theme-exe6"
+    "id": "sad-theme-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Break the Storm",
@@ -5201,7 +7070,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "weatherkun-comp-exe6"
+    "id": "weatherkun-comp-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Evil Spirit",
@@ -5221,7 +7097,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "cyber-beast-theme-exe6"
+    "id": "cyber-beast-theme-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Hometown",
@@ -5241,7 +7124,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "akihara-town-exe6"
+    "id": "akihara-town-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Hero!",
@@ -5261,7 +7151,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "hero-theme-exe6"
+    "id": "hero-theme-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Danger Zone!",
@@ -5281,7 +7178,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "ura-internet-theme-exe6"
+    "id": "ura-internet-theme-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Navi Customizer",
@@ -5301,7 +7205,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "navicus-exe6"
+    "id": "navicus-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Parade!",
@@ -5321,7 +7232,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "expo-site-exe6"
+    "id": "expo-site-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Graveyard",
@@ -5341,7 +7259,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "graveyard-exe6"
+    "id": "graveyard-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Game Over",
@@ -5361,7 +7286,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "game-over-exe6"
+    "id": "game-over-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Loser",
@@ -5381,7 +7313,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "loser-theme-exe6"
+    "id": "loser-theme-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Secret Base",
@@ -5401,7 +7340,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "www-base-exe6"
+    "id": "www-base-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Two of Braves",
@@ -5421,7 +7367,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "pavilion-comp-exe6"
+    "id": "pavilion-comp-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Decisive Battle, Cyber Beasts!",
@@ -5441,7 +7394,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "final-battle-exe6"
+    "id": "final-battle-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Future",
@@ -5461,7 +7421,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "credits-theme-exe6"
+    "id": "credits-theme-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "The Count -crossover ver.-",
@@ -5481,7 +7448,14 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "crossover-battle-exe6"
+    "id": "crossover-battle-exe6",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Theme of ROCKMAN EXELON",
@@ -5502,7 +7476,14 @@ let allMusic = [
     "stop": "26725",
     "disc": "pon&lon.png",
     "gameimage": "exelon.png",
-    "id": "title-theme-exelon"
+    "id": "title-theme-exelon",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Hometown",
@@ -5523,7 +7504,14 @@ let allMusic = [
     "stop": "50620",
     "disc": "pon&lon.png",
     "gameimage": "exelon.png",
-    "id": "akihara-town-exelon"
+    "id": "akihara-town-exelon",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Incident Occurrence!",
@@ -5544,7 +7532,14 @@ let allMusic = [
     "stop": "12303",
     "disc": "pon&lon.png",
     "gameimage": "exelon.png",
-    "id": "incident-occurrence-exelon"
+    "id": "incident-occurrence-exelon",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Cyberworld",
@@ -5565,7 +7560,14 @@ let allMusic = [
     "stop": "41665",
     "disc": "pon&lon.png",
     "gameimage": "exelon.png",
-    "id": "internet-theme-exelon"
+    "id": "internet-theme-exelon",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Virus Busting",
@@ -5586,7 +7588,14 @@ let allMusic = [
     "stop": "39180",
     "disc": "pon&lon.png",
     "gameimage": "exelon.png",
-    "id": "virus-battle-exelon"
+    "id": "virus-battle-exelon",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Net Battle",
@@ -5607,7 +7616,14 @@ let allMusic = [
     "stop": "40776",
     "disc": "pon&lon.png",
     "gameimage": "exelon.png",
-    "id": "boss-battle-exelon"
+    "id": "boss-battle-exelon",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Legend of the Network",
@@ -5628,7 +7644,14 @@ let allMusic = [
     "stop": "41996",
     "disc": "pon&lon.png",
     "gameimage": "exelon.png",
-    "id": "trojan-comp-exelon"
+    "id": "trojan-comp-exelon",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "VS. Trojan Horse",
@@ -5649,7 +7672,14 @@ let allMusic = [
     "stop": "38717",
     "disc": "pon&lon.png",
     "gameimage": "exelon.png",
-    "id": "final-battle-exelon"
+    "id": "final-battle-exelon",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "In the Future",
@@ -5670,7 +7700,14 @@ let allMusic = [
     "disc": "pon&lon.png",
     "duration": "0:34",
     "gameimage": "exelon.png",
-    "id": "credits-theme-exelon"
+    "id": "credits-theme-exelon",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "THEME OF ROCKMAN EXEOSS",
@@ -5690,7 +7727,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:33",
     "gameimage": "exeoss.png",
-    "id": "title-theme-exeoss"
+    "id": "title-theme-exeoss",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Hometown",
@@ -5710,7 +7754,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "1:57",
     "gameimage": "exeoss.png",
-    "id": "akihara-town-exeoss"
+    "id": "akihara-town-exeoss",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "School",
@@ -5730,7 +7781,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:38",
     "gameimage": "exeoss.png",
-    "id": "school-exeoss"
+    "id": "school-exeoss",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Indoors",
@@ -5750,7 +7808,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:07",
     "gameimage": "exeoss.png",
-    "id": "indoors-theme-exeoss"
+    "id": "indoors-theme-exeoss",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Suspicious Mood?",
@@ -5770,7 +7835,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:16",
     "gameimage": "exeoss.png",
-    "id": "suspicious-theme-exeoss"
+    "id": "suspicious-theme-exeoss",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Incident Occurrence!",
@@ -5790,7 +7862,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:13",
     "gameimage": "exeoss.png",
-    "id": "incident-occurrence-exeoss"
+    "id": "incident-occurrence-exeoss",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Transmission!",
@@ -5810,7 +7889,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:03",
     "gameimage": "exeoss.png",
-    "id": "plug-in-transition-exeoss"
+    "id": "plug-in-transition-exeoss",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "FIRE FIELD",
@@ -5830,7 +7916,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:56",
     "gameimage": "exeoss.png",
-    "id": "oven-comp-exeoss"
+    "id": "oven-comp-exeoss",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "RUNNING THROUGH THE CYBER WORLD",
@@ -5850,7 +7943,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:49",
     "gameimage": "exeoss.png",
-    "id": "school-comp-exeoss"
+    "id": "school-comp-exeoss",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "BOUNDLESS NETWORK",
@@ -5870,7 +7970,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:41",
     "gameimage": "exeoss.png",
-    "id": "internet-theme-exeoss"
+    "id": "internet-theme-exeoss",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Hour of Fate",
@@ -5890,7 +7997,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:51",
     "gameimage": "exeoss.png",
-    "id": "saito-theme-exeoss"
+    "id": "saito-theme-exeoss",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "COLD & SILENT",
@@ -5910,7 +8024,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:50",
     "gameimage": "exeoss.png",
-    "id": "waterworks-comp-exeoss"
+    "id": "waterworks-comp-exeoss",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "RED OR BLUE",
@@ -5930,7 +8051,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:39",
     "gameimage": "exeoss.png",
-    "id": "traffic-light-comp-exeoss"
+    "id": "traffic-light-comp-exeoss",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "ELECTRICAL CRISIS",
@@ -5950,7 +8078,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:47",
     "gameimage": "exeoss.png",
-    "id": "power-plant-comp-exeoss"
+    "id": "power-plant-comp-exeoss",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "VOID",
@@ -5970,7 +8105,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:51",
     "gameimage": "exeoss.png",
-    "id": "www-comp-exeoss"
+    "id": "www-comp-exeoss",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Operation!",
@@ -5990,7 +8132,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:46",
     "gameimage": "exeoss.png",
-    "id": "virus-battle-exeoss"
+    "id": "virus-battle-exeoss",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Net Battle",
@@ -6010,7 +8159,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:45",
     "gameimage": "exeoss.png",
-    "id": "boss-battle-exeoss"
+    "id": "boss-battle-exeoss",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "VS. Dream Virus",
@@ -6030,7 +8186,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:47",
     "gameimage": "exeoss.png",
-    "id": "final-battle-exeoss"
+    "id": "final-battle-exeoss",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "WINNER!",
@@ -6050,7 +8213,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:10",
     "gameimage": "exeoss.png",
-    "id": "results-theme-exeoss"
+    "id": "results-theme-exeoss",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "GAME OVER",
@@ -6070,7 +8240,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:03",
     "gameimage": "exeoss.png",
-    "id": "game-over-exeoss"
+    "id": "game-over-exeoss",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "LOSER",
@@ -6090,7 +8267,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "0:08",
     "gameimage": "exeoss.png",
-    "id": "loser-theme-exeoss"
+    "id": "loser-theme-exeoss",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "end roll",
@@ -6110,7 +8294,14 @@ let allMusic = [
     "disc": "sb1.png",
     "duration": "1:01",
     "gameimage": "exeoss.png",
-    "id": "credits-theme-exeoss"
+    "id": "credits-theme-exeoss",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Dance Robot Dance (menu ver.)",
@@ -6130,7 +8321,14 @@ let allMusic = [
     "disc": "compassostdisc_1.png",
     "duration": "0:57",
     "gameimage": "compass.png",
-    "id": "main-menu-compass"
+    "id": "main-menu-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Dance Robot Dance",
@@ -6156,7 +8354,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "voidoll-theme-compass"
+    "id": "voidoll-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "High Spec Neet",
@@ -6184,7 +8389,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "marcos55-theme-compass"
+    "id": "marcos55-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Alkali Underachiever", // "Alkali Rettousei"
@@ -6210,7 +8422,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "lyrica-theme-compass"
+    "id": "lyrica-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Reverberation", // "Zankyou"
@@ -6236,7 +8455,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "tadaomi-theme-compass"
+    "id": "tadaomi-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Ayakashi",
@@ -6264,7 +8490,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "matoi-theme-compass"
+    "id": "matoi-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Retro Mania Rhapsody", // "Retro Mania Kyousoukyoku"
@@ -6291,7 +8524,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "atari-theme-compass"
+    "id": "atari-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Monologue", // "Dokuhaku"
@@ -6317,7 +8557,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "luciano-theme-compass"
+    "id": "luciano-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Spot The Difference", // "Machigai Sagashi"
@@ -6343,7 +8590,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "jeanne-theme-compass"
+    "id": "jeanne-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Call of Justice",
@@ -6372,7 +8626,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "justice-theme-compass"
+    "id": "justice-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Kire Carry On",
@@ -6398,7 +8659,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "noho-theme-compass"
+    "id": "noho-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Grave",
@@ -6424,7 +8692,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "gustav-theme-compass"
+    "id": "gustav-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Tesla In A Dream", // "Tesla wa Yume no Naka"
@@ -6451,7 +8726,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "tesla-theme-compass"
+    "id": "tesla-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Tesla In A Dream (Hero Singing ver.)", // "Tesla wa Yume no Naka (Hero Singing ver.)"
@@ -6475,7 +8757,14 @@ let allMusic = [
     "disc": "compassostdisc_2.png",
     "duration": "1:21",
     "gameimage": "compasslivearena.png",
-    "id": "tesla-theme-voice-compasslivearena"
+    "id": "tesla-theme-voice-compasslivearena",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Cantabile x Passione",
@@ -6501,7 +8790,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "violetta-theme-compass"
+    "id": "violetta-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "KILLER B",
@@ -6531,7 +8827,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "maria-theme-compass"
+    "id": "maria-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Clockwork Girl", // "Zenmai Shoujo Tokei"
@@ -6558,7 +8861,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "coquelicot-theme-compass"
+    "id": "coquelicot-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "I Thought I Was An Angel", // "Tenshi da to Omotte ita no ni"
@@ -6584,7 +8894,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "thirteen-theme-compass"
+    "id": "thirteen-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Violence Trigger",
@@ -6610,7 +8927,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "megmeg-theme-compass"
+    "id": "megmeg-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Become Your Wind", // "Kimi no Kaze ni Naru"
@@ -6636,7 +8960,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "istaqa-theme-compass"
+    "id": "istaqa-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "You Only Have To Jump Twice", // "Kimi wa Tada Ni-kai Tobeba Ii"
@@ -6662,7 +8993,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "yuusha-theme-compass"
+    "id": "yuusha-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Didn't I Tell You?", // "Dakara Itta Desho?"
@@ -6688,7 +9026,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "kirara-theme-compass"
+    "id": "kirara-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Let Me Take You",
@@ -6714,7 +9059,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "adam-theme-compass"
+    "id": "adam-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Crazy Beat",
@@ -6741,7 +9093,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "pororotcho-theme-compass"
+    "id": "pororotcho-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Mistletoe", // "Yadorigi"
@@ -6768,7 +9127,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "thorne-theme-compass"
+    "id": "thorne-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "The World's Dancefloor", // "Wakusei no Dancefloor"
@@ -6796,7 +9162,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "delmin-theme-compass"
+    "id": "delmin-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Absolute",
@@ -6825,7 +9198,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "thomas-theme-compass"
+    "id": "thomas-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Parallel Layer",
@@ -6853,7 +9233,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "layer-theme-compass"
+    "id": "layer-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Underachieving Lover", // "Aijou Rettousei"
@@ -6879,7 +9266,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "luruca-theme-compass"
+    "id": "luruca-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Do Not Restrain Your Desire", // "Yokubou Gaman Surukoto Nakare"
@@ -6905,7 +9299,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "pierre77-theme-compass"
+    "id": "pierre77-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "My Budding Heart", // "Kizasu Kokoro o"
@@ -6931,7 +9332,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "amairo-theme-compass"
+    "id": "amairo-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "ST/A#R",
@@ -6960,7 +9368,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "nidhogg-theme-compass"
+    "id": "nidhogg-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "KICK-ASS *LITERALLY", // Real ni Buttobasu
@@ -6988,7 +9403,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "gbgirl-theme-compass"
+    "id": "gbgirl-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Alice Blue",
@@ -7019,7 +9441,14 @@ let allMusic = [
       "compass.png",
       "compasslivearena.png"
     ],
-    "id": "alice-theme-compass"
+    "id": "alice-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Ironic",
@@ -7043,7 +9472,14 @@ let allMusic = [
     "disc": "compassostdisc_3.png",
     "duration": "1:10",
     "gameimage": "compass.png",
-    "id": "ignis-theme-compass"
+    "id": "ignis-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Poisonous Loneliness", // "Kodoku Dokudoku"
@@ -7067,7 +9503,14 @@ let allMusic = [
     "disc": "compassostdisc_3.png",
     "duration": "1:08",
     "gameimage": "compass.png",
-    "id": "rinne-theme-compass"
+    "id": "rinne-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Steal You",
@@ -7091,7 +9534,14 @@ let allMusic = [
     "disc": "compassostdisc_4.png",
     "duration": "1:17",
     "gameimage": "compass.png",
-    "id": "bugdoll-theme-compass"
+    "id": "bugdoll-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "PUNISHMENT GIMMICK!!", // "OSHIOKI GIMMICK!!"
@@ -7116,7 +9566,14 @@ let allMusic = [
     "disc": "compassostdisc_4.png",
     "duration": "1:27",
     "gameimage": "compass.png",
-    "id": "stellea-theme-compass"
+    "id": "stellea-theme-compass",
+    "i18n": {
+            "ru": {
+                "name": "",
+                "ostname":"",
+                "places":"",
+            }
+        }
   },
   {
     "ostname": "Lavie",

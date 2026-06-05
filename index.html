@@ -20,65 +20,70 @@
   <script src='npcs.js'></script>
   <script src='scripts.js'></script>
   <script src='tools.js'></script>
-
+  <!-- i18n Engine -->
+  <script src="i18n.js"></script>
 </head>
 <body>
   <div class="window">
     <div class="title-bar">
-      <div class="title-bar-text">&nbsp; openAssets for ONB </div>
-      <div class="title-bar-text" id="feedback-btn" style="cursor:pointer; padding-top:2px; vertical-align:middle; float:right; font-size:23px; font-weight:bold; color:#fff;"><span style="text-decoration:underline;">Submit Feedback / Removal Requests ▸</span> &nbsp;</div>
+      <div style="display:flex;"><div class="title-bar-text" data-i18n="ui.title">openAssets for ONB</div>
+      <select id="lang-selector" class="filter-lang-selector" style="background:#333; color:#fff; border:1px solid #555; padding:2px 4px; display:block; font-family:inherit; font-size:13px; cursor:pointer; margin-left:8px;">
+        <option value="en">EN</option>
+        <option value="ru">RU</option>
+      </select></div>
+      <div class="title-bar-text" id="feedback-btn" style="cursor:pointer; padding-top:2px; vertical-align:middle; float:right; font-size:23px; font-weight:bold; color:#fff;"><span data-i18n="ui.feedback_btn" data-i18n-fallback="ui.feedback_btn">Submit Feedback / Removal Requests ▸</span> &nbsp;</div>
     </div>
 
     <!-- Tabs -->
     <div class="tabs">
-      <div class="tab active" data-tab="tiles">Tiles/Objects</div>
-      <div class="tab" data-tab="backgrounds">Backgrounds</div>
-      <div class="tab" data-tab="npcs">NPCs</div>
-      <div class="tab" data-tab="music">Music</div>
-      <div class="tab" data-tab="scripts">Scripts</div>
-      <div class="tab" data-tab="tools">Tools/Info</div>
+      <div class="tab active" data-tab="tiles" data-i18n="ui.tab.tiles">Tiles/Objects</div>
+      <div class="tab" data-tab="backgrounds" data-i18n="ui.tab.backgrounds">Backgrounds</div>
+      <div class="tab" data-tab="npcs" data-i18n="ui.tab.npcs">NPCs</div>
+      <div class="tab" data-tab="music" data-i18n="ui.tab.music">Music</div>
+      <div class="tab" data-tab="scripts" data-i18n="ui.tab.scripts">Scripts</div>
+      <div class="tab" data-tab="tools" data-i18n="ui.tab.tools">Tools/Info</div>
     </div>
 
     <!-- Search bar -->
     <div class="search-bar">
       <div class="tab-menu-mobile">
-        <button id="tab-menu-button">Tab Menu ▾</button>
+        <button id="tab-menu-button" data-i18n="ui.tab_menu_btn">Tab Menu ▾</button>
         <div id="tab-menu-list" class="tab-menu-list">
-          <div class="tab-menu-item" data-tab="tiles">Tiles/Objects</div>
-          <div class="tab-menu-item" data-tab="backgrounds">Backgrounds</div>
-          <div class="tab-menu-item" data-tab="npcs">NPCs</div>
-          <div class="tab-menu-item" data-tab="music">Music</div>
-          <div class="tab-menu-item" data-tab="scripts">Scripts</div>
-          <div class="tab-menu-item" data-tab="tools">Tools/Info</div>
+          <div class="tab-menu-item" data-tab="tiles" data-i18n="ui.tab.tiles">Tiles/Objects</div>
+          <div class="tab-menu-item" data-tab="backgrounds" data-i18n="ui.tab.backgrounds">Backgrounds</div>
+          <div class="tab-menu-item" data-tab="npcs" data-i18n="ui.tab.npcs">NPCs</div>
+          <div class="tab-menu-item" data-tab="music" data-i18n="ui.tab.music">Music</div>
+          <div class="tab-menu-item" data-tab="scripts" data-i18n="ui.tab.scripts">Scripts</div>
+          <div class="tab-menu-item" data-tab="tools" data-i18n="ui.tab.tools">Tools/Info</div>
         </div>
       </div>
-      <input type="text" id="search-input" placeholder="Search by name...">
+      <input type="text" id="search-input" data-i18n-placeholder="ui.search.placeholder" placeholder="Search by name...">
     </div>
 
     <div class="menu-bar">
       <div class="filter" data-filter="game">
-        <label>Game ▼</label>
+        <label data-i18n="ui.filter.game">Game ▼</label>
         <div class="dropdown"></div>
       </div>
       <div class="filter" data-filter="type">
-        <label>Type ▼</label>
+        <label data-i18n="ui.filter.type">Type ▼</label>
         <div class="dropdown">
-          <div><input type="radio" name="type" value="both" id="type-both" checked><label for="type-both"> Both</label></div>
-          <div><input type="radio" name="type" value="tile" id="type-tiles"><label for="type-tiles"> Tiles</label></div>
-          <div><input type="radio" name="type" value="object" id="type-objects"><label for="type-objects"> Objects</label></div>
+          <div><input type="radio" name="type" value="both" id="type-both" checked><label for="type-both" data-i18n="ui.type.both"> Both</label></div>
+          <div><input type="radio" name="type" value="tile" id="type-tiles"><label for="type-tiles" data-i18n="ui.type.tiles"> Tiles</label></div>
+          <div><input type="radio" name="type" value="object" id="type-objects"><label for="type-objects" data-i18n="ui.type.objects"> Objects</label></div>
         </div>
       </div>
       <div class="filter" data-filter="author">
-        <label>Author ▼</label>
+        <label data-i18n="ui.filter.author">Author ▼</label>
         <div class="dropdown"></div>
       </div>
       <div class="filter hidden" data-filter="tooltype">
-        <label>Type ▼</label>
+        <label data-i18n="ui.filter.tooltype">Type ▼</label>
         <div class="dropdown"></div>
       </div>
 
-      <button id="clear-filters" disabled>Clear Filters</button>
-      <button id="download-selected" disabled>Download Selected</button>
+      <button id="clear-filters" disabled data-i18n="ui.btn.clear_filters">Clear Filters</button>
+      <button id="download-selected" disabled data-i18n="ui.btn.download_selected">Download Selected</button>
     </div>
 
     <div class="content">
@@ -87,7 +92,7 @@
         <div class="sidebar">
           <table class="file-list">
             <thead>
-              <tr><th></th><th class="sortable" data-sort="name">Name</th><th class="sortable" data-sort="game">Game</th><th class="sortable" data-sort="author">Author</th></tr>
+              <tr><th></th><th class="sortable" data-sort="name" data-i18n="ui.table.name">Name</th><th class="sortable" data-sort="game" data-i18n="ui.table.game">Game</th><th class="sortable" data-sort="author" data-i18n="ui.table.author">Author</th></tr>
             </thead>
             <tbody></tbody>
           </table>
@@ -99,9 +104,9 @@
             <img id="preview-image" src="">
           </div>
           <div class="details">
-            <p><strong>Author: </strong> <span id="detail-author">—</span></p>
-            <p><strong>Game: </strong> <span id="detail-game">—</span></p>
-            <button id="download-single" disabled>Download This Set</button>
+            <p><strong data-i18n="ui.table.author">Author: </strong> <span id="detail-author">—</span></p>
+            <p><strong data-i18n="ui.table.game">Game: </strong> <span id="detail-game">—</span></p>
+            <button id="download-single" disabled data-i18n="ui.btn.download_single">Download This Set</button>
           </div>
         </div>
       </div>
@@ -111,7 +116,7 @@
         <div class="sidebar">
           <table class="file-list">
             <thead>
-              <tr><th></th><th class="sortable" data-sort="name">Name</th><th class="sortable" data-sort="game">Game</th><th class="sortable" data-sort="author">Author</th></tr>
+              <tr><th></th><th class="sortable" data-sort="name" data-i18n="ui.table.name">Name</th><th class="sortable" data-sort="game" data-i18n="ui.table.game">Game</th><th class="sortable" data-sort="author" data-i18n="ui.table.author">Author</th></tr>
             </thead>
             <tbody></tbody>
           </table>
@@ -122,13 +127,13 @@
             <div id="preview-image-bg"></div>
           
           <div class="details">
-            <p><strong>Disclaimer: </strong> The background previewer's movement speed does not 100% match in-game.</p>
-            <button style="float:right;" id="download-single-bg" disabled>Download This Set</button>
+            <p><strong data-i18n="ui.bg.disclaimer">Disclaimer: The background previewer's movement speed does not 100% match in-game.</strong></p>
+            <button style="float:right;" id="download-single-bg" disabled data-i18n="ui.btn.download_single_bg">Download This Set</button>
 
-            <p><strong>Author: </strong> <span id="detail-author-bg">—</span></p>
-            <p><strong>Game: </strong> <span id="detail-game-bg">—</span></p>
-            <p><strong>Background Vel X: </strong> <span id="detail-velx-bg">—</span></p>
-            <p><strong>Background Vel Y: </strong> <span id="detail-vely-bg">—</span></p>
+            <p><strong data-i18n="ui.table.author">Author: </strong> <span id="detail-author-bg">—</span></p>
+            <p><strong data-i18n="ui.table.game">Game: </strong> <span id="detail-game-bg">—</span></p>
+            <p><strong data-i18n="ui.table.bvelx">Background Vel X: </strong> <span id="detail-velx-bg">—</span></p>
+            <p><strong data-i18n="ui.table.bvely">Background Vel Y: </strong> <span id="detail-vely-bg">—</span></p>
             
           </div>
         </div>
@@ -140,7 +145,7 @@
         <div class="sidebar">
           <table class="file-list">
             <thead>
-              <tr><th></th><th class="sortable" data-sort="name">Name</th><th class="sortable" data-sort="game">Game</th><th class="sortable" data-sort="author">Author</th></tr>
+              <tr><th></th><th class="sortable" data-sort="name" data-i18n="ui.table.name">Name</th><th class="sortable" data-sort="game" data-i18n="ui.table.game">Game</th><th class="sortable" data-sort="author" data-i18n="ui.table.author">Author</th></tr>
             </thead>
             <tbody></tbody>
           </table>
@@ -151,9 +156,9 @@
             <div id="preview-image-npc"></div>
           </div>
           <div class="details">
-            <button style="float:right;" id="download-single-npc" disabled>Download This Set</button>
-            <p><strong>Author: </strong> <span id="detail-author-npc">—</span></p>
-            <p><strong>Game: </strong> <span id="detail-game-npc">—</span></p>
+            <button style="float:right;" id="download-single-npc" disabled data-i18n="ui.btn.download_single_npc">Download This Set</button>
+            <p><strong data-i18n="ui.table.author">Author: </strong> <span id="detail-author-npc">—</span></p>
+            <p><strong data-i18n="ui.table.game">Game: </strong> <span id="detail-game-npc">—</span></p>
           </div>
         </div>
       </div>
@@ -163,11 +168,11 @@
         <div class="sidebar">
           <table class="file-list">
             <thead>
-              <tr><th></th><th>Play</th>
-                <th class="sortable" data-sort="name">Place</th>
-                <th class="sortable" data-sort="ostname">Song Name</th>
-                <th class="sortable" data-sort="game">Game</th>
-                <th class="sortable" data-sort="author">Contributor</th></tr>
+              <tr><th></th><th data-i18n="ui.table.play">Play</th>
+                <th class="sortable" data-sort="name" data-i18n="ui.table.place">Place</th>
+                <th class="sortable" data-sort="ostname" data-i18n="ui.table.song_name">Song Name</th>
+                <th class="sortable" data-sort="game" data-i18n="ui.table.game">Game</th>
+                <th class="sortable" data-sort="author" data-i18n="ui.table.contributor">Contributor</th></tr>
             </thead>
             <tbody></tbody>
           </table>
@@ -194,23 +199,23 @@
           <span id="current-time">0:00</span> / <span id="duration">0:00</span>
         </div>
         <div class="audio-extra-controls">
-          <button id="toggleLoop" style="font-size:15px;">Enable Looping</button>
+          <button id="toggleLoop" style="font-size:15px;" data-i18n="ui.music.loop.enable">Enable Looping</button>
           <div class="volume-control">
-            <span style="font-size:15px;">Vol:</span>
+            <span style="font-size:15px;" data-i18n="ui.music.volume">Vol:</span>
             <input type="range" id="volume-slider" min="0" max="100" value="50" style="width:80px;">
           </div>
         </div>
         <audio id="audio-player"></audio>
       </div>
         <div class="details">
-          <button id="download-single-music" style="float:right;" disabled>Download This Track</button>
+          <button id="download-single-music" style="float:right;" disabled data-i18n="ui.btn.download_single_music">Download This Track</button>
           <!--<p><strong>curTime: </strong> <span id="detail-curtime-music">—</span></p>-->
-          <p><strong>Loop Start (ms): </strong> <span id="detail-loopstart-music">—</span></p>
-          <p><strong>Loop End (ms): </strong> <span id="detail-loopend-music">—</span></p>
-          <p><strong>Game: </strong> <span id="detail-game-music">—</span></p>
-          <p><strong>Composer(s): </strong> <span id="detail-composer-music">—</span></p>
-          <p><strong>Places Used: </strong> <span id="detail-places-music">—</span></p>
-          <p><strong>Contributor(s): </strong> <span id="detail-author-music">—</span></p>
+          <p><strong data-i18n="ui.music.loop_start">Loop Start (ms): </strong> <span id="detail-loopstart-music">—</span></p>
+          <p><strong data-i18n="ui.music.loop_end">Loop End (ms): </strong> <span id="detail-loopend-music">—</span></p>
+          <p><strong data-i18n="ui.music.game">Game: </strong> <span id="detail-game-music">—</span></p>
+          <p><strong data-i18n="ui.music.composer">Composer(s): </strong> <span id="detail-composer-music">—</span></p>
+          <p><strong data-i18n="ui.music.places">Places Used: </strong> <span id="detail-places-music">—</span></p>
+          <p><strong data-i18n="ui.music.contributor">Contributor(s): </strong> <span id="detail-author-music">—</span></p>
         </div>
         </div>
       </div>
@@ -222,7 +227,7 @@
   <div class="sidebar">
     <table class="file-list">
       <thead>
-        <tr><th class="sortable" data-sort="name">Name</th><th class="sortable" data-sort="scripttype">Type</th><th class="sortable" data-sort="author">Author</th></tr>
+        <tr><th class="sortable" data-sort="name" data-i18n="ui.table.name">Name</th><th class="sortable" data-sort="scripttype" data-i18n="ui.table.script_type">Type</th><th class="sortable" data-sort="author" data-i18n="ui.table.author">Author</th></tr>
       </thead>
       <tbody></tbody>
     </table>
@@ -242,9 +247,9 @@
   <div class="sidebar">
     <table class="file-list">
       <thead>
-        <tr><th class="sortable" data-sort="name">Name</th>
-          <th class="sortable" data-sort="tooltype">Type</th>
-          <th class="sortable" data-sort="author">Author</th>
+        <tr><th class="sortable" data-sort="name" data-i18n="ui.table.name">Name</th>
+          <th class="sortable" data-sort="tooltype" data-i18n="ui.table.tool_type">Type</th>
+          <th class="sortable" data-sort="author" data-i18n="ui.table.author">Author</th>
         </tr>
       </thead>
       <tbody></tbody>
@@ -267,10 +272,10 @@
 <!-- feedback modal window -->
 <div id="feedback-modal">
   <div class="modal-title-bar" style="padding:5px;">
-    <div class="title-bar-text">&nbsp; Getting Help</div>
+    <div class="title-bar-text" data-i18n="ui.modal.title">&nbsp; Getting Help</div>
     <div class="close-btn" style="font-size:30px;">✕</div>
   </div>
-  <div class="modal-content" style="font-size:23px;">
+  <div class="modal-content" style="font-size:23px;" data-i18n="ui.modal.text">
     <p><b>Feedback -</b> Please contact @indianajson on the ONB Discord if you have suggestions on how to improve this tool.<br><br>
     <b>Submissions</b> - To add your ONB assets to the site use the link below and select "Add asset".<br><br>
   <b>Content Removals</b> - If one of your assets ended up here without your permission my sincerest apologies. Either use the link below and select "Remove asset" or DM @indianajson on Discord.<br><br>
@@ -278,10 +283,22 @@
 
     
     <div style="margin-top:8px; text-align:right;">
-      <button style="padding:4px 8px; font-size:20px; border:2px outset #FFF; background:#C0C0C0; font-family:'pixel';"><a href="https://github.com/indianajson/open-assets/issues/new/choose" target="_blank" style="text-decoration:none; color:#000;">Start a Request</a></button>
+      <button style="padding:4px 8px; font-size:20px; border:2px outset #FFF; background:#C0C0C0; font-family:'pixel';"><a href="https://github.com/indianajson/open-assets/issues/new/choose" target="_blank" style="text-decoration:none; color:#000;" data-i18n="ui.modal.btn">Start a Request</a></button>
     </div>
   </div>
 </div>
+
+<script>
+  i18n.init().then(() => {
+    // Sync dropdown value from localStorage
+    $('#lang-selector').val(i18n.lang());
+    
+    // Handle language change
+    $('#lang-selector').on('change', function() {
+      i18n.setLanguage(this.value);
+    });
+  });
+</script>
 
 </body>
 </html>
