@@ -126,22 +126,22 @@
     "ui.table.multi_author": "複数",
     "ui.search.placeholder": "名前で検索…",
     "ui.game.EXE1/BN1": "エグゼ１",
-    "ui.game.EXE2/BN2": "",
-    "ui.game.EXE3/BN3": "",
-    "ui.game.EXETM/NT": "",
-    "ui.game.EXEGP/BCC": "",
-    "ui.game.EXE4/BN4": "",
-    "ui.game.EXE4.5": "",
-    "ui.game.EXEPoN": "",
-    "ui.game.EXE5/BN5": "",
-    "ui.game.EXE6/BN6": "",
-    "ui.game.EXELoN": "",
-    "ui.game.SSR1/SF1": "",
-    "ui.game.SSR2/SF2": "",
-    "ui.game.SSR3/SF3": "",
-    "ui.game.Shanghai": "",
-    "ui.game.Custom": "",
-    "ui.game.Other": ""
+    "ui.game.EXE2/BN2": "エグゼ２",
+    "ui.game.EXE3/BN3": "エグゼ3",
+    "ui.game.EXETM/NT": "エグゼＴＭ",
+    "ui.game.EXEGP/BCC": "エグゼＧＰ",
+    "ui.game.EXE4/BN4": "エグゼ４",
+    "ui.game.EXE4.5": "エグゼ４.５",
+    "ui.game.EXEPoN": "エグゼＰＯＮ",
+    "ui.game.EXE5/BN5": "エグゼ５",
+    "ui.game.EXE6/BN6": "エグゼ６",
+    "ui.game.EXELoN": "エグゼＬＯＮ",
+    "ui.game.SSR1/SF1": "流星１",
+    "ui.game.SSR2/SF2": "流星２",
+    "ui.game.SSR3/SF3": "流星３",
+    "ui.game.Shanghai": "シャンハイ",
+    "ui.game.Custom": "カスタム",
+    "ui.game.Other": "その他"
    },
   "ru": {
     "ui.title": "openAssets для ONB",
@@ -197,5 +197,7 @@
     "ui.table.contributor": "Контрибьютор",
     "ui.table.multi_author": "Несколько",
     "ui.search.placeholder": "Поиск по названию..."
+    "ui.game.Custom": "Кастомное",
+    "ui.game.Other": "Другое"
    }
 }
