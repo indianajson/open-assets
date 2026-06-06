@@ -196,7 +196,7 @@
     "ui.table.tool_type": "Тип",
     "ui.table.contributor": "Контрибьютор",
     "ui.table.multi_author": "Несколько",
-    "ui.search.placeholder": "Поиск по названию..."
+    "ui.search.placeholder": "Поиск по названию...",
     "ui.game.Custom": "Кастомное",
     "ui.game.Other": "Другое"
    }
