@@ -232,7 +232,7 @@ let allMusic = [
     "id": "incident-occurrence-exe1",
     "i18n": {
             "jp": {
-                "name": "事件発生ＢＧＭ",
+                "name": "事件発生",
                 "ostname": "事件発生！",
                 "game": "エグゼ１",
                 "composer": [
@@ -388,7 +388,7 @@ let allMusic = [
     "id": "internet-theme-exe1",
     "i18n": {
             "jp": {
-                "name": "インターネットエリアＢＧＭ",
+                "name": "インターネットエリア",
                 "ostname": "BOUNDLESS NETWORK",
                 "game": "エグゼ１",
                 "composer": [
@@ -399,7 +399,6 @@ let allMusic = [
             "ru": {
                 "name": "Тема интернета",
                 "ostname": "БЕЗГРАНИЧНАЯ СЕТЬ",
-                "game": "EXE1/BN1",
                 "composer": [
                   "Акари Кайда"
                 ],
@@ -622,8 +621,8 @@ let allMusic = [
     "id": "virus-battle-exe1",
     "i18n": {
             "jp": {
-                "name": "ウイルス戦ＢＧＭ",
                 "ostname": "オペレーション！",
+                "name": "ウイルス戦ＢＧＭ",
                 "game": "エグゼ１",
                 "composer": [
                   "海田 明里"
@@ -631,9 +630,8 @@ let allMusic = [
                 "places": "ウイルス戦",
             },
             "ru": {
-                "name": "Битва с вирусами",
                 "ostname": "Операция!",
-                "game": "EXE1/BN1",
+                "name": "Битва с вирусами",
                 "composer": [
                   "Акари Кайда"
                 ],
@@ -678,7 +676,7 @@ let allMusic = [
     "composer": [
       "Akari Kaida"
     ],
-    "places": "Final Boss Battle",
+    "places": "Final Boss Battle (Dream Virus)",
     "start": "4319",
     "stop": "48151",
     "disc": "sb1.png",
@@ -687,22 +685,21 @@ let allMusic = [
     "id": "final-battle-exe1",
     "i18n": {
             "jp": {
-                "name": "ラスボス戦ＢＧＭ",
                 "ostname": "ＶＳ．ドリームウイリス",
+                "name": "ラスボス戦ＢＧＭ",
                 "game": "エグゼ１",
                 "composer": [
                   "海田 明里"
                 ],
-                "places": "ラスボス戦",
+                "places": "ラスボス戦（ドリームウイリス）",
             },
             "ru": {
-                "name": "Битва с финальным боссом",
                 "ostname": "Против Дрим-Вирусом",
-                "game": "EXE1/BN1",
+                "name": "Битва с финальным боссом",
                 "composer": [
                   "Акари Кайда"
                 ],
-                "places": "в битве с Дрим-Вирусом",
+                "places": "в финальной битве с Дрим-Вирусом",
             }
         }
   },
@@ -1554,7 +1551,7 @@ let allMusic = [
     "game": "EXE2/BN2",
     "duration": "0:43",
     "composer": "Yoshino Aoki",
-    "places": "Gospel Battle",
+    "places": "Final Boss Battle (Gospel)",
     "start": "1919",
     "stop": "42576",
     "disc": "sb1.png",
@@ -2338,7 +2335,7 @@ let allMusic = [
     "game": "EXE3/BN3",
     "duration": "1:02",
     "composer": "Yoshino Aoki",
-    "places": "Proto Battle",
+    "places": "Final Boss Battle (Proto)",
     "start": "10816",
     "stop": "61813",
     "disc": "sb2.png",
@@ -3380,7 +3377,7 @@ let allMusic = [
     "game": "EXE4/BN4",
     "duration": "1:16",
     "composer": "Toshihiko Horiyama",
-    "places": "Duo Battle",
+    "places": "Final Boss Battle (Duo)",
     "start": "5964",
     "stop": "75714",
     "disc": "sb3.png",
@@ -4577,7 +4574,7 @@ let allMusic = [
   },
   {
     "ostname": "Hometown",
-    "name": "Real World",
+    "name": "Akihara Town",
     "files": [
       "exepon-hometown.ogg"
     ],
@@ -4589,17 +4586,25 @@ let allMusic = [
     "game": "EXEPoN",
     "duration": "0:54",
     "composer": "Yuko Takehara",
-    "places": "Overworld",
+    "places": "overworld",
     "start": "0",
     "stop": "53996",
     "disc": "pon&lon.png",
     "gameimage": "exepon.png",
     "id": "akihara-town-exepon",
     "i18n": {
+            "jp": {
+                "name": "秋原町",
+                "ostname": "ホームタウン",
+                "game": "エグゼＰＯＮ",
+                "composer": "竹原 裕子",
+                "places": "実世界",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема Акихары",
+                "ostname": "Родной город",
+                "composer": "Юко Такэхара",
+                "places": "в реальном мире",
             }
         }
   },
@@ -4610,23 +4615,32 @@ let allMusic = [
       "exepon-incident.ogg"
     ],
     "author": [
+        "(川━)ゞ", 
         "MidniteW", 
         "K1rbYat1Na"
     ],
     "game": "EXEPoN",
     "duration": "0:05",
     "composer": "Yuko Takehara",
-    "places": "Overworld (when an incident has occurred)",
+    "places": "overworld (when an incident has occurred)",
     "start": "311",
     "stop": "5188",
     "disc": "pon&lon.png",
     "gameimage": "exepon.png",
     "id": "incident-occurrence-exepon",
     "i18n": {
+            "jp": {
+                "name": "事件発生",
+                "ostname": "事件発生！",
+                "game": "エグゼＰＯＮ",
+                "composer": "竹原 裕子",
+                "places": "実世界（事件発生中）",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема происшествий",
+                "ostname": "Происшествие!",
+                "composer": "Юко Такэхара",
+                "places": "в реальном мир (во время происшествий)",
             }
         }
   },
@@ -4651,10 +4665,18 @@ let allMusic = [
     "gameimage": "exepon.png",
     "id": "internet-theme-exepon",
     "i18n": {
+            "jp": {
+                "ostname":"CYBER WORLD",
+                "name": "インターネットエリア",
+                "game": "エグゼＰＯＮ",
+                "composer": "竹原 裕子",
+                "places":"ウイルス戦",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname":"КИБЕРМИР",
+                "name": "Тема интернета",
+                "composer": "Юко Такэхара",
+                "places":"в кибермире",
             }
         }
   },
@@ -4679,10 +4701,18 @@ let allMusic = [
     "gameimage": "exepon.png",
     "id": "virus-battle-exepon",
     "i18n": {
+            "jp": {
+                "ostname":"ウイルスバスティング",
+                "name": "ウイルス戦",
+                "game": "エグゼＰＯＮ",
+                "composer": "竹原 裕子",
+                "places":"ウイルス戦",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname":"Борьба с вирусами",
+                "name": "Битва с вирусами",
+                "composer": "Юко Такэхара",
+                "places":"в битве с вирусами",
             }
         }
   },
@@ -4707,15 +4737,23 @@ let allMusic = [
     "gameimage": "exepon.png",
     "id": "boss-battle-exepon",
     "i18n": {
+            "jp": {
+                "ostname":"ネットバトル",
+                "name": "ボス戦",
+                "game": "エグゼＰＯＮ",
+                "composer": "竹原 裕子",
+                "places":"ボス戦",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname":"Нет-Битва",
+                "name": "Битва с боссом",
+                "composer": "Юко Такэхара",
+                "places":"в битве с боссом",
             }
         }
   },
   {
-    "ostname": "PHANTOM OF THE NETWORK",
+    "ostname": "PHANTOM OF NETWORK",
     "name": "Cache Server Comp",
     "files": [
       "exepon-cacheserverdennou.ogg"
@@ -4736,13 +4774,16 @@ let allMusic = [
     "id": "cache-server-comp-exepon",
     "i18n": {
             "jp": {
+                "ostname":"PHANTOM OF NETWORK",
                 "name": "キャッシュサーバーの電脳",
-                "ostname":"PHANTOM OF THE NETWORK",
+                "game": "エグゼＰＯＮ",
+                "composer": "竹原 裕子",
                 "places":"キャッシュサーバーの電脳（１－５）",
             },
             "ru": {
-                "name": "Кибермир Кэш-сервера",
                 "ostname":"ФАНТОМ СЕТИ",
+                "name": "Кибермир Кэш-сервера",
+                "composer": "Юко Такэхара",
                 "places":"Кибермир Кэш-сервера 1-5",
             }
         }
@@ -4761,7 +4802,7 @@ let allMusic = [
     "game": "EXEPoN",
     "duration": "0:39",
     "composer": "Yuko Takehara",
-    "places": "Cache 2nd Battle",
+    "places": "Final Boss Battle (Cache 2nd)",
     "start": "2325",
     "stop": "39479",
     "disc": "pon&lon.png",
@@ -4769,14 +4810,17 @@ let allMusic = [
     "id": "final-battle-exepon",
     "i18n": {
             "jp": {
-                "name": "ラスボス戦",
                 "ostname":"VS. キャッシュ２ｎｄ",
+                "name": "ラスボス戦",
+                "game": "エグゼＰＯＮ",
+                "composer": "竹原 裕子",
                 "places":"ラスボス戦（キャッシュ２ｎｄ）",
             },
             "ru": {
-                "name": "Финальная битва",
                 "ostname":"Против Кэша 2-ого",
-                "places":"в битве с финальным боссом (Кэш 2-ой)",
+                "name": "Финальная битва",
+                "composer": "Юко Такэхара",
+                "places":"в финальной битве с Кэшом 2-ым",
             }
         }
   },
@@ -5719,7 +5763,7 @@ let allMusic = [
     "author": "K1rbYat1Na",
     "game": "EXE5/BN5",
     "composer": "Akari Kaida",
-    "places": "Nebula Gray Battle",
+    "places": "Final Boss Battle (Nebula Gray)",
     "start": "7038",
     "stop": "46015",
     "disc": "sb4.png",
@@ -6867,7 +6911,7 @@ let allMusic = [
       "Akari Kaida (original)",
       "Mitsuhiko Takano (arrangement)"
     ],
-    "places": "Nebula Gray Battle",
+    "places": "Final Boss Battle (Nebula Gray)",
     "start": "9997",
     "stop": "48810",
     "disc": "sb5.png",
@@ -7076,7 +7120,7 @@ let allMusic = [
     "id": "incident-exe6",
     "i18n": {
             "jp": {
-                "name": "事件発生ＢＧＭ",
+                "name": "事件発生",
                 "ostname": "事件発生！",
                 "game": "エグゼ６",
                 "composer": [
@@ -7919,7 +7963,7 @@ let allMusic = [
     "game": "EXE6/BN6",
     "duration": "0:55",
     "composer": "Yoshino Aoki",
-    "places": "Gregar/Falzar Battle",
+    "places": "Final Boss Battle (Gregar/Falzar)",
     "start": "8406",
     "stop": "54665",
     "disc": "sb5.png",
@@ -8200,7 +8244,7 @@ let allMusic = [
     "game": "EXELoN",
     "duration": "0:39",
     "composer": "Masami Onodera",
-    "places": "Trojan Horse Battle",
+    "places": "Final Boss Battle (Trojan Horse)",
     "start": "4653",
     "stop": "38717",
     "disc": "pon&lon.png",
@@ -8519,7 +8563,7 @@ let allMusic = [
     "id": "internet-theme-exeoss",
     "i18n": {
             "jp": {
-                "name": "インターネットエリアＢＧＭ",
+                "name": "インターネットエリア",
                 "ostname": "BOUNDLESS NETWORK",
                 "game": "エグゼＯＳＳ",
                 "composer": [
@@ -8531,7 +8575,6 @@ let allMusic = [
             "ru": {
                 "name": "Тема интернета",
                 "ostname": "БЕЗГРАНИЧНАЯ СЕТЬ",
-                "game": "EXEOSS",
                 "composer": [
                   "Акари Кайда (оригинал)",
                   "Мицухико Такано (аранжировка)"
@@ -8741,7 +8784,7 @@ let allMusic = [
       "Akari Kaida (original)",
       "Mitsuhiko Takano (arrangement)"
     ],
-    "places": "Dream Virus Battle",
+    "places": "Final Boss Battle (Dream Virus)",
     "start": "3704",
     "stop": "47352",
     "disc": "sb1.png",
@@ -8885,13 +8928,14 @@ let allMusic = [
     "id": "main-menu-compass",
     "i18n": {
             "jp": {
-                "name": "メインメニュー",
                 "ostname":"ダンスロボットダンス（メニューver.）",
+                "name": "メインメニュー",
+                "game": "＃コンパス",
                 "places":"メインメニュー",
             },
             "ru": {
+                "ostname":"Танцуй танец робота (в меню)",
                 "name": "Главное меню",
-                "ostname":"Dance Robot Dance (в меню)",
                 "places":"в главном меню",
             }
         }
@@ -8908,7 +8952,7 @@ let allMusic = [
     ],
     "game": "#COMPASS",
     "composer": [
-      "Nayutan Seijin (music, lyrics)",
+      "NayutalieN (music, lyrics)",
       "Hatsune Miku (singer)"
     ],
     "places": "Theme of Voidoll",
@@ -8923,19 +8967,28 @@ let allMusic = [
     "id": "voidoll-theme-compass",
     "i18n": {
             "jp": {
-                "name": "Voidollのテーマ",
                 "ostname":"ダンスロボットダンス",
+                "name": "Voidollのテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "ナユタン星人（作詞・作曲）",
+                  "初音ミク（歌唱）"
+                ],
                 "places":"Voidollのテーマ",
             },
             "ru": {
+                "ostname":"Танцуй танец робота",
                 "name": "Тема Войдолл",
-                "ostname":"Dance Robot Dance",
+                "composer": [
+                  "NayutalieN (music, lyrics)",
+                  "Хацунэ Мику (вокалистка)"
+                ],
                 "places":"тема Войдолл",
             }
         }
   },
   {
-    "ostname": "High Spec Neet",
+    "ostname": "High Spec NEET",
     "name": "Marcos'55 Theme",
     "files": [
       "compass/compass-marcos55.ogg"
@@ -8946,7 +8999,7 @@ let allMusic = [
     ],
     "game": "#COMPASS",
     "composer": [
-      "40mP (music, lyrics)",
+      "40meterP (music, lyrics)",
       "[TEST] (guitar)",
       "mao (bass)",
       "Hatsune Miku (singer)"
@@ -8963,13 +9016,26 @@ let allMusic = [
     "id": "marcos55-theme-compass",
     "i18n": {
             "jp": {
-                "name": "マルコス'55のテーマ",
                 "ostname":"ハイスペックニート",
-                "places":"マルコス'55のテーマ",
+                "name": "マルコス’５５のテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "40meterP（作詞・作曲）",
+                  "[TEST]（ギター）",
+                  "mao（ベース）",
+                  "初音ミク（歌唱）"
+                ],
+                "places":"マルコス’５５のテーマ",
             },
             "ru": {
+                "ostname":"Высокоспециализированный NEET",
                 "name": "Тема Маркоса'55",
-                "ostname":"High Spec NEET",
+                "composer": [
+                  "40meterP (музыка, текст)",
+                  "[TEST] (гитара)",
+                  "mao (bass)",
+                  "Хацунэ Мику (singer)"
+                ],
                 "places":"тема Маркоса'55",
             }
         }
@@ -8989,7 +9055,7 @@ let allMusic = [
       "Kairiki Bear (music, lyrics)",
       "Hatsune Miku (singer)"
     ],
-    "places": "Theme of Lyrica the Magical Girl",
+    "places": "Theme of Lyrica",
     "start": "17469",
     "stop": "90380",
     "disc": "compassostdisc_1.png",
@@ -9001,13 +9067,22 @@ let allMusic = [
     "id": "lyrica-theme-compass",
     "i18n": {
             "jp": {
-                "name": "リリカのテーマ",
                 "ostname":"アルカリレットウセイ",
+                "name": "リリカのテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "かいりきベ（作詞・作曲）",
+                  "初音ミク（歌唱）"
+                ],
                 "places":"リリカのテーマ",
             },
             "ru": {
-                "name": "Тема Лирики",
                 "ostname":"Alkali Rettousei",
+                "name": "Тема Лирики",
+                "composer": [
+                  "Kairiki Bear (музыка, текст)",
+                  "Хацунэ Мику (вокалистка)"
+                ],
                 "places":"тема Лирики",
             }
         }
@@ -9039,13 +9114,22 @@ let allMusic = [
     "id": "tadaomi-theme-compass",
     "i18n": {
             "jp": {
-                "name": "忠臣のテーマ",
                 "ostname":"残響",
+                "name": "忠臣のテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "164（作詞・作曲）",
+                  "グミ（歌唱）"
+                ],
                 "places":"桜華 忠臣のテーマ",
             },
             "ru": {
+                "ostname":"Реверберация",
                 "name": "Тема Тадаоми",
-                "ostname":"Zankyou",
+                "composer": [
+                  "164 (музыка, текст)",
+                  "ГУМИ (вокалистка)"
+                ],
                 "places":"тема Тадаоми Оки",
             }
         }
@@ -9079,13 +9163,26 @@ let allMusic = [
     "id": "matoi-theme-compass",
     "i18n": {
             "jp": {
-                "name": "まといのテーマ",
                 "ostname":"アヤカシ",
+                "name": "まといのテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "buzzG（作詞・作曲）",
+                  "Kei Nakamura（ベース）",
+                  "tomoboP（ミックス・マスタリング）",
+                  "初音ミク（歌唱）"
+                ],
                 "places":"深川まといのテーマ",
             },
             "ru": {
-                "name": "Тема Матой",
                 "ostname":"Ayakashi",
+                "name": "Тема Матой",
+                "composer": [
+                  "buzzG (музыка, текст)",
+                  "Кэй Накамура (бас)",
+                  "tomoboP (сведение, мастеринг)",
+                  "Хацунэ Мику (вокалистка)"
+                ],
                 "places":"тема Матой Фукагавы",
             }
         }
@@ -9118,13 +9215,24 @@ let allMusic = [
     "id": "atari-theme-compass",
     "i18n": {
             "jp": {
-                "name": "アタリのテーマ",
                 "ostname":"レトロマニア狂想曲",
+                "name": "アタリのテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "PolyphonicBranch（作詞・作曲）",
+                  "鏡音リン（歌唱）",
+                  "鏡音レン（歌唱）"
+                ],
                 "places":"十文字アタリのテーマ",
             },
             "ru": {
+                "ostname":"Ретромания Рапсодия",
                 "name": "Тема Атари",
-                "ostname":"Retro Mania Kyousoukyoku",
+                "composer": [
+                  "PolyphonicBranch (музыка, текст)",
+                  "Кагаминэ Рин (вокалистка)",
+                  "Кагаминэ Лен (вокалист)"
+                ],
                 "places":"тема Атари Дзюмондзи",
             }
         }
@@ -9156,13 +9264,22 @@ let allMusic = [
     "id": "luciano-theme-compass",
     "i18n": {
             "jp": {
-                "name": "ルチアーノのテーマ",
                 "ostname":"ドクハク",
+                "name": "ルチアーノのテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "ＭＡＲＥＴＵ（作詞・作曲）",
+                  "初音ミク（歌唱）"
+                ],
                 "places":"ルチアーノのテーマ",
             },
             "ru": {
+                "ostname":"Монолог",
                 "name": "Тема Люсиано",
-                "ostname":"Dokuhaku",
+                "composer": [
+                  "MARETU (музыка, текст)",
+                  "Хацуне Мику (вокалистка)"
+                ],
                 "places":"тема Люсиано",
             }
         }
@@ -9194,13 +9311,22 @@ let allMusic = [
     "id": "jeanne-theme-compass",
     "i18n": {
             "jp": {
-                "name": "ジャンヌのテーマ",
                 "ostname":"マチガイサガシ",
+                "name": "ジャンヌのテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "まふまふ（作詞・作曲）",
+                  "ＩＡ（歌唱）"
+                ],
                 "places":"ジャンヌ ダルクのテーマ",
             },
             "ru": {
+                "ostname":"Найди отличия",
                 "name": "Темы Жанны",
-                "ostname":"Machigai Sagashi",
+                "composer": [
+                  "Mafumafu (музыка, текст)",
+                  "ИА (вокалистка)"
+                ],
                 "places":"тема Жанны д'Арк",
             }
         }
@@ -9217,7 +9343,7 @@ let allMusic = [
     ],
     "game": "#COMPASS",
     "composer": [
-      "Devilish-P (music, lyrics)",
+      "Darvish-P (music, lyrics)",
       "beriko (bass)",
       "SHOTARO YAMAUCHI (drum)",
       "KYO (singer)",
@@ -9235,13 +9361,28 @@ let allMusic = [
     "id": "justice-theme-compass",
     "i18n": {
             "jp": {
-                "name": "ジャスティスのテーマ",
                 "ostname":"Call of Justice",
+                "name": "ジャスティスのテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "ダルビッシュＰ（作詞・作曲）",
+                  "beriko（ベース）",
+                  "SHOTARO YAMAUCHI（ドラム）",
+                  "ＫＹＯ（歌唱）",
+                  "神威がくぽ（歌唱）"
+                ],
                 "places":"ジャスティス ハンコックのテーマ",
             },
             "ru": {
+                "ostname":"Зов справедливости",
                 "name": "Тема Джастиса",
-                "ostname":"Call of Justice",
+                "composer": [
+                  "Darvish-P (музыка, текст)",
+                  "beriko (бас)",
+                  "СЁТАРО ЯМАУТИ (ударные)",
+                  "KYO (вокалист)",
+                  "Камуи Гакпо (вокалист)"
+                ],
                 "places":"тема Джастиса Хэнкока",
             }
         }
@@ -9273,13 +9414,22 @@ let allMusic = [
     "id": "noho-theme-compass",
     "i18n": {
             "jp": {
-                "name": "乃保のテーマ",
                 "ostname":"キレキャリオン",
+                "name": "乃保のテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "ポリスピカデリー（作詞・作曲）",
+                  "初音ミク（歌唱）"
+                ],
                 "places":"双挽 乃保のテーマ",
             },
             "ru": {
-                "name": "Tема Нохо",
                 "ostname":"Kire Carry On",
+                "name": "Tема Нохо",
+                "composer": [
+                  "Police Piccadilly (музыка, текст)",
+                  "Хацунэ Мику (вокалистка)"
+                ],
                 "places":"тема Нохо Собики",
             }
         }
@@ -9310,14 +9460,23 @@ let allMusic = [
     ],
     "id": "gustav-theme-compass",
     "i18n": {
-            "ru": {
-                "name": "グスタフのテーマ",
+            "jp": {
                 "ostname":"グラーヴェ",
+                "name": "グスタフのテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "niki（作詞・作曲）",
+                  "初音ミク（歌唱）"
+                ],
                 "places":"グスタフ ハイドリヒのテーマ",
             },
             "ru": {
+                "ostname":"Могила",
                 "name": "Тема Густава",
-                "ostname":"Grave",
+                "composer": [
+                  "niki (music, lyrics)",
+                  "Хацунэ Мику (вокалистка)"
+                ],
                 "places":"тема Густава Хайдриха",
             }
         }
@@ -9335,7 +9494,7 @@ let allMusic = [
     "game": "#COMPASS",
     "composer": [
       "TOKOTOKO (music, lyrics)",
-      "Tomobo-P (mixing, mastering)",
+      "tomoboP (mixing, mastering)",
       "Hatsune Miku (singer)"
     ],
     "places": "Theme of Nikola Tesla",
@@ -9350,20 +9509,31 @@ let allMusic = [
     "id": "tesla-theme-compass",
     "i18n": {
             "jp": {
-                "name": "テスラのテーマ",
                 "ostname":"テスラは夢の中",
+                "name": "テスラのテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "TOKOTOKO（作詞・作曲）",
+                  "tomoboP（ミックス・マスタリング）",
+                  "初音ミク（歌唱）"
+                ],
                 "places":"ニコラ テスラのテーマ",
             },
             "ru": {
-                "name": "Тема Теслы",
                 "ostname":"Tesla wa Yume no Naka",
+                "name": "Тема Теслы",
+                "composer": [
+                  "TOKOTOKO (музыка, текст)",
+                  "tomoboP (сведение, мастеринг)",
+                  "Хацунэ Мику (вокалистка)"
+                ],
                 "places":"тема Николы Теслы",
             }
         }
   },
   {
     "ostname": "Tesla In A Dream feat. Nikola Tesla", // "Tesla wa Yume no Naka (Hero Singing ver.)"
-    "name": "Tesla Theme (Seiyuu ver.)",
+    "name": "Tesla Theme (seiyuu ver.)",
     "files": [
       "compass/compasslivearena-tesla.ogg"
     ],
@@ -9374,7 +9544,7 @@ let allMusic = [
     "game": "#COMPASS:LA",
     "composer": [
       "TOKOTOKO (music, lyrics)",
-      "Tomobo-P (mixing, mastering)",
+      "tomoboP (mixing, mastering)",
       "Nikola Tesla (Murase Ayumu) (singer)"
     ],
     "places": "Theme of Nikola Tesla",
@@ -9386,13 +9556,24 @@ let allMusic = [
     "id": "tesla-theme-voice-compasslivearena",
     "i18n": {
             "jp": {
-                "name": "テスラのテーマ (声優ver.)",
                 "ostname":"テスラは夢の中 feat. ニコラ テスラ",
+                "name": "テスラのテーマ (声優ver.)",
+                "game": "＃コンパス",
+                "composer": [
+                  "TOKOTOKO（作詞・作曲）",
+                  "tomoboP（ミックス・マスタリング）",
+                  "ニコラ テスラ（村瀬 歩）（歌唱）"
+                ],
                 "places":"ニコラ テスラのテーマ",
             },
             "ru": {
+                "ostname":"Tesla wa Yume no Naka feat. Никола Тесла",
                 "name": "Тема Теслы (сэйю-версия)",
-                "ostname":"Tesla wa Yume no Naka feat. Nikola Tesla",
+                "composer": [
+                  "TOKOTOKO (музыка, текст)",
+                  "tomoboP (сведение, мастеринг)",
+                  "Никола Тесла (Аюму Мурасэ) (вокалист)"
+                ],
                 "places":"тема Николы Теслы",
             }
         }
@@ -9409,7 +9590,7 @@ let allMusic = [
     ],
     "game": "#COMPASS",
     "composer": [
-      "OSTER Project (music, lyrics)",
+      "OSTER project (music, lyrics)",
       "Hatsune Miku (singer)"
     ],
     "places": "Theme of Violetta Noire",
@@ -9424,13 +9605,22 @@ let allMusic = [
     "id": "violetta-theme-compass",
     "i18n": {
             "jp": {
-                "name": "ヴィオレッタのテーマ",
                 "ostname":"カンタービレ×パッシオーネ",
+                "name": "ヴィオレッタのテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "OSTER project（作詞・作曲）",
+                  "初音ミク（歌唱）"
+                ],
                 "places":"ヴィオレッタ ノワールのテーマ",
             },
             "ru": {
-                "name": "Тема Виолетты",
                 "ostname":"Cantabile x Passione",
+                "name": "Тема Виолетты",
+                "composer": [
+                  "OSTER project (музыка, текст)",
+                  "Хацунэ Мику (вокалистка)"
+                ],
                 "places":"тема Виолетты Нуар",
             }
         }
@@ -9466,13 +9656,30 @@ let allMusic = [
     "id": "maria-theme-compass",
     "i18n": {
             "jp": {
-                "name": "マリアのテーマ",
                 "ostname":"KILLER B",
+                "name": "マリアのテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "梅とら（作詞・作曲）",
+                  "巡音ルカ（歌唱）",
+                  "初音ミク（歌唱）",
+                  "グミ（歌唱）",
+                  "ＩＡ（歌唱）",
+                  "鏡音リン（歌唱）"
+                ],
                 "places":"マリア＝S＝レオンブルクのテーマ",
             },
             "ru": {
-                "name": "Тема Марии",
                 "ostname":"KILLER B",
+                "name": "Тема Марии",
+                "composer": [
+                  "Umetora (музыка, текст)",
+                  "Мэгуринэ Лука (вокалистка)",
+                  "Хацунэ Мику (вокалистка)",
+                  "ГУМИ (вокалистка)",
+                  "ИА (вокалистка)",
+                  "Кагаминэ Рин (вокалистка)"
+                ],
                 "places":"тема Марии С. Леонбург",
             }
         }
@@ -9505,13 +9712,24 @@ let allMusic = [
     "id": "coquelicot-theme-compass",
     "i18n": {
             "jp": {
-                "name": "コクリコットのテーマ",
                 "ostname":"撥条少女時計",
+                "name": "コクリコットのテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "Drop（作詞）",
+                  "葉月ゆら（作曲）",
+                  "初音ミク（歌唱）"
+                ],
                 "places":"コクリコット ブランシュのテーマ",
             },
             "ru": {
+                "ostname":"Механическая девочка",
                 "name": "Тема Кокелико",
-                "ostname":"Zenmai Shoujo Tokei",
+                "composer": [
+                  "Drop (музыка)",
+                  "Хацуки Юра (текст)",
+                  "Хацунэ Мику (вокалистка)"
+                ],
                 "places":"тема Кокелико Бланш",
             }
         }
@@ -9543,13 +9761,22 @@ let allMusic = [
     "id": "thirteen-theme-compass",
     "i18n": {
             "jp": {
-                "name": "サーティーンのテーマ",
                 "ostname":"天使だと思っていたのに",
+                "name": "サーティーンのテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "鬱Ｐ（作詞・作曲）",
+                  "初音ミク（歌唱）"
+                ],
                 "places":"13†サーティーン†のテーマ",
             },
             "ru": {
+                "ostname":"Я думала, что я ангел",
                 "name": "Тема Тринадцатого",
-                "ostname":"Tenshi da to Omotte ita no ni",
+                "composer": [
+                  "Utsu-P (музыка, текст)",
+                  "Хацунэ Мику (вокалистка)"
+                ],
                 "places":"Тема 13-ого (Тринадцатого)",
             }
         }
@@ -9581,13 +9808,22 @@ let allMusic = [
     "id": "megmeg-theme-compass",
     "i18n": {
             "jp": {
-                "name": "メグメグのテーマ",
                 "ostname":"バイオレンストリガー",
+                "name": "メグメグのテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "八王子Ｐ（作詞・作曲）",
+                  "初音ミク（歌唱）"
+                ],
                 "places":"メグメグのテーマ",
             },
             "ru": {
-                "name": "Тема Мег-Мег",
                 "ostname":"Violence Trigger",
+                "name": "Тема Мег-Мег",
+                "composer": [
+                  "HachiojiP (музыка, текст)",
+                  "Хацунэ Мику (вокалистка)"
+                ],
                 "places":"тема Мег-Мег",
             }
         }
@@ -9619,13 +9855,22 @@ let allMusic = [
     "id": "istaqa-theme-compass",
     "i18n": {
             "jp": {
-                "name": "イスタカのテーマ",
                 "ostname":"キミノカゼニナル",
+                "name": "イスタカのテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "のぼる↑Ｐ（作詞・作曲）",
+                  "鏡音リン（歌唱）"
+                ],
                 "places":"イスタカのテーマ",
             },
             "ru": {
+                "ostname":"Стань своим ветром",
                 "name": "Тема Истаки",
-                "ostname":"Kimi no Kaze ni Naru",
+                "composer": [
+                  "Noboru↑-P (музыка, текст)",
+                  "Кагаминэ Рин (вокалистка)"
+                ],
                 "places":"тема Истаки",
             }
         }
@@ -9642,7 +9887,7 @@ let allMusic = [
     ],
     "game": "#COMPASS",
     "composer": [
-      "mothy (music, lyrics)",
+      "mothy_Akuno-P (music, lyrics)",
       "Kagamine Len (singer)"
     ],
     "places": "Theme of Starting Hero",
@@ -9657,14 +9902,23 @@ let allMusic = [
     "id": "yuusha-theme-compass",
     "i18n": {
             "jp": {
-                "name": "勇者のテーマ",
                 "ostname":"君はただ二回飛べばいい",
+                "name": "勇者のテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "mothy_悪ノP（作詞・作曲）",
+                  "鏡音レン（歌唱）"
+                ],
                 "places":"かけだし勇者のテーマ",
             },
             "ru": {
+                "ostname":"Вам нужно всего лишь дважды прыгнуть",
                 "name": "Тема Героя",
-                "ostname":"Kimi wa Tada Ni-kai Tobeba Ii",
-                "places":"тема Герой-новичок",
+                "composer": [
+                  "mothy_Akuno-P (музыка, текст)",
+                  "Кагаминэ Лен (вокалист)"
+                ],
+                "places":"тема Героя-новичка",
             }
         }
   },
@@ -9695,13 +9949,22 @@ let allMusic = [
     "id": "kirara-theme-compass",
     "i18n": {
             "jp": {
-                "name": "きららのテーマ",
                 "ostname":"だから言ったでしょ？",
+                "name": "きららのテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "EasyPop（作詞・作曲）",
+                  "巡音ルカ（歌唱）"
+                ],
                 "places":"輝龍院きららのテーマ",
             },
             "ru": {
+                "ostname":"Разве я тебе не сказала?",
                 "name": "Тема Кирары",
-                "ostname":"Dakara Itta Desho?",
+                "composer": [
+                  "EasyPop (музыка, текст)",
+                  "Мэгуринэ Лука (вокалистка)"
+                ],
                 "places":"тема Кирары Кирюин",
             }
         }
@@ -9733,13 +9996,22 @@ let allMusic = [
     "id": "adam-theme-compass",
     "i18n": {
             "jp": {
-                "name": "アダムのテーマ",
                 "ostname":"Let Me Take You",
+                "name": "アダムのテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "banvox（作詞・作曲・歌唱）",
+                  "初音ミク（歌唱）"
+                ],
                 "places":"アダム=ユーリエフのテーマ",
             },
             "ru": {
-                "name": "Тема Адама",
                 "ostname":"Let Me Take You",
+                "name": "Тема Адама",
+                "composer": [
+                  "banvox (музыка, текст, вокалист)",
+                  "Хацунэ Мику (вокалистка)"
+                ],
                 "places":"тема Адама Юрьева",
             }
         }
@@ -9772,13 +10044,24 @@ let allMusic = [
     "id": "pororotcho-theme-compass",
     "i18n": {
             "jp": {
-                "name": "ポロロッチョのテーマ",
                 "ostname":"クレイジー・ビート",
+                "name": "ポロロッチョのテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "さつき が てんこもり（作詞・作曲）",
+                  "初音ミク（歌唱）",
+                  "鏡音レン（歌唱）"
+                ],
                 "places":"ヴィーナス ポロロッチョのテーマ",
             },
             "ru": {
-                "name": "Тема Венаса",
                 "ostname":"Crazy Beat",
+                "name": "Тема Венаса",
+                "composer": [
+                  "Satsuki Ga Tenkomori (музыка, текст)",
+                  "Хацунэ Мику (вокалистка)",
+                  "Кагаминэ Лен (вокалист)"
+                ],
                 "places":"тема Венаса Поророччо",
             }
         }
@@ -9811,13 +10094,24 @@ let allMusic = [
     "id": "thorne-theme-compass",
     "i18n": {
             "jp": {
-                "name": "ソーンのテーマ",
                 "ostname":"やどりぎ",
+                "name": "ソーンのテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "Eve（作詞・作曲）",
+                  "Numa（編曲）",
+                  "初音ミク（歌唱）",
+                ],
                 "places":"ソーン ユーリエフのテーマ",
             },
             "ru": {
+                "ostname":"Омела",
                 "name": "Тема Сона",
-                "ostname":"Yadorigi",
+                "composer": [
+                  "Eve (музыка, текст)",
+                  "Numa (аранжировка)",
+                  "Хацунэ Мику (вокалистка)",
+                ],
                 "places":"тема Сона Юрьева",
             }
         }
@@ -9834,9 +10128,7 @@ let allMusic = [
     ],
     "game": "#COMPASS",
     "composer": [
-      "SANRIO (music, lyrics)",
-      "Norainu (video)",
-      "Nanakawa (illustration)",
+      "Sanrio Co., Ltd. (music, lyrics)",
       "Hatsune Miku (singer)",
     ],
     "places": "Theme of Devilmintkiryu Delmin",
@@ -9851,13 +10143,22 @@ let allMusic = [
     "id": "delmin-theme-compass",
     "i18n": {
             "jp": {
-                "name": "デルミンのテーマ",
                 "ostname":"惑星のダンスフロア",
-                "places":"デビルミント鬼龍 デルミンのテーマ",
+                "name": "デルミンのテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "株式会社サンリオ（作詞・作曲）",
+                  "初音ミク（歌唱）",
+                ],
+                "places":"デビルミント鬼龍デルミンのテーマ",
             },
             "ru": {
+                "ostname":"Мировой танцпол",
                 "name": "Тема Дельмин",
-                "ostname":"Wakusei no Dancefloor",
+                "composer": [
+                  "Sanrio Co., Ltd. (музыка, текст)",
+                  "Хацунэ Мику (вокалистка)",
+                ],
                 "places":"тема Девилминткирю Дельмин",
             }
         }
@@ -9875,9 +10176,6 @@ let allMusic = [
     "game": "#COMPASS",
     "composer": [
       "YASUHIRO (music, lyrics)",
-      "yshimedi (illustration)",
-      "Kiyoichi (illustration)",
-      "Komomo (illustration)",
       "Kagamine Rin (singer)",
     ],
     "places": "Theme of Thomas",
@@ -9892,13 +10190,22 @@ let allMusic = [
     "id": "thomas-theme-compass",
     "i18n": {
             "jp": {
-                "name": "トマスのテーマ",
                 "ostname":"アブソリュート",
+                "name": "トマスのテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "康寛（作詞・作曲）",
+                  "鏡音リン（歌唱）",
+                ],
                 "places":"トマスのテーマ",
             },
             "ru": {
+                "ostname":"Абсолютно",
                 "name": "Тема Томаса",
-                "ostname":"Absolute",
+                "composer": [
+                  "YASUHIRO (музыка, текст)",
+                  "Кагаминэ Рин (вокалистка)",
+                ],
                 "places":"тема Томаса",
             }
         }
@@ -9932,13 +10239,26 @@ let allMusic = [
     "id": "layer-theme-compass",
     "i18n": {
             "jp": {
-                "name": "零夜のテーマ",
                 "ostname":"パラレルレイヤー",
+                "name": "零夜のテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "lumo（作詞・作曲）",
+                  "chamooi（監督）",
+                  "初音ミク（歌唱）",
+                  "ＶＹ２（歌唱）"
+                ],
                 "places":"零夜のテーマ",
             },
             "ru": {
+                "ostname":"Параллельный слой",
                 "name": "Тема Лэйера",
-                "ostname":"Parallel Layer",
+                "composer": [
+                  "lumo (музыка, текст)",
+                  "chamooi (режиссёр)",
+                  "Хацунэ Мику (вокалистка)",
+                  "VY2 (вокалист)"
+                ],
                 "places":"тема Лэйера",
             }
         }
@@ -9958,7 +10278,7 @@ let allMusic = [
       "Kairiki Bear (music, lyrics)",
       "Kagamine Rin (singer)"
     ],
-    "places": "Theme of Luruca the Magical Girl",
+    "places": "Theme of Luruca",
     "start": "9214",
     "stop": "93636",
     "disc": "compassostdisc_3.png",
@@ -9970,19 +10290,28 @@ let allMusic = [
     "id": "luruca-theme-compass",
     "i18n": {
             "jp": {
-                "name": "ルルカのテーマ",
                 "ostname":"アイ情劣等生",
+                "name": "ルルカのテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "かいりきベ（作詞・作曲）",
+                  "鏡音リン（歌唱）"
+                ],
                 "places":"ルルカのテーマ",
             },
             "ru": {
-                "name": "Тема Луруки",
                 "ostname":"Aijou Rettousei",
+                "name": "Тема Луруки",
+                "composer": [
+                  "Kairiki Bear (музыка, текст)",
+                  "Кагаминэ Рин (вокалистка)"
+                ],
                 "places":"тема Луруки",
             }
         }
   },
   {
-    "ostname": "Do Not Restrain Your Desire", // "Yokubou Gaman Surukoto Nakare"
+    "ostname": "Don't Hold Back Your Desires", // "Yokubou Gaman Surukoto Nakare"
     "name": "Pierre the 77th Theme",
     "files": [
       "compass/compass-pierre77.ogg"
@@ -10008,13 +10337,22 @@ let allMusic = [
     "id": "pierre77-theme-compass",
     "i18n": {
             "jp": {
-                "name": "ピエール77世のテーマ",
                 "ostname":"欲望我慢スル事ナカレ",
+                "name": "ピエール77世のテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "cosMo（作詞・作曲）",
+                  "結月ゆかり（歌唱）"
+                ],
                 "places":"ピエール・ダ・イカッサマニャーギ・ファッキネッティ・ラッラ・ラ・ラブリオーラ・ドラゴナクター・ヒデヨシ・マクシミリアン・スキーヨカローリ・ビョルルンド・モッチモーチ・マリオージェ・マルーゲリータ・ウィルフレッド・プニット・プニャトフスキ77世のテーマ",
             },
             "ru": {
+                "ostname":"Не сдерживай свои желания",
                 "name": "Тема Пьера 77-ого",
-                "ostname":"Yokubou Gaman Surukoto Nakare",
+                "composer": [
+                  "cosMo (музыка, текст)",
+                  "Юзуки Юкари (вокалистка)"
+                ],
                 "places":"тема Пьера да Икасса-Маниаги Факкинетти Лаллала Лавеляура Драконактера Хидэёси Максимилиана Каловери Бьёрлунда Мотти-Моти Мариоджа Уилфреда Пунита Пуниатовского 77-ого",
             }
         }
@@ -10046,13 +10384,22 @@ let allMusic = [
     "id": "amairo-theme-compass",
     "i18n": {
             "jp": {
-                "name": "甘色のテーマ",
                 "ostname":"萌す心を",
+                "name": "甘色のテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "一二三（作詞・作曲）",
+                  "初音ミク（歌唱）"
+                ],
                 "places":"狐ヶ咲 甘色のテーマ",
             },
             "ru": {
+                "ostname":"Моё пылающее сердце",
                 "name": "Тема Амайро",
-                "ostname":"Kizasu Kokoro o",
+                "composer": [
+                  "Хифуми (музыка, текст)",
+                  "Хацунэ Мику (вокалистка)"
+                ],
                 "places":"тема Амайро Кицунегасаки",
             }
         }
@@ -10069,10 +10416,9 @@ let allMusic = [
     ],
     "game": "#COMPASS",
     "composer": [
-      "*Luna (music, lyrics, illustration)",
+      "*Luna (music, lyrics)",
       "Haluo (mixing)",
       "Bibi (tuning)",
-      "Nontan (video)",
       "Hatsune Miku (singer)"
     ],
     "places": "Theme of HM-WA100 Nidhogg",
@@ -10087,13 +10433,26 @@ let allMusic = [
     "id": "nidhogg-theme-compass",
     "i18n": {
             "jp": {
-                "name": "ニーズヘッグのテーマ",
                 "ostname":"ST/A#R",
+                "name": "ニーズヘッグのテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "*Luna（作詞・作曲）",
+                  "Haluo（ミックス）",
+                  "Bibi（チューニング）",
+                  "初音ミク（歌唱）"
+                ],
                 "places":"HM-WA100 ニーズヘッグのテーマ",
             },
             "ru": {
+                "ostname":"ЗВ/ЕЗ#ДА",
                 "name": "Тема Нидхогга",
-                "ostname":"ST/A#R",
+                "composer": [
+                  "*Luna (музыка, слова)",
+                  "Haluo (сведение)",
+                  "Bibi (тюнинг)",
+                  "Хацунэ Мику (вокалистка)"
+                ],
                 "places":"тема HM-WA100 Нидхогга",
             }
         }
@@ -10127,14 +10486,27 @@ let allMusic = [
     "id": "gbgirl-theme-compass",
     "i18n": {
             "jp": {
-                "name": "GBガールのテーマ",
                 "ostname":"リアルにぶっとばす",
+                "name": "ＧＢガールのテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "ピノキオピー（音楽・作詞）",
+                  "ヤヅキ（ギター・ベース）",
+                  "初音ミク（歌唱）",
+                  "ゆっくり (コーラス）"
+                ],
                 "places":"ゲームバズーカガールのテーマ",
             },
             "ru": {
-                "name": "Тема ГБ-Гёрл",
                 "ostname":"Real ni Buttobasu",
-                "places":"Тема Гейм-Базука-Гёрл",
+                "name": "Тема ГБ-Гёрл",
+                "composer": [
+                  "Pinnochio-P (музыка, слова)",
+                  "Ядуки（гитара, бас)",
+                  "Хацунэ Мику (вокалистка)",
+                  "Юккури (хор)"
+                ],
+                "places":"тема Гейм-Базука-Гёрл",
             }
         }
   },
@@ -10150,7 +10522,7 @@ let allMusic = [
     ],
     "game": "#COMPASS",
     "composer": [
-      "HoneyWorks (music, lyrics, character producer)",
+      "HoneyWorks (music, lyrics)",
       "Oji (guitar)",
       "Nakanishi (guitar)",
       "Keiki Uto (keyboard, programming)",
@@ -10170,13 +10542,32 @@ let allMusic = [
     "id": "alice-theme-compass",
     "i18n": {
             "jp": {
-                "name": "アリスのテーマ",
                 "ostname":"アリスブルー",
-                "places":"青春 アリスのテーマ",
+                "name": "アリスのテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "HoneyWorks（音楽・作詞）",
+                  "Oji（ギター）",
+                  "中西（ギター）",
+                  "宇都圭輝（キーボード・プログラミング）",
+                  "コミヤマリオ (プログラミング）",
+                  "裕木レオン (ドラム）",
+                  "初音ミク（歌唱）"
+                ],
+                "places":"青春アリスのテーマ",
             },
             "ru": {
-                "name": "Тема Алисы",
                 "ostname":"Alice Blue",
+                "name": "Тема Алисы",
+                "composer": [
+                  "HoneyWorks (музыка, текст)",
+                  "Oji (гитара)",
+                  "Наканиси (гитара)",
+                  "Уто Кэйки (клавишные, программирование)",
+                  "Комия Марио (программирование)",
+                  "Юки Леон (ударные)",
+                  "Хацунэ Мику (вокалистка)"
+                ],
                 "places":"тема Алисы Аохару",
             }
         }
@@ -10194,7 +10585,6 @@ let allMusic = [
     "game": "#COMPASS",
     "composer": [
       "Kanaria (music, lyrics)",
-      "Shirasaki Maguru (illustration)",
       "Hatsune Miku (singer)"
     ],
     "places": "Theme of Ignis 'Will' Wisp",
@@ -10206,19 +10596,28 @@ let allMusic = [
     "id": "ignis-theme-compass",
     "i18n": {
             "jp": {
-                "name": "イグニスのテーマ",
                 "ostname":"アイロニック",
+                "name": "イグニスのテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "Kanaria（作曲・作詞）",
+                  "初音ミク（歌唱）"
+                ],
                 "places":"イグニス=ウィル=ウィスプのテーマ",
             },
             "ru": {
+                "ostname":"Иронично",
                 "name": "Тема Игниса",
-                "ostname":"Ironic",
+                "composer": [
+                  "Kanaria (музыка, текст)",
+                  "Хацунэ Мику (вокалистка)"
+                ],
                 "places":"тема Игниса 'Уилла' Уиспа",
             }
         }
   },
   {
-    "ostname": "Poisonous Loneliness", // "Kodoku Dokudoku"
+    "ostname": "Loneliness Toxin", // "Kodoku Dokudoku"
     "name": "Rinne Theme",
     "files": [
       "compass/compass-rinne.ogg"
@@ -10230,7 +10629,6 @@ let allMusic = [
     "game": "#COMPASS",
     "composer": [
       "syudou (music, lyrics)",
-      "Kuroume (illustration)",
       "Hatsune Miku (singer)"
     ],
     "places": "Theme of Rinne Itomeguri",
@@ -10242,13 +10640,22 @@ let allMusic = [
     "id": "rinne-theme-compass",
     "i18n": {
             "jp": {
-                "name": "輪廻のテーマ",
                 "ostname":"孤独毒毒",
+                "name": "輪廻のテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "シュドウ（作曲・作詞）",
+                  "初音ミク（歌唱）"
+                ],
                 "places":"糸廻 輪廻のテーマ",
             },
             "ru": {
+                "ostname":"Одинокий яд",
                 "name": "Тема Риннэ",
-                "ostname":"Kodoku Dokudoku",
+                "composer": [
+                  "syudou (музыка, текст)",
+                  "Хацунэ Мику (вокалистка)"
+                ],
                 "places":"тема Риннэ Итомэгури",
             }
         }
@@ -10277,17 +10684,18 @@ let allMusic = [
     "id": "bugdoll-theme-compass",
     "i18n": {
             "jp": {
-                "name": "Bugdollのテーマ",
                 "ostname":"スティールユー",
+                "name": "Bugdollのテーマ",
+                "game": "＃コンパス",
                 "composer": [
-                  "Omoi（作曲、作詞）",
-                  "鏡音レン（歌唱）"
+                  "Omoi（作曲・作詞）",
+                  "初音ミク（歌唱）"
                 ],
                 "places":"Bugdollのテーマ",
             },
             "ru": {
-                "name": "Тема Багдолла",
                 "ostname":"Steal You",
+                "name": "Тема Багдолла",
                 "composer": [
                   "Omoi (музыка, текст)",
                   "Хацунэ Мику (вокалистка)"
@@ -10309,8 +10717,6 @@ let allMusic = [
     "game": "#COMPASS",
     "composer": [
       "Junky (music, lyrics)",
-      "U-I-T-Ware (illustration)",
-      "Kumashiro Taamu (video)",
       "Kagamine Rin (singer)"
     ],
     "places": "Theme of Stellea Lala Silva",
@@ -10322,13 +10728,22 @@ let allMusic = [
     "id": "stellea-theme-compass",
     "i18n": {
             "jp": {
-                "name": "ステリアのテーマ",
                 "ostname":"オシオキGIMMICK!!",
+                "name": "ステリアのテーマ",
+                "game": "＃コンパス",
+                "composer": [
+                  "Junky（作曲・作詞）",
+                  "鏡音リン（歌唱）"
+                ],
                 "places":"ステリア・ララ・シルワのテーマ",
             },
             "ru": {
-                "name": "Тема Стеллеи",
                 "ostname":"OSHIOKI GIMMICK!!",
+                "name": "Тема Стеллеи",
+                "composer": [
+                  "Junky (музыка, текст)",
+                  "Кагаминэ Рин (вокалистка)"
+                ],
                 "places":"тема Стеллеи Лалы Сильвы",
             }
         }
@@ -10357,17 +10772,18 @@ let allMusic = [
     "id": "lovey-theme-compass",
     "i18n": {
             "jp": {
-                "name": "ラヴィのテーマ",
                 "ostname":"ラビィ",
+                "name": "ラヴィのテーマ",
+                "game": "＃コンパス",
                 "composer": [
-                  "すりぃ（作曲、作詞）",
+                  "すりぃ（作曲・作詞）",
                   "鏡音レン（歌唱）"
                 ],
                 "places":"ラヴィ・シュシュマルシュ・コル・ウェスペルティーリオのテーマ",
             },
             "ru": {
+                "ostname":"Лави",
                 "name": "Тема Лави",
-                "ostname":"Lavie",
                 "composer": [
                   "Threee (музыка, текст)",
                   "Кагаминэ Лен (вокалист)"
