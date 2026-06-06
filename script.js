@@ -204,10 +204,15 @@ $(function () {
         "EXE4/BN4", "EXE4.5", "EXEPoN", "EXE5/BN5", "EXE6/BN6", "EXELoN",
         "SSR1/SF1", "SSR2/SF2", "SSR3/SF3", "Shanghai", "Custom", "Other"
       ];
+
       const $game = $(".filter[data-filter=game] .dropdown");
+      // Preserve filter state across rebuilds
+      const checkedGames = $game.find("input:checked").map((_, el) => el.value).get();
+
       $game.empty();
       games.forEach((g) => {
-        $game.append(`<div><input type="checkbox" value="${g}" id="g-${g}"><label for="g-${g}"> ${g}</label></div>`);
+        const isChecked = checkedGames.includes(g) ? 'checked' : '';
+        $game.append(`<div><input type="checkbox" value="${g}" id="g-${g}" ${isChecked}><label for="g-${g}"> ${i18n.t("ui.game." + g, g)}</label></div>`);
       });
 
       let currentData;
@@ -806,12 +811,12 @@ $(function () {
 
       $("#detail-title-music").text(i18n.getLocalized(item, "name"));
       $("#detail-author-music").text(i18n.getLocalized(item, "author"));
-      $("#detail-game-music").text(Array.isArray(item.game) ? item.game.join(", ") : i18n.getLocalized(item, "game"));
+      $("#detail-game-music").text(Array.isArray(i18n.getLocalized(item, "game")) ? i18n.getLocalized(item, "game").join(", ") : i18n.getLocalized(item, "game"));
       $("#detail-loopstart-music").text(item.start);
       $("#detail-loopend-music").text(item.stop);
       $("#detail-places-music").text(i18n.getLocalized(item, "places"));
       $("#detail-ostname-music").text(i18n.getLocalized(item, "ostname"));
-      $("#detail-composer-music").text(Array.isArray(item.composer) ? item.composer.join(", ") : i18n.getLocalized(item, "composer"));
+      $("#detail-composer-music").text(Array.isArray(i18n.getLocalized(item, "composer")) ? i18n.getLocalized(item, "composer").join(", ") : i18n.getLocalized(item, "composer"));
       
       $("#download-single-music").prop("disabled", false).off().on("click", () => downloadMultipleMusic([item]));
       $("#current-time").text(i18n.t("ui.music.time_format"));
@@ -988,7 +993,8 @@ $(function () {
       const itemId = $selectedRow.length ? $selectedRow.data("item-id") : null;
       
       renderList();
-      
+      buildFilterOptions(); // Rebuilds dropdown with new labels
+
       if (itemId !== null) {
         const $newRow = $(`#${currentTab}-content table.file-list tbody tr[data-item-id="${itemId}"]`);
         if ($newRow.length > 0) {
