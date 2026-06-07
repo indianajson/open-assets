@@ -19,7 +19,7 @@ let allMusic = [
     "id": "title-theme-exe1",
     "i18n": {
             "jp": {
-                "name": "タイトル画面ＢＧＭ",
+                "name": "タイトル画面",
                 "ostname":"THEME OF ROCKMAN EXE",
                 "game": "エグゼ１",
                 "composer": [
@@ -58,7 +58,7 @@ let allMusic = [
     "id": "akihara-town-exe1",
     "i18n": {
             "jp": {
-                "name": "秋原町ＢＧＭ",
+                "name": "秋原町",
                 "ostname": "ホームタウン",
                 "game": "エグゼ１",
                 "composer": [
@@ -154,7 +154,7 @@ let allMusic = [
     "id": "indoors-theme-exe1",
     "i18n": {
             "jp": {
-                "name": "屋内ＢＧＭ",
+                "name": "屋内",
                 "ostname": "屋内",
                 "game": "エグゼ１",
                 "composer": [
@@ -271,7 +271,7 @@ let allMusic = [
     "id": "plug-in-transition-exe1",
     "i18n": {
             "jp": {
-                "name": "プラグインＢＧＭ",
+                "name": "プラグインムービー",
                 "ostname": "トランスミッション！",
                 "game": "エグゼ１",
                 "composer": [
@@ -310,7 +310,7 @@ let allMusic = [
     "id": "oven-comp-exe1",
     "i18n": {
             "jp": {
-                "name": "レンジの電脳ＢＧＭ",
+                "name": "レンジの電脳",
                 "ostname": "FIRE FIELD",
                 "game": "エグゼ１",
                 "composer": [
@@ -349,7 +349,7 @@ let allMusic = [
     "id": "school-comp-exe1",
     "i18n": {
             "jp": {
-                "name": "学校の電脳ＢＧＭ",
+                "name": "学校の電脳",
                 "ostname": "RUNNING THROUGH THE CYBER WORLD",
                 "game": "エグゼ１",
                 "composer": [
@@ -432,7 +432,7 @@ let allMusic = [
                 "composer": [
                   "海田 明里"
                 ],
-                "places": "ロックマン．ＥＸＥ（光彩斗）の正体を明らかにするカットシーン",
+                "places": "ロックマン.ＥＸＥ（光彩斗）の正体を明らかにするカットシーン",
             },
             "ru": {
                 "name": "Грустная тема",
@@ -465,7 +465,7 @@ let allMusic = [
     "id": "waterworks-comp-exe1",
     "i18n": {
             "jp": {
-                "name": "水道局の電脳ＢＧＭ",
+                "name": "水道局の電脳",
                 "ostname": "COLD & SILENT",
                 "game": "エグゼ１",
                 "composer": [
@@ -504,7 +504,7 @@ let allMusic = [
     "id": "traffic-light-comp-exe1",
     "i18n": {
             "jp": {
-                "name": "信号機の電脳ＢＧＭ",
+                "name": "信号機の電脳",
                 "ostname": "RED OR BLUE",
                 "game": "エグゼ１",
                 "composer": [
@@ -543,7 +543,7 @@ let allMusic = [
     "id": "power-plant-comp-exe1",
     "i18n": {
             "jp": {
-                "name": "発電所の電脳ＢＧＭ",
+                "name": "発電所の電脳",
                 "ostname": "ELECTRICAL CRISIS",
                 "game": "エグゼ１",
                 "composer": [
@@ -582,7 +582,7 @@ let allMusic = [
     "id": "www-comp-exe1",
     "i18n": {
             "jp": {
-                "name": "ＷＷＷの電脳ＢＧＭ",
+                "name": "ＷＷＷの電脳",
                 "ostname": "VOID",
                 "game": "エグゼ１",
                 "composer": [
@@ -622,7 +622,7 @@ let allMusic = [
     "i18n": {
             "jp": {
                 "ostname": "オペレーション！",
-                "name": "ウイルス戦ＢＧＭ",
+                "name": "ウイルス戦",
                 "game": "エグゼ１",
                 "composer": [
                   "海田 明里"
@@ -635,7 +635,7 @@ let allMusic = [
                 "composer": [
                   "Акари Кайда"
                 ],
-                "places": "в битве с вирусами",
+                "places": "в битвах с вирусами",
             }
         }
   },
@@ -686,7 +686,7 @@ let allMusic = [
     "i18n": {
             "jp": {
                 "ostname": "ＶＳ．ドリームウイリス",
-                "name": "ラスボス戦ＢＧＭ",
+                "name": "ラスボス戦",
                 "game": "エグゼ１",
                 "composer": [
                   "海田 明里"
@@ -852,7 +852,7 @@ let allMusic = [
     "id": "title-theme-exe2",
     "i18n": {
             "jp": {
-                "name": "タイトル画面ＢＧＭ",
+                "name": "タイトル画面",
                 "ostname":"THEME OF ROCKMAN EXE2",
                 "composer": [
                   "青木 佳乃"
@@ -1447,7 +1447,7 @@ let allMusic = [
   },
   {
     "ostname": "FEARFUL",
-    "name": "Ura Internet Theme",
+    "name": "Ura Internet",
     "files": [
       "exe2-urainternet.ogg"
     ],
@@ -1460,7 +1460,7 @@ let allMusic = [
     "stop": "36516",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "ura-internet-theme-exe2",
+    "id": "ura-internet-exe2",
     "i18n": {
             "ru": {
                 "name": "",
@@ -1510,10 +1510,22 @@ let allMusic = [
     "gameimage": "exe2.png",
     "id": "virus-battle-exe2",
     "i18n": {
+            "jp": {
+                "ostname": "ウイルスバスティング",
+                "name": "ウイルス戦",
+                "game": "エグゼ２",
+                "composer": [
+                  "青木 佳乃"
+                ],
+                "places": "ウイルス戦",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "Борьба с вирусами",
+                "name": "Битва с вирусами",
+                "composer": [
+                  "Ёсино Аоки"
+                ],
+                "places": "в битвах с вирусами",
             }
         }
   },
@@ -1572,14 +1584,21 @@ let allMusic = [
       "exe2-stylechange.ogg"
     ],
     "author": "K1rbYat1Na",
-    "game": "EXE2/BN2",
+    "game": [
+      "EXE2/BN2",
+      "EXE3/BN3"
+    ],
     "duration": "0:09",
     "composer": "Yoshino Aoki",
-    "places": "Getting a new Style Change",
+    "places": "getting a new Style Change",
     "start": "0",
     "stop": "9443",
     "disc": "sb1.png",
-    "gameimage": "exe2.png",
+    "gameimage": [
+      "exe2.png",
+      "exe3.png",
+      "exe3b.png",
+    ],
     "id": "style-change-exe2",
     "i18n": {
             "ru": {
@@ -1660,7 +1679,7 @@ let allMusic = [
     "id": "title-theme-exe3",
     "i18n": {
             "jp": {
-                "name": "タイトル画面ＢＧＭ",
+                "name": "タイトル画面",
                 "ostname":"THEME OF ROCKMAN EXE3",
                 "composer": [
                   "青木 佳乃"
@@ -2219,7 +2238,7 @@ let allMusic = [
   },
   {
     "ostname": "DANGEROUS BLACK",
-    "name": "Ura Internet Theme",
+    "name": "Ura Internet",
     "files": [
       "exe3-urainternet.ogg"
     ],
@@ -2235,7 +2254,7 @@ let allMusic = [
       "exe3.png",
       "exe3b.png"
     ],
-    "id": "ura-internet-theme-exe3",
+    "id": "ura-internet-exe3",
     "i18n": {
             "ru": {
                 "name": "",
@@ -2291,10 +2310,22 @@ let allMusic = [
     ],
     "id": "virus-battle-exe3",
     "i18n": {
+            "jp": {
+                "ostname": "シューティングエネミー",
+                "name": "ウイルス戦",
+                "game": "エグゼ３",
+                "composer": [
+                  "青木 佳乃"
+                ],
+                "places": "ウイルス戦",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "Стрельба по врагам",
+                "name": "Битва с вирусами",
+                "composer": [
+                  "Ёсино Аоки"
+                ],
+                "places": "в битвах с вирусами",
             }
         }
   },
@@ -2426,10 +2457,18 @@ let allMusic = [
     ],
     "id": "navicus-exe3",
     "i18n": {
+            "jp": {
+                "ostname":"ナビカスタマイザー",
+                "name": "ナビカス",
+                "game": "エグゼ３",
+                "composer": "青木 佳乃",
+                "places":"ナビカスタマイザー画面",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname":"Настройщик Нави",
+                "name": "Настройщик",
+                "composer": "Ёсино Аоки",
+                "places":"экран Настройщика Нави",
             }
         }
   },
@@ -2481,7 +2520,7 @@ let allMusic = [
     "id": "title-theme-exe4",
     "i18n": {
             "jp": {
-                "name": "タイトル画面ＢＧＭ",
+                "name": "タイトル画面",
                 "ostname":"THEME OF ROCKMAN EXE4",
                 "composer": [
                   "堀山 俊彦"
@@ -2711,10 +2750,22 @@ let allMusic = [
     ],
     "id": "virus-battle-exe4",
     "i18n": {
+            "jp": {
+                "ostname": "サイバーバトル",
+                "name": "ウイルス戦",
+                "game": "エグゼ４",
+                "composer": [
+                  "堀山 俊彦"
+                ],
+                "places": "ウイルス戦",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "Кибер-битва",
+                "name": "Битва с вирусами",
+                "composer": [
+                  "Тосихико Хорияма"
+                ],
+                "places": "в битвах с вирусами",
             }
         }
   },
@@ -2728,7 +2779,7 @@ let allMusic = [
     "game": "EXE4/BN4",
     "duration": "0:32",
     "composer": "Toshihiko Horiyama",
-    "places": "?",
+    "places": "unused",
     "start": "6846",
     "stop": "31577",
     "disc": "sb3.png",
@@ -2738,10 +2789,18 @@ let allMusic = [
     ],
     "id": "virus-battle-unused-exe4",
     "i18n": {
+            "jp": {
+                "ostname": "サイバーバトル（未使用）",
+                "name": "ウイルス戦",
+                "game": "エグゼ４",
+                "composer": "堀山 俊彦",
+                "places": "未使用",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "Кибер-битва (неисп.)",
+                "name": "Битва с вирусами (неисп.)",
+                "composer": "Тосихико Хорияма",
+                "places": "неиспользуется",
             }
         }
   },
@@ -3126,7 +3185,7 @@ let allMusic = [
     "game": "EXE4/BN4",
     "duration": "0:48",
     "composer": "Toshihiko Horiyama",
-    "places": "Boss Battles",
+    "places": "Boss Battles (outside of tournaments)",
     "start": "9644",
     "stop": "47934",
     "disc": "sb3.png",
@@ -3136,10 +3195,18 @@ let allMusic = [
     ],
     "id": "boss-battle-exe4",
     "i18n": {
+            "jp": {
+                "ostname":"自分との戦い",
+                "name": "ボス戦",
+                "game": "エグゼ４",
+                "composer": "堀山 俊彦",
+                "places":"ボス戦（トーナメント以外）",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname":"Бой с самим собой",
+                "name": "Битва с боссом",
+                "composer": "Тосихико Хорияма",
+                "places":"в битвах с боссами (вне турниров)",
             }
         }
   },
@@ -3163,10 +3230,18 @@ let allMusic = [
     ],
     "id": "navicus-exe4",
     "i18n": {
+            "jp": {
+                "ostname":"ナビカスタマイザー",
+                "name": "ナビカス",
+                "game": "エグゼ４",
+                "composer": "堀山 俊彦",
+                "places":"ナビカスタマイザー画面",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname":"Настройщик Нави",
+                "name": "Настройщик",
+                "composer": "Тосихико Хорияма",
+                "places":"экран Настройщика Нави",
             }
         }
   },
@@ -3190,16 +3265,24 @@ let allMusic = [
     ],
     "id": "foreign-country-exe4",
     "i18n": {
+            "jp": {
+                "ostname":"決意の旅",
+                "name": "異国",
+                "game": "エグゼ４",
+                "composer": "堀山 俊彦",
+                "places":"異国（アメロッパ、アジーナ、シャーロ、アッフリク）",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname":"Целеустремлённое путешествие",
+                "name": "Зарубежная страна",
+                "composer": "Тосихико Хорияма",
+                "places":"в зарубежных странах (Амевропа, Азина, Сияро, Аффрик)",
             }
         }
   },
   {
     "ostname": "Heel's Paradise",
-    "name": "Ura Internet Theme",
+    "name": "Ura Internet",
     "files": [
       "exe4-urainternet.ogg"
     ],
@@ -3215,12 +3298,20 @@ let allMusic = [
       "exe4r.png",
       "exe4b.png"
     ],
-    "id": "ura-internet-theme-exe4",
+    "id": "ura-internet-exe4",
     "i18n": {
+            "jp": {
+                "ostname":"Heel's Paradise",
+                "name": "ウラインターネット",
+                "game": "エグゼ４",
+                "composer": "堀山 俊彦",
+                "places":"ウラインターネット（１－６）、ブラックアース（１－２）",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname":"Хил-рай",
+                "name": "Ура-Интернет",
+                "composer": "Тосихико Хорияма",
+                "places":"Ура-Интернет 1-6, Чёрная земля 1-2",
             }
         }
   },
@@ -3463,7 +3554,7 @@ let allMusic = [
     "id": "title-theme-exe45",
     "i18n": {
             "jp": {
-                "name": "タイトル画面ＢＧＭ",
+                "name": "タイトル画面",
                 "ostname":"THEME OF ROCKMAN EXE4.5",
                 "composer": [
                   "堀山 俊彦"
@@ -3522,14 +3613,15 @@ let allMusic = [
     "id": "rockman-theme-exe45",
     "i18n": {
             "jp": {
-                "name": "ロックマンのテーマ",
                 "ostname":"ロックマンのテーマ",
+                "name": "ロックマンのテーマ",
+                "game": "エグゼ４.５",
                 "composer": "海田 明里",
                 "places":"ＰＥＴメイン画面（プレイヤーのナビがロックマンの場合）",
             },
             "ru": {
-                "name": "Тема Рокмена",
                 "ostname":"Тема Рокмена",
+                "name": "Тема Рокмена",
                 "composer": "Акари Кайда",
                 "places":"главный экран PET (если Нави игрока — Рокмен)",
             } 
@@ -3553,14 +3645,15 @@ let allMusic = [
     "id": "roll-theme-exe45",
     "i18n": {
             "jp": {
-                "name": "ロールのテーマ",
                 "ostname":"ロールのテーマ",
+                "name": "ロールのテーマ",
+                "game": "エグゼ４.５",
                 "composer": "海田 明里",
                 "places":"ＰＥＴメイン画面（プレイヤーのナビがロールの場合）",
             },
             "ru": {
-                "name": "Тема Ролл",
                 "ostname":"Тема Ролл",
+                "name": "Тема Ролл",
                 "composer": "Акари Кайда",
                 "places":"главный экран PET (если Нави игрока — Ролл)",
             } 
@@ -3584,14 +3677,15 @@ let allMusic = [
     "id": "gutsman-theme-exe45",
     "i18n": {
             "jp": {
-                "name": "ガッツマンのテーマ",
                 "ostname":"ガッツマンのテーマ",
+                "name": "ガッツマンのテーマ",
+                "game": "エグゼ４.５",
                 "composer": "堀山 俊彦",
                 "places":"ＰＥＴメイン画面（プレイヤーのナビがガッツマンの場合）",
             },
             "ru": {
-                "name": "Тема Гатсмена",
                 "ostname":"Тема Гатсмена",
+                "name": "Тема Гатсмена",
                 "composer": "Тосихико Хорияма",
                 "places":"главный экран PET (если Нави игрока — Гатсмен)",
             } 
@@ -3615,14 +3709,15 @@ let allMusic = [
     "id": "numberman-theme-exe45",
     "i18n": {
             "jp": {
-                "name": "ナンバーマンのテーマ",
                 "ostname":"ナンバーマンのテーマ",
+                "name": "ナンバーマンのテーマ",
+                "game": "エグゼ４.５",
                 "composer": "海田 明里",
                 "places":"ＰＥＴメイン画面（プレイヤーのナビがナンバーマンの場合）",
             },
             "ru": {
-                "name": "Тема Намбермена",
                 "ostname":"Тема Намбермена",
+                "name": "Тема Намбермена",
                 "composer": "Акари Кайда",
                 "places":"главный экран PET (если Нави игрока — Намбермен)",
             } 
@@ -3646,14 +3741,15 @@ let allMusic = [
     "id": "fireman-theme-exe45",
     "i18n": {
             "jp": {
-                "name": "ファイアマンのテーマ",
                 "ostname":"ファイアマンのテーマ",
+                "name": "ファイアマンのテーマ",
+                "game": "エグゼ４.５",
                 "composer": "堀山 俊彦",
                 "places":"ＰＥＴメイン画面（プレイヤーのナビがファイアマンの場合）",
             },
             "ru": {
-                "name": "Тема Файрмена",
                 "ostname":"Тема Файрмена",
+                "name": "Тема Файрмена",
                 "composer": "Тосихико Хорияма",
                 "places":"главный экран PET (если Нави игрока — Файрмен)",
             } 
@@ -3677,14 +3773,15 @@ let allMusic = [
     "id": "woodman-theme-exe45",
     "i18n": {
             "jp": {
-                "name": "ウッドマンのテーマ",
                 "ostname":"ウッドマンのテーマ",
+                "name": "ウッドマンのテーマ",
+                "game": "エグゼ４.５",
                 "composer": "堀山 俊彦",
                 "places":"ＰＥＴメイン画面（プレイヤーのナビがウッドマンの場合）",
             },
             "ru": {
-                "name": "Тема Вудмена",
                 "ostname":"Тема Вудмена",
+                "name": "Тема Вудмена",
                 "composer": "Тосихико Хорияма",
                 "places":"главный экран PET (если Нави игрока — Вудмен)",
             } 
@@ -3708,14 +3805,15 @@ let allMusic = [
     "id": "windman-theme-exe45",
     "i18n": {
             "jp": {
-                "name": "ウィンドマンのテーマ",
                 "ostname":"ウィンドマンのテーマ",
+                "name": "ウィンドマンのテーマ",
+                "game": "エグゼ４.５",
                 "composer": "堀山 俊彦",
                 "places":"ＰＥＴメイン画面（プレイヤーのナビがウィンドマンの場合）",
             },
             "ru": {
-                "name": "Тема Виндмена",
                 "ostname":"Тема Виндмена",
+                "name": "Тема Виндмена",
                 "composer": "Тосихико Хорияма",
                 "places":"главный экран PET (если Нави игрока — Виндмен)",
             } 
@@ -3739,14 +3837,15 @@ let allMusic = [
     "id": "searchman-theme-exe45",
     "i18n": {
             "jp": {
-                "name": "サーチマンのテーマ",
                 "ostname":"サーチマンのテーマ",
+                "name": "サーチマンのテーマ",
+                "game": "エグゼ４.５",
                 "composer": "海田 明里",
                 "places":"ＰＥＴメイン画面（プレイヤーのナビがサーチマンの場合）",
             },
             "ru": {
-                "name": "Тема Сёрчмена",
                 "ostname":"Тема Сёрчмена",
+                "name": "Тема Сёрчмена",
                 "composer": "Акари Кайда",
                 "places":"главный экран PET (если Нави игрока — Сёрчмен)",
             } 
@@ -3770,14 +3869,15 @@ let allMusic = [
     "id": "aquaman-theme-exe45",
     "i18n": {
             "jp": {
-                "name": "アクアマンのテーマ",
                 "ostname":"アクアマンのテーマ",
+                "name": "アクアマンのテーマ",
+                "game": "エグゼ４.５",
                 "composer": "海田 明里",
                 "places":"ＰＥＴメイン画面（プレイヤーのナビがアクアマンの場合）",
             },
             "ru": {
-                "name": "Тема Аквамена",
                 "ostname":"Тема Аквамена",
+                "name": "Тема Аквамена",
                 "composer": "Акари Кайда",
                 "places":"главный экран PET (если Нави игрока — Аквамен)",
             } 
@@ -3801,14 +3901,15 @@ let allMusic = [
     "id": "thunderman-theme-exe45",
     "i18n": {
             "jp": {
-                "name": "サンダーマンのテーマ",
                 "ostname":"サンダーマンのテーマ",
+                "name": "サンダーマンのテーマ",
+                "game": "エグゼ４.５",
                 "composer": "海田 明里",
                 "places":"ＰＥＴメイン画面（プレイヤーのナビがサンダーマンの場合）",
             },
             "ru": {
-                "name": "Тема Сандермена",
                 "ostname":"Тема Сандермена",
+                "name": "Тема Сандермена",
                 "composer": "Акари Кайда",
                 "places":"главный экран PET (если Нави игрока — Сандермен)",
             } 
@@ -3832,14 +3933,15 @@ let allMusic = [
     "id": "metalman-theme-exe45",
     "i18n": {
             "jp": {
-                "name": "メタルマンのテーマ",
                 "ostname":"メタルマンのテーマ",
+                "name": "メタルマンのテーマ",
+                "game": "エグゼ４.５",
                 "composer": "堀山 俊彦",
                 "places":"ＰＥＴメイン画面（プレイヤーのナビがメタルマンの場合）",
             },
             "ru": {
-                "name": "Тема Металмена",
                 "ostname":"Тема Металмена",
+                "name": "Тема Металмена",
                 "composer": "Тосихико Хорияма",
                 "places":"главный экран PET (если Нави игрока — Металмен)",
             } 
@@ -3863,14 +3965,15 @@ let allMusic = [
     "id": "junkman-theme-exe45",
     "i18n": {
             "jp": {
-                "name": "ジャンクマンのテーマ",
                 "ostname":"ジャンクマンのテーマ",
+                "name": "ジャンクマンのテーマ",
+                "game": "エグゼ４.５",
                 "composer": "堀山 俊彦",
                 "places":"ＰＥＴメイン画面（プレイヤーのナビがジャンクマンの場合）",
             },
             "ru": {
-                "name": "Тема Джанкмена",
                 "ostname":"Тема Джанкмена",
+                "name": "Тема Джанкмена",
                 "composer": "Тосихико Хорияма",
                 "places":"главный экран PET (если Нави игрока — Джанкмен)",
             } 
@@ -3894,14 +3997,15 @@ let allMusic = [
     "id": "blues-theme-exe45",
     "i18n": {
             "jp": {
-                "name": "ブルースのテーマ",
                 "ostname":"ブルースのテーマ",
+                "name": "ブルースのテーマ",
+                "game": "エグゼ４.５",
                 "composer": "堀山 俊彦",
                 "places":"ＰＥＴメイン画面（プレイヤーのナビがブルースの場合）",
             },
             "ru": {
-                "name": "Тема Блюза",
                 "ostname":"Тема Блюза",
+                "name": "Тема Блюза",
                 "composer": "Тосихико Хорияма",
                 "places":"главный экран PET (если Нави игрока — Блюз)",
             } 
@@ -3925,14 +4029,15 @@ let allMusic = [
     "id": "starman-theme-exe45",
     "i18n": {
             "jp": {
-                "name": "スターマンのテーマ",
                 "ostname":"スターマンのテーマ",
+                "name": "スターマンのテーマ",
+                "game": "エグゼ４.５",
                 "composer": "堀山 俊彦",
                 "places":"ＰＥＴメイン画面（プレイヤーのナビがスターマンの場合）",
             },
             "ru": {
-                "name": "Тема Стармена",
                 "ostname":"Тема Стармена",
+                "name": "Тема Стармена",
                 "composer": "Тосихико Хорияма",
                 "places":"главный экран PET (если Нави игрока — Стармен)",
             } 
@@ -3956,14 +4061,15 @@ let allMusic = [
     "id": "napalmman-theme-exe45",
     "i18n": {
             "jp": {
-                "name": "ナパームマンのテーマ",
                 "ostname":"ナパームマンのテーマ",
+                "name": "ナパームマンのテーマ",
+                "game": "エグゼ４.５",
                 "composer": "堀山 俊彦",
                 "places":"ＰＥＴメイン画面（プレイヤーのナビがナパームマンの場合）",
             },
             "ru": {
-                "name": "Тема Напалмена",
                 "ostname":"Тема Напалммена",
+                "name": "Тема Напалмена",
                 "composer": "Тосихико Хорияма",
                 "places":"главный экран PET (если Нави игрока — Напалммен)",
             } 
@@ -3987,14 +4093,15 @@ let allMusic = [
     "id": "iceman-theme-exe45",
     "i18n": {
             "jp": {
-                "name": "アイスマンのテーマ",
                 "ostname":"アイスマンのテーマ",
+                "name": "アイスマンのテーマ",
+                "game": "エグゼ４.５",
                 "composer": "堀山 俊彦",
                 "places":"ＰＥＴメイン画面（プレイヤーのナビがアイスマンの場合）",
             },
             "ru": {
-                "name": "Тема Айсмена",
                 "ostname":"Тема Айсмена",
+                "name": "Тема Айсмена",
                 "composer": "Тосихико Хорияма",
                 "places":"главный экран PET (если Нави игрока — Айсмен)",
             } 
@@ -4018,14 +4125,15 @@ let allMusic = [
     "id": "elecman-theme-exe45",
     "i18n": {
             "jp": {
-                "name": "エレキマンのテーマ",
                 "ostname":"エレキマンのテーマ",
+                "name": "エレキマンのテーマ",
+                "game": "エグゼ４.５",
                 "composer": "堀山 俊彦",
                 "places":"ＰＥＴメイン画面（プレイヤーのナビがエレキマンの場合）",
             },
             "ru": {
-                "name": "Тема Элекмена",
                 "ostname":"Тема Элекмена",
+                "name": "Тема Элекмена",
                 "composer": "Тосихико Хорияма",
                 "places":"главный экран PET (если Нави игрока — Элекмен)",
             }
@@ -4049,14 +4157,15 @@ let allMusic = [
     "id": "plantman-theme-exe45",
     "i18n": {
             "jp": {
-                "name": "プラントマンのテーマ",
                 "ostname":"プラントマンのテーマ",
+                "name": "プラントマンのテーマ",
+                "game": "エグゼ４.５",
                 "composer": "堀山 俊彦",
                 "places":"ＰＥＴメイン画面（プレイヤーのナビがプラントマンの場合）",
             },
             "ru": {
-                "name": "Тема Плентмена",
                 "ostname":"Тема Плентмена",
+                "name": "Тема Плентмена",
                 "composer": "Тосихико Хорияма",
                 "places":"главный экран PET (если Нави игрока — Плентмен)",
             }
@@ -4080,14 +4189,15 @@ let allMusic = [
     "id": "knightman-theme-exe45",
     "i18n": {
             "jp": {
-                "name": "ナイトマンのテーマ",
                 "ostname":"ナイトマンのテーマ",
+                "name": "ナイトマンのテーマ",
+                "game": "エグゼ４.５",
                 "composer": "堀山 俊彦",
                 "places":"ＰＥＴメイン画面（プレイヤーのナビがナイトマンの場合）",
             },
             "ru": {
-                "name": "Тема Найтмена",
                 "ostname":"Тема Найтмена",
+                "name": "Тема Найтмена",
                 "composer": "Тосихико Хорияма",
                 "places":"главный экран PET (если Нави игрока — Найтмен)",
             }
@@ -4111,14 +4221,15 @@ let allMusic = [
     "id": "shadowman-theme-exe45",
     "i18n": {
             "jp": {
-                "name": "シャドーマンのテーマ",
                 "ostname":"シャドーマンのテーマ",
+                "name": "シャドーマンのテーマ",
+                "game": "エグゼ４.５",
                 "composer": "堀山 俊彦",
                 "places":"ＰＥＴメイン画面（プレイヤーのナビがシャドーマンの場合）",
             },
             "ru": {
-                "name": "Тема Шедоумена",
                 "ostname":"Тема Шедоумена",
+                "name": "Тема Шедоумена",
                 "composer": "Тосихико Хорияма",
                 "places":"главный экран PET (если Нави игрока — Шедоумен)",
             }
@@ -4141,10 +4252,18 @@ let allMusic = [
     "gameimage": "exe45.png",
     "id": "forte-theme-exe45",
     "i18n": {
+            "jp": {
+                "ostname":"フォルテのテーマ",
+                "name": "フォルテのテーマ",
+                "game": "エグゼ４.５",
+                "composer": "堀山 俊彦",
+                "places":"ＰＥＴメイン画面（プレイヤーのナビがフォルテの場合）",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname":"Тема Форте",
+                "name": "Тема Форте",
+                "composer": "Тосихико Хорияма",
+                "places":"главный экран PET (если Нави игрока — Форте)",
             }
         }
   },
@@ -4189,10 +4308,18 @@ let allMusic = [
     "gameimage": "exe45.png",
     "id": "virus-battle-exe45",
     "i18n": {
+            "jp": {
+                "ostname": "バトルフィールド",
+                "name": "ウイルス戦",
+                "game": "エグゼ４.５",
+                "composer": "堀山 俊彦",
+                "places": "ウイルス戦",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "Поле боя",
+                "name": "Битва с вирусами",
+                "composer": "Тосихико Хорияма",
+                "places": "в битве с вирусами",
             }
         }
   },
@@ -4414,7 +4541,7 @@ let allMusic = [
   },
   {
     "ostname": "Deep Inside",
-    "name": "Ura Internet Theme",
+    "name": "Ura Internet",
     "files": [
       "exe45-urainternet.ogg"
     ],
@@ -4427,19 +4554,20 @@ let allMusic = [
     "stop": "45087",
     "disc": "sb4.png",
     "gameimage": "exe45.png",
-    "id": "ura-internet-theme-exe45",
+    "id": "ura-internet-exe45",
     "i18n": {
             "jp": {
-                "name": "ウラインターネットＢＧＭ",
                 "ostname":"Deep Inside",
+                "name": "ウラインターネット",
+                "game": "エグゼ４.５",
                 "composer": "堀山 俊彦",
                 "places":"ウラインターネット（１－４）",
             },
             "ru": {
-                "name": "Тема Ура-интернета",
                 "ostname":"Глубоко внутри",
+                "name": "Ура-Интернет",
                 "composer": "Тосихико Хорияма",
-                "places":"Ура-интернет 1-4",
+                "places":"Ура-Интернет 1-4",
             }
         }
   },
@@ -4533,13 +4661,16 @@ let allMusic = [
     "id": "credits-theme-exe45",
     "i18n": {
             "jp": {
-                "name": "スタッフロールＢＧＭ",
-                "ostname":"",
-                "places":"スタッフロール",
+                "ostname":"All Cast",
+                "name": "スタッフロール",
+                "game": "エグゼ４.５",
+                "composer": "堀山 俊彦",
+                "places":"スタッフロール画面",
             },
             "ru": {
-                "name": "Тема титров",
                 "ostname":"Весь состав",
+                "name": "Тема титров",
+                "composer": "Тосихико Хорияма",
                 "places":"в титрах",
             }
         }
@@ -4873,7 +5004,7 @@ let allMusic = [
     "id": "title-theme-exe5",
     "i18n": {
             "jp": {
-                "name": "タイトル画面ＢＧＭ",
+                "name": "タイトル画面",
                 "ostname":"THEME OF ROCKMAN EXE5",
                 "composer": [
                   "海田 明里"
@@ -5099,10 +5230,18 @@ let allMusic = [
     ],
     "id": "virus-battle-exe5",
     "i18n": {
+            "jp": {
+                "ostname": "バトルスタート！",
+                "name": "ウイルス戦",
+                "game": "エグゼ５",
+                "composer": "海田 明里",
+                "places": "ウイルス戦",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "Битва начинается!",
+                "name": "Битва с вирусами",
+                "composer": "Акари Кайда",
+                "places": "в битве с вирусами",
             }
         }
   },
@@ -5396,10 +5535,18 @@ let allMusic = [
     ],
     "id": "navicus-exe5",
     "i18n": {
+            "jp": {
+                "ostname":"ナビカスタマイザー",
+                "name": "ナビカス",
+                "game": "エグゼ５",
+                "composer": "海田 明里",
+                "places":"ナビカスタマイザー画面",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname":"Настройщик Нави",
+                "name": "Настройщик",
+                "composer": "Акари Кайда",
+                "places":"экран Настройщика Нави",
             }
         }
   },
@@ -5513,7 +5660,7 @@ let allMusic = [
   },
   {
     "ostname": "Depth",
-    "name": "Ura Internet Theme",
+    "name": "Ura Internet",
     "files": [
       "exe5-urainternet.ogg"
     ],
@@ -5529,7 +5676,7 @@ let allMusic = [
       "exe5b.png",
       "exe5c.png"
     ],
-    "id": "ura-internet-theme-exe5",
+    "id": "ura-internet-exe5",
     "i18n": {
             "ru": {
                 "name": "",
@@ -5881,7 +6028,7 @@ let allMusic = [
     "id": "title-theme-exe5ds",
     "i18n": {
             "jp": {
-                "name": "タイトル画面ＢＧＭ",
+                "name": "タイトル画面",
                 "ostname":"THEME OF ROCKMAN EXE5",
                 "composer": [
                   "海田 明里（オリジナル）",
@@ -6109,10 +6256,24 @@ let allMusic = [
     "gameimage": "exe5ds.png",
     "id": "virus-battle-exe1-exe5ds",
     "i18n": {
+            "jp": {
+                "ostname": "バトルテーマ -EXE1 STYLE-",
+                "name": "ウイルス戦（エグゼ１版）",
+                "game": "エグゼ５ＤＳ",
+                "composer": [
+                  "海田 明里（オリジナル）",
+                  "高野 充彦（編曲）"
+                ],
+                "places": "ウイルス戦（『エグゼ１』をＷスロット）",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "Тема битвы -СТИЛЬ EXE1-",
+                "name": "Битва с вирусами (EXE1)",
+                "composer": [
+                  "Акари Кайда (оригинал)",
+                  "Мицухико Такано (аранжировка)"
+                ],
+                "places": "в битве с вирусами (если W Slot был активирован с картриджем EXE1 или BN1)",
             }
         }
   },
@@ -6136,10 +6297,24 @@ let allMusic = [
     "gameimage": "exe5ds.png",
     "id": "virus-battle-exe2-exe5ds",
     "i18n": {
+            "jp": {
+                "ostname": "バトルテーマ -EXE2 STYLE-",
+                "name": "ウイルス戦（エグゼ２版）",
+                "game": "エグゼ５ＤＳ",
+                "composer": [
+                  "青木 佳乃（オリジナル）",
+                  "高野 充彦（編曲）"
+                ],
+                "places": "ウイルス戦（『エグゼ２』をＷスロット）",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "Тема битвы -СТИЛЬ EXE2-",
+                "name": "Битва с вирусами (EXE2)",
+                "composer": [
+                  "Ёсино Аоки (оригинал)",
+                  "Мицухико Такано (аранжировка)"
+                ],
+                "places": "в битве с вирусами (если W Slot был активирован с картриджем EXE2 или BN2)",
             }
         }
   },
@@ -6163,10 +6338,24 @@ let allMusic = [
     "gameimage": "exe5ds.png",
     "id": "virus-battle-exe3-exe5ds",
     "i18n": {
+            "jp": {
+                "ostname": "バトルテーマ -EXE3 STYLE-",
+                "name": "ウイルス戦（エグゼ３版）",
+                "game": "エグゼ５ＤＳ",
+                "composer": [
+                  "青木 佳乃（オリジナル）",
+                  "小渕 世子（編曲）"
+                ],
+                "places": "ウイルス戦（『エグゼ３』をＷスロット）",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "Тема битвы -СТИЛЬ EXE3-",
+                "name": "Битва с вирусами (EXE3)",
+                "composer": [
+                  "Ёсино Аоки (оригинал)",
+                  "Сэйко Кобути (аранжировка)"
+                ],
+                "places": "в битве с вирусами (если W Slot был активирован с картриджем EXE3 или BN3)",
             }
         }
   },
@@ -6190,10 +6379,24 @@ let allMusic = [
     "gameimage": "exe5ds.png",
     "id": "virus-battle-exe4-exe5ds",
     "i18n": {
+            "jp": {
+                "ostname": "バトルテーマ -EXE4 STYLE-",
+                "name": "ウイルス戦（エグゼ４版）",
+                "game": "エグゼ５ＤＳ",
+                "composer": [
+                  "堀山 俊彦（オリジナル）",
+                  "高野 充彦（編曲）"
+                ],
+                "places": "ウイルス戦（『エグゼ４』をＷスロット）",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "Тема битвы -СТИЛЬ EXE4-",
+                "name": "Битва с вирусами (EXE4)",
+                "composer": [
+                  "Тосихико Хорияма (оригинал)",
+                  "Мицухико Такано (аранжировка)"
+                ],
+                "places": "в битве с вирусами (если W Slot был активирован с картриджем EXE4 или BN4)",
             }
         }
   },
@@ -6217,10 +6420,24 @@ let allMusic = [
     "gameimage": "exe5ds.png",
     "id": "virus-battle-exe45-exe5ds",
     "i18n": {
+            "jp": {
+                "ostname": "バトルテーマ -EXE4.5 STYLE-",
+                "name": "ウイルス戦（エグゼ４.５版）",
+                "game": "エグゼ５ＤＳ",
+                "composer": [
+                  "堀山 俊彦（オリジナル）",
+                  "小渕 世子（編曲）"
+                ],
+                "places": "ウイルス戦（『エグゼ４.５』をＷスロット）",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "Тема битвы -СТИЛЬ EXE4.5-",
+                "name": "Битва с вирусами (EXE4.5)",
+                "composer": [
+                  "Тосихико Хорияма (оригинал)",
+                  "Сэйко Кобути (аранжировка)"
+                ],
+                "places": "в битве с вирусами (если W Slot был активирован с картриджем EXE4.5)",
             }
         }
   },
@@ -6244,10 +6461,24 @@ let allMusic = [
     "gameimage": "exe5ds.png",
     "id": "virus-battle-exe5-exe5ds",
     "i18n": {
+            "jp": {
+                "ostname": "バトルテーマ -EXE5 STYLE-",
+                "name": "ウイルス戦（エグゼ５版）",
+                "game": "エグゼ５ＤＳ",
+                "composer": [
+                  "海田 明里（オリジナル）",
+                  "高野 充彦（編曲）"
+                ],
+                "places": "ウイルス戦",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "Тема битвы -СТИЛЬ EXE5-",
+                "name": "Битва с вирусами (EXE5)",
+                "composer": [
+                  "Акари Кайда (оригинал)",
+                  "Мицухико Такано (аранжировка)"
+                ],
+                "places": "в битве с вирусами",
             }
         }
   },
@@ -6541,10 +6772,24 @@ let allMusic = [
     "gameimage": "exe5ds.png",
     "id": "navicus-exe5ds",
     "i18n": {
+            "jp": {
+                "ostname":"ナビカスタマイザー",
+                "name": "ナビカス",
+                "game": "エグゼ５ＤＳ",
+                "composer": [
+                  "海田 明里（オリジナル）",
+                  "高野 充彦（編曲）"
+                ],
+                "places":"ナビカスタマイザー画面",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname":"Настройщик Нави",
+                "name": "Настройщик",
+                "composer": [
+                  "Акари Кайда (оригинал)",
+                  "Мицухико Такано (аранжировка)"
+                ],
+                "places":"экран Настройщика Нави",
             }
         }
   },
@@ -6658,7 +6903,7 @@ let allMusic = [
   },
   {
     "ostname": "Depth",
-    "name": "Ura Internet Theme",
+    "name": "Ura Internet",
     "files": [
       "exe5ds-urainternet.ogg"
     ],
@@ -6674,7 +6919,7 @@ let allMusic = [
     "disc": "sb5.png",
     "duration": "0:52",
     "gameimage": "exe5ds.png",
-    "id": "ura-internet-theme-exe5ds",
+    "id": "ura-internet-exe5ds",
     "i18n": {
             "ru": {
                 "name": "",
@@ -6974,7 +7219,7 @@ let allMusic = [
     "id": "title-theme-exe6",
     "i18n": {
             "jp": {
-                "name": "タイトル画面ＢＧＭ",
+                "name": "タイトル画面",
                 "ostname":"THEME OF ROCKMAN EXE6",
                 "composer": [
                   "青木 佳乃"
@@ -7126,7 +7371,7 @@ let allMusic = [
                 "composer": [
                   "青木 佳乃"
                 ],
-                "places": "実世界（事件発生中；ＧＢＡ版のストーリークリア後）",
+                "places": "実世界（事件発生中；ＧＢＡ版をストーリークリア後）",
             },
             "ru": {
                 "name": "Тема происшествий",
@@ -7189,7 +7434,7 @@ let allMusic = [
     "id": "robot-control-pc-comp-exe6",
     "i18n": {
             "jp": {
-                "name": "ロボ制御ＰＣの電脳ＢＧＭ",
+                "name": "ロボ制御ＰＣの電脳",
                 "ostname": "Blast Speed",
                 "game": "エグゼ６",
                 "composer": [
@@ -7447,7 +7692,7 @@ let allMusic = [
     "id": "judgement-tree-comp-exe6",
     "i18n": {
             "jp": {
-                "name": "審判の木の電脳ＢＧＭ",
+                "name": "審判の木の電脳",
                 "ostname": "Tree of Judgement",
                 "game": "エグゼ６",
                 "composer": [
@@ -7624,7 +7869,7 @@ let allMusic = [
     "id": "weatherkun-comp-exe6",
     "i18n": {
             "jp": {
-                "name": "ウェザーくんの電脳ＢＧＭ",
+                "name": "ウェザーくんの電脳",
                 "ostname": "Break the Storm",
                 "game": "エグゼ６",
                 "composer": [
@@ -7726,7 +7971,7 @@ let allMusic = [
   },
   {
     "ostname": "Danger Zone!",
-    "name": "Ura Internet Theme",
+    "name": "Ura Internet",
     "files": [
       "exe6-urainternet.ogg"
     ],
@@ -7742,7 +7987,7 @@ let allMusic = [
       "exe6g.png",
       "exe6f.png"
     ],
-    "id": "ura-internet-theme-exe6",
+    "id": "ura-internet-exe6",
     "i18n": {
             "ru": {
                 "name": "",
@@ -7771,10 +8016,18 @@ let allMusic = [
     ],
     "id": "navicus-exe6",
     "i18n": {
+            "jp": {
+                "ostname":"ナビカスタマイザー",
+                "name": "ナビカス",
+                "game": "エグゼ６",
+                "composer": "青木 佳乃",
+                "places":"ナビカスタマイザー画面",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname":"Настройщик Нави",
+                "name": "Настройщик",
+                "composer": "Ёсино Аоки",
+                "places":"экран Настройщика Нави",
             }
         }
   },
@@ -7907,13 +8160,13 @@ let allMusic = [
     "id": "www-base-exe6",
     "i18n": {
             "jp": {
-                "name": "ＷＷＷの本拠地ＢＧＭ",
+                "name": "ＷＷＷの本拠地",
                 "ostname": "秘密の本拠地",
                 "game": "エグゼ６",
                 "composer": [
                   "青木 佳乃"
                 ],
-                "places": "万博会場（Ｄｒ．ワイリー登場後；ＧＢＡ版のストーリークリア後）",
+                "places": "万博会場（Ｄｒ．ワイリー登場後；ＧＢＡ版をストーリークリア後）",
             },
             "ru": {
                 "name": "База WWW",
@@ -8307,7 +8560,7 @@ let allMusic = [
     "id": "title-theme-exeoss",
     "i18n": {
             "jp": {
-                "name": "タイトル画面ＢＧＭ",
+                "name": "タイトル画面",
                 "ostname":"THEME OF ROCKMAN EXEOSS",
                 "composer": [
                   "海田 明里（オリジナル）",
