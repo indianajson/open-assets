@@ -4843,7 +4843,7 @@ let allMusic = [
                 "ostname":"Борьба с вирусами",
                 "name": "Битва с вирусами",
                 "composer": "Юко Такэхара",
-                "places":"в битве с вирусами",
+                "places":"в битвах с вирусами",
             }
         }
   },
@@ -4879,7 +4879,7 @@ let allMusic = [
                 "ostname":"Нет-Битва",
                 "name": "Битва с боссом",
                 "composer": "Юко Такэхара",
-                "places":"в битве с боссом",
+                "places":"в битвах с боссами",
             }
         }
   },
@@ -9157,6 +9157,70 @@ let allMusic = [
                 "name": "",
                 "ostname":"",
                 "places":"",
+            }
+        }
+  },
+  {
+    "ostname": "Breathe Slowly",
+    "name": "Air Vent Comp",
+    "files": [
+      "exe7-tsuukikounodennou.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE7/BNCX",
+    "composer": "Michael Staple",
+    "places": "Air Vent Comp 1-2",
+    "start": "0",
+    "stop": "46347",
+    "disc": "chronox.png",
+    "duration": "0:46",
+    "gameimage": "chronox.png",
+    "id": "air-vent-comp-exe7",
+    "i18n": {
+            "jp": {
+                "ostname":"Breathe Slowly",
+                "name": "通気口の電脳",
+                "game": "エグゼ７",
+                "composer":"マイケル・ステイプル",
+                "places":"通気口の電脳（１－２）",
+            },
+            "ru": {
+                "ostname":"Дыши медленно",
+                "name": "Кибермир вентиляции",
+                "composer":"Майкл Стейпл",
+                "places":"Кибермир вентиляции 1-2",
+            }
+        }
+  },
+  {
+    "ostname": "Digital Duel",
+    "name": "Boss Battle",
+    "files": [
+      "exe7-boss.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "EXE7/BNCX",
+    "composer": "Michael Staple",
+    "places": "Boss Battles",
+    "start": "7198",
+    "stop": "45600",
+    "disc": "chronox.png",
+    "duration": "0:45",
+    "gameimage": "chronox.png",
+    "id": "air-vent-comp-exe7",
+    "i18n": {
+            "jp": {
+                "ostname":"デジタルデュエル",
+                "name": "ボス戦",
+                "game": "エグゼ７",
+                "composer": "マイケル・ステイプル",
+                "places":"ボス戦",
+            },
+            "ru": {
+                "ostname":"Цифровой дуэль",
+                "name": "Битва с боссом",
+                "composer": "Майкл Стейпл",
+                "places":"в битвах с боссами",
             }
         }
   },
