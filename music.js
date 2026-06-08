@@ -34,7 +34,7 @@ let allMusic = [
                 "composer": [
                   "Акари Кайда"
                 ],
-                "places":"титульный экран",
+                "places":"на титульном экране",
             }
         }
   },
@@ -46,9 +46,7 @@ let allMusic = [
     ],
     "author": "K1rbYat1Na",
     "game": "EXE1/BN1",
-    "composer": [
-      "Akari Kaida"
-    ],
+    "composer": "Akari Kaida",
     "places": "Akihara Town, School (outside), Government Complex (outside), Densan Town, Metroline",
     "start": "0",
     "stop": "54246",
@@ -58,21 +56,16 @@ let allMusic = [
     "id": "akihara-town-exe1",
     "i18n": {
             "jp": {
-                "name": "秋原町",
                 "ostname": "ホームタウン",
+                "name": "秋原町",
                 "game": "エグゼ１",
-                "composer": [
-                  "海田 明里"
-                ],
+                "composer": "海田 明里",
                 "places": "秋原町、学校（屋外）、官公庁（屋外）、デンサンタウン、メトロライン",
             },
             "ru": {
-                "name": "Тема Акихары",
                 "ostname": "Родной город",
-                "game": "EXE1/BN1",
-                "composer": [
-                  "Акари Кайда"
-                ],
+                "name": "Тема Акихары",
+                "composer": "Акари Кайда",
                 "places": "Акихара-Тё, Школа (снаружи), Правительственный комплекс (снаружи), Денсан-Таун, Метролайн",
             }
         }
@@ -852,20 +845,17 @@ let allMusic = [
     "id": "title-theme-exe2",
     "i18n": {
             "jp": {
-                "name": "タイトル画面",
                 "ostname":"THEME OF ROCKMAN EXE2",
-                "composer": [
-                  "青木 佳乃"
-                ],
+                "name": "タイトル画面",
+                "game": "エグゼ２",
+                "composer": "青木 佳乃",
                 "places":"タイトル画面",
             },
             "ru": {
-                "name": "Заглавная тема",
                 "ostname":"ТЕМА ROCKMAN EXE2",
-                "composer": [
-                  "Ёсино Аоки"
-                ],
-                "places":"титульный экран",
+                "name": "Заглавная тема",
+                "composer": "Ёсино Аоки",
+                "places":"на титульном экране",
             }
         }
   },
@@ -879,17 +869,25 @@ let allMusic = [
     "game": "EXE2/BN2",
     "duration": "0:10",
     "composer": "Yoshino Aoki",
-    "places": "Cutscenes feat. The Ringleader of Gospel (Shun Obihiro)",
+    "places": "cutscenes feat. The Ringleader of Gospel (Shun Obihiro)",
     "start": "0",
     "stop": "9646",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "gospel-theme-exe2",
     "i18n": {
+            "jp": {
+                "ostname":"THEME OF ROCKMAN EXE2",
+                "name": "ゴスペルのテーマ",
+                "game": "エグゼ２",
+                "composer": "青木 佳乃",
+                "places":"ゴスペル首領（帯広シュン）が登場するカットシーン",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname":"Тайные манёвры",
+                "name": "Тема Gospel",
+                "composer": "Ёсино Аоки",
+                "places":"в катсценах с участием лидера Gospel (Сюн Обихиро)",
             }
         }
   },
@@ -910,10 +908,18 @@ let allMusic = [
     "gameimage": "exe2.png",
     "id": "akihara-town-exe2",
     "i18n": {
+            "jp": {
+                "ostname":"ホームタウン",
+                "name": "秋原町",
+                "game": "エグゼ２",
+                "composer": "青木 佳乃",
+                "places":"秋原町",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname":"Родной город",
+                "name": "Тема Акихары",
+                "composer": "Ёсино Аоки",
+                "places":"Акихара-Тё",
             }
         }
   },
@@ -934,10 +940,18 @@ let allMusic = [
     "gameimage": "exe2.png",
     "id": "okuden-valley-exe2",
     "i18n": {
+            "jp": {
+                "ostname":"おくデンだに",
+                "name": "おくデンだに",
+                "game": "エグゼ２",
+                "composer": "青木 佳乃",
+                "places":"おくデンだに",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname":"Долина Окуден",
+                "name": "Долина Окуден",
+                "composer": "Ёсино Аоки",
+                "places":"долина Окуден",
             }
         }
   },
@@ -958,10 +972,18 @@ let allMusic = [
     "gameimage": "exe2.png",
     "id": "marine-harbor-exe2",
     "i18n": {
+            "jp": {
+                "ostname":"マリンハーバー",
+                "name": "マリンハーバー",
+                "game": "エグゼ２",
+                "composer": "青木 佳乃",
+                "places":"マリンハーバー",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname":"Морская гавань",
+                "name": "Морская гавань",
+                "composer": "Ёсино Аоки",
+                "places":"Морская гавань",
             }
         }
   },
@@ -982,16 +1004,24 @@ let allMusic = [
     "gameimage": "exe2.png",
     "id": "official-center-exe2",
     "i18n": {
+            "jp": {
+                "ostname":"オフィシャルセンター",
+                "name": "オフィシャルセンター",
+                "game": "エグゼ２",
+                "composer": "青木 佳乃",
+                "places":"オフィシャルセンター",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname":"Официальный центр",
+                "name": "Официальный центр",
+                "composer": "Ёсино Аоки",
+                "places":"Официальный центр",
             }
         }
   },
   {
     "ostname": "Departure",
-    "name": "Densan Airport",
+    "name": "Airport",
     "files": [
       "exe2-densankuukou.ogg"
     ],
@@ -999,17 +1029,25 @@ let allMusic = [
     "game": "EXE2/BN2",
     "duration": "0:54",
     "composer": "Yoshino Aoki",
-    "places": "Densan Airport",
+    "places": "Densan Airport, Amerope Airport",
     "start": "0",
     "stop": "53930",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
-    "id": "densan-airport-exe2",
+    "id": "airport-exe2",
     "i18n": {
+            "jp": {
+                "ostname":"旅立ち",
+                "name": "空港",
+                "game": "エグゼ２",
+                "composer": "青木 佳乃",
+                "places":"デンサン空港、アメロッパ空港",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname":"Официальный центр",
+                "name": "Официальный центр",
+                "composer": "Ёсино Аоки",
+                "places":"в аэропортах Денсана и Амевропы",
             }
         }
   },
@@ -1030,10 +1068,18 @@ let allMusic = [
     "gameimage": "exe2.png",
     "id": "amerope-town-exe2",
     "i18n": {
+            "jp": {
+                "ostname":"異国の街並み",
+                "name": "アメロッパタウン",
+                "game": "エグゼ２",
+                "composer": "青木 佳乃",
+                "places":"アメロッパの街並み",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname":"Пейзажи зарубежной страны",
+                "name": "Амевропа-Таун",
+                "composer": "Ёсино Аоки",
+                "places":"на улицах Амевропы",
             }
         }
   },
@@ -1047,17 +1093,25 @@ let allMusic = [
     "game": "EXE2/BN2",
     "duration": "0:36",
     "composer": "Yoshino Aoki",
-    "places": "Amerope Park and Castle",
+    "places": "Amerope Park, Amerope Castle",
     "start": "0",
     "stop": "35968",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "amerope-castle-exe2",
     "i18n": {
+            "jp": {
+                "ostname":"アメロッパ城",
+                "name": "アメロッパ城",
+                "game": "エグゼ２",
+                "composer": "青木 佳乃",
+                "places":"アメロッパーク、アメロッパ城",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname":"Замок Амевропы",
+                "name": "Замок Амевропы",
+                "composer": "Ёсино Аоки",
+                "places":"в парке и замке Амевропы",
             }
         }
   },
@@ -1071,17 +1125,25 @@ let allMusic = [
     "game": "EXE2/BN2",
     "duration": "0:08",
     "composer": "Yoshino Aoki",
-    "places": "Back Street in Amerope",
+    "places": "Back Street in Amerope Town",
     "start": "0",
     "stop": "8038",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "back-street-exe2",
     "i18n": {
+            "jp": {
+                "ostname":"裏通り",
+                "name": "裏通り",
+                "game": "エグゼ２",
+                "composer": "青木 佳乃",
+                "places":"アメロッパタウンの裏通り",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname":"Переулок",
+                "name": "Переулок",
+                "composer": "Ёсино Аоки",
+                "places":"в переулке Амевропа-Таун",
             }
         }
   },
@@ -1102,10 +1164,18 @@ let allMusic = [
     "gameimage": "exe2.png",
     "id": "dungeon-exe2",
     "i18n": {
+            "jp": {
+                "ostname":"地下牢",
+                "name": "地下牢",
+                "game": "エグゼ２",
+                "composer": "青木 佳乃",
+                "places":"アメロッパ城地下牢",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname":"Темница",
+                "name": "Темница",
+                "composer": "Ёсино Аоки",
+                "places":"в темница замка Амевропы",
             }
         }
   },
@@ -1126,10 +1196,18 @@ let allMusic = [
     "gameimage": "exe2.png",
     "id": "airplane-exe2",
     "i18n": {
+            "jp": {
+                "ostname":"空の旅",
+                "name": "飛行機",
+                "game": "エグゼ２",
+                "composer": "青木 佳乃",
+                "places":"飛行機",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname":"Авиаперелёт",
+                "name": "Самолёт",
+                "composer": "Ёсино Аоки",
+                "places":"в самолёте",
             }
         }
   },
@@ -1143,17 +1221,25 @@ let allMusic = [
     "game": "EXE2/BN2",
     "duration": "0:29",
     "composer": "Yoshino Aoki",
-    "places": "Kotobuki Town",
+    "places": "Kotobuki Town and the Apartment",
     "start": "653",
     "stop": "28597",
     "disc": "sb1.png",
     "gameimage": "exe2.png",
     "id": "kotobuki-town-exe2",
     "i18n": {
+            "jp": {
+                "ostname":"決意を胸に",
+                "name": "コトブキ町",
+                "game": "エグゼ２",
+                "composer": "青木 佳乃",
+                "places":"コトブキ町、マンション",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname":"Решимость в сердце",
+                "name": "Котобуки",
+                "composer": "Ёсино Аоки",
+                "places":"в Котобуки-Тё и в Квартире",
             }
         }
   },
@@ -1692,7 +1778,7 @@ let allMusic = [
                 "composer": [
                   "Ёсино Аоки"
                 ],
-                "places":"титульный экран",
+                "places":"на титульном экране",
             }
         }
   },
@@ -2533,7 +2619,7 @@ let allMusic = [
                 "composer": [
                   "Тосихико Хорияма"
                 ],
-                "places":"титульный экран",
+                "places":"на титульном экране",
             }
         }
   },
@@ -3567,7 +3653,7 @@ let allMusic = [
                 "composer": [
                   "Тосихико Хорияма"
                 ],
-                "places":"титульный экран",
+                "places":"на титульном экране",
             }
         }
   },
@@ -5017,7 +5103,7 @@ let allMusic = [
                 "composer": [
                   "Акари Кайда"
                 ],
-                "places":"титульный экран",
+                "places":"на титульном экране",
             }
         }
   },
@@ -6043,7 +6129,7 @@ let allMusic = [
                   "Акари Кайда (оригинал)",
                   "Мицухико Такано (аранжировка)"
                 ],
-                "places":"титульный экран",
+                "places":"на титульном экране",
             }
         }
   },
@@ -7232,7 +7318,7 @@ let allMusic = [
                 "composer": [
                   "Ёсино Аоки"
                 ],
-                "places":"титульный экран",
+                "places":"на титульном экране",
             }
         }
   },
@@ -8575,7 +8661,7 @@ let allMusic = [
                   "Акари Кайда (оригинал)",
                   "Мицухико Такано (аранжировка)"
                 ],
-                "places":"титульный экран",
+                "places":"на титульном экране",
             }
         }
   },
@@ -9164,7 +9250,7 @@ let allMusic = [
     "ostname": "Breathe Slowly",
     "name": "Air Vent Comp",
     "files": [
-      "exe7-tsuukikounodennou.ogg"
+      "exe7/exe7-tsuukikounodennou.ogg"
     ],
     "author": "K1rbYat1Na",
     "game": "EXE7/BNCX",
@@ -9196,7 +9282,7 @@ let allMusic = [
     "ostname": "Digital Duel",
     "name": "Boss Battle",
     "files": [
-      "exe7-boss.ogg"
+      "exe7/exe7-boss.ogg"
     ],
     "author": "K1rbYat1Na",
     "game": "EXE7/BNCX",
