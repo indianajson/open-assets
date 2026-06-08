@@ -9207,7 +9207,7 @@ let allMusic = [
     "disc": "chronox.png",
     "duration": "0:45",
     "gameimage": "chronox.png",
-    "id": "air-vent-comp-exe7",
+    "id": "boss-battle-exe7",
     "i18n": {
             "jp": {
                 "ostname":"デジタルデュエル",
