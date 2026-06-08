@@ -1,54 +1,74 @@
 //  { "name": "", "files": [ ".animation", ".png" ], "author": "", "game": "", "preview": ".animation", "id": "" },
 
 let allNPCs = [{
-    "name": "Swordy (Virus)",
+    "name": "Swordin (virus)",
     "files": ["swordy_ow.animation", "swordy_ow.png"],
     "author": "D3str0y3d",
     "game": "Custom",
     "preview": "swordy_ow.animation",
-    "id": "swordy-custom",
+    "id": "swordin-custom",
     "i18n": {
+            "jp": {
+                "name": "スウォーディン（ウイルス）",
+                "game": "自作"
+            },
             "ru": {
-                "name": "",
+                "name": "Свордин (вирус)",
+                "game": "Самодел"
             }
         }
   },
   {
-    "name": "Ratty (Virus)",
+    "name": "Chueton (virus)",
     "files": ["ratty_ow.animation", "ratty_ow.png"],
     "author": "D3str0y3d",
     "game": "Custom",
     "preview": "ratty_ow.animation",
-    "id": "ratty-custom",
+    "id": "chueton-custom",
     "i18n": {
+            "jp": {
+                "name": "チュートン（ウイルス）",
+                "game": "自作"
+            },
             "ru": {
-                "name": "",
+                "name": "Чутон (вирус)",
+                "game": "Самодел"
             }
         }
   },
   {
-    "name": "Trumpy (Virus)",
+    "name": "Rarapappa (virus)",
     "files": ["trumpy_ow.animation", "trumpy_ow.png"],
     "author": "D3str0y3d",
     "game": "Custom",
     "preview": "trumpy_ow.animation",
-    "id": "trumpy-custom",
+    "id": "rarapappa-custom",
     "i18n": {
+            "jp": {
+                "name": "ララパッパ（ウイルス）",
+                "game": "自作"
+            },
             "ru": {
-                "name": "",
+                "name": "Рарапаппа (вирус)",
+                "game": "Самодел"
             }
         }
   },
   {
-    "name": "Volgear (Virus)",
+    "name": "VolkelGear (Virus)",
     "files": ["volgear.animation", "volgear.png"],
     "author": ["Indiana", "Keristero"],
     "game": "EXE4/BN4",
     "preview": "volgear.animation",
     "id": "volgear-exe4",
     "i18n": {
+            "jp": {
+                "name": "ボルケルギア（ウイルス）",
+                "game": "自作"
+            },
             "ru": {
-                "name": "",
+                "name": "ВулкелГир (вирус)",
+                "game": "Самодел"
             }
         }
   },
@@ -58,10 +78,14 @@ let allNPCs = [{
     "author": "DarkwarePX",
     "game": "EXE5/BN5",
     "preview": "blizzardman.animation",
-    "id": "blizzardman-bn5",
+    "id": "blizzardman-exe5",
     "i18n": {
+            "jp": {
+                "name": "ブリザードマン",
+                "game": "エグゼ５"
+            },
             "ru": {
-                "name": "",
+                "name": "Близзардмен"
             }
         }
   },
@@ -73,190 +97,257 @@ let allNPCs = [{
     "preview": "noir-ow.animation",
     "id": "noir",
     "i18n": {
+            "jp": {
+                "game": "自作"
+            },
             "ru": {
-                "name": "",
+                "game": "Самодел"
             }
         }
   },
   {
     "name": "Cyber Bat",
     "files": ["cyber_bat.animation", "cyber_bat.png"],
-    "author": ["Indiana", "Keristero"],
+    "author": [
+        "Indiana",
+        "Keristero"
+    ],
     "game": "EXE4/BN4",
     "preview": "cyber_bat.animation",
     "id": "cyber-bat-exe4",
     "i18n": {
+            "jp": {
+                "name": "電脳バット",
+                "game": "エグゼ４"
+            },
             "ru": {
-                "name": "",
+                "name": "Летучая мышь"
             }
         }
   },
   {
-    "name": "Mr. Prog (Santa)",
+    "name": "Santa Program-kun",
     "files": ["progsmas.animation", "progsmas.png", "mug.animation", "progsmas-mug.png"],
-    "author": ["Learn2Fly (sprite)", "D3str0y3d (tiled)"],
+    "author": [
+        "Learn2Fly (sprite)",
+        "D3str0y3d (tiled)"
+    ],
     "game": "Custom",
     "preview": "progsmas.animation",
-    "id": "mr-prog-santa-custom",
+    "id": "santa-program-kun-custom",
     "i18n": {
+            "jp": {
+                "name": "サンタプログラムくん",
+                "game": "自作"
+            },
             "ru": {
-                "name": "",
+                "name": "Программка-Санта",
+                "game": "Самодел"
             }
         }
   },
   {
-    "name": "Mettaur Swing",
+    "name": "Metall (swing)",
     "files": ["MetSwing.animation", "MetSwing.png", "mug.animation", "mettaur-mug.png"],
     "author": "D3str0y3d",
     "game": "Custom",
     "preview": "MetSwing.animation",
-    "id": "mettaur-swing-custom",
+    "id": "metall-swing-custom",
     "i18n": {
+            "jp": {
+                "name": "メットール（振り）",
+                "game": "自作"
+            },
             "ru": {
-                "name": "",
+                "name": "Метолл (махание)",
+                "game": "Самодел"
             }
         }
   },
   {
-    "name": "Bass",
+    "name": "Forte",
     "files": ["bass.animation", "bass.png", "mug.animation", "bass-mug.png"],
-    "author": "unknown",
+    "author": "CAPCOM",
     "game": "EXE6/BN6",
     "preview": "bass.animation",
-    "id": "bass-exe6",
+    "id": "forte-exe6",
     "i18n": {
+            "jp": {
+                "name": "フォルテ",
+                "game": "エグゼ６"
+            },
             "ru": {
-                "name": "",
+                "name": "Форте",
             }
         }
   },
   {
     "name": "Acid Ace",
     "files": ["acid-ace-sf3.animation", "acid-ace-sf3.png", "mug.animation", "acid-ace-sf3-mug.png"],
-    "author": "unknown",
+    "author": "CAPCOM",
     "game": "SSR3/SF3",
     "preview": "acid-ace-sf3.animation",
     "id": "acid-ace-ssr3",
     "i18n": {
+            "jp": {
+                "name": "アシッド・エース",
+                "game": "流星３"
+            },
             "ru": {
-                "name": "",
+                "name": "Эйсид Эйс",
             }
         }
   },
   {
     "name": "Acid",
     "files": ["acid-sf3.animation", "acid-sf3.png", "mug.animation", "acid-sf3-mug.png"],
-    "author": "unknown",
+    "author": "CAPCOM",
     "game": "SSR3/SF3",
     "preview": "acid-sf3.animation",
     "id": "acid-ssr3",
     "i18n": {
+            "jp": {
+                "name": "アシッド",
+                "game": "流星３"
+            },
             "ru": {
-                "name": "",
+                "name": "Эйсид",
             }
         }
   },
   {
-    "name": "Alpha",
+    "name": "Proto",
     "files": ["alpha.animation", "alpha.png", "mug.animation", "alpha-mug.png"],
-    "author": "unknown",
+    "author": "CAPCOM",
     "game": "EXE3/BN3",
     "preview": "alpha.animation",
-    "id": "alpha-exe3",
+    "id": "proto-exe3",
     "i18n": {
+            "jp": {
+                "name": "プロト",
+                "game": "エグゼ３"
+            },
             "ru": {
-                "name": "",
+                "name": "Прото",
             }
         }
   },
   {
-    "name": "Angel Fm",
+    "name": "Angel Denpa-kun",
     "files": ["angel-fm-sf2.animation", "angel-fm-sf2.png", "mug.animation"],
-    "author": "unknown",
+    "author": "CAPCOM",
     "game": "SSR2/SF2",
     "preview": "angel-fm-sf2.animation",
-    "id": "angel-fm-ssr2",
+    "id": "angel-denpa-kun-ssr2",
     "i18n": {
+            "jp": {
+                "name": "エンジェルデンパくん",
+                "game": "流星２"
+            },
             "ru": {
-                "name": "",
+                "name": "Волна-кун-ангел",
             }
         }
   },
   {
-    "name": "Aquaman",
+    "name": "AquaMan",
     "files": ["aquaman.animation", "aquaman.png", "mug.animation", "aquaman-mug.png"],
-    "author": "unknown",
+    "author": "CAPCOM",
     "game": "EXE6/BN6",
     "preview": "aquaman.animation",
     "id": "aquaman-exe6",
     "i18n": {
+            "jp": {
+                "name": "アクアマン",
+                "game": "エグゼ６"
+            },
             "ru": {
-                "name": "",
+                "name": "Аквамен",
             }
         }
   },
   {
-    "name": "Bandit (Thief)",
+    "name": "Bandit (thief)",
     "files": ["bandit-thief-bn2.animation", "bandit-thief-bn2.png", "mug.animation"],
-    "author": "unknown",
+    "author": "CAPCOM",
     "game": "EXE2/BN2",
     "preview": "bandit-thief-bn2.animation",
     "id": "bandit-thief-exe2",
     "i18n": {
+            "jp": {
+                "name": "山賊（泥棒）",
+                "game": "エグゼ２"
+            },
             "ru": {
-                "name": "",
+                "name": "Бандит (вор)",
             }
         }
   },
   {
-    "name": "Bandit (Vampire)",
+    "name": "Bandit (vampire)",
     "files": ["bandit-vampire-bn2.animation", "bandit-vampire-bn2.png", "mug.animation"],
-    "author": "unknown",
+    "author": "CAPCOM",
     "game": "EXE2/BN2",
     "preview": "bandit-vampire-bn2.animation",
     "id": "bandit-vampire-exe2",
     "i18n": {
+            "jp": {
+                "name": "山賊（ヴァンパイア）",
+                "game": "エグゼ２"
+            },
             "ru": {
-                "name": "",
+                "name": "Бандит (вампир)",
             }
         }
   },
   {
     "name": "Bandit (Zombie)",
     "files": ["bandit-zombie-bn2.animation", "bandit-zombie-bn2.png", "mug.animation"],
-    "author": "unknown",
+    "author": "CAPCOM",
     "game": "EXE2/BN2",
     "preview": "bandit-zombie-bn2.animation",
     "id": "bandit-zombie-exe2",
     "i18n": {
+            "jp": {
+                "name": "山賊（ゾンビ）",
+                "game": "エグゼ２"
+            },
             "ru": {
-                "name": "",
+                "name": "Бандит (зомби)",
             }
         }
   },
   {
-    "name": "Bass",
+    "name": "Forte",
     "files": ["BassBn3.animation", "BassBn3.png", "BassBn3-mug.animation", "BassBn3-mug.png"],
-    "author": "unknown",
+    "author": "CAPCOM",
     "game": "EXE3/BN3",
     "preview": "BassBn3.animation",
-    "id": "bass-exe3",
+    "id": "forte-exe3",
     "i18n": {
+            "jp": {
+                "name": "フォルテ",
+                "game": "エグゼ３"
+            },
             "ru": {
-                "name": "",
+                "name": "Форте",
             }
         }
   },
   {
-    "name": "Beeg Fm",
+    "name": "King Roots",
     "files": ["beeg-fm-sf3.animation", "beeg-fm-sf3.png", "mug.animation"],
     "author": "unknown",
     "game": "SSR3/SF3",
     "preview": "beeg-fm-sf3.animation",
-    "id": "beeg-fm-ssr3",
+    "id": "king-roots-ssr3",
     "i18n": {
+            "jp": {
+                "name": "キング・ルーツ",
+                "game": "流星３"
+            },
             "ru": {
-                "name": "",
+                "name": "Король Рутс",
             }
         }
   },
@@ -268,8 +359,12 @@ let allNPCs = [{
     "preview": "burai-sf3.animation",
     "id": "burai-ssr3",
     "i18n": {
+            "jp": {
+                "name": "ブライ",
+                "game": "流星３"
+            },
             "ru": {
-                "name": "",
+                "name": "Бурай",
             }
         }
   },
@@ -281,8 +376,12 @@ let allNPCs = [{
     "preview": "dark-navi-shanghai.animation",
     "id": "dark-navi-shanghai",
     "i18n": {
+            "jp": {
+                "name": "ダークナビ",
+                "game": "シャンハイ"
+            },
             "ru": {
-                "name": "",
+                "name": "Тёмный Нави",
             }
         }
   },
@@ -294,21 +393,31 @@ let allNPCs = [{
     "preview": "dark-roll.animation",
     "id": "dark-roll-custom",
     "i18n": {
+            "jp": {
+                "name": "ダークロール",
+                "game": "自作"
+            },
             "ru": {
-                "name": "",
+                "name": "Тёмная Ролл",
+                "game": "Самодел"
             }
         }
   },
   {
-    "name": "Mr. Prog (Dark Ninja)",
+    "name": "Ninja Program-kun (dark)",
     "files": ["darkprog-ninja.animation", "darkprog-ninja.png", "mug.animation", "darkprog-ninja-mug.png"],
     "author": "unknown",
     "game": "Custom",
     "preview": "darkprog-ninja.animation",
-    "id": "mr-prog-dark-ninja-custom",
+    "id": "ninja-program-kun-dark-custom",
     "i18n": {
+            "jp": {
+                "name": "忍者プログラムくん（暗）",
+                "game": "自作"
+            },
             "ru": {
-                "name": "",
+                "name": "Программка-ниндзя (тёмный)",
+                "game": "Самодел"
             }
         }
   },
@@ -320,203 +429,264 @@ let allNPCs = [{
     "preview": "denpa-warp-sf2.animation",
     "id": "denpa-warp-ssr2",
     "i18n": {
-            "ru": {
-                "name": "",
+            "jp": {
+                "game": "流星２",
             }
         }
   },
   {
-    "name": "Elecman",
+    "name": "ElecMan",
     "files": ["elecman.animation", "elecman.png", "mug.animation", "elecman-mug.png"],
     "author": "unknown",
-    "game": "Other",
+    "game": "EXE6/BN6",
     "preview": "elecman.animation",
-    "id": "elecman-other",
+    "id": "elecman-exe6",
     "i18n": {
+            "jp": {
+                "name": "エレキマン",
+                "game": "エグゼ６"
+            },
             "ru": {
-                "name": "",
+                "name": "Элекмен"
             }
         }
   },
   {
-    "name": "Eraseman",
+    "name": "KillerMan",
     "files": ["eraseman-bn6.animation", "eraseman-bn6.png", "mug.animation", "eraseman-bn6-mug.png"],
     "author": "unknown",
     "game": "EXE6/BN6",
     "preview": "eraseman-bn6.animation",
-    "id": "eraseman-exe6",
+    "id": "killerman-exe6",
     "i18n": {
+            "jp": {
+                "name": "キラーマン",
+                "game": "エグゼ６"
+            },
             "ru": {
-                "name": "",
+                "name": "Киллермен"
             }
         }
   },
   {
-    "name": "Female Navi Orange",
+    "name": "Female Navi (orange)",
     "files": ["female-navi-exe4_orange.animation", "female-navi-exe4_orange.png", "mug.animation", "female-navi-exe4_orange-mug.png"],
     "author": "unknown",
     "game": "EXE4/BN4",
     "preview": "female-navi-exe4_orange.animation",
     "id": "female-navi-orange-exe4",
     "i18n": {
+            "jp": {
+                "name": "女ナビ（オレンジ）",
+                "game": "エグゼ６"
+            },
             "ru": {
-                "name": "",
+                "name": "Нави-женщина (оранжевый)"
             }
         }
   },
   {
-    "name": "Female Navi Purple",
+    "name": "Female Navi (purple)",
     "files": ["female-navi-exe5_purple.animation", "female-navi-exe5_purple.png", "mug.animation", "female-navi-exe5_purple-mug.png"],
     "author": "unknown",
     "game": "EXE5/BN5",
     "preview": "female-navi-exe5_purple.animation",
     "id": "female-navi-purple-exe5",
     "i18n": {
+            "jp": {
+                "name": "女ナビ（紫）",
+                "game": "エグゼ６"
+            },
             "ru": {
-                "name": "",
+                "name": "Нави-женщина (фиолетовый)"
             }
         }
   },
   {
-    "name": "Female Navi Pink",
+    "name": "Female Navi (pink)",
     "files": ["female-navi-exe6_pink.animation", "female-navi-exe6_pink.png", "mug.animation", "female-navi-exe6_pink-mug.png"],
     "author": "unknown",
     "game": "EXE6/BN6",
     "preview": "female-navi-exe6_pink.animation",
     "id": "female-navi-pink-exe6",
     "i18n": {
+            "jp": {
+                "name": "女ナビ（ピンク）",
+                "game": "エグゼ６"
+            },
             "ru": {
-                "name": "",
+                "name": "Нави-женщина (розовый)"
             }
         }
   },
   {
-    "name": "Female Navi Yellow",
+    "name": "Female Navi (yellow)",
     "files": ["female-navi-exe6_yellow.animation", "female-navi-exe6_yellow.png", "mug.animation", "female-navi-exe6_yellow-mug.png"],
     "author": "unknown",
     "game": "EXE6/BN6",
     "preview": "female-navi-exe6_yellow.animation",
     "id": "female-navi-yellow-exe6",
     "i18n": {
+            "jp": {
+                "name": "女ナビ（黄）",
+                "game": "エグゼ６"
+            },
             "ru": {
-                "name": "",
+                "name": "Нави-женщина (жёлтый)"
             }
         }
   },
   {
-    "name": "Fireman",
+    "name": "FireMan",
     "files": ["fireman-bn45.animation", "fireman-bn45.png", "mug.animation", "fireman-bn45-mug.png"],
     "author": "unknown",
     "game": "EXE4.5",
     "preview": "fireman-bn45.animation",
-    "id": "fireman-exe4-5",
+    "id": "fireman-exe45",
     "i18n": {
+            "jp": {
+                "name": "ファイアマン",
+                "game": "エグゼ４.５"
+            },
             "ru": {
-                "name": "",
+                "name": "Файрмен"
             }
         }
   },
   {
-    "name": "Flameman (Idle)",
+    "name": "FlameMan (idle)",
     "files": ["flameman-bn3-idle-only.animation", "flameman-bn3-idle-only.png", "mug.animation", "flameman-bn3-idle-only-mug.png"],
     "author": "unknown",
     "game": "EXE3/BN3",
     "preview": "flameman-bn3-idle-only.animation",
     "id": "flameman-idle-exe3",
     "i18n": {
+            "jp": {
+                "name": "フレイムマン（常任）",
+                "game": "エグゼ３"
+            },
             "ru": {
-                "name": "",
+                "name": "Флейммен"
             }
         }
   },
   {
-    "name": "Glyde (Idle)",
+    "name": "Glide (idle)",
     "files": ["Glyde_EXE4.animation", "Glyde_EXE4.png", "mug.animation", "Glyde_EXE4-mug.png"],
     "author": "unknown",
     "game": "EXE4/BN4",
     "preview": "Glyde_EXE4.animation",
-    "id": "glyde-idle-exe4",
+    "id": "glide-idle-exe4",
     "i18n": {
+            "jp": {
+                "name": "グライド（常任）",
+                "game": "エグゼ４"
+            },
             "ru": {
-                "name": "",
+                "name": "Глайд"
             }
         }
   },
   {
-    "name": "Navi - Green",
+    "name": "Navi (green)",
     "files": ["green-white-normal-shanghai.animation", "green-white-normal-shanghai.png", "mug.animation", "green-white-normal-shanghai-mug.png"],
     "author": "unknown",
     "game": "Shanghai",
     "preview": "green-white-normal-shanghai.animation",
     "id": "navi-green-shanghai",
     "i18n": {
+            "jp": {
+                "name": "ナビ（緑）",
+                "game": "シャンハイ"
+            },
             "ru": {
-                "name": "",
+                "name": "Нави (зелёный)"
             }
         }
   },
   {
-    "name": "Gutsman",
+    "name": "GutsMan",
     "files": ["gutsman.animation", "gutsman.png", "mug.animation", "gutsman-mug.png"],
     "author": "unknown",
     "game": "Other",
     "preview": "gutsman.animation",
     "id": "gutsman-other",
     "i18n": {
+            "jp": {
+                "name": "ガッツマン",
+                "game": "その他"
+            },
             "ru": {
-                "name": "",
+                "name": "Гатсмен",
+                "game": "Другое"
             }
         }
   },
   {
-    "name": "Heel Fm",
+    "name": "Jamminger",
     "files": ["heel-fm-sf1.animation", "heel-fm-sf1.png", "mug.animation", "heel-fm-sf1-mug.png"],
-    "author": "unknown",
+    "author": "CAPCOM",
     "game": "SSR1/SF1",
     "preview": "heel-fm-sf1.animation",
     "id": "heel-fm-ssr1",
     "i18n": {
+            "jp": {
+                "name": "ジャミンガー",
+                "game": "流星１"
+            },
             "ru": {
-                "name": "",
+                "name": "Джемингер"
             }
         }
   },
   {
     "name": "Heel Navi",
     "files": ["heel-navi-bn3.animation", "heel-navi-bn3.png", "mug.animation", "heel-navi-bn3-mug.png"],
-    "author": "unknown",
+    "author": "CAPCOM",
     "game": "EXE3/BN3",
     "preview": "heel-navi-bn3.animation",
     "id": "heel-navi-exe3",
     "i18n": {
+            "jp": {
+                "name": "ヒールナビ",
+                "game": "エグゼ３"
+            },
             "ru": {
-                "name": "",
+                "name": "Хил-Нави"
             }
         }
   },
   {
-    "name": "Heel Navi Black",
-    "files": ["heel-navi-exe4_black.animation", "heel-navi-exe4_black.png", "mug.animation", "heel-navi-exe4_black-mug.png"],
-    "author": "unknown",
-    "game": "EXE4/BN4",
-    "preview": "heel-navi-exe4_black.animation",
-    "id": "heel-navi-black-exe4",
-    "i18n": {
-            "ru": {
-                "name": "",
-            }
-        }
-  },
-  {
-    "name": "Heel Navi Purple",
+    "name": "Heel Navi",
     "files": ["heel-navi-exe4_purple.animation", "heel-navi-exe4_purple.png", "mug.animation", "heel-navi-exe4_purple-mug.png"],
     "author": "unknown",
     "game": "EXE4/BN4",
     "preview": "heel-navi-exe4_purple.animation",
     "id": "heel-navi-purple-exe4",
     "i18n": {
+            "jp": {
+                "name": "ヒールナビ",
+                "game": "エグゼ４"
+            },
             "ru": {
-                "name": "",
+                "name": "Хил-Нави (фиолетовый)"
+            }
+        }
+  },
+  {
+    "name": "Heel Navi (black)",
+    "files": ["heel-navi-exe4_black.animation", "heel-navi-exe4_black.png", "mug.animation", "heel-navi-exe4_black-mug.png"],
+    "author": "unknown",
+    "game": "EXE4/BN4",
+    "preview": "heel-navi-exe4_black.animation",
+    "id": "heel-navi-black-exe4",
+    "i18n": {
+            "jp": {
+                "name": "ヒールナビ（黒）",
+                "game": "エグゼ４"
+            },
+            "ru": {
+                "name": "Хил-Нави (чёрный)"
             }
         }
   },
@@ -755,25 +925,30 @@ let allNPCs = [{
         }
   },
   {
-    "name": "Mr. Prog (Farmer)",
+    "name": "Farmer Program-kun",
     "files": ["prog-farmer.animation", "prog-farmer.png", "mug.animation", "prog-farmer-mug.png"],
     "author": "unknown",
     "game": "Custom",
     "preview": "prog-farmer.animation",
-    "id": "mr-prog-farmer-custom",
+    "id": "farmer-program-kun-custom",
     "i18n": {
+            "jp": {
+                "name": "農家プログラムくん",
+                "game": "自作"
+            },
             "ru": {
-                "name": "",
+                "name": "Программка-фермер",
+                "game": "Самодел"
             }
         }
   },
   {
-    "name": "Mr. Prog (Gold)",
+    "name": "Program-kun (gold)",
     "files": ["prog-gold.animation", "prog-gold.png", "mug.animation", "prog-gold-mug.png"],
     "author": "unknown",
     "game": "EXE5/BN5",
     "preview": "prog-gold.animation",
-    "id": "mr-prog-gold-exe5",
+    "id": "program-kun-gold-exe5",
     "i18n": {
             "ru": {
                 "name": "",
@@ -781,12 +956,12 @@ let allNPCs = [{
         }
   },
   {
-    "name": "Mr. Prog (Ninja)",
+    "name": "Program-kun (Ninja)",
     "files": ["prog-ninja.animation", "prog-ninja.png", "mug.animation", "prog-ninja-mug.png"],
     "author": "unknown",
     "game": "EXE5/BN5",
     "preview": "prog-ninja.animation",
-    "id": "mr-prog-ninja-exe5",
+    "id": "ninja-program-kun-exe5",
     "i18n": {
             "ru": {
                 "name": "",
@@ -794,12 +969,12 @@ let allNPCs = [{
         }
   },
   {
-    "name": "Mr. Prog",
+    "name": "Program-kun",
     "files": ["prog.animation", "prog.png", "mug.animation", "prog-mug.png"],
     "author": "unknown",
     "game": "Other",
     "preview": "prog.animation",
-    "id": "mr-prog-other",
+    "id": "program-kun-other",
     "i18n": {
             "ru": {
                 "name": "",
@@ -807,41 +982,53 @@ let allNPCs = [{
         }
   },
   {
-    "name": "Protoman",
+    "name": "Blues",
     "files": ["protoman-bn5.animation", "protoman-bn5.png", "mug.animation", "protoman-bn5-mug.png"],
-    "author": "unknown",
+    "author": "CAPCOM",
     "game": "EXE5/BN5",
     "preview": "protoman-bn5.animation",
-    "id": "protoman-exe5",
+    "id": "blues-exe5",
     "i18n": {
+            "jp": {
+                "name": "ヒールナビ（紫）",
+                "game": "エグゼ５"
+            },
             "ru": {
-                "name": "",
+                "name": "Блюз"
             }
         }
   },
   {
-    "name": "Punk Navi",
+    "name": "Heel Navi",
     "files": ["punk-navi-exe6_navy.animation", "punk-navi-exe6_navy.png", "mug.animation", "punk-navi-exe6_navy-mug.png"],
-    "author": "unknown",
+    "author": "CAPCOM",
     "game": "EXE6/BN6",
     "preview": "punk-navi-exe6_navy.animation",
-    "id": "punk-navi-exe6",
+    "id": "heel-navi-exe6",
     "i18n": {
+            "jp": {
+                "name": "ヒールナビ",
+                "game": "エグゼ６"
+            },
             "ru": {
-                "name": "",
+                "name": "Хил-Нави"
             }
         }
   },
   {
-    "name": "Punk Navi - Red",
+    "name": "Heel Navi (red)",
     "files": ["punk-navi-exe6_red.animation", "punk-navi-exe6_red.png", "mug.animation", "punk-navi-exe6_red-mug.png"],
-    "author": "unknown",
+    "author": "CAPCOM",
     "game": "EXE6/BN6",
     "preview": "punk-navi-exe6_red.animation",
-    "id": "punk-navi-red-exe6",
+    "id": "heel-navi-red-exe6",
     "i18n": {
+            "jp": {
+                "name": "ヒールナビ（赤）",
+                "game": "エグゼ６"
+            },
             "ru": {
-                "name": "",
+                "name": "Хил-Нави (красный)"
             }
         }
   },
@@ -1002,33 +1189,42 @@ let allNPCs = [{
         }
   },
   {
-    "name": "Tomahawk",
+    "name": "TomahawkMan",
     "files": ["tomahawk.animation", "tomahawk.png", "mug.animation", "tomahawk-mug.png"],
-    "author": "unknown",
+    "author": "CAPCOM",
     "game": "Other",
     "preview": "tomahawk.animation",
-    "id": "tomahawk-other",
+    "id": "tomahawkman-other",
     "i18n": {
+            "jp": {
+                "name": "トマホークマン",
+                "game": "その他"
+            },
             "ru": {
-                "name": "",
+                "name": "Томаховкмен",
+                "game": "Другое"
             }
         }
   },
   {
-    "name": "Undernet Navi",
+    "name": "Ura Internet Navi",
     "files": ["undernet-navi-shanghai.animation", "undernet-navi-shanghai.png", "mug.animation", "undernet-navi-shanghai-mug.png"],
     "author": "unknown",
     "game": "Shanghai",
     "preview": "undernet-navi-shanghai.animation",
     "id": "undernet-navi-shanghai",
     "i18n": {
+            "jp": {
+                "name": "ウラインターネット",
+                "game": "シャンハイ"
+            },
             "ru": {
-                "name": "",
+                "name": "Нави из Ура-Интернета"
             }
         }
   },
   {
-    "name": "Wily",
+    "name": "Dr. Wily",
     "files": ["wily.animation", "wily.png", "mug.animation", "wily-mug.png"],
     "author": ["unknown", "Indiana (tweaks)"],
     "game": "EXE3/BN3",
