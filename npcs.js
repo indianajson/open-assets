@@ -990,7 +990,7 @@ let allNPCs = [{
     "id": "blues-exe5",
     "i18n": {
             "jp": {
-                "name": "ヒールナビ（紫）",
+                "name": "ブルース",
                 "game": "エグゼ５"
             },
             "ru": {
