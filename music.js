@@ -2191,15 +2191,15 @@ let allMusic = [
     "ostname": "BLIND MODE",
     "name": "Principal's Laptop Comp",
     "files": [
-      "exe3-kouchounotepcdennou.ogg"
+      "exe3/exe3-kouchounotepcdennou.ogg"
     ],
     "author": "K1rbYat1Na",
     "game": "EXE3/BN3",
-    "duration": "0:41",
+    "duration": "0:38",
     "composer": "Yoshino Aoki",
     "places": "Principal's Laptop Comp 1-2",
-    "start": "2014",
-    "stop": "40585",
+    "start": "0",
+    "stop": "38575",
     "disc": "sb2.png",
     "gameimage": [
       "exe3.png",
