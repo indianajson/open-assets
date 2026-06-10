@@ -248,7 +248,10 @@ let allBackgrounds = [
     "preview": "bgs/exe1/exe1-hatsudenshonodennou-battle.animation",
     "id": "power-plant-comp-battle-exe1",
     "i18n": { 
-		"ru": { "name": "", "places": "" }	
+		"ru": { 
+            "name": "", 
+            "places": "" 
+        }	
 	}
   },
   {
@@ -261,8 +264,16 @@ let allBackgrounds = [
     "game": ["EXE1/BN1", "EXEOSS"],
     "preview": "bgs/exe1/exe1-rocketnodennou.animation",
     "id": "rocket-comp-exe1",
-    "i18n": { 
-		"ru": { "name": "", "places": "" }	
+    "i18n": {
+		"jp": {
+            "name": "ロケットの電脳",
+            "game": "エグゼ１",
+            "places": "ロケットの電脳"
+        },
+		"ru": {
+            "name": "Кибермир ракеты",
+            "places": "Кибермир ракеты"
+        }
 	}
   },
   {
@@ -276,11 +287,19 @@ let allBackgrounds = [
     "preview": "bgs/exe1/exe1-final.animation",
     "id": "final-battle-exe1",
     "i18n": { 
-		"ru": { "name": "", "places": "" }	
+		"jp": {
+            "name": "ラスボス戦",
+            "game": "エグゼ１",
+            "places": "ラスボス戦"
+        },
+		"ru": {
+            "name": "Финальная битва",
+            "places": "во финальной битве"
+        }
 	}
   },
   {
-    "name": "Internet/Ura Internet",
+    "name": "Internet",
     "velx": "0.35",
     "vely": "0.20",
     "files": ["bgs/exe1/exe1-internet.animation", "bgs/exe1/exe1-internet.png"],
@@ -290,7 +309,15 @@ let allBackgrounds = [
     "preview": "bgs/exe1/exe1-internet.animation",
     "id": "internet-exe1",
     "i18n": { 
-		"ru": { "name": "", "places": "" }	
+		"jp": {
+            "name": "インターネット",
+            "game": "エグゼ１",
+            "places": "インターネット（１－４）、ウラインターネット（１－１２）"
+        },
+		"ru": {
+            "name": "Интернет",
+            "places": "Интернет 1-4, Ура-Интернет 1-12"
+        }
 	}
   },
   {
@@ -303,8 +330,16 @@ let allBackgrounds = [
     "game": ["EXE1/BN1", "EXEOSS"],
     "preview": "bgs/exe1/exe1-nettonopcnodennou.animation",
     "id": "netto-pc-comp-exe1",
-    "i18n": { 
-		"ru": { "name": "", "places": "" }	
+    "i18n": {
+		"jp": {
+            "name": "熱斗のＰＣの電脳",
+            "game": "エグゼ１",
+            "places": "熱斗のＰＣの電脳"
+        },
+		"ru": {
+            "name": "Кибермир ПК Нэтто",
+            "places": "Кибермир ПК Нэтто"
+        }
 	}
   },
   {
@@ -317,8 +352,16 @@ let allBackgrounds = [
     "game": ["EXE1/BN1", "EXEOSS"],
     "preview": "bgs/exe1/exe1-meirunopianonodennou.animation",
     "id": "meiru-piano-comp-exe1",
-    "i18n": { 
-		"ru": { "name": "", "places": "" }	
+    "i18n": {
+		"jp": {
+            "name": "メイルのＰＣの電脳",
+            "game": "エグゼ１",
+            "places": "メイルのＰＣの電脳"
+        },
+		"ru": {
+            "name": "Кибермир ПК Мэйру",
+            "places": "Кибермир ПК Мэйру"
+        }
 	}
   },
   {
@@ -331,8 +374,16 @@ let allBackgrounds = [
     "game": ["EXE1/BN1", "EXEOSS"],
     "preview": "bgs/exe1/exe1-meirunopianonodennou-battle.animation",
     "id": "meiru-piano-comp-battle-exe1",
-    "i18n": { 
-		"ru": { "name": "", "places": "" }	
+    "i18n": {
+		"jp": {
+            "name": "メイルのＰＣの電脳（戦闘中）",
+            "game": "エグゼ１",
+            "places": "メイルのＰＣの電脳（戦闘中）"
+        },
+		"ru": {
+            "name": "Кибермир ПК Мэйру (в бою)",
+            "places": "Кибермир ПК Мэйру (во время битвы)"
+        }
 	}
   },
   {
@@ -345,8 +396,16 @@ let allBackgrounds = [
     "game": ["EXE1/BN1", "EXEOSS"],
     "preview": "bgs/exe1/exe1-dekaonopcnodennou.animation",
     "id": "dekao-pc-comp-exe1",
-    "i18n": { 
-		"ru": { "name": "", "places": "" }	
+    "i18n": {
+		"jp": {
+            "name": "デカオのＰＣの電脳",
+            "game": "エグゼ１",
+            "places": "デカオのＰＣの電脳"
+        },
+		"ru": {
+            "name": "Кибермир ПК Дэкао",
+            "places": "Кибермир ПК Дэкао"
+        }
 	}
   },
   {
@@ -359,8 +418,16 @@ let allBackgrounds = [
     "game": ["EXE1/BN1", "EXEOSS"],
     "preview": "bgs/exe1/exe1-dekaonopcnodennou-battle.animation",
     "id": "dekao-pc-comp-battle-exe1",
-    "i18n": { 
-		"ru": { "name": "", "places": "" }	
+    "i18n": {
+		"jp": {
+            "name": "デカオのＰＣの電脳（戦闘中）",
+            "game": "エグゼ１",
+            "places": "デカオのＰＣの電脳（戦闘中）"
+        },
+		"ru": {
+            "name": "Кибермир ПК Дэкао (в бою)",
+            "places": "Кибермир ПК Дэкао (во время битвы)"
+        }
 	}
   },
   {
@@ -401,8 +468,16 @@ let allBackgrounds = [
     "game": ["EXE1/BN1", "EXEOSS"],
     "preview": "bgs/exe1/exe1-papanopcnodennou.animation",
     "id": "dad-pc-comp-exe1",
-    "i18n": { 
-		"ru": { "name": "", "places": "" }	
+    "i18n": {
+		"jp": {
+            "name": "パパのＰＣの電脳",
+            "game": "エグゼ１",
+            "places": "パパのＰＣの電脳"
+        },
+		"ru": {
+            "name": "Кибермир ПК папы",
+            "places": "Кибермир ПК папы"
+        }
 	}
   },
   {
@@ -415,8 +490,16 @@ let allBackgrounds = [
     "game": ["EXE1/BN1", "EXEOSS"],
     "preview": "bgs/exe1/exe1-papanopcnodennou-battle.animation",
     "id": "dad-pc-comp-battle-exe1",
-    "i18n": { 
-		"ru": { "name": "", "places": "" }	
+    "i18n": {
+		"jp": {
+            "name": "パパのＰＣの電脳（戦闘中）",
+            "game": "エグゼ１",
+            "places": "パパのＰＣの電脳（戦闘中）"
+        },
+		"ru": {
+            "name": "Кибермир ПК папы (в бою)",
+            "places": "Кибермир ПК папы (во время битвы)"
+        }
 	}
   },
   {
@@ -593,12 +676,21 @@ let allBackgrounds = [
     "vely": "0",
     "files": ["08a-undernet.png", "08a-undernet.animation"],
     "author": "K1rbYat1Na",
+    "places": "Ura Internet 1-3, Ura Internet Zero",
     "credit": false,
     "game": "EXE6/BN6",
     "preview": "08a-undernet.animation",
     "id": "ura-internet-exe6",
-    "i18n": { 
-		"ru": { "name": "", "places": "" }	
+    "i18n": {
+		"jp": {
+            "name": "ウラインターネット",
+            "game": "エグゼ６",
+            "places": "ウラインターネット（１－３）、ウラインターネットゼロ"
+        },
+		"ru": {
+            "name": "Ура-Интернет",
+            "places": "Ура-Интернет 1-3, Ура-Интернет Ноль"
+        }
 	}
   },
   {
@@ -607,12 +699,21 @@ let allBackgrounds = [
     "vely": "0",
     "files": ["08b-underground.png", "08b-underground.animation"],
     "author": "K1rbYat1Na",
+    "places": "Underground 1-2",
     "credit": false,
     "game": "EXE6/BN6",
     "preview": "08b-underground.animation",
     "id": "underground-exe6",
-    "i18n": { 
-		"ru": { "name": "", "places": "" }	
+    "i18n": {
+		"jp": {
+            "name": "アンダーグラウンド",
+            "game": "エグゼ６",
+            "places": "アンダーグラウンド（１－２）"
+        },
+		"ru": {
+            "name": "Подземелье",
+            "places": "Подземелье 1-2"
+        }
 	}
   },
   {
@@ -621,12 +722,21 @@ let allBackgrounds = [
     "vely": "0",
     "files": ["09-graveyard.animation", "09-graveyard.png"],
     "author": "K1rbYat1Na",
+    "places": "Graveyard 1-2, Immortal Area",
     "credit": false,
     "game": "EXE6/BN6",
     "preview": "09-graveyard.animation",
     "id": "graveyard-exe6",
-    "i18n": { 
-		"ru": { "name": "", "places": "" }	
+    "i18n": {
+		"jp": {
+            "name": "グレイブヤード",
+            "game": "エグゼ６",
+            "places": "グレイブヤード（１－２）、イモータルエリア"
+        },
+		"ru": {
+            "name": "Кладбище",
+            "places": "Кладбище 1-2, Зона бессмертных"
+        }
 	}
   },
   {
