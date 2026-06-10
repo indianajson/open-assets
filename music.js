@@ -196,7 +196,7 @@ let allMusic = [
             },
             "ru": {
                 "name": "Подозрительная тема",
-                "ostname": "Подозрительное настроение?",
+                "ostname": "Подозрительная атмосфера?",
                 "game": "EXE1/BN1",
                 "composer": [
                   "Акари Кайда"
@@ -643,7 +643,7 @@ let allMusic = [
     "composer": [
       "Akari Kaida"
     ],
-    "places": "Boss Battles, some Story-Only Virus Battles",
+    "places": "Boss Battles, some story-only Virus Battles",
     "start": "12858",
     "stop": "51433",
     "disc": "sb1.png",
@@ -651,10 +651,22 @@ let allMusic = [
     "gameimage": "exe1.png",
     "id": "boss-battle-exe1",
     "i18n": {
+            "jp": {
+                "ostname": "ネットバトル",
+                "name": "ボス戦",
+                "game": "エグゼ１",
+                "composer": [
+                  "海田 明里"
+                ],
+                "places": "ボス戦、ウイルス戦（その一部）",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "Нет-Битва",
+                "name": "Битва с боссом",
+                "composer": [
+                  "Акари Кайда"
+                ],
+                "places": "в битвах с боссами и некоторыми вирусами",
             }
         }
   },
