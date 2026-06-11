@@ -66,7 +66,7 @@ let allMusic = [
                 "ostname": "Родной город",
                 "name": "Тема Акихары",
                 "composer": "Акари Кайда",
-                "places": "Акихара-Тё, Школа (снаружи), Правительственный комплекс (снаружи), Денсан-Таун, Метролайн",
+                "places": "Акихара-Тё, Школа (снаружи), Правительственный комплекс (снаружи), Дэнсан-Таун, Метролайн",
             }
         }
   },
@@ -158,7 +158,6 @@ let allMusic = [
             "ru": {
                 "name": "Тема помещений",
                 "ostname": "В помещении",
-                "game": "EXE1/BN1",
                 "composer": [
                   "Акари Кайда"
                 ],
@@ -196,8 +195,7 @@ let allMusic = [
             },
             "ru": {
                 "name": "Подозрительная тема",
-                "ostname": "Подозрительная атмосфера?",
-                "game": "EXE1/BN1",
+                "ostname": "Подозрительно...",
                 "composer": [
                   "Акари Кайда"
                 ],
@@ -309,7 +307,7 @@ let allMusic = [
                 "composer": [
                   "海田 明里"
                 ],
-                "places": "レンジの電脳（１－２）",
+                "places": "レンジの電脳１～２",
             },
             "ru": {
                 "name": "Кибермир духовки",
@@ -348,7 +346,7 @@ let allMusic = [
                 "composer": [
                   "海田 明里"
                 ],
-                "places": "学校の電脳（１－２）、ロックマンがsaito.batの力を得るカットシーン",
+                "places": "学校の電脳１～４、ロックマンがsaito.batの力を得るカットシーン",
             },
             "ru": {
                 "name": "Кибермир школы",
@@ -387,7 +385,7 @@ let allMusic = [
                 "composer": [
                   "海田 明里"
                 ],
-                "places": "インターネット（１－４）、ウラインターネット（１－１２）",
+                "places": "インターネット１～４、ウラインターネット１～１２",
             },
             "ru": {
                 "name": "Тема интернета",
@@ -464,7 +462,7 @@ let allMusic = [
                 "composer": [
                   "海田 明里"
                 ],
-                "places": "水道局の電脳（１－６）",
+                "places": "水道局の電脳１～６",
             },
             "ru": {
                 "name": "Кибермир водоснабжения",
@@ -503,7 +501,7 @@ let allMusic = [
                 "composer": [
                   "海田 明里"
                 ],
-                "places": "信号機の電脳（１－５）",
+                "places": "信号機の電脳１～５",
             },
             "ru": {
                 "name": "Кибермир светофора",
@@ -542,10 +540,10 @@ let allMusic = [
                 "composer": [
                   "海田 明里"
                 ],
-                "places": "発電所の電脳（１－４）",
+                "places": "発電所の電脳１～４",
             },
             "ru": {
-                "name": "Кибермир светофора",
+                "name": "Кибермир электростанции",
                 "ostname": "ЭЛЕКТРИЧЕСКИЙ КРИЗИС",
                 "game": "EXE1/BN1",
                 "composer": [
@@ -581,7 +579,7 @@ let allMusic = [
                 "composer": [
                   "海田 明里"
                 ],
-                "places": "ＷＷＷの電脳（１－５）、ロケットの電脳",
+                "places": "ＷＷＷの電脳１～５、ロケットの電脳",
             },
             "ru": {
                 "name": "Кибермир WWW",
@@ -960,10 +958,10 @@ let allMusic = [
                 "places":"おくデンだに",
             },
             "ru": {
-                "ostname":"Долина Окуден",
-                "name": "Долина Окуден",
+                "ostname":"Долина Окудэн",
+                "name": "Долина Окудэн",
                 "composer": "Ёсино Аоки",
-                "places":"долина Окуден",
+                "places":"долина Окудэн",
             }
         }
   },
@@ -1059,7 +1057,7 @@ let allMusic = [
                 "ostname":"Официальный центр",
                 "name": "Официальный центр",
                 "composer": "Ёсино Аоки",
-                "places":"в аэропортах Денсана и Амевропы",
+                "places":"в аэропортах Дэнсана и Амевропы",
             }
         }
   },
@@ -1272,10 +1270,18 @@ let allMusic = [
     "gameimage": "exe2.png",
     "id": "suspicious-theme-exe2",
     "i18n": {
+            "jp": {
+                "name": "不穏なＢＧＭ",
+                "ostname": "あやしいムード？",
+                "game": "エグゼ２",
+                "composer": "青木 佳乃",
+                "places": "実世界（不穏なシーン）",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Подозрительная тема",
+                "ostname": "Подозрительно...",
+                "composer": "Ёсино Аоки",
+                "places": "в реальном мире (во время определённых событий)",
             }
         }
   },
@@ -1296,10 +1302,18 @@ let allMusic = [
     "gameimage": "exe2.png",
     "id": "incident-occurrence-exe2",
     "i18n": {
+            "jp": {
+                "name": "事件発生",
+                "ostname": "事件発生！",
+                "game": "エグゼ２",
+                "composer": "青木 佳乃",
+                "places": "実世界（事件発生中）",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "name": "Тема происшествий",
+                "ostname": "Происшествие!",
+                "composer": "Ёсино Аоки",
+                "places": "в реальном мир (во время происшествий)",
             }
         }
   },
@@ -2219,10 +2233,17 @@ let allMusic = [
     ],
     "id": "principal-laptop-comp-exe3",
     "i18n": {
+            "jp": {
+                "ostname":"BLIND MODE",
+                "name": "校長ノートＰＣの電脳",
+                "composer":"Ëсино Аоки",
+                "places":"校長ノートＰＣの電脳１〜２",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname":"РЕЖИМ СЛЕПОТЫ",
+                "name": "Кибермир ноутбука директора",
+                "composer":"Ëсино Аоки",
+                "places":"Кибермир ноутбука директора 1-2",
             }
         }
   },
@@ -2974,7 +2995,7 @@ let allMusic = [
     "game": "EXE4/BN4",
     "duration": "1:04",
     "composer": "Toshihiko Horiyama",
-    "places": "Some cutscenes",
+    "places": "cutscenes feat. ShadeMan and/or Nebula",
     "start": "0",
     "stop": "64292",
     "disc": "sb3.png",
@@ -3403,7 +3424,7 @@ let allMusic = [
                 "name": "ウラインターネット",
                 "game": "エグゼ４",
                 "composer": "堀山 俊彦",
-                "places":"ウラインターネット（１－６）、ブラックアース（１－２）",
+                "places":"ウラインターネット１～６、ブラックアース１～２",
             },
             "ru": {
                 "ostname":"Хил-рай",
@@ -4659,7 +4680,7 @@ let allMusic = [
                 "name": "ウラインターネット",
                 "game": "エグゼ４.５",
                 "composer": "堀山 俊彦",
-                "places":"ウラインターネット（１－４）",
+                "places":"ウラインターネット１～４",
             },
             "ru": {
                 "ostname":"Глубоко внутри",
@@ -5007,7 +5028,7 @@ let allMusic = [
                 "name": "キャッシュサーバーの電脳",
                 "game": "エグゼＰＯＮ",
                 "composer": "竹原 裕子",
-                "places":"キャッシュサーバーの電脳（１－５）",
+                "places":"キャッシュサーバーの電脳１～５",
             },
             "ru": {
                 "ostname":"ФАНТОМ СЕТИ",
@@ -5128,7 +5149,7 @@ let allMusic = [
     "author": "K1rbYat1Na",
     "game": "EXE5/BN5",
     "composer": "Akari Kaida",
-    "places": "Cutscenes feat. Dr. Regal and/or Nebula",
+    "places": "cutscenes feat. Dr. Regal and/or Nebula",
     "start": "2894",
     "stop": "39979",
     "disc": "sb4.png",
@@ -7538,7 +7559,7 @@ let allMusic = [
                 "composer": [
                   "青木 佳乃"
                 ],
-                "places": "ロボせいぎょＰＣの電脳（１－２）",
+                "places": "ロボせいぎょＰＣの電脳１～２",
             },
             "ru": {
                 "name": "Кибермир ПК для управления роботами",
@@ -7796,7 +7817,7 @@ let allMusic = [
                 "composer": [
                   "青木 佳乃"
                 ],
-                "places": "しんぱんの木の電脳（１－３）",
+                "places": "しんぱんの木の電脳１～３",
             },
             "ru": {
                 "name": "Кибермир Судебного древа",
@@ -7973,7 +7994,7 @@ let allMusic = [
                 "composer": [
                   "青木 佳乃"
                 ],
-                "places": "ウェザーくんの電脳（１－３）",
+                "places": "ウェザーくんの電脳１～３",
             },
             "ru": {
                 "name": "Кибермир Погоды-куна",
@@ -8261,18 +8282,13 @@ let allMusic = [
                 "name": "ＷＷＷの本拠地",
                 "ostname": "秘密の本拠地",
                 "game": "エグゼ６",
-                "composer": [
-                  "青木 佳乃"
-                ],
+                "composer": "青木 佳乃",
                 "places": "万博会場（Ｄｒ．ワイリー登場後；ＧＢＡ版をストーリークリア後）",
             },
             "ru": {
                 "name": "База WWW",
                 "ostname": "Секретная база",
-                "game": "EXE6/BN6",
-                "composer": [
-                  "Ёсино Аоки"
-                ],
+                "composer": "Ёсино Аоки",
                 "places": "Выставочный центр (после появляния доктора Уайли; после прохождения игры в GBA-версии)",
             }
         }
@@ -8368,7 +8384,7 @@ let allMusic = [
     "game": "EXE6/BN6",
     "duration": "0:34",
     "composer": "Yoshino Aoki",
-    "places": "Crossover Battle 2 (Rockman EXE6 VS. Shin Bokura no Taiyou)",
+    "places": 'Crossover Battle 2 ("Rockman EXE6" VS. "Shin Bokura no Taiyou")',
     "start": "4470",
     "stop": "33804",
     "disc": "sb5.png",
@@ -8378,10 +8394,17 @@ let allMusic = [
     ],
     "id": "crossover-battle-exe6",
     "i18n": {
+            "jp": {
+                "ostname":"伯爵 -crossover ver.-",
+                "name": "クロスオーバーバトル",
+                "composer": "青木 佳乃",
+                "places":"クロスオーバーバトル２（「ロックマンエグゼ６」ＶＳ「新・ボクらの太陽」）",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname":"Граф -кроссоверная версия-",
+                "name": "Кроссоверная битва",
+                "composer": "Ёсино Аоки",
+                "places":'Кроссоверная битва 2 ("Rockman EXE6" против "Shin Bokura no Taiyou")',
             }
         }
   },
@@ -8921,7 +8944,7 @@ let allMusic = [
                   "海田 明里（オリジナル）",
                   "高野 充彦（編曲）"
                 ],
-                "places": "インターネット（１－４）、ウラインターネット（１－１２）、学校の電脳（チュートリアル）",
+                "places": "インターネット１～４、ウラインターネット１～１２、学校の電脳（チュートリアル）",
             },
             "ru": {
                 "name": "Тема интернета",
@@ -9280,7 +9303,7 @@ let allMusic = [
                 "name": "通気口の電脳",
                 "game": "エグゼ７",
                 "composer":"マイケル・ステイプル",
-                "places":"通気口の電脳（１－２）",
+                "places":"つうきこうの電脳１～２",
             },
             "ru": {
                 "ostname":"Дыши медленно",
