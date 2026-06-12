@@ -7,9 +7,7 @@ let allMusic = [
     ],
     "author": "K1rbYat1Na",
     "game": "EXE1/BN1",
-    "composer": [
-      "Akari Kaida"
-    ],
+    "composer": "Akari Kaida",
     "places": "Title Screen",
     "start": "22298",
     "stop": "35863",
@@ -19,21 +17,16 @@ let allMusic = [
     "id": "title-theme-exe1",
     "i18n": {
             "jp": {
-                "name": "タイトル画面",
                 "ostname":"THEME OF ROCKMAN EXE",
+                "name": "タイトル画面",
                 "game": "エグゼ１",
-                "composer": [
-                  "海田 明里"
-                ],
+                "composer": "海田 明里",
                 "places":"タイトル画面",
             },
             "ru": {
-                "name": "Заглавная тема",
                 "ostname":"ТЕМА ROCKMAN EXE",
-                "game": "EXE1/BN1",
-                "composer": [
-                  "Акари Кайда"
-                ],
+                "name": "Заглавная тема",
+                "composer": "Акари Кайда",
                 "places":"на титульном экране",
             }
         }
@@ -82,9 +75,7 @@ let allMusic = [
         "EXE2/BN2", 
         "EXE3/BN3"
     ],
-    "composer": [
-      "Akari Kaida"
-    ],
+    "composer": "Akari Kaida",
     "places": "School",
     "start": "0",
     "stop": "38589",
@@ -99,21 +90,16 @@ let allMusic = [
     "id": "school-exe1",
     "i18n": {
             "jp": {
-                "name": "学校",
                 "ostname": "学校",
+                "name": "学校",
                 "game": "エグゼ１",
-                "composer": [
-                  "海田 明里"
-                ],
+                "composer": "海田 明里",
                 "places": "学校",
             },
             "ru": {
-                "name": "Школа",
                 "ostname": "Школа",
-                "game": "EXE1/BN1",
-                "composer": [
-                  "Акари Кайда"
-                ],
+                "name": "Школа",
+                "composer": "Акари Кайда",
                 "places": "в школе",
             }
         }
@@ -130,9 +116,7 @@ let allMusic = [
         "EXE2/BN2", 
         "EXE3/BN3"
     ],
-    "composer": [
-      "Akari Kaida"
-    ],
+    "composer": "Akari Kaida",
     "places": "Akihara Town (indoors), Government Complex, Densan Town (indoors)",
     "start": "0",
     "stop": "7434",
@@ -147,20 +131,16 @@ let allMusic = [
     "id": "indoors-theme-exe1",
     "i18n": {
             "jp": {
-                "name": "屋内",
                 "ostname": "屋内",
+                "name": "屋内",
                 "game": "エグゼ１",
-                "composer": [
-                  "海田 明里"
-                ],
+                "composer": "海田 明里",
                 "places": "秋原町（屋内）、官公庁、デンサンタウン（屋内）",
             },
             "ru": {
-                "name": "Тема помещений",
                 "ostname": "В помещении",
-                "composer": [
-                  "Акари Кайда"
-                ],
+                "name": "Тема помещений",
+                "composer": "Акари Кайда",
                 "places": "в помещениях Акихара-Тё, в Правительственном комплексе, в помещениях Денсан-Тауна",
             }
         }
@@ -173,9 +153,7 @@ let allMusic = [
     ],
     "author": "K1rbYat1Na",
     "game": "EXE1/BN1",
-    "composer": [
-      "Akari Kaida"
-    ],
+    "composer": "Akari Kaida",
     "places": "overworld (during some events), WWW Research Facility",
     "start": "0",
     "stop": "16091",
@@ -185,20 +163,16 @@ let allMusic = [
     "id": "suspicious-theme-exe1",
     "i18n": {
             "jp": {
-                "name": "不穏なＢＧＭ",
                 "ostname": "あやしいムード？",
+                "name": "不穏なＢＧＭ",
                 "game": "エグゼ１",
-                "composer": [
-                  "海田 明里"
-                ],
+                "composer": "海田 明里",
                 "places": "実世界（不穏なシーン）、ＷＷＷの研究所",
             },
             "ru": {
-                "name": "Подозрительная тема",
                 "ostname": "Подозрительно...",
-                "composer": [
-                  "Акари Кайда"
-                ],
+                "name": "Подозрительная тема",
+                "composer": "Акари Кайда",
                 "places": "в реальном мире (во время определённых событий), Научно-исследовательский центр WWW",
             }
         }
@@ -211,9 +185,7 @@ let allMusic = [
     ],
     "author": "K1rbYat1Na",
     "game": "EXE1/BN1",
-    "composer": [
-      "Akari Kaida"
-    ],
+    "composer": "Akari Kaida",
     "places": "Overworld (when an incident has occurred)",
     "start": "0",
     "stop": "12868",
@@ -223,21 +195,16 @@ let allMusic = [
     "id": "incident-occurrence-exe1",
     "i18n": {
             "jp": {
-                "name": "事件発生",
                 "ostname": "事件発生！",
+                "name": "事件発生",
                 "game": "エグゼ１",
-                "composer": [
-                  "海田 明里"
-                ],
+                "composer": "海田 明里",
                 "places": "実世界（事件発生中）",
             },
             "ru": {
-                "name": "Тема происшествий",
                 "ostname": "Происшествие!",
-                "game": "EXE1/BN1",
-                "composer": [
-                  "Акари Кайда"
-                ],
+                "name": "Тема происшествий",
+                "composer": "Акари Кайда",
                 "places": "в реальном мир (во время происшествий)",
             }
         }
@@ -250,9 +217,7 @@ let allMusic = [
     ],
     "author": "K1rbYat1Na",
     "game": "EXE1/BN1",
-    "composer": [
-      "Akari Kaida"
-    ],
+    "composer": "Akari Kaida",
     "places": "during the Plug-in transition",
     "start": "",
     "stop": "",
@@ -262,21 +227,16 @@ let allMusic = [
     "id": "plug-in-transition-exe1",
     "i18n": {
             "jp": {
-                "name": "プラグインムービー",
                 "ostname": "トランスミッション！",
+                "name": "プラグインムービー",
                 "game": "エグゼ１",
-                "composer": [
-                  "海田 明里"
-                ],
+                "composer": "海田 明里",
                 "places": "プラグインムービー",
             },
             "ru": {
-                "name": "Тема подключения",
                 "ostname": "Подключение!",
-                "game": "EXE1/BN1",
-                "composer": [
-                  "Акари Кайда"
-                ],
+                "name": "Тема подключения",
+                "composer": "Акари Кайда",
                 "places": "во время анимации подключения",
             }
         }
@@ -289,9 +249,7 @@ let allMusic = [
     ],
     "author": "K1rbYat1Na",
     "game": "EXE1/BN1",
-    "composer": [
-      "Akari Kaida"
-    ],
+    "composer": "Akari Kaida",
     "places": "Oven Comp 1-2",
     "start": "1722",
     "stop": "56839",
@@ -301,21 +259,16 @@ let allMusic = [
     "id": "oven-comp-exe1",
     "i18n": {
             "jp": {
-                "name": "レンジの電脳",
                 "ostname": "FIRE FIELD",
+                "name": "レンジの電脳",
                 "game": "エグゼ１",
-                "composer": [
-                  "海田 明里"
-                ],
+                "composer": "海田 明里",
                 "places": "レンジの電脳１～２",
             },
             "ru": {
-                "name": "Кибермир духовки",
                 "ostname": "ПОЛЕ ОГНЯ",
-                "game": "EXE1/BN1",
-                "composer": [
-                  "Акари Кайда"
-                ],
+                "name": "Кибермир духовки",
+                "composer": "Акари Кайда",
                 "places": "Кибермир духовки 1-2",
             }
         }
@@ -328,9 +281,7 @@ let allMusic = [
     ],
     "author": "K1rbYat1Na",
     "game": "EXE1/BN1",
-    "composer": [
-      "Akari Kaida"
-    ],
+    "composer": "Akari Kaida",
     "places": "School Comp 1-4, the cutscene where Rockman gets the power of saito.bat",
     "start": "0",
     "stop": "49542",
@@ -340,21 +291,16 @@ let allMusic = [
     "id": "school-comp-exe1",
     "i18n": {
             "jp": {
-                "name": "学校の電脳",
                 "ostname": "RUNNING THROUGH THE CYBER WORLD",
+                "name": "学校の電脳",
                 "game": "エグゼ１",
-                "composer": [
-                  "海田 明里"
-                ],
+                "composer": "海田 明里",
                 "places": "学校の電脳１～４、ロックマンがsaito.batの力を得るカットシーン",
             },
             "ru": {
-                "name": "Кибермир школы",
                 "ostname": "БЕГ ПО КИБЕРМИРУ",
-                "game": "EXE1/BN1",
-                "composer": [
-                  "Акари Кайда"
-                ],
+                "name": "Кибермир школы",
+                "composer": "Акари Кайда",
                 "places": "Кибермир школы 1-4, в кат-сцене (где Рокмен получает силу от saito.bat)",
             }
         }
@@ -379,20 +325,16 @@ let allMusic = [
     "id": "internet-theme-exe1",
     "i18n": {
             "jp": {
-                "name": "インターネットエリア",
                 "ostname": "BOUNDLESS NETWORK",
+                "name": "インターネットエリア",
                 "game": "エグゼ１",
-                "composer": [
-                  "海田 明里"
-                ],
+                "composer": "海田 明里",
                 "places": "インターネット１～４、ウラインターネット１～１２",
             },
             "ru": {
-                "name": "Тема интернета",
                 "ostname": "БЕЗГРАНИЧНАЯ СЕТЬ",
-                "composer": [
-                  "Акари Кайда"
-                ],
+                "name": "Тема интернета",
+                "composer": "Акари Кайда",
                 "places": "Интернет 1-4, Ура-Интернет 1-12",
             }
         }
@@ -405,9 +347,7 @@ let allMusic = [
     ],
     "author": "K1rbYat1Na",
     "game": "EXE1/BN1",
-    "composer": [
-      "Akari Kaida"
-    ],
+    "composer": "Akari Kaida",
     "places": "the cutscene that reveals the true identity of Rockman.EXE (Saito Hikari)",
     "start": "518",
     "stop": "50395",
@@ -417,21 +357,16 @@ let allMusic = [
     "id": "sad-theme-exe1",
     "i18n": {
             "jp": {
-                "name": "悲しいＢＧＭ",
                 "ostname": "運命の時",
+                "name": "悲しいＢＧＭ",
                 "game": "エグゼ１",
-                "composer": [
-                  "海田 明里"
-                ],
+                "composer": "海田 明里",
                 "places": "ロックマン.ＥＸＥ（光彩斗）の正体を明らかにするカットシーン",
             },
             "ru": {
-                "name": "Грустная тема",
                 "ostname": "Час судьбы",
-                "game": "EXE1/BN1",
-                "composer": [
-                  "Акари Кайда"
-                ],
+                "name": "Грустная тема",
+                "composer": "Акари Кайда",
                 "places": "кат-сцена, раскрывающая истинную личность Рокмена.EXE (Сайто Хикари)",
             }
         }
@@ -444,9 +379,7 @@ let allMusic = [
     ],
     "author": "K1rbYat1Na",
     "game": "EXE1/BN1",
-    "composer": [
-      "Akari Kaida"
-    ],
+    "composer": "Akari Kaida",
     "places": "Waterworks Comp 1-6",
     "start": "0",
     "stop": "51149",
@@ -456,21 +389,16 @@ let allMusic = [
     "id": "waterworks-comp-exe1",
     "i18n": {
             "jp": {
-                "name": "水道局の電脳",
                 "ostname": "COLD & SILENT",
+                "name": "水道局の電脳",
                 "game": "エグゼ１",
-                "composer": [
-                  "海田 明里"
-                ],
+                "composer": "海田 明里",
                 "places": "水道局の電脳１～６",
             },
             "ru": {
-                "name": "Кибермир водоснабжения",
                 "ostname": "ХОЛОД И ТИШИНА",
-                "game": "EXE1/BN1",
-                "composer": [
-                  "Акари Кайда"
-                ],
+                "name": "Кибермир водоснабжения",
+                "composer": "Акари Кайда",
                 "places": "Кибермир водоснабжения 1-6",
             }
         }
@@ -483,9 +411,7 @@ let allMusic = [
     ],
     "author": "K1rbYat1Na",
     "game": "EXE1/BN1",
-    "composer": [
-      "Akari Kaida"
-    ],
+    "composer": "Akari Kaida",
     "places": "Traffic Light Comp 1-5",
     "start": "6093",
     "stop": "39930",
@@ -495,21 +421,16 @@ let allMusic = [
     "id": "traffic-light-comp-exe1",
     "i18n": {
             "jp": {
-                "name": "信号機の電脳",
                 "ostname": "RED OR BLUE",
+                "name": "信号機の電脳",
                 "game": "エグゼ１",
-                "composer": [
-                  "海田 明里"
-                ],
+                "composer": "海田 明里",
                 "places": "信号機の電脳１～５",
             },
             "ru": {
-                "name": "Кибермир светофора",
                 "ostname": "КРАСНЫЙ ИЛИ СИНИЙ",
-                "game": "EXE1/BN1",
-                "composer": [
-                  "Акари Кайда"
-                ],
+                "name": "Кибермир светофора",
+                "composer": "Акари Кайда",
                 "places": "Кибермир светофора 1-5",
             }
         }
@@ -522,9 +443,7 @@ let allMusic = [
     ],
     "author": "K1rbYat1Na",
     "game": "EXE1/BN1",
-    "composer": [
-      "Akari Kaida"
-    ],
+    "composer": "Akari Kaida",
     "places": "Power Plant Comp 1-4",
     "start": "3565",
     "stop": "47967",
@@ -534,21 +453,16 @@ let allMusic = [
     "id": "power-plant-comp-exe1",
     "i18n": {
             "jp": {
-                "name": "発電所の電脳",
                 "ostname": "ELECTRICAL CRISIS",
+                "name": "発電所の電脳",
                 "game": "エグゼ１",
-                "composer": [
-                  "海田 明里"
-                ],
+                "composer": "海田 明里",
                 "places": "発電所の電脳１～４",
             },
             "ru": {
-                "name": "Кибермир электростанции",
                 "ostname": "ЭЛЕКТРИЧЕСКИЙ КРИЗИС",
-                "game": "EXE1/BN1",
-                "composer": [
-                  "Акари Кайда"
-                ],
+                "name": "Кибермир электростанции",
+                "composer": "Акари Кайда",
                 "places": "Кибермир электростанции 1-4",
             }
         }
@@ -561,9 +475,7 @@ let allMusic = [
     ],
     "author": "K1rbYat1Na",
     "game": "EXE1/BN1",
-    "composer": [
-      "Akari Kaida"
-    ],
+    "composer": "Akari Kaida",
     "places": "WWW Comp 1-5, Rocket Comp",
     "start": "0",
     "stop": "51491",
@@ -573,21 +485,16 @@ let allMusic = [
     "id": "www-comp-exe1",
     "i18n": {
             "jp": {
-                "name": "ＷＷＷの電脳",
                 "ostname": "VOID",
+                "name": "ＷＷＷの電脳",
                 "game": "エグゼ１",
-                "composer": [
-                  "海田 明里"
-                ],
+                "composer": "海田 明里",
                 "places": "ＷＷＷの電脳１～５、ロケットの電脳",
             },
             "ru": {
-                "name": "Кибермир WWW",
                 "ostname": "ПУСТОТА",
-                "game": "EXE1/BN1",
-                "composer": [
-                  "Акари Кайда"
-                ],
+                "name": "Кибермир WWW",
+                "composer": "Акари Кайда",
                 "places": "Кибермир WWW 1-5, Кибермир ракеты",
             }
         }
@@ -600,9 +507,7 @@ let allMusic = [
     ],
     "author": "K1rbYat1Na",
     "game": "EXE1/BN1",
-    "composer": [
-      "Akari Kaida"
-    ],
+    "composer": "Akari Kaida",
     "places": "Virus Battles",
     "start": "2692",
     "stop": "48922",
@@ -615,17 +520,13 @@ let allMusic = [
                 "ostname": "オペレーション！",
                 "name": "ウイルス戦",
                 "game": "エグゼ１",
-                "composer": [
-                  "海田 明里"
-                ],
+                "composer": "海田 明里",
                 "places": "ウイルス戦",
             },
             "ru": {
                 "ostname": "Операция!",
                 "name": "Битва с вирусами",
-                "composer": [
-                  "Акари Кайда"
-                ],
+                "composer": "Акари Кайда",
                 "places": "в битвах с вирусами",
             }
         }
@@ -638,9 +539,7 @@ let allMusic = [
     ],
     "author": "K1rbYat1Na",
     "game": "EXE1/BN1",
-    "composer": [
-      "Akari Kaida"
-    ],
+    "composer": "Akari Kaida",
     "places": "Boss Battles, some story-only Virus Battles",
     "start": "12858",
     "stop": "51433",
@@ -653,17 +552,13 @@ let allMusic = [
                 "ostname": "ネットバトル",
                 "name": "ボス戦",
                 "game": "エグゼ１",
-                "composer": [
-                  "海田 明里"
-                ],
+                "composer": "海田 明里",
                 "places": "ボス戦、ウイルス戦（その一部）",
             },
             "ru": {
                 "ostname": "Нет-Битва",
                 "name": "Битва с боссом",
-                "composer": [
-                  "Акари Кайда"
-                ],
+                "composer": "Акари Кайда",
                 "places": "в битвах с боссами и некоторыми вирусами",
             }
         }
@@ -676,9 +571,7 @@ let allMusic = [
     ],
     "author": "K1rbYat1Na",
     "game": "EXE1/BN1",
-    "composer": [
-      "Akari Kaida"
-    ],
+    "composer": "Akari Kaida",
     "places": "Final Boss Battle (Dream Virus)",
     "start": "4319",
     "stop": "48151",
@@ -691,17 +584,13 @@ let allMusic = [
                 "ostname": "ＶＳ．ドリームウイリス",
                 "name": "ラスボス戦",
                 "game": "エグゼ１",
-                "composer": [
-                  "海田 明里"
-                ],
+                "composer": "海田 明里",
                 "places": "ラスボス戦（ドリームウイリス）",
             },
             "ru": {
                 "ostname": "Против Дрим-Вирусом",
                 "name": "Битва с финальным боссом",
-                "composer": [
-                  "Акари Кайда"
-                ],
+                "composer": "Акари Кайда",
                 "places": "в финальной битве с Дрим-Вирусом",
             }
         }
@@ -3624,10 +3513,18 @@ let allMusic = [
     ],
     "id": "credits-theme-exe4",
     "i18n": {
+            "jp": {
+                "ostname": "Your Answer",
+                "name": "スタッフロール",
+                "game": "エグゼ４",
+                "composer": "堀山 俊彦",
+                "places": "スタッフロール",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "Твой ответ",
+                "name": "Тема титров",
+                "composer": "Тосихико Хорияма",
+                "places": "в титрах",
             }
         }
   },
@@ -3641,17 +3538,25 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:02",
     "composer": "Toshihiko Horiyama",
-    "places": "Advanced PET II Intro",
+    "places": "Advanced PET II opening",
     "start": "",
     "stop": "",
     "disc": "sb3.png",
     "gameimage": "exe45.png",
     "id": "pet-intro-exe45",
     "i18n": {
+            "jp": {
+                "ostname":"イントロダクション",
+                "name": "ＰＥＴオープニング",
+                "game": "エグゼ４.５",
+                "composer": "堀山 俊彦",
+                "places":"オープニング",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname":"Введение",
+                "name": "Заставка с PET",
+                "composer": "Тосихико Хорияма",
+                "places":"на заставке с Advanced PET II",
             }
         }
   },
@@ -3673,19 +3578,16 @@ let allMusic = [
     "id": "title-theme-exe45",
     "i18n": {
             "jp": {
-                "name": "タイトル画面",
                 "ostname":"THEME OF ROCKMAN EXE4.5",
-                "composer": [
-                  "堀山 俊彦"
-                ],
+                "name": "タイトル画面",
+                "game": "エグゼ４.５",
+                "composer": "堀山 俊彦",
                 "places":"タイトル画面",
             },
             "ru": {
-                "name": "Заглавная тема",
                 "ostname":"ТЕМА ROCKMAN EXE4.5",
-                "composer": [
-                  "Тосихико Хорияма"
-                ],
+                "name": "Заглавная тема",
+                "composer": "Тосихико Хорияма",
                 "places":"на титульном экране",
             }
         }
@@ -3700,17 +3602,25 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:09",
     "composer": "Toshihiko Horiyama",
-    "places": "Settings Screen, Navi Select Screen",
+    "places": "settings screen, Navi select screen",
     "start": "0",
     "stop": "8607",
     "disc": "sb3.png",
     "gameimage": "exe45.png",
     "id": "settings-theme-exe45",
     "i18n": {
+            "jp": {
+                "ostname":"ＰＥＴ画面",
+                "name": "オプション画面",
+                "game": "エグゼ４.５",
+                "composer": "堀山 俊彦",
+                "places":"オプション画面、ナビ選択画面",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname":"Дисплей PET",
+                "name": "Тема настроек",
+                "composer": "Тосихико Хорияма",
+                "places":"на экране настроек и выбора Нави",
             }
         }
   },
@@ -3724,7 +3634,7 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:19",
     "composer": "Akari Kaida",
-    "places": "PET Main Screen if the Player's Navi is Rockman",
+    "places": "PET main screen (if the Player's Navi is Rockman)",
     "start": "2729",
     "stop": "19355",
     "disc": "sb3.png",
@@ -3756,7 +3666,7 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:21",
     "composer": "Akari Kaida",
-    "places": "PET Main Screen if the Player's Navi is Roll",
+    "places": "PET main screen (if the Player's Navi is Roll)",
     "start": "1238",
     "stop": "20914",
     "disc": "sb3.png",
@@ -3788,7 +3698,7 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:34",
     "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is GutsMan",
+    "places": "PET main screen (if the Player's Navi is GutsMan)",
     "start": "3165",
     "stop": "34272",
     "disc": "sb3.png",
@@ -3820,7 +3730,7 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:24",
     "composer": "Akari Kaida",
-    "places": "PET Main Screen if the Player's Navi is NumberMan",
+    "places": "PET main screen (if the Player's Navi is NumberMan)",
     "start": "2510",
     "stop": "24429",
     "disc": "sb3.png",
@@ -3852,7 +3762,7 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:25",
     "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is FireMan",
+    "places": "PET main screen (if the Player's Navi is FireMan)",
     "start": "0",
     "stop": "24511",
     "disc": "sb3.png",
@@ -3884,7 +3794,7 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:17",
     "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is WoodMan",
+    "places": "PET main screen (if the Player's Navi is WoodMan)",
     "start": "1024",
     "stop": "17359",
     "disc": "sb3.png",
@@ -3916,7 +3826,7 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:31",
     "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is WindMan",
+    "places": "PET main screen (if the Player's Navi is WindMan)",
     "start": "0",
     "stop": "31111",
     "disc": "sb3.png",
@@ -3924,11 +3834,11 @@ let allMusic = [
     "id": "windman-theme-exe45",
     "i18n": {
             "jp": {
-                "ostname":"ウィンドマンのテーマ",
-                "name": "ウィンドマンのテーマ",
+                "ostname":"ウインドマンのテーマ",
+                "name": "ウインドマンのテーマ",
                 "game": "エグゼ４.５",
                 "composer": "堀山 俊彦",
-                "places":"ＰＥＴメイン画面（プレイヤーのナビがウィンドマンの場合）",
+                "places":"ＰＥＴメイン画面（プレイヤーのナビがウインドマンの場合）",
             },
             "ru": {
                 "ostname":"Тема Виндмена",
@@ -3948,7 +3858,7 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:32",
     "composer": "Akari Kaida",
-    "places": "PET Main Screen if the Player's Navi is SearchMan",
+    "places": "PET main screen (if the Player's Navi is SearchMan)",
     "start": "2894",
     "stop": "32413",
     "disc": "sb3.png",
@@ -3980,7 +3890,7 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:28",
     "composer": "Akari Kaida",
-    "places": "PET Main Screen if the Player's Navi is AquaMan",
+    "places": "PET main screen (if the Player's Navi is AquaMan)",
     "start": "10752",
     "stop": "27982",
     "disc": "sb3.png",
@@ -4012,7 +3922,7 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:23",
     "composer": "Akari Kaida",
-    "places": "PET Main Screen if the Player's Navi is ThunderMan",
+    "places": "PET main screen (if the Player's Navi is ThunderMan)",
     "start": "1805",
     "stop": "23419",
     "disc": "sb3.png",
@@ -4044,7 +3954,7 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:34",
     "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is MetalMan",
+    "places": "PET main screen (if the Player's Navi is MetalMan)",
     "start": "0",
     "stop": "33837",
     "disc": "sb3.png",
@@ -4076,7 +3986,7 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:34",
     "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is JunkMan",
+    "places": "PET main screen (if the Player's Navi is JunkMan)",
     "start": "0",
     "stop": "33842",
     "disc": "sb3.png",
@@ -4108,7 +4018,7 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:29",
     "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is Blues",
+    "places": "PET main screen (if the Player's Navi is Blues)",
     "start": "7987",
     "stop": "29417",
     "disc": "sb3.png",
@@ -4140,7 +4050,7 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:33",
     "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is StarMan",
+    "places": "PET main screen (if the Player's Navi is StarMan)",
     "start": "1924",
     "stop": "32539",
     "disc": "sb3.png",
@@ -4172,7 +4082,7 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:33",
     "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is NapalmMan",
+    "places": "PET main screen (if the Player's Navi is NapalmMan)",
     "start": "0",
     "stop": "33251",
     "disc": "sb3.png",
@@ -4187,10 +4097,10 @@ let allMusic = [
                 "places":"ＰＥＴメイン画面（プレイヤーのナビがナパームマンの場合）",
             },
             "ru": {
-                "ostname":"Тема Напалммена",
-                "name": "Тема Напалмена",
+                "ostname":"Тема Нейпелммена",
+                "name": "Тема Нейпелммена",
                 "composer": "Тосихико Хорияма",
-                "places":"главный экран PET (если Нави игрока — Напалммен)",
+                "places":"главный экран PET (если Нави игрока — Нейпелммен)",
             } 
         }
   },
@@ -4204,7 +4114,7 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:25",
     "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is IceMan",
+    "places": "PET main screen (if the Player's Navi is IceMan)",
     "start": "1005",
     "stop": "25114",
     "disc": "sb3.png",
@@ -4236,7 +4146,7 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:47",
     "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is ElecMan",
+    "places": "PET main screen (if the Player's Navi is ElecMan)",
     "start": "951",
     "stop": "46876",
     "disc": "sb3.png",
@@ -4268,7 +4178,7 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:17",
     "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is PlantMan",
+    "places": "PET main screen (if the Player's Navi is PlantMan)",
     "start": "0",
     "stop": "16927",
     "disc": "sb3.png",
@@ -4300,7 +4210,7 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:33",
     "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is KnightMan",
+    "places": "PET main screen (if the Player's Navi is KnightMan)",
     "start": "0",
     "stop": "32682",
     "disc": "sb3.png",
@@ -4332,7 +4242,7 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:24",
     "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen (if the Player's Navi is ShadowMan)",
+    "places": "PET main screen (if the Player's Navi is ShadowMan)",
     "start": "0",
     "stop": "24110",
     "disc": "sb3.png",
@@ -4364,7 +4274,7 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:51",
     "composer": "Toshihiko Horiyama",
-    "places": "PET Main Screen if the Player's Navi is Forte",
+    "places": "PET main screen (if the Player's Navi is Forte)",
     "start": "6697",
     "stop": "51350",
     "disc": "sb3.png",
@@ -4476,17 +4386,25 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:20",
     "composer": "Toshihiko Horiyama",
-    "places": "NumberMan's Minigame",
+    "places": "NumberMan's minigame",
     "start": "1944",
     "stop": "19809",
     "disc": "sb4.png",
     "gameimage": "exe45.png",
     "id": "numberman-minigame-exe45",
     "i18n": {
+            "jp": {
+                "ostname": "計算ドリル",
+                "name": "ナンバーマンのミニゲーム",
+                "game": "エグゼ４.５",
+                "composer": "堀山 俊彦",
+                "places": "ナンバーマンのミニゲーム",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "Упражнение уравнениями",
+                "name": "Мини-игра Намбермена",
+                "composer": "Тосихико Хорияма",
+                "places": "в мини-игре Намбермена",
             }
         }
   },
@@ -4500,17 +4418,25 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:06",
     "composer": "Toshihiko Horiyama",
-    "places": "WindMan's Minigame",
+    "places": "WindMan's minigame",
     "start": "0",
     "stop": "6347",
     "disc": "sb4.png",
     "gameimage": "exe45.png",
     "id": "windman-minigame-exe45",
     "i18n": {
+            "jp": {
+                "ostname": "風を起こせ!",
+                "name": "ウインドマンのミニゲーム",
+                "game": "エグゼ４.５",
+                "composer": "堀山 俊彦",
+                "places": "ウインドマンのミニゲーム",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "Пробудить ветер!",
+                "name": "Мини-игра Виндмена",
+                "composer": "Тосихико Хорияма",
+                "places": "в мини-игре Виндмена",
             }
         }
   },
@@ -4524,17 +4450,25 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:24",
     "composer": "Toshihiko Horiyama",
-    "places": "SearchMan's Minigame",
+    "places": "SearchMan's minigame",
     "start": "2276",
     "stop": "23841",
     "disc": "sb4.png",
     "gameimage": "exe45.png",
     "id": "searchman-minigame-exe45",
     "i18n": {
+            "jp": {
+                "ostname": "サーチミッション",
+                "name": "サーチマンのミニゲーム",
+                "game": "エグゼ４.５",
+                "composer": "堀山 俊彦",
+                "places": "サーチマンのミニゲーム",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "Поисковая миссия",
+                "name": "Мини-игра Сёрчмена",
+                "composer": "Тосихико Хорияма",
+                "places": "в мини-игре Сёрчмена",
             }
         }
   },
@@ -4548,17 +4482,25 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:28",
     "composer": "Toshihiko Horiyama",
-    "places": "MetalMan's Minigame",
+    "places": "MetalMan's minigame",
     "start": "0",
     "stop": "27559",
     "disc": "sb4.png",
     "gameimage": "exe45.png",
     "id": "metalman-minigame-exe45",
     "i18n": {
+            "jp": {
+                "ostname": "メタルシューティング！",
+                "name": "メタルマンのミニゲーム",
+                "game": "エグゼ４.５",
+                "composer": "堀山 俊彦",
+                "places": "メタルマンのミニゲーム",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "Стрельба по металлу!",
+                "name": "Мини-игра Сёрчмена",
+                "composer": "Тосихико Хорияма",
+                "places": "в мини-игре Сёрчмена",
             }
         }
   },
@@ -4572,17 +4514,25 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:27",
     "composer": "Toshihiko Horiyama",
-    "places": "NapalmMan's Minigame",
+    "places": "NapalmMan's minigame",
     "start": "0",
     "stop": "26788",
     "disc": "sb4.png",
     "gameimage": "exe45.png",
     "id": "napalmman-minigame-exe45",
     "i18n": {
+            "jp": {
+                "ostname": "ナパームボム！",
+                "name": "ナパームマンのミニゲーム",
+                "game": "エグゼ４.５",
+                "composer": "堀山 俊彦",
+                "places": "ナパームマンのミニゲーム",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "Напалмовая бомба!",
+                "name": "Мини-игра Нейпелммена",
+                "composer": "Тосихико Хорияма",
+                "places": "в мини-игре Нейпелммена",
             }
         }
   },
@@ -4596,17 +4546,25 @@ let allMusic = [
     "game": "EXE4.5",
     "duration": "0:23",
     "composer": "Toshihiko Horiyama",
-    "places": "IceMan's Minigame",
+    "places": "IceMan's minigame",
     "start": "0",
     "stop": "22603",
     "disc": "sb4.png",
     "gameimage": "exe45.png",
     "id": "iceman-minigame-exe45",
     "i18n": {
+            "jp": {
+                "ostname": "アイスパズル",
+                "name": "アイスマンのミニゲーム",
+                "game": "エグゼ４.５",
+                "composer": "堀山 俊彦",
+                "places": "アイスマンのミニゲーム",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "Ледяной пазл",
+                "name": "Мини-игра Айсмена",
+                "composer": "Тосихико Хорияма",
+                "places": "в мини-игре Айсмена",
             }
         }
   },
@@ -4784,7 +4742,7 @@ let allMusic = [
                 "name": "スタッフロール",
                 "game": "エグゼ４.５",
                 "composer": "堀山 俊彦",
-                "places":"スタッフロール画面",
+                "places":"スタッフロール",
             },
             "ru": {
                 "ostname":"Весь состав",
@@ -8340,10 +8298,18 @@ let allMusic = [
     ],
     "id": "final-battle-exe6",
     "i18n": {
+            "jp": {
+                "ostname": "決戦、電脳獣！",
+                "name": "ラスボス戦",
+                "game": "エグゼ６",
+                "composer": "青木 佳乃",
+                "places": "ラスボス戦（電脳獣グレイガ・ファルザー）",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "Решающая битва, Киберзвери!",
+                "name": "Битва с финальным боссом",
+                "composer": "Ëсино Аоки",
+                "places": "в финальной битве с Грейгой/Фальзером",
             }
         }
   },
@@ -8367,10 +8333,18 @@ let allMusic = [
     ],
     "id": "credits-theme-exe6",
     "i18n": {
+            "jp": {
+                "ostname": "未来",
+                "name": "スタッフロール",
+                "game": "エグゼ６",
+                "composer": "青木 佳乃",
+                "places": "スタッフロール",
+            },
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "Будущее",
+                "name": "Тема титров",
+                "composer": "Ëсино Аоки",
+                "places": "в титрах",
             }
         }
   },
