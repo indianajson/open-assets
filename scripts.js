@@ -1,14 +1,13 @@
 let allScripts = [{
         "name": "ezLibs",
-        "description": 'At the heart of most major ONB servers, this suite of scripts makes adding mystery data, security cubes, player memory, warps, NPCs and so much more a breeze. Check out the documentation on the ezLibs Scripts repository, but consider using the self updating ezLibs server template as your starting point for your next ONB server. <br><br><button id="download-single-script"><a href="http://github.com/keristero/ezlibs-scripts" target="_blank" style="text-decoration:none; color:#000;">ezLibs Scripts</a></button>  &nbsp; <button id="download-single-script"><a href="http://github.com/keristero/ezlibs-assets" target="_blank" style="text-decoration:none; color:#000;">ezLibs Assets</a></button>  &nbsp; <button id="download-single-script"><a href="https://github.com/Keristero/onb-server-template" target="_blank" style="text-decoration:none; color:#000;">Server Template</a></button> ',
+        "description": 'At the heart of most major ONB servers, this suite of scripts makes adding Mystery Data, Security Cubes, player memory, warps, NPCs and so much more a breeze. Check out the documentation on the ezLibs Scripts repository, but consider using the self updating ezLibs server template as your starting point for your next ONB server. <br><br><button id="download-single-script"><a href="http://github.com/keristero/ezlibs-scripts" target="_blank" style="text-decoration:none; color:#000;">ezLibs Scripts</a></button>  &nbsp; <button id="download-single-script"><a href="http://github.com/keristero/ezlibs-assets" target="_blank" style="text-decoration:none; color:#000;">ezLibs Assets</a></button>  &nbsp; <button id="download-single-script"><a href="https://github.com/Keristero/onb-server-template" target="_blank" style="text-decoration:none; color:#000;">Server Template</a></button> ',
         "author": "Keristero",
         "scripttype": "Lua Script",
         "id": "ezlibs-keristero",
         "i18n": {
             "ru": {
-                "name": "",
-                "description": "",
-                "scripttype": ""
+                "description": 'Этот набор скриптов, лежащий в основе большинства крупных ONB-серверов, позволяет легко добавлять Загадочные данные, Кубы безопасности, память игрока, телепорты, НИПы и многое другое. Ознакомьтесь с документацией в репозитории скриптов ezLibs, но рассмотрите возможность использования самообновляющегося шаблона сервера ezLibs в качестве отправной точки для вашего следующего ONB-сервера. <br><br><button id="download-single-script"><a href="http://github.com/keristero/ezlibs-scripts" target="_blank" style="text-decoration:none; color:#000;">Скрипты ezLibs</a></button>  &nbsp; <button id="download-single-script"><a href="http://github.com/keristero/ezlibs-assets" target="_blank" style="text-decoration:none; color:#000;">Ассеты ezLibs</a></button>  &nbsp; <button id="download-single-script"><a href="https://github.com/Keristero/onb-server-template" target="_blank" style="text-decoration:none; color:#000;">Шаблон сервера</a></button>',
+                "scripttype": "Lua-скрипт"
             }
         }
     },
@@ -57,15 +56,15 @@ let allScripts = [{
 
     {
         "name": 'Indy\'s Trains (Cyber Metro)',
-        "description": 'A standalone script to easily add customizable cyber metro trains (from BN3/EXE3) to Open Net Battle servers. Features a Tiled extension for easy configuration, new sprites for the cyber metro trains and conductor, server-to-server trains, and more!<br><br><button id="download-single-script"><a href="https://github.com/indianajson/cyber-trains/" target="_blank" style="text-decoration:none; color:#000;">Repository</a></button><br><br><img src="img/other/metro.png" height=200 /><br>',
+        "description": 'A standalone script to easily add customizable Cyber Metro trains (from EXE3/BN3) to Open Net Battle servers. Features a Tiled extension for easy configuration, new sprites for the cyber metro trains and conductor, server-to-server trains, and more!<br><br><button id="download-single-script"><a href="https://github.com/indianajson/cyber-trains/" target="_blank" style="text-decoration:none; color:#000;">Repository</a></button><br><br><img src="img/other/metro.png" height=200 /><br>',
         "author": "Indiana",
         "scripttype": "Lua Script",
         "id": "trains-indiana",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "Поезда Indy (Киберметро)",
                 "description": "",
-                "scripttype": ""
+                "scripttype": "Lua-скрипт"
             }
         }
     },
