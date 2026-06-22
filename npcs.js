@@ -409,7 +409,7 @@ let allNPCs = [{
     "author": "unknown",
     "game": "Custom",
     "preview": "darkprog-ninja.animation",
-    "id": "ninja-program-kun-dark-custom",
+    "id": "ninja-programkun-dark-custom",
     "i18n": {
             "jp": {
                 "name": "忍者プログラムくん（暗）",
@@ -628,14 +628,14 @@ let allNPCs = [{
     "author": "CAPCOM",
     "game": "SSR1/SF1",
     "preview": "heel-fm-sf1.animation",
-    "id": "heel-fm-ssr1",
+    "id": "jamminger-ssr1",
     "i18n": {
             "jp": {
                 "name": "ジャミンガー",
                 "game": "流星１"
             },
             "ru": {
-                "name": "Джемингер"
+                "name": "Джеммингер"
             }
         }
   },
@@ -669,7 +669,7 @@ let allNPCs = [{
                 "game": "エグゼ４"
             },
             "ru": {
-                "name": "Хил-Нави (фиолетовый)"
+                "name": "Хил-Нави"
             }
         }
   },
@@ -691,12 +691,12 @@ let allNPCs = [{
         }
   },
   {
-    "name": "Mr. Prog (Holy)",
+    "name": "Holy Program-kun",
     "files": ["holyprog.animation", "holyprog.png", "mug.animation", "holyprog-mug.png"],
     "author": "unknown",
     "game": "Custom",
     "preview": "holyprog.animation",
-    "id": "mr-prog-holy-custom",
+    "id": "holy-programkun-custom",
     "i18n": {
             "ru": {
                 "name": "",
@@ -730,15 +730,15 @@ let allNPCs = [{
         }
   },
   {
-    "name": "Magtect (Virus)",
+    "name": "MagTect (virus)",
     "files": ["magtect-bn45.animation", "magtect-bn45.png", "mug.animation"],
     "author": "unknown",
     "game": "EXE4.5",
     "preview": "magtect-bn45.animation",
-    "id": "magtect-virus-exe4-5",
+    "id": "magtect-virus-exe45",
     "i18n": {
             "ru": {
-                "name": "",
+                "name": "МагТект (вирус)",
             }
         }
   },
@@ -769,41 +769,41 @@ let allNPCs = [{
         }
   },
   {
-    "name": "Megaman",
+    "name": "Rockman",
     "files": ["megaman.animation", "megaman.png", "mug.animation", "megaman-mug.png"],
     "author": "unknown",
     "game": "EXE6/BN6",
     "preview": "megaman.animation",
-    "id": "megaman-exe6",
+    "id": "rockman-exe6",
     "i18n": {
             "ru": {
-                "name": "",
+                "name": "Рокмен",
             }
         }
   },
   {
-    "name": "Mettaur (Virus)",
+    "name": "Metall (virus)",
     "files": ["mettaur-bn45.animation", "mettaur-bn45.png", "mug.animation", "mettaur-mug.png"],
     "author": "unknown",
     "game": "EXE4.5",
     "preview": "mettaur-bn45.animation",
-    "id": "mettaur-virus-exe4-5",
+    "id": "metall-virus-exe45",
     "i18n": {
             "ru": {
-                "name": "",
+                "name": "Метолл (вирус)",
             }
         }
   },
   {
-    "name": "Lan",
+    "name": "Netto Hikari",
     "files": ["Netto-EXE3.animation", "Netto-EXE3.png", "Netto-EXE3-mug.animation", "Netto-EXE3-mug.png"],
     "author": "unknown",
     "game": "EXE3/BN3",
     "preview": "Netto-EXE3.animation",
-    "id": "lan-exe3",
+    "id": "netto-hikari-exe3",
     "i18n": {
             "ru": {
-                "name": "",
+                "name": "Нэтто Хикари",
             }
         }
   },
@@ -930,7 +930,7 @@ let allNPCs = [{
     "author": "unknown",
     "game": "Custom",
     "preview": "prog-farmer.animation",
-    "id": "farmer-program-kun-custom",
+    "id": "farmer-programkun-custom",
     "i18n": {
             "jp": {
                 "name": "農家プログラムくん",
@@ -943,25 +943,25 @@ let allNPCs = [{
         }
   },
   {
-    "name": "Program-kun (gold)",
+    "name": "Golden Program-kun",
     "files": ["prog-gold.animation", "prog-gold.png", "mug.animation", "prog-gold-mug.png"],
-    "author": "unknown",
+    "author": "CAPCOM",
     "game": "EXE5/BN5",
     "preview": "prog-gold.animation",
-    "id": "program-kun-gold-exe5",
+    "id": "golden-programkun-exe5",
     "i18n": {
             "ru": {
-                "name": "",
+                "name": "Золотая Программка"
             }
         }
   },
   {
-    "name": "Program-kun (Ninja)",
+    "name": "Program-kun (ninja)",
     "files": ["prog-ninja.animation", "prog-ninja.png", "mug.animation", "prog-ninja-mug.png"],
-    "author": "unknown",
+    "author": "CAPCOM",
     "game": "EXE5/BN5",
     "preview": "prog-ninja.animation",
-    "id": "ninja-program-kun-exe5",
+    "id": "ninja-programkun-exe5",
     "i18n": {
             "ru": {
                 "name": "",
@@ -974,7 +974,7 @@ let allNPCs = [{
     "author": "unknown",
     "game": "Other",
     "preview": "prog.animation",
-    "id": "program-kun-other",
+    "id": "programkun-other",
     "i18n": {
             "ru": {
                 "name": "",
