@@ -1,5 +1,5 @@
 let allData = [{
-    "name": "Den / ACDC Area Tiles",
+    "name": "Densan / Akihara Area Tiles",
     "files": ["BN2 ACDC.tsx", "BN2 ACDC.png"],
     "author": "Quetzen",
     "type": "tile",
@@ -61,7 +61,7 @@ let allData = [{
     "type": "tile",
     "game": "EXE4.5",
     "preview": "ZeroAccountTileset.png",
-    "id": "internet5-8-area-tiles-exe4-5",
+    "id": "internet5-8-area-tiles-exe45",
         "i18n": {
             "ru": {
                 "name": "",
@@ -75,7 +75,7 @@ let allData = [{
     "type": "object",
     "game": "EXE4.5",
     "preview": "4_5Warps.png",
-    "id": "area-warps-exe4-5",
+    "id": "area-warps-exe45",
         "i18n": {
             "ru": {
                 "name": "",
@@ -83,7 +83,7 @@ let allData = [{
         }
     },
   {
-    "name": "Liberation - Alpha Tileset (BN3)",
+    "name": "Liberate Mission - Proto tileset",
     "type": "tiles",
     "files": ["AlphaAreaTileset.png", "AlphaAreaTileset.tsx"],
     "author": "Quetzen",
@@ -97,7 +97,7 @@ let allData = [{
         }
     },
   {
-    "name": "Liberation - Alpha Panels (BN3)",
+    "name": "Liberate Mission - Proto panels",
     "type": "object",
     "files": ["alpha-liberation-panels.png", "alpha-liberation-panels.tsx"],
     "author": ["D3str0y3d", "Jawnii [Alcor/Kuri]"],
@@ -111,7 +111,7 @@ let allData = [{
         }
     },
   {
-    "name": "Alpha Comp Tiles",
+    "name": "Proto tiles",
     "files": ["Alpha_Comp.png", "Alpha_Comp.tsx"],
     "author": "Claris",
     "type": "tile",
@@ -125,7 +125,7 @@ let allData = [{
         }
     },
   {
-    "name": "Oven Comp Tiles (BN1)",
+    "name": "Oven Comp tiles",
     "files": ["Cords.png", "Cords.tsx"],
     "type": "tile",
     "author": ["Claris", "Mint Flav", "Rune", "Jawnii [Alcor/Kuri]"],
@@ -139,7 +139,7 @@ let allData = [{
         }
     },
   {
-    "name": "Oven Comp Honeycomb Tile (BN1)",
+    "name": "Oven Comp honeycomb tile",
     "files": ["OvenHoneycombs.tsx", "ovenhoneycomb.png"],
     "type": "tile",
     "author": "Mint Flav",
@@ -167,7 +167,7 @@ let allData = [{
         }
     },
   {
-    "name": "Fireman Flames",
+    "name": "Oven Comp flames",
     "files": ["Fireman Flame.png", "Fireman Flame.tsx"],
     "type": "object",
     "author": "unknown",
@@ -181,7 +181,7 @@ let allData = [{
         }
     },
   {
-    "name": "Traffic Light Comp Arrows",
+    "name": "Traffic Light Comp arrows",
     "files": ["TrafficArrows.png", "TrafficArrows.tsx"],
     "type": "tile",
     "author": "unknown",
@@ -195,7 +195,7 @@ let allData = [{
         }
     },
   {
-    "name": "Traffic Light Comp Tiles",
+    "name": "Traffic Light Comp tiles",
     "files": ["TrafficFloor.png", "TrafficFloor.tsx"],
     "type": "tile",
     "author": "unknown",
@@ -209,7 +209,7 @@ let allData = [{
         }
     },
   {
-    "name": "Net Square Tiles",
+    "name": "Net Square tiles",
     "files": ["BN2SquareColorful.png", "BN2SquareColorful.tsx"],
     "type": "tile",
     "author": "D3str0y3d",
@@ -223,7 +223,7 @@ let allData = [{
         }
     },
   {
-    "name": "Net Square Transition Tile",
+    "name": "Net Square transition tile",
     "files": ["FlatRamp.png", "FlatRamp.tsx"],
     "type": "tile",
     "author": "unknown",
@@ -237,7 +237,7 @@ let allData = [{
         }
     },
   {
-    "name": "Raoul HP Tiles",
+    "name": "Raoul HP tiles",
     "files": ["FloorTilesColorful.png", "FloorTilesColorful.tsx"],
     "type": "tile",
     "author": "D3str0y3d",
@@ -251,7 +251,7 @@ let allData = [{
         }
     },
   {
-    "name": "Ice Tile Tops",
+    "name": "Ice tile tops",
     "files": ["IceTileTopper.png", "IceTileTopper.tsx"],
     "type": "tile",
     "author": "unknown",
@@ -265,7 +265,7 @@ let allData = [{
         }
     },
   {
-    "name": "Internet House Door",
+    "name": "Internet house door",
     "files": ["Internet House.png", "Internet House.tsx"],
     "type": "object",
     "author": "unknown",
@@ -279,7 +279,7 @@ let allData = [{
         }
     },
   {
-    "name": "Netopia Tiles",
+    "name": "Amerope Area tiles",
     "files": ["Netopia Tileset.png", "Netopia Tileset.tsx"],
     "type": "tile",
     "author": "Claris",
@@ -293,7 +293,7 @@ let allData = [{
         }
     },
   {
-    "name": "Netopia Arrows",
+    "name": "Amerope Area arrows",
     "type": "tile",
     "files": ["Exits Redux.png", "Exits Redux.tsx"],
     "author": "Claris",
@@ -307,7 +307,7 @@ let allData = [{
         }
     },
   {
-    "name": "Netopia Conveyers",
+    "name": "Amerope Area conveyers",
     "files": ["Netopia_Tileset_directional_paths.png", "Netopia_Tileset_directional_paths.tsx"],
     "type": "tile",
     "author": "Claris",
@@ -321,12 +321,12 @@ let allData = [{
         }
     },
   {
-    "name": "Shop Counter (Long)",
+    "name": "Shop counter (long)",
     "files": ["Castle Wall Long.png", "Castle Wall Long.tsx"],
     "author": "Claris",
     "game": "EXE4.5",
     "preview": "Castle Wall Long.png",
-    "id": "shop-counter-long-exe4-5",
+    "id": "shop-counter-long-exe45",
         "i18n": {
             "ru": {
                 "name": "",
@@ -334,12 +334,12 @@ let allData = [{
         }
     },
   {
-    "name": "Shop Counter",
+    "name": "Shop counter",
     "files": ["Castle Wall.png", "Castle Wall.tsx"],
     "author": "Claris",
     "game": "EXE4.5",
     "preview": "Castle Wall.png",
-    "id": "shop-counter-exe4-5",
+    "id": "shop-counter-exe45",
         "i18n": {
             "ru": {
                 "name": "",
@@ -347,7 +347,7 @@ let allData = [{
         }
     },
   {
-    "name": "Netopia Backward Stairs",
+    "name": "Amerope Area backward stairs",
     "type": "tile",
     "files": ["cursed-stairs-Bn2.png", "cursed-stairs-Bn2.tsx"],
     "author": "Keristero",
@@ -361,7 +361,7 @@ let allData = [{
         }
     },
   {
-    "name": "Netopia Recolored Tiles",
+    "name": "Amerope Area recolored tiles",
     "type": "tile",
     "files": ["DenTownNet_Tileset.png", "DenTownNet_Tileset.tsx"],
     "author": "Claris",
@@ -375,7 +375,7 @@ let allData = [{
         }
     },
   {
-    "name": "Netopia Arrows Recolored",
+    "name": "Amerope Area recolored arrows",
     "files": ["Den_Exits.png", "Den_Exits.tsx"],
     "type": "tile",
     "author": "Claris",
@@ -389,7 +389,7 @@ let allData = [{
         }
     },
   {
-    "name": "Snow Tile Toppers",
+    "name": "Snow tile toppers",
     "files": ["SnowTileTopper.png", "SnowTileTopper.tsx"],
     "type": "tile",
     "author": "unknown",
@@ -403,7 +403,7 @@ let allData = [{
         }
     },
   {
-    "name": "Net Square Warps",
+    "name": "Net Square warps",
     "files": ["SquareWarpsA.png", "SquareWarpsA.tsx"],
     "type": "object",
     "author": "unknown",
@@ -417,13 +417,13 @@ let allData = [{
         }
     },
   {
-    "name": "Undernet Animated Tile Tops",
+    "name": "Ura Internet animated tile tops",
     "files": ["Bn2UndernetAnimatedTiles.tsx", "Bn2UndernetAnimatedTiles.png"],
     "type": "tile",
     "author": "unknown",
     "game": "EXE2/BN2",
     "preview": "Bn2UndernetAnimatedTiles.png",
-    "id": "undernet-animated-tile-tops-exe2",
+    "id": "ura-internet-animated-tile-tops-exe2",
         "i18n": {
             "ru": {
                 "name": "",
@@ -431,13 +431,13 @@ let allData = [{
         }
     },
   {
-    "name": "ACDC Arrows",
+    "name": "Akihara Area arrows",
     "files": ["ACDC_Arrows.png", "ACDC_Arrows.tsx"],
     "type": "tile",
     "author": "unknown",
     "game": "EXE3/BN3",
     "preview": "ACDC_Arrows.png",
-    "id": "acdc-arrows-exe3",
+    "id": "akihara-area-arrows-exe3",
         "i18n": {
             "ru": {
                 "name": "",
@@ -445,7 +445,7 @@ let allData = [{
         }
     },
   {
-    "name": "Beach Area Conveyers",
+    "name": "Beach Area conveyers",
     "files": ["Beach Arrows.png", "Beach Arrows.tsx"],
     "type": "tile",
     "author": "Claris",
@@ -459,7 +459,7 @@ let allData = [{
         }
     },
   {
-    "name": "Beach Area Stairs",
+    "name": "Beach Area stairs",
     "files": ["Beach Stairs.png", "Beach Stairs.tsx"],
     "type": "tile",
     "author": "Claris",
@@ -473,7 +473,7 @@ let allData = [{
         }
     },
   {
-    "name": "Beach Area Tiles",
+    "name": "Beach Area tiles",
     "files": ["Beach Tileset.png", "Beach Tileset.tsx"],
     "type": "tile",
     "author": "Claris",
@@ -487,7 +487,7 @@ let allData = [{
         }
     },
   {
-    "name": "Beach Area Arrows",
+    "name": "Beach Area arrows",
     "files": ["Beach_Next_Area.png", "Beach_Next_Area.tsx"],
     "type": "tile",
     "author": "Claris",
@@ -501,7 +501,7 @@ let allData = [{
         }
     },
   {
-    "name": "Beach Area Warp",
+    "name": "Beach Area warp",
     "files": ["Beach_Warp.png", "Beach_Warp.tsx"],
     "type": "object",
     "author": "Claris",
@@ -515,7 +515,7 @@ let allData = [{
         }
     },
   {
-    "name": "Beach Area Warp Customized",
+    "name": "Beach Area warp (customized)",
     "files": ["CusBeachWarp.png", "CusBeachWarp.tsx"],
     "type": "object",
     "author": "unknown",
@@ -529,13 +529,13 @@ let allData = [{
         }
     },
   {
-    "name": "SciLab Area Arrows (1 of 2)",
+    "name": "Ministry of Science Area arrows (1/2)",
     "files": ["SciLabF1_Arrows.png", "SciLabF1_Arrows.tsx"],
     "type": "tile",
     "author": "unknown",
     "game": "EXE3/BN3",
     "preview": "SciLabF1_Arrows.png",
-    "id": "scilab-area-arrows-1-of-2-exe3",
+    "id": "ministry-of-science-area-arrows-1-of-2-exe3",
         "i18n": {
             "ru": {
                 "name": "",
@@ -543,13 +543,13 @@ let allData = [{
         }
     },
   {
-    "name": "SciLab Area Arrows (2 of 2)",
+    "name": "Ministry of Science Area arrows (2/2)",
     "files": ["SciLabF2_Arrows.png", "SciLabF2_Arrows.tsx"],
     "type": "tile",
     "author": "unknown",
     "game": "EXE3/BN3",
     "preview": "SciLabF2_Arrows.png",
-    "id": "scilab-area-arrows-2-of-2-exe3",
+    "id": "ministry-of-science-area-arrows-2-of-2-exe3",
         "i18n": {
             "ru": {
                 "name": "",
@@ -557,54 +557,66 @@ let allData = [{
         }
     },
   {
-    "name": "Yoka Area Arrows (1 of 2)",
+    "name": "Yoka-Yoka Area: arrows (1/2)",
     "files": ["YokaF1_Arrows.png", "YokaF1_Arrows.tsx"],
     "type": "tile",
     "author": "unknown",
     "game": "EXE3/BN3",
     "preview": "YokaF1_Arrows.png",
-    "id": "yoka-area-arrows-1-of-2-exe3",
+    "id": "yokayoka-area-arrows-1-of-2-exe3",
         "i18n": {
+            "jp": {
+                "name": "よかよかエリア：矢印（１／２）",
+                "game": "エグゼ３",
+            },
             "ru": {
-                "name": "",
+                "name": "Зона Йока-Йока: стрелки (1/2)",
             }
         }
     },
   {
-    "name": "Yoka Area Arrows (2 of 2)",
+    "name": "Yoka-Yoka Area: arrows (2 of 2)",
     "files": ["YokaF2_Arrows.png", "YokaF2_Arrows.tsx"],
     "type": "tile",
     "author": "unknown",
     "game": "EXE3/BN3",
     "preview": "YokaF2_Arrows.png",
-    "id": "yoka-area-arrows-2-of-2-exe3",
+    "id": "yokayoka-area-arrows-2-of-2-exe3",
         "i18n": {
+            "jp": {
+                "name": "よかよかエリア：矢印（２／２）",
+                "game": "エグゼ３",
+            },
             "ru": {
-                "name": "",
+                "name": "Зона Йока-Йока: стрелки (2/2)",
             }
         }
     },
   {
-    "name": "Hades Arrows",
+    "name": "Hell Island Area: arrows",
     "files": ["HadesF2_Arrows.png", "HadesF2_Arrows.tsx"],
     "type": "tile",
     "author": "unknown",
     "game": "EXE3/BN3",
     "preview": "HadesF2_Arrows.png",
-    "id": "hades-arrows-exe3",
+    "id": "hell-island-area-arrows-exe3",
         "i18n": {
+            "jp": {
+                "name": "ジゴク島エリア：タイル",
+                "game": "エグゼ３",
+            },
             "ru": {
-                "name": "",
+                "name": "Зона острова Дзигоку: плитки",
             }
         }
     },
   {
-    "name": "Bass Door",
+    "name": "Forte door",
     "files": ["BassDoor.png", "BassDoor.tsx"],
     "author": "unknown",
     "game": "EXE3/BN3",
     "preview": "BassDoor.png",
-    "id": "bass-door-exe3",
+    "id": "forte-door-exe3",
         "i18n": {
             "ru": {
                 "name": "",
@@ -612,16 +624,20 @@ let allData = [{
         }
     },
   {
-    "name": "Spikey Gargoyle",
+    "name": "Garue gargoyle",
     "files": ["Spikey Gargoyle.png", "Spikey Gargoyle.tsx"],
     "type": "tile",
     "author": "unknown",
     "game": "Other",
     "preview": "Spikey Gargoyle.png",
-    "id": "spikey-gargoyle-other",
+    "id": "garue-gargoyle-other",
         "i18n": {
+            "jp": {
+                "name": "ガルーのガーゴイル",
+                "game": "エグゼ３",
+            },
             "ru": {
-                "name": "",
+                "name": "Гаргулья Гаруу",
             }
         }
     },
@@ -640,7 +656,7 @@ let allData = [{
         }
     },
   {
-    "name": "Program Chip Form",
+    "name": "Program chip form",
     "type": "object",
     "files": ["ProgramChipForm.png", "ProgramChipForm.tsx"],
     "author": "unknown",
@@ -654,133 +670,133 @@ let allData = [{
         }
     },
   {
-    "name": "ACDC Warp",
+    "name": "Akihara Area: warp",
     "files": ["BN3ACDC1Warp.png", "BN3ACDC1Warp.tsx"],
     "type": "object",
     "author": "FrozenLake",
     "game": "EXE3/BN3",
     "preview": "BN3ACDC1Warp.png",
-    "id": "acdc-warp-exe3",
+    "id": "akihara-area-warp-exe3",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "Зона Акихары: телепорт",
             }
         }
     },
   {
-    "name": "ACDC Square Warp",
+    "name": "Akihara Square: warp",
     "files": ["BN3ACDCWarp2.png", "BN3ACDCWarp2.tsx"],
     "type": "object",
     "author": "FrozenLake",
     "game": "EXE3/BN3",
     "preview": "BN3ACDCWarp2.png",
-    "id": "acdc-square-warp-exe3",
+    "id": "akihara-square-warp-exe3",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "Площадь Акихары",
             }
         }
     },
   {
-    "name": "Dex Panel",
+    "name": "Dekao's HP: panel",
     "files": ["BN3DexPanel.png", "BN3DexPanel.tsx"],
     "type": "tile",
     "author": "unknown",
     "game": "EXE3/BN3",
     "preview": "BN3DexPanel.png",
-    "id": "dex-panel-exe3",
+    "id": "dekao-hp-panel-exe3",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "ДС Дэкао: панель",
             }
         }
     },
   {
-    "name": "Tamako Panel",
+    "name": "Tamako's HP: panel",
     "files": ["BN3TamakoPanel.png", "BN3TamakoPanel.tsx"],
     "type": "tile",
     "author": "unknown",
     "game": "EXE3/BN3",
     "preview": "BN3TamakoPanel.png",
-    "id": "tamako-panel-exe3",
+    "id": "tamakos-hp-panel-exe3",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "ДС Тамако: панель",
             }
         }
     },
   {
-    "name": "Yai Panel",
+    "name": "Yaito's HP: panel",
     "files": ["BN3YaiPanel.png", "BN3YaiPanel.tsx"],
     "type": "tile",
     "author": "unknown",
     "game": "EXE3/BN3",
     "preview": "BN3YaiPanel.png",
-    "id": "yai-panel-exe3",
+    "id": "yaitos-hp-panel-exe3",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "ДС Яйто: панель",
             }
         }
     },
   {
-    "name": "Mayl Panel",
+    "name": "Meiru's HP: panel",
     "files": ["BN3MaylPanel.png", "BN3MaylPanel.tsx"],
     "type": "tile",
     "author": "FrozenLake",
     "game": "EXE3/BN3",
     "preview": "BN3MaylPanel.png",
-    "id": "mayl-panel-exe3",
+    "id": "meirus-hp-panel-exe3",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "ДС Мэйру: панель",
             }
         }
     },
   {
-    "name": "Yoka Compression Roads",
+    "name": "Yoka-Yoka Area: compression roads",
     "files": ["CompressionRoadsYoka.png", "CompressionRoadsYoka.tsx"],
     "type": "tile",
     "author": ["D3str0y3d", "FrozenLake"],
     "game": "EXE3/BN3",
     "preview": "CompressionRoadsYoka.png",
-    "id": "yoka-compression-roads-exe3",
+    "id": "yokayoka-area-compression-roads-exe3",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "Зона Ёка-Ёка: дорожки сжатия",
             }
         }
     },
   {
-    "name": "Yoka Compression Roads Shadows",
+    "name": "Yoka-Yoka Area: compression roads (shadows)",
     "type": "object",
     "files": ["ShadowCompressionRoad.png", "ShadowCompressionRoad.tsx"],
     "author": "D3str0y3d",
     "game": "EXE3/BN3",
     "preview": "ShadowCompressionRoad.png",
-    "id": "yoka-compression-roads-shadows-exe3",
+    "id": "yokayoka-area-compression-roads-shadows-exe3",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "Зона Ёка-Ёка: дорожки сжатия (тени)",
             }
         }
     },
   {
-    "name": "Yoka Custom Tiles",
+    "name": "Yoka-Yoka Area: tiles (custom)",
     "type": "tile",
     "files": ["yokaforjamestileset67x52.png", "yokaforjamestileset67x52.tsx"],
     "author": "DigitalL33T",
     "game": "EXE3/BN3",
     "preview": "yokaforjamestileset67x52.png",
-    "id": "yoka-custom-tiles-exe3",
+    "id": "yokayoka-area-tiles-custom-exe3",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "Зона Ёка-Ёка: плитки (самодельные)",
             }
         }
     },
   {
-    "name": "Cyber Metro Rail",
+    "name": "Cyber Metro rail",
     "files": ["Cyber_Rail.png", "Cyber_Rail.tsx"],
     "type": "tile",
     "author": "unknown",
@@ -789,12 +805,12 @@ let allData = [{
     "id": "cyber-metro-rail-exe3",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "Рельса Киберметро",
             }
         }
     },
   {
-    "name": "DrillMan Portal",
+    "name": "DrillMan portal",
     "files": ["DrillManPortal36x46.png", "DrillManPortal36x46.tsx"],
     "type": "object",
     "author": "unknown",
@@ -803,12 +819,12 @@ let allData = [{
     "id": "drillman-portal-exe3",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "Портал Дриллмена",
             }
         }
     },
   {
-    "name": "BBS Board",
+    "name": "BBS board",
     "files": ["bn3-bbs.png", "bn3-bbs.tsx"],
     "type": "object",
     "author": "D3str0y3d",
@@ -817,12 +833,12 @@ let allData = [{
     "id": "bbs-board-exe3",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "BBS-доска",
             }
         }
     },
   {
-    "name": "BBS Board",
+    "name": "BBS board",
     "files": ["BBS-BN4.png", "BBS-BN4.tsx"],
     "author": "unknown",
     "game": "EXE4/BN4",
@@ -830,12 +846,12 @@ let allData = [{
     "id": "bbs-board-exe4",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "BBS-доска",
             }
         }
     },
   {
-    "name": "BBS Board",
+    "name": "BBS board",
     "files": ["BBS.tsx", "BBS.png"],
     "author": "unknown",
     "type": "object",
@@ -844,21 +860,21 @@ let allData = [{
     "id": "bbs-board-exe6",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "BBS-доска",
             }
         }
     },
   {
-    "name": "HP Tiles",
+    "name": "Seaside/Green Area: tiles",
     "files": ["bn6_pc_tile.png", "bn6_pc_tile.tsx"],
     "type": "tile",
     "author": "unknown",
     "game": "EXE6/BN6",
     "preview": "bn6_pc_tile.png",
-    "id": "hp-tiles-exe6",
+    "id": "seaside-green-area-tiles-exe6",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "Приморская/Зелёная зона: плитки",
             }
         }
     },
@@ -872,12 +888,12 @@ let allData = [{
     "id": "nebula-gate-exe5",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "Врата Nebula",
             }
         }
     },
   {
-    "name": "Central Area Arrows (Blue)",
+    "name": "Central Area: arrows (blue)",
     "type": "tile",
     "files": ["central_arrows.png", "central_arrows.tsx"],
     "author": "unknown",
@@ -886,12 +902,12 @@ let allData = [{
     "id": "central-area-arrows-blue-exe6",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "Центральная зона: стрелки (синие)",
             }
         }
     },
   {
-    "name": "Central Area Arrows (Yellow)",
+    "name": "Central Area: arrows (yellow)",
     "type": "tile",
     "files": ["central_arrows2.png", "central_arrows2.tsx"],
     "author": "unknown",
@@ -900,12 +916,12 @@ let allData = [{
     "id": "central-area-arrows-yellow-exe6",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "Центральная зона: стрелки (жёлтые)",
             }
         }
     },
   {
-    "name": "Central Area Arrows (Cyan)",
+    "name": "Central Area: arrows (cyan)",
     "type": "tile",
     "files": ["central_arrows3.png", "central_arrows3.tsx"],
     "author": "unknown",
@@ -914,26 +930,26 @@ let allData = [{
     "id": "central-area-arrows-cyan-exe6",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "Центральная зона: стрелки (бирюзовые)",
             }
         }
     },
   {
-    "name": "Central Area Tiles",
+    "name": "Area isles and roads",
     "type": "tile",
     "files": ["central_platform.png", "central_platform.tsx"],
     "author": "Claris",
     "game": "EXE6/BN6",
     "preview": "central_platform.png",
-    "id": "central-area-tiles-exe6",
+    "id": "area-isles-and-roads-exe6",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "Островки и дорожки зон",
             }
         }
     },
   {
-    "name": "Central Area 3 Pipe",
+    "name": "Central Area 3: pipe",
     "type": "object",
     "files": ["Central3Pipe.png", "Central3Pipe.tsx"],
     "author": "D3str0y3d",
@@ -942,26 +958,26 @@ let allData = [{
     "id": "central-area-3-pipe-exe6",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "Центральная зона 3: труба",
             }
         }
     },
   {
-    "name": "Central 3 Pipe Empty",
+    "name": "Central Area 3: pipe (empty)",
     "type": "object",
     "files": ["pump2.png", "pump2.tsx"],
     "author": "Cyan",
     "game": "EXE6/BN6",
     "preview": "pump2.png",
-    "id": "central-3-pipe-empty-exe6",
+    "id": "central-area-3-pipe-empty-exe6",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "Центральная зона 3: труба (пустая)",
             }
         }
     },
   {
-    "name": "Central Area 3 Pipe Drip",
+    "name": "Central Area 3: pipe drip",
     "type": "object",
     "files": ["water60x48Central3.png", "water60x48Central3.tsx"],
     "author": "D3str0y3d",
@@ -970,26 +986,26 @@ let allData = [{
     "id": "central-area-3-pipe-drip-exe6",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "Центальная зона 3: капание из трубы",
             }
         }
     },
   {
-    "name": "Central Area Square Tiles",
+    "name": "Area tiles",
     "type": "tile",
     "files": ["Custom_Central_Tiles.png", "Custom_Central_Tiles.tsx"],
     "author": "Claris",
     "game": "EXE6/BN6",
     "preview": "Custom_Central_Tiles.png",
-    "id": "central-area-square-tiles-exe6",
+    "id": "area-tiles-exe6",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "Плитки зон",
             }
         }
     },
   {
-    "name": "Central Area Stairs",
+    "name": "Central Area: stairs",
     "type": "tile",
     "files": ["DenTownStairs.png", "DenTownStairs.tsx"],
     "author": "unknown",
@@ -1003,35 +1019,35 @@ let allData = [{
         }
     },
   {
-    "name": "Mr Weather Comp Cloud Tile",
+    "name": "Weather-kun Comp: cloud tiles",
     "type": "tile",
     "files": ["cloud.png", "cloud.tsx"],
     "author": "unknown",
     "game": "EXE6/BN6",
     "preview": "cloud.png",
-    "id": "mr-weather-comp-cloud-tile-exe6",
+    "id": "weatherkun-comp-cloud-tiles-exe6",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "Кибермир Уэзер-куна: плитки облака",
             }
         }
     },
   {
-    "name": "Mr Weather Comp Dark Cloud Tile",
+    "name": "Weather-kun Comp: cloud tiles (dark)",
     "type": "tile",
     "files": ["Oven Cloud.png", "Oven Cloud.tsx"],
     "author": "unknown",
     "game": "EXE6/BN6",
     "preview": "Oven Cloud.png",
-    "id": "mr-weather-comp-dark-cloud-tile-exe6",
+    "id": "weatherkun-comp-cloud-tiles-dark-exe6",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "Кибермир Уэзер-куна: плитки облака (тёмного)",
             }
         }
     },
   {
-    "name": "Coffee Sign",
+    "name": "Coffee sign",
     "type": "object",
     "files": ["coffee.png", "coffee.tsx"],
     "author": "unknown",
@@ -1040,7 +1056,7 @@ let allData = [{
     "id": "coffee-sign-exe6",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "Кофейная табличка",
             }
         }
     },
@@ -1073,21 +1089,21 @@ let allData = [{
         }
     },
   {
-    "name": "Mystery Data - Normal",
+    "name": "Mystery Data",
     "files": ["MysteryData.png", "MysteryData.tsx"],
     "author": "unknown",
     "type": "object",
     "game": "EXE4.5",
     "preview": "MysteryData.png",
-    "id": "mystery-data-exe4-5",
+    "id": "mystery-data-exe45",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "Загадочные данные",
             }
         }
     },
   {
-    "name": "Mystery Data - Red",
+    "name": "Mystery Data (red)",
     "type": "object",
     "files": ["RedMysteryData.png", "RedMysteryData.tsx"],
     "author": "unknown",
@@ -1096,36 +1112,36 @@ let allData = [{
     "id": "mystery-data-red-other",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "Загадочные данные (красные)",
             }
         }
     },
   {
-    "name": "Mystery Data - Square",
+    "name": "Mystery Data (square)",
     "type": "object",
     "files": ["square_data.tsx", "square_data.png"],
     "author": ["Rune", "Indiana"],
     "game": "Shanghai",
     "preview": "square_data.png",
-    "id": "square-data",
+    "id": "mystery-data-square-gensou",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "Загадочные данные (квадратные)",
             }
         }
     },
 
   {
-    "name": "Mystery Data - Pumpkin",
+    "name": "Mystery Data (pumpkin)",
     "type": "object",
     "files": ["pumpkindata.tsx", "pumpkindata.png"],
     "author": ["KanoYugoro", "Indiana"],
     "game": "Custom",
     "preview": "pumpkindata.png",
-    "id": "pumpkin-data",
+    "id": "mystery-data-pumpkin-custom",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "Загадочные данные (тыква)",
             }
         }
     },
@@ -1158,44 +1174,44 @@ let allData = [{
         }
     },
   {
-    "name": "Cyber Talisman",
+    "name": "Talisman (Dekao's HP)",
     "type": "object",
     "files": ["Talisman.png", "Talisman.tsx"],
     "author": "Claris",
     "game": "EXE6/BN6",
     "preview": "Talisman.png",
-    "id": "cyber-talisman-exe6",
+    "id": "dekaos-talisman-exe6",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "Талисман (ДС Дэкао)",
             }
         }
     },
   {
-    "name": "Cyber Teddy",
+    "name": "Teddy (Meiru's HP)",
     "type": "object",
     "files": ["Teddy.png", "Teddy.tsx"],
     "author": "Claris",
     "game": "EXE6/BN6",
     "preview": "Teddy.png",
-    "id": "cyber-teddy-exe6",
+    "id": "meirus-teddy-exe6",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "Мишка (ДС Мэйру)",
             }
         }
     },
   {
-    "name": "Cyber Duck",
+    "name": "Ducky (Yaito's HP)",
     "type": "object",
     "files": ["Ducky.png", "Ducky.tsx"],
     "author": "Claris",
     "game": "EXE6/BN6",
     "preview": "Ducky.png",
-    "id": "cyber-duck-exe6",
+    "id": "yaitos-ducky-exe6",
         "i18n": {
             "ru": {
-                "name": "",
+                "name": "Уточка (ДС Яйто)",
             }
         }
     },
@@ -2592,7 +2608,7 @@ let allData = [{
     "author": "Quetzen",
     "game": "EXE4.5",
     "preview": "obstacle_bandages.png",
-    "id": "bandage-tornado-exe4-5",
+    "id": "bandage-tornado-exe45",
         "i18n": {
             "ru": {
                 "name": "",
@@ -2648,7 +2664,7 @@ let allData = [{
     "author": "Quetzen",
     "game": "EXE4.5",
     "preview": "obstacle_stump.png",
-    "id": "stump-exe4-5",
+    "id": "stump-exe45",
         "i18n": {
             "ru": {
                 "name": "",
@@ -2788,7 +2804,7 @@ let allData = [{
     "author": "Quetzen",
     "game": "EXE4.5",
     "preview": "tiny_desks.png",
-    "id": "tiny-desk-exe4-5",
+    "id": "tiny-desk-exe45",
         "i18n": {
             "ru": {
                 "name": "",
@@ -2858,7 +2874,7 @@ let allData = [{
     "author": "Quetzen",
     "game": "EXE4.5",
     "preview": "exe45_trees.png",
-    "id": "trees-exe4-5",
+    "id": "trees-exe45",
         "i18n": {
             "ru": {
                 "name": "",
