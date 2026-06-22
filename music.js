@@ -1296,9 +1296,10 @@ let allMusic = [
     "id": "gas-boiler-exe2",
     "i18n": {
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "ДЫМНОЕ ПОЛЕ",
+                "name": "Кибермир газового нагревателя",
+                "composer": "Ёсино Аоки",
+                "places": "Кибермир газового нагревателя 1-2",
             }
         }
   },
@@ -1320,9 +1321,10 @@ let allMusic = [
     "id": "detonator-comp-exe2",
     "i18n": {
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "ОГРАНИЧЕНИЕ ПО ВРЕМЕНИ",
+                "name": "Кибермир детонатора",
+                "composer": "Ёсино Аоки",
+                "places": "Кибермир детонатора 1-5",
             }
         }
   },
@@ -1344,9 +1346,10 @@ let allMusic = [
     "id": "mother-computer-comp-exe2",
     "i18n": {
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "СЕРЬЁЗНАЯ МИССИЯ",
+                "name": "Кибермир Главного компьютера",
+                "composer": "Ёсино Аоки",
+                "places": "Кибермир Главного компьютера 1-5",
             }
         }
   },
@@ -1368,9 +1371,10 @@ let allMusic = [
     "id": "castle-comp-exe2",
     "i18n": {
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "СТРАХ В ЗАМКЕ",
+                "name": "Кибермир замка",
+                "composer": "Ёсино Аоки",
+                "places": "Кибермир замка 1-5",
             }
         }
   },
@@ -1392,9 +1396,10 @@ let allMusic = [
     "id": "airplane-comp-exe2",
     "i18n": {
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "МАГНИТНЫЙ САМОЛЁТ",
+                "name": "Кибермир самолёта",
+                "composer": "Ёсино Аоки",
+                "places": "Кибермир самолёта 1-5",
             }
         }
   },
@@ -1416,9 +1421,10 @@ let allMusic = [
     "id": "apartment-comp-exe2",
     "i18n": {
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "ПУТИ НАЗАД НЕТ",
+                "name": "Кибермир квартиры,
+                "composer": "Ёсино Аоки",
+                "places": "Кибермир квартиры 1-4, Кибермир сервера Gospel 1-2",
             }
         }
   },
@@ -1440,9 +1446,10 @@ let allMusic = [
     "id": "internet-theme-exe2",
     "i18n": {
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "ИНТЕРНЕТ-МИР",
+                "name": "Тема интернета",
+                "composer": "Ёсино Аоки",
+                "places": "Зона Дэнсана 1-3, Зона Кото 1-2, Зона Амевропы 1-3, любой другой кибермир",
             }
         }
   },
@@ -1464,9 +1471,10 @@ let allMusic = [
     "id": "ura-internet-exe2",
     "i18n": {
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "ПОЛНЫЙ СТРАХА",
+                "name": "Ура-Интернет 1-7",
+                "composer": "Ёсино Аоки",
+                "places": "Ура-Интернет 1-7, штаб Gospel, в кат-сцене после титров с Реальным Форте в Зоне WWW",
             }
         }
   },
@@ -1488,9 +1496,10 @@ let allMusic = [
     "id": "www-area-exe2",
     "i18n": {
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "И ТЫ УЗНАЕШЬ ИСТИНУ",
+                "name": "Кибермир WWW",
+                "composer": "Ёсино Аоки",
+                "places": "Кибермир WWW 1-3",
             }
         }
   },
@@ -1515,17 +1524,13 @@ let allMusic = [
                 "ostname": "ウイルスバスティング",
                 "name": "ウイルス戦",
                 "game": "エグゼ２",
-                "composer": [
-                  "青木 佳乃"
-                ],
+                "composer": "青木 佳乃",
                 "places": "ウイルス戦",
             },
             "ru": {
                 "ostname": "Борьба с вирусами",
                 "name": "Битва с вирусами",
-                "composer": [
-                  "Ёсино Аоки"
-                ],
+                "composer": "Ёсино Аоки",
                 "places": "в битвах с вирусами",
             }
         }
@@ -1548,9 +1553,10 @@ let allMusic = [
     "id": "boss-battle-exe2",
     "i18n": {
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "Боевой дух",
+                "name": "Битва с боссом",
+                "composer": "Ёсино Аоки",
+                "places": "в битвах с боссами и некоторыми вирусами",
             }
         }
   },
@@ -1572,9 +1578,10 @@ let allMusic = [
     "id": "final-battle-exe2",
     "i18n": {
             "ru": {
-                "name": "",
-                "ostname":"",
-                "places":"",
+                "ostname": "Против Госпеля",
+                "name": "Битва с финальным боссом",
+                "composer": "Ёсино Аоки",
+                "places": "в финальной битве с Госпелем",
             }
         }
   },
