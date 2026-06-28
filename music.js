@@ -9327,6 +9327,38 @@ let allMusic = [
         }
   },
   {
+    "ostname": "The Conflict Between Good and Evil",
+    "name": "Taisen Route 2",
+    "files": [
+      "exe7/iego3-taisenroute2.ogg"
+    ],
+    "author": "K1rbYat1Na",
+    "game": "IEGX",
+    "composer": "Natsumi Kameoka",
+    "places": "some Taisen Routes (Despair, Friendship, Ultimate)",
+    "start": "35441",
+    "stop": "104018",
+    "disc": "iego3.png",
+    "duration": "0:45",
+    "gameimage": "iego3.png",
+    "id": "boss-battle-iegx",
+    "i18n": {
+            "jp": {
+                "ostname":"善と悪の抗争",
+                "name": "対戦ルート２",
+                "game": "イナギャラ",
+                "composer": "亀岡 夏海",
+                "places":"対戦ルート（絶望・友情・究極）",
+            },
+            "ru": {
+                "ostname":"Конфликт между добром и злом",
+                "name": "Боевой путь 2",
+                "composer": "Нацуми Камэока",
+                "places":"в некоторых боевых путях (Отчаяния, Дружбы, Совершенный)",
+            }
+        }
+  },
+  {
     "ostname": "Dance Robot Dance (menu ver.)",
     "name": "Main Menu",
     "files": [
