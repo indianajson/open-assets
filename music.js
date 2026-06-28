@@ -9330,7 +9330,7 @@ let allMusic = [
     "ostname": "The Conflict Between Good and Evil",
     "name": "Taisen Route 2",
     "files": [
-      "exe7/iego3-taisenroute2.ogg"
+      "iego3/iego3-taisenroute2.ogg"
     ],
     "author": "K1rbYat1Na",
     "game": "IEGX",
