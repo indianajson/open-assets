@@ -157,100 +157,145 @@ let allBackgrounds = [
     "name": "Traffic Light Comp 1",
     "velx": "0",
     "vely": "0",
-    "files": ["bgs/exe1/exe1-shingoukinodennou1.animation", "bgs/exe1/exe1-shingoukinodennou1.png"],
+    "files": [
+		"bgs/exe1/exe1-shingoukinodennou1.animation", 
+		"bgs/exe1/exe1-shingoukinodennou1.png"
+	],
     "author": "K1rbYat1Na",
     "places": "Traffic Light Comp 1",
     "game": ["EXE1/BN1", "EXEOSS"],
     "preview": "bgs/exe1/exe1-shingoukinodennou1.animation",
     "id": "traffic-light-comp-1-exe1",
     "i18n": { 
-		"ru": { "name": "", "places": "" }	
+		"ru": { 
+			"name": "Кибермир светофора 1", 
+			"places": "Кибермир светофора 1" 
+		}	
 	}
   },
   {
     "name": "Traffic Light Comp 2",
     "velx": "0",
     "vely": "0",
-    "files": ["bgs/exe1/exe1-shingoukinodennou2.animation", "bgs/exe1/exe1-shingoukinodennou2.png"],
+    "files": [
+		"bgs/exe1/exe1-shingoukinodennou2.animation", 
+		"bgs/exe1/exe1-shingoukinodennou2.png"
+	],
     "author": "K1rbYat1Na",
     "places": "Traffic Light Comp 2",
     "game": ["EXE1/BN1", "EXEOSS"],
     "preview": "bgs/exe1/exe1-shingoukinodennou2.animation",
     "id": "traffic-light-comp-2-exe1",
     "i18n": { 
-		"ru": { "name": "", "places": "" }	
+		"ru": { 
+			"name": "Кибермир светофора 2", 
+			"places": "Кибермир светофора 2" 
+		}	
 	}
   },
   {
     "name": "Traffic Light Comp 3",
     "velx": "0",
     "vely": "0",
-    "files": ["bgs/exe1/exe1-shingoukinodennou3.animation", "bgs/exe1/exe1-shingoukinodennou3.png"],
+    "files": [
+		"bgs/exe1/exe1-shingoukinodennou3.animation", 
+		"bgs/exe1/exe1-shingoukinodennou3.png"
+	],
     "author": "K1rbYat1Na",
     "places": "Traffic Light Comp 3",
     "game": ["EXE1/BN1", "EXEOSS"],
     "preview": "bgs/exe1/exe1-shingoukinodennou3.animation",
     "id": "traffic-light-comp-3-exe1",
     "i18n": { 
-		"ru": { "name": "", "places": "" }	
+		"ru": { 
+			"name": "Кибермир светофора 3", 
+			"places": "Кибермир светофора 3" 
+		}	
 	}
   },
   {
     "name": "Traffic Light Comp 4",
     "velx": "0",
     "vely": "0",
-    "files": ["bgs/exe1/exe1-shingoukinodennou4.animation", "bgs/exe1/exe1-shingoukinodennou4.png"],
+    "files": [
+		"bgs/exe1/exe1-shingoukinodennou4.animation", 
+		"bgs/exe1/exe1-shingoukinodennou4.png"
+	],
     "author": "K1rbYat1Na",
     "places": "Traffic Light Comp 4",
     "game": ["EXE1/BN1", "EXEOSS"],
     "preview": "bgs/exe1/exe1-shingoukinodennou4.animation",
     "id": "traffic-light-comp-4-exe1",
     "i18n": { 
-		"ru": { "name": "", "places": "" }	
+		"ru": { 
+			"name": "Кибермир светофора 4", 
+			"places": "Кибермир светофора 4" 
+		}	
 	}
   },
   {
     "name": "Traffic Light Comp 5",
     "velx": "0",
     "vely": "0",
-    "files": ["bgs/exe1/exe1-shingoukinodennou5.animation", "bgs/exe1/exe1-shingoukinodennou5.png"],
+    "files": [
+		"bgs/exe1/exe1-shingoukinodennou5.animation", 
+		"bgs/exe1/exe1-shingoukinodennou5.png"
+	],
     "author": "K1rbYat1Na",
-    "places": "Traffic Light Comp 5, Traffic Light Comp 1-5 (in-battle), WWW Comp 4, WWW Comp 4 (in-battle)",
+    "places": "Traffic Light Comp 5, Traffic Light Comp 1-5 (in-battle), WWW Comp 4",
     "game": ["EXE1/BN1", "EXEOSS"],
     "preview": "bgs/exe1/exe1-shingoukinodennou5.animation",
     "id": "traffic-light-comp-5-exe1",
     "i18n": { 
-		"ru": { "name": "", "places": "" }	
+		"ru": { 
+			"name": "Кибермир светофора 5", 
+			"places": "Кибермир светофора 5, Кибермир светофора 1-5 (во время битвы), Кибермир WWW 4" 
+		}	
 	}
   },
   {
     "name": "Power Plant Comp",
     "velx": "0",
     "vely": "0",
-    "files": ["bgs/exe1/exe1-hatsudenshonodennou.animation", "bgs/exe1/exe1-hatsudenshonodennou.png"],
+    "files": [
+		"bgs/exe1/exe1-hatsudenshonodennou.animation", 
+		"bgs/exe1/exe1-hatsudenshonodennou.png"
+	],
     "author": "K1rbYat1Na",
     "places": "Power Plant Comp 1-4, WWW Comp 5",
-    "game": ["EXE1/BN1", "EXEOSS"],
+    "game": [
+		"EXE1/BN1", 
+		"EXEOSS"
+	],
     "preview": "bgs/exe1/exe1-hatsudenshonodennou.animation",
     "id": "power-plant-comp-exe1",
     "i18n": { 
-		"ru": { "name": "", "places": "" }	
+		"ru": { 
+			"name": "Кибермир светофора 1-4", 
+			"places": "Кибермир светофора 1-4, Кибермир WWW 5" 
+		}	
 	}
   },
   {
     "name": "Power Plant Comp (in-battle)",
     "velx": "0",
     "vely": "0",
-    "files": ["bgs/exe1/exe1-hatsudenshonodennou-battle.animation", "bgs/exe1/exe1-hatsudenshonodennou-battle.png"],
+    "files": [
+		"bgs/exe1/exe1-hatsudenshonodennou-battle.animation", 
+		"bgs/exe1/exe1-hatsudenshonodennou-battle.png"
+	],
     "author": "K1rbYat1Na",
     "places": "Power Plant Comp 1-4 (in-battle), WWW Comp 5 (in-battle)",
-    "game": ["EXE1/BN1", "EXEOSS"],
+    "game": [
+		"EXE1/BN1", 
+		"EXEOSS"
+	],
     "preview": "bgs/exe1/exe1-hatsudenshonodennou-battle.animation",
     "id": "power-plant-comp-battle-exe1",
     "i18n": { 
 		"ru": { 
-            "name": "", 
-            "places": "" 
+            "name": "Кибермир электростанции (в бою)", 
+            "places": "Кибермир электростанции 1-4 (во время битвы), Кибермир WWW 5 (в время битвы)" 
         }	
 	}
   },
@@ -258,10 +303,16 @@ let allBackgrounds = [
     "name": "Rocket Comp",
     "velx": "0.25",
     "vely": "0",
-    "files": ["bgs/exe1/exe1-rocketnodennou.animation", "bgs/exe1/exe1-rocketnodennou.png"],
+    "files": [
+		"bgs/exe1/exe1-rocketnodennou.animation", 
+		"bgs/exe1/exe1-rocketnodennou.png"
+	],
     "author": "K1rbYat1Na",
     "places": "Rocket Comp",
-    "game": ["EXE1/BN1", "EXEOSS"],
+    "game": [
+		"EXE1/BN1", 
+		"EXEOSS"
+	],
     "preview": "bgs/exe1/exe1-rocketnodennou.animation",
     "id": "rocket-comp-exe1",
     "i18n": {
@@ -271,8 +322,8 @@ let allBackgrounds = [
             "places": "ロケットの電脳"
         },
 		"ru": {
-            "name": "Кибермир ракеты",
-            "places": "Кибермир ракеты"
+            "name": "Кибермир ракеты", 
+            "places": "Кибермир ракеты" 
         }
 	}
   },
@@ -280,10 +331,16 @@ let allBackgrounds = [
     "name": "Final Battle",
     "velx": "0.45",
     "vely": "0",
-    "files": ["bgs/exe1/exe1-final.animation", "bgs/exe1/exe1-final.png"],
+    "files": [
+		"bgs/exe1/exe1-final.animation", 
+		"bgs/exe1/exe1-final.png"
+	],
     "author": "K1rbYat1Na",
     "places": "Dream Virus Battle",
-    "game": ["EXE1/BN1", "EXEOSS"],
+    "game": [
+		"EXE1/BN1", 
+		"EXEOSS"
+	],
     "preview": "bgs/exe1/exe1-final.animation",
     "id": "final-battle-exe1",
     "i18n": { 
@@ -294,7 +351,7 @@ let allBackgrounds = [
         },
 		"ru": {
             "name": "Финальная битва",
-            "places": "во финальной битве"
+            "places": "в финальной битве"
         }
 	}
   },
@@ -302,17 +359,23 @@ let allBackgrounds = [
     "name": "Internet",
     "velx": "0.35",
     "vely": "0.20",
-    "files": ["bgs/exe1/exe1-internet.animation", "bgs/exe1/exe1-internet.png"],
+    "files": [
+		"bgs/exe1/exe1-internet.animation", 
+		"bgs/exe1/exe1-internet.png"
+	],
     "author": "K1rbYat1Na",
     "places": "Internet 1-4, Ura Internet 1-12",
-    "game": ["EXE1/BN1", "EXEOSS"],
+    "game": [
+		"EXE1/BN1", 
+		"EXEOSS"
+	],
     "preview": "bgs/exe1/exe1-internet.animation",
     "id": "internet-exe1",
     "i18n": { 
 		"jp": {
             "name": "インターネット",
             "game": "エグゼ１",
-            "places": "インターネット（１－４）、ウラインターネット（１－１２）"
+            "places": "インターネット１～４、ウラインターネット１～１２"
         },
 		"ru": {
             "name": "Интернет",
@@ -324,10 +387,16 @@ let allBackgrounds = [
     "name": "Netto's PC Comp",
     "velx": "0.35",
     "vely": "0.20",
-    "files": ["bgs/exe1/exe1-nettonopcnodennou.animation", "bgs/exe1/exe1-nettonopcnodennou.png"],
+    "files": [
+		"bgs/exe1/exe1-nettonopcnodennou.animation", 
+		"bgs/exe1/exe1-nettonopcnodennou.png"
+	],
     "author": "K1rbYat1Na",
     "places": "Netto's PC Comp",
-    "game": ["EXE1/BN1", "EXEOSS"],
+    "game": [
+		"EXE1/BN1", 
+		"EXEOSS"
+	],
     "preview": "bgs/exe1/exe1-nettonopcnodennou.animation",
     "id": "netto-pc-comp-exe1",
     "i18n": {
@@ -346,10 +415,16 @@ let allBackgrounds = [
     "name": "Meiru's Piano Comp",
     "velx": "0.10",
     "vely": "0.05",
-    "files": ["bgs/exe1/exe1-meirunopianonodennou.animation", "bgs/exe1/exe1-meirunopianonodennou.png"],
+    "files": [
+		"bgs/exe1/exe1-meirunopianonodennou.animation", 
+		"bgs/exe1/exe1-meirunopianonodennou.png"
+	],
     "author": "K1rbYat1Na",
     "places": "Meiru's Piano Comp",
-    "game": ["EXE1/BN1", "EXEOSS"],
+    "game": [
+		"EXE1/BN1", 
+		"EXEOSS"
+	],
     "preview": "bgs/exe1/exe1-meirunopianonodennou.animation",
     "id": "meiru-piano-comp-exe1",
     "i18n": {
@@ -368,10 +443,16 @@ let allBackgrounds = [
     "name": "Meiru's Piano Comp (in-battle)",
     "velx": "0.10",
     "vely": "0.05",
-    "files": ["bgs/exe1/exe1-meirunopianonodennou-battle.animation", "bgs/exe1/exe1-meirunopianonodennou-battle.png"],
+    "files": [
+		"bgs/exe1/exe1-meirunopianonodennou-battle.animation", 
+		"bgs/exe1/exe1-meirunopianonodennou-battle.png"
+	],
     "author": "K1rbYat1Na",
     "places": "Meiru's Piano Comp (in-battle)",
-    "game": ["EXE1/BN1", "EXEOSS"],
+    "game": [
+		"EXE1/BN1", 
+		"EXEOSS"
+	],
     "preview": "bgs/exe1/exe1-meirunopianonodennou-battle.animation",
     "id": "meiru-piano-comp-battle-exe1",
     "i18n": {
@@ -390,10 +471,16 @@ let allBackgrounds = [
     "name": "Dekao's PC Comp",
     "velx": "0.10",
     "vely": "0.05",
-    "files": ["bgs/exe1/exe1-dekaonopcnodennou.animation", "bgs/exe1/exe1-dekaonopcnodennou.png"],
+    "files": [
+		"bgs/exe1/exe1-dekaonopcnodennou.animation", 
+		"bgs/exe1/exe1-dekaonopcnodennou.png"
+	],
     "author": "K1rbYat1Na",
     "places": "Dekao's PC Comp",
-    "game": ["EXE1/BN1", "EXEOSS"],
+    "game": [
+		"EXE1/BN1", 
+		"EXEOSS"
+	],
     "preview": "bgs/exe1/exe1-dekaonopcnodennou.animation",
     "id": "dekao-pc-comp-exe1",
     "i18n": {
@@ -412,10 +499,16 @@ let allBackgrounds = [
     "name": "Dekao's PC Comp (in-battle)",
     "velx": "0.10",
     "vely": "0.05",
-    "files": ["bgs/exe1/exe1-dekaonopcnodennou-battle.animation", "bgs/exe1/exe1-dekaonopcnodennou-battle.png"],
+    "files": [
+		"bgs/exe1/exe1-dekaonopcnodennou-battle.animation", 
+		"bgs/exe1/exe1-dekaonopcnodennou-battle.png"
+	],
     "author": "K1rbYat1Na",
     "places": "Dekao's PC Comp (in-battle)",
-    "game": ["EXE1/BN1", "EXEOSS"],
+    "game": [
+		"EXE1/BN1", 
+		"EXEOSS"
+	],
     "preview": "bgs/exe1/exe1-dekaonopcnodennou-battle.animation",
     "id": "dekao-pc-comp-battle-exe1",
     "i18n": {
@@ -434,40 +527,64 @@ let allBackgrounds = [
     "name": "Yaito's Portrait Comp",
     "velx": "0.10",
     "vely": "0.05",
-    "files": ["bgs/exe1/exe1-yaitonoenodennou.animation", "bgs/exe1/exe1-yaitonoenodennou.png"],
+    "files": [
+		"bgs/exe1/exe1-yaitonoenodennou.animation", 
+		"bgs/exe1/exe1-yaitonoenodennou.png"
+	],
     "author": "K1rbYat1Na",
     "places": "Yaito's Portrait Comp",
-    "game": ["EXE1/BN1", "EXEOSS"],
+    "game": [
+		"EXE1/BN1", 
+		"EXEOSS"
+	],
     "preview": "bgs/exe1/exe1-yaitonoenodennou.animation",
     "id": "yaito-portrait-comp-exe1",
     "i18n": { 
-		"ru": { "name": "", "places": "" }	
+		"ru": { 
+			"name": "Кибермир портрета Яйто", 
+			"places": "Кибермир портрета Яйто" 
+		}	
 	}
   },
   {
     "name": "Yaito's Portrait Comp (in-battle)",
     "velx": "0.10",
     "vely": "0.05",
-    "files": ["bgs/exe1/exe1-yaitonoenodennou-battle.animation", "bgs/exe1/exe1-yaitonoenodennou-battle.png"],
+    "files": [
+		"bgs/exe1/exe1-yaitonoenodennou-battle.animation", 
+		"bgs/exe1/exe1-yaitonoenodennou-battle.png"
+	],
     "author": "K1rbYat1Na",
     "places": "Yaito's Portrait Comp (in-battle)",
-    "game": ["EXE1/BN1", "EXEOSS"],
+    "game": [
+		"EXE1/BN1", 
+		"EXEOSS"
+	],
     "preview": "bgs/exe1/exe1-yaitonoenodennou-battle.animation",
     "id": "yaito-portrait-comp-battle-exe1",
     "i18n": { 
-		"ru": { "name": "", "places": "" }	
+		"ru": { 
+			"name": "Кибермир портрета Яйто (в бою)", 
+			"places": "Кибермир портрета Яйто (во время битвы)" 
+		}	
 	}
   },
   {
     "name": "Dad's PC Comp",
     "velx": "0.35",
     "vely": "0.20",
-    "files": ["bgs/exe1/exe1-papanopcnodennou.animation", "bgs/exe1/exe1-papanopcnodennou.png"],
+    "files": [
+		"bgs/exe1/exe1-papanopcnodennou.animation", 
+		"bgs/exe1/exe1-papanopcnodennou.png"
+	],
     "author": "K1rbYat1Na",
     "places": "Dad's PC Comp",
-    "game": ["EXE1/BN1", "EXEOSS"],
+    "game": [
+		"EXE1/BN1", 
+		"EXEOSS"
+	],
     "preview": "bgs/exe1/exe1-papanopcnodennou.animation",
-    "id": "dad-pc-comp-exe1",
+    "id": "dads-pc-comp-exe1",
     "i18n": {
 		"jp": {
             "name": "パパのＰＣの電脳",
@@ -484,10 +601,15 @@ let allBackgrounds = [
     "name": "Dad's PC Comp (in-battle)",
     "velx": "0.35",
     "vely": "0.20",
-    "files": ["bgs/exe1/exe1-papanopcnodennou-battle.animation", "bgs/exe1/exe1-papanopcnodennou-battle.png"],
+    "files": [
+		"bgs/exe1/exe1-papanopcnodennou-battle.animation", 
+		"bgs/exe1/exe1-papanopcnodennou-battle.png"],
     "author": "K1rbYat1Na",
     "places": "Dad's PC Comp (in-battle)",
-    "game": ["EXE1/BN1", "EXEOSS"],
+    "game": [
+		"EXE1/BN1", 
+		"EXEOSS"
+	],
     "preview": "bgs/exe1/exe1-papanopcnodennou-battle.animation",
     "id": "dad-pc-comp-battle-exe1",
     "i18n": {
